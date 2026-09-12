@@ -103,12 +103,20 @@ Verified, not assumed:
   pointing at `OL685250W` (*Bruits*). It also splits translations into separate
   works and has duplicate author records (three "Jacques Attali":
   `OL53916A` 160 works, `OL4762242A` 17, `OL12549002A` 1).
-- SBN records carry no uniform or original title. Checked six full records. The
-  only translation trace is a free-text note naming the translator.
+- ~~SBN records carry no uniform or original title.~~ **Wrong — see the
+  correction below.** True of the *mobile gateway*, false of SBN itself.
 - Wikidata's `P629`/`P747` coverage is too thin to rely on.
 
 And **cross-language title similarity is worthless**: `title_similarity('Noise',
 'Rumori')` is exactly `0.0`.
+
+> **The correction that matters most.** SBN *does* record the link, as a UNIMARC
+> uniform-title authority — *Titolo di opera* in the OPAC. It is simply absent
+> from the `opacmobilegw` JSON this project is built on, so six full records
+> showed no trace of it and the conclusion above was drawn from a hole in one
+> API rather than from the catalogue. The OPAC's own JSON API has it, along with
+> a facet that answers the whole cross-language question in one request. See §5,
+> *The OPAC API*. It is not wired in yet.
 
 ### The three bridges
 
@@ -118,7 +126,10 @@ And **cross-language title similarity is worthless**: `title_similarity('Noise',
 | **Dewey + full authorship agreement** | good | needs both catalogues to classify it |
 | **Shared ISBN** | exact | modern books only |
 
-Any one suffices. Dewey is the interesting one because it is **numeric, hence
+Any one suffices. A **fourth** — SBN's own uniform-title authority, stronger
+than all three — was found late and is documented in §5 but not yet wired in.
+
+Dewey is the interesting one of the three because it is **numeric, hence
 language-neutral**: *Bruits/Noise* is `306.484`/`780.07` in Open Library and
 SBN's *Rumori* is `780.07` — an exact match between titles sharing not one word.
 
@@ -187,8 +198,9 @@ demands a work by all three and finds nothing.
 
 ## 5. Reverse-engineered SBN API — the expensive knowledge
 
-`https://opac.sbn.it/opacmobilegw` — the undocumented ICCU mobile-app gateway,
-the only JSON interface SBN exposes. Works over HTTPS.
+`https://opac.sbn.it/opacmobilegw` — the undocumented ICCU mobile-app gateway.
+Everything below is built on it. It is **not** the only JSON SBN exposes: the
+OPAC website has its own API, which carries more (see *The OPAC API* below).
 
 | Fact | Detail |
 |---|---|
@@ -202,6 +214,74 @@ the only JSON interface SBN exposes. Works over HTTPS.
 | **Facets cannot filter** | `lingua=ita`, `fq=`, `facet=`, `refine=`, `facetName/facetValue`, `paese=it` — every form ignored. Filtering is local. |
 | **No CORS** | No `Access-Control-Allow-Origin` at all. |
 | Permalink | `https://opac.sbn.it/bid/MIL0871878`. Short BID = `codiceIdentificativo` minus `IT\ICCU\`, segments joined. |
+
+### The OPAC API — a second, richer interface (not wired in)
+
+`https://opac.sbn.it/o/opac-api/…` — what the OPAC website itself calls. Same
+host as the mobile gateway, different application, **and it carries the uniform
+title the mobile gateway omits.** No key, no auth, no `X-Requested-With` needed.
+
+| Endpoint | Shape |
+|---|---|
+| `GET /o/opac-api/title?id=<SHORTBID>&core=sbn&page=1` | One record. Carries a *Titolo di opera* row: the work's title, its author, and a work id. ~0.5–2s; `max-age=600`. One id only — a comma list returns nothing. |
+| `POST /o/opac-api/titles-search-post` | Search results, lean rows, **no facets**. |
+| `POST /o/opac-api/titles-search-full-post` | Search results **with facets**. ~0.3s. This is the one that matters. |
+
+Search parameters are form-encoded and shaped `item:<code>:<Name>:<op>=value`:
+
+| Parameter | Meaning |
+|---|---|
+| `core=sbn` | required |
+| `item:1016:Any:@or@=<text>` | free-text search |
+| `item:1003:Autore:@and@=<name>` | author. `1004`/`1005` are **not** author and return non-JSON |
+| `item:8006:Titolo_uniforme:@frase@=<work id>` | every record linked to that work |
+| `item:5032:Nomi::@frase@=<authority id>` | records by that authority-controlled name |
+| `page=<n>` | 1-based |
+
+**The `titolo_uniformef[]` facet is the prize.** `titles-search-full-post`
+returns `data.facets`, one of which is `{"name": "titolo_uniformef[]", "label":
+"Titolo dell'opera", "items": [{label, results, value}, …]}` — the uniform
+titles of the works in the result set, with counts. Searched with a title *and*
+an author, the top item by count is the work's own title, i.e. the original:
+
+| Query | Top facet value | Share |
+|---|---|---|
+| *Più brillante del sole* + Eshun | `more brilliant than the sun` | 1/1 |
+| *Verso un'ecologia della mente* + Bateson | `steps to an ecology of mind` | 22/28 |
+| *Cent'anni di solitudine* + Garcia Marquez | `cien anos de soledad` | 89/138 |
+| *Rumori* + Attali | `bruits : essai sur l'economie politique de la musique` | 1/1 |
+| *L'invenzione delle notizie* | `invention of news` | 2/9 |
+| *La matrice sociale della psichiatria* + Ruesch | `communication: the social matrix of psychiatry.` | 1/1 |
+| *Il nome della rosa* + Eco | `nome della rosa` | 232/297 |
+| *The Essential Knuth* + Knuth | *(0 records, no facet)* | — |
+
+One request answers what the three bridges approximate. It even splits the
+*matrice sociale* case correctly — Ruesch's *Communication* and Shepherd's
+*Psychosocial Matrix* are separate facet values, per record, which is exactly
+the discipline the reverse path has to enforce by hand.
+
+**Do not use it unguarded:**
+
+- **The author is not optional.** Bare *Rumori* is 880 records and the top facet
+  value is `arte dei rumori` (Russolo) — Attali is not in the top five. Bare
+  *The Essential Knuth* confidently returns `essential mathematics for economic
+  analysis`, a different book entirely. With the author both are correct.
+- **Labels are normalised** — lowercased, accents stripped, sometimes with
+  trailing punctuation (`cien anos des soledad. -`). A search key, not a
+  display title.
+- **A uniform title is the *work's* title, not necessarily a foreign one.**
+  *Il nome della rosa* returns `nome della rosa`, correctly — the work is
+  Italian. That is a useful "not a translation" signal, not a failure.
+- Facet values include films, TV adaptations and related works
+  (`nome della rosa <serie tv ; 2018>`, `postille a il nome della rosa`).
+- **Per-record coverage is partial and unintuitive.** Probing detail records one
+  by one is the wrong approach: of the first 45 *Cent'anni* records only 5
+  carried the row, the first at #41 — yet the facet reports 89. Ask the facet,
+  never hunt for a linked record.
+- It is **presentation JSON**. The detail endpoint nests the field under
+  `contents` → `table` → `table-title` rows keyed on the Italian string
+  `"Titolo di opera"`, which a relabel breaks silently. The facet is safer: it
+  keys on `name == "titolo_uniformef[]"`, an internal identifier.
 
 ### SBN data traps
 
@@ -380,8 +460,13 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 ## 8. Known limits
 
 - **No bridge, no original.** If Wikidata has no article *and* one catalogue
-  lacks a Dewey class or authors, you get one language only. A genuine data
-  limit, not a code fix.
+  lacks a Dewey class or authors, you get one language only. *More Brilliant
+  Than the Sun* / *Più brillante del sole* is the clean example: the SBN record
+  is returned by the author sweep, fetched in full, and then discarded, because
+  it shares no ISBN with the English editions, scores 0.0 on title similarity,
+  and **carries no Dewey class at all** (Open Library has `780.904`; SBN has
+  nothing). No longer a genuine data limit — SBN holds the link, in the field
+  §5 documents.
 - **Cold lookup 30–45s**, environment-dependent (see §6).
 - **Disambiguation groups on any shared author.** Two editions are the same
   book if one of their authors is the same person, merged transitively. Still
@@ -405,7 +490,16 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 
 ## 9. If you pick this up next
 
-**Highest-value next:** there are still **no automated tests**, and the pure
+**Highest-value next:** wire in the OPAC API's `titolo_uniformef[]` facet (§5)
+as a fourth bridge. It is a cataloguer's explicit statement that two records are
+the same work, so it beats all three existing bridges on precision, and it works
+where they are blind — no Wikipedia article *and* no Dewey on the SBN record,
+which is why *More Brilliant Than the Sun* could not find *Più brillante del
+sole*. One request, ~0.3s, and it returns the original title and author, which
+is exactly the input the existing Open Library path already consumes. Guard it
+with the author (§5) and degrade through `net.Tally` like everything else.
+
+**Then:** there are still **no automated tests**, and the pure
 functions are exactly the ones with known-tricky inputs — `matching.py`,
 `langs.py`, the `sbn.py` parsers, `pipeline._dewey_affinity`,
 `pipeline._identifies`, `pipeline._assign_groups` and `pipeline._origin_phrase`.
@@ -435,6 +529,8 @@ client-side, because the choice exists only in the browser.
 - Don't key work grouping on the first author alone (§7). Compound surnames,
   diacritics, author order and translators-as-authors all break it.
 - Don't phrase the same sentence separately in the CLI and the web UI (§3).
+- Don't re-conclude that SBN records no original title (§4). They do; the mobile
+  gateway just doesn't return it.
 
 ### Regression cases (all currently pass)
 
