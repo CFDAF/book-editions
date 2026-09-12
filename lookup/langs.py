@@ -68,11 +68,17 @@ def from_sbn(label: str | None) -> str:
     return _SBN.get(label.strip().upper(), UNKNOWN)
 
 
+# Codes that mean "not recorded" rather than naming a language.
+_INDETERMINATE = {"und", "mis", "zxx", "", "unknown"}
+
+
 def from_openlibrary(key: str | None) -> str:
     """'/languages/ita' or 'ita'."""
     if not key:
         return UNKNOWN
     code = key.rsplit("/", 1)[-1].strip().lower()
+    if code in _INDETERMINATE:
+        return UNKNOWN
     return code if len(code) == 3 else _TWO.get(code, UNKNOWN)
 
 

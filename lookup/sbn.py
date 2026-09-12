@@ -46,6 +46,10 @@ PARAMS = {"any", "title", "author", "subject", "isbn", "type", "start", "rows"}
 TRANSLATION_RE = re.compile(r"\btrad(?:\.|uzion\w*|ott\w*|\. it\w*)|\bversione (?:italiana|di)\b", re.I)
 
 _YEAR_RE = re.compile(r"\b(1[0-9]{3}|20[0-9]{2})\b")
+# '780.07 (19.) MUSICA. RAPPORTO CON LA SOCIETA' -> '780.07'. Dewey is numeric
+# and so language-neutral: it is the one signal that can tie an Italian title to
+# an English original when their words have nothing in common.
+_DEWEY_RE = re.compile(r"\b(\d{1,3}(?:\.\d+)?)")
 # SBN marks supplied/uncertain data with \...! and [...] and © — noise for us.
 _CRUFT_RE = re.compile(r"[\\!\[\]©]|\b(?:c|d\.l\.|stampa|impr\.|copyr\.)\s*(?=\d)", re.I)
 _LABELLED_RE = re.compile(r"^\[([^\]]+)\]\s*(.*)$")
@@ -104,6 +108,11 @@ def parse_publication(pubblicazione: str | None) -> tuple:
     publisher = publisher.strip().strip(",;:(").strip()
     publisher = re.sub(r"\s*,\s*$", "", publisher)
     return (publisher or None), year, (place.strip(" ,") or None)
+
+
+def parse_dewey(value: str | None) -> str | None:
+    m = _DEWEY_RE.search(clean_text(value) or "")
+    return m.group(1) if m else None
 
 
 def _holdings(localizzazioni) -> list:
@@ -179,6 +188,7 @@ def to_edition(rec: dict, source="SBN") -> Edition:
         url=PERMALINK.format(bid) if bid else None,
         sbn_bid=bid,
         series=clean_text(rec.get("collezione")),
+        dewey=parse_dewey(rec.get("classificazioneDewey")),
         physical=clean_text(rec.get("descrizioneFisica")),
         cover_url=rec.get("copertina") or None,
         translators=translators,

@@ -44,9 +44,11 @@ class Edition:
     sbn_bid: str | None = None
     series: str | None = None
     physical: str | None = None
+    dewey: str | None = None
     cover_url: str | None = None
     translators: list = field(default_factory=list)
-    evidence: list = field(default_factory=list)
+    evidence: list = field(default_factory=list)     # translation evidence only
+    match_reasons: list = field(default_factory=list)  # why we think this is the same work
     holdings: list = field(default_factory=list)
     buy_links: list = field(default_factory=list)
     confidence: str = UNCONFIRMED
