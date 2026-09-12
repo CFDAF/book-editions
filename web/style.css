@@ -249,6 +249,13 @@ body {
   color: var(--ink);
 }
 
+.inferred {
+  max-width: 58ch;
+  margin: .6rem 0 0;
+  font-size: .78rem;
+  color: var(--accent-warm);
+}
+
 /* The publication history. Each language is a bar on one shared time axis, so
    the gap between an original and its translations is visible rather than
    something you work out from two columns of years. */

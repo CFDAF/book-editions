@@ -91,6 +91,11 @@ class TitleCluster:
     authors: list = field(default_factory=list)
     translators: list = field(default_factory=list)
     url: str | None = None
+    # "wikidata" when the work item said so; "inferred" when the original was
+    # reconstructed from a translation's authors and Dewey class, which is a
+    # weaker claim and is labelled as such.
+    source: str = "wikidata"
+    basis: str = ""
 
     def variants(self):
         """Distinct title strings worth querying catalogues with."""
@@ -131,6 +136,8 @@ class Overview:
     total_editions: int = 0
     spans: list = field(default_factory=list)
     found: bool = False
+    original_inferred: bool = False
+    original_basis: str = ""
 
 
 @dataclass

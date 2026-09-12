@@ -60,20 +60,31 @@ function renderOverview(r) {
     ? spansFor(r, chosen)
     : (o.spans || []);
 
-  const originYear = o.original_year || o.first_year_seen;
+  // Never pair a known original language with a fallback year: "first published
+  // 1976 in inglese" would be built from an Italian edition's date and the
+  // English language, and is simply false.
+  let origin = null;
+  if (o.original_year && o.original_language_name) {
+    origin = `first published ${esc(o.original_year)} in ${esc(o.original_language_name)}`;
+  } else if (o.original_year) {
+    origin = `first published ${esc(o.original_year)}`;
+  } else if (o.original_language_name) {
+    origin = `originally in ${esc(o.original_language_name)}`
+      + (o.first_year_seen ? `, earliest edition found ${esc(o.first_year_seen)}` : '');
+  } else if (o.first_year_seen) {
+    origin = `earliest edition found ${esc(o.first_year_seen)}`;
+  }
+
   const byline = [
     o.authors?.length ? esc(o.authors.join('; ')) : null,
-    originYear
-      ? `first published ${esc(originYear)}${o.original_language_name
-          ? ` in ${esc(o.original_language_name)}` : ''}`
-      : null,
+    origin,
     `${spans.reduce((n, s) => n + s.editions, 0)} editions in
       ${spans.length} language${spans.length === 1 ? '' : 's'}`,
   ].filter(Boolean).join(' · ');
 
   const years = spans.flatMap((s) => [s.first_year, s.last_year]).filter(Boolean);
-  const lo = Math.min(...years, originYear || Infinity);
-  const hi = Math.max(...years, originYear || -Infinity);
+  const lo = Math.min(...years, o.original_year || Infinity);
+  const hi = Math.max(...years, o.original_year || -Infinity);
   const range = Math.max(hi - lo, 1);
 
   const rows = spans.map((s) => {
@@ -98,9 +109,16 @@ function renderOverview(r) {
     </li>`;
   }).join('');
 
+  // An inferred original is a weaker claim than a catalogued one; say so.
+  const caveat = o.original_inferred
+    ? `<p class="inferred">Original identified by inference, not by a catalogue
+        record${o.original_basis ? ` — ${esc(o.original_basis)}` : ''}.</p>`
+    : '';
+
   return `<section class="overview">
     <h2>${esc(o.title)}</h2>
     <p class="byline">${byline}</p>
+    ${caveat}
     <ul class="spans">${rows}</ul>
   </section>`;
 }

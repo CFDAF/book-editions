@@ -28,7 +28,8 @@ from concurrent.futures import ThreadPoolExecutor
 from . import buylinks, langs, openlibrary as ol, sbn, wikidata
 from .matching import author_display, core_title, normalize, surname, title_similarity
 from .models import (HIGH, LOW, MEDIUM, ORIGINAL, REPRINT, TRANSLATION,
-                     UNCONFIRMED, Edition, LanguageSpan, Overview, Report)
+                     UNCONFIRMED, Edition, LanguageSpan, Overview, Report,
+                     TitleCluster)
 from .net import SourceError, Tally
 
 ENRICH_BUDGET = 45       # full.json calls per lookup
@@ -297,6 +298,7 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
     """
     notes, keys, by_key = [], [], {}
     described = None
+    best_doc = None        # the matched work that looks most like the original
 
     for edition in italian[:3]:
         codes = [edition.dewey] if edition.dewey else []
@@ -336,6 +338,12 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
                     continue
                 if _variant_affinity(doc.get("title", ""), known_titles) >= 0.6:
                     continue        # that is the Italian edition, not the original
+                # Earliest matching work is the likeliest original; its title,
+                # language and first year are what the overview needs.
+                year = doc.get("first_publish_year")
+                if year and (best_doc is None
+                             or year < (best_doc.get("first_publish_year") or 9999)):
+                    best_doc = doc
                 key = (doc.get("key") or "").replace("/works/", "")
                 if key and key not in keys:
                     keys.append(key)
@@ -346,7 +354,7 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
                     described = described or (edition.authors, codes[0])
 
     if not keys:
-        return [], []
+        return [], [], None
 
     editions, _ = ol.expand(keys[:3], tally, by_key)
     found = []
@@ -356,11 +364,41 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
         found.append(e)
 
     who = " and ".join(a.split(",")[0] for a in described[0])
+    basis = f"matched on the Italian record's authors ({who}) and Dewey class {described[1]}"
     notes.append(
         "Wikidata did not know this title, so the original was found through the "
         f"Italian record's authors ({who}) and Dewey class ({described[1]}) instead "
         "— a weaker match than a confirmed title, so shown as medium confidence")
-    return found, notes
+
+    # Hand back a cluster so the overview can name the original, mark its
+    # language as the source language, and title the work after it. Without
+    # this the finding reached the edition list and stopped there, leaving the
+    # header titled after the translation.
+    cluster = None
+    if best_doc:
+        codes = [langs.from_openlibrary(c) for c in best_doc.get("language") or []]
+        known = [c for c in codes if c != langs.UNKNOWN and c != "ita"]
+        year = best_doc.get("first_publish_year")
+        # An original cannot postdate its own translation. Open Library's
+        # first_publish_year is per work record, and for Ruesch and Bateson it
+        # reports 1987 — a reprint — while the Italian translation is 1976. When
+        # the arithmetic is impossible the year is simply wrong, so it is
+        # dropped rather than asserted; the language is still sound.
+        earliest_translation = min(
+            (y for y in (_year_of(e.year) for e in italian) if y), default=None)
+        if year and earliest_translation and year > earliest_translation:
+            year = None
+        cluster = TitleCluster(
+            qid=None,
+            original_title=best_doc.get("title") or "",
+            original_language=known[0] if known else None,
+            original_year=str(year) if year else None,
+            author_names=[author_display(a) for a in (described[0] or [])],
+            titles_by_lang={known[0]: best_doc.get("title") or ""} if known else {},
+            source="inferred",
+            basis=basis,
+        )
+    return found, notes, cluster
 
 
 # ---------------------------------------------------------------------------
@@ -526,6 +564,8 @@ def _build_overview(report, cluster, grouped: dict, author: str | None) -> Overv
         total_editions=len(editions),
         spans=spans,
         found=bool(editions),
+        original_inferred=bool(cluster and cluster.source == "inferred"),
+        original_basis=(cluster.basis if cluster else ""),
     )
 
 
@@ -670,14 +710,19 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
     # --- 4b. No cluster and nothing but Italian? Work backwards -------------
     if not cluster:
         so_far = _dedupe(editions)
-        italian = [e for e in so_far if e.language == "ita" and (e.authors or e.dewey)]
-        other = [e for e in so_far if e.language not in ("ita", langs.UNKNOWN)]
-        if italian and not other:
+        italian = [e for e in so_far if e.language == "ita" and e.authors and e.dewey]
+        if italian:
             try:
-                extra, extra_notes = _reverse_expand(
+                extra, extra_notes, inferred = _reverse_expand(
                     italian, [e.title for e in italian], tally)
                 editions += extra
                 report.notes += extra_notes
+                if inferred:
+                    # Treat it as the cluster from here on, so role assignment,
+                    # the span marked "original", and the displayed title all
+                    # follow the discovered work rather than the translation.
+                    cluster = inferred
+                    report.cluster = inferred
             except SourceError as exc:
                 report.errors.append(f"Open Library (reverse lookup): {exc}")
 

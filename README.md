@@ -72,6 +72,15 @@ psychiatry) so every credited author must match too, which is what keeps
 Ruesch's unrelated *Therapeutic communication* out. These matches are reported as
 medium confidence, being weaker than a confirmed title.
 
+What that path finds is also used to name the work: the original's title,
+language and — where the arithmetic allows — its year are taken from the matched
+Open Library record, and the header says the original was identified by
+inference rather than from a catalogue record. An original cannot postdate its
+own translation, so a first-publication year later than the earliest translation
+is dropped rather than asserted: Open Library reports 1987 for Ruesch and
+Bateson's *Communication*, which is a reprint, while the Italian translation is
+1976.
+
 ## Sources
 
 | Source | Role | Key |
