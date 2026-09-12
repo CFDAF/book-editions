@@ -40,6 +40,21 @@ PERMALINK = "https://opac.sbn.it/bid/{}"
 # anything else is silently dropped rather than rejected.
 PARAMS = {"any", "title", "author", "subject", "isbn", "type", "start", "rows"}
 
+# SBN 'tipo' values that are not editions of a text. A documentary *about* the
+# author shares enough of the title to pass a title match — 'An ecology of mind:
+# a daughter's portrait of Gregory Bateson' scored 0.67 against 'Steps to an
+# Ecology of Mind' — so it has to be excluded on what it is, not what it is
+# called. Sound recordings stay: an audiobook is an edition of the text.
+NON_BOOK_MEDIA = {
+    "documento da proiettare o video",
+    "musica manoscritta",
+    "musica a stampa",
+    "materiale cartografico a stampa",
+    "manoscritto cartografico",
+    "grafica",
+    "oggetto tridimensionale",
+}
+
 # Translation evidence in free text. 'traduzione ... a cura di' is caught by the
 # trad- stem; bare 'a cura di' is deliberately NOT matched, since it means
 # 'edited by' and would make every edited volume look like a translation.
@@ -216,6 +231,7 @@ def to_edition(rec: dict, source="SBN") -> Edition:
         sbn_bid=bid,
         series=clean_text(rec.get("collezione")),
         dewey=parse_dewey(rec.get("classificazioneDewey")),
+        medium=clean_text(rec.get("tipo")),
         physical=clean_text(rec.get("descrizioneFisica")),
         cover_url=rec.get("copertina") or None,
         authors=authors,
@@ -227,6 +243,11 @@ def to_edition(rec: dict, source="SBN") -> Edition:
 
 def dewey_codes(rec: dict) -> list:
     return parse_dewey_all(rec.get("classificazioneDewey"))
+
+
+def is_book_medium(edition: Edition) -> bool:
+    """Is this an edition of a text, rather than a film or a map?"""
+    return (edition.medium or "").strip().lower() not in NON_BOOK_MEDIA
 
 
 def has_translation_evidence(edition: Edition) -> bool:

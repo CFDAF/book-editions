@@ -1,8 +1,9 @@
 # Book editions
 
-Find every edition of a book across English and Italian, in either direction:
-give it an English title and it finds the Italian translation; give it an
-Italian title and it finds what the book is a translation of.
+See when a book first appeared and every edition since, in any language. Search
+by title in any of those languages, or by author alone. Useful for telling when
+a work was originally published, whether a translation exists and how long after
+the original it arrived, and where to get a copy.
 
 ```bash
 pip install requests
@@ -20,27 +21,23 @@ count, the languages it exists in, and how many have an Italian edition in SBN.
 
 ## What it answers
 
-For a book it reports every edition it can find grouped by language, which one
-is the original, which are translations and **on what evidence**, and where to
-get a copy — shops if it is in print, Italian libraries if it is not.
+The header is a publication history: the original title, the author, when and in
+what language it first appeared, and one row per language with its year span and
+edition count — so the gap between an original and its translations is visible
+rather than something you work out from a list.
 
 ```
-Italian translation of Steps to an Ecology of Mind (inglese, 1972).
-Verso un'ecologia della mente · Adelphi, Milano · 1976 · tr. Giuseppe Longo
+Steps to an Ecology of Mind
+Gregory Bateson · first published 1972 in inglese · 36 editions in 6 languages
 
-ITA  Verso un'ecologia della mente                     153.4  PAL0171160
- 19  Gregory Bateson · Adelphi, Milano · 2000 · Biblioteca scientifica ; 1
-       Trad. di Giuseppe Longo e Giuseppe Trautteur.
-       held by 229 libraries in 167 places
+  inglese   ORIGINAL  ▇▇▇▇▇▇▇▇▇�afterwards           1972–2000   15
+  italiano            ░░▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇             1976–2016   17
+  spagnolo                        ▪                       1993    1
 ```
 
-Every row carries author, title, publisher and year, newest edition first.
-
-When several different books share a title, it says so and asks which you mean,
-listing each with its authors, year span and edition count — "La matrice sociale
-della psichiatria" is Ruesch and Bateson in 1976 and Michael Shepherd in 1990,
-and plain "Noise" is four unrelated books. Choosing one filters the editions and
-re-points the verdict at that book. Giving an author skips the question.
+Below that, every edition grouped by language, newest first, each with author,
+title, publisher and year — expandable for the translator, the physical
+description, which libraries hold it, and where to buy it.
 
 ## How the matching works
 
@@ -82,10 +79,7 @@ medium confidence, being weaker than a confirmed title.
 | Wikidata / Wikipedia | title crosswalk, original language and year | none |
 | Open Library | editions, Dewey classes | none |
 | SBN / ICCU | Italian editions, translator evidence, library holdings | none |
-| Google Books | extra editions and sale links | `GOOGLE_BOOKS_API_KEY` |
 
-Google Books is optional and is skipped with a visible note when no key is set —
-its keyless quota is permanently exhausted, so it cannot be used anonymously.
 
 SBN is reached through the undocumented ICCU mobile gateway (`search.json`, and
 `full.json?bid=`, which is the only place a record's language, Dewey, translator
@@ -100,6 +94,10 @@ small server instead of being a static page.
 - Year and publisher filters are applied locally for SBN, which accepts neither
   as a query parameter.
 - Buy links are deterministic search URLs, not live stock or prices. No scraping.
+- Records SBN types as film, music, maps or graphics are excluded and counted in
+  a note: a documentary *about* an author shares enough of a title to pass a
+  title match, so it has to be rejected on what it is rather than what it is
+  called. Sound recordings are kept — an audiobook is an edition of the text.
 - A lookup fans out over dozens of requests, and a failed one is treated as "no
   results" so that one bad request cannot sink the whole answer. When that
   happens the affected source is reported as `partial (N request(s) failed)` and

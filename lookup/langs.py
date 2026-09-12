@@ -23,7 +23,7 @@ _SBN = {
     "SLOVENO": "slv", "MULTILINGUE": "mul",
 }
 
-# ISO 639-1 (Google Books, Wikipedia) -> ISO 639-2/B
+# ISO 639-1 (Wikipedia) -> ISO 639-2/B
 _TWO = {
     "it": "ita", "en": "eng", "fr": "fre", "de": "ger", "es": "spa",
     "pt": "por", "ru": "rus", "la": "lat", "nl": "dut", "el": "gre",
@@ -83,7 +83,7 @@ def from_openlibrary(key: str | None) -> str:
 
 
 def from_two_letter(code: str | None) -> str:
-    """Google Books 'language', Wikipedia subdomain."""
+    """A two-letter code: Wikipedia subdomain, Wikidata label key."""
     if not code:
         return UNKNOWN
     code = code.strip().lower().split("-")[0]

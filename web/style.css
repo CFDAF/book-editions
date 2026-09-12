@@ -223,59 +223,89 @@ body {
 }
 .example:hover { border-bottom-color: var(--accent); color: var(--accent); }
 
-/* ----------------------------------------------------------------- verdict */
+/* ---------------------------------------------------------------- overview */
 
-.verdict {
+.overview {
   padding: 3rem 0 0 1.25rem;
   border-left: 2px solid var(--accent);
 }
-.verdict[data-confidence="medium"],
-.verdict[data-confidence="low"],
-.verdict[data-confidence="unconfirmed"] { border-left-color: var(--accent-warm); }
-.verdict[data-found="false"] { border-left-color: var(--rule-firm); }
+.overview[data-empty="true"] { border-left-color: var(--rule-firm); }
 
-.verdict h2 {
+.overview h2 {
   margin: 0;
   font: 400 1.75rem/1.25 var(--serif);
   letter-spacing: -0.015em;
   text-wrap: balance;
 }
 
-.verdict .detail {
-  margin: .6rem 0 0;
+.byline {
+  margin: .55rem 0 0;
   color: var(--ink-soft);
-  font-size: .95rem;
+  font-size: .92rem;
 }
 
-.verdict code {
+.overview code {
   font: 400 .9em/1 var(--mono);
   color: var(--ink);
 }
 
-.verdict .qualifier {
-  margin: .75rem 0 0;
-  font-size: .78rem;
-  color: var(--ink-faint);
+/* The publication history. Each language is a bar on one shared time axis, so
+   the gap between an original and its translations is visible rather than
+   something you work out from two columns of years. */
+.spans {
+  margin: 1.75rem 0 0;
+  padding: 0;
+  list-style: none;
 }
 
-/* The crosswalk: what this work is, in its own language, before translation. */
-.origin {
-  margin: 2.25rem 0 0;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--rule);
-  font-size: .88rem;
+.spans li {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr 5.5rem 2rem;
+  gap: .75rem;
+  align-items: center;
+  padding: .3rem 0;
+  font-size: .82rem;
   color: var(--ink-soft);
 }
-.origin .label {
-  font-size: .72rem;
-  letter-spacing: .08em;
+
+.span-lang { color: var(--ink); }
+.spans .is-original .span-lang { font-weight: 500; }
+
+.tag {
+  font-size: .66rem;
+  letter-spacing: .06em;
   text-transform: uppercase;
-  color: var(--ink-faint);
-  margin-right: .6rem;
+  color: var(--accent);
 }
-.origin cite { font-family: var(--serif); font-style: normal; color: var(--ink); }
-.origin a { color: var(--ink-faint); text-decoration: none; border-bottom: 1px solid var(--rule); }
-.origin a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.span-track {
+  position: relative;
+  height: 3px;
+  background: var(--rule);
+  border-radius: 2px;
+}
+.span-track .bar {
+  position: absolute;
+  top: 0;
+  height: 3px;
+  background: var(--ink-faint);
+  border-radius: 2px;
+}
+.spans .is-original .bar { background: var(--accent); }
+.bar-none { font-size: .72rem; color: var(--ink-faint); }
+
+.span-years {
+  font-family: var(--mono);
+  font-size: .74rem;
+  color: var(--ink-soft);
+  text-align: right;
+}
+.span-count {
+  font-family: var(--mono);
+  font-size: .74rem;
+  color: var(--ink-faint);
+  text-align: right;
+}
 
 /* -------------------------------------------------------- language groups */
 
@@ -551,7 +581,7 @@ body {
 
 .incomplete {
   max-width: 60ch;
-  margin: 1.5rem 0 0 1.25rem;
+  margin: 2rem 0 0 1.25rem;
   padding-left: 1.25rem;
   border-left: 2px solid var(--accent-warm);
   font-size: .85rem;
@@ -637,9 +667,18 @@ body {
 
   .editions, .facets { padding-left: 0; margin-left: 0; }
   .holdings { columns: 1; }
-  .verdict h2, .waiting { font-size: 1.4rem; }
+  .overview h2, .waiting { font-size: 1.4rem; }
 
   /* A nowrap shelfmark beside the title left it four words wide. Stack them. */
+  .spans li {
+    grid-template-columns: 1fr 4.5rem 1.75rem;
+    gap: .4rem .6rem;
+  }
+  /* The track needs width the narrow viewport has not got; years and counts
+     still carry the information. */
+  .span-track { display: none; }
+  .span-lang { grid-column: 1; }
+
   .edition-head { display: block; }
   .shelfmark { display: block; margin-top: .25rem; }
 }

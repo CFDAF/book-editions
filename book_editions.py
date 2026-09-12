@@ -12,8 +12,7 @@ a copy — from shops if it is in print, from Italian libraries if it is not.
 For the web UI instead:  python server.py
 
 Sources: Wikidata (title crosswalk, original language and year), Open Library
-(editions), SBN/ICCU (Italian editions, translator evidence, library holdings),
-Google Books (optional, needs GOOGLE_BOOKS_API_KEY).
+(editions), SBN/ICCU (Italian editions, translator evidence, library holdings).
 
 A first lookup queries all four live and can take up to a minute — the Wikipedia
 and Wikidata leg dominates it. Responses are cached under .cache/ for 24h, so
@@ -30,6 +29,7 @@ import time
 from dataclasses import asdict
 
 from lookup import langs
+from lookup.matching import author_display
 from lookup.pipeline import lookup
 
 
@@ -54,24 +54,49 @@ def print_text(reports: list):
         print(header)
         print("=" * len(header))
 
-        print(f"\n  {r.verdict.headline}  [{r.verdict.confidence}]")
-        if r.verdict.detail:
-            print(f"  {r.verdict.detail}")
+        o = r.overview
+        if not o.found:
+            print("\n  No editions found.")
+        else:
+            print(f"\n  {o.title}")
+            byline = " · ".join(filter(None, [
+                "; ".join(o.authors) or None,
+                (f"first published {o.original_year or o.first_year_seen}"
+                 + (f" in {o.original_language_name}" if o.original_language_name else ""))
+                if (o.original_year or o.first_year_seen) else None,
+                f"{o.total_editions} editions in {len(o.spans)} language(s)",
+            ]))
+            print(f"  {byline}")
+            print()
+            for sp in o.spans:
+                years = "—"
+                if sp.first_year:
+                    years = (f"{sp.first_year}–{sp.last_year}"
+                             if sp.last_year and sp.last_year != sp.first_year
+                             else str(sp.first_year))
+                mark = "  (original)" if sp.is_original else ""
+                print(f"    {sp.name:22} {years:>11}  {sp.editions:3} edition(s){mark}")
 
-        c = r.cluster
-        if c.qid:
-            orig = " · ".join(filter(None, [
-                c.original_title,
-                langs.display(c.original_language) if c.original_language else None,
-                c.original_year]))
-            print(f"\n  Original: {orig}")
-            print(f"  {c.url}")
+        if r.choices:
+            print(f"\n  {len(r.choices)} different books share this title:")
+            for ch in r.choices:
+                span = (f"{ch['first_year']}–{ch['last_year']}"
+                        if ch["first_year"] and ch["last_year"] != ch["first_year"]
+                        else str(ch["last_year"] or "?"))
+                print(f"    · {'; '.join(ch['authors']) or 'author not recorded'}"
+                      f"  ({span}, {ch['editions']} edition(s))")
+            print("    Narrow with --author to pick one.")
+
+        if r.cluster.qid:
+            print(f"\n  Wikidata: {r.cluster.url}")
 
         for code, editions in r.editions_by_language.items():
             print(f"\n  {langs.display(code).upper()} — {len(editions)} edition(s)")
             for e in editions:
-                meta = " · ".join(filter(None, [e.publisher, e.year,
-                                                f"ISBN {e.isbn}" if e.isbn else None]))
+                meta = " · ".join(filter(None, [
+                    "; ".join(author_display(a) for a in e.authors) or None,
+                    e.publisher, e.year,
+                    f"ISBN {e.isbn}" if e.isbn else None]))
                 role = f"[{e.role}] " if e.role != "reprint" else ""
                 print(f"    · {role}{e.title}")
                 if meta:
@@ -143,8 +168,6 @@ def main():
     parser.add_argument("--year-from", help="Only editions published from this year")
     parser.add_argument("--year-to", help="Only editions published up to this year")
     parser.add_argument("--publisher", help="Only editions whose publisher contains this")
-    parser.add_argument("--skip-google", action="store_true",
-                        help="Skip Google Books (it is skipped anyway without an API key)")
     parser.add_argument("--format", choices=["text", "json", "csv"], default="text")
     parser.add_argument("-o", "--output", help="Output file path (required for csv)")
     parser.add_argument("--delay", type=float, default=0.5, help="Seconds between books")
@@ -169,7 +192,6 @@ def main():
         reports.append(lookup(
             title, author,
             year_from=args.year_from, year_to=args.year_to, publisher=args.publisher,
-            use_google=not args.skip_google,
         ))
 
     if args.format == "text":

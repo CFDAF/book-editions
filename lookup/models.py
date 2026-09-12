@@ -45,6 +45,7 @@ class Edition:
     series: str | None = None
     physical: str | None = None
     dewey: str | None = None
+    medium: str | None = None          # SBN 'tipo': print, sound recording, ...
     cover_url: str | None = None
     authors: list = field(default_factory=list)
     translators: list = field(default_factory=list)
@@ -102,12 +103,34 @@ class TitleCluster:
 
 
 @dataclass
-class Verdict:
-    """The answer to the question actually asked, in either direction."""
-    headline: str = ""
-    detail: str = ""
-    confidence: str = UNCONFIRMED
-    has_italian: bool = False
+class LanguageSpan:
+    """How long a work has been in print in one language."""
+    code: str = ""
+    name: str = ""
+    editions: int = 0
+    first_year: int | None = None
+    last_year: int | None = None
+    is_original: bool = False
+
+
+@dataclass
+class Overview:
+    """What the editions add up to: a publication history, not a verdict.
+
+    The tool used to lead with "is there an Italian edition?", which answers one
+    narrow question and buries the rest. What the editions actually tell you is
+    when the work first appeared, in which language, and when each translation
+    followed — so that is what goes at the top.
+    """
+    title: str = ""
+    authors: list = field(default_factory=list)
+    original_language: str | None = None
+    original_language_name: str | None = None
+    original_year: int | None = None
+    first_year_seen: int | None = None
+    total_editions: int = 0
+    spans: list = field(default_factory=list)
+    found: bool = False
 
 
 @dataclass
@@ -117,7 +140,7 @@ class Report:
     query_author: str | None = None
     asked_language: str = "unknown"      # language the user's title was in
     cluster: TitleCluster = field(default_factory=TitleCluster)
-    verdict: Verdict = field(default_factory=Verdict)
+    overview: Overview = field(default_factory=Overview)
     editions_by_language: dict = field(default_factory=dict)
     choices: list = field(default_factory=list)   # distinct books sharing the title
     facets: list = field(default_factory=list)

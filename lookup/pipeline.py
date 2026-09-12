@@ -25,10 +25,10 @@ import os
 import re
 from concurrent.futures import ThreadPoolExecutor
 
-from . import buylinks, googlebooks, langs, openlibrary as ol, sbn, wikidata
+from . import buylinks, langs, openlibrary as ol, sbn, wikidata
 from .matching import author_display, core_title, normalize, surname, title_similarity
 from .models import (HIGH, LOW, MEDIUM, ORIGINAL, REPRINT, TRANSLATION,
-                     UNCONFIRMED, Edition, Report, Verdict)
+                     UNCONFIRMED, Edition, LanguageSpan, Overview, Report)
 from .net import SourceError, Tally
 
 ENRICH_BUDGET = 45       # full.json calls per lookup
@@ -446,46 +446,87 @@ def _assign_role(e: Edition, cluster) -> str:
 def _representative(editions: list) -> Edition:
     """The edition worth naming: proven translation, widely held, earliest."""
     def rank(e):
-        year = int(e.year[:4]) if e.year and e.year[:4].isdigit() else 9999
+        year = _year_of(e.year) or 9999
         return (bool(e.translators or e.evidence), len(e.holdings), -year)
     return max(editions, key=rank)
 
 
-def _build_verdict(report, cluster, italian) -> Verdict:
-    asked = report.asked_language
-    checked = ", ".join(n for n, s in report.sources.items() if s == "ok") or "no sources"
+def _display_title(editions: list, cluster, fallback: str | None) -> str:
+    """The work's name, preferring the original title then the commonest one."""
+    if cluster and cluster.original_title:
+        return cluster.original_title
+    if cluster and cluster.original_language:
+        known = cluster.titles_by_lang.get(cluster.original_language)
+        if known:
+            return known
+    # No Wikidata record: the earliest edition carries the original title, which
+    # is more meaningful than whichever spelling happens to recur most. Counting
+    # occurrences picked the Italian title for 'The Invention of News', because
+    # the two English records differ in article and casing and so tie at one each.
+    dated = [(y, e) for y, e in ((_year_of(e.year), e) for e in editions) if y]
+    if dated:
+        return core_title(min(dated, key=lambda pair: pair[0])[1].title)
+    counts = {}
+    for e in editions:
+        base = core_title(e.title)
+        if base:
+            counts[base] = counts.get(base, 0) + 1
+    if counts:
+        return max(counts, key=lambda t: counts[t])
+    return fallback or ""
 
-    if italian:
-        best = _representative(italian)
-        bits = [b for b in [best.publisher, best.year] if b]
-        if best.translators:
-            bits.append("tr. " + "; ".join(t.split(" <")[0] for t in best.translators))
-        detail = f"{best.title} · " + " · ".join(bits) if bits else best.title
-    else:
-        detail = f"Checked {checked}."
 
-    original_name = (cluster.original_title if cluster else None) or report.query_title
-    original_lang = langs.display(cluster.original_language) if cluster and cluster.original_language else None
+def _build_overview(report, cluster, grouped: dict, author: str | None) -> Overview:
+    editions = [e for group in grouped.values() for e in group]
+    years = [y for y in (_year_of(e.year) for e in editions) if y]
 
-    if asked == "ita":
-        # Asked in Italian: the useful answer is what this is a translation of.
-        if cluster and cluster.original_language == "ita":
-            headline = "Italian original."
-        elif cluster and original_lang:
-            headline = f"Italian translation of {original_name} ({original_lang}, {cluster.original_year or 'year unknown'})."
-        else:
-            headline = "Italian edition found."
-        english = cluster.titles_by_lang.get("eng") if cluster else None
-        extra = f"English: {english}" if english else None
-        detail = " · ".join(filter(None, [detail, extra]))
-    elif italian:
-        headline = "Translated into Italian."
-    else:
-        headline = "No Italian edition found."
+    spans = []
+    for code, group in grouped.items():
+        group_years = [y for y in (_year_of(e.year) for e in group) if y]
+        spans.append(LanguageSpan(
+            code=code,
+            name=langs.display(code),
+            editions=len(group),
+            first_year=min(group_years) if group_years else None,
+            last_year=max(group_years) if group_years else None,
+            is_original=bool(cluster and cluster.original_language == code),
+        ))
+    # Earliest first: the original leads and translations follow in the order
+    # they appeared, which is the shape of a publication history. Undated spans
+    # come after the dated ones, and an unrecorded language last of all.
+    spans.sort(key=lambda s: (s.code == langs.UNKNOWN,
+                              s.first_year is None,
+                              s.first_year or 0,
+                              -s.editions))
 
-    confidence = best.confidence if italian else (MEDIUM if cluster else LOW)
-    return Verdict(headline=headline, detail=detail,
-                   confidence=confidence, has_italian=bool(italian))
+    names = []
+    for source in ([cluster.author_names] if cluster and cluster.author_names else []) + \
+                  [e.authors for e in editions]:
+        for name in source:
+            display = author_display(name)
+            if display and display not in names:
+                names.append(display)
+        if names:
+            break
+    if not names and author:
+        names = [author]
+
+    original_year = None
+    if cluster and cluster.original_year and cluster.original_year.isdigit():
+        original_year = int(cluster.original_year)
+
+    return Overview(
+        title=_display_title(editions, cluster, report.query_title),
+        authors=names[:3],
+        original_language=cluster.original_language if cluster else None,
+        original_language_name=(langs.display(cluster.original_language)
+                                if cluster and cluster.original_language else None),
+        original_year=original_year,
+        first_year_seen=min(years) if years else None,
+        total_editions=len(editions),
+        spans=spans,
+        found=bool(editions),
+    )
 
 
 def _note_ambiguity(report: Report) -> None:
@@ -500,7 +541,7 @@ def _note_ambiguity(report: Report) -> None:
 # ---------------------------------------------------------------------------
 
 def lookup(title=None, author=None, year_from=None, year_to=None,
-           publisher=None, use_google=True) -> Report:
+           publisher=None) -> Report:
     # An author with no title is a different question — every book they wrote,
     # not every edition of one book — and needs the other pipeline.
     if author and not title:
@@ -566,25 +607,6 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
     except SourceError as exc:
         report.sources["Open Library"] = f"error: {exc}"
         report.errors.append(f"Open Library: {exc}")
-
-    # --- 3. Google Books: optional, and honest about being skipped ----------
-    if not use_google:
-        report.sources["Google Books"] = "skipped (disabled)"
-    elif not googlebooks.available():
-        report.sources["Google Books"] = "skipped (no API key)"
-        report.notes.append(
-            "Google Books: skipped — set GOOGLE_BOOKS_API_KEY to enable it. "
-            "The keyless quota is permanently exhausted, so it cannot be used anonymously.")
-    else:
-        try:
-            for variant in variants[:2]:
-                editions += googlebooks.search(f'intitle:"{core_title(variant)}"')
-            if author:
-                editions += googlebooks.search(f'inauthor:"{author}"', lang_restrict="it")
-            report.sources["Google Books"] = "ok"
-        except SourceError as exc:
-            report.sources["Google Books"] = f"error: {exc}"
-            report.errors.append(f"Google Books: {exc}")
 
     isbns = {e.isbn.replace("-", "") for e in editions if e.isbn}
 
@@ -661,7 +683,13 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
 
     # --- 5. Classify, filter, group -----------------------------------------
     editions = _dedupe(editions)
-    editions = [e for e in editions if _passes(e, year_from, year_to, publisher)]
+    non_book = [e for e in editions if not sbn.is_book_medium(e)]
+    editions = [e for e in editions
+                if sbn.is_book_medium(e) and _passes(e, year_from, year_to, publisher)]
+    if non_book:
+        report.notes.append(
+            f"Excluded {len(non_book)} non-book record(s) — "
+            + ", ".join(sorted({e.medium for e in non_book if e.medium})))
     for e in editions:
         e.role = _assign_role(e, cluster)
         e.buy_links = buylinks.for_edition(e.isbn, e.title, author)
@@ -679,7 +707,7 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
     report.editions_by_language = {
         code: grouped[code] for code in _language_order(grouped, report, cluster)
     }
-    report.verdict = _build_verdict(report, cluster, grouped.get("ita", []))
+    report.overview = _build_overview(report, cluster, report.editions_by_language, author)
     _note_ambiguity(report)
     _report_partial(report, tally)
     return report
@@ -833,10 +861,9 @@ def lookup_author(author: str, year_from=None, year_to=None, publisher=None) -> 
         report.errors.append(f"SBN: {exc}")
 
     report.sources.setdefault("Wikidata", "skipped (not needed for an author search)")
-    if not googlebooks.available():
-        report.sources["Google Books"] = "skipped (no API key)"
 
-    editions = [e for e in rows.values() if _passes(e, year_from, year_to, publisher)]
+    editions = [e for e in rows.values()
+                if sbn.is_book_medium(e) and _passes(e, year_from, year_to, publisher)]
     for e in editions:
         e.buy_links = buylinks.for_edition(e.isbn, e.title, author)
 
@@ -847,13 +874,8 @@ def lookup_author(author: str, year_from=None, year_to=None, publisher=None) -> 
     report.editions_by_language = {
         code: grouped[code] for code in _language_order(grouped, report, None)}
 
-    in_italian = len(grouped.get("ita", []))
-    report.verdict = Verdict(
-        headline=f"{len(editions)} works by {author}.",
-        detail=(f"{in_italian} with an Italian edition in SBN." if in_italian
-                else "None found with an Italian edition."),
-        confidence=HIGH if editions else LOW,
-        has_italian=bool(in_italian),
-    )
+    report.overview = _build_overview(report, None, report.editions_by_language, author)
+    report.overview.title = f"{len(editions)} works by {author}"
+    report.overview.authors = [author]
     _report_partial(report, tally)
     return report

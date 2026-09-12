@@ -6,7 +6,7 @@
 A backend is not a preference here, it is forced: SBN sends no
 Access-Control-Allow-Origin header of any kind, so a browser cannot call it
 directly from a static page. Serving the UI and a JSON facade from one origin
-sidesteps CORS entirely, and keeps the Google Books key server-side.
+sidesteps CORS entirely.
 
 Stdlib only, plus requests (already the project's single dependency).
 """
@@ -22,7 +22,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
 
-from lookup import googlebooks, langs, sbn
+from lookup import langs, sbn
 from lookup.net import SourceError
 from lookup.pipeline import lookup
 
@@ -124,12 +124,7 @@ class Handler(BaseHTTPRequestHandler):
         return self._json(asdict(edition))
 
     def _api_health(self):
-        return self._json({
-            "ok": True,
-            "google_books": "configured" if googlebooks.available() else "no API key",
-            "sources": ["Wikidata", "Open Library", "SBN"]
-                       + (["Google Books"] if googlebooks.available() else []),
-        })
+        return self._json({"ok": True, "sources": ["Wikidata", "Open Library", "SBN"]})
 
     def _static(self, path):
         rel = posixpath.normpath(unquote(path)).lstrip("/")
@@ -156,9 +151,7 @@ def main():
         print(f"  stop it:  pkill -f server.py", file=sys.stderr)
         print(f"  or pick another port:  PORT={PORT + 1} python server.py", file=sys.stderr)
         raise SystemExit(1)
-    key = "set" if googlebooks.available() else "not set (source will be skipped)"
     print(f"book_editions UI  ->  http://localhost:{PORT}")
-    print(f"GOOGLE_BOOKS_API_KEY: {key}")
     print("Ctrl-C to stop.")
     try:
         server.serve_forever()

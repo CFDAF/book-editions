@@ -42,51 +42,87 @@ function year(e) {
 
 /* ------------------------------------------------------------------- render */
 
-function chosenDetail(r) {
-  if (!chosen) return null;
-  const italian = (r.editions_by_language?.ita || []).filter((e) => e.work_group === chosen);
-  const pick = italian.slice().sort((a, b) =>
-    (b.holdings?.length || 0) - (a.holdings?.length || 0))[0];
-  const label = r.choices.find((c) => c.key === chosen);
-  const who = label?.authors?.length ? label.authors.join('; ') : null;
-  if (!pick) {
-    return who ? `${who} — no Italian edition found for this one.` : null;
+// The header is a publication history, not a verdict: when the work first
+// appeared, in which language, and when each translation followed. That is what
+// a list of editions actually tells you.
+function renderOverview(r) {
+  const o = r.overview || {};
+  if (!o.found) {
+    return `<section class="overview" data-empty="true">
+      <h2>${esc(o.title || r.query_title || 'Nothing found')}</h2>
+      <p class="byline">No editions found. Checked
+        ${esc(Object.entries(r.sources || {}).filter(([, v]) => v === 'ok')
+          .map(([n]) => n).join(', ') || 'no sources')}.</p>
+    </section>`;
   }
-  const bits = [who, pick.publisher, year(pick)].filter(Boolean);
-  if (pick.translators?.length) {
-    bits.push(`tr. ${pick.translators.map((t) => authorName(t)).join('; ')}`);
-  }
-  return `${pick.title} · ${bits.join(' · ')}`;
+
+  const spans = chosen
+    ? spansFor(r, chosen)
+    : (o.spans || []);
+
+  const originYear = o.original_year || o.first_year_seen;
+  const byline = [
+    o.authors?.length ? esc(o.authors.join('; ')) : null,
+    originYear
+      ? `first published ${esc(originYear)}${o.original_language_name
+          ? ` in ${esc(o.original_language_name)}` : ''}`
+      : null,
+    `${spans.reduce((n, s) => n + s.editions, 0)} editions in
+      ${spans.length} language${spans.length === 1 ? '' : 's'}`,
+  ].filter(Boolean).join(' · ');
+
+  const years = spans.flatMap((s) => [s.first_year, s.last_year]).filter(Boolean);
+  const lo = Math.min(...years, originYear || Infinity);
+  const hi = Math.max(...years, originYear || -Infinity);
+  const range = Math.max(hi - lo, 1);
+
+  const rows = spans.map((s) => {
+    // A bar on a shared time axis shows at a glance how long after the original
+    // a translation arrived — the thing a list of years makes you work out.
+    let bar = '<span class="bar-none">no dates recorded</span>';
+    if (s.first_year) {
+      const left = ((s.first_year - lo) / range) * 100;
+      const width = Math.max(((s.last_year - s.first_year) / range) * 100, 1.2);
+      bar = `<span class="bar" style="left:${left.toFixed(2)}%;width:${width.toFixed(2)}%"></span>`;
+    }
+    const span = s.first_year
+      ? (s.last_year && s.last_year !== s.first_year
+          ? `${s.first_year}\u2013${s.last_year}` : String(s.first_year))
+      : '\u2014';
+    return `<li${s.is_original ? ' class="is-original"' : ''}>
+      <span class="span-lang">${esc(s.name)}${s.is_original
+        ? ' <span class="tag">original</span>' : ''}</span>
+      <span class="span-track">${bar}</span>
+      <span class="span-years">${esc(span)}</span>
+      <span class="span-count">${s.editions}</span>
+    </li>`;
+  }).join('');
+
+  return `<section class="overview">
+    <h2>${esc(o.title)}</h2>
+    <p class="byline">${byline}</p>
+    <ul class="spans">${rows}</ul>
+  </section>`;
 }
 
-function renderVerdict(r) {
-  const v = r.verdict;
-  const c = r.cluster || {};
-  let origin = '';
-  if (c.qid) {
-    const bits = joined([
-      c.original_title ? `<cite>${esc(c.original_title)}</cite>` : null,
-      c.original_language ? esc(r.language_names?.[c.original_language] || c.original_language) : null,
-      c.original_year ? esc(c.original_year) : null,
-    ]);
-    origin = `<p class="origin"><span class="label">Written as</span>${bits}
-      <span class="sep">&middot;</span><a href="${esc(c.url)}" target="_blank" rel="noopener">Wikidata</a></p>`;
+// Recompute the spans for one chosen book, so the header describes what is shown.
+function spansFor(r, group) {
+  const out = [];
+  for (const [code, editions] of Object.entries(r.editions_by_language || {})) {
+    const mine = editions.filter((e) => e.work_group === group);
+    if (!mine.length) continue;
+    const years = mine.map((e) => parseInt(year(e), 10)).filter((y) => !Number.isNaN(y));
+    out.push({
+      code,
+      name: r.language_names?.[code] || code,
+      editions: mine.length,
+      first_year: years.length ? Math.min(...years) : null,
+      last_year: years.length ? Math.max(...years) : null,
+      is_original: code === r.overview?.original_language,
+    });
   }
-
-  // When nothing corroborates the answer, say so here rather than dressing the
-  // headline up as certainty.
-  const soft = ['low', 'unconfirmed'].includes(v.confidence) && v.has_italian;
-  const qualifier = soft
-    ? '<p class="qualifier">Nothing corroborates this beyond a title and author match — treat it as a lead, not a finding.</p>'
-    : '';
-
-  return `<section class="verdict" data-confidence="${esc(v.confidence)}" data-found="${!!v.has_italian}">
-    <h2>${esc(v.headline)}</h2>
-    ${(() => { const d = chosenDetail(r) || v.detail;
-        return d ? `<p class="detail">${esc(d)}</p>` : ''; })()}
-    ${qualifier}
-    ${origin}
-  </section>`;
+  out.sort((a, b) => (a.first_year || 9999) - (b.first_year || 9999));
+  return out;
 }
 
 // A widely held book can sit in 229 libraries. Printing all of them turns the
@@ -127,6 +163,7 @@ function renderEdition(e) {
     e.series ? esc(e.series) : null,
     e.isbn ? `<span class="isbn">${esc(e.isbn)}</span>` : null,
     e.edition_count ? `${e.edition_count} edition${e.edition_count === 1 ? '' : 's'}` : null,
+    e.medium && !/testo a stampa/i.test(e.medium) ? `<em>${esc(e.medium)}</em>` : null,
     others.length ? `also in ${esc(others.join(', '))}` : null,
   ]);
 
@@ -255,7 +292,7 @@ function render() {
 
   // A partial answer must not be mistakable for a complete one: a dropped
   // request can remove an entire language, which looks exactly like that
-  // language having no editions.
+  // language simply having no editions.
   const partial = Object.entries(r.sources || {})
     .filter(([, state]) => String(state).startsWith('partial'));
   const warning = partial.length
@@ -270,7 +307,7 @@ function render() {
     ? `<p class="nothing">Nothing in the chosen language. <button type="button"
          id="clear-facets">Show all languages</button></p>`
     : '';
-  results.innerHTML = renderVerdict(r) + warning + chooser(r) + facetRow(r)
+  results.innerHTML = renderOverview(r) + warning + chooser(r) + facetRow(r)
     + body + empty + notesHtml;
   renderSources(r.sources);
   wire();
@@ -308,7 +345,7 @@ function failure(err) {
   // fetch rejects with a TypeError when nothing is listening — by far the most
   // common cause here, and the one with a concrete fix.
   if (err.name === 'AbortError') {
-    return `<section class="verdict" data-found="false">
+    return `<section class="overview" data-empty="true">
       <h2>The lookup timed out.</h2>
       <p class="detail">No answer after two and a half minutes. One of the four
         catalogues is probably not responding.</p>
@@ -317,7 +354,7 @@ function failure(err) {
     </section>`;
   }
   if (err instanceof TypeError) {
-    return `<section class="verdict" data-found="false">
+    return `<section class="overview" data-empty="true">
       <h2>Can&rsquo;t reach the server.</h2>
       <p class="detail">The page loaded, but <code>/api/lookup</code> got no
         response — the server is no longer running, or was restarted while this
@@ -326,7 +363,7 @@ function failure(err) {
         reload this page.</p>
     </section>`;
   }
-  return `<section class="verdict" data-found="false">
+  return `<section class="overview" data-empty="true">
     <h2>The lookup did not finish.</h2>
     <p class="detail">${esc(err.message)}</p>
     <p class="qualifier">The catalogues are reached live; if one is down, try again shortly.</p>
@@ -340,9 +377,9 @@ async function run() {
     if (v) params.set(id, v);
   });
   if (!params.get('title') && !params.get('author')) {
-    results.innerHTML = `<section class="verdict" data-found="false">
+    results.innerHTML = `<section class="overview" data-empty="true">
       <h2>Enter a title or an author.</h2>
-      <p class="detail">A year or publisher on its own is a filter, not a search.</p>
+      <p class="byline">A year or publisher on its own is a filter, not a search.</p>
     </section>`;
     document.getElementById('title').focus();
     return;
@@ -444,7 +481,5 @@ document.addEventListener('keydown', (e) => {
 
 fetch('/api/health')
   .then((r) => r.json())
-  .then((h) => { if (h.google_books !== 'configured') {
-    sourcesLine.textContent = 'Google Books needs GOOGLE_BOOKS_API_KEY; the other three sources need nothing.';
-  } })
+  .then((h) => { sourcesLine.textContent = `Sources: ${(h.sources || []).join(' \u00b7 ')}`; })
   .catch(() => {});
