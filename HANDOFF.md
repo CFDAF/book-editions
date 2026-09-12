@@ -62,15 +62,16 @@ python book_editions.py --author "Gregory Bateson"
 book_editions.py   CLI entry point (210 lines)
 server.py          ThreadingHTTPServer: /api/* + static web/ (164)
 lookup/
-  net.py           thread-local pooled Session, disk cache, Tally (132)
+  net.py           thread-local pooled Session, disk cache, Tally (165)
   matching.py      normalise/score titles, author display (112)
   langs.py         one language vocabulary across 3 sources (105)
   models.py        Edition, Overview, TitleCluster, Report (165)
   wikidata.py      bidirectional title crosswalk (284)
   openlibrary.py   editions, works, Dewey (283)
-  sbn.py           SBN/ICCU client + parsers (254)
+  sbn.py           SBN/ICCU mobile-gateway client + parsers (254)
+  opac.py          SBN OPAC API: the uniform-title bridge (158)
   buylinks.py      deterministic retailer deep links (47)
-  pipeline.py      orchestration, scoring, disambiguation (1061)
+  pipeline.py      orchestration, scoring, disambiguation (1180)
 web/               index.html (50), app.js (579), style.css (695)
 ```
 
@@ -115,22 +116,27 @@ And **cross-language title similarity is worthless**: `title_similarity('Noise',
 > from the `opacmobilegw` JSON this project is built on, so six full records
 > showed no trace of it and the conclusion above was drawn from a hole in one
 > API rather than from the catalogue. The OPAC's own JSON API has it, along with
-> a facet that answers the whole cross-language question in one request. See §5,
-> *The OPAC API*. It is not wired in yet.
+> a facet that answers the whole cross-language question in one request. It is
+> now the fourth bridge — `lookup/opac.py`, §5 *The OPAC API*.
 
-### The three bridges
+### The four bridges
 
 | Bridge | Precision | Recall |
 |---|---|---|
+| **SBN's uniform-title authority** | exact — the catalogue's own statement | needs SBN to hold and link the record |
 | **Wikidata via Wikipedia sitelinks/labels** | high | needs a Wikipedia article |
 | **Dewey + full authorship agreement** | good | needs both catalogues to classify it |
 | **Shared ISBN** | exact | modern books only |
 
-Any one suffices. A **fourth** — SBN's own uniform-title authority, stronger
-than all three — was found late and is documented in §5 but not yet wired in.
+Any one suffices. The first was found last and is the strongest: the other three
+*infer* that two records describe one work, while it reads SBN saying so. It is
+also the only one that reaches a book with no Wikipedia article, no shared ISBN
+and no Dewey class — `Più brillante del sole`, whose record the author sweep
+already found and then discarded for lack of any signal. See §5, *The OPAC API*,
+for how to use it without getting a confident wrong answer.
 
-Dewey is the interesting one of the three because it is **numeric, hence
-language-neutral**: *Bruits/Noise* is `306.484`/`780.07` in Open Library and
+Dewey is the interesting one of the inferring three because it is **numeric,
+hence language-neutral**: *Bruits/Noise* is `306.484`/`780.07` in Open Library and
 SBN's *Rumori* is `780.07` — an exact match between titles sharing not one word.
 
 > **A correction worth not repeating.** Wikidata was initially dismissed after
@@ -215,7 +221,7 @@ OPAC website has its own API, which carries more (see *The OPAC API* below).
 | **No CORS** | No `Access-Control-Allow-Origin` at all. |
 | Permalink | `https://opac.sbn.it/bid/MIL0871878`. Short BID = `codiceIdentificativo` minus `IT\ICCU\`, segments joined. |
 
-### The OPAC API — a second, richer interface (not wired in)
+### The OPAC API — a second, richer interface
 
 `https://opac.sbn.it/o/opac-api/…` — what the OPAC website itself calls. Same
 host as the mobile gateway, different application, **and it carries the uniform
@@ -282,6 +288,28 @@ the discipline the reverse path has to enforce by hand.
   `contents` → `table` → `table-title` rows keyed on the Italian string
   `"Titolo di opera"`, which a relabel breaks silently. The facet is safer: it
   keys on `name == "titolo_uniformef[]"`, an internal identifier.
+
+**How it is wired** (`lookup/opac.py`, `pipeline` steps 3 and 4b):
+
+- **Step 3**, once an author is known: `opac.work_for(title, author)` returns the
+  uniform title and every SBN record linked to it. Those records are injected as
+  candidates under the reason `WORK_AUTHORITY`, which `_identifies` accepts
+  outright — it is the one reason that needs no corroboration — and which
+  `_prescore` weights above an ISBN match. The uniform title is also appended to
+  `variants`, so the ordinary title match catches editions the authority happens
+  not to link.
+- **Step 4b**, when no cluster was found: the authority is asked again using an
+  *Italian record's* own author, which is how a lookup that started in Italian
+  gets an author at all. `_expand_uniform_title` then searches Open Library for
+  the uniform title and builds a cluster from the match — the same shape
+  `_reverse_expand` produces, but from a catalogue statement rather than a Dewey
+  inference, so its editions are HIGH confidence and the header does **not** say
+  "identified by inference".
+- The normalised uniform title is **never displayed.** It is used to find the
+  work in Open Library, and the properly-spelled title comes back from there.
+- Failures go through `net.Tally` under `"SBN"` like everything else, so a
+  dropped request degrades the source to `partial` rather than silently
+  returning a shorter list.
 
 ### SBN data traps
 
@@ -490,16 +518,7 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 
 ## 9. If you pick this up next
 
-**Highest-value next:** wire in the OPAC API's `titolo_uniformef[]` facet (§5)
-as a fourth bridge. It is a cataloguer's explicit statement that two records are
-the same work, so it beats all three existing bridges on precision, and it works
-where they are blind — no Wikipedia article *and* no Dewey on the SBN record,
-which is why *More Brilliant Than the Sun* could not find *Più brillante del
-sole*. One request, ~0.3s, and it returns the original title and author, which
-is exactly the input the existing Open Library path already consumes. Guard it
-with the author (§5) and degrade through `net.Tally` like everything else.
-
-**Then:** there are still **no automated tests**, and the pure
+**Highest-value next:** there are still **no automated tests**, and the pure
 functions are exactly the ones with known-tricky inputs — `matching.py`,
 `langs.py`, the `sbn.py` parsers, `pipeline._dewey_affinity`,
 `pipeline._identifies`, `pipeline._assign_groups` and `pipeline._origin_phrase`.
@@ -511,7 +530,14 @@ The seam is already marked: `lookup()` is written as numbered steps (1, 2, 4,
 4b, 5 — step 3 was Google Books, §6), and lifting the SBN candidate collection
 and scoring out of it would disturb nothing else.
 
-**Recently closed:** the byline/origin formatting used to be duplicated between
+**Recently closed:** the OPAC API's uniform-title authority is now the fourth
+bridge (§4, §5). It closed the case it was found through — *More Brilliant Than
+the Sun* ↔ *Più brillante del sole*, both directions — and improved several
+others: *Rumori* + Attali now resolves to *Bruits* without needing Wikidata,
+*Cent'anni di solitudine* found 13 more Italian editions, and *La matrice
+sociale della psichiatria* now reports the true first-publication year.
+
+The byline/origin formatting used to be duplicated between
 `web/app.js` and `book_editions.py`, and was fixed in one while left broken in
 the other — twice. It now lives in `_origin_phrase` and reaches both front ends
 as `overview.origin`. Only the web UI's *chosen-work* case is still phrased
@@ -531,6 +557,8 @@ client-side, because the choice exists only in the browser.
 - Don't phrase the same sentence separately in the CLI and the web UI (§3).
 - Don't re-conclude that SBN records no original title (§4). They do; the mobile
   gateway just doesn't return it.
+- Don't call `opac.work_for` without an author (§5). It will answer, and the
+  answer will be a different book.
 
 ### Regression cases (all currently pass)
 
@@ -540,12 +568,14 @@ client-side, because the choice exists only in the browser.
 | `Verso un'ecologia della mente` | title *Steps to an Ecology of Mind*, original eng 1972, both Italian and English present (~16 / ~15) |
 | `Cent'anni di solitudine` | original **spa** 1967, English title present — proves it is not English-centric; **no** disambiguation chooser, and the author named once, accented |
 | `The Invention of News` / `L'invenzione delle notizie` | both languages **both ways** — the Dewey `070.09`/`070.9` case. The English direction depends on adopting Open Library's author (§4) |
-| `La matrice sociale della psichiatria` | 2 choices (Ruesch/Bateson 1976, Shepherd 1990); inferred original *Communication*; **no** original year; no *Therapeutic communication* |
+| `La matrice sociale della psichiatria` | 2 choices (Ruesch/Bateson, Shepherd 1990); original *Communication* **1951**, from the authority, not inferred; no *Therapeutic communication*. Before the fourth bridge this had no original year at all — Open Library's Dewey-matched work reported 1987, a reprint, which was dropped as impossible against a 1976 translation |
 | `Per una economia positiva` + author | exactly 1 Italian, no sibling leakage |
 | `The Essential Knuth` | no Italian edition, all sources `ok` |
 | `Noise` (no author) | ≥3 disambiguation choices (Kahneman, Patterson, Wild, Nihei) |
 | `--author "Gregory Bateson"` | author mode, ~75 works, ~20 with an Italian edition |
 | `book_editions.py "Noise"` | byline names **no** author — four books share the title |
+| `More Brilliant Than the Sun` / `Più brillante del sole` | both languages **both ways**; original eng 1998. Nothing but the uniform-title authority can join these two — no shared ISBN, 0.0 title similarity, no Dewey on the SBN side |
+| `Rumori` + `Jacques Attali` | resolves to *Bruits*, fre 1977, with Italian and English present |
 | SBN `CFI1172094` | classified **English** despite `paesePubblicazione: ITALIA` |
 | SBN `CFI1183309` | translation detected from `note` alone |
 

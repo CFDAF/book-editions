@@ -25,7 +25,7 @@ import os
 import re
 from concurrent.futures import ThreadPoolExecutor
 
-from . import buylinks, langs, openlibrary as ol, sbn, wikidata
+from . import buylinks, langs, opac, openlibrary as ol, sbn, wikidata
 from .matching import author_display, core_title, normalize, surname, title_similarity
 from .models import (HIGH, LOW, MEDIUM, ORIGINAL, REPRINT, TRANSLATION,
                      UNCONFIRMED, Edition, LanguageSpan, Overview, Report,
@@ -49,6 +49,11 @@ DEWEY_MIN_PREFIX = 6
 
 # Title similarity that counts as identifying a work on its own.
 IDENTIFYING_TITLE_MATCH = 0.6
+
+# Why a candidate was pulled, when SBN's uniform-title authority linked it to
+# the work. It is the one reason that identifies a record on its own, because it
+# is the catalogue's statement rather than this tool's inference.
+WORK_AUTHORITY = "SBN work authority"
 
 
 def _dewey_key(code: str) -> str:
@@ -120,6 +125,10 @@ def _identifies(e: Edition, reason: str, variants: list, original_ddc: list) -> 
     year agreement are necessary but nowhere near sufficient — 'Quale socialismo,
     quale Europa' (Attali, 1977) matches both and is a different book entirely.
     """
+    # The catalogue's own uniform-title authority. Every other signal here is an
+    # inference that two records describe one work; this one is SBN stating it.
+    if reason == WORK_AUTHORITY:
+        return True
     if reason == "isbn match":
         return True
     # A short title needs a strong match to identify a work. At 0.45,
@@ -221,7 +230,8 @@ def _sbn_probe(title=None, author=None, isbn=None, rows=25, tally=None):
         return [], []
 
 
-def _collect_sbn_candidates(report, cluster, author, isbns, sibling_titles, tally=None):
+def _collect_sbn_candidates(report, cluster, author, isbns, sibling_titles,
+                            tally=None, work=None):
     """(candidates, facets) — brief records tagged with why they were pulled."""
     variants = cluster.variants() if cluster else []
     probes = []
@@ -248,6 +258,13 @@ def _collect_sbn_candidates(report, cluster, author, isbns, sibling_titles, tall
             facets = got_facets
         for rec in records:
             candidates.append((rec, reason))
+
+    # The authority's records arrive as bare ids, so they are dressed as brief
+    # records: everything downstream reads the full record anyway, and the
+    # catalogued title is enough for the pre-score that decides what gets read.
+    for bid, catalogued in (work.records if work else []):
+        candidates.append(({"codiceIdentificativo": bid, "titolo": catalogued},
+                           WORK_AUTHORITY))
     return candidates, facets
 
 
@@ -277,6 +294,60 @@ def _enrich(bid, tally=None):
 # ---------------------------------------------------------------------------
 # Reverse expansion: from a confirmed Italian edition back to the original
 # ---------------------------------------------------------------------------
+
+def _expand_uniform_title(work, so_far: list, tally=None) -> tuple:
+    """(editions, notes, cluster) for the original SBN's authority names.
+
+    The uniform title is a search key, not a display title — lowercased and
+    stripped of accents — so it is used to find the work in Open Library and the
+    properly-spelled title comes back from there. Nothing about SBN's spelling
+    ever reaches the page.
+
+    Stronger than `_reverse_expand`, which has to infer the same link from a
+    Dewey class and a full author match. This one is the catalogue's own
+    statement, so its editions are HIGH rather than MEDIUM confidence.
+    """
+    author = next((author_display(e.authors[0]) for e in so_far if e.authors), None)
+    docs = ol.candidates([work.title], author, tally=tally)
+    keys, _ = ol.best_works([work.title], author, docs)
+    if not keys:
+        return [], [], None
+
+    found, _ = ol.expand(keys[:2], tally, ol.authors_by_work(docs))
+    italian_titles = [e.title for e in so_far if e.language == "ita"]
+    editions = [_tag(e, "SBN work authority") for e in found
+                if _variant_affinity(e.title, italian_titles) < 0.6]
+    for e in editions:
+        e.confidence = HIGH
+
+    best = next((d for d in docs
+                 if (d.get("key") or "").replace("/works/", "") == keys[0]), None)
+    if not best:
+        return editions, [], None
+
+    codes = [langs.from_openlibrary(c) for c in best.get("language") or []]
+    known = [c for c in codes if c not in (langs.UNKNOWN, "ita")]
+    year = best.get("first_publish_year")
+    # An original cannot postdate its own translation; see _reverse_expand.
+    earliest = min((y for y in (_year_of(e.year) for e in so_far) if y), default=None)
+    if year and earliest and year > earliest:
+        year = None
+
+    title = best.get("title") or ""
+    notes = [f"SBN files this under the work \u201c{work.title}\u201d; Open Library "
+             f"holds it as \u201c{title}\u201d, which is where the original was found"]
+    cluster = TitleCluster(
+        qid=None,
+        original_title=title,
+        original_language=known[0] if known else None,
+        original_year=str(year) if year else None,
+        author_names=[author] if author else [],
+        titles_by_lang={known[0]: title} if known else {},
+        source="sbn-authority",
+        basis=f"SBN's uniform-title authority names the work \u201c{work.title}\u201d",
+    )
+    return editions, notes, cluster
+
 
 def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
     """(editions, notes) — find the original work behind an Italian translation.
@@ -785,10 +856,30 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
 
     isbns = {e.isbn.replace("-", "") for e in editions if e.isbn}
 
+    # --- 3. SBN's own work authority: the strongest bridge there is ---------
+    # The other three infer that two records are the same work. This one reads
+    # the catalogue saying so. It is also the only one that reaches a book with
+    # no Wikipedia article, no shared ISBN and no Dewey class — which is exactly
+    # 'Più brillante del sole', whose SBN record the author sweep already found
+    # and then threw away for lack of any signal.
+    work = None
+    if author:
+        work = opac.work_for(title or (variants[0] if variants else None),
+                             author, tally)
+    if work:
+        # The uniform title is the work's own title, so it is what the original
+        # is called. As a variant it also lets the ordinary title match catch
+        # editions the authority happens not to link.
+        if _variant_affinity(work.title, variants) < IDENTIFYING_TITLE_MATCH:
+            variants.append(work.title)
+        report.notes.append(
+            f"SBN files this under the work \u201c{work.title}\u201d, which "
+            f"{work.count} of its {work.total} records are linked to")
+
     # --- 4. SBN: authoritative for Italian, and holds foreign editions too --
     try:
         candidates, facets = _collect_sbn_candidates(
-            report, cluster, author, isbns, sibling_titles, tally)
+            report, cluster, author, isbns, sibling_titles, tally, work)
         report.facets = facets
 
         best_by_bid = {}
@@ -797,7 +888,9 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
             if not bid:
                 continue
             pre = _prescore(rec, cluster, variants, author, priority)
-            if reason in ("isbn match", "Wikidata title"):
+            if reason == WORK_AUTHORITY:
+                pre += 0.8          # nothing else here is this certain
+            elif reason in ("isbn match", "Wikidata title"):
                 pre += 0.5
             elif reason == "Open Library sibling":
                 pre += 0.3
@@ -842,7 +935,33 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         report.sources["SBN"] = f"error: {exc}"
         report.errors.append(f"SBN: {exc}")
 
-    # --- 4b. No cluster and nothing but Italian? Work backwards -------------
+    # --- 4b. No cluster? Work backwards to the original ---------------------
+    if not cluster:
+        so_far = _dedupe(editions)
+
+        # The authority path first: it needs a title and an author and nothing
+        # else, where the Dewey path below needs a Dewey class on both sides.
+        # Asking an Italian title costs one lookup and answers it outright —
+        # 'Più brillante del sole' is filed under 'more brilliant than the sun',
+        # and no Dewey class exists on either side to have found that.
+        if not work:
+            named = next((e for e in so_far
+                          if e.language == "ita" and e.authors and e.title), None)
+            if named:
+                work = opac.work_for(named.title, surname(author_display(named.authors[0])),
+                                     tally)
+        if work and _variant_affinity(work.title, [e.title for e in so_far
+                                                   if e.language == "ita"]) < 0.6:
+            try:
+                extra, extra_notes, inferred = _expand_uniform_title(work, so_far, tally)
+                editions += extra
+                report.notes += extra_notes
+                if inferred:
+                    cluster = inferred
+                    report.cluster = inferred
+            except SourceError as exc:
+                report.errors.append(f"Open Library (work authority): {exc}")
+
     if not cluster:
         so_far = _dedupe(editions)
         italian = [e for e in so_far if e.language == "ita" and e.authors and e.dewey]

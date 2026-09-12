@@ -60,13 +60,21 @@ source that came back incomplete. If something is red, it is being pointed at.
 
 No free catalogue records a link between a translation and its original. Open
 Library has no `translation_of` field, and SBN records carry no uniform title.
-Three mechanisms fill the gap, and any one of them suffices:
+Four mechanisms fill the gap, and any one of them suffices:
 
 | Mechanism | Precision | Recall |
 |---|---|---|
+| **SBN's uniform-title authority** | exact — the catalogue's own statement | needs SBN to hold and link the record |
 | **Wikidata** via Wikipedia sitelinks and labels | high | needs a Wikipedia article |
 | **Dewey agreement** between Open Library and SBN | good | needs both sides classified |
 | **Shared ISBN** | exact | modern books only |
+
+The first is the strongest and the least obvious. SBN files editions against a
+work record — *Titolo di opera* in its catalogue — so it already knows that
+*Più brillante del sole* and *More Brilliant Than the Sun* are one book. The
+other three have to work that out; this one just asks. It is also the only one
+that reaches a book with no Wikipedia article, no shared ISBN and no Dewey
+class, which is exactly that book.
 
 Dewey is the interesting one. It is numeric, therefore language-neutral. Attali's
 *Bruits/Noise* is classified `306.484` / `780.07` in Open Library and SBN's

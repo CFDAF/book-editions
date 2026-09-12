@@ -49,7 +49,9 @@ def session() -> requests.Session:
             backoff_factor=0.3,
             connect=2,
             status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods={"GET"},
+            # The OPAC's search is a POST, but a search has no side effect, so
+            # retrying one is as safe as retrying a GET.
+            allowed_methods={"GET", "POST"},
         )
         adapter = HTTPAdapter(max_retries=retries, pool_maxsize=8)
         s.mount("https://", adapter)
@@ -99,6 +101,37 @@ class Tally:
     # silently disabled every `if tally:` guard exactly when it mattered.
     def __bool__(self):
         return True
+
+
+def cached_post_json(url: str, body: dict, ttl: int = CACHE_TTL, timeout=TIMEOUT):
+    """POST a form and cache the JSON, keyed on the url and the body.
+
+    Only the OPAC needs this: its search is a POST. A search is a read, so
+    caching it is as sound as caching a GET, and the cache matters more here
+    than anywhere — the web UI re-runs the whole lookup on every filter change.
+    """
+    path = _cache_path(url + "#post", body)
+    if path.is_file() and (time.time() - path.stat().st_mtime) < ttl:
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    try:
+        r = session().post(url, data=body, timeout=timeout)
+        r.raise_for_status()
+        data = r.json()
+    except requests.RequestException as exc:
+        raise SourceError(f"{url}: {exc}") from exc
+    except ValueError as exc:
+        raise SourceError(f"{url}: response was not JSON ({exc})") from exc
+
+    try:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    except OSError:
+        pass
+    return data
 
 
 def cached_get_json(url: str, params: dict | None = None, ttl: int = CACHE_TTL,
