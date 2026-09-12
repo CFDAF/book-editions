@@ -427,7 +427,7 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
                 score += 0.15
                 reasons.append("translation evidence")
             if _dewey_affinity(edition.dewey, original_ddc):
-                reasons.append(f"Dewey {edition.dewey}")
+                reasons.append("Dewey agreement")
             edition.score = round(score, 3)
             edition.confidence = _confidence(score, reasons)
             edition.match_reasons = reasons

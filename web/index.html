@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book editions</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23faf9f7'/%3E%3Cpath d='M3 2h4v12H3zM9 2h4v12H9z' fill='%234a6353'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#results">Skip to results</a>
+
+<header class="masthead">
+  <h1>Book editions</h1>
+  <p class="standfirst">Every edition of a work, in English and Italian. Search in either language.</p>
+</header>
+
+<form id="search" class="search" autocomplete="off">
+  <div class="fields">
+    <label class="field field--title">
+      <span>Title</span>
+      <input type="text" id="title" name="title" placeholder="in any language" autofocus>
+    </label>
+    <label class="field">
+      <span>Author</span>
+      <input type="text" id="author" name="author" placeholder="optional">
+    </label>
+    <button type="submit" id="submit">Look up</button>
+  </div>
+
+  <button type="button" class="disclose" id="toggle-filters" aria-expanded="false" aria-controls="filters">
+    Narrow by year or publisher
+  </button>
+  <div class="filters" id="filters" hidden>
+    <label class="field field--small"><span>From</span><input type="text" id="year_from" inputmode="numeric" placeholder="1970"></label>
+    <label class="field field--small"><span>To</span><input type="text" id="year_to" inputmode="numeric" placeholder="1999"></label>
+    <label class="field"><span>Publisher</span><input type="text" id="publisher" placeholder="Adelphi"></label>
+  </div>
+</form>
+
+<main id="results" aria-live="polite">
+  <section class="intro" id="intro">
+    <p>Try <button type="button" class="example" data-title="Noise" data-author="Jacques Attali">Noise — Jacques Attali</button>,
+       which was translated once, in 1978, and never reprinted.
+       Or <button type="button" class="example" data-title="Cent&rsquo;anni di solitudine">Cent&rsquo;anni di solitudine</button>
+       to go the other way, from the Italian title back to the original.</p>
+  </section>
+</main>
+
+<footer class="colophon">
+  <p id="sources" class="sources"></p>
+  <p class="credits">Wikidata &middot; Open Library &middot; SBN&thinsp;/&thinsp;ICCU &middot; Google Books</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

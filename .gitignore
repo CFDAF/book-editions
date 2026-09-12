@@ -3,3 +3,7 @@ __pycache__/
 .cache/
 .env
 out.json
+
+# UI screenshots from verification runs
+ui-*.png
+.playwright-mcp/

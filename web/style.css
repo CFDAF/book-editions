@@ -1,0 +1,555 @@
+/* Book editions — a shelf list, not a spreadsheet.
+
+   The organising device is a language spine: a hairline rail down the left of
+   each group carrying the ISO 639-2 code and a count, the way a shelf carries
+   its label. Editions hang off it. Dewey numbers sit right-aligned as shelf
+   addresses, because that is exactly what they are — and, being numeric, they
+   are also what lets an Italian title be matched to an English original.
+
+   Rules held throughout: information is separated by space and type, never by
+   boxes or fills. No table, no grid lines, no zebra striping, no badges. */
+
+:root {
+  --paper:      #faf9f7;
+  --paper-sunk: #f3f1ed;
+  --ink:        #1f1d1a;
+  --ink-soft:   #6b665f;
+  --ink-faint:  #a39d94;
+  --rule:       rgba(31, 29, 26, .10);
+  --rule-firm:  rgba(31, 29, 26, .22);
+  --accent:     #4a6353;
+  --accent-warm:#8a6a45;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  --measure: 68ch;
+  --spine: 4.5rem;
+  --step: 0.5rem;
+}
+
+/* Follow the system by default, but let data-theme win in both directions so a
+   preference can be forced (and so either theme can be inspected directly). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:      #17181a;
+    --paper-sunk: #1e1f22;
+    --ink:        #e8e5e0;
+    --ink-soft:   #a29d95;
+    --ink-faint:  #6d6862;
+    --rule:       rgba(232, 229, 224, .12);
+    --rule-firm:  rgba(232, 229, 224, .26);
+    --accent:     #8fb39c;
+    --accent-warm:#c3a077;
+  }
+}
+
+:root[data-theme="dark"] {
+    --paper:      #17181a;
+    --paper-sunk: #1e1f22;
+    --ink:        #e8e5e0;
+    --ink-soft:   #a29d95;
+    --ink-faint:  #6d6862;
+    --rule:       rgba(232, 229, 224, .12);
+    --rule-firm:  rgba(232, 229, 224, .26);
+    --accent:     #8fb39c;
+    --accent-warm:#c3a077;
+}
+
+* { box-sizing: border-box; }
+
+.sep { color: var(--ink-faint); padding: 0 .4em; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0 1.5rem 6rem;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 16px/1.6 var(--sans);
+  font-variant-numeric: tabular-nums;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+}
+.skip:focus {
+  left: 1rem; top: 1rem;
+  z-index: 10;
+  padding: .5rem .75rem;
+  background: var(--paper);
+  outline: 2px solid var(--accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+/* ---------------------------------------------------------------- masthead */
+
+.masthead,
+.search,
+#results,
+.colophon {
+  max-width: var(--measure);
+  margin: 0 auto;
+}
+
+.masthead { padding: 4.5rem 0 2.5rem; }
+
+.masthead h1 {
+  margin: 0;
+  font: 400 1.45rem/1.2 var(--serif);
+  letter-spacing: -0.01em;
+}
+
+.standfirst {
+  margin: .4rem 0 0;
+  color: var(--ink-soft);
+  font-size: .9rem;
+}
+
+/* ------------------------------------------------------------------ search */
+
+.search {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: flex-end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  flex: 1 1 11rem;
+  min-width: 0;
+}
+.field--title { flex: 2 1 18rem; }
+.field--small { flex: 0 1 5.5rem; }
+
+.field > span {
+  font-size: .72rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.field input {
+  width: 100%;
+  padding: .35rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule-firm);
+  background: none;
+  color: var(--ink);
+  font: 400 1rem/1.4 var(--serif);
+  transition: border-color 120ms ease;
+}
+.field input::placeholder { color: var(--ink-faint); font-style: italic; }
+.field input:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+}
+.field input:focus-visible { outline: none; }
+
+#submit {
+  flex: 0 0 auto;
+  padding: .4rem 1.1rem;
+  border: 1px solid var(--rule-firm);
+  border-radius: 2px;
+  background: none;
+  color: var(--ink);
+  font: 400 .85rem/1.4 var(--sans);
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+#submit:hover { border-color: var(--accent); color: var(--accent); }
+#submit[aria-busy="true"] { color: var(--ink-faint); }
+
+.disclose {
+  margin-top: 1.5rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink-soft);
+  font: 400 .82rem/1.4 var(--sans);
+  cursor: pointer;
+  text-align: left;
+}
+.disclose::before { content: "+ "; color: var(--ink-faint); }
+.disclose[aria-expanded="true"]::before { content: "\2212 "; }
+.disclose:hover { color: var(--ink); }
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+/* A display rule outranks the hidden attribute; restore it. */
+.filters[hidden] { display: none; }
+
+/* ------------------------------------------------------------------- intro */
+
+.intro {
+  padding: 3rem 0;
+  max-width: 52ch;
+  color: var(--ink-soft);
+  font-size: .92rem;
+}
+.intro p { margin: 0; }
+
+.example {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule-firm);
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-family: var(--serif);
+  cursor: pointer;
+}
+.example:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+/* ----------------------------------------------------------------- verdict */
+
+.verdict {
+  padding: 3rem 0 0 1.25rem;
+  border-left: 2px solid var(--accent);
+}
+.verdict[data-confidence="medium"],
+.verdict[data-confidence="low"],
+.verdict[data-confidence="unconfirmed"] { border-left-color: var(--accent-warm); }
+.verdict[data-found="false"] { border-left-color: var(--rule-firm); }
+
+.verdict h2 {
+  margin: 0;
+  font: 400 1.75rem/1.25 var(--serif);
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.verdict .detail {
+  margin: .6rem 0 0;
+  color: var(--ink-soft);
+  font-size: .95rem;
+}
+
+.verdict .qualifier {
+  margin: .75rem 0 0;
+  font-size: .78rem;
+  color: var(--ink-faint);
+}
+
+/* The crosswalk: what this work is, in its own language, before translation. */
+.origin {
+  margin: 2.25rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-size: .88rem;
+  color: var(--ink-soft);
+}
+.origin .label {
+  font-size: .72rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-right: .6rem;
+}
+.origin cite { font-family: var(--serif); font-style: normal; color: var(--ink); }
+.origin a { color: var(--ink-faint); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.origin a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* -------------------------------------------------------- language groups */
+
+.group { margin-top: 3rem; }
+
+/* The spine. Language code and count sit in the rail; the hairline is the
+   shelf edge that the editions rest against. */
+.group-body {
+  display: grid;
+  grid-template-columns: var(--spine) 1fr;
+}
+
+.spine {
+  grid-column: 1;
+  padding-right: 1.25rem;
+  border-right: 1px solid var(--rule);
+  text-align: right;
+  position: sticky;
+  top: 1.5rem;
+  align-self: start;
+}
+
+.spine .code {
+  display: block;
+  font: 400 .72rem/1.2 var(--mono);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.spine .name {
+  display: block;
+  margin-top: .15rem;
+  font-size: .7rem;
+  line-height: 1.35;
+  color: var(--ink-faint);
+  hyphens: auto;
+}
+.spine .count {
+  display: block;
+  margin-top: .5rem;
+  font: 400 .7rem/1.2 var(--mono);
+  color: var(--ink-faint);
+}
+
+.editions {
+  grid-column: 2;
+  margin: 0;
+  padding: 0 0 0 1.25rem;
+  list-style: none;
+}
+
+/* ---------------------------------------------------------------- edition */
+
+.edition {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.edition:first-child { padding-top: 0; }
+.edition:last-child { border-bottom: 0; }
+
+.edition-head {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.edition-title {
+  font: 400 1.02rem/1.35 var(--serif);
+  color: var(--ink);
+  text-wrap: pretty;
+}
+.edition-title .role {
+  font-size: .74rem;
+  font-family: var(--sans);
+  font-style: italic;
+  color: var(--accent);
+  margin-right: .45rem;
+  white-space: nowrap;
+}
+
+/* Dewey as a shelf address: right-aligned, monospaced, quiet. */
+.shelfmark {
+  flex: 0 0 auto;
+  font: 400 .74rem/1.4 var(--mono);
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.imprint {
+  margin: .3rem 0 0;
+  font-size: .85rem;
+  color: var(--ink-soft);
+}
+.imprint .sep { color: var(--ink-faint); }
+.imprint .isbn { font-family: var(--mono); font-size: .78rem; color: var(--ink-faint); }
+
+/* Translation evidence, quoted as a librarian's note in the margin. */
+.evidence {
+  margin: .5rem 0 0;
+  padding-left: .85rem;
+  border-left: 1px solid var(--rule-firm);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: .88rem;
+  color: var(--ink-soft);
+}
+.evidence li { list-style: none; }
+.evidence ul, .evidence { padding-inline-start: .85rem; }
+
+/* -------------------------------------------------------------- disclosure */
+
+.more { margin-top: .55rem; }
+
+.more > summary {
+  display: inline-block;
+  font-size: .78rem;
+  color: var(--ink-faint);
+  cursor: pointer;
+  list-style: none;
+  transition: color 120ms ease;
+}
+.more > summary::-webkit-details-marker { display: none; }
+.more > summary::before { content: "+"; margin-right: .45em; }
+.more[open] > summary::before { content: "\2212"; }
+.more > summary:hover { color: var(--ink); }
+.edition:hover .more > summary { color: var(--ink-soft); }
+
+.more-body {
+  padding: .85rem 0 .25rem;
+  font-size: .85rem;
+  color: var(--ink-soft);
+}
+
+.detail-row { margin: 0 0 1rem; }
+.detail-row:last-child { margin-bottom: 0; }
+.detail-row > .label {
+  display: block;
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: .25rem;
+}
+
+.holdings {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 2;
+  column-gap: 1.75rem;
+}
+.holdings li {
+  break-inside: avoid;
+  font-size: .82rem;
+  line-height: 1.5;
+}
+.holdings .city { color: var(--ink); }
+.holdings .library { color: var(--ink-faint); }
+
+.holdings-more {
+  margin: .5rem 0 1rem;
+  font-size: .8rem;
+  color: var(--ink-faint);
+}
+.holdings-more a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.holdings-more a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Each link stays on one line, but the row of them must wrap — six shop names
+   in an inline span overflowed a 390px viewport by 44px. */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem .9rem;
+}
+.links a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  font-size: .82rem;
+  white-space: nowrap;
+}
+.links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.links .used { color: var(--ink-faint); }
+
+.provenance { font-size: .78rem; color: var(--ink-faint); }
+.provenance .links { display: inline-flex; margin-right: .5rem; }
+
+/* Long catalogue strings (library names, series, publishers) must break rather
+   than push the page sideways. */
+.imprint, .edition-title, .holdings li, .origin { overflow-wrap: break-word; }
+
+/* ------------------------------------------------------------------ facets */
+
+.facets {
+  margin: .5rem 0 1.25rem 1.25rem;
+  padding-left: 1.25rem;
+  font-size: .8rem;
+  color: var(--ink-faint);
+}
+.facets .label {
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-right: .5rem;
+}
+.facets .count { font-family: var(--mono); font-size: .92em; color: var(--ink-faint); }
+.facets button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink-soft);
+  font: inherit;
+  cursor: pointer;
+}
+.facets button:hover { color: var(--ink); }
+.facets button[aria-pressed="true"] { color: var(--accent); }
+.facets .sep { padding: 0 .5em; color: var(--rule-firm); }
+
+/* ----------------------------------------------------------- states, notes */
+
+.waiting {
+  padding: 3rem 0 0 1.25rem;
+  border-left: 2px solid var(--rule);
+  font: 400 1.75rem/1.25 var(--serif);
+  color: var(--ink-faint);
+  animation: breathe 1.6s ease-in-out infinite;
+}
+@keyframes breathe { 0%,100% { opacity: .45 } 50% { opacity: .8 } }
+
+.notes {
+  margin: 3rem 0 0;
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--rule);
+  list-style: none;
+  font-size: .8rem;
+  color: var(--ink-faint);
+}
+.notes li { margin-bottom: .4rem; text-wrap: pretty; }
+.notes .warn { color: var(--accent-warm); }
+
+.colophon {
+  margin-top: 4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-size: .76rem;
+  color: var(--ink-faint);
+}
+.colophon p { margin: 0 0 .3rem; }
+.sources .down { color: var(--accent-warm); }
+
+/* ------------------------------------------------------------- responsive */
+
+@media (max-width: 34rem) {
+  body { padding: 0 1.1rem 4rem; }
+  .masthead { padding-top: 2.5rem; }
+  .group-body { grid-template-columns: 1fr; }
+  .spine {
+    position: static;
+    display: flex;
+    gap: .6rem;
+    align-items: baseline;
+    padding: 0 0 .6rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+  }
+  .spine .name, .spine .count { margin: 0; }
+  /* The rail becomes a row here, so there is no need to hyphenate into it. */
+  .spine .name { hyphens: manual; }
+
+  .editions, .facets { padding-left: 0; margin-left: 0; }
+  .holdings { columns: 1; }
+  .verdict h2, .waiting { font-size: 1.4rem; }
+
+  /* A nowrap shelfmark beside the title left it four words wide. Stack them. */
+  .edition-head { display: block; }
+  .shelfmark { display: block; margin-top: .25rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
