@@ -192,13 +192,51 @@ function wire() {
   });
 }
 
+const REQUEST_TIMEOUT_MS = 150000;
+
+function failure(err) {
+  // fetch rejects with a TypeError when nothing is listening — by far the most
+  // common cause here, and the one with a concrete fix.
+  if (err.name === 'AbortError') {
+    return `<section class="verdict" data-found="false">
+      <h2>The lookup timed out.</h2>
+      <p class="detail">No answer after two and a half minutes. One of the four
+        catalogues is probably not responding.</p>
+      <p class="qualifier">Whatever did come back is cached, so trying again is
+        usually much faster than the first attempt.</p>
+    </section>`;
+  }
+  if (err instanceof TypeError) {
+    return `<section class="verdict" data-found="false">
+      <h2>Can&rsquo;t reach the server.</h2>
+      <p class="detail">The page loaded, but <code>/api/lookup</code> got no
+        response — the server is no longer running, or was restarted while this
+        tab was open.</p>
+      <p class="qualifier">Start it with <code>python server.py</code>, then
+        reload this page.</p>
+    </section>`;
+  }
+  return `<section class="verdict" data-found="false">
+    <h2>The lookup did not finish.</h2>
+    <p class="detail">${esc(err.message)}</p>
+    <p class="qualifier">The catalogues are reached live; if one is down, try again shortly.</p>
+  </section>`;
+}
+
 async function run() {
   const params = new URLSearchParams();
   ['title', 'author', 'year_from', 'year_to', 'publisher'].forEach((id) => {
     const v = document.getElementById(id).value.trim();
     if (v) params.set(id, v);
   });
-  if (!params.get('title') && !params.get('author')) return;
+  if (!params.get('title') && !params.get('author')) {
+    results.innerHTML = `<section class="verdict" data-found="false">
+      <h2>Enter a title or an author.</h2>
+      <p class="detail">A year or publisher on its own is a filter, not a search.</p>
+    </section>`;
+    document.getElementById('title').focus();
+    return;
+  }
 
   activeFacets = new Set();
   submit.setAttribute('aria-busy', 'true');
@@ -207,19 +245,18 @@ async function run() {
     <p class="waiting-note">Four catalogues, queried live. A title you have not
       looked up before can take up to a minute; the same lookup again is instant.</p>`;
 
+  const abort = new AbortController();
+  const timer = setTimeout(() => abort.abort(), REQUEST_TIMEOUT_MS);
   try {
-    const res = await fetch(`/api/lookup?${params}`);
+    const res = await fetch(`/api/lookup?${params}`, { signal: abort.signal });
     const data = await res.json();
-    if (!res.ok) throw new Error(data.error || `request failed (${res.status})`);
+    if (!res.ok) throw new Error(data.error || `the server returned ${res.status}`);
     report = data;
     render();
   } catch (err) {
-    results.innerHTML = `<section class="verdict" data-found="false">
-      <h2>The lookup did not finish.</h2>
-      <p class="detail">${esc(err.message)}</p>
-      <p class="qualifier">The catalogues are reached live; if one is down, try again shortly.</p>
-    </section>`;
+    results.innerHTML = failure(err);
   } finally {
+    clearTimeout(timer);
     submit.removeAttribute('aria-busy');
     submit.textContent = 'Look up';
   }

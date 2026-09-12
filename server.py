@@ -11,6 +11,7 @@ sidesteps CORS entirely, and keeps the Google Books key server-side.
 Stdlib only, plus requests (already the project's single dependency).
 """
 
+import errno
 import json
 import mimetypes
 import os
@@ -126,7 +127,19 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main():
-    server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    try:
+        server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    except OSError as exc:
+        if exc.errno != errno.EADDRINUSE:
+            raise
+        # Worth saying plainly: an already-running instance keeps serving its own
+        # imported modules, so a stale one silently ignores edited code.
+        print(f"Port {PORT} is already in use — another instance is probably still "
+              f"running (it will be serving the code it started with).", file=sys.stderr)
+        print(f"  find it:  lsof -nP -iTCP:{PORT} -sTCP:LISTEN", file=sys.stderr)
+        print(f"  stop it:  pkill -f server.py", file=sys.stderr)
+        print(f"  or pick another port:  PORT={PORT + 1} python server.py", file=sys.stderr)
+        raise SystemExit(1)
     key = "set" if googlebooks.available() else "not set (source will be skipped)"
     print(f"book_editions UI  ->  http://localhost:{PORT}")
     print(f"GOOGLE_BOOKS_API_KEY: {key}")

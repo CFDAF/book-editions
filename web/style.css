@@ -245,6 +245,11 @@ body {
   font-size: .95rem;
 }
 
+.verdict code {
+  font: 400 .9em/1 var(--mono);
+  color: var(--ink);
+}
+
 .verdict .qualifier {
   margin: .75rem 0 0;
   font-size: .78rem;
