@@ -500,6 +500,13 @@ body {
 }
 @keyframes breathe { 0%,100% { opacity: .45 } 50% { opacity: .8 } }
 
+.waiting-note {
+  max-width: 46ch;
+  margin: 1rem 0 0 1.25rem;
+  font-size: .82rem;
+  color: var(--ink-faint);
+}
+
 .notes {
   margin: 3rem 0 0;
   padding: 1.25rem 0 0;

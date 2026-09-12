@@ -27,7 +27,11 @@ from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
 USER_AGENT = "book-editions-lookup/3.0 (personal research tool)"
-TIMEOUT = 20
+# Split connect and read. All four APIs normally answer well under a second, so
+# a stalled *connection* should fail fast and be retried rather than consume a
+# long read budget — an occasional 20s+ connect stall to one Wikipedia host was
+# single-handedly setting the cold-lookup time.
+TIMEOUT = (4, 15)
 CACHE_DIR = Path(os.environ.get("BOOK_CACHE_DIR", Path(__file__).parent.parent / ".cache"))
 CACHE_TTL = int(os.environ.get("BOOK_CACHE_TTL", 24 * 3600))
 
@@ -42,7 +46,8 @@ def session() -> requests.Session:
         s.headers["User-Agent"] = USER_AGENT
         retries = Retry(
             total=2,
-            backoff_factor=0.4,
+            backoff_factor=0.3,
+            connect=2,
             status_forcelist=[429, 500, 502, 503, 504],
             allowed_methods={"GET"},
         )
@@ -62,7 +67,8 @@ class SourceError(Exception):
     """A source failed in a way the caller should report, not crash on."""
 
 
-def cached_get_json(url: str, params: dict | None = None, ttl: int = CACHE_TTL):
+def cached_get_json(url: str, params: dict | None = None, ttl: int = CACHE_TTL,
+                    timeout=TIMEOUT):
     """GET JSON through the disk cache. Raises SourceError on failure.
 
     Cache hits are returned regardless of whether the network is reachable, so
@@ -76,7 +82,7 @@ def cached_get_json(url: str, params: dict | None = None, ttl: int = CACHE_TTL):
             pass  # corrupt entry, fall through and refetch
 
     try:
-        r = session().get(url, params=params, timeout=TIMEOUT)
+        r = session().get(url, params=params, timeout=timeout)
         r.raise_for_status()
         data = r.json()
     except requests.RequestException as exc:

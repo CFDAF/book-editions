@@ -18,6 +18,8 @@ Its saving grace is that `language=ita` works, which is what found Rumori where
 Wikidata has no Italian label at all.
 """
 
+from concurrent.futures import ThreadPoolExecutor
+
 from . import langs
 from .matching import author_matches, core_title, normalize, title_similarity
 from .models import Edition
@@ -115,18 +117,41 @@ def candidates(variants: list, author: str | None, publisher=None,
             queries.append({"title": core})
         queries.append({"q": f"{core} {author or ''}".strip()})
 
-    for q in queries:
+    def run(q):
         try:
-            docs = search_works(author=author, publisher=publisher, year_from=year_from,
+            return search_works(author=author, publisher=publisher, year_from=year_from,
                                 year_to=year_to, limit=limit, **q)
         except SourceError:
-            continue
-        for doc in docs:
-            key = doc.get("key")
-            if key and key not in seen:
-                seen.add(key)
-                pooled.append(doc)
+            return []
+
+    # Open Library answers in 1-3s, and there are a dozen of these; run them
+    # together or the first lookup of a book takes over a minute.
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for docs in pool.map(run, queries):
+            for doc in docs:
+                key = doc.get("key")
+                if key and key not in seen:
+                    seen.add(key)
+                    pooled.append(doc)
     return pooled
+
+
+def expand(keys: list) -> tuple:
+    """(editions, dewey classes) for several works at once."""
+    def one(key):
+        try:
+            return editions(key), work_ddc(key)
+        except SourceError:
+            return [], []
+
+    found, ddc = [], []
+    if not keys:
+        return found, ddc
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for eds, classes in pool.map(one, keys):
+            found += eds
+            ddc += classes
+    return found, list(dict.fromkeys(ddc))
 
 
 def best_works(variants: list, author: str | None, docs: list, limit: int = 3) -> tuple:

@@ -203,7 +203,9 @@ async function run() {
   activeFacets = new Set();
   submit.setAttribute('aria-busy', 'true');
   submit.textContent = 'Looking…';
-  results.innerHTML = '<p class="waiting">Searching the catalogues…</p>';
+  results.innerHTML = `<p class="waiting">Searching the catalogues…</p>
+    <p class="waiting-note">Four catalogues, queried live. A title you have not
+      looked up before can take up to a minute; the same lookup again is instant.</p>`;
 
   try {
     const res = await fetch(`/api/lookup?${params}`);

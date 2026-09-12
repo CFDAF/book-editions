@@ -19,6 +19,8 @@ has sitelinks for en/es/fa/zh and no Italian label at all, so a miss here is
 expected and must fall through to the Open Library author cluster, not fail.
 """
 
+from concurrent.futures import ThreadPoolExecutor
+
 from . import langs
 from .matching import author_matches, core_title, normalize, strip_disambiguator
 from .models import TitleCluster
@@ -143,30 +145,42 @@ def _label_map(qids: list) -> dict:
     return out
 
 
-def _candidate_qids(title: str, author: str | None):
-    """Yield (qid, wiki_that_matched, was_exact) best-first."""
-    seen = set()
-    for wiki in WIKIS:
+def _candidate_qids(title: str, author: str | None) -> list:
+    """Candidate items, best-first: exact page hits before search hits.
+
+    Both wikis are consulted concurrently. Candidates are returned as a list
+    rather than validated one at a time, because validating them needs their
+    claims and wbgetentities takes up to 50 ids in a single request — fetching
+    them one by one was costing about 38 seconds per cold lookup.
+    """
+    query = f"{title} {author}".strip() if author else title
+
+    def per_wiki(wiki):
+        found = []
         try:
             qid = _page_to_qid(wiki, title)
+            if qid:
+                found.append(qid)
         except SourceError:
-            continue
-        if qid and qid not in seen:
-            seen.add(qid)
-            yield qid, wiki, True
-
-    query = f"{title} {author}".strip() if author else title
-    for wiki in WIKIS:
+            pass
         try:
             pages = _search_pages(wiki, query)
             resolved = _titles_to_qids(wiki, pages)
+            found += [resolved[p] for p in pages if p in resolved]
         except SourceError:
-            continue
-        for page in pages:                 # preserve search relevance order
-            qid = resolved.get(page)
-            if qid and qid not in seen:
+            pass
+        return found
+
+    with ThreadPoolExecutor(max_workers=len(WIKIS)) as pool:
+        batches = list(pool.map(per_wiki, WIKIS))
+
+    seen, ordered = set(), []
+    for batch in batches:
+        for qid in batch:
+            if qid not in seen:
                 seen.add(qid)
-                yield qid, wiki, False
+                ordered.append(qid)
+    return ordered
 
 
 def _is_written_work(claims) -> bool:
@@ -186,8 +200,13 @@ def resolve(title: str, author: str | None = None) -> tuple:
     if not title:
         return None, langs.UNKNOWN
 
-    for qid, wiki, exact in _candidate_qids(title, author):
-        ents = _entities([qid], "labels|sitelinks|claims", "it|en|fr|es|de|pt|la")
+    candidates = _candidate_qids(title, author)
+    if not candidates:
+        return None, langs.UNKNOWN
+    # One request for every candidate's claims, then decide locally.
+    ents = _entities(candidates, "labels|sitelinks|claims", "it|en|fr|es|de|pt|la")
+
+    for qid in candidates:
         ent = ents.get(qid) or {}
         claims = ent.get("claims") or {}
         if not _is_written_work(claims):

@@ -15,6 +15,10 @@ Sources: Wikidata (title crosswalk, original language and year), Open Library
 (editions), SBN/ICCU (Italian editions, translator evidence, library holdings),
 Google Books (optional, needs GOOGLE_BOOKS_API_KEY).
 
+A first lookup queries all four live and can take up to a minute — the Wikipedia
+and Wikidata leg dominates it. Responses are cached under .cache/ for 24h, so
+repeating a lookup, or refining its filters, returns in milliseconds.
+
 Requirements: pip install requests
 """
 

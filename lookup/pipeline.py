@@ -350,10 +350,8 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         docs = ol.candidates(variants[:4], author, publisher=publisher,
                              year_from=year_from, year_to=year_to)
         work_keys, ranked = ol.best_works(variants or [title], author, docs)
-        for key in work_keys:
-            editions += [_tag(e, "same Open Library work") for e in ol.editions(key)]
-            original_ddc += ol.work_ddc(key)
-        original_ddc = list(dict.fromkeys(original_ddc))
+        found, original_ddc = ol.expand(work_keys)
+        editions += [_tag(e, "same Open Library work") for e in found]
         if not work_keys and ranked:
             report.notes.append(
                 "Open Library: no confident work match (closest: "
