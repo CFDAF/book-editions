@@ -26,7 +26,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 
 from . import buylinks, googlebooks, langs, openlibrary as ol, sbn, wikidata
-from .matching import core_title, normalize, surname, title_similarity
+from .matching import author_display, core_title, normalize, surname, title_similarity
 from .models import (HIGH, LOW, MEDIUM, ORIGINAL, REPRINT, TRANSLATION,
                      UNCONFIRMED, Edition, Report, Verdict)
 from .net import SourceError, Tally
@@ -295,7 +295,7 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
     Bateson in 1976 and Michael Shepherd in 1990 — so pooling their authors
     demands a work by all three and finds nothing.
     """
-    notes, keys = [], []
+    notes, keys, by_key = [], [], {}
     described = None
 
     for edition in italian[:3]:
@@ -339,12 +339,16 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
                 key = (doc.get("key") or "").replace("/works/", "")
                 if key and key not in keys:
                     keys.append(key)
+                    # The original is by the same people as the translation, so
+                    # carry the authorship across; without it these editions
+                    # belong to no work and cannot be disambiguated.
+                    by_key[key] = list(doc.get("author_name") or edition.authors)
                     described = described or (edition.authors, codes[0])
 
     if not keys:
         return [], []
 
-    editions, _ = ol.expand(keys[:3], tally)
+    editions, _ = ol.expand(keys[:3], tally, by_key)
     found = []
     for e in editions:
         _tag(e, "Dewey and authorship agreement")
@@ -357,6 +361,70 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
         f"Italian record's authors ({who}) and Dewey class ({described[1]}) instead "
         "— a weaker match than a confirmed title, so shown as medium confidence")
     return found, notes
+
+
+# ---------------------------------------------------------------------------
+# Distinct books sharing one title
+# ---------------------------------------------------------------------------
+
+def _group_key(e: Edition) -> str:
+    """Which book an edition belongs to, keyed on its first author's surname.
+
+    Titles are not unique. 'La matrice sociale della psichiatria' is Ruesch and
+    Bateson in 1976 and Michael Shepherd in 1990 — two unrelated books — and
+    'Noise' is both Attali and Kahneman. Without this they are silently mixed
+    into one answer.
+    """
+    for name in e.authors:
+        tokens = normalize(surname(name))
+        if tokens:
+            return " ".join(sorted(tokens))
+    return ""
+
+
+def _assign_groups(editions: list, fallback_authors: list) -> None:
+    for e in editions:
+        if not e.authors and fallback_authors:
+            # An edition with no recorded author belongs to the work it came
+            # from, so inherit rather than landing in a phantom group.
+            e.authors = list(fallback_authors)
+        e.work_group = _group_key(e)
+
+
+def _build_choices(editions: list) -> list:
+    """One entry per distinct book, newest first. Empty when unambiguous."""
+    groups = {}
+    for e in editions:
+        if not e.work_group:
+            continue
+        g = groups.setdefault(e.work_group, {"authors": [], "years": [], "count": 0,
+                                             "titles": {}, "key": e.work_group})
+        g["count"] += 1
+        for name in e.authors:
+            display = author_display(name)
+            if display and display not in g["authors"]:
+                g["authors"].append(display)
+        year = _year_of(e.year)
+        if year:
+            g["years"].append(year)
+        g["titles"][e.title] = g["titles"].get(e.title, 0) + 1
+
+    if len(groups) < 2:
+        return []
+
+    out = []
+    for g in groups.values():
+        title = max(g["titles"], key=lambda t: g["titles"][t]) if g["titles"] else ""
+        out.append({
+            "key": g["key"],
+            "authors": g["authors"][:3],
+            "title": title,
+            "first_year": min(g["years"]) if g["years"] else None,
+            "last_year": max(g["years"]) if g["years"] else None,
+            "editions": g["count"],
+        })
+    out.sort(key=lambda c: (c["last_year"] or 0), reverse=True)
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -420,6 +488,13 @@ def _build_verdict(report, cluster, italian) -> Verdict:
                    confidence=confidence, has_italian=bool(italian))
 
 
+def _note_ambiguity(report: Report) -> None:
+    if len(report.choices) > 1:
+        report.notes.insert(0, (
+            f"{len(report.choices)} different books share this title. "
+            "The verdict describes all of them together until you pick one."))
+
+
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
@@ -473,7 +548,7 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         docs = ol.candidates(variants[:4], author, publisher=publisher,
                              year_from=year_from, year_to=year_to, tally=tally)
         work_keys, ranked = ol.best_works(variants or [title], author, docs)
-        found, original_ddc = ol.expand(work_keys, tally)
+        found, original_ddc = ol.expand(work_keys, tally, ol.authors_by_work(docs))
         editions += [_tag(e, "same Open Library work") for e in found]
         if not work_keys and ranked:
             report.notes.append(
@@ -591,14 +666,21 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         e.role = _assign_role(e, cluster)
         e.buy_links = buylinks.for_edition(e.isbn, e.title, author)
 
+    _assign_groups(editions, (cluster.author_names if cluster else None) or
+                   ([author] if author else []))
+    report.choices = _build_choices(editions)
+
+    # Most recent first; editions with no recorded year sort last, and score
+    # only breaks ties within a year.
     grouped = {}
-    for e in sorted(editions, key=lambda e: (-e.score, e.year or "", e.title)):
+    for e in sorted(editions, key=lambda e: (-(_year_of(e.year) or 0), -e.score, e.title)):
         grouped.setdefault(e.language, []).append(e)
 
     report.editions_by_language = {
         code: grouped[code] for code in _language_order(grouped, report, cluster)
     }
     report.verdict = _build_verdict(report, cluster, grouped.get("ita", []))
+    _note_ambiguity(report)
     _report_partial(report, tally)
     return report
 
@@ -758,8 +840,9 @@ def lookup_author(author: str, year_from=None, year_to=None, publisher=None) -> 
     for e in editions:
         e.buy_links = buylinks.for_edition(e.isbn, e.title, author)
 
+    _assign_groups(editions, [author])
     grouped = {}
-    for e in sorted(editions, key=lambda e: (e.year or "9999", e.title)):
+    for e in sorted(editions, key=lambda e: (-(_year_of(e.year) or 0), e.title)):
         grouped.setdefault(e.language, []).append(e)
     report.editions_by_language = {
         code: grouped[code] for code in _language_order(grouped, report, None)}

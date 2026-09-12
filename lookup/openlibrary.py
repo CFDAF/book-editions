@@ -138,11 +138,11 @@ def candidates(variants: list, author: str | None, publisher=None,
     return pooled
 
 
-def expand(keys: list, tally=None) -> tuple:
+def expand(keys: list, tally=None, authors_by_key=None) -> tuple:
     """(editions, dewey classes) for several works at once."""
     def one(key):
         try:
-            return editions(key), work_ddc(key)
+            return editions(key, authors=(authors_by_key or {}).get(key)), work_ddc(key)
         except SourceError as exc:
             if tally is not None:
                 tally.note("Open Library", exc)
@@ -156,6 +156,16 @@ def expand(keys: list, tally=None) -> tuple:
             found += eds
             ddc += classes
     return found, list(dict.fromkeys(ddc))
+
+
+def authors_by_work(docs: list) -> dict:
+    """work key -> author names, so expand() can attach them to editions."""
+    out = {}
+    for doc in docs:
+        key = (doc.get("key") or "").replace("/works/", "")
+        if key and doc.get("author_name"):
+            out[key] = list(doc["author_name"])
+    return out
 
 
 def best_works(variants: list, author: str | None, docs: list, limit: int = 3) -> tuple:
@@ -208,8 +218,12 @@ def _isbn_of(entry: dict) -> str | None:
     return None
 
 
-def editions(work_key: str, limit: int = 500) -> list:
-    """Every edition of one work, as Editions."""
+def editions(work_key: str, limit: int = 500, authors=None) -> list:
+    """Every edition of one work, as Editions.
+
+    Authors come from the work, not the edition record — editions.json rarely
+    carries them — so they are passed down from the search doc.
+    """
     data = cached_get_json(f"{BASE}/works/{work_key}/editions.json", {"limit": limit})
     out = []
     for entry in data.get("entries") or []:
@@ -229,6 +243,7 @@ def editions(work_key: str, limit: int = 500) -> list:
             url=f"{BASE}{entry['key']}" if entry.get("key") else None,
             series=series[0] if series else None,
             physical=f"{entry['number_of_pages']} p." if entry.get("number_of_pages") else None,
+            authors=list(authors or []),
         ))
     return out
 
@@ -243,6 +258,7 @@ def work_doc_to_edition(doc: dict) -> Edition:
     return Edition(
         source="Open Library",
         title=doc.get("title") or "",
+        authors=list(doc.get("author_name") or []),
         publisher=publishers[0] if publishers else None,
         year=str(doc["first_publish_year"]) if doc.get("first_publish_year") else None,
         language=known[0] if known else langs.UNKNOWN,

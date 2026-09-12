@@ -91,6 +91,22 @@ def strip_disambiguator(title: str) -> str:
     return re.sub(r"\s*\([^)]*\)\s*$", "", title or "").strip()
 
 
+def author_display(name: str) -> str:
+    """'Pettegree, Andrew <1957- >' -> 'Andrew Pettegree'.
+
+    SBN inverts names and appends life dates; Open Library does neither. A list
+    mixing both sources reads badly unless they are brought into one form.
+    """
+    if not name:
+        return ""
+    name = re.sub(r"\s*<[^>]*>", "", name).strip().strip(",")
+    if name.count(",") == 1:
+        surname_part, _, forename = name.partition(",")
+        if forename.strip():
+            return f"{forename.strip()} {surname_part.strip()}"
+    return name
+
+
 def sbn_title_of(raw: str) -> str:
     """SBN titles carry statement-of-responsibility: 'Rumori : saggio ... / Attali'."""
     return (raw or "").split(" / ", 1)[0].strip()

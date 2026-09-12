@@ -56,6 +56,7 @@ class Edition:
     score: float = 0.0
     # Author-only searches list works rather than single editions, so a row
     # summarises several editions instead of describing one.
+    work_group: str = ""               # which distinct book this belongs to
     edition_count: int | None = None
     available_languages: list = field(default_factory=list)
 
@@ -118,6 +119,7 @@ class Report:
     cluster: TitleCluster = field(default_factory=TitleCluster)
     verdict: Verdict = field(default_factory=Verdict)
     editions_by_language: dict = field(default_factory=dict)
+    choices: list = field(default_factory=list)   # distinct books sharing the title
     facets: list = field(default_factory=list)
     sources: dict = field(default_factory=dict)   # name -> ok | skipped | error: …
     notes: list = field(default_factory=list)

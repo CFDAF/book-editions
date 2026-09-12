@@ -14,6 +14,7 @@ const filters = document.getElementById('filters');
 let report = null;
 let activeFacets = new Set();
 let holdingsLink = '';
+let chosen = '';           // selected work when several share the title
 
 const text = (s) => (s == null ? '' : String(s));
 const esc = (s) => text(s).replace(/[&<>"']/g, (c) =>
@@ -25,6 +26,14 @@ function joined(parts, className = 'sep') {
   return parts.filter(Boolean).join(`<span class="${className}">&middot;</span>`);
 }
 
+// SBN inverts names and appends life dates; Open Library does neither.
+function authorName(raw) {
+  const name = String(raw || '').replace(/\s*<[^>]*>/g, '').trim().replace(/,$/, '');
+  const parts = name.split(',');
+  if (parts.length === 2 && parts[1].trim()) return `${parts[1].trim()} ${parts[0].trim()}`;
+  return name;
+}
+
 function year(e) {
   // Open Library dates arrive in every shape going ('June 1985', '1972-01-01').
   const m = text(e.year).match(/\b(1[0-9]{3}|20[0-9]{2})\b/);
@@ -32,6 +41,23 @@ function year(e) {
 }
 
 /* ------------------------------------------------------------------- render */
+
+function chosenDetail(r) {
+  if (!chosen) return null;
+  const italian = (r.editions_by_language?.ita || []).filter((e) => e.work_group === chosen);
+  const pick = italian.slice().sort((a, b) =>
+    (b.holdings?.length || 0) - (a.holdings?.length || 0))[0];
+  const label = r.choices.find((c) => c.key === chosen);
+  const who = label?.authors?.length ? label.authors.join('; ') : null;
+  if (!pick) {
+    return who ? `${who} — no Italian edition found for this one.` : null;
+  }
+  const bits = [who, pick.publisher, year(pick)].filter(Boolean);
+  if (pick.translators?.length) {
+    bits.push(`tr. ${pick.translators.map((t) => authorName(t)).join('; ')}`);
+  }
+  return `${pick.title} · ${bits.join(' · ')}`;
+}
 
 function renderVerdict(r) {
   const v = r.verdict;
@@ -56,7 +82,8 @@ function renderVerdict(r) {
 
   return `<section class="verdict" data-confidence="${esc(v.confidence)}" data-found="${!!v.has_italian}">
     <h2>${esc(v.headline)}</h2>
-    ${v.detail ? `<p class="detail">${esc(v.detail)}</p>` : ''}
+    ${(() => { const d = chosenDetail(r) || v.detail;
+        return d ? `<p class="detail">${esc(d)}</p>` : ''; })()}
     ${qualifier}
     ${origin}
   </section>`;
@@ -94,6 +121,7 @@ function renderEdition(e) {
     .filter((c) => c !== e.language)
     .map((c) => report?.language_names?.[c] || c);
   const imprint = joined([
+    e.authors?.length ? `<span class="by">${esc(e.authors.map(authorName).join('; '))}</span>` : null,
     e.publisher ? esc(e.publisher) : null,
     year(e) ? esc(year(e)) : null,
     e.series ? esc(e.series) : null,
@@ -145,6 +173,31 @@ function renderEdition(e) {
 // clicking a language we hold no editions in emptied the page for no stated
 // reason. Only languages actually present are clickable now; the rest are shown
 // as what they are, context from the catalogue.
+// Titles are not unique. Rather than silently blending two different books
+// into one answer, offer the choice on author and year.
+function chooser(r) {
+  if (!(r.choices || []).length) return '';
+  const options = r.choices.map((c) => {
+    const span = c.first_year && c.last_year && c.first_year !== c.last_year
+      ? `${c.first_year}\u2013${c.last_year}` : (c.last_year || 'year unknown');
+    const who = c.authors.length ? c.authors.join('; ') : 'author not recorded';
+    return `<li><button type="button" class="choice" data-choice="${esc(c.key)}"
+      aria-pressed="${chosen === c.key}">
+      <span class="choice-author">${esc(who)}</span>
+      <span class="choice-meta">${esc(span)} &middot; ${c.editions}
+        edition${c.editions === 1 ? '' : 's'}</span></button></li>`;
+  }).join('');
+  return `<section class="chooser">
+    <p class="chooser-lead">${r.choices.length} different books share this title.
+      Which one do you mean?</p>
+    <ul class="choices">${options}
+      <li><button type="button" class="choice" data-choice=""
+        aria-pressed="${chosen === ''}"><span class="choice-author">All of them</span>
+        <span class="choice-meta">no filter</span></button></li>
+    </ul>
+  </section>`;
+}
+
 function facetRow(r) {
   const langFacet = (r.facets || []).find((f) => f.facetName === 'lingua');
   if (!langFacet) return '';
@@ -172,7 +225,9 @@ function render() {
   const r = report;
   const groups = Object.entries(r.editions_by_language || {});
   const body = groups.map(([code, editions]) => {
-    const shown = activeFacets.size ? editions.filter((e) => activeFacets.has(e.language)) : editions;
+    let shown = activeFacets.size
+      ? editions.filter((e) => activeFacets.has(e.language)) : editions;
+    if (chosen) shown = shown.filter((e) => e.work_group === chosen);
     if (!shown.length) return '';
     return `<section class="group">
       <div class="group-body">
@@ -187,7 +242,7 @@ function render() {
   }).join('');
 
   const notes = (r.notes || [])
-    .filter((n) => !n.startsWith('Incomplete:'))
+    .filter((n) => !n.startsWith('Incomplete:') && !/different books share this title/.test(n))
     .concat((r.errors || []).map((e) => `!${e}`));
   if (r.filters_applied) {
     notes.unshift(`Filtered to ${r.filters_applied} — editions outside that, and any `
@@ -215,7 +270,8 @@ function render() {
     ? `<p class="nothing">Nothing in the chosen language. <button type="button"
          id="clear-facets">Show all languages</button></p>`
     : '';
-  results.innerHTML = renderVerdict(r) + warning + facetRow(r) + body + empty + notesHtml;
+  results.innerHTML = renderVerdict(r) + warning + chooser(r) + facetRow(r)
+    + body + empty + notesHtml;
   renderSources(r.sources);
   wire();
 }
@@ -234,6 +290,9 @@ function wire() {
   if (retry) retry.addEventListener('click', run);
   const clear = document.getElementById('clear-facets');
   if (clear) clear.addEventListener('click', () => { activeFacets = new Set(); render(); });
+  results.querySelectorAll('.choice').forEach((b) => {
+    b.addEventListener('click', () => { chosen = b.dataset.choice; render(); });
+  });
   results.querySelectorAll('.facets button').forEach((b) => {
     b.addEventListener('click', () => {
       const code = b.dataset.facet;
@@ -290,6 +349,7 @@ async function run() {
   }
 
   activeFacets = new Set();
+  chosen = '';
   submit.setAttribute('aria-busy', 'true');
   submit.textContent = 'Looking…';
   results.innerHTML = `<p class="waiting">Searching the catalogues…</p>

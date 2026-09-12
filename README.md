@@ -29,10 +29,18 @@ Italian translation of Steps to an Ecology of Mind (inglese, 1972).
 Verso un'ecologia della mente · Adelphi, Milano · 1976 · tr. Giuseppe Longo
 
 ITA  Verso un'ecologia della mente                     153.4  PAL0171160
- 19  Adelphi, Milano · 2000 · Biblioteca scientifica ; 1 · 88-459-1535-2
+ 19  Gregory Bateson · Adelphi, Milano · 2000 · Biblioteca scientifica ; 1
        Trad. di Giuseppe Longo e Giuseppe Trautteur.
        held by 229 libraries in 167 places
 ```
+
+Every row carries author, title, publisher and year, newest edition first.
+
+When several different books share a title, it says so and asks which you mean,
+listing each with its authors, year span and edition count — "La matrice sociale
+della psichiatria" is Ruesch and Bateson in 1976 and Michael Shepherd in 1990,
+and plain "Noise" is four unrelated books. Choosing one filters the editions and
+re-points the verdict at that book. Giving an author skips the question.
 
 ## How the matching works
 

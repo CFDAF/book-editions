@@ -468,6 +468,50 @@ body {
    than push the page sideways. */
 .imprint, .edition-title, .holdings li, .origin { overflow-wrap: break-word; }
 
+/* ----------------------------------------------------------------- chooser */
+
+.chooser {
+  margin: 2rem 0 0 1.25rem;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--accent-warm);
+}
+
+.chooser-lead {
+  margin: 0 0 .85rem;
+  font-size: .9rem;
+  color: var(--ink);
+}
+
+.choices { margin: 0; padding: 0; list-style: none; }
+.choices li + li { margin-top: .1rem; }
+
+.choice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .15rem .75rem;
+  align-items: baseline;
+  width: 100%;
+  padding: .4rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  transition: color 120ms ease;
+}
+.choice:last-child { border-bottom: 0; }
+.choice-author {
+  font-family: var(--serif);
+  font-size: .98rem;
+  color: var(--ink-soft);
+}
+.choice-meta { font-size: .78rem; color: var(--ink-faint); }
+.choice:hover .choice-author { color: var(--ink); }
+.choice[aria-pressed="true"] .choice-author { color: var(--accent); }
+.choice[aria-pressed="true"]::before { content: "\2713"; color: var(--accent); margin-right: .1rem; }
+
+.imprint .by { color: var(--ink); }
+
 /* ------------------------------------------------------------------ facets */
 
 .facets {
