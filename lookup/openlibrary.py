@@ -97,7 +97,7 @@ def work_ddc(work_key: str) -> list:
 
 
 def candidates(variants: list, author: str | None, publisher=None,
-               year_from=None, year_to=None, limit: int = 60) -> list:
+               year_from=None, year_to=None, limit: int = 60, tally=None) -> list:
     """Pooled, de-duplicated work docs for a set of title variants.
 
     Open Library's title= index will not match a title carrying its subtitle:
@@ -121,7 +121,9 @@ def candidates(variants: list, author: str | None, publisher=None,
         try:
             return search_works(author=author, publisher=publisher, year_from=year_from,
                                 year_to=year_to, limit=limit, **q)
-        except SourceError:
+        except SourceError as exc:
+            if tally is not None:
+                tally.note("Open Library", exc)
             return []
 
     # Open Library answers in 1-3s, and there are a dozen of these; run them
@@ -136,12 +138,14 @@ def candidates(variants: list, author: str | None, publisher=None,
     return pooled
 
 
-def expand(keys: list) -> tuple:
+def expand(keys: list, tally=None) -> tuple:
     """(editions, dewey classes) for several works at once."""
     def one(key):
         try:
             return editions(key), work_ddc(key)
-        except SourceError:
+        except SourceError as exc:
+            if tally is not None:
+                tally.note("Open Library", exc)
             return [], []
 
     found, ddc = [], []

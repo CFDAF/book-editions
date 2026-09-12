@@ -186,10 +186,28 @@ function render() {
     </section>`;
   }).join('');
 
-  const notes = (r.notes || []).concat((r.errors || []).map((e) => `!${e}`));
+  const notes = (r.notes || [])
+    .filter((n) => !n.startsWith('Incomplete:'))
+    .concat((r.errors || []).map((e) => `!${e}`));
+  if (r.filters_applied) {
+    notes.unshift(`Filtered to ${r.filters_applied} — editions outside that, and any `
+      + 'with no recorded year, are not listed.');
+  }
   const notesHtml = notes.length
     ? `<ul class="notes">${notes.map((n) => n.startsWith('!')
         ? `<li class="warn">${esc(n.slice(1))}</li>` : `<li>${esc(n)}</li>`).join('')}</ul>`
+    : '';
+
+  // A partial answer must not be mistakable for a complete one: a dropped
+  // request can remove an entire language, which looks exactly like that
+  // language having no editions.
+  const partial = Object.entries(r.sources || {})
+    .filter(([, state]) => String(state).startsWith('partial'));
+  const warning = partial.length
+    ? `<p class="incomplete"><strong>Some editions are probably missing.</strong>
+        ${partial.map(([n, s]) => `${esc(n)} — ${esc(s.replace('partial ', ''))}`).join('; ')}.
+        Whatever arrived is cached, so searching again is quick and usually fills the gaps.
+        <button type="button" id="retry">Search again</button></p>`
     : '';
 
   // A filter that hides everything should say so, not render a blank page.
@@ -197,7 +215,7 @@ function render() {
     ? `<p class="nothing">Nothing in the chosen language. <button type="button"
          id="clear-facets">Show all languages</button></p>`
     : '';
-  results.innerHTML = renderVerdict(r) + facetRow(r) + body + empty + notesHtml;
+  results.innerHTML = renderVerdict(r) + warning + facetRow(r) + body + empty + notesHtml;
   renderSources(r.sources);
   wire();
 }
@@ -212,6 +230,8 @@ function renderSources(sources) {
 /* -------------------------------------------------------------- interaction */
 
 function wire() {
+  const retry = document.getElementById('retry');
+  if (retry) retry.addEventListener('click', run);
   const clear = document.getElementById('clear-facets');
   if (clear) clear.addEventListener('click', () => { activeFacets = new Set(); render(); });
   results.querySelectorAll('.facets button').forEach((b) => {
@@ -295,11 +315,44 @@ async function run() {
 
 form.addEventListener('submit', (e) => { e.preventDefault(); run(); });
 
+const FILTER_IDS = ['year_from', 'year_to', 'publisher'];
+
+function describeFilters() {
+  const active = FILTER_IDS
+    .map((id) => [id, document.getElementById(id).value.trim()])
+    .filter(([, v]) => v);
+  if (!active.length) {
+    filtersToggle.textContent = 'Narrow by year or publisher';
+    filtersToggle.classList.remove('active');
+    return;
+  }
+  const parts = [];
+  const from = document.getElementById('year_from').value.trim();
+  const to = document.getElementById('year_to').value.trim();
+  const pub = document.getElementById('publisher').value.trim();
+  if (from || to) parts.push(`${from || 'any'}\u2013${to || 'any'}`);
+  if (pub) parts.push(pub);
+  filtersToggle.textContent = `Narrowed to ${parts.join(', ')} — clear`;
+  filtersToggle.classList.add('active');
+}
+
 filtersToggle.addEventListener('click', () => {
+  // Once filters are set, the button clears them rather than just collapsing —
+  // the whole problem is a filter you cannot see still applying.
+  if (filtersToggle.classList.contains('active')) {
+    FILTER_IDS.forEach((id) => { document.getElementById(id).value = ''; });
+    describeFilters();
+    filters.hidden = false;
+    filtersToggle.setAttribute('aria-expanded', 'true');
+    return;
+  }
   const open = filtersToggle.getAttribute('aria-expanded') === 'true';
   filtersToggle.setAttribute('aria-expanded', String(!open));
   filters.hidden = open;
 });
+
+FILTER_IDS.forEach((id) =>
+  document.getElementById(id).addEventListener('input', describeFilters));
 
 document.querySelectorAll('.example').forEach((b) => {
   b.addEventListener('click', () => {

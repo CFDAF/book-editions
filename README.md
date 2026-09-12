@@ -92,6 +92,12 @@ small server instead of being a static page.
 - Year and publisher filters are applied locally for SBN, which accepts neither
   as a query parameter.
 - Buy links are deterministic search URLs, not live stock or prices. No scraping.
+- A lookup fans out over dozens of requests, and a failed one is treated as "no
+  results" so that one bad request cannot sink the whole answer. When that
+  happens the affected source is reported as `partial (N request(s) failed)` and
+  the page says editions are probably missing — a dropped request can remove an
+  entire language, which would otherwise be indistinguishable from that language
+  genuinely having none. Searching again fills the gaps from cache.
 - The `IN SBN` language counts are SBN's own, across every record a search
   touched — not counts of what is listed. Only languages actually present are
   clickable filters; the rest are greyed, since filtering by them would empty

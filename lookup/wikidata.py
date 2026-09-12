@@ -145,7 +145,7 @@ def _label_map(qids: list) -> dict:
     return out
 
 
-def _candidate_qids(title: str, author: str | None) -> list:
+def _candidate_qids(title: str, author: str | None, tally=None) -> list:
     """Candidate items, best-first: exact page hits before search hits.
 
     Both wikis are consulted concurrently. Candidates are returned as a list
@@ -161,14 +161,16 @@ def _candidate_qids(title: str, author: str | None) -> list:
             qid = _page_to_qid(wiki, title)
             if qid:
                 found.append(qid)
-        except SourceError:
-            pass
+        except SourceError as exc:
+            if tally is not None:
+                tally.note("Wikidata", exc)
         try:
             pages = _search_pages(wiki, query)
             resolved = _titles_to_qids(wiki, pages)
             found += [resolved[p] for p in pages if p in resolved]
-        except SourceError:
-            pass
+        except SourceError as exc:
+            if tally is not None:
+                tally.note("Wikidata", exc)
         return found
 
     with ThreadPoolExecutor(max_workers=len(WIKIS)) as pool:
@@ -191,7 +193,7 @@ def _is_written_work(claims) -> bool:
     return bool(_claim_ids(claims, "P50")) and _claim_first(claims, "P577")
 
 
-def resolve(title: str, author: str | None = None) -> tuple:
+def resolve(title: str, author: str | None = None, tally=None) -> tuple:
     """(TitleCluster | None, asked_language).
 
     asked_language is which wiki the title matched on, used to decide which way
@@ -200,7 +202,7 @@ def resolve(title: str, author: str | None = None) -> tuple:
     if not title:
         return None, langs.UNKNOWN
 
-    candidates = _candidate_qids(title, author)
+    candidates = _candidate_qids(title, author, tally)
     if not candidates:
         return None, langs.UNKNOWN
     # One request for every candidate's claims, then decide locally.

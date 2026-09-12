@@ -189,6 +189,8 @@ body {
 .disclose::before { content: "+ "; color: var(--ink-faint); }
 .disclose[aria-expanded="true"]::before { content: "\2212 "; }
 .disclose:hover { color: var(--ink); }
+.disclose.active { color: var(--accent-warm); }
+.disclose.active::before { content: "\2713 "; }
 
 .filters {
   display: flex;
@@ -501,6 +503,21 @@ body {
   margin-top: .35rem;
   max-width: 54ch;
   color: var(--ink-faint);
+}
+
+.incomplete {
+  max-width: 60ch;
+  margin: 1.5rem 0 0 1.25rem;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--accent-warm);
+  font-size: .85rem;
+  color: var(--ink-soft);
+}
+.incomplete strong { color: var(--ink); font-weight: 600; }
+.incomplete button {
+  padding: 0; border: 0; background: none; cursor: pointer;
+  color: var(--accent); font: inherit;
+  border-bottom: 1px solid var(--rule);
 }
 
 .nothing {

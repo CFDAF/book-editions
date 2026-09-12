@@ -22,13 +22,14 @@ enriched with full.json — which is the only place language and Dewey live.
 """
 
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor
 
 from . import buylinks, googlebooks, langs, openlibrary as ol, sbn, wikidata
 from .matching import core_title, normalize, surname, title_similarity
 from .models import (HIGH, LOW, MEDIUM, ORIGINAL, REPRINT, TRANSLATION,
                      UNCONFIRMED, Edition, Report, Verdict)
-from .net import SourceError
+from .net import SourceError, Tally
 
 ENRICH_BUDGET = 45       # full.json calls per lookup
 ENRICH_WORKERS = 6
@@ -184,15 +185,16 @@ def _dedupe(editions: list) -> list:
 # SBN candidate generation
 # ---------------------------------------------------------------------------
 
-def _sbn_probe(title=None, author=None, isbn=None, rows=25):
+def _sbn_probe(title=None, author=None, isbn=None, rows=25, tally=None):
     try:
-        records, facets = sbn.search(title=title, author=author, isbn=isbn, rows=rows)
-        return records, facets
-    except SourceError:
+        return sbn.search(title=title, author=author, isbn=isbn, rows=rows)
+    except SourceError as exc:
+        if tally is not None:
+            tally.note("SBN", exc)
         return [], []
 
 
-def _collect_sbn_candidates(report, cluster, author, isbns, sibling_titles):
+def _collect_sbn_candidates(report, cluster, author, isbns, sibling_titles, tally=None):
     """(candidates, facets) — brief records tagged with why they were pulled."""
     variants = cluster.variants() if cluster else []
     probes = []
@@ -210,7 +212,7 @@ def _collect_sbn_candidates(report, cluster, author, isbns, sibling_titles):
 
     candidates, facets = [], []
     with ThreadPoolExecutor(max_workers=ENRICH_WORKERS) as pool:
-        results = list(pool.map(lambda p: _sbn_probe(**p[0]), probes))
+        results = list(pool.map(lambda p: _sbn_probe(tally=tally, **p[0]), probes))
 
     for (params, reason), (records, got_facets) in zip(probes, results):
         # The author sweep returns the richest facets, and is also the only probe
@@ -236,10 +238,12 @@ def _prescore(rec, cluster, variants, author, priority=()):
     return score
 
 
-def _enrich(bid):
+def _enrich(bid, tally=None):
     try:
         return sbn.to_edition(sbn.full_record(bid))
-    except SourceError:
+    except SourceError as exc:
+        if tally is not None:
+            tally.note("SBN", exc)
         return None
 
 
@@ -247,7 +251,7 @@ def _enrich(bid):
 # Reverse expansion: from a confirmed Italian edition back to the original
 # ---------------------------------------------------------------------------
 
-def _reverse_expand(italian: list, known_titles: list) -> tuple:
+def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
     """(editions, notes) — find the original work behind an Italian translation.
 
     Needed when Wikidata has never heard of the book, which leaves no foreign
@@ -282,7 +286,9 @@ def _reverse_expand(italian: list, known_titles: list) -> tuple:
         def per_author(name):
             try:
                 return ol.search_works(author=name, limit=60)
-            except SourceError:
+            except SourceError as exc:
+                if tally is not None:
+                    tally.note("Open Library", exc)
                 return []
 
         with ThreadPoolExecutor(max_workers=3) as pool:
@@ -312,7 +318,7 @@ def _reverse_expand(italian: list, known_titles: list) -> tuple:
     if not keys:
         return [], []
 
-    editions, _ = ol.expand(keys[:3])
+    editions, _ = ol.expand(keys[:3], tally)
     found = []
     for e in editions:
         _tag(e, "Dewey and authorship agreement")
@@ -401,6 +407,7 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
                              publisher=publisher)
 
     report = Report(query_title=title, query_author=author)
+    tally = Tally()
     editions = []
     isbns = set()
     original_ddc = []
@@ -408,7 +415,7 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
     # --- 1. Wikidata: the only source of original language and year ----------
     cluster = None
     try:
-        cluster, asked = wikidata.resolve(title, author)
+        cluster, asked = wikidata.resolve(title, author, tally)
         report.asked_language = asked
         if cluster:
             report.cluster = cluster
@@ -438,9 +445,9 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
     sibling_titles = []
     try:
         docs = ol.candidates(variants[:4], author, publisher=publisher,
-                             year_from=year_from, year_to=year_to)
+                             year_from=year_from, year_to=year_to, tally=tally)
         work_keys, ranked = ol.best_works(variants or [title], author, docs)
-        found, original_ddc = ol.expand(work_keys)
+        found, original_ddc = ol.expand(work_keys, tally)
         editions += [_tag(e, "same Open Library work") for e in found]
         if not work_keys and ranked:
             report.notes.append(
@@ -483,7 +490,7 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
     # --- 4. SBN: authoritative for Italian, and holds foreign editions too --
     try:
         candidates, facets = _collect_sbn_candidates(
-            report, cluster, author, isbns, sibling_titles)
+            report, cluster, author, isbns, sibling_titles, tally)
         report.facets = facets
 
         best_by_bid = {}
@@ -504,7 +511,7 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         ranked = sorted(best_by_bid.items(), key=lambda kv: kv[1][0], reverse=True)
         chosen = ranked[:ENRICH_BUDGET]
         with ThreadPoolExecutor(max_workers=ENRICH_WORKERS) as pool:
-            enriched = list(pool.map(lambda kv: _enrich(kv[0]), chosen))
+            enriched = list(pool.map(lambda kv: _enrich(kv[0], tally), chosen))
 
         for (bid, (pre, reason)), edition in zip(chosen, enriched):
             if edition is None:
@@ -544,7 +551,8 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         other = [e for e in so_far if e.language not in ("ita", langs.UNKNOWN)]
         if italian and not other:
             try:
-                extra, extra_notes = _reverse_expand(italian, [e.title for e in italian])
+                extra, extra_notes = _reverse_expand(
+                    italian, [e.title for e in italian], tally)
                 editions += extra
                 report.notes += extra_notes
             except SourceError as exc:
@@ -565,15 +573,47 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         code: grouped[code] for code in _language_order(grouped, report, cluster)
     }
     report.verdict = _build_verdict(report, cluster, grouped.get("ita", []))
+    _report_partial(report, tally)
     return report
+
+
+def _report_partial(report: Report, tally) -> None:
+    """Downgrade any source that lost requests, and say the list may be short.
+
+    Without this a flaky network produces a confident-looking answer with a
+    language quietly missing — indistinguishable from that language genuinely
+    having no editions.
+    """
+    if not len(tally):
+        return
+    for name in ("Wikidata", "Open Library", "SBN"):
+        missed = tally.count(name)
+        if missed and report.sources.get(name) == "ok":
+            report.sources[name] = f"partial ({missed} request(s) failed)"
+    report.notes.insert(0, (
+        f"Incomplete: {len(tally)} request(s) failed, so editions are probably missing "
+        "— a whole language can drop out this way. Everything that did arrive is cached, "
+        "so running the same search again is fast and usually fills the gaps."))
+
+
+def _year_of(value) -> int | None:
+    """First four-digit year anywhere in the string.
+
+    Open Library publish_date is free text — '1985', 'June 1985', '1972-01-01',
+    'December 31, 1985' — so slicing the first four characters dropped every
+    month-name date, which silently removed most English editions whenever a
+    year filter was set.
+    """
+    m = re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", str(value or ""))
+    return int(m.group(1)) if m else None
 
 
 def _passes(e: Edition, year_from, year_to, publisher) -> bool:
     """Year and publisher filters applied locally — SBN accepts neither."""
     if year_from or year_to:
-        if not e.year or not e.year[:4].isdigit():
+        year = _year_of(e.year)
+        if year is None:
             return False
-        year = int(e.year[:4])
         if year_from and year < int(year_from):
             return False
         if year_to and year > int(year_to):
@@ -619,6 +659,7 @@ def lookup_author(author: str, year_from=None, year_to=None, publisher=None) -> 
     everything by the author genuinely belongs in the answer.
     """
     report = Report(mode="author", query_author=author)
+    tally = Tally()
     rows = {}
 
     # --- Open Library: the works, with edition counts and languages ---------
@@ -656,7 +697,7 @@ def lookup_author(author: str, year_from=None, year_to=None, publisher=None) -> 
 
         chosen = list(by_title.items())[:ENRICH_BUDGET]
         with ThreadPoolExecutor(max_workers=ENRICH_WORKERS) as pool:
-            enriched = list(pool.map(lambda kv: _enrich(kv[1][0]), chosen))
+            enriched = list(pool.map(lambda kv: _enrich(kv[1][0], tally), chosen))
 
         for (key, _), edition in zip(chosen, enriched):
             if edition is None:
@@ -705,4 +746,5 @@ def lookup_author(author: str, year_from=None, year_to=None, publisher=None) -> 
         confidence=HIGH if editions else LOW,
         has_italian=bool(in_italian),
     )
+    _report_partial(report, tally)
     return report

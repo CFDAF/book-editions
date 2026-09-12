@@ -102,6 +102,15 @@ class Handler(BaseHTTPRequestHandler):
         if report.cluster.original_language:
             mentioned.add(report.cluster.original_language)
         payload["language_names"] = {code: langs.display(code) for code in mentioned}
+
+        # Echo any active filter back, so a short result list explains itself.
+        bits = []
+        if self._one(query, "year_from") or self._one(query, "year_to"):
+            bits.append(f"{self._one(query, 'year_from') or 'any'}"
+                        f"\u2013{self._one(query, 'year_to') or 'any'}")
+        if self._one(query, "publisher"):
+            bits.append(self._one(query, "publisher"))
+        payload["filters_applied"] = ", ".join(bits) or None
         return self._json(payload)
 
     def _api_record(self, query):

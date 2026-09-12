@@ -67,6 +67,40 @@ class SourceError(Exception):
     """A source failed in a way the caller should report, not crash on."""
 
 
+class Tally:
+    """Counts requests that failed but were swallowed to keep a lookup going.
+
+    A lookup fans out over dozens of requests and every helper treats a failed
+    one as "no results", which is right — one bad request should not sink the
+    whole answer. What was wrong is that the answer then looked complete: a
+    dropped Open Library query removed the English editions, a dropped SBN probe
+    removed the Italian ones, and the source was still reported as 'ok'. A
+    partial answer that cannot be told apart from a complete one is worse than
+    an error, so they are counted and reported.
+    """
+
+    def __init__(self):
+        self._lock = threading.Lock()
+        self.failures = []
+
+    def note(self, where: str, exc) -> None:
+        with self._lock:
+            self.failures.append(f"{where}: {exc}")
+
+    def count(self, prefix: str = "") -> int:
+        with self._lock:
+            return sum(1 for f in self.failures if f.startswith(prefix))
+
+    def __len__(self):
+        with self._lock:
+            return len(self.failures)
+
+    # Without this an empty Tally is falsy, because __len__ returns 0 — which
+    # silently disabled every `if tally:` guard exactly when it mattered.
+    def __bool__(self):
+        return True
+
+
 def cached_get_json(url: str, params: dict | None = None, ttl: int = CACHE_TTL,
                     timeout=TIMEOUT):
     """GET JSON through the disk cache. Raises SourceError on failure.
