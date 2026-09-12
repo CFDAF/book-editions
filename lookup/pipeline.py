@@ -405,28 +405,113 @@ def _reverse_expand(italian: list, known_titles: list, tally=None) -> tuple:
 # Distinct books sharing one title
 # ---------------------------------------------------------------------------
 
-def _group_key(e: Edition) -> str:
-    """Which book an edition belongs to, keyed on its first author's surname.
+def _surname_tokens(name: str) -> set:
+    return normalize(surname(name))
 
-    Titles are not unique. 'La matrice sociale della psichiatria' is Ruesch and
-    Bateson in 1976 and Michael Shepherd in 1990 — two unrelated books — and
-    'Noise' is both Attali and Kahneman. Without this they are silently mixed
-    into one answer.
+
+def _same_person(a: set, b: set) -> bool:
+    """One name's surname tokens being a subset of the other's.
+
+    Catalogues disagree about compound surnames and about diacritics, and
+    `surname()` can only guess where one ends: Open Library's "Gabriel García
+    Márquez" has no comma, so it yields "Márquez", while SBN's "García Márquez,
+    Gabriel" yields "García Márquez". Accents are already stripped by
+    `normalize`, so the two reduce to {marquez} and {garcia, marquez} — the
+    same man, and containment is what says so.
     """
+    return bool(a) and bool(b) and (a <= b or b <= a)
+
+
+def _author_tokens(e: Edition, translators: list) -> set:
+    """Surname tokens of everyone credited as an author, translators removed.
+
+    SBN files a translator in the author field often enough to matter: one
+    Italian printing of 'Cent'anni di solitudine' is credited to Enrico Cicogna
+    alone, who is the translator named on several of its siblings.
+    """
+    out = set()
     for name in e.authors:
-        tokens = normalize(surname(name))
-        if tokens:
-            return " ".join(sorted(tokens))
-    return ""
+        tokens = _surname_tokens(name)
+        if tokens and not any(_same_person(tokens, t) for t in translators):
+            out |= tokens
+    return out
 
 
 def _assign_groups(editions: list, fallback_authors: list) -> None:
+    """Which book each edition belongs to. Titles are not unique.
+
+    'La matrice sociale della psichiatria' is Ruesch and Bateson in 1976 and
+    Michael Shepherd in 1990 — two unrelated books — and 'Noise' is four. But
+    keying on the first author's surname alone split one book four ways: the
+    same man spelled two ways, his translator credited as an author, and his
+    English translator credited ahead of him. So group by *any shared author*
+    instead, merging until nothing else overlaps.
+    """
+    translators = []
+    for e in editions:
+        for name in e.translators or []:
+            tokens = _surname_tokens(name)
+            if tokens and not any(_same_person(tokens, t) for t in translators):
+                translators.append(tokens)
+
     for e in editions:
         if not e.authors and fallback_authors:
             # An edition with no recorded author belongs to the work it came
             # from, so inherit rather than landing in a phantom group.
             e.authors = list(fallback_authors)
-        e.work_group = _group_key(e)
+
+    # Merge into connected components: two editions are the same book if any
+    # one of their authors is the same person.
+    components = []                      # list of [token set, [editions]]
+    for e in editions:
+        tokens = _author_tokens(e, translators)
+        if not tokens:
+            continue
+        hits = [c for c in components
+                if any(_same_person(tokens, t) for t in c[0])]
+        if not hits:
+            components.append([[tokens], [e]])
+            continue
+        first = hits[0]
+        for other in hits[1:]:            # this edition bridges two components
+            first[0] += other[0]
+            first[1] += other[1]
+            components.remove(other)
+        first[0].append(tokens)
+        first[1].append(e)
+
+    for names, members in components:
+        key = " ".join(sorted(set().union(*names)))
+        for e in members:
+            e.work_group = key
+
+    # An edition whose only credited names are translators still belongs to a
+    # book — the biggest one here, since a translator-only record is a filing
+    # quirk rather than evidence of a second work sharing the title.
+    if components:
+        biggest = max(components, key=lambda c: len(c[1]))
+        fallback = " ".join(sorted(set().union(*biggest[0])))
+        for e in editions:
+            if not e.work_group:
+                e.work_group = fallback
+
+
+def _add_author(names: list, display: str) -> None:
+    """Append a name unless the same person is already listed.
+
+    Catalogues differ on diacritics, so one man arrives as both "Gabriel García
+    Márquez" and "Gabriel Garcia Marquez" and the chooser offered them as if
+    they were a collaboration. Compared on stripped tokens they are one person;
+    the spelling that kept its accents is the one worth showing.
+    """
+    key = normalize(display)
+    for i, existing in enumerate(names):
+        if normalize(existing) == key:
+            if not existing.isascii() or display.isascii():
+                return
+            names[i] = display            # the accented spelling is the better one
+            return
+    names.append(display)
 
 
 def _build_choices(editions: list) -> list:
@@ -440,8 +525,8 @@ def _build_choices(editions: list) -> list:
         g["count"] += 1
         for name in e.authors:
             display = author_display(name)
-            if display and display not in g["authors"]:
-                g["authors"].append(display)
+            if display:
+                _add_author(g["authors"], display)
         year = _year_of(e.year)
         if year:
             g["years"].append(year)
@@ -514,6 +599,25 @@ def _display_title(editions: list, cluster, fallback: str | None) -> str:
     return fallback or ""
 
 
+def _origin_phrase(original_year, language_name, first_year_seen) -> str:
+    """How a work's beginning is stated. One implementation, both clients.
+
+    Never pair a known original language with a fallback year: "first published
+    1976 in inglese" would take the year from an Italian edition and the
+    language from the English original, and is simply false.
+    """
+    if original_year and language_name:
+        return f"first published {original_year} in {language_name}"
+    if original_year:
+        return f"first published {original_year}"
+    if language_name:
+        return (f"originally in {language_name}"
+                + (f", earliest edition found {first_year_seen}" if first_year_seen else ""))
+    if first_year_seen:
+        return f"earliest edition found {first_year_seen}"
+    return ""
+
+
 def _build_overview(report, cluster, grouped: dict, author: str | None) -> Overview:
     editions = [e for group in grouped.values() for e in group]
     years = [y for y in (_year_of(e.year) for e in editions) if y]
@@ -553,19 +657,24 @@ def _build_overview(report, cluster, grouped: dict, author: str | None) -> Overv
     if cluster and cluster.original_year and cluster.original_year.isdigit():
         original_year = int(cluster.original_year)
 
+    language_name = (langs.display(cluster.original_language)
+                     if cluster and cluster.original_language else None)
+    first_year_seen = min(years) if years else None
+
     return Overview(
         title=_display_title(editions, cluster, report.query_title),
         authors=names[:3],
         original_language=cluster.original_language if cluster else None,
-        original_language_name=(langs.display(cluster.original_language)
-                                if cluster and cluster.original_language else None),
+        original_language_name=language_name,
         original_year=original_year,
-        first_year_seen=min(years) if years else None,
+        first_year_seen=first_year_seen,
         total_editions=len(editions),
         spans=spans,
         found=bool(editions),
         original_inferred=bool(cluster and cluster.source == "inferred"),
         original_basis=(cluster.basis if cluster else ""),
+        origin=_origin_phrase(original_year, language_name, first_year_seen),
+        ambiguous=len(report.choices) > 1,
     )
 
 
@@ -635,6 +744,32 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
             report.notes.append(
                 "Open Library: no confident work match (closest: "
                 + "; ".join(f'"{t}" ({s:.2f})' for s, t, _ in ranked[:3]) + ")")
+
+        # Wikidata is the only step that hands back an author for free, so a work
+        # it has never heard of leaves `author` None — and every author-keyed
+        # bridge below it (the SBN author sweep, the sibling titles) is then
+        # skipped entirely. Open Library has just named the author of the work it
+        # matched, so use that.
+        #
+        # This is what made the tool asymmetric. 'L'invenzione delle notizie'
+        # found both languages because SBN holds that exact title, and an SBN
+        # record names its authors, which the reverse path (4b) then works from.
+        # 'The Invention of News' — the same book — found English only: SBN files
+        # the translation under the Italian title, so the title probe missed it,
+        # and with no author there was no sweep to catch it either. Going from an
+        # original to its Italian translation is the main thing this tool is for.
+        if not author:
+            candidates = {}
+            for e in found:
+                if e.authors:
+                    key = " ".join(sorted(normalize(surname(e.authors[0]))))
+                    candidates.setdefault(key, author_display(e.authors[0]))
+            # Only when the matched works agree. A title as ambiguous as 'Noise'
+            # resolves to several unrelated works, and adopting whichever came
+            # back first would sweep SBN for a bibliography at random.
+            if len(candidates) == 1:
+                author = next(iter(candidates.values()))
+                report.query_author = author
 
         if author:
             # Siblings supply candidate Italian *titles* to probe SBN with. They

@@ -59,26 +59,14 @@ def print_text(reports: list):
             print("\n  No editions found.")
         else:
             print(f"\n  {o.title}")
-            # Never pair a known original language with a fallback year: the
-            # year would come from an Italian edition and the language from the
-            # English original, making "first published 1976 in inglese" false.
-            if o.original_year and o.original_language_name:
-                origin = f"first published {o.original_year} in {o.original_language_name}"
-            elif o.original_year:
-                origin = f"first published {o.original_year}"
-            elif o.original_language_name:
-                origin = f"originally in {o.original_language_name}"
-                if o.first_year_seen:
-                    origin += f", earliest edition found {o.first_year_seen}"
-            elif o.first_year_seen:
-                origin = f"earliest edition found {o.first_year_seen}"
-            else:
-                origin = None
-
+            # `o.origin` is phrased by the pipeline so this and the web UI
+            # cannot drift; they had, and each carried the same bug separately.
+            # An ambiguous title names no author here: the overview covers every
+            # book sharing it, and the list of them follows below.
             byline = " · ".join(filter(None, [
-                "; ".join(o.authors) or None,
-                origin,
-                f"{o.total_editions} editions in {len(o.spans)} language(s)",
+                None if o.ambiguous else ("; ".join(o.authors) or None),
+                o.origin or None,
+                f"{o.total_editions} edition(s) in {len(o.spans)} language(s)",
             ]))
             print(f"  {byline}")
             if o.original_inferred:

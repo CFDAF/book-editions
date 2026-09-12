@@ -17,6 +17,10 @@ let holdingsLink = '';
 let chosen = '';           // selected work when several share the title
 
 const text = (s) => (s == null ? '' : String(s));
+// A title attribute keeps every newline and every space of indentation it is
+// given, so anything written across lines has to be flattened first.
+const tip = (label, explain) =>
+  `<span title="${esc(String(explain).replace(/\s+/g, ' ').trim())}">${esc(label)}</span>`;
 const esc = (s) => text(s).replace(/[&<>"']/g, (c) =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -42,6 +46,33 @@ function year(e) {
 
 /* ------------------------------------------------------------------- render */
 
+// Everything above the list describes one work. When several books share a
+// title the pipeline resolves exactly one of them — the one Wikidata and Open
+// Library agreed on — and the overview is about that one. Pick a different
+// book from the chooser and its author, its first-publication claim and its
+// "original" marker all still belong to somebody else's book. So: is the book
+// the reader picked the one the catalogues resolved?
+const fold = (s) => String(s || '').toLowerCase().replace(/[^a-z\u00c0-\u024f ]/g, '').trim();
+
+function isResolvedWork(r, choice) {
+  if (!choice) return true;                       // nothing chosen: the overview is itself
+  const known = (r.cluster?.author_names || []).map(fold).filter(Boolean);
+  if (!known.length) return false;                // no cluster to belong to
+  return choice.authors.some((a) => known.includes(fold(a)));
+}
+
+// A first-publication date is a claim about a work, not about a title string.
+// Anyone else who happens to share the title gets the honest, weaker statement
+// the catalogue can actually support: the earliest edition of theirs we found.
+// Every other case is phrased by the pipeline, in `overview.origin`, so this
+// and the CLI cannot say it two different ways.
+function originPhrase(o, choice, mine) {
+  if (choice && !mine) {
+    return choice.first_year ? `earliest edition found ${esc(choice.first_year)}` : null;
+  }
+  return esc(o.origin) || null;
+}
+
 // The header is a publication history, not a verdict: when the work first
 // appeared, in which language, and when each translation followed. That is what
 // a list of editions actually tells you.
@@ -56,29 +87,20 @@ function renderOverview(r) {
     </section>`;
   }
 
-  const spans = chosen
-    ? spansFor(r, chosen)
-    : (o.spans || []);
+  const choice = chosen ? (r.choices || []).find((c) => c.key === chosen) : null;
+  const mine = isResolvedWork(r, choice);
+  const spans = chosen ? spansFor(r, chosen, mine) : (o.spans || []);
 
-  // Never pair a known original language with a fallback year: "first published
-  // 1976 in inglese" would be built from an Italian edition's date and the
-  // English language, and is simply false.
-  let origin = null;
-  if (o.original_year && o.original_language_name) {
-    origin = `first published ${esc(o.original_year)} in ${esc(o.original_language_name)}`;
-  } else if (o.original_year) {
-    origin = `first published ${esc(o.original_year)}`;
-  } else if (o.original_language_name) {
-    origin = `originally in ${esc(o.original_language_name)}`
-      + (o.first_year_seen ? `, earliest edition found ${esc(o.first_year_seen)}` : '');
-  } else if (o.first_year_seen) {
-    origin = `earliest edition found ${esc(o.first_year_seen)}`;
-  }
+  // With several books sharing the title and none picked, the list below is an
+  // aggregate — naming one of the four authors over it claims the whole thing
+  // is theirs. The chooser directly underneath already names all of them.
+  const authors = choice ? choice.authors : (o.ambiguous ? [] : (o.authors || []));
+  const total = spans.reduce((n, s) => n + s.editions, 0);
 
   const byline = [
-    o.authors?.length ? esc(o.authors.join('; ')) : null,
-    origin,
-    `${spans.reduce((n, s) => n + s.editions, 0)} editions in
+    esc(authors.join('; ')) || null,
+    originPhrase(o, choice, mine),
+    `${total} edition${total === 1 ? '' : 's'} in
       ${spans.length} language${spans.length === 1 ? '' : 's'}`,
   ].filter(Boolean).join(' · ');
 
@@ -110,7 +132,7 @@ function renderOverview(r) {
   }).join('');
 
   // An inferred original is a weaker claim than a catalogued one; say so.
-  const caveat = o.original_inferred
+  const caveat = o.original_inferred && mine
     ? `<p class="inferred">Original identified by inference, not by a catalogue
         record${o.original_basis ? ` — ${esc(o.original_basis)}` : ''}.</p>`
     : '';
@@ -124,7 +146,7 @@ function renderOverview(r) {
 }
 
 // Recompute the spans for one chosen book, so the header describes what is shown.
-function spansFor(r, group) {
+function spansFor(r, group, mine) {
   const out = [];
   for (const [code, editions] of Object.entries(r.editions_by_language || {})) {
     const mine = editions.filter((e) => e.work_group === group);
@@ -136,7 +158,7 @@ function spansFor(r, group) {
       editions: mine.length,
       first_year: years.length ? Math.min(...years) : null,
       last_year: years.length ? Math.max(...years) : null,
-      is_original: code === r.overview?.original_language,
+      is_original: mine && code === r.overview?.original_language,
     });
   }
   out.sort((a, b) => (a.first_year || 9999) - (b.first_year || 9999));
@@ -170,14 +192,24 @@ function renderHoldings(holdings) {
 }
 
 function renderEdition(e) {
-  const role = e.role !== 'reprint' ? `<span class="role">${esc(e.role)}</span>` : '';
+  // 'original' is assigned only where an edition sits in the original language
+  // *and* carries the work's first-publication year — a handful of rows at
+  // most, and the ones worth pointing at. 'translation' is true of every row
+  // in a translated group, so it stays grey: a mark every sibling also carries
+  // marks nothing.
+  const role = e.role !== 'reprint'
+    ? `<span class="role" data-role="${esc(e.role)}">${esc(e.role)}</span>` : '';
   const others = (e.available_languages || [])
     .filter((c) => c !== e.language)
     .map((c) => report?.language_names?.[c] || c);
+  // Year first, then publisher. Within one work every row repeats the same
+  // title and the same author, so leading with either buries the two fields
+  // that actually tell two editions apart — and the list is already sorted by
+  // year, which a year in third position hides.
   const imprint = joined([
+    year(e) ? `<span class="year">${esc(year(e))}</span>` : null,
+    e.publisher ? `<span class="pub">${esc(e.publisher)}</span>` : null,
     e.authors?.length ? `<span class="by">${esc(e.authors.map(authorName).join('; '))}</span>` : null,
-    e.publisher ? esc(e.publisher) : null,
-    year(e) ? esc(year(e)) : null,
     e.series ? esc(e.series) : null,
     e.isbn ? `<span class="isbn">${esc(e.isbn)}</span>` : null,
     e.edition_count ? `${e.edition_count} edition${e.edition_count === 1 ? '' : 's'}` : null,
@@ -208,12 +240,20 @@ function renderEdition(e) {
     <span class="links">${refs}</span> ${esc(e.source)}
     ${e.match_reasons?.length ? `&middot; matched by ${esc(e.match_reasons.join(', '))}` : ''}</p>`);
 
-  const shelf = [e.dewey, e.sbn_bid].filter(Boolean).join('  ');
+  // Two different codes sit here and neither explains itself, so each carries
+  // its own tooltip rather than being joined into one opaque string.
+  const shelf = [
+    e.dewey ? tip(e.dewey, `Dewey class ${e.dewey} — the subject number this edition
+      is shelved under. Being a number rather than words, it is the same in every
+      language, which is how an Italian edition gets matched to its original.`) : null,
+    e.sbn_bid ? tip(e.sbn_bid, `SBN ${e.sbn_bid} — this record's permanent number in
+      the Italian national union catalogue, the one the libraries themselves use.`) : null,
+  ].filter(Boolean).join('  ');
 
   return `<li class="edition" tabindex="-1">
     <div class="edition-head">
       <span class="edition-title">${role}${esc(e.title)}</span>
-      ${shelf ? `<span class="shelfmark">${esc(shelf)}</span>` : ''}
+      ${shelf ? `<span class="shelfmark">${shelf}</span>` : ''}
     </div>
     ${imprint ? `<p class="imprint">${imprint}</p>` : ''}
     ${evidence}
@@ -223,78 +263,112 @@ function renderEdition(e) {
   </li>`;
 }
 
-// These counts are SBN's own, across every record the search touched — not
-// counts of what is listed below. Offering all of them as filters meant
-// clicking a language we hold no editions in emptied the page for no stated
-// reason. Only languages actually present are clickable now; the rest are shown
-// as what they are, context from the catalogue.
+// Both filters on this page are the same gesture — narrow what is listed —
+// so they get one shape: a label, options separated by slashes, and a line
+// underneath saying in words what is on. An option that is on is blue and
+// double-ruled. Nothing is ticked; a tick on top of that says the same thing
+// twice, and three controls each ticking differently said it three ways.
+function filterRow(label, options, state) {
+  const items = options.map((o) => `<button type="button" ${o.attrs}
+    aria-pressed="${o.on}">${o.label}${o.meta || ''}</button>`)
+    .join('<span class="sep">/</span>');
+  return `<p class="facets"><span class="label">${esc(label)}</span> ${items}</p>`
+    + (state ? `<p class="facets-state${state.warn ? ' warn' : ''}">${state.html}</p>` : '');
+}
+
+const count = (v) => `<span class="count">${esc(v)}</span>`;
+
 // Titles are not unique. Rather than silently blending two different books
 // into one answer, offer the choice on author and year.
 function chooser(r) {
   if (!(r.choices || []).length) return '';
+  const who = (c) => (c.authors.length ? c.authors.join('; ') : 'author not recorded');
   const options = r.choices.map((c) => {
     const span = c.first_year && c.last_year && c.first_year !== c.last_year
       ? `${c.first_year}\u2013${c.last_year}` : (c.last_year || 'year unknown');
-    const who = c.authors.length ? c.authors.join('; ') : 'author not recorded';
-    return `<li><button type="button" class="choice" data-choice="${esc(c.key)}"
-      aria-pressed="${chosen === c.key}">
-      <span class="choice-author">${esc(who)}</span>
-      <span class="choice-meta">${esc(span)} &middot; ${c.editions}
-        edition${c.editions === 1 ? '' : 's'}</span></button></li>`;
-  }).join('');
-  return `<section class="chooser">
-    <p class="chooser-lead">${r.choices.length} different books share this title.
-      Which one do you mean?</p>
-    <ul class="choices">${options}
-      <li><button type="button" class="choice" data-choice=""
-        aria-pressed="${chosen === ''}"><span class="choice-author">All of them</span>
-        <span class="choice-meta">no filter</span></button></li>
-    </ul>
-  </section>`;
+    return {
+      attrs: `data-choice="${esc(c.key)}"`,
+      on: chosen === c.key,
+      label: esc(who(c)),
+      // Two bare numbers side by side read as one; the years are the span, the
+      // second number is how many editions fall inside it.
+      meta: ` ${count(span)}<span class="sep">&middot;</span>${count(c.editions)}`,
+    };
+  });
+  options.push({ attrs: 'data-choice=""', on: chosen === '', label: 'All of them' });
+
+  const picked = r.choices.find((c) => c.key === chosen);
+  const state = picked
+    ? { html: `Showing ${esc(who(picked))} only.
+        <button type="button" class="clear-choice">Show all ${r.choices.length}</button>` }
+    : { warn: true, html: `${r.choices.length} different books share this title —
+        everything below mixes all of them together.` };
+  return filterRow('Which book', options, state);
 }
 
-function facetRow(r) {
-  const langFacet = (r.facets || []).find((f) => f.facetName === 'lingua');
-  if (!langFacet) return '';
-  const present = new Set(Object.keys(r.editions_by_language || {}));
-  let filterable = 0;
+function andList(names) {
+  if (names.length < 2) return names[0] || '';
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}
 
-  const items = langFacet.facetValues.slice(0, 8).map(([label, code, count]) => {
-    const n = `<span class="count">${esc(count)}</span>`;
-    if (present.has(code)) {
-      filterable += 1;
-      return `<button type="button" data-facet="${esc(code)}"
-        aria-pressed="${activeFacets.has(code)}">${esc(label)} ${n}</button>`;
-    }
-    return `<span class="absent" title="SBN holds ${esc(count)} record(s) in ${esc(label)}, but none of them matched this work">${esc(label)} ${n}</span>`;
-  }).join('<span class="sep">/</span>');
+// The counts here count what is listed below and nothing else. They used to be
+// SBN's own facet counts, which come from a sweep of the *author's* whole
+// catalogue: "francese 124" could sit above a single Italian edition and meant
+// "SBN holds 124 French records by this author" — an answer to a question
+// nobody asked. Languages with no editions were greyed out, which exposed the
+// mismatch without ever explaining it, and offered nothing to click.
+//
+// The filters are a union, not a narrowing: several can be on at once and each
+// one adds a language back. That has to be legible at a glance, so an active
+// filter is set in blue and double-ruled, and a line underneath says in words
+// what is showing and what that is hiding.
+function languageFilter(r, groups) {
+  if (groups.length < 2 && !activeFacets.size) return '';
+  const name = (code) => r.language_names?.[code] || code;
 
-  const note = filterable < langFacet.facetValues.slice(0, 8).length
-    ? `<span class="facets-note">Greyed languages are records SBN holds for this
-        search that did not match this work.</span>`
-    : '';
-  return `<p class="facets"><span class="label">In SBN</span> ${items} ${note}</p>`;
+  const options = groups.map(([code, editions]) => ({
+    attrs: `data-facet="${esc(code)}"`,
+    on: activeFacets.has(code),
+    label: esc(name(code)),
+    meta: ` ${count(editions.length)}`,
+  }));
+
+  const on = groups.filter(([code]) => activeFacets.has(code));
+  let state = null;
+  if (on.length) {
+    const off = groups.filter(([code]) => !activeFacets.has(code));
+    const hidden = off.reduce((n, [, editions]) => n + editions.length, 0);
+    state = { html: `Showing ${esc(andList(on.map(([c]) => name(c))))}.
+      ${hidden ? `${hidden} edition${hidden === 1 ? '' : 's'} in
+        ${off.length} other language${off.length === 1 ? '' : 's'} hidden.` : ''}
+      <button type="button" class="clear-facets">Show all</button>` };
+  }
+  return filterRow('Languages', options, state);
 }
 
 function render() {
   const r = report;
-  const groups = Object.entries(r.editions_by_language || {});
-  const body = groups.map(([code, editions]) => {
-    let shown = activeFacets.size
-      ? editions.filter((e) => activeFacets.has(e.language)) : editions;
-    if (chosen) shown = shown.filter((e) => e.work_group === chosen);
-    if (!shown.length) return '';
-    return `<section class="group">
+  // The chosen work is applied first and the language counts are taken after
+  // it: picking one of several books sharing a title changes how many editions
+  // each language holds, and a count that disagrees with the list under it is
+  // worse than no count.
+  const groups = Object.entries(r.editions_by_language || {})
+    .map(([code, editions]) => [code, chosen
+      ? editions.filter((e) => e.work_group === chosen) : editions])
+    .filter(([, editions]) => editions.length);
+
+  const shown = activeFacets.size
+    ? groups.filter(([code]) => activeFacets.has(code)) : groups;
+  const body = shown.map(([code, editions]) => `<section class="group">
       <div class="group-body">
         <div class="spine">
           <span class="code">${code === 'unknown' ? '&mdash;' : esc(code)}</span>
           <span class="name">${esc(r.language_names?.[code] || '')}</span>
-          <span class="count">${shown.length}</span>
+          <span class="count">${editions.length}</span>
         </div>
-        <ul class="editions">${shown.map(renderEdition).join('')}</ul>
+        <ul class="editions">${editions.map(renderEdition).join('')}</ul>
       </div>
-    </section>`;
-  }).join('');
+    </section>`).join('');
 
   const notes = (r.notes || [])
     .filter((n) => !n.startsWith('Incomplete:') && !/different books share this title/.test(n))
@@ -321,12 +395,18 @@ function render() {
     : '';
 
   // A filter that hides everything should say so, not render a blank page.
+  // A language filter can survive a change of chosen work and leave nothing to
+  // show — and then nothing in the filter row is ticked either, because the
+  // language is no longer among the work's. Name it here or the empty page has
+  // no visible cause.
   const empty = activeFacets.size && !body
-    ? `<p class="nothing">Nothing in the chosen language. <button type="button"
-         id="clear-facets">Show all languages</button></p>`
+    ? `<p class="nothing">Nothing in
+         ${esc(andList([...activeFacets].map((c) => r.language_names?.[c] || c)))}
+         for this book. <button type="button" class="clear-facets">Show all
+         languages</button></p>`
     : '';
-  results.innerHTML = renderOverview(r) + warning + chooser(r) + facetRow(r)
-    + body + empty + notesHtml;
+  results.innerHTML = renderOverview(r) + warning + chooser(r)
+    + languageFilter(r, groups) + body + empty + notesHtml;
   renderSources(r.sources);
   wire();
 }
@@ -343,12 +423,16 @@ function renderSources(sources) {
 function wire() {
   const retry = document.getElementById('retry');
   if (retry) retry.addEventListener('click', run);
-  const clear = document.getElementById('clear-facets');
-  if (clear) clear.addEventListener('click', () => { activeFacets = new Set(); render(); });
-  results.querySelectorAll('.choice').forEach((b) => {
+  results.querySelectorAll('.clear-facets').forEach((b) => {
+    b.addEventListener('click', () => { activeFacets = new Set(); render(); });
+  });
+  results.querySelectorAll('.clear-choice').forEach((b) => {
+    b.addEventListener('click', () => { chosen = ''; render(); });
+  });
+  results.querySelectorAll('[data-choice]').forEach((b) => {
     b.addEventListener('click', () => { chosen = b.dataset.choice; render(); });
   });
-  results.querySelectorAll('.facets button').forEach((b) => {
+  results.querySelectorAll('[data-facet]').forEach((b) => {
     b.addEventListener('click', () => {
       const code = b.dataset.facet;
       activeFacets.has(code) ? activeFacets.delete(code) : activeFacets.add(code);
@@ -468,14 +552,6 @@ filtersToggle.addEventListener('click', () => {
 
 FILTER_IDS.forEach((id) =>
   document.getElementById(id).addEventListener('input', describeFilters));
-
-document.querySelectorAll('.example').forEach((b) => {
-  b.addEventListener('click', () => {
-    document.getElementById('title').value = b.dataset.title;
-    document.getElementById('author').value = b.dataset.author || '';
-    run();
-  });
-});
 
 document.addEventListener('keydown', (e) => {
   const typing = /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName);

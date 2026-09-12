@@ -138,6 +138,12 @@ class Overview:
     found: bool = False
     original_inferred: bool = False
     original_basis: str = ""
+    # How the beginning is stated, phrased once here rather than separately by
+    # each client — the CLI and the web UI had drifted apart on exactly this.
+    origin: str = ""
+    # Several different books share the queried title. The overview then
+    # describes all of them together, so it cannot name one of their authors.
+    ambiguous: bool = False
 
 
 @dataclass

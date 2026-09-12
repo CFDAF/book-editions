@@ -115,6 +115,31 @@ SBN's *Rumori* is `780.07` — an exact match between titles sharing not one wor
 > titles — sitelinks carry disambiguators (`itwiki` for `Q208460` is
 > `1984 (romanzo)`, the label is `1984`).
 
+### The forward path (and why it was missing)
+
+Wikidata is the only step that hands back an **author** for free. When it has
+never heard of the work, `author` stayed `None` — and every author-keyed bridge
+below it was then skipped: no SBN author sweep, no sibling titles. Open Library
+had already named the author of the work it matched; the pipeline simply never
+picked it up.
+
+That is what made the tool asymmetric, and the asymmetry defeated its main use
+case — find a book in its original language, ask whether it is worth buying in
+Italian instead:
+
+| Query | Before | Why |
+|---|---|---|
+| *L'invenzione delle notizie* | eng + ita | SBN holds that exact title, and an SBN record names its authors, which the reverse path (below) then works from |
+| *The Invention of News* | **eng only** | SBN files the translation under its Italian title, so the title probe missed it — and with no author there was no sweep to catch it either |
+
+The same book, both times. The fix is four lines: adopt Open Library's author
+when Wikidata gave none. Only when the matched works **agree** on one, though —
+a title as ambiguous as *Noise* resolves to several unrelated works, and taking
+whichever came back first would sweep SBN for a bibliography at random.
+
+Both directions now report eng 2014 + ita 2015 (Einaudi), matched on Dewey
+`070.9`/`070.09`.
+
 ### The identifying-signal gate
 
 An edition is reported **only if** something ties it to *this* work: a shared
@@ -215,6 +240,23 @@ the only JSON interface SBN exposes. Works over HTTPS.
 | Group by language, not by work | Matches the question being asked |
 | Unknown language stays `unknown` | The original script folded blanks into English, inflating it |
 | Publication-history header, no verdict | Explicit user direction; see §1 |
+| One vocabulary for every filter | The year/publisher toggle, the book chooser and the language filter are the same gesture, so they share one look: blue ink, a doubled rule, no ticks. They render through `filterRow` for the same reason |
+| Two inks — red and blue, the bicolour school pencil | Blue = the catalogue (links, focus, what is selected). Red = the hand in the margin (the original, an inference, a degraded source). A third accent was removed so the reading stays unambiguous; the rule is stated at the top of `style.css` |
+| Year first in the imprint line | Within one work every row repeats the same title and author, so the year and publisher are the only fields that tell two editions apart — and the list is already sorted by year |
+| Language filters counted from the results, not from SBN's facets | SBN's `lingua` facet counts come from the *author sweep*, so they count the author's whole catalogue, not the work — see below |
+
+**The `lingua` facet is not a language filter.** `report.facets` is whatever
+SBN returned for the broadest probe, which is almost always the *author sweep*
+(`_collect_sbn_candidates` prefers it explicitly). For `Per una economia
+positiva` + Attali the facet says `francese 124` next to a result of exactly one
+Italian edition: SBN holds 124 French records **by Attali**, none of them this
+book. The UI used to print that row under the label "In SBN", greyed out the
+languages with no editions, and made the rest clickable — so the counts never
+agreed with the list below them, and the greyed entries advertised editions that
+did not exist. The row is now built from `editions_by_language` after the chosen
+work is applied, so every count equals the list under it and every entry filters
+to something. `report.facets` is still collected (it rides along on responses the
+pipeline already makes) but nothing renders it.
 
 **Latency:** cold is 30–45s, dominated by an intermittent connect stall to one
 Wikipedia host in this environment (curl is consistently 0.3s; one Python
@@ -284,6 +326,39 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 - **Byline could pair a known original language with a fallback year**, printing
   *"first published 1976 in inglese"* from an Italian edition's date. Fixed in
   the web UI, then found **identical in the CLI** — see §9.
+- **An original could not find its own translation.** See §4, *The forward
+  path*. Every author-keyed bridge was skipped whenever Wikidata missed, so
+  looking up an English title with no Wikipedia article returned its English
+  editions and stopped. The Italian title of the same book returned both.
+- **The CLI byline had drifted from the web UI's**, and carried the
+  aggregate-author bug on its own: `book_editions.py "Noise"` printed
+  *"Tsutomu Nihei"* over 25 editions of four different books. The origin phrase
+  is now built once, in `_origin_phrase`, and reaches both clients as
+  `overview.origin`; `overview.ambiguous` tells both when not to name an author.
+- **One book offered as four.** `_group_key` keyed an edition on its *first*
+  author's surname, and `surname()` cannot tell where a compound surname ends:
+  Open Library's comma-less "Gabriel García Márquez" reduced to `marquez`,
+  SBN's "García Márquez, Gabriel" to `garcia marquez`. Add Enrico Cicogna
+  (the Italian translator) credited as sole author on one record, and Gregory
+  Rabassa (the English translator) credited ahead of the author on two, and
+  *Cent'anni di solitudine* came back as four different books. Grouping is now
+  by *any* shared author, merged transitively, with known translators removed
+  from the author list first and translator-only records attached to the
+  largest group. The chooser for that title now correctly does not appear.
+- **The same person listed twice in one choice.** "Gabriel García Márquez;
+  Gabriel Garcia Marquez" — two catalogues disagreeing about diacritics, read
+  as a collaboration. `_add_author` compares on stripped tokens and keeps the
+  accented spelling.
+- **Byline did not follow the chooser.** The spans under it did (`spansFor`),
+  but the author and the first-publication claim kept describing the work the
+  *pipeline* resolved. Pick Kahneman's *Noise* and the header still read
+  "Tsutomu Nihei · earliest edition found 2003". Now `isResolvedWork` asks
+  whether the chosen book's authors are in `cluster.author_names`; if not, the
+  origin degrades to the honest *"earliest edition found &lt;the choice's own
+  first year&gt;"*, and the `original` marker is withheld from its spans. With
+  several books sharing a title and none chosen, the byline names **no** author
+  at all — the aggregate is not any one of them, and the chooser below lists
+  them all.
 
 ---
 
@@ -293,10 +368,12 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
   lacks a Dewey class or authors, you get one language only. A genuine data
   limit, not a code fix.
 - **Cold lookup 30–45s**, environment-dependent (see §6).
-- **Disambiguation keys on the first author's surname.** A book credited
-  differently across catalogues (editor-led volume, differing author order)
-  could split into two choices for one book. Deliberately biased toward
-  over-offering rather than silently merging two books.
+- **Disambiguation groups on any shared author.** Two editions are the same
+  book if one of their authors is the same person, merged transitively. Still
+  biased toward over-offering rather than silently merging two books, but it no
+  longer splits on spelling, author order, or a translator in the author field.
+  It *would* still split a book credited to disjoint author sets across
+  catalogues (an editor-led volume naming different editors).
 - **Inferred originals can name a reprint**, since Open Library's
   `first_publish_year` is per work record, not the true first edition.
 - **Enrichment budget** is `ENRICH_BUDGET = 45` full records per lookup. A work
@@ -310,10 +387,11 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 
 ## 9. If you pick this up next
 
-**Highest-value cleanup:** the byline/origin formatting is duplicated between
-`web/app.js` and `book_editions.py`. It was fixed in one and left broken in the
-other. Move it into the pipeline and have both front ends render a prepared
-string.
+**Done:** the byline/origin formatting used to be duplicated between
+`web/app.js` and `book_editions.py`, and was fixed in one while left broken in
+the other — twice. It now lives in `_origin_phrase` and reaches both front ends
+as `overview.origin`. Only the web UI's *chosen-work* case is still phrased
+client-side, because the choice exists only in the browser.
 
 **Do not regress:**
 
@@ -329,8 +407,8 @@ string.
 |---|---|
 | `Noise` + `Jacques Attali` | exactly 1 Italian: *Rumori*, Mazzotta 1978, Dewey 780.07, tr. Sergio Mancini, 74 holdings, BID `RAV0064979` |
 | `Verso un'ecologia della mente` | title *Steps to an Ecology of Mind*, original eng 1972, both Italian and English present (~16 / ~15) |
-| `Cent'anni di solitudine` | original **spa** 1967, English title present — proves it is not English-centric |
-| `The Invention of News` / `L'invenzione delle notizie` | both languages both ways — the Dewey `070.09`/`070.9` case |
+| `Cent'anni di solitudine` | original **spa** 1967, English title present — proves it is not English-centric; **no** disambiguation chooser, and the author named once, accented |
+| `The Invention of News` / `L'invenzione delle notizie` | both languages **both ways** — the Dewey `070.09`/`070.9` case. The English direction depends on adopting Open Library's author (§4) |
 | `La matrice sociale della psichiatria` | 2 choices (Ruesch/Bateson 1976, Shepherd 1990); inferred original *Communication*; **no** original year; no *Therapeutic communication* |
 | `Per una economia positiva` + author | exactly 1 Italian, no sibling leakage |
 | `The Essential Knuth` | no Italian edition, all sources `ok` |
