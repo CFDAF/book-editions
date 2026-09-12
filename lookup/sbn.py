@@ -111,8 +111,32 @@ def parse_publication(pubblicazione: str | None) -> tuple:
 
 
 def parse_dewey(value: str | None) -> str | None:
-    m = _DEWEY_RE.search(clean_text(value) or "")
-    return m.group(1) if m else None
+    codes = parse_dewey_all(value)
+    return codes[0] if codes else None
+
+
+def parse_dewey_all(value: str | None) -> list:
+    """Every Dewey number in the field, not just the first.
+
+    SBN runs several together without a separator, e.g.
+    '616.89 (18.) PSICHIATRIA616.85 (19.) MALATTIE NERVOSE', and the second one
+    is as good a matching signal as the first.
+    """
+    text = clean_text(value) or ""
+    seen, out = set(), []
+    # No word boundary before the number: SBN concatenates the previous caption
+    # straight onto it ('PSICHIATRIA616.85'), and a letter-to-digit transition is
+    # not a \b, so 616.85 was being read as 85. Look behind for digit-or-dot.
+    for m in re.finditer(r"(?<![\d.])(\d{1,3}(?:\.\d+)?)(?=\s*\(\d)", text):
+        code = m.group(1)
+        if code not in seen:
+            seen.add(code)
+            out.append(code)
+    if not out:
+        m = _DEWEY_RE.search(text)
+        if m:
+            out.append(m.group(1))
+    return out
 
 
 def _holdings(localizzazioni) -> list:
@@ -164,6 +188,9 @@ def to_edition(rec: dict, source="SBN") -> Edition:
 
     names = parse_labelled(rec.get("nomi"))
     translators = [v for label, v in names if label.lower().startswith("tradutt")]
+    # The authors are worth keeping: for an Italian title that Wikidata does not
+    # know, they are the only route back to the original work.
+    authors = [v for label, v in names if label.lower().startswith("autore")]
 
     isbn = rec.get("isbn")
     for label, value in parse_labelled(rec.get("numeri")):
@@ -191,10 +218,15 @@ def to_edition(rec: dict, source="SBN") -> Edition:
         dewey=parse_dewey(rec.get("classificazioneDewey")),
         physical=clean_text(rec.get("descrizioneFisica")),
         cover_url=rec.get("copertina") or None,
+        authors=authors,
         translators=translators,
         evidence=evidence,
         holdings=_holdings(rec.get("localizzazioni")),
     )
+
+
+def dewey_codes(rec: dict) -> list:
+    return parse_dewey_all(rec.get("classificazioneDewey"))
 
 
 def has_translation_evidence(edition: Edition) -> bool:

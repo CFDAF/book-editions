@@ -46,6 +46,7 @@ class Edition:
     physical: str | None = None
     dewey: str | None = None
     cover_url: str | None = None
+    authors: list = field(default_factory=list)
     translators: list = field(default_factory=list)
     evidence: list = field(default_factory=list)     # translation evidence only
     match_reasons: list = field(default_factory=list)  # why we think this is the same work
@@ -53,6 +54,10 @@ class Edition:
     buy_links: list = field(default_factory=list)
     confidence: str = UNCONFIRMED
     score: float = 0.0
+    # Author-only searches list works rather than single editions, so a row
+    # summarises several editions instead of describing one.
+    edition_count: int | None = None
+    available_languages: list = field(default_factory=list)
 
     def dedupe_keys(self):
         """Keys this edition may be merged on, most to least authoritative."""
@@ -81,6 +86,7 @@ class TitleCluster:
     original_language: str | None = None
     original_year: str | None = None
     author_names: list = field(default_factory=list)
+    authors: list = field(default_factory=list)
     translators: list = field(default_factory=list)
     url: str | None = None
 
@@ -105,6 +111,7 @@ class Verdict:
 
 @dataclass
 class Report:
+    mode: str = "work"                   # work | author
     query_title: str | None = None
     query_author: str | None = None
     asked_language: str = "unknown"      # language the user's title was in

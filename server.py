@@ -93,8 +93,15 @@ class Handler(BaseHTTPRequestHandler):
         )
         payload = report.to_dict()
         # The UI needs display names for language codes it has never seen.
-        payload["language_names"] = {code: langs.display(code)
-                                     for code in report.editions_by_language}
+        # Iterate the serialised payload, not the dataclass: Edition objects
+        # have no .get(), and the rows here are already plain dicts.
+        mentioned = set(payload["editions_by_language"])
+        for group in payload["editions_by_language"].values():
+            for edition in group:
+                mentioned.update(edition.get("available_languages") or [])
+        if report.cluster.original_language:
+            mentioned.add(report.cluster.original_language)
+        payload["language_names"] = {code: langs.display(code) for code in mentioned}
         return self._json(payload)
 
     def _api_record(self, query):

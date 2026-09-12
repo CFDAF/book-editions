@@ -244,6 +244,90 @@ def _enrich(bid):
 
 
 # ---------------------------------------------------------------------------
+# Reverse expansion: from a confirmed Italian edition back to the original
+# ---------------------------------------------------------------------------
+
+def _reverse_expand(italian: list, known_titles: list) -> tuple:
+    """(editions, notes) — find the original work behind an Italian translation.
+
+    Needed when Wikidata has never heard of the book, which leaves no foreign
+    title to search Open Library with, so the lookup would otherwise report the
+    Italian editions alone and nothing else.
+
+    SBN records no original title; the only translation trace is a note naming
+    the translator. What it does record is the authors and a Dewey class, and
+    together those are enough: 'La matrice sociale della psichiatria' gives
+    Ruesch and Bateson at 616.89, and Open Library holds their 'Communication'
+    at ddc 616.89. The forward mechanism, pointed the other way.
+
+    Worked per record, never pooled across them. Two SBN records can share an
+    Italian title while being different books — that exact title is Ruesch and
+    Bateson in 1976 and Michael Shepherd in 1990 — so pooling their authors
+    demands a work by all three and finds nothing.
+    """
+    notes, keys = [], []
+    described = None
+
+    for edition in italian[:3]:
+        codes = [edition.dewey] if edition.dewey else []
+        # Dewey alone is coarse: 616.89 is all of psychiatry, and by itself it
+        # matched Ruesch's unrelated 'Therapeutic communication' just as well.
+        # Requiring every credited author is what discriminates.
+        required = set()
+        for name in edition.authors:
+            required |= normalize(surname(name))
+        if not required or not codes:
+            continue
+
+        def per_author(name):
+            try:
+                return ol.search_works(author=name, limit=60)
+            except SourceError:
+                return []
+
+        with ThreadPoolExecutor(max_workers=3) as pool:
+            batches = list(pool.map(per_author, edition.authors[:3]))
+
+        for docs in batches:
+            for doc in docs:
+                ddc = doc.get("ddc") or []
+                if not ddc:
+                    continue
+                # Dewey known on both sides and disagreeing means a different
+                # work, so this rejects rather than merely failing to confirm.
+                if not any(_dewey_affinity(c, ddc) >= 0.18 for c in codes):
+                    continue
+                credited = set()
+                for candidate in doc.get("author_name") or []:
+                    credited |= normalize(candidate)
+                if not required <= credited:
+                    continue
+                if _variant_affinity(doc.get("title", ""), known_titles) >= 0.6:
+                    continue        # that is the Italian edition, not the original
+                key = (doc.get("key") or "").replace("/works/", "")
+                if key and key not in keys:
+                    keys.append(key)
+                    described = described or (edition.authors, codes[0])
+
+    if not keys:
+        return [], []
+
+    editions, _ = ol.expand(keys[:3])
+    found = []
+    for e in editions:
+        _tag(e, "Dewey and authorship agreement")
+        e.confidence = MEDIUM      # weaker than a Wikidata-confirmed title
+        found.append(e)
+
+    who = " and ".join(a.split(",")[0] for a in described[0])
+    notes.append(
+        "Wikidata did not know this title, so the original was found through the "
+        f"Italian record's authors ({who}) and Dewey class ({described[1]}) instead "
+        "— a weaker match than a confirmed title, so shown as medium confidence")
+    return found, notes
+
+
+# ---------------------------------------------------------------------------
 # Classification
 # ---------------------------------------------------------------------------
 
@@ -310,6 +394,12 @@ def _build_verdict(report, cluster, italian) -> Verdict:
 
 def lookup(title=None, author=None, year_from=None, year_to=None,
            publisher=None, use_google=True) -> Report:
+    # An author with no title is a different question — every book they wrote,
+    # not every edition of one book — and needs the other pipeline.
+    if author and not title:
+        return lookup_author(author, year_from=year_from, year_to=year_to,
+                             publisher=publisher)
+
     report = Report(query_title=title, query_author=author)
     editions = []
     isbns = set()
@@ -447,6 +537,19 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         report.sources["SBN"] = f"error: {exc}"
         report.errors.append(f"SBN: {exc}")
 
+    # --- 4b. No cluster and nothing but Italian? Work backwards -------------
+    if not cluster:
+        so_far = _dedupe(editions)
+        italian = [e for e in so_far if e.language == "ita" and (e.authors or e.dewey)]
+        other = [e for e in so_far if e.language not in ("ita", langs.UNKNOWN)]
+        if italian and not other:
+            try:
+                extra, extra_notes = _reverse_expand(italian, [e.title for e in italian])
+                editions += extra
+                report.notes += extra_notes
+            except SourceError as exc:
+                report.errors.append(f"Open Library (reverse lookup): {exc}")
+
     # --- 5. Classify, filter, group -----------------------------------------
     editions = _dedupe(editions)
     editions = [e for e in editions if _passes(e, year_from, year_to, publisher)]
@@ -494,3 +597,112 @@ def _language_order(grouped, report, cluster) -> list:
     if langs.UNKNOWN in grouped:
         order.append(langs.UNKNOWN)
     return order
+
+
+# ---------------------------------------------------------------------------
+# Author-only lookup
+# ---------------------------------------------------------------------------
+
+AUTHOR_WORK_LIMIT = 200
+
+
+def _author_key(title: str) -> str:
+    return " ".join(sorted(normalize(title)))
+
+
+def lookup_author(author: str, year_from=None, year_to=None, publisher=None) -> Report:
+    """Every book by one author, one row per work rather than per edition.
+
+    A different question from "which editions of this book exist", so it needs a
+    different shape: there is no single work to identify, which means the
+    identifying-signal gate that protects a title lookup does not apply here —
+    everything by the author genuinely belongs in the answer.
+    """
+    report = Report(mode="author", query_author=author)
+    rows = {}
+
+    # --- Open Library: the works, with edition counts and languages ---------
+    try:
+        for doc in ol.search_works(author=author, limit=AUTHOR_WORK_LIMIT):
+            edition = ol.work_doc_to_edition(doc)
+            if not edition.title:
+                continue
+            edition.edition_count = doc.get("edition_count") or None
+            edition.available_languages = [
+                c for c in (langs.from_openlibrary(x) for x in doc.get("language") or [])
+                if c != langs.UNKNOWN]
+            edition.confidence = HIGH
+            edition.match_reasons = ["Open Library work"]
+            rows[_author_key(edition.title)] = edition
+        report.sources["Open Library"] = "ok"
+    except SourceError as exc:
+        report.sources["Open Library"] = f"error: {exc}"
+        report.errors.append(f"Open Library: {exc}")
+
+    # --- SBN: which of them exist in Italy, and in what language ------------
+    try:
+        records, facets = sbn.search(author=author, rows=500)
+        report.facets = facets
+
+        # One representative record per distinct title; only the full record
+        # carries the language, so the budget is spent on titles not copies.
+        by_title = {}
+        for rec in records:
+            bid = sbn.short_bid(rec.get("codiceIdentificativo"))
+            title = sbn.sbn_title_of(sbn.clean_text(rec.get("titolo")) or "")
+            if not bid or not title:
+                continue
+            by_title.setdefault(_author_key(title), (bid, rec))
+
+        chosen = list(by_title.items())[:ENRICH_BUDGET]
+        with ThreadPoolExecutor(max_workers=ENRICH_WORKERS) as pool:
+            enriched = list(pool.map(lambda kv: _enrich(kv[1][0]), chosen))
+
+        for (key, _), edition in zip(chosen, enriched):
+            if edition is None:
+                continue
+            edition.confidence = HIGH
+            edition.match_reasons = ["SBN author search"]
+            existing = rows.get(key)
+            if existing:
+                _merge_into(existing, edition)
+                if edition.language != langs.UNKNOWN and \
+                        edition.language not in existing.available_languages:
+                    existing.available_languages.append(edition.language)
+            else:
+                edition.available_languages = (
+                    [edition.language] if edition.language != langs.UNKNOWN else [])
+                rows[key] = edition
+
+        if len(by_title) > ENRICH_BUDGET:
+            report.notes.append(
+                f"SBN: {len(by_title)} distinct titles by this author, "
+                f"top {ENRICH_BUDGET} fetched in full")
+        report.sources["SBN"] = "ok"
+    except SourceError as exc:
+        report.sources["SBN"] = f"error: {exc}"
+        report.errors.append(f"SBN: {exc}")
+
+    report.sources.setdefault("Wikidata", "skipped (not needed for an author search)")
+    if not googlebooks.available():
+        report.sources["Google Books"] = "skipped (no API key)"
+
+    editions = [e for e in rows.values() if _passes(e, year_from, year_to, publisher)]
+    for e in editions:
+        e.buy_links = buylinks.for_edition(e.isbn, e.title, author)
+
+    grouped = {}
+    for e in sorted(editions, key=lambda e: (e.year or "9999", e.title)):
+        grouped.setdefault(e.language, []).append(e)
+    report.editions_by_language = {
+        code: grouped[code] for code in _language_order(grouped, report, None)}
+
+    in_italian = len(grouped.get("ita", []))
+    report.verdict = Verdict(
+        headline=f"{len(editions)} works by {author}.",
+        detail=(f"{in_italian} with an Italian edition in SBN." if in_italian
+                else "None found with an Italian edition."),
+        confidence=HIGH if editions else LOW,
+        has_italian=bool(in_italian),
+    )
+    return report

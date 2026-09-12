@@ -493,6 +493,27 @@ body {
 .facets button:hover { color: var(--ink); }
 .facets button[aria-pressed="true"] { color: var(--accent); }
 .facets .sep { padding: 0 .5em; color: var(--rule-firm); }
+.facets button { border-bottom: 1px solid var(--rule); }
+.facets button:hover { border-bottom-color: var(--accent); }
+.facets .absent { color: var(--ink-faint); cursor: help; }
+.facets-note {
+  display: block;
+  margin-top: .35rem;
+  max-width: 54ch;
+  color: var(--ink-faint);
+}
+
+.nothing {
+  margin: 2rem 0 0 1.25rem;
+  padding-left: 1.25rem;
+  font-size: .9rem;
+  color: var(--ink-soft);
+}
+.nothing button {
+  padding: 0; border: 0; background: none; cursor: pointer;
+  color: var(--accent); font: inherit;
+  border-bottom: 1px solid var(--rule);
+}
 
 /* ----------------------------------------------------------- states, notes */
 

@@ -90,11 +90,16 @@ function renderHoldings(holdings) {
 
 function renderEdition(e) {
   const role = e.role !== 'reprint' ? `<span class="role">${esc(e.role)}</span>` : '';
+  const others = (e.available_languages || [])
+    .filter((c) => c !== e.language)
+    .map((c) => report?.language_names?.[c] || c);
   const imprint = joined([
     e.publisher ? esc(e.publisher) : null,
     year(e) ? esc(year(e)) : null,
     e.series ? esc(e.series) : null,
     e.isbn ? `<span class="isbn">${esc(e.isbn)}</span>` : null,
+    e.edition_count ? `${e.edition_count} edition${e.edition_count === 1 ? '' : 's'}` : null,
+    others.length ? `also in ${esc(others.join(', '))}` : null,
   ]);
 
   const evidence = (e.evidence || []).length
@@ -135,13 +140,32 @@ function renderEdition(e) {
   </li>`;
 }
 
+// These counts are SBN's own, across every record the search touched — not
+// counts of what is listed below. Offering all of them as filters meant
+// clicking a language we hold no editions in emptied the page for no stated
+// reason. Only languages actually present are clickable now; the rest are shown
+// as what they are, context from the catalogue.
 function facetRow(r) {
   const langFacet = (r.facets || []).find((f) => f.facetName === 'lingua');
   if (!langFacet) return '';
-  const buttons = langFacet.facetValues.slice(0, 8).map(([label, code, count]) =>
-    `<button type="button" data-facet="${esc(code)}" aria-pressed="${activeFacets.has(code)}">
-      ${esc(label)} <span class="count">${esc(count)}</span></button>`).join('<span class="sep">/</span>');
-  return `<p class="facets"><span class="label">Across SBN</span> ${buttons}</p>`;
+  const present = new Set(Object.keys(r.editions_by_language || {}));
+  let filterable = 0;
+
+  const items = langFacet.facetValues.slice(0, 8).map(([label, code, count]) => {
+    const n = `<span class="count">${esc(count)}</span>`;
+    if (present.has(code)) {
+      filterable += 1;
+      return `<button type="button" data-facet="${esc(code)}"
+        aria-pressed="${activeFacets.has(code)}">${esc(label)} ${n}</button>`;
+    }
+    return `<span class="absent" title="SBN holds ${esc(count)} record(s) in ${esc(label)}, but none of them matched this work">${esc(label)} ${n}</span>`;
+  }).join('<span class="sep">/</span>');
+
+  const note = filterable < langFacet.facetValues.slice(0, 8).length
+    ? `<span class="facets-note">Greyed languages are records SBN holds for this
+        search that did not match this work.</span>`
+    : '';
+  return `<p class="facets"><span class="label">In SBN</span> ${items} ${note}</p>`;
 }
 
 function render() {
@@ -168,7 +192,12 @@ function render() {
         ? `<li class="warn">${esc(n.slice(1))}</li>` : `<li>${esc(n)}</li>`).join('')}</ul>`
     : '';
 
-  results.innerHTML = renderVerdict(r) + facetRow(r) + body + notesHtml;
+  // A filter that hides everything should say so, not render a blank page.
+  const empty = activeFacets.size && !body
+    ? `<p class="nothing">Nothing in the chosen language. <button type="button"
+         id="clear-facets">Show all languages</button></p>`
+    : '';
+  results.innerHTML = renderVerdict(r) + facetRow(r) + body + empty + notesHtml;
   renderSources(r.sources);
   wire();
 }
@@ -183,6 +212,8 @@ function renderSources(sources) {
 /* -------------------------------------------------------------- interaction */
 
 function wire() {
+  const clear = document.getElementById('clear-facets');
+  if (clear) clear.addEventListener('click', () => { activeFacets = new Set(); render(); });
   results.querySelectorAll('.facets button').forEach((b) => {
     b.addEventListener('click', () => {
       const code = b.dataset.facet;
