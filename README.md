@@ -1,9 +1,12 @@
 # Book editions
 
 See when a book first appeared and every edition since, in any language. Search
-by title in any of those languages, or by author alone. Useful for telling when
-a work was originally published, whether a translation exists and how long after
-the original it arrived, and where to get a copy.
+by title in any of those languages, or by author alone.
+
+Mainly for one thing: you have come across a book, and you want to know whether
+an Italian translation exists — and if so, from whom and when — before deciding
+which one to buy. It works from either end, the original title or the Italian
+one, and tells you where to get a copy of whichever you pick.
 
 ```bash
 pip install requests
@@ -23,32 +26,47 @@ count, the languages it exists in, and how many have an Italian edition in SBN.
 
 The header is a publication history: the original title, the author, when and in
 what language it first appeared, and one row per language with its year span and
-edition count — so the gap between an original and its translations is visible
-rather than something you work out from a list.
+edition count.
 
 ```
 Steps to an Ecology of Mind
 Gregory Bateson · first published 1972 in inglese · 36 editions in 6 languages
 
-  inglese   ORIGINAL  ▇▇▇▇▇▇▇▇▇�afterwards           1972–2000   15
-  italiano            ░░▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇             1976–2016   17
-  spagnolo                        ▪                       1993    1
+  inglese  ORIGINAL   ━━━━━━━━━━━━━━──────────────   1972–2000   15
+  italiano            ────━━━━━━━━━━━━━━━━━━━━━━━   1976–2016   16
+  spagnolo            ────────────━───────────────        1993    1
 ```
 
-Below that, every edition grouped by language, newest first, each with author,
-title, publisher and year — expandable for the translator, the physical
-description, which libraries hold it, and where to buy it.
+Each language is a bar on one shared time axis, so the gap between an original
+and its translations is something you see rather than work out.
+
+Below that, every edition grouped by language, newest first, each led by its
+year and publisher — the two fields that tell editions of one book apart — and
+expandable for the translator, the physical description, which libraries hold a
+copy, and where to buy one.
+
+Two filters sit between the header and the list, and work the same way as each
+other: pick one or more **languages**, and — when several different books share
+the title you searched — pick **which book** you meant. Whatever is on is blue,
+with a line underneath saying in words what is showing and what that hides.
+
+The page uses two inks and only two, borrowed from the red-and-blue bicolour
+pencil. Blue is the catalogue: links, and whatever you have selected. Red is a
+mark in the margin: which language is the original, which editions are first
+printings, a claim resting on inference rather than on a catalogue record, a
+source that came back incomplete. If something is red, it is being pointed at.
 
 ## How the matching works
 
 No free catalogue records a link between a translation and its original. Open
 Library has no `translation_of` field, and SBN records carry no uniform title.
-Two mechanisms fill the gap, and both are needed:
+Three mechanisms fill the gap, and any one of them suffices:
 
 | Mechanism | Precision | Recall |
 |---|---|---|
 | **Wikidata** via Wikipedia sitelinks and labels | high | needs a Wikipedia article |
 | **Dewey agreement** between Open Library and SBN | good | needs both sides classified |
+| **Shared ISBN** | exact | modern books only |
 
 Dewey is the interesting one. It is numeric, therefore language-neutral. Attali's
 *Bruits/Noise* is classified `306.484` / `780.07` in Open Library and SBN's
@@ -62,15 +80,35 @@ is not enough, so an author sweep does not drag in everything they ever wrote.
 (That gate applies to title lookups. An author search has no single work to
 identify, so everything by the author belongs in the answer and it does not.)
 
-The same pair runs in reverse when Wikidata has never heard of an Italian title,
-which would otherwise leave the original undiscoverable. SBN records no original
-title — only a note naming the translator — but it does record the authors and a
-Dewey class, and that is enough: *La matrice sociale della psichiatria* gives
-Ruesch and Bateson at `616.89`, which finds their *Communication* in Open
-Library at ddc `616.89`. Dewey at that granularity is coarse (`616.89` is all of
-psychiatry) so every credited author must match too, which is what keeps
-Ruesch's unrelated *Therapeutic communication* out. These matches are reported as
-medium confidence, being weaker than a confirmed title.
+Going the other way — from a book you have just discovered to whether it is
+worth buying in Italian — takes one more step, because SBN files a translation
+under its *Italian* title and searching SBN for the original title cannot find
+it. What crosses that gap is a sweep of every record SBN holds by the author,
+sifted by the same Dewey test. That needs an author, and Wikidata is the only
+source that hands one back for free, so a book with no Wikipedia article used to
+have none and the sweep never ran. Open Library has normally matched the work by
+that point and named its author, so that is where the author now comes from —
+but only when the matched works agree on one, since a title as ambiguous as
+*Noise* resolves to four unrelated works. *The Invention of News* finds the 2015
+Einaudi translation this way, on Dewey `070.9` against `070.09`.
+
+Titles are not unique, so editions are grouped into works by shared authorship:
+two editions are the same book if any one of their authors is the same person,
+merged onwards from there. Catalogues disagree about diacritics, about where a
+compound surname ends and about author order, and SBN sometimes files a
+translator in the author field — so the comparison is on surname tokens with
+known translators removed first. When more than one book is left, the page says
+so and offers the choice rather than blending them into one answer.
+
+The Wikidata-and-Dewey pair also runs in reverse, when Wikidata has never heard
+of an Italian title and the original would otherwise be undiscoverable. SBN
+records no original title — only a note naming the translator — but it does
+record the authors and a Dewey class, and that is enough: *La matrice sociale
+della psichiatria* gives Ruesch and Bateson at `616.89`, which finds their
+*Communication* in Open Library at ddc `616.89`. Dewey at that granularity is
+coarse (`616.89` is all of psychiatry) so every credited author must match too,
+which is what keeps Ruesch's unrelated *Therapeutic communication* out. These
+matches are reported as medium confidence, being weaker than a confirmed title.
 
 What that path finds is also used to name the work: the original's title,
 language and — where the arithmetic allows — its year are taken from the matched
@@ -89,7 +127,6 @@ Bateson's *Communication*, which is a reprint, while the Italian translation is
 | Open Library | editions, Dewey classes | none |
 | SBN / ICCU | Italian editions, translator evidence, library holdings | none |
 
-
 SBN is reached through the undocumented ICCU mobile gateway (`search.json`, and
 `full.json?bid=`, which is the only place a record's language, Dewey, translator
 and holdings appear). It sends no CORS headers, which is why this ships with a
@@ -97,7 +134,7 @@ small server instead of being a static page.
 
 ## Notes
 
-- A first lookup queries four catalogues live and can take up to a minute; the
+- A first lookup queries three catalogues live and can take up to a minute; the
   Wikipedia/Wikidata leg dominates. Results are cached in `.cache/` for 24h, so
   repeats and filter changes return in milliseconds. Delete `.cache/` to refresh.
 - Year and publisher filters are applied locally for SBN, which accepts neither
@@ -113,7 +150,11 @@ small server instead of being a static page.
   the page says editions are probably missing — a dropped request can remove an
   entire language, which would otherwise be indistinguishable from that language
   genuinely having none. Searching again fills the gaps from cache.
-- The `IN SBN` language counts are SBN's own, across every record a search
-  touched — not counts of what is listed. Only languages actually present are
-  clickable filters; the rest are greyed, since filtering by them would empty
-  the page.
+- The language counts beside the filters count the editions listed below them
+  and nothing else, and follow the chosen book. SBN returns counts of its own,
+  but they come from the sweep of the *author's* whole catalogue, so they answer
+  a question nobody asked — 124 French records by Attali above a result of one
+  Italian edition — and are not shown.
+- Two codes sit beside each edition, both explained on hover: the Dewey class it
+  is shelved under, and its SBN record number, the permanent id for that record
+  in the Italian national union catalogue.

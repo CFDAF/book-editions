@@ -15,6 +15,12 @@ every edition since, grouped by language. That answers, in one view:
 - which editions exist, from whom, in what year
 - where can I get a copy — in print, or from an Italian library
 
+The second of those is the one the tool exists for, stated by the user directly:
+*discover a book, then find out whether an Italian translation exists before
+deciding which one to buy.* That sentence is worth keeping in view — going from
+an original to its translation was quietly broken for most of the build (§4,
+*The forward path*), and nothing in the output said so.
+
 Italian is the focus of the data work, not of the framing: it is the language
 with a good national catalogue (SBN) and no API, so most of the engineering went
 there. It is displayed as one language among the rest.
@@ -53,20 +59,29 @@ python book_editions.py --author "Gregory Bateson"
 ## 3. Architecture
 
 ```
-book_editions.py   CLI entry point (222 lines)
+book_editions.py   CLI entry point (210 lines)
 server.py          ThreadingHTTPServer: /api/* + static web/ (164)
 lookup/
   net.py           thread-local pooled Session, disk cache, Tally (132)
   matching.py      normalise/score titles, author display (112)
   langs.py         one language vocabulary across 3 sources (105)
-  models.py        Edition, Overview, TitleCluster, Report (159)
+  models.py        Edition, Overview, TitleCluster, Report (165)
   wikidata.py      bidirectional title crosswalk (284)
   openlibrary.py   editions, works, Dewey (283)
   sbn.py           SBN/ICCU client + parsers (254)
   buylinks.py      deterministic retailer deep links (47)
-  pipeline.py      orchestration, scoring, disambiguation (926)
-web/               index.html, app.js (503), style.css (695)
+  pipeline.py      orchestration, scoring, disambiguation (1061)
+web/               index.html (50), app.js (579), style.css (695)
 ```
+
+Both front ends render the same `Report`. Anything that is *phrasing* rather
+than data belongs in the pipeline — `overview.origin` and `overview.ambiguous`
+exist because the alternative was the CLI and the web UI wording the same
+sentence separately, and being fixed separately, and drifting again (§7).
+
+The visual rules are stated at the top of `web/style.css` and are not
+decoration: two inks with fixed meanings, and no boxes or fills anywhere.
+Read that header before touching the UI.
 
 **Why there is a backend at all:** SBN sends **no `Access-Control-Allow-Origin`
 header of any kind**, so a browser cannot call it from a static page. The server
@@ -378,6 +393,9 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
   `first_publish_year` is per work record, not the true first edition.
 - **Enrichment budget** is `ENRICH_BUDGET = 45` full records per lookup. A work
   with more SBN records than that shows a ranked subset, stated in a note.
+- **`langs.py` has no Italian name for every code.** Rarer ones fall through to
+  the raw ISO 639-2 code, so *Cent'anni di solitudine* lists `kor` and `guj`
+  beside *giapponese* and *turco*. Cosmetic, and a one-line fix per language.
 - **Buy links are search URLs**, not live stock or price.
 - Libraccio has **no** buy link: its search is an ASP.NET POST form, so no GET
   deep link exists. Verified-200 stores only: IBS, Amazon.it, Feltrinelli,
@@ -387,7 +405,19 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 
 ## 9. If you pick this up next
 
-**Done:** the byline/origin formatting used to be duplicated between
+**Highest-value next:** there are still **no automated tests**, and the pure
+functions are exactly the ones with known-tricky inputs — `matching.py`,
+`langs.py`, the `sbn.py` parsers, `pipeline._dewey_affinity`,
+`pipeline._identifies`, `pipeline._assign_groups` and `pipeline._origin_phrase`.
+All are deterministic and need no network. Every regression case below is
+currently an assertion someone has to run by hand and read.
+
+`pipeline.py` is past a thousand lines and is now the only file doing real work.
+The seam is already marked: `lookup()` is written as numbered steps (1, 2, 4,
+4b, 5 — step 3 was Google Books, §6), and lifting the SBN candidate collection
+and scoring out of it would disturb nothing else.
+
+**Recently closed:** the byline/origin formatting used to be duplicated between
 `web/app.js` and `book_editions.py`, and was fixed in one while left broken in
 the other — twice. It now lives in `_origin_phrase` and reaches both front ends
 as `overview.origin`. Only the web UI's *chosen-work* case is still phrased
@@ -400,6 +430,11 @@ client-side, because the choice exists only in the browser.
 - Don't loosen the identifying gate or `IDENTIFYING_TITLE_MATCH` without
   re-checking *L'ordine delle notizie* and *Quale socialismo, quale Europa*.
 - Don't send unwhitelisted params to SBN (§5, trap 1).
+- Don't put SBN's own `lingua` facet counts back in front of the reader (§6).
+  They count the author's catalogue, not the work.
+- Don't key work grouping on the first author alone (§7). Compound surnames,
+  diacritics, author order and translators-as-authors all break it.
+- Don't phrase the same sentence separately in the CLI and the web UI (§3).
 
 ### Regression cases (all currently pass)
 
@@ -414,6 +449,7 @@ client-side, because the choice exists only in the browser.
 | `The Essential Knuth` | no Italian edition, all sources `ok` |
 | `Noise` (no author) | ≥3 disambiguation choices (Kahneman, Patterson, Wild, Nihei) |
 | `--author "Gregory Bateson"` | author mode, ~75 works, ~20 with an Italian edition |
+| `book_editions.py "Noise"` | byline names **no** author — four books share the title |
 | SBN `CFI1172094` | classified **English** despite `paesePubblicazione: ITALIA` |
 | SBN `CFI1183309` | translation detected from `note` alone |
 

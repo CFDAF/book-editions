@@ -396,9 +396,9 @@ function render() {
 
   // A filter that hides everything should say so, not render a blank page.
   // A language filter can survive a change of chosen work and leave nothing to
-  // show — and then nothing in the filter row is ticked either, because the
-  // language is no longer among the work's. Name it here or the empty page has
-  // no visible cause.
+  // show — and then nothing in the filter row reads as active either, because
+  // the language is no longer among the work's. Name it here or the empty page
+  // has no visible cause.
   const empty = activeFacets.size && !body
     ? `<p class="nothing">Nothing in
          ${esc(andList([...activeFacets].map((c) => r.language_names?.[c] || c)))}
@@ -492,7 +492,7 @@ async function run() {
   submit.setAttribute('aria-busy', 'true');
   submit.textContent = 'Looking…';
   results.innerHTML = `<p class="waiting">Searching the catalogues…</p>
-    <p class="waiting-note">Four catalogues, queried live. A title you have not
+    <p class="waiting-note">Three catalogues, queried live. A title you have not
       looked up before can take up to a minute; the same lookup again is instant.</p>`;
 
   const abort = new AbortController();
