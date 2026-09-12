@@ -46,11 +46,30 @@ SIBLING_PROBES = 10      # Italian sibling titles probed against SBN
 # wrongly presented as an edition of it.
 DEWEY_MIN_PREFIX = 6
 
+# Title similarity that counts as identifying a work on its own.
+IDENTIFYING_TITLE_MATCH = 0.6
+
+
+def _dewey_key(code: str) -> str:
+    """Normalise Dewey notation so the same class compares equal.
+
+    Cataloguers pad the decimal part differently: Open Library has 'The
+    Invention of News' at 070.09 and SBN has the Einaudi translation at 070.9.
+    Both mean history of journalism, but as strings they share only '070.',
+    which is too little to match on. Stripping leading and trailing zeros from
+    the fraction makes them identical without merging genuinely distinct
+    classes — 306.4 and 306.484 stay apart, as do 616.89 and 616.85.
+    """
+    whole, _, frac = (code or "").strip().partition(".")
+    frac = frac.strip().lstrip("0").rstrip("0")
+    return f"{whole}.{frac}" if frac else whole
+
 
 def _dewey_affinity(dewey: str | None, original_ddc: list) -> float:
     """How strongly a Dewey class agrees with the original work's classes."""
     if not dewey or not original_ddc:
         return 0.0
+    key = _dewey_key(dewey)
     best = 0.0
     for ddc in original_ddc:
         ddc = (ddc or "").strip()
@@ -58,6 +77,9 @@ def _dewey_affinity(dewey: str | None, original_ddc: list) -> float:
             continue
         if dewey == ddc:
             return 0.35
+        if key and key == _dewey_key(ddc):
+            best = max(best, 0.32)      # same class, different zero padding
+            continue
         shared = len(os.path.commonprefix([dewey, ddc]))
         if shared >= DEWEY_MIN_PREFIX and (dewey.startswith(ddc) or ddc.startswith(dewey)):
             best = max(best, 0.18)
@@ -99,7 +121,11 @@ def _identifies(e: Edition, reason: str, variants: list, original_ddc: list) -> 
     """
     if reason == "isbn match":
         return True
-    if _variant_affinity(e.title, variants) >= 0.45:
+    # A short title needs a strong match to identify a work. At 0.45,
+    # "L'ordine delle notizie" qualified as an edition of "L'invenzione delle
+    # notizie" on the strength of one shared word. The correct record matches on
+    # its core title at 1.0, so the bar can be well above half.
+    if _variant_affinity(e.title, variants) >= IDENTIFYING_TITLE_MATCH:
         return True
     if _dewey_affinity(e.dewey, original_ddc) >= 0.18:
         return True

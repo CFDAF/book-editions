@@ -9,10 +9,25 @@ import re
 import unicodedata
 from typing import Optional
 
+# Function words only. The original list had "della" but not "delle", which
+# made "delle" count as a meaningful token: "L'ordine delle notizie" then scored
+# 0.67 against "L'invenzione delle notizie" while the correct record scored 0.43,
+# ranking a different book above the right one.
 STOPWORDS = {
+    # English
     "the", "a", "an", "of", "and", "or", "in", "on", "to", "for", "is",
-    "at", "by", "with", "from", "as", "essai", "sur", "la", "le", "les",
-    "di", "del", "della", "il", "lo", "un", "una",
+    "at", "by", "with", "from", "as", "its", "that", "this", "into", "about",
+    "be", "are", "was", "were", "it", "his", "her", "their", "how",
+    # Italian
+    "la", "le", "lo", "il", "gli", "un", "una", "uno",
+    "di", "del", "dei", "degli", "della", "delle", "dello",
+    "al", "alla", "alle", "ai", "agli", "allo",
+    "dal", "dalla", "dalle", "dai", "dagli",
+    "nel", "nella", "nelle", "nei", "negli",
+    "sul", "sulla", "sulle", "sui", "sugli",
+    "con", "per", "tra", "fra", "che", "non", "ed", "come",
+    # French / Spanish fragments that turn up in original titles
+    "les", "des", "du", "sur", "essai", "el", "los", "las", "y",
 }
 
 
