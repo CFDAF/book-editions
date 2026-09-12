@@ -59,14 +59,30 @@ def print_text(reports: list):
             print("\n  No editions found.")
         else:
             print(f"\n  {o.title}")
+            # Never pair a known original language with a fallback year: the
+            # year would come from an Italian edition and the language from the
+            # English original, making "first published 1976 in inglese" false.
+            if o.original_year and o.original_language_name:
+                origin = f"first published {o.original_year} in {o.original_language_name}"
+            elif o.original_year:
+                origin = f"first published {o.original_year}"
+            elif o.original_language_name:
+                origin = f"originally in {o.original_language_name}"
+                if o.first_year_seen:
+                    origin += f", earliest edition found {o.first_year_seen}"
+            elif o.first_year_seen:
+                origin = f"earliest edition found {o.first_year_seen}"
+            else:
+                origin = None
+
             byline = " · ".join(filter(None, [
                 "; ".join(o.authors) or None,
-                (f"first published {o.original_year or o.first_year_seen}"
-                 + (f" in {o.original_language_name}" if o.original_language_name else ""))
-                if (o.original_year or o.first_year_seen) else None,
+                origin,
                 f"{o.total_editions} editions in {len(o.spans)} language(s)",
             ]))
             print(f"  {byline}")
+            if o.original_inferred:
+                print(f"  (original identified by inference{': ' + o.original_basis if o.original_basis else ''})")
             print()
             for sp in o.spans:
                 years = "—"
