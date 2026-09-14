@@ -32,7 +32,17 @@ from .models import (HIGH, LOW, MEDIUM, ORIGINAL, REPRINT, TRANSLATION,
                      TitleCluster)
 from .net import SourceError, Tally
 
-ENRICH_BUDGET = 45       # full.json calls per lookup
+# Full records fetched per lookup. The brief record carries no language and no
+# Dewey, so every candidate costs a second request (~124ms, six at a time) and
+# the queue has to be cut somewhere. 45 cut it far too early: SBN holds about 60
+# Italian editions of 'Cent'anni di solitudine' and 45 found 31 of them. 150
+# finds them all, for about five seconds on a cold lookup and nothing at all on
+# a repeat, since every record caches.
+#
+# Raising it is only safe because `_identifies` no longer lets a Dewey class
+# identify a record on its own — see the note there. At 45 the truncation was
+# quietly doing that gate's job.
+ENRICH_BUDGET = 150      # full.json calls per lookup
 ENRICH_WORKERS = 6
 SIBLING_PROBES = 10      # Italian sibling titles probed against SBN
 
@@ -54,6 +64,16 @@ IDENTIFYING_TITLE_MATCH = 0.6
 # the work. It is the one reason that identifies a record on its own, because it
 # is the catalogue's statement rather than this tool's inference.
 WORK_AUTHORITY = "SBN work authority"
+
+# What `_identifies` found. STRONG stands on its own; BY_DEWEY has to wait and
+# see whether the class discriminates across the whole candidate set.
+# 'Kafka on the shore / Haruki Murakami ; translated from the Japanese by Philip
+# Gabriel'. A record saying this cannot be in the language it names.
+TRANSLATED_FROM = re.compile(
+    r"\b(translated from|tradotto dal|tradotta dal|traduit du|traducido del)\b", re.I)
+
+STRONG = "strong"
+BY_DEWEY = "dewey"
 
 
 def _dewey_key(code: str) -> str:
@@ -117,8 +137,9 @@ def _variant_affinity(title: str, variants: list) -> float:
     return best
 
 
-def _identifies(e: Edition, reason: str, variants: list, original_ddc: list) -> bool:
-    """Is there any signal tying this record to *this* work?
+def _identifies(e: Edition, reason: str, variants: list, original_ddc: list,
+                author: str | None = None) -> str:
+    """Which signal ties this record to *this* work — STRONG, BY_DEWEY or none.
 
     Without this gate an author sweep drags in every book the author ever wrote,
     which is the failure mode of the original script's SBN handling. Author and
@@ -128,24 +149,87 @@ def _identifies(e: Edition, reason: str, variants: list, original_ddc: list) -> 
     # The catalogue's own uniform-title authority. Every other signal here is an
     # inference that two records describe one work; this one is SBN stating it.
     if reason == WORK_AUTHORITY:
-        return True
+        return STRONG
     if reason == "isbn match":
-        return True
+        return STRONG
     # A short title needs a strong match to identify a work. At 0.45,
     # "L'ordine delle notizie" qualified as an edition of "L'invenzione delle
     # notizie" on the strength of one shared word. The correct record matches on
     # its core title at 1.0, so the bar can be well above half.
     if _variant_affinity(e.title, variants) >= IDENTIFYING_TITLE_MATCH:
-        return True
+        return STRONG
     if _dewey_affinity(e.dewey, original_ddc) >= 0.18:
-        return True
+        # A Dewey class is a subject, and other people write on the subject.
+        # 'Dialettica della liberazione' (Laing and Jervis, 1969) agreed on
+        # Dewey with Bateson's 'Steps to an Ecology of Mind' and was offered as
+        # a second book sharing its title. The reverse path has always paired
+        # Dewey with *full* authorship agreement for exactly this reason; the
+        # gate now does too.
+        if author and not (normalize(surname(author)) & _surnames(e.authors)):
+            return ""
+        # Otherwise not decided here: whether a class can identify a *work*
+        # depends on how many of this author's works share it, which only the
+        # whole candidate set can say. See `_dewey_discriminates`.
+        return BY_DEWEY
     # Nothing ties it. Note especially that an 'Open Library sibling' probe is
     # NOT self-justifying: the mechanism deliberately probes SBN with the titles
     # of *other* Italian books by the author, and only Dewey can then say which
     # one is this book. With no Dewey reference it cannot discriminate at all, so
     # its hits are rejected rather than trusted — otherwise a lookup for 'Per una
     # economia positiva' returns Rumori, Karl Marx and Lessico per il futuro.
-    return False
+    return ""
+
+
+def _surnames(names) -> set:
+    out = set()
+    for name in names or []:
+        out |= normalize(surname(name))
+    return out
+
+
+def _dewey_discriminates(candidates: list) -> bool:
+    """Is the shared Dewey class actually saying which book this is?
+
+    'Bruits' is 780.07 and Attali wrote one book about music, so an SBN record
+    at 780.07 by Attali is that book: Dewey identifies it, and it is how
+    *Rumori* is found at all.
+
+    'Cien años de soledad' is 863.44 — narrative fiction in Spanish, Colombia,
+    1945– — and García Márquez wrote a dozen of those. 'L'autunno del
+    patriarca', 'Il generale nel suo labirinto' and 'L'amore ai tempi del
+    colera' each match it *exactly*, so no threshold separates them; raising the
+    enrichment budget to find the genuinely missing editions had them arrive as
+    editions of 'Cent'anni di solitudine'.
+
+    The candidate set answers it without another request. If the records resting
+    on Dewey alone carry one title between them, the class is doing real work.
+    If they carry several, it is describing a shelf, not a book.
+    """
+    titles = {" ".join(sorted(normalize(core_title(e.title)))) for e in candidates}
+    return len({t for t in titles if t}) <= 1
+
+
+def _language_contradicts_itself(e: Edition, cluster) -> bool:
+    """Does this record claim to be in the language it says it was translated from?
+
+    SBN record UBO4636099 is 'Kafka on the shore / Haruki Murakami ; translated
+    from the Japanese by Philip Gabriel', London : Vintage, 2005, ISBN
+    9780099494096 — and carries linguaPubblicazione GIAPPONESE, paese GIAPPONE.
+    It is the English translation, catalogued as Japanese. Believed, it put a
+    2005 edition under a header reading 'first published 2002 in giapponese',
+    which is how it was noticed.
+
+    `linguaPubblicazione` is still the only language signal there is (§5), so
+    this does not guess a replacement — a record that contradicts itself simply
+    stops being evidence of a language.
+    """
+    original = cluster.original_language if cluster else None
+    if not (original and e.language == original and e.language != langs.UNKNOWN):
+        return False
+    # The translator is not always in `nomi` or `note`. On this record it is in
+    # the title's own statement of responsibility, which nothing else parses.
+    return bool(sbn.has_translation_evidence(e)
+                or TRANSLATED_FROM.search(e.title or ""))
 
 
 def _tag(e: Edition, reason: str) -> Edition:
@@ -670,6 +754,25 @@ def _display_title(editions: list, cluster, fallback: str | None) -> str:
     return fallback or ""
 
 
+def _span_is_original(cluster, code: str, years: list) -> bool:
+    """Is this language row the work's original, on the evidence shown in it?
+
+    Marking it on the language alone let the header contradict itself: a
+    giapponese row reading 1972–2005 carried the ORIGINAL tag directly under
+    'first published 2002 in giapponese'. The tag names a language, but it is
+    read as naming the row, so the row has to be able to support it.
+
+    With no original year known there is nothing to check against and the
+    language is the best evidence available, so the tag stands.
+    """
+    if not (cluster and cluster.original_language == code):
+        return False
+    year = cluster.original_year
+    if not (year and str(year).isdigit() and years):
+        return True
+    return min(years) <= int(year) <= max(years)
+
+
 def _origin_phrase(original_year, language_name, first_year_seen) -> str:
     """How a work's beginning is stated. One implementation, both clients.
 
@@ -702,7 +805,7 @@ def _build_overview(report, cluster, grouped: dict, author: str | None) -> Overv
             editions=len(group),
             first_year=min(group_years) if group_years else None,
             last_year=max(group_years) if group_years else None,
-            is_original=bool(cluster and cluster.original_language == code),
+            is_original=_span_is_original(cluster, code, group_years),
         ))
     # Earliest first: the original leads and translations follow in the order
     # they appeared, which is the shape of a publication history. Undated spans
@@ -904,9 +1007,14 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
         with ThreadPoolExecutor(max_workers=ENRICH_WORKERS) as pool:
             enriched = list(pool.map(lambda kv: _enrich(kv[0], tally), chosen))
 
+        mislabelled = 0
+        on_dewey = []
         for (bid, (pre, reason)), edition in zip(chosen, enriched):
             if edition is None:
                 continue
+            if _language_contradicts_itself(edition, cluster):
+                edition.language = langs.UNKNOWN
+                mislabelled += 1
             score = pre + _dewey_affinity(edition.dewey, original_ddc)
             reasons = [reason]
             if sbn.has_translation_evidence(edition):
@@ -917,11 +1025,31 @@ def lookup(title=None, author=None, year_from=None, year_to=None,
             edition.score = round(score, 3)
             edition.confidence = _confidence(score, reasons)
             edition.match_reasons = reasons
-            if _identifies(edition, reason, variants, original_ddc):
+            verdict = _identifies(edition, reason, variants, original_ddc, author)
+            if verdict == STRONG:
                 editions.append(edition)
+            elif verdict == BY_DEWEY:
+                on_dewey.append(edition)
             else:
                 dropped += 1
 
+        # Records resting on Dewey alone are judged together, because whether a
+        # class identifies a work is a property of the set, not of any one of
+        # them.
+        if on_dewey and _dewey_discriminates(on_dewey):
+            editions += on_dewey
+        elif on_dewey:
+            dropped += len(on_dewey)
+            report.notes.append(
+                f"SBN: {len(on_dewey)} record(s) matched only on Dewey class, across "
+                "several different titles — the class describes the subject these books "
+                "share, not which book this is, so none of them is reported")
+
+        if mislabelled:
+            report.notes.append(
+                f"SBN: {mislabelled} record(s) name a translator and then claim to be in "
+                "the original language, which cannot both be true — their language is "
+                "treated as unrecorded rather than trusted")
         if dropped:
             report.notes.append(
                 f"SBN: {dropped} fetched record(s) discarded for lacking any identifying "

@@ -70,7 +70,9 @@ ADAPTATION = re.compile(r"<\s*(film|serie tv|video|dvd|audiolibro)\b", re.I)
 BID = re.compile(r"^(?:ITICCU)?([A-Z]{2,4}[0-9A-Z]{6,12})$")
 
 PAGE_SIZE = 20
-MAX_PAGES = 3          # 60 records is far more than any single work needs
+# SBN links 89 records to the work behind 'Cent'anni di solitudine', so three
+# pages silently lost a third of the one source here that is never wrong.
+MAX_PAGES = 12         # 240 records; no work in the corpus comes near it
 
 
 class Work:

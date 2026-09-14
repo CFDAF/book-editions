@@ -68,10 +68,10 @@ lookup/
   models.py        Edition, Overview, TitleCluster, Report (165)
   wikidata.py      bidirectional title crosswalk (284)
   openlibrary.py   editions, works, Dewey (283)
-  sbn.py           SBN/ICCU mobile-gateway client + parsers (254)
-  opac.py          SBN OPAC API: the uniform-title bridge (158)
+  sbn.py           SBN/ICCU mobile-gateway client + parsers (270)
+  opac.py          SBN OPAC API: the uniform-title bridge (160)
   buylinks.py      deterministic retailer deep links (47)
-  pipeline.py      orchestration, scoring, disambiguation (1180)
+  pipeline.py      orchestration, scoring, disambiguation (1308)
 web/               index.html (50), app.js (579), style.css (695)
 ```
 
@@ -99,10 +99,18 @@ iterate on and impolite to the catalogues.
 **No free catalogue records a link between a translation and its original.**
 Verified, not assumed:
 
-- Open Library has no `translation_of` field. `/works/OL15764295W.json`
-  (*Rumori*) contains only `title`, `authors`, `type`, `revision` — nothing
-  pointing at `OL685250W` (*Bruits*). It also splits translations into separate
-  works and has duplicate author records (three "Jacques Attali":
+- ~~Open Library has no `translation_of` field.~~ **Wrong, the same way.**
+  `/works/OL15764295W.json` (*Rumori*) has no such field because it is a *work*
+  record; `translation_of` and `translated_from` live on **editions**. They are
+  real and populated — `Kafka a la platja` carries
+  `translation_of: 海辺のカフカ [Umibe no Kafuka]` and
+  `translated_from: /languages/jpn`. Coverage is thin and biased, though, which
+  is why it is not a bridge here: see *Other sources* below.
+- ~~It splits translations into separate works.~~ **Sometimes.** It split
+  *Rumori* from *Bruits*, but `OL2625431W` holds 61 editions of *Kafka on the
+  Shore* across 16 languages and `OL274505W` holds 208 of *Cien años de
+  soledad*. Inconsistent, not uniformly split.
+- Open Library has duplicate author records (three "Jacques Attali":
   `OL53916A` 160 works, `OL4762242A` 17, `OL12549002A` 1).
 - ~~SBN records carry no uniform or original title.~~ **Wrong — see the
   correction below.** True of the *mobile gateway*, false of SBN itself.
@@ -315,7 +323,16 @@ the discipline the reverse path has to enforce by hand.
 
 1. **`paesePubblicazione` is not a language.** `CFI1172094` is an English
    *Nineteen Eighty-Four* published in Pesaro: `linguaPubblicazione: INGLESE`,
-   `paesePubblicazione: ITALIA`. Only `linguaPubblicazione` is trustworthy.
+   `paesePubblicazione: ITALIA`. Only `linguaPubblicazione` is trustworthy —
+   with the exception below.
+1b. **`linguaPubblicazione` sometimes names the language translated *from*.**
+   `UBO4636099` is *"Kafka on the shore / Haruki Murakami ; translated from the
+   Japanese by Philip Gabriel"*, `London : Vintage, 2005`, ISBN `9780099494096`
+   — and records `linguaPubblicazione: GIAPPONESE`, `paesePubblicazione:
+   GIAPPONE`. It is the English translation. There is no better signal to
+   switch to, so `_language_contradicts_itself` only *disbelieves* it: a record
+   naming a translator while claiming the work's original language cannot be
+   both, and its language becomes unrecorded rather than trusted.
 2. **Translator evidence is often only in free text.** `CFI1183309` has no
    `[Traduttore]` in `nomi`; the only trace is
    *"…traduzione italiana a cura di Boris Yousef."* in `note`.
@@ -363,6 +380,8 @@ the discipline the reverse path has to enforce by hand.
 | Group by language, not by work | Matches the question being asked |
 | Unknown language stays `unknown` | The original script folded blanks into English, inflating it |
 | Publication-history header, no verdict | Explicit user direction; see §1 |
+| Dewey corroborates, it does not identify | A class is a subject. It identifies a work only with authorship agreement *and* only when the Dewey-only records share one title — see §7 |
+| Enrichment budget 150, not 45 | SBN holds ~60 Italian editions of *Cent'anni di solitudine* and 45 found 31. 150 finds 58, for ~5s on a cold lookup and nothing on a repeat |
 | One vocabulary for every filter | The year/publisher toggle, the book chooser and the language filter are the same gesture, so they share one look: blue ink, a doubled rule, no ticks. They render through `filterRow` for the same reason |
 | Two inks — red and blue, the bicolour school pencil | Blue = the catalogue (links, focus, what is selected). Red = the hand in the margin (the original, an inference, a degraded source). A third accent was removed so the reading stays unambiguous; the rule is stated at the top of `style.css` |
 | Year first in the imprint line | Within one work every row repeats the same title and author, so the year and publisher are the only fields that tell two editions apart — and the list is already sorted by year |
@@ -449,6 +468,39 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 - **Byline could pair a known original language with a fallback year**, printing
   *"first published 1976 in inglese"* from an Italian edition's date. Fixed in
   the web UI, then found **identical in the CLI** — see §9.
+- **A Dewey class was allowed to identify a work.** It cannot: a class is a
+  *subject*, and an author who writes one kind of book has every title in it.
+  García Márquez is `863.44`, and so are *L'autunno del patriarca*, *Il generale
+  nel suo labirinto* and *L'amore ai tempi del colera* — each an **exact** match,
+  so no threshold separates them. They were reported as editions of *Cent'anni
+  di solitudine*. A low enrichment budget had hidden this: those records score
+  badly and were truncated away before anyone saw them, which is the real reason
+  the budget could not simply be removed (§8).
+
+  Two conditions now apply to a Dewey-only match, and both come from the reverse
+  path, which has always paired Dewey with *full* authorship agreement.
+  `_identifies` requires the record to share an author with the work — that is
+  what kept *Dialettica della liberazione* (Laing and Jervis) from being offered
+  as a second book sharing Bateson's title. And `_dewey_discriminates` judges
+  the Dewey-only records **as a set**: one title between them means the class is
+  doing real work (Attali wrote one book about music, which is how *Rumori* is
+  found at all); several titles mean it is describing a shelf.
+- **A record claiming to be in the language it was translated from.** SBN's
+  `UBO4636099` is *"Kafka on the shore / Haruki Murakami ; translated from the
+  Japanese by Philip Gabriel"*, London : Vintage, 2005 — catalogued
+  `linguaPubblicazione: GIAPPONESE`. Believed, it put a lone 2005 Japanese
+  edition under a header reading *"first published 2002 in giapponese"*.
+  `_language_contradicts_itself` now disbelieves any record that names a
+  translator while claiming the work's original language (§5, trap 1b).
+- **Translation evidence in the statement of responsibility was never read.**
+  That record has no `[Traduttore]` and no `note`; its only trace is the half of
+  the title `sbn_title_of` cuts away. `RESPONSIBILITY_RE` reads it now, and in
+  English too — `TRANSLATION_RE` only ever matched Italian, so every
+  English-catalogued translation looked like an original.
+- **A language span was marked ORIGINAL on the language alone.** The tag names a
+  language but is read as naming the row, so a giapponese row reading 2005–2005
+  carried it directly under *"first published 2002"*. `_span_is_original` now
+  requires the span's years to reach the original year, when one is known.
 - **An original could not find its own translation.** See §4, *The forward
   path*. Every author-keyed bridge was skipped whenever Wikidata missed, so
   looking up an English title with no Wikipedia article returned its English
@@ -504,8 +556,13 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
   catalogues (an editor-led volume naming different editors).
 - **Inferred originals can name a reprint**, since Open Library's
   `first_publish_year` is per work record, not the true first edition.
-- **Enrichment budget** is `ENRICH_BUDGET = 45` full records per lookup. A work
-  with more SBN records than that shows a ranked subset, stated in a note.
+- **Enrichment budget** is `ENRICH_BUDGET = 150` full records per lookup. A work
+  with more SBN candidates than that shows a ranked subset, stated in a note.
+  Measured on *Cent'anni di solitudine* (~700 candidates, ~61 findable Italian
+  editions): 45 → 31 editions, 150 → 58, unbounded → 61 at ~25s. Removing the
+  cap is possible — `sbn.search(rows=500)` bounds the pool — but buys three
+  editions for twenty seconds, and it was the cap that had been hiding the Dewey
+  defect in §7.
 - **`langs.py` has no Italian name for every code.** Rarer ones fall through to
   the raw ISO 639-2 code, so *Cent'anni di solitudine* lists `kor` and `guj`
   beside *giapponese* and *turco*. Cosmetic, and a one-line fix per language.
@@ -559,6 +616,8 @@ client-side, because the choice exists only in the browser.
   gateway just doesn't return it.
 - Don't call `opac.work_for` without an author (§5). It will answer, and the
   answer will be a different book.
+- Don't let a Dewey class identify a record on its own again (§7). Lowering
+  `ENRICH_BUDGET` would hide the symptom without fixing it.
 
 ### Regression cases (all currently pass)
 
@@ -576,6 +635,8 @@ client-side, because the choice exists only in the browser.
 | `book_editions.py "Noise"` | byline names **no** author — four books share the title |
 | `More Brilliant Than the Sun` / `Più brillante del sole` | both languages **both ways**; original eng 1998. Nothing but the uniform-title authority can join these two — no shared ISBN, 0.0 title similarity, no Dewey on the SBN side |
 | `Rumori` + `Jacques Attali` | resolves to *Bruits*, fre 1977, with Italian and English present |
+| `Kafka sulla spiaggia` + `Murakami Haruki` | original **jpn 2002** in the byline, and **no** span marked original — SBN holds no Japanese edition. `UBO4636099` must appear under *inglese*, not *giapponese* |
+| `Cent'anni di solitudine` (Dewey leak) | **no** *L'autunno del patriarca*, *Il generale nel suo labirinto* or *L'amore ai tempi del colera* in the Italian list |
 | SBN `CFI1172094` | classified **English** despite `paesePubblicazione: ITALIA` |
 | SBN `CFI1183309` | translation detected from `note` alone |
 

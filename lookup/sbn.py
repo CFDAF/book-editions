@@ -60,6 +60,17 @@ NON_BOOK_MEDIA = {
 # 'edited by' and would make every edited volume look like a translation.
 TRANSLATION_RE = re.compile(r"\btrad(?:\.|uzion\w*|ott\w*|\. it\w*)|\bversione (?:italiana|di)\b", re.I)
 
+# The same evidence, in the one place nothing looked: the title's own statement
+# of responsibility, which `sbn_title_of` cuts away before anyone sees it.
+# UBO4636099 is 'Kafka on the shore / Haruki Murakami ; translated from the
+# Japanese by Philip Gabriel' and carries no [Traduttore] and no note — its only
+# trace of being a translation is in that half of the title. Records catalogued
+# in English say 'translated from', not 'traduzione di', so TRANSLATION_RE never
+# saw them either.
+RESPONSIBILITY_RE = re.compile(
+    r"\b(translated (?:from|by)|tradotto dal|tradotta dal|traduit (?:du|par)"
+    r"|traducido del|ubersetzt|übersetzt)\b", re.I)
+
 _YEAR_RE = re.compile(r"\b(1[0-9]{3}|20[0-9]{2})\b")
 # '780.07 (19.) MUSICA. RAPPORTO CON LA SOCIETA' -> '780.07'. Dewey is numeric
 # and so language-neutral: it is the one signal that can tie an Italian title to
@@ -218,6 +229,11 @@ def to_edition(rec: dict, source="SBN") -> Edition:
         note = clean_text(note)
         if note and TRANSLATION_RE.search(note):
             evidence.append(note)
+    raw_title = clean_text(rec.get("titolo")) or ""
+    _, _, responsibility = raw_title.partition(" / ")
+    if responsibility and (RESPONSIBILITY_RE.search(responsibility)
+                           or TRANSLATION_RE.search(responsibility)):
+        evidence.append(responsibility.strip())
     evidence += [f"Traduttore: {t}" for t in translators]
 
     return Edition(

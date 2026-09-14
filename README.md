@@ -82,9 +82,18 @@ Dewey is the interesting one. It is numeric, therefore language-neutral. Attali'
 The same test correctly declines to match *Quale socialismo, quale Europa*
 (Dewey `335`), which is the same author in the same year.
 
-An edition is only reported if something actually identifies it: a shared ISBN,
-a title match against a known variant, or Dewey agreement. Same-author-same-era
-is not enough, so an author sweep does not drag in everything they ever wrote.
+An edition is only reported if something actually identifies it: the work
+authority, a shared ISBN, or a title match against a known variant.
+Same-author-same-era is not enough, so an author sweep does not drag in
+everything they ever wrote.
+
+Dewey agreement *corroborates* but no longer identifies on its own, because a
+Dewey class is a subject and an author who writes one kind of book has every
+title in it. García Márquez is `863.44`, and so are *L'autunno del patriarca*
+and *L'amore ai tempi del colera* — each an exact match with *Cent'anni di
+solitudine*. A Dewey-only match now has to agree on authorship too, and has to
+be the only title resting on that class; otherwise the class is describing a
+shelf rather than a book.
 (That gate applies to title lookups. An author search has no single work to
 identify, so everything by the author belongs in the answer and it does not.)
 
