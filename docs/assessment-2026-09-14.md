@@ -1,6 +1,6 @@
 # Assessment — does the tool answer the aim? (2026-09-14)
 
-An assessment of the tool at `main` @ `77b80db` against the user's stated aim,
+An assessment of the tool at `main` @ `f0cdc50` against the user's stated aim,
 made before any further work on `STRATEGY.md`. It asks two questions: how well
 the current tool serves each use case, and whether a better strategy or data
 backbone exists, up to starting from scratch.

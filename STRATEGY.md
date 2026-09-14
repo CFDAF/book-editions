@@ -153,7 +153,7 @@ Stale statements are what would push a future session into a wrong decision.
 Do: apply every item in **Where this plan corrects the record** to `HANDOFF.md`,
 `README.md`, `CLAUDE.md` and the stale docstrings. Add a line to
 `docs/anatomy-of-a-lookup.html` saying it describes the machinery as of commit
-`a5ff4a9`.
+`23ea2dc`.
 
 Gate — done when every listed item is fixed, or explicitly marked as fixed later
 by a named step; no code changed.
@@ -557,4 +557,4 @@ Until Step 2 lands, these override the documents named.
 8. **`CLAUDE.md` says fifteen regression cases**; the table holds sixteen.
 9. **`HANDOFF.md` §1 framing** (the Italian translation as the reason the tool
    exists) is superseded by **The aim** above. The no-verdict rule stands.
-10. **`docs/anatomy-of-a-lookup.html`** describes the pipeline as of `a5ff4a9`.
+10. **`docs/anatomy-of-a-lookup.html`** describes the pipeline as of `23ea2dc`.
