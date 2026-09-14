@@ -1,5 +1,9 @@
 # CLAUDE.md — book_editions
 
+**Lookup work follows `STRATEGY.md`.** Read its session protocol and status
+before changing lookup behaviour: it holds the user's aim, the current step,
+what is settled, and where it overrides this file and `HANDOFF.md`.
+
 **Read `HANDOFF.md` before changing anything.** It carries the reverse-engineered
 SBN API details, the traps in that data, the decisions and their reasons, the
 bugs already found and fixed, and the regression cases. Most of it is expensive
