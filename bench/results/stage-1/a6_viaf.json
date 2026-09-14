@@ -56,37 +56,26 @@
       "lit",
       "mal",
       "may",
+      "nor",
       "per",
       "pol",
       "por",
       "rum",
       "rus",
       "slv",
+      "spa",
       "tam",
       "ukr",
       "urd",
       "vie"
      ],
      "label_normalisation": {
-      "bench table": 66,
-      "unmapped": 11,
-      "no language": 3
+      "bench table": 78,
+      "no language": 2
      },
      "language_of_entity": "spa",
      "unmapped_labels": [
-      "(ang.)",
-      "(chiń.)",
-      "(fr.)",
-      "(hisz.)",
-      "(niem.)",
-      "(norw.)",
-      "(pol.)",
-      "(ros.)",
-      "(wł.)",
-      "Esperantsky",
-      "Français",
-      "None",
-      "Ruso"
+      "None"
      ],
      "sources": [
       "SZ|041232534",
@@ -167,14 +156,14 @@
       },
       {
        "lang": "(chiń.)",
-       "code": null,
+       "code": "chi",
        "translator": null,
        "title": "Bainian gudu",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "One hundred years of solitude",
        "year": null
@@ -223,7 +212,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Cent ans de solitude",
        "year": null
@@ -244,7 +233,7 @@
       },
       {
        "lang": "(norw.)",
-       "code": null,
+       "code": "nor",
        "translator": null,
        "title": "Hundre års ensomhet",
        "year": null
@@ -272,7 +261,7 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "One hundred years of solitude",
        "year": null
@@ -293,7 +282,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Sto lat samotności",
        "year": null
@@ -335,7 +324,7 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Cent'anni di solitudine",
        "year": null
@@ -433,7 +422,7 @@
       },
       {
        "lang": "Esperantsky",
-       "code": null,
+       "code": "epo",
        "translator": null,
        "title": "Cent jaroj da soleco",
        "year": null
@@ -454,7 +443,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Hundert Jahre Einsamkeit",
        "year": null
@@ -545,7 +534,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Cien años de soledad",
        "year": null
@@ -559,7 +548,7 @@
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Sto let odinočestva",
        "year": null
@@ -622,7 +611,7 @@
       },
       {
        "lang": "Ruso",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Sto let odinochestva",
        "year": null
@@ -737,6 +726,7 @@
     "lit",
     "mal",
     "may",
+    "nor",
     "per",
     "pol",
     "por",
@@ -749,7 +739,7 @@
     "urd",
     "vie"
    ],
-   "census_size": 32
+   "census_size": 33
   },
   "E02": {
    "queries": [
@@ -952,13 +942,10 @@
       "eng"
      ],
      "label_normalisation": {
-      "bench table": 2,
-      "unmapped": 1
+      "bench table": 3
      },
      "language_of_entity": null,
-     "unmapped_labels": [
-      "(ang.)"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "SUDOC|13747167X",
       "PLWABN|9810563809505606",
@@ -981,7 +968,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Noise",
        "year": null
@@ -1410,20 +1397,15 @@
      "languages": [
       "eng",
       "fre",
-      "mon"
+      "ger",
+      "mon",
+      "pol"
      ],
      "label_normalisation": {
-      "unmapped": 5,
-      "bench table": 4
+      "bench table": 9
      },
      "language_of_entity": "jpn",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(niem.)",
-      "(pol.)",
-      "Français"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "PLWABN|9810617900905606",
       "CAOONL|ncf12058941",
@@ -1434,14 +1416,14 @@
      "expression_rows": [
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Kafka on the shore",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Kafka nad morzem",
        "year": null
@@ -1455,14 +1437,14 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Kafka sur le rivage",
        "year": null
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Kafka sur le rivage",
        "year": null
@@ -1490,7 +1472,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Kafka am Strand",
        "year": null
@@ -1514,10 +1496,12 @@
    "census_languages": [
     "eng",
     "fre",
+    "ger",
     "jpn",
-    "mon"
+    "mon",
+    "pol"
    ],
-   "census_size": 4
+   "census_size": 6
   },
   "E05": {
    "queries": [
@@ -1646,24 +1630,19 @@
      "expressions": 11,
      "languages": [
       "chi",
+      "eng",
       "ger",
+      "ita",
       "kor",
       "pol",
       "por",
       "spa"
      ],
      "label_normalisation": {
-      "no language": 1,
-      "unmapped": 3,
-      "bench table": 7
+      "bench table": 11
      },
      "language_of_entity": "eng",
-     "unmapped_labels": [
-      "(ang.)",
-      "(niem.)",
-      "(pol.)",
-      "(wł.)"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "XR|VIAFWORK44157073",
       "PLWABN|9810687501205606"
@@ -1671,21 +1650,21 @@
      "expression_rows": [
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Modernitá liquida",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Liquid modernity",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Płynna nowoczesność",
        "year": null
@@ -1720,7 +1699,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Flüchtige Moderne",
        "year": null
@@ -1765,12 +1744,13 @@
     "chi",
     "eng",
     "ger",
+    "ita",
     "kor",
     "pol",
     "por",
     "spa"
    ],
-   "census_size": 7
+   "census_size": 8
   },
   "E08": {
    "queries": [
@@ -2351,40 +2331,28 @@
      "expressions": 32,
      "languages": [
       "ara",
+      "dut",
       "eng",
       "fre",
       "ger",
       "hun",
+      "ita",
+      "nor",
+      "pol",
       "por",
       "rus",
+      "slo",
+      "slv",
       "spa",
-      "tur"
+      "srp",
+      "tur",
+      "ukr"
      ],
      "label_normalisation": {
-      "bench table": 15,
-      "unmapped": 16,
-      "no language": 1
+      "bench table": 32
      },
      "language_of_entity": "ita",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(hisz.)",
-      "(niderl.)",
-      "(niem.)",
-      "(norw.)",
-      "(pol.)",
-      "(port.)",
-      "(ros.)",
-      "(serb.)",
-      "(słowac.)",
-      "(słoweń.)",
-      "(tur.)",
-      "(ukr.)",
-      "(wł.)",
-      "Eslovè",
-      "Français"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "LIH|LNB:V-279780;=BT",
       "SUDOC|027715698",
@@ -2418,7 +2386,7 @@
       },
       {
        "lang": "(niderl.)",
-       "code": null,
+       "code": "dut",
        "translator": null,
        "title": "Naam van der roos",
        "year": null
@@ -2432,7 +2400,7 @@
       },
       {
        "lang": "(słowac.)",
-       "code": null,
+       "code": "slo",
        "translator": null,
        "title": "Meno ruže",
        "year": null
@@ -2453,49 +2421,49 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Name of the rose",
        "year": null
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Nom de la rose",
        "year": null
       },
       {
        "lang": "(ukr.)",
-       "code": null,
+       "code": "ukr",
        "translator": null,
        "title": "Ìm'â rozi",
        "year": null
       },
       {
        "lang": "(norw.)",
-       "code": null,
+       "code": "nor",
        "translator": null,
        "title": "Rosens navn",
        "year": null
       },
       {
        "lang": "(słoweń.)",
-       "code": null,
+       "code": "slv",
        "translator": null,
        "title": "Ime rože",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Imię róży",
        "year": null
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Imâ rozy",
        "year": null
@@ -2523,7 +2491,7 @@
       },
       {
        "lang": "Eslovè",
-       "code": null,
+       "code": "slv",
        "translator": null,
        "title": "Ime rože",
        "year": null
@@ -2544,7 +2512,7 @@
       },
       {
        "lang": "(serb.)",
-       "code": null,
+       "code": "srp",
        "translator": null,
        "title": "Ime ruže",
        "year": null
@@ -2558,7 +2526,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Nombre de la rosa",
        "year": null
@@ -2572,7 +2540,7 @@
       },
       {
        "lang": "(port.)",
-       "code": null,
+       "code": "por",
        "translator": null,
        "title": "Nome da rosa",
        "year": null
@@ -2586,7 +2554,7 @@
       },
       {
        "lang": "(tur.)",
-       "code": null,
+       "code": "tur",
        "translator": null,
        "title": "Gülün adı",
        "year": null
@@ -2600,7 +2568,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Name der Rose",
        "year": null
@@ -2614,14 +2582,14 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Nome della rosa",
        "year": null
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Nom de la rose",
        "year": null
@@ -2642,25 +2610,20 @@
       "arm",
       "chi",
       "eng",
+      "fre",
       "ger",
+      "gre",
+      "ita",
       "kor",
       "por",
       "rus",
       "spa"
      ],
      "label_normalisation": {
-      "unmapped": 4,
-      "bench table": 11,
-      "no language": 1
+      "bench table": 16
      },
      "language_of_entity": "ita",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(niem.)",
-      "(wł.)",
-      "Greek (Modern Greek)"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "DNB|1088067549",
       "CAOONL|ncf11745346",
@@ -2670,7 +2633,7 @@
      "expression_rows": [
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Nachschrift zum Namen der Rose",
        "year": null
@@ -2691,7 +2654,7 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Postille a Il nome della rosa",
        "year": null
@@ -2726,7 +2689,7 @@
       },
       {
        "lang": "Greek (Modern Greek)",
-       "code": null,
+       "code": "gre",
        "translator": null,
        "title": "Postille a Il nome della rosa.",
        "year": null
@@ -2761,14 +2724,14 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Apostille au nom de la rose",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Reflections on The name of the rose",
        "year": null
@@ -2855,18 +2818,26 @@
     "ara",
     "arm",
     "chi",
+    "dut",
     "eng",
     "fre",
     "ger",
+    "gre",
     "hun",
     "ita",
     "kor",
+    "nor",
+    "pol",
     "por",
     "rus",
+    "slo",
+    "slv",
     "spa",
-    "tur"
+    "srp",
+    "tur",
+    "ukr"
    ],
-   "census_size": 13
+   "census_size": 21
   },
   "E10": {
    "queries": [
@@ -3936,21 +3907,17 @@
      "adaptation": false,
      "expressions": 10,
      "languages": [
+      "cat",
       "fre",
       "jpn",
       "spa",
       "tgl"
      ],
      "label_normalisation": {
-      "unmapped": 3,
-      "bench table": 7
+      "bench table": 10
      },
      "language_of_entity": "ger",
-     "unmapped_labels": [
-      "(fr.)",
-      "Català",
-      "Français"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "DNB|042705924",
       "SUDOC|02767021X",
@@ -3966,14 +3933,14 @@
      "expression_rows": [
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Sobre el concepte d'història",
        "year": null
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Sur le concept d'histoire",
        "year": null
@@ -4029,7 +3996,7 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Sur le concept d'histoire",
        "year": null
@@ -4068,13 +4035,14 @@
    ],
    "work_clusters": 2,
    "census_languages": [
+    "cat",
     "fre",
     "ger",
     "jpn",
     "spa",
     "tgl"
    ],
-   "census_size": 5
+   "census_size": 6
   },
   "E13": {
    "queries": [
@@ -4574,23 +4542,15 @@
       "ita",
       "kor",
       "pol",
+      "rus",
       "spa",
       "srp"
      ],
      "label_normalisation": {
-      "bench table": 15,
-      "no language": 1,
-      "unmapped": 6
+      "bench table": 22
      },
      "language_of_entity": "rus",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(niem.)",
-      "(pol.)",
-      "(ros.)",
-      "(wł.)"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "J9U|987008813790705171",
       "CAOONL|ncf10695486",
@@ -4621,7 +4581,7 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Dottor Živago",
        "year": null
@@ -4642,14 +4602,14 @@
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Doktor Živago",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Doktor Żywago",
        "year": null
@@ -4677,14 +4637,14 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Doktor Schiwago",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Doctor Zhivago",
        "year": null
@@ -4712,7 +4672,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Docteur Jivago",
        "year": null
@@ -4733,7 +4693,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Doktor Żywago",
        "year": null
@@ -4913,9 +4873,11 @@
      "adaptation": false,
      "expressions": 60,
      "languages": [
+      "alb",
       "ara",
       "bos",
       "chi",
+      "cze",
       "eng",
       "fre",
       "ger",
@@ -4924,6 +4886,9 @@
       "hun",
       "jpn",
       "kor",
+      "mac",
+      "mon",
+      "nor",
       "per",
       "pol",
       "por",
@@ -4931,32 +4896,15 @@
       "spa",
       "srp",
       "swe",
+      "tur",
+      "ukr",
       "vie"
      ],
      "label_normalisation": {
-      "bench table": 43,
-      "unmapped": 17
+      "bench table": 60
      },
      "language_of_entity": "cze",
-     "unmapped_labels": [
-      "(ang.)",
-      "(chiń.)",
-      "(czes.)",
-      "(fr.)",
-      "(niem.)",
-      "(norw.)",
-      "(pol.)",
-      "Albánsky",
-      "Bosensky",
-      "Français",
-      "Français.",
-      "Greek, Modern (1453-)",
-      "Makedonsky",
-      "Mongolsky",
-      "Srbsky",
-      "Turecky",
-      "Ukrajinsky"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "BNF|15520610",
       "DNB|043047130",
@@ -4983,7 +4931,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": null,
        "title": "Avastachtē elaphrotēta tou einai",
        "year": 1986
@@ -4997,14 +4945,14 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Unerträgliche Leichtigkeit des Seins",
        "year": null
       },
       {
        "lang": "Français.",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Nesnesitelná lehkost bytí.",
        "year": null
@@ -5018,7 +4966,7 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Nesnesitelná lehkost bytí.",
        "year": null
@@ -5053,14 +5001,14 @@
       },
       {
        "lang": "(norw.)",
-       "code": null,
+       "code": "nor",
        "translator": null,
        "title": "Tilværelsens uutholdelige letthet",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Unbearable lightness of being",
        "year": null
@@ -5074,7 +5022,7 @@
       },
       {
        "lang": "Makedonsky",
-       "code": null,
+       "code": "mac",
        "translator": null,
        "title": "Nepodnoslivata lesnotija na postoenjeto",
        "year": null
@@ -5102,7 +5050,7 @@
       },
       {
        "lang": "Ukrajinsky",
-       "code": null,
+       "code": "ukr",
        "translator": null,
        "title": "Nesterpna lehkìst‘ buttja",
        "year": null
@@ -5123,14 +5071,14 @@
       },
       {
        "lang": "Srbsky",
-       "code": null,
+       "code": "srp",
        "translator": null,
        "title": "Nepodnošljiva lakoća postojanja (Srbsky)",
        "year": null
       },
       {
        "lang": "Bosensky",
-       "code": null,
+       "code": "bos",
        "translator": null,
        "title": "Nepodnošljiva lakoća postojanja (Bosensky)",
        "year": null
@@ -5221,7 +5169,7 @@
       },
       {
        "lang": "Mongolsky",
-       "code": null,
+       "code": "mon",
        "translator": null,
        "title": "Tèvčichijn argagüj chöngön oršichuj",
        "year": null
@@ -5277,7 +5225,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Nieznośna lekkość bytu",
        "year": null
@@ -5298,7 +5246,7 @@
       },
       {
        "lang": "Turecky",
-       "code": null,
+       "code": "tur",
        "translator": null,
        "title": "Varolmanın dayanılmaz hafifliği",
        "year": null
@@ -5312,7 +5260,7 @@
       },
       {
        "lang": "Albánsky",
-       "code": null,
+       "code": "alb",
        "translator": null,
        "title": "Lehtësia e papërballueshme e qënies",
        "year": null
@@ -5326,7 +5274,7 @@
       },
       {
        "lang": "(chiń.)",
-       "code": null,
+       "code": "chi",
        "translator": null,
        "title": "Bu neng cheng shou de sheng ming zhi qing",
        "year": null
@@ -5340,7 +5288,7 @@
       },
       {
        "lang": "(czes.)",
-       "code": null,
+       "code": "cze",
        "translator": null,
        "title": "Nesnesitelná lehkost bytí",
        "year": null
@@ -5368,7 +5316,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Insoutenable légèreté de l'être",
        "year": null
@@ -5413,6 +5361,7 @@
    ],
    "work_clusters": 1,
    "census_languages": [
+    "alb",
     "ara",
     "bos",
     "chi",
@@ -5425,6 +5374,9 @@
     "hun",
     "jpn",
     "kor",
+    "mac",
+    "mon",
+    "nor",
     "per",
     "pol",
     "por",
@@ -5432,9 +5384,11 @@
     "spa",
     "srp",
     "swe",
+    "tur",
+    "ukr",
     "vie"
    ],
-   "census_size": 20
+   "census_size": 26
   },
   "N02": {
    "queries": [
@@ -5500,8 +5454,13 @@
       "amh",
       "ara",
       "aym",
+      "bam",
       "baq",
+      "bel",
+      "bul",
+      "cat",
       "chi",
+      "cpp",
       "cze",
       "dan",
       "dut",
@@ -5509,17 +5468,22 @@
       "epo",
       "fao",
       "fin",
+      "fre",
+      "gae",
       "ger",
       "gle",
       "gre",
+      "hat",
       "heb",
       "hrv",
       "hun",
       "ita",
       "jpn",
       "kor",
+      "lad",
       "lat",
       "mac",
+      "nai",
       "nor",
       "per",
       "pol",
@@ -5530,8 +5494,11 @@
       "slo",
       "slv",
       "spa",
+      "srp",
       "swa",
       "swe",
+      "tah",
+      "tut",
       "ukr",
       "uzb",
       "vie",
@@ -5539,54 +5506,28 @@
       "zul"
      ],
      "label_normalisation": {
-      "bench table": 112,
-      "unmapped": 42,
-      "no language": 3
+      "bench table": 139,
+      "no language": 2,
+      "unmapped": 16
      },
      "language_of_entity": "fre",
      "unmapped_labels": [
-      "(ang.)",
-      "(białorus.)",
-      "(bułg.)",
       "(esper.)",
-      "(fr.)",
       "(fr., pol.)",
-      "(hisz.)",
       "(kasz.)",
       "(kataloński)",
-      "(niem.)",
-      "(pers.)",
-      "(pol.)",
-      "(port.)",
       "(pruski)",
-      "(ros.)",
-      "(słowac.)",
-      "(ukr.)",
       "(wietn.)",
       "(wilamowicki)",
-      "(węg.)",
-      "(wł.)",
-      "(łac.)",
       "(łemk.)",
-      "Bambara",
       "Batanga",
-      "Català",
-      "Esperantsky",
       "Espéranto",
-      "Gaelic.",
       "German (Geis).",
-      "Haitian French Creole",
       "Konkani",
       "Korean (Daewonsa Publishing Co., Ltd)",
-      "Ladino",
       "None",
       "Pennsylvania German",
-      "Qashqai",
-      "Santomenc",
-      "Serbi",
-      "Tahitian",
       "Tamazight",
-      "Totonac",
       "Tzeltal"
      ],
      "sources": [
@@ -5618,7 +5559,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Little Prince",
        "year": null
@@ -5653,7 +5594,7 @@
       },
       {
        "lang": "Gaelic.",
-       "code": null,
+       "code": "gae",
        "translator": null,
        "title": "Petit Prince",
        "year": null
@@ -5667,7 +5608,7 @@
       },
       {
        "lang": "(białorus.)",
-       "code": null,
+       "code": "bel",
        "translator": null,
        "title": "Malenʹkì prync",
        "year": null
@@ -5730,7 +5671,7 @@
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Petit príncep",
        "year": null
@@ -5751,7 +5692,7 @@
       },
       {
        "lang": "Tahitian",
-       "code": null,
+       "code": "tah",
        "translator": "Martin, John Faatae",
        "title": "Tamaiti ari'i iti",
        "year": null
@@ -5772,7 +5713,7 @@
       },
       {
        "lang": "(łac.)",
-       "code": null,
+       "code": "lat",
        "translator": null,
        "title": "Regulus vel pueri soli sapiunt",
        "year": null
@@ -5800,7 +5741,7 @@
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Malenʹkij princ",
        "year": null
@@ -5835,7 +5776,7 @@
       },
       {
        "lang": "Santomenc",
-       "code": null,
+       "code": "cpp",
        "translator": null,
        "title": "Piquina plinchipi",
        "year": null
@@ -5849,7 +5790,7 @@
       },
       {
        "lang": "Ladino",
-       "code": null,
+       "code": "lad",
        "translator": null,
        "title": "Prensipito",
        "year": null
@@ -5891,7 +5832,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Mały Książę",
        "year": null
@@ -5919,7 +5860,7 @@
       },
       {
        "lang": "Serbi",
-       "code": null,
+       "code": "srp",
        "translator": null,
        "title": "Mali princ",
        "year": null
@@ -5933,7 +5874,7 @@
       },
       {
        "lang": "(port.)",
-       "code": null,
+       "code": "por",
        "translator": null,
        "title": "Principezinho",
        "year": null
@@ -5961,14 +5902,14 @@
       },
       {
        "lang": "Bambara",
-       "code": null,
+       "code": "bam",
        "translator": null,
        "title": "Masadennin",
        "year": null
       },
       {
        "lang": "(węg.)",
-       "code": null,
+       "code": "hun",
        "translator": null,
        "title": "Kis herceg",
        "year": null
@@ -5996,7 +5937,7 @@
       },
       {
        "lang": "Totonac",
-       "code": null,
+       "code": "nai",
        "translator": null,
        "title": "Xa'púxku' a'ktsú qa'wa'sa",
        "year": null
@@ -6017,7 +5958,7 @@
       },
       {
        "lang": "Qashqai",
-       "code": null,
+       "code": "tut",
        "translator": null,
        "title": "Kumbuca Paşa",
        "year": null
@@ -6059,7 +6000,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Kleine Prinz",
        "year": null
@@ -6087,14 +6028,14 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Principito",
        "year": null
       },
       {
        "lang": "(pers.)",
-       "code": null,
+       "code": "per",
        "translator": null,
        "title": "Šāzdah kučulu",
        "year": null
@@ -6220,7 +6161,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Mały Książę",
        "year": null
@@ -6269,7 +6210,7 @@
       },
       {
        "lang": "Esperantsky",
-       "code": null,
+       "code": "epo",
        "translator": null,
        "title": "Eta princo",
        "year": null
@@ -6304,7 +6245,7 @@
       },
       {
        "lang": "Haitian French Creole",
-       "code": null,
+       "code": "hat",
        "translator": null,
        "title": "Ti prens lan",
        "year": null
@@ -6472,7 +6413,7 @@
       },
       {
        "lang": "(słowac.)",
-       "code": null,
+       "code": "slo",
        "translator": null,
        "title": "Malý princ",
        "year": null
@@ -6514,7 +6455,7 @@
       },
       {
        "lang": "(bułg.)",
-       "code": null,
+       "code": "bul",
        "translator": null,
        "title": "Malkiât princ",
        "year": null
@@ -6563,14 +6504,14 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Piccolo Principe",
        "year": null
       },
       {
        "lang": "(ukr.)",
-       "code": null,
+       "code": "ukr",
        "translator": null,
        "title": "Malenʹkij princ",
        "year": null
@@ -6661,7 +6602,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Petit prince",
        "year": null
@@ -7200,8 +7141,13 @@
     "amh",
     "ara",
     "aym",
+    "bam",
     "baq",
+    "bel",
+    "bul",
+    "cat",
     "chi",
+    "cpp",
     "cze",
     "dan",
     "dut",
@@ -7210,17 +7156,21 @@
     "fao",
     "fin",
     "fre",
+    "gae",
     "ger",
     "gle",
     "gre",
+    "hat",
     "heb",
     "hrv",
     "hun",
     "ita",
     "jpn",
     "kor",
+    "lad",
     "lat",
     "mac",
+    "nai",
     "nor",
     "per",
     "pol",
@@ -7231,15 +7181,18 @@
     "slo",
     "slv",
     "spa",
+    "srp",
     "swa",
     "swe",
+    "tah",
+    "tut",
     "ukr",
     "uzb",
     "vie",
     "wel",
     "zul"
    ],
-   "census_size": 42
+   "census_size": 54
   },
   "N03": {
    "queries": [
@@ -7290,28 +7243,21 @@
      "expressions": 17,
      "languages": [
       "baq",
+      "cat",
       "eng",
       "fre",
       "ger",
       "heb",
+      "ita",
       "pol",
       "slo",
       "spa"
      ],
      "label_normalisation": {
-      "bench table": 11,
-      "unmapped": 5,
-      "no language": 1
+      "bench table": 17
      },
      "language_of_entity": "ita",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(niem.)",
-      "(pol.)",
-      "(wł.)",
-      "Català"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "J9U|987007520717405171",
       "SUDOC|031120512",
@@ -7332,7 +7278,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "If this is a man",
        "year": null
@@ -7374,7 +7320,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Si c'est un homme",
        "year": null
@@ -7388,7 +7334,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Ist das ein Mensch?",
        "year": null
@@ -7402,7 +7348,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Czy to jest człowiek",
        "year": null
@@ -7423,7 +7369,7 @@
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Se questo è un uomo.",
        "year": null
@@ -7437,7 +7383,7 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Se questo è un uomo",
        "year": null
@@ -7468,6 +7414,7 @@
    "work_clusters": 2,
    "census_languages": [
     "baq",
+    "cat",
     "eng",
     "fre",
     "ger",
@@ -7477,7 +7424,7 @@
     "slo",
     "spa"
    ],
-   "census_size": 9
+   "census_size": 10
   },
   "N04": {
    "queries": [
@@ -7514,12 +7461,15 @@
      "adaptation": false,
      "expressions": 84,
      "languages": [
+      "alb",
       "amh",
       "ara",
+      "cat",
       "chi",
       "cze",
       "dan",
       "eng",
+      "epo",
       "est",
       "fre",
       "ger",
@@ -7532,44 +7482,28 @@
       "lav",
       "per",
       "pol",
+      "por",
       "rum",
+      "rus",
       "spa",
+      "swe",
       "tur",
       "vie"
      ],
      "label_normalisation": {
-      "bench table": 54,
-      "unmapped": 30
+      "bench table": 74,
+      "unmapped": 10
      },
      "language_of_entity": "rus",
      "unmapped_labels": [
-      "(ang.)",
-      "(czes.)",
-      "(fr.)",
-      "(hisz.)",
-      "(jap.)",
       "(jid.)",
-      "(niem.)",
-      "(pol.)",
-      "(port.)",
       "(ros. ; fragment)",
-      "(ros.)",
       "(serboch.)",
-      "Albanska",
-      "Català",
-      "Engelska",
-      "Esperantsky",
-      "Franska",
-      "Français",
       "Norska",
       "Německy",
-      "Polska",
       "Portugais",
       "Portugisiska",
       "Slovensky",
-      "Spanska",
-      "Svenska",
-      "Tyska",
       "Ukrainska",
       "Česky"
      ],
@@ -7664,14 +7598,14 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Crime et châtiment",
        "year": null
       },
       {
        "lang": "Esperantsky",
-       "code": null,
+       "code": "epo",
        "translator": null,
        "title": "Krimo kaj puno",
        "year": null
@@ -7713,7 +7647,7 @@
       },
       {
        "lang": "Franska",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Crime et châtiment",
        "year": null
@@ -7734,7 +7668,7 @@
       },
       {
        "lang": "Spanska",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Crimen y castigo",
        "year": null
@@ -7755,7 +7689,7 @@
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Crim i càstig",
        "year": null
@@ -7776,7 +7710,7 @@
       },
       {
        "lang": "Engelska",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Crime and punishment",
        "year": null
@@ -7790,7 +7724,7 @@
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Prestuplenie i nakazanie",
        "year": null
@@ -7804,7 +7738,7 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Crime et châtiment",
        "year": null
@@ -7846,7 +7780,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Crime et châtiment",
        "year": null
@@ -7895,7 +7829,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Crimen y castigo",
        "year": null
@@ -7937,7 +7871,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Raskolnikoff (Schuld und Sühne)",
        "year": null
@@ -7965,21 +7899,21 @@
       },
       {
        "lang": "Tyska",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Rodion Raskolnikoff",
        "year": null
       },
       {
        "lang": "Polska",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Zbrodnia i kara",
        "year": null
       },
       {
        "lang": "Albanska",
-       "code": null,
+       "code": "alb",
        "translator": null,
        "title": "Krimi e dënimi",
        "year": null
@@ -7993,14 +7927,14 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Crime and punishment",
        "year": null
       },
       {
        "lang": "(czes.)",
-       "code": null,
+       "code": "cze",
        "translator": null,
        "title": "Zločin a trest",
        "year": null
@@ -8014,7 +7948,7 @@
       },
       {
        "lang": "(port.)",
-       "code": null,
+       "code": "por",
        "translator": null,
        "title": "Crime e castigo : romance acompanhado do diário de Raskolnikov",
        "year": null
@@ -8049,7 +7983,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Zbrodnia i kara",
        "year": null
@@ -8084,7 +8018,7 @@
       },
       {
        "lang": "Svenska",
-       "code": null,
+       "code": "swe",
        "translator": null,
        "title": "Brott och straff",
        "year": null
@@ -8119,7 +8053,7 @@
       },
       {
        "lang": "(jap.)",
-       "code": null,
+       "code": "jpn",
        "translator": null,
        "title": "Tsumi to batsu",
        "year": null
@@ -8359,12 +8293,15 @@
    ],
    "work_clusters": 1,
    "census_languages": [
+    "alb",
     "amh",
     "ara",
+    "cat",
     "chi",
     "cze",
     "dan",
     "eng",
+    "epo",
     "est",
     "fre",
     "ger",
@@ -8377,13 +8314,15 @@
     "lav",
     "per",
     "pol",
+    "por",
     "rum",
     "rus",
     "spa",
+    "swe",
     "tur",
     "vie"
    ],
-   "census_size": 23
+   "census_size": 28
   },
   "N05": {
    "queries": [
@@ -8423,6 +8362,7 @@
       "cze",
       "dan",
       "dut",
+      "eng",
       "est",
       "fre",
       "ger",
@@ -8446,21 +8386,10 @@
       "vie"
      ],
      "label_normalisation": {
-      "bench table": 83,
-      "unmapped": 9
+      "bench table": 92
      },
      "language_of_entity": "eng",
-     "unmapped_labels": [
-      "(ang.)",
-      "(bułg.)",
-      "(fr.)",
-      "(hebr.)",
-      "(hisz.)",
-      "(niem.)",
-      "(pol.)",
-      "Français",
-      "Svenska"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "BNF|12229013",
       "LC|no2013086582",
@@ -8492,7 +8421,7 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Catcher in the Rye.",
        "year": null
@@ -8597,14 +8526,14 @@
       },
       {
        "lang": "Svenska",
-       "code": null,
+       "code": "swe",
        "translator": null,
        "title": "Catcher in the rye.",
        "year": null
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Guardián entre el centeno",
        "year": null
@@ -8653,7 +8582,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Fänger im Roggen",
        "year": null
@@ -8695,7 +8624,7 @@
       },
       {
        "lang": "(hebr.)",
-       "code": null,
+       "code": "heb",
        "translator": null,
        "title": "Hitpasen ba-šade ha-sifon",
        "year": null
@@ -8709,7 +8638,7 @@
       },
       {
        "lang": "(bułg.)",
-       "code": null,
+       "code": "bul",
        "translator": null,
        "title": "Spasitelât v r''žta",
        "year": null
@@ -8800,7 +8729,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Attrape-cœurs",
        "year": null
@@ -8926,14 +8855,14 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Buszujący w zbożu",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Catcher in the rye",
        "year": null
@@ -9231,11 +9160,13 @@
       "cat",
       "chi",
       "cze",
+      "eng",
       "est",
       "fre",
       "ger",
       "gre",
       "hbs",
+      "hun",
       "ita",
       "jpn",
       "kor",
@@ -9248,22 +9179,13 @@
       "ukr"
      ],
      "label_normalisation": {
-      "bench table": 43,
-      "unmapped": 11,
-      "no language": 11
+      "bench table": 52,
+      "no language": 10,
+      "unmapped": 3
      },
      "language_of_entity": "eng",
      "unmapped_labels": [
-      "(ang.)",
-      "(chiń.)",
-      "(fr.)",
-      "(niem.)",
-      "(pol.)",
-      "(ros.)",
       "(szw.)",
-      "(węg.)",
-      "(wł.)",
-      "Français",
       "None",
       "Pushto",
       "Ελληνικά"
@@ -9311,7 +9233,7 @@
       },
       {
        "lang": "(chiń.)",
-       "code": null,
+       "code": "chi",
        "translator": null,
        "title": 1984,
        "year": null
@@ -9479,7 +9401,7 @@
       },
       {
        "lang": "(węg.)",
-       "code": null,
+       "code": "hun",
        "translator": null,
        "title": "Ezerkilencszáznyolcvannégy",
        "year": null
@@ -9605,7 +9527,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Rok 1984",
        "year": null
@@ -9640,7 +9562,7 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": 1984,
        "year": null
@@ -9661,14 +9583,14 @@
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": 1984,
        "year": null
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Millenovecentottantaquattro",
        "year": null
@@ -9682,7 +9604,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Mille neuf cent quatre-vingt-quatre",
        "year": null
@@ -9717,7 +9639,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Neunzehnhundertvierundachtzig",
        "year": null
@@ -9731,7 +9653,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": 1984,
        "year": null
@@ -9936,6 +9858,7 @@
     "ger",
     "gre",
     "hbs",
+    "hun",
     "ita",
     "jpn",
     "kor",
@@ -9947,7 +9870,7 @@
     "spa",
     "ukr"
    ],
-   "census_size": 21
+   "census_size": 22
   },
   "N07": {
    "queries": [
@@ -9970,7 +9893,7 @@
      "why": "corpus original, apostrophe words dropped",
      "total": 1,
      "returned": 1,
-     "requests": 1
+     "requests": 0
     }
    ],
    "clusters_kept": [
@@ -9986,14 +9909,17 @@
      "expressions": 23,
      "languages": [
       "ara",
+      "cat",
       "chi",
       "eng",
       "fre",
       "ger",
       "gre",
+      "ita",
       "jpn",
       "kor",
       "per",
+      "pol",
       "por",
       "rus",
       "spa",
@@ -10001,18 +9927,10 @@
       "ukr"
      ],
      "label_normalisation": {
-      "bench table": 18,
-      "unmapped": 4,
-      "no language": 1
+      "bench table": 23
      },
      "language_of_entity": "ita",
-     "unmapped_labels": [
-      "(ang.)",
-      "(niem.)",
-      "(pol.)",
-      "(wł.)",
-      "Català"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "BNF|11968278",
       "DNB|042572320",
@@ -10034,7 +9952,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Jeśli zimową nocą podróżny",
        "year": null
@@ -10062,7 +9980,7 @@
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Si una nit d'hivern un viatger",
        "year": null
@@ -10083,7 +10001,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Wenn ein Reisender in einer Winternacht",
        "year": null
@@ -10097,14 +10015,14 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "If on a winter's night a traveller",
        "year": null
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Se una notte d'inverno un viaggiatore",
        "year": null
@@ -10193,6 +10111,7 @@
    "work_clusters": 1,
    "census_languages": [
     "ara",
+    "cat",
     "chi",
     "eng",
     "fre",
@@ -10202,13 +10121,14 @@
     "jpn",
     "kor",
     "per",
+    "pol",
     "por",
     "rus",
     "spa",
     "tur",
     "ukr"
    ],
-   "census_size": 15
+   "census_size": 17
   },
   "N08": {
    "queries": [
@@ -10238,23 +10158,21 @@
      "adaptation": false,
      "expressions": 2,
      "languages": [
+      "cat",
       "spa"
      ],
      "label_normalisation": {
-      "unmapped": 1,
-      "bench table": 1
+      "bench table": 2
      },
      "language_of_entity": null,
-     "unmapped_labels": [
-      "Català"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "BNC|981061372169706706"
      ],
      "expression_rows": [
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Amiga genial (Novel·la)",
        "year": null
@@ -10356,11 +10274,13 @@
      "adaptation": false,
      "expressions": 29,
      "languages": [
+      "cat",
       "chi",
       "eng",
       "fre",
       "ger",
       "heb",
+      "ita",
       "kor",
       "per",
       "pol",
@@ -10371,19 +10291,13 @@
       "vie"
      ],
      "label_normalisation": {
-      "no language": 3,
-      "bench table": 19,
-      "unmapped": 7
+      "no language": 1,
+      "bench table": 27,
+      "unmapped": 1
      },
      "language_of_entity": "ita",
      "unmapped_labels": [
-      "(ang.)",
-      "(niem.)",
-      "(pol.)",
-      "(wł.)",
-      "Català",
       "English (Radio program)",
-      "Français",
       "None"
      ],
      "sources": [
@@ -10405,7 +10319,7 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Amica geniale",
        "year": null
@@ -10482,14 +10396,14 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "My brilliant friend",
        "year": null
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Meine geniale Freundin",
        "year": null
@@ -10524,28 +10438,28 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Amica geniale",
        "year": null
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Amie prodigieuse",
        "year": null
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Amiga genial",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Genialna przyjaciółka",
        "year": null
@@ -10573,7 +10487,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Genialna przyjaciółka",
        "year": null
@@ -10634,6 +10548,7 @@
    ],
    "work_clusters": 4,
    "census_languages": [
+    "cat",
     "chi",
     "eng",
     "fre",
@@ -10649,7 +10564,7 @@
     "tur",
     "vie"
    ],
-   "census_size": 14
+   "census_size": 15
   },
   "N09": {
    "queries": [
@@ -10711,21 +10626,16 @@
      "expressions": 8,
      "languages": [
       "eng",
+      "fre",
+      "ita",
+      "pol",
       "spa"
      ],
      "label_normalisation": {
-      "unmapped": 4,
-      "bench table": 3,
-      "no language": 1
+      "bench table": 8
      },
      "language_of_entity": "ita",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(pol.)",
-      "(wł.)",
-      "Français"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "PLWABN|9814681269205606",
       "SUDOC|067717160",
@@ -10737,14 +10647,14 @@
      "expression_rows": [
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Fromage et les vers",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Ser i robaki",
        "year": null
@@ -10765,21 +10675,21 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Formaggio e i vermi.",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Cheese and the worms",
        "year": null
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Formaggio e i vermi",
        "year": null
@@ -10808,10 +10718,12 @@
    "work_clusters": 2,
    "census_languages": [
     "eng",
+    "fre",
     "ita",
+    "pol",
     "spa"
    ],
-   "census_size": 3
+   "census_size": 5
   },
   "N10": {
    "queries": [
@@ -10853,9 +10765,12 @@
       "dut",
       "eng",
       "epo",
+      "fre",
       "ger",
       "gle",
+      "gre",
       "guj",
+      "hat",
       "heb",
       "hin",
       "hrv",
@@ -10864,6 +10779,7 @@
       "jpn",
       "kan",
       "kor",
+      "pan",
       "per",
       "pol",
       "por",
@@ -10875,22 +10791,12 @@
       "vie"
      ],
      "label_normalisation": {
-      "bench table": 108,
-      "unmapped": 9,
-      "no language": 1
+      "bench table": 117,
+      "unmapped": 1
      },
      "language_of_entity": "fre",
      "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(niem.)",
-      "(pol.)",
-      "(ros.)",
-      "(wł.)",
-      "Croat",
-      "Greek, Modern (1453-)",
-      "Haitian French Creole",
-      "Panjabi"
+      "Croat"
      ],
      "sources": [
       "BNF|11958514",
@@ -11226,7 +11132,7 @@
       },
       {
        "lang": "Haitian French Creole",
-       "code": null,
+       "code": "hat",
        "translator": null,
        "title": "Nèg apa",
        "year": null
@@ -11247,7 +11153,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Fremde",
        "year": null
@@ -11303,7 +11209,7 @@
       },
       {
        "lang": "Panjabi",
-       "code": null,
+       "code": "pan",
        "translator": null,
        "title": "Oparā manukha",
        "year": 2002
@@ -11380,7 +11286,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Étranger",
        "year": null
@@ -11429,7 +11335,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Obcy",
        "year": null
@@ -11555,7 +11461,7 @@
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Neznakomec",
        "year": null
@@ -11660,7 +11566,7 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Straniero",
        "year": null
@@ -11674,7 +11580,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Outsider",
        "year": null
@@ -11730,7 +11636,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": "Τσακιρη, Τζουλια,",
        "title": "Ξενος : μυθιστορημα",
        "year": "9999)"
@@ -12225,7 +12131,9 @@
     "fre",
     "ger",
     "gle",
+    "gre",
     "guj",
+    "hat",
     "heb",
     "hin",
     "hrv",
@@ -12234,6 +12142,7 @@
     "jpn",
     "kan",
     "kor",
+    "pan",
     "per",
     "pol",
     "por",
@@ -12244,7 +12153,7 @@
     "tur",
     "vie"
    ],
-   "census_size": 31
+   "census_size": 34
   },
   "N11": {
    "queries": [
@@ -12275,24 +12184,22 @@
      "adaptation": false,
      "expressions": 14,
      "languages": [
+      "cat",
       "eng",
+      "fre",
       "ger",
       "jpn",
+      "pol",
       "rus",
       "spa",
       "swe",
       "tur"
      ],
      "label_normalisation": {
-      "bench table": 11,
-      "unmapped": 3
+      "bench table": 14
      },
      "language_of_entity": "fre",
-     "unmapped_labels": [
-      "(fr.)",
-      "(pol.)",
-      "Català"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "BNF|12535609",
       "DNB|967496306",
@@ -12311,7 +12218,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Disparition",
        "year": null
@@ -12339,7 +12246,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Zniknięcia",
        "year": null
@@ -12360,7 +12267,7 @@
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Eclipsi",
        "year": null
@@ -12863,16 +12770,18 @@
    ],
    "work_clusters": 1,
    "census_languages": [
+    "cat",
     "eng",
     "fre",
     "ger",
     "jpn",
+    "pol",
     "rus",
     "spa",
     "swe",
     "tur"
    ],
-   "census_size": 8
+   "census_size": 10
   },
   "N12": {
    "queries": [
@@ -12924,13 +12833,18 @@
       "cze",
       "dut",
       "eng",
+      "fin",
       "fre",
+      "ger",
       "heb",
       "hin",
       "hrv",
+      "hun",
       "ita",
       "jpn",
       "kor",
+      "nor",
+      "pan",
       "per",
       "pol",
       "por",
@@ -12944,30 +12858,14 @@
       "yid"
      ],
      "label_normalisation": {
-      "unmapped": 19,
-      "bench table": 86
+      "bench table": 102,
+      "unmapped": 3
      },
      "language_of_entity": "ger",
      "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(hisz.)",
-      "(niem.)",
-      "(norw.)",
       "(nowogr.)",
-      "(pol.)",
-      "(ros.)",
-      "Albanska",
-      "Engelska",
-      "Finska",
-      "Français",
       "Makedonska",
-      "Panjabi",
-      "Portuguès",
-      "Ryska",
-      "Spanska",
-      "Svenska",
-      "Ungerska"
+      "Portuguès"
      ],
      "sources": [
       "BNF|11939242",
@@ -12987,14 +12885,14 @@
      "expression_rows": [
       {
        "lang": "Finska",
-       "code": null,
+       "code": "fin",
        "translator": null,
        "title": "Oikeusjuttu",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Trial",
        "year": null
@@ -13043,14 +12941,14 @@
       },
       {
        "lang": "Engelska",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Trial",
        "year": null
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Process",
        "year": null
@@ -13120,7 +13018,7 @@
       },
       {
        "lang": "Spanska",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Proceso",
        "year": null
@@ -13239,7 +13137,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Proces",
        "year": null
@@ -13274,7 +13172,7 @@
       },
       {
        "lang": "Ungerska",
-       "code": null,
+       "code": "hun",
        "translator": null,
        "title": "Per",
        "year": null
@@ -13302,7 +13200,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Procès",
        "year": null
@@ -13330,7 +13228,7 @@
       },
       {
        "lang": "Ryska",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Protsess",
        "year": null
@@ -13386,7 +13284,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Proceso",
        "year": null
@@ -13456,7 +13354,7 @@
       },
       {
        "lang": "Svenska",
-       "code": null,
+       "code": "swe",
        "translator": null,
        "title": "Processen",
        "year": null
@@ -13505,7 +13403,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Prozess",
        "year": null
@@ -13540,14 +13438,14 @@
       },
       {
        "lang": "Albanska",
-       "code": null,
+       "code": "alb",
        "translator": null,
        "title": "Procesi",
        "year": null
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Le procès",
        "year": null
@@ -13575,7 +13473,7 @@
       },
       {
        "lang": "(norw.)",
-       "code": null,
+       "code": "nor",
        "translator": null,
        "title": "Prosessen",
        "year": null
@@ -13680,7 +13578,7 @@
       },
       {
        "lang": "Panjabi",
-       "code": null,
+       "code": "pan",
        "translator": "Barāṛa, Niramala,",
        "title": "Mukaddamā",
        "year": "2018)"
@@ -14436,14 +14334,18 @@
     "cze",
     "dut",
     "eng",
+    "fin",
     "fre",
     "ger",
     "heb",
     "hin",
     "hrv",
+    "hun",
     "ita",
     "jpn",
     "kor",
+    "nor",
+    "pan",
     "per",
     "pol",
     "por",
@@ -14456,7 +14358,7 @@
     "tur",
     "yid"
    ],
-   "census_size": 25
+   "census_size": 29
   },
   "N13": {
    "queries": [
@@ -14493,22 +14395,19 @@
       "dut",
       "eng",
       "fre",
+      "ger",
       "ita",
       "jpn",
       "kor",
+      "pol",
       "spa",
       "swe"
      ],
      "label_normalisation": {
-      "bench table": 18,
-      "unmapped": 3
+      "bench table": 21
      },
      "language_of_entity": "ger",
-     "unmapped_labels": [
-      "(hisz.)",
-      "(niem.)",
-      "(pol.)"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "DNB|1096500353",
       "XR|VIAFWORK1082439257",
@@ -14531,7 +14430,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Sociedad del cansancio",
        "year": null
@@ -14566,7 +14465,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Społeczeństwo zmęczenia",
        "year": null
@@ -14650,7 +14549,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Müdigkeitsgesellschaft",
        "year": null
@@ -14688,10 +14587,11 @@
     "ita",
     "jpn",
     "kor",
+    "pol",
     "spa",
     "swe"
    ],
-   "census_size": 12
+   "census_size": 13
   },
   "N14": {
    "queries": [
@@ -14723,23 +14623,18 @@
      "languages": [
       "ara",
       "eng",
+      "ger",
       "heb",
       "pol",
+      "por",
+      "slv",
       "spa"
      ],
      "label_normalisation": {
-      "unmapped": 6,
-      "bench table": 5
+      "bench table": 11
      },
      "language_of_entity": "por",
-     "unmapped_labels": [
-      "(ang.)",
-      "(hisz.)",
-      "(niem.)",
-      "(pol.)",
-      "(port.)",
-      "Eslovè"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "BNF|16759451",
       "DNB|96190948X",
@@ -14751,14 +14646,14 @@
      "expression_rows": [
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Stadt der Blinden",
        "year": null
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Ensayo sobre la ceguera",
        "year": null
@@ -14793,14 +14688,14 @@
       },
       {
        "lang": "Eslovè",
-       "code": null,
+       "code": "slv",
        "translator": null,
        "title": "Esej o slepoti",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Blindness",
        "year": null
@@ -14814,14 +14709,14 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Miasto ślepców",
        "year": null
       },
       {
        "lang": "(port.)",
-       "code": null,
+       "code": "por",
        "translator": null,
        "title": "Ensaio sobre a cegueira",
        "year": null
@@ -14864,12 +14759,14 @@
    "census_languages": [
     "ara",
     "eng",
+    "ger",
     "heb",
     "pol",
     "por",
+    "slv",
     "spa"
    ],
-   "census_size": 6
+   "census_size": 8
   },
   "N15": {
    "queries": [
@@ -14905,18 +14802,16 @@
       "chi",
       "eng",
       "heb",
-      "ita"
+      "ita",
+      "pol",
+      "spa"
      ],
      "label_normalisation": {
-      "bench table": 7,
-      "no language": 2,
-      "unmapped": 2
+      "bench table": 10,
+      "no language": 1
      },
      "language_of_entity": "spa",
      "unmapped_labels": [
-      "(hisz.)",
-      "(pol.)",
-      "(wł.)",
       "None"
      ],
      "sources": [
@@ -14967,14 +14862,14 @@
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": 2666,
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": 2666,
        "year": null
@@ -14995,7 +14890,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": 2666,
        "year": null
@@ -15074,9 +14969,10 @@
     "eng",
     "heb",
     "ita",
+    "pol",
     "spa"
    ],
-   "census_size": 7
+   "census_size": 8
   },
   "N16": {
    "queries": [
@@ -15178,14 +15074,14 @@
      "why": "corpus original, apostrophe words dropped",
      "total": 0,
      "returned": 0,
-     "requests": 1
+     "requests": 0
     },
     {
      "cql": "local.uniformTitleWorks all \"mahfouz naguib bain\"",
      "why": "SBN strong W, apostrophe words dropped",
      "total": 0,
      "returned": 0,
-     "requests": 1
+     "requests": 0
     }
    ],
    "clusters_kept": [],
@@ -15266,7 +15162,9 @@
      "adaptation": false,
      "expressions": 12,
      "languages": [
+      "cat",
       "dan",
+      "eng",
       "fre",
       "jpn",
       "pol",
@@ -15275,16 +15173,10 @@
       "tur"
      ],
      "label_normalisation": {
-      "bench table": 8,
-      "unmapped": 4
+      "bench table": 12
      },
      "language_of_entity": "eng",
-     "unmapped_labels": [
-      "(ang.)",
-      "(hisz.)",
-      "(pol.)",
-      "Català"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "PLWABN|9812031905805606",
       "XR|VIAFWORK1014055327"
@@ -15320,14 +15212,14 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Realizm kapitalistyczny",
        "year": null
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Realisme capitalista",
        "year": null
@@ -15348,7 +15240,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Capitalist realism",
        "year": null
@@ -15369,7 +15261,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Realismo capitalista : ¿no hay alternativa?",
        "year": null
@@ -15390,6 +15282,7 @@
    ],
    "work_clusters": 1,
    "census_languages": [
+    "cat",
     "dan",
     "eng",
     "fre",
@@ -15399,7 +15292,7 @@
     "spa",
     "tur"
    ],
-   "census_size": 8
+   "census_size": 9
   },
   "N19": {
    "queries": [
@@ -15904,24 +15797,20 @@
      "adaptation": false,
      "expressions": 9,
      "languages": [
-      "dut"
+      "dut",
+      "eng",
+      "fre",
+      "ger",
+      "ita",
+      "pol",
+      "rus",
+      "spa"
      ],
      "label_normalisation": {
-      "unmapped": 7,
-      "no language": 1,
-      "bench table": 1
+      "bench table": 9
      },
      "language_of_entity": "eng",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(hisz.)",
-      "(niem.)",
-      "(pol.)",
-      "(ros.)",
-      "(wł.)",
-      "Français"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "PLWABN|9811530613205606",
       "BNF|13512153",
@@ -15930,49 +15819,49 @@
      "expression_rows": [
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Leben in Metaphern",
        "year": null
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Métaphores dans la vie quotidienne",
        "year": null
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Metafory, kotorymi my živem",
        "year": null
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Metaphores dans la vie quotidienne",
        "year": null
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Metáforas de la vida cotidiana",
        "year": null
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Metafora e vita quotidiana",
        "year": null
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Metaphors we live by",
        "year": null
@@ -15986,7 +15875,7 @@
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Metafory w naszym życiu",
        "year": null
@@ -16016,9 +15905,15 @@
    "work_clusters": 2,
    "census_languages": [
     "dut",
-    "eng"
+    "eng",
+    "fre",
+    "ger",
+    "ita",
+    "pol",
+    "rus",
+    "spa"
    ],
-   "census_size": 2
+   "census_size": 8
   },
   "N21": {
    "queries": [
@@ -16202,6 +16097,7 @@
       "dan",
       "dut",
       "eng",
+      "fre",
       "ger",
       "hin",
       "pol",
@@ -16210,15 +16106,10 @@
       "swe"
      ],
      "label_normalisation": {
-      "unmapped": 3,
-      "bench table": 18
+      "bench table": 21
      },
      "language_of_entity": "fre",
-     "unmapped_labels": [
-      "(ang.)",
-      "(fr.)",
-      "(pol.)"
-     ],
+     "unmapped_labels": [],
      "sources": [
       "BNF|16946054",
       "DNB|1063312442",
@@ -16232,14 +16123,14 @@
      "expression_rows": [
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Capital au vingt et unième siècle",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Kapitał w XXI wieku",
        "year": null
@@ -16253,7 +16144,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Capital in the twenty-first century",
        "year": null
@@ -16478,72 +16369,41 @@
       "slo",
       "spa",
       "swe",
+      "tur",
       "ukr"
      ],
      "label_normalisation": {
-      "bench table": 261,
-      "unmapped": 66,
-      "no language": 4
+      "bench table": 313,
+      "unmapped": 25,
+      "no language": 3
      },
      "language_of_entity": "grc",
      "unmapped_labels": [
-      "(ang.)",
-      "(czes.)",
-      "(fr.)",
       "(grec.)",
       "(grec., ang.)",
       "(grec., fr.)",
       "(grec., niem.)",
       "(grec., wł.)",
       "(grec., łac.)",
-      "(hisz.)",
       "(maced.)",
-      "(niem.)",
-      "(pol.)",
-      "(ros.)",
-      "(tur.)",
-      "(ukr.)",
-      "(wł.)",
-      "(łac.)",
       "Alemán (Alemán Antiguo)",
       "Arabiska",
-      "Català",
       "Danska",
-      "Engelska",
-      "English & Greek",
       "Estniska",
-      "Finska",
-      "Franska",
-      "Français",
-      "Français.",
-      "French & Greek",
-      "German & Greek",
       "German (Bernays)",
       "Grec ancien-français.",
       "Greek (Ancient Greek)",
-      "Greek (Modern Greek)",
-      "Greek (Modern Greek) & Greek (Ancient Greek)",
-      "Greek, Modern (1453-)",
       "Isländska",
-      "Italian & Greek",
-      "Latin & Greek",
       "Latin and Greek",
       "Latín",
       "None",
       "Persiska",
-      "Polska",
       "Romanès",
       "Rumänska",
-      "Ryska",
       "Serbiska",
       "Skotska",
-      "Spanish & Greek",
       "Spanish (Gutiérrez)",
-      "Spanish (Mediatek (Firm)).",
-      "Spanska",
-      "Svenska",
-      "Tyska.",
-      "Ungerska"
+      "Spanish (Mediatek (Firm))."
      ],
      "sources": [
       "N6I|vtls000254508",
@@ -16645,7 +16505,7 @@
       },
       {
        "lang": "(ang.)",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Odyssey",
        "year": null
@@ -16764,7 +16624,7 @@
       },
       {
        "lang": "Tyska.",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Heimkehr des Odysseus",
        "year": null
@@ -16799,7 +16659,7 @@
       },
       {
        "lang": "English & Greek",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Odyssey.",
        "year": null
@@ -16813,7 +16673,7 @@
       },
       {
        "lang": "German & Greek",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Odyssee",
        "year": null
@@ -16876,21 +16736,21 @@
       },
       {
        "lang": "Français",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Odyssée.",
        "year": null
       },
       {
        "lang": "Italian & Greek",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Odissea",
        "year": null
       },
       {
        "lang": "Greek (Modern Greek)",
-       "code": null,
+       "code": "gre",
        "translator": null,
        "title": "Odysseia",
        "year": null
@@ -16960,14 +16820,14 @@
       },
       {
        "lang": "Franska",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Odissée d'Homere",
        "year": null
       },
       {
        "lang": "(wł.)",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Odissea",
        "year": null
@@ -16988,7 +16848,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": "Καζαντζακις, Νικος,",
        "title": "Ομηρου Οδυσσεια",
        "year": "1986)"
@@ -17009,7 +16869,7 @@
       },
       {
        "lang": "Latin & Greek",
-       "code": null,
+       "code": "lat",
        "translator": null,
        "title": "Homeri Odyssea",
        "year": null
@@ -17037,7 +16897,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": "Alexiou, Stylianos,",
        "title": "Odysseia",
        "year": "2013)"
@@ -17163,7 +17023,7 @@
       },
       {
        "lang": "(czes.)",
-       "code": null,
+       "code": "cze",
        "translator": null,
        "title": "Odyssea",
        "year": null
@@ -17275,7 +17135,7 @@
       },
       {
        "lang": "Français.",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Odyssée d'Homère",
        "year": 1785
@@ -17303,7 +17163,7 @@
       },
       {
        "lang": "(łac.)",
-       "code": null,
+       "code": "lat",
        "translator": null,
        "title": "Odyssea",
        "year": null
@@ -17457,7 +17317,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": "Εφταλιωτη, Αργυρη,",
        "title": "Ομερου Οδυσσεια",
        "year": "1997)"
@@ -17485,7 +17345,7 @@
       },
       {
        "lang": "Greek (Modern Greek)",
-       "code": null,
+       "code": "gre",
        "translator": "Doukas, Neophytos,",
        "title": "Odysseia.",
        "year": null
@@ -17576,14 +17436,14 @@
       },
       {
        "lang": "Spanish & Greek",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Ilíada, Odisea",
        "year": null
       },
       {
        "lang": "Finska",
-       "code": null,
+       "code": "fin",
        "translator": null,
        "title": "Homeroon Odysseian kuudes rumoilema",
        "year": null
@@ -17597,7 +17457,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": "Kampouridēs, Stauros,",
        "title": "Odysseia",
        "year": "1980)"
@@ -17611,14 +17471,14 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": "Ψυχουντακης, Γιωργος,",
        "title": "Ομηρου Οδυσσεια",
        "year": "2010)"
       },
       {
        "lang": "Català",
-       "code": null,
+       "code": "cat",
        "translator": null,
        "title": "Odissea.",
        "year": null
@@ -17702,14 +17562,14 @@
       },
       {
        "lang": "Engelska",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Odyssey",
        "year": null
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Odyssée",
        "year": null
@@ -17723,7 +17583,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": "Ποριωτης, Νικολαος,",
        "title": "Ομηρου Οδυσσεια",
        "year": "1965)"
@@ -17835,7 +17695,7 @@
       },
       {
        "lang": "Svenska",
-       "code": null,
+       "code": "swe",
        "translator": null,
        "title": "Homeros' Odyssée",
        "year": null
@@ -17856,7 +17716,7 @@
       },
       {
        "lang": "Ryska",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Gomerova Odisseja",
        "year": null
@@ -17877,7 +17737,7 @@
       },
       {
        "lang": "English & Greek",
-       "code": null,
+       "code": "eng",
        "translator": null,
        "title": "Odyssey.",
        "year": null
@@ -17905,14 +17765,14 @@
       },
       {
        "lang": "Greek (Modern Greek) & Greek (Ancient Greek)",
-       "code": null,
+       "code": "gre",
        "translator": null,
        "title": "Odysseia",
        "year": null
       },
       {
        "lang": "French & Greek",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Odyssée",
        "year": null
@@ -17926,14 +17786,14 @@
       },
       {
        "lang": "(ros.)",
-       "code": null,
+       "code": "rus",
        "translator": null,
        "title": "Odisseâ",
        "year": null
       },
       {
        "lang": "(pol.)",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Odyseja",
        "year": null
@@ -18052,7 +17912,7 @@
       },
       {
        "lang": "Ungerska",
-       "code": null,
+       "code": "hun",
        "translator": null,
        "title": "Odüsszeia",
        "year": null
@@ -18108,7 +17968,7 @@
       },
       {
        "lang": "French & Greek",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Odyssée",
        "year": null
@@ -18220,7 +18080,7 @@
       },
       {
        "lang": "Italian & Greek",
-       "code": null,
+       "code": "ita",
        "translator": null,
        "title": "Odyssey.",
        "year": null
@@ -18297,7 +18157,7 @@
       },
       {
        "lang": "(fr.)",
-       "code": null,
+       "code": "fre",
        "translator": null,
        "title": "Odyssée",
        "year": null
@@ -18367,7 +18227,7 @@
       },
       {
        "lang": "Polska",
-       "code": null,
+       "code": "pol",
        "translator": null,
        "title": "Odyseja",
        "year": null
@@ -18409,7 +18269,7 @@
       },
       {
        "lang": "(niem.)",
-       "code": null,
+       "code": "ger",
        "translator": null,
        "title": "Odyssee",
        "year": null
@@ -18647,7 +18507,7 @@
       },
       {
        "lang": "Greek, Modern (1453-)",
-       "code": null,
+       "code": "gre",
        "translator": null,
        "title": "Homerou Odysseia",
        "year": 1873
@@ -18724,14 +18584,14 @@
       },
       {
        "lang": "(ukr.)",
-       "code": null,
+       "code": "ukr",
        "translator": null,
        "title": "Odìsseâ",
        "year": null
       },
       {
        "lang": "(tur.)",
-       "code": null,
+       "code": "tur",
        "translator": null,
        "title": "Odysseia",
        "year": null
@@ -18759,7 +18619,7 @@
       },
       {
        "lang": "(hisz.)",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Ulyxea",
        "year": null
@@ -18850,7 +18710,7 @@
       },
       {
        "lang": "Spanska",
-       "code": null,
+       "code": "spa",
        "translator": null,
        "title": "Odisea",
        "year": null
@@ -19248,9 +19108,10 @@
     "slo",
     "spa",
     "swe",
+    "tur",
     "ukr"
    ],
-   "census_size": 36
+   "census_size": 37
   },
   "N24": {
    "queries": [
@@ -19313,14 +19174,6 @@
    "census_size": 0
   }
  },
- "requests": {
-  "viaf.org": {
-   "requests": 3,
-   "failed": 0,
-   "total_s": 0.59,
-   "p50_s": 0.173,
-   "max_s": 0.241
-  }
- },
+ "requests": {},
  "failures": []
 }

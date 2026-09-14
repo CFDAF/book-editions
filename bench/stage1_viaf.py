@@ -115,8 +115,27 @@ NAMES = {
     "anglais": "eng", "allemand": "ger", "espagnol": "spa", "italien": "ita",
     "englisch": "eng", "deutsch": "ger", "französisch": "fre", "spanisch": "spa", "italienisch": "ita",
     "inglés": "eng", "francés": "fre", "alemán": "ger", "italiano": "ita", "español": "spa",
+    # Polish cataloguing abbreviations ("(wł.)" is włoski, Italian)
+    "(pol.)": "pol", "(ang.)": "eng", "(fr.)": "fre", "(niem.)": "ger", "(wł.)": "ita", "(hisz.)": "spa",
+    "(ros.)": "rus", "(norw.)": "nor", "(port.)": "por", "(chiń.)": "chi", "(ukr.)": "ukr", "(czes.)": "cze",
+    "(słowac.)": "slo", "(tur.)": "tur", "(łac.)": "lat", "(węg.)": "hun", "(bułg.)": "bul", "(niderl.)": "dut",
+    "(słoweń.)": "slv", "(serb.)": "srp", "(białorus.)": "bel", "(pers.)": "per", "(jap.)": "jpn", "(hebr.)": "heb",
+    # Swedish, Czech/Slovak, Catalan and other names seen in the corpus
+    "svenska": "swe", "spanska": "spa", "engelska": "eng", "franska": "fre", "ryska": "rus", "finska": "fin",
+    "ungerska": "hun", "albanska": "alb", "polska": "pol", "tyska": "ger", "italienska": "ita",
+    "esperantsky": "epo", "makedonsky": "mac", "ukrajinsky": "ukr", "srbsky": "srp", "bosensky": "bos",
+    "mongolsky": "mon", "turecky": "tur", "albánsky": "alb", "català": "cat", "eslovè": "slv", "serbi": "srp",
+    "français": "fre", "ruso": "rus", "panjabi": "pan", "greek, modern (1453-)": "gre",
+    "greek (modern greek)": "gre", "haitian french creole": "hat", "gaelic": "gae", "tahitian": "tah",
+    "ladino": "lad", "bambara": "bam", "santomenc": "cpp", "totonac": "nai", "qashqai": "tut",
 }
-UNMAPPED_MARKERS = {"null", "", "und", "(wł.)", "mul", "zxx"}
+UNMAPPED_MARKERS = {"null", "none", "", "und", "mul", "zxx"}
+
+
+def norm_langs(label):
+    """Every code in a label: 'English & Greek' names two languages."""
+    parts = [p for p in re.split(r"\s*&\s*", str(label))] if label is not None else [None]
+    return [norm_lang(p) for p in parts]
 
 
 def norm_lang(label):
@@ -222,10 +241,12 @@ def work_census(book) -> dict:
         exprs = L((c.get("titles") or {}).get("expression"))
         rows, codes, how = [], set(), {}
         for e in exprs:
-            code, h = norm_lang(e.get("lang"))
-            how[h] = how.get(h, 0) + 1
-            if code:
-                codes.add(code)
+            found = norm_langs(e.get("lang"))
+            for code_i, h in found:
+                how[h] = how.get(h, 0) + 1
+                if code_i:
+                    codes.add(code_i)
+            code = next((c for c, _ in found if c), None)
             subs = L((e.get("datafield") or {}).get("subfield"))
             rows.append({"lang": e.get("lang"), "code": code, "translator": e.get("translator"),
                          "title": e.get("title") or next((s.get("content") for s in subs if s.get("code") == "t"), None),

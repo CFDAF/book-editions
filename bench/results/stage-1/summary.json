@@ -1,0 +1,570 @@
+{
+ "A1": {
+  "entries_by_verdict": {
+   "wikidata_today": {
+    "right": 68,
+    "none": 19,
+    "wrong": 4
+   },
+   "wikidata_step4": {
+    "right": 59,
+    "none": 32
+   },
+   "sbn": {
+    "right": 68,
+    "none": 23
+   },
+   "ol": {
+    "main": 60,
+    "none": 21,
+    "split": 8,
+    "wrong": 2
+   }
+  },
+  "sbn_no_identity_detail": {
+   "none (weak; W right)": 5,
+   "none (weak; W wrong)": 1,
+   "none (rejected; W right)": 9,
+   "none (rejected; W wrong)": 1
+  },
+  "books_fully_converged_and_right": {
+   "wikidata_today": 20,
+   "wikidata_step4": 14,
+   "sbn": 22,
+   "ol": 13
+  },
+  "books_scored": 37,
+  "b_requests": {
+   "total": 637,
+   "entries_needing_B": 59,
+   "max": 151
+  }
+ },
+ "A3_wall": {
+  "book_wall_s": {
+   "total": 274.8,
+   "median": 5.3,
+   "max": 18.4
+  },
+  "sbn_listing_wall_s": {
+   "median": 3.6,
+   "max": 16.0
+  }
+ },
+ "A3": {
+  "sbn": {
+   "rows": 2603,
+   "year_parsed": 2561,
+   "year_rate": 0.9839,
+   "publisher_present": 2602,
+   "language_present": 2601,
+   "requests": 469,
+   "records_on_no_language_page": 0,
+   "bogus_lingua_controls_nonzero": 0,
+   "year_parse_failures_by_kind": {
+    "no year in the record": 14,
+    "infos[0] is not the imprint": 26,
+    "year present, parser missed it": 2
+   },
+   "year_parse_failures": [
+    {
+     "book": "E01",
+     "bid": "AQ10067111",
+     "imprint": "Athena : Libane, \\s. d.!",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "E01",
+     "bid": "UMC0987900",
+     "imprint": "Fa parte di: 1",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "E02",
+     "bid": "UBO0976973",
+     "imprint": "Paris : Seuil",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "E07",
+     "bid": "UBO4204084",
+     "imprint": "[Rev. ed.]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "E07",
+     "bid": "RMS1902948",
+     "imprint": "3. ed",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "E09",
+     "bid": "ANA0184685",
+     "imprint": "533 p",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "E09",
+     "bid": "PUV1543472",
+     "imprint": "Lisboa : Difel, [198?]",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "E16",
+     "bid": "RMS1900157",
+     "imprint": "28. ed",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "E16",
+     "bid": "MOD1598740",
+     "imprint": "Registrazione sonora non musicale - Monografia [IT\\ICCU\\MOD\\1598740]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "E16",
+     "bid": "PAR1195904",
+     "imprint": "Fa parte di: Opere narrative",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N01",
+     "bid": "LO11265422",
+     "imprint": "Testo - Monografia [IT\\ICCU\\LO1\\1265422]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "CAG2180145",
+     "imprint": "[Al-Qahira] : [Éditions des Imprimeries d’Al-Amiriya ], [201?-] - 104 p. : ill. ; 21 cm.",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "UBO3396526",
+     "imprint": "[S.l.] : Al-manshurat al-'arabiyah, [200.]",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N02",
+     "bid": "LUA0529160",
+     "imprint": "[S.l.] : [s.n.], [201.]",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N02",
+     "bid": "RMS2334260",
+     "imprint": "91 p. : ill. ; 18 cm",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "CAG2129834",
+     "imprint": "Paris, Gallimard,1964 (Paris : Paul Dupont)",
+     "kind": "year present, parser missed it"
+    },
+    {
+     "book": "N02",
+     "bid": "CAG1973004",
+     "imprint": "Testo - Monografia [IT\\ICCU\\CAG\\1973004]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "PAR1218145",
+     "imprint": "[Split] : Knjigo Tosak, [200.?]",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N02",
+     "bid": "RAV1430710",
+     "imprint": "Firenze : Regione Toscana : Stamperia Braille, [19..?]",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N02",
+     "bid": "FOG0536112",
+     "imprint": "Testo - Monografia [IT\\ICCU\\FOG\\0536112]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "FOG0529986",
+     "imprint": "Testo - Monografia [IT\\ICCU\\FOG\\0529986]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "UMC1015879",
+     "imprint": "Testo - Monografia [IT\\ICCU\\UMC\\1015879]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "URB0986306",
+     "imprint": "[S.l.:s.n.], 2023 (Urbania : Stibu)",
+     "kind": "year present, parser missed it"
+    },
+    {
+     "book": "N02",
+     "bid": "LUA0610719",
+     "imprint": "Testo - Monografia [IT\\ICCU\\LUA\\0610719]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "RLZ0026655",
+     "imprint": "121 p. : ill. ; 24 cm",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "RL10117190",
+     "imprint": "5. ed",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "RMS2663012",
+     "imprint": "Testo - Monografia [IT\\ICCU\\RMS\\2663012]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "LZ10010512",
+     "imprint": "[Roma] : Biancoenero",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N02",
+     "bid": "BVE0754972",
+     "imprint": "Empoli : Ibiskos Editrice Risolo",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N02",
+     "bid": "VIA0527180",
+     "imprint": "96 p. : ill. ; 12 x 18",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N02",
+     "bid": "UBO3121509",
+     "imprint": "Warszawa : Warszawskie Wydawnictwo Literackie Muza sa",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N02",
+     "bid": "UFE0961209",
+     "imprint": "Tlalpan : Palanbra, [200?]",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N03",
+     "bid": "TO01615607",
+     "imprint": "Frankfurt am Main : Fischer, [19..!",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N03",
+     "bid": "RMS1156657",
+     "imprint": "18 ed",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N06",
+     "bid": "PUV1569110",
+     "imprint": "Testo - Monografia [IT\\ICCU\\PUV\\1569110]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N06",
+     "bid": "BRI0492135",
+     "imprint": "Testo - Monografia [IT\\ICCU\\BRI\\0492135]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N06",
+     "bid": "RMS1138995",
+     "imprint": "12. rist",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N08",
+     "bid": "RL10000219",
+     "imprint": "Testo - Monografia [IT\\ICCU\\RL1\\0000219]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N10",
+     "bid": "BVE0232949",
+     "imprint": "Testo - Monografia [IT\\ICCU\\BVE\\0232949]",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N10",
+     "bid": "TO01304882",
+     "imprint": "Milano : Bompiani",
+     "kind": "no year in the record"
+    },
+    {
+     "book": "N10",
+     "bid": "RMS1437271",
+     "imprint": "171 p. ; 20 cm.",
+     "kind": "infos[0] is not the imprint"
+    },
+    {
+     "book": "N12",
+     "bid": "UBO0286469",
+     "imprint": "Torino : \\s.n., 19..?!",
+     "kind": "no year in the record"
+    }
+   ]
+  },
+  "ol": {
+   "rows": 5123,
+   "year_parsed": 5024,
+   "publisher_present": 5065,
+   "language_present": 4139,
+   "requests": 39
+  },
+  "verdict": "PASS"
+ },
+ "A5": {
+  "right": 27,
+  "wikidata_original_right": 22,
+  "false flag": 8,
+  "wikidata_original_absent": 10,
+  "missed": 1,
+  "report only": 2,
+  "wikidata_original_wrong": 3,
+  "wikidata_original_right, year missing": 1
+ },
+ "A6": {
+  "books": {
+   "census ≥ found": 17,
+   "census < found": 13,
+   "unavailable": 7,
+   "not scored": 3
+  },
+  "label_normalisation": {
+   "bench table": 1333,
+   "no language": 22,
+   "unmapped": 59
+  },
+  "verdict": "FAIL"
+ },
+ "A7": {
+  "persons": 9,
+  "persons_with_one_id_in_some_source": 9,
+  "verdict": "PASS"
+ },
+ "A8": {
+  "per_ua": {
+   "A": {
+    "requests": 180,
+    "http_429": 102,
+    "non_200": 102,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.12,
+    "p95_s": 0.319,
+    "max_s": 0.675,
+    "status_counts": {
+     "200": 78,
+     "429": 102
+    },
+    "by_host": {
+     "en.wikipedia.org": 32,
+     "it.wikipedia.org": 34,
+     "www.wikidata.org": 36
+    }
+   },
+   "B": {
+    "requests": 180,
+    "http_429": 0,
+    "non_200": 0,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.198,
+    "p95_s": 0.384,
+    "max_s": 0.694,
+    "status_counts": {
+     "200": 180
+    },
+    "by_host": {
+     "en.wikipedia.org": 0,
+     "it.wikipedia.org": 0,
+     "www.wikidata.org": 0
+    }
+   }
+  },
+  "latency_200_only": {
+   "A": {
+    "n": 78,
+    "p50": 0.196,
+    "p95": 0.368
+   },
+   "B": {
+    "n": 180,
+    "p50": 0.198,
+    "p95": 0.384
+   }
+  },
+  "verdict": "PASS"
+ },
+ "hosts": {
+  "openlibrary.org": {
+   "requests": 202,
+   "failed": 3,
+   "over_5s": 21,
+   "total_s": 383.9,
+   "p50_s": 0.806,
+   "max_s": 18.44
+  },
+  "opac.sbn.it/o": {
+   "requests": 1482,
+   "failed": 0,
+   "over_5s": 7,
+   "total_s": 1288.9,
+   "p50_s": 0.815,
+   "max_s": 9.99
+  },
+  "it.wikipedia.org": {
+   "requests": 397,
+   "failed": 34,
+   "over_5s": 2,
+   "total_s": 128.1,
+   "p50_s": 0.252,
+   "max_s": 17.4
+  },
+  "en.wikipedia.org": {
+   "requests": 385,
+   "failed": 32,
+   "over_5s": 1,
+   "total_s": 111.4,
+   "p50_s": 0.234,
+   "max_s": 17.46
+  },
+  "www.wikidata.org": {
+   "requests": 317,
+   "failed": 36,
+   "over_5s": 1,
+   "total_s": 116.1,
+   "p50_s": 0.218,
+   "max_s": 7.7
+  },
+  "lx2.loc.gov:210": {
+   "requests": 50,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 27.2,
+   "p50_s": 0.289,
+   "max_s": 1.67
+  },
+  "catalogue.bnf.fr": {
+   "requests": 15,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 24.2,
+   "p50_s": 1.758,
+   "max_s": 3.09
+  },
+  "services.dnb.de": {
+   "requests": 7,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 1.7,
+   "p50_s": 0.188,
+   "max_s": 0.59
+  },
+  "es.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.5,
+   "p50_s": 0.501,
+   "max_s": 0.5
+  },
+  "ja.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.3,
+   "p50_s": 0.347,
+   "max_s": 0.35
+  },
+  "de.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.5,
+   "p50_s": 0.452,
+   "max_s": 0.45
+  },
+  "fr.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.6,
+   "p50_s": 0.641,
+   "max_s": 0.64
+  },
+  "ru.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.4,
+   "p50_s": 0.442,
+   "max_s": 0.44
+  },
+  "cs.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.3,
+   "p50_s": 0.269,
+   "max_s": 0.27
+  },
+  "pt.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.3,
+   "p50_s": 0.252,
+   "max_s": 0.25
+  },
+  "zh.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.2,
+   "p50_s": 0.242,
+   "max_s": 0.24
+  },
+  "ar.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.3,
+   "p50_s": 0.332,
+   "max_s": 0.33
+  },
+  "el.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "over_5s": 0,
+   "total_s": 0.4,
+   "p50_s": 0.434,
+   "max_s": 0.43
+  },
+  "viaf.org": {
+   "requests": 270,
+   "failed": 68,
+   "over_5s": 0,
+   "total_s": 114.5,
+   "p50_s": 0.229,
+   "max_s": 3.14
+  }
+ }
+}
