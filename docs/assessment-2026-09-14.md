@@ -48,7 +48,7 @@ Runs: CLI `--format json`, scored by script, not by eye *(audit)*.
 | UC2 Italian title + author | Partly | Same header, 241 editions, 58 Italian (UC1 shows 40) **V** *(audit)*. |
 | UC3 original title + author | Partly | Same header, 242 editions **V** *(audit)*. |
 | UC4 author only | Not served | `--author` alone is rejected (`book_editions.py:180`) **V** *(own)*. Rows are titles, not works: 10 works take 53 rows, and *Steps to an Ecology of Mind* alone is 10 rows in 7 language groups **M** *(audit)*. Books *about* Bateson are included. Clicking a row reruns nothing: `wire()` in `web/app.js` has no handler for it **I** *(own)*. |
-| UC5 title only | Partly | *Noise* offers 4 books (Kahneman, Patterson, Wild, Nihei) but misses Attali's **M** *(audit)*. Choices carry no publisher or first edition. Choosing one filters the page rather than rerunning **I**. A single-work title (*Verso un'ecologia della mente*) shows no confirmation **V** *(audit)*. |
+| UC5 title only | Partly | *Noise* offers 4 books (Kahneman, Patterson, Wild, Nihei) but misses Attali's **M** *(audit)*. SBN holds it: `title=noise` matches 2,867 records and it is not among the first 500 the tool reads, while `title=noise&author=attali` returns only `LO10442107`. The control `zzqxnoise` returns 0 **V** *(own)*. This is ranking plus truncation, not an SBN bug. Choices carry no publisher or first edition. Choosing one filters the page rather than rerunning **I**. A single-work title (*Verso un'ecologia della mente*) shows no confirmation **V** *(audit)*. |
 | Filters | Partly, one wrong | No language filter in the CLI or server **V** *(audit)*. The 1990–99 filter shows 18 editions and misses 41 of the 59 in range, because the year span is applied to the Open Library *work's* `first_publish_year` (`openlibrary.py:57-58`) **V** *(own)*. Publisher "Mondadori" is exact (29 of 29). Filters run after all 150 full-record fetches **M**. |
 | *Il dottor Živago* + Pasternak | Wrong | Header "Доктор Живаго · first published 1957 in russo". 1957 was the Italian Feltrinelli edition (`LO10333186`), which is labelled a translation **V** *(audit)*. |
 
@@ -312,6 +312,22 @@ full-record fetches, fast enough and with enough data to filter on?
    - **Proposal:** go straight to the result, with "other books titled X" under
      the header.
 
+### Decisions taken (user, 2026-09-14)
+
+| # | Decision |
+|---|---|
+| 1 | No reachable source lists every edition. The result says what was found against what is known. |
+| 2 | When the original and the first edition differ, show them separately. |
+| 3 | Buy links and library holdings are fetched when a row is expanded, not during the lookup. The ISBN-collision dedup workaround is to be tested before it is adopted. |
+| 4 | Enumerate the whole work, filter locally, then fetch details. The original, first edition and counts are computed unfiltered. |
+| 5 | Editions stay grouped by language. |
+| 6 | Author-only search resolves the author first, then lists works. Several author candidates can be selected together, for variants of one person (typos, diacritics, transliteration). |
+| 7 | UC5 (title only) is dropped. A title lookup needs an author. |
+
+These supersede the 2026-09-14 decision-log rows in `STRATEGY.md` on upfront
+details (3) and on rerunning the lookup when a filter changes (4). They are
+recorded there once the wider benchmark (§9) has run.
+
 ---
 
 ## 6. Gaps in `STRATEGY.md` this assessment found
@@ -324,16 +340,18 @@ full-record fetches, fast enough and with enough data to filter on?
 | G4 | No statement of coverage against "every edition" | 18–16 of 46 languages **M** |
 | G5 | Author mode (Step 10) lists works without first resolving the author | duplicate Open Library authors **M** |
 | G6 | Bugs outside the plan: Open Library year filter at work level; CLI `--author` alone rejected; no language filter | **V** |
-| G7 | Wikipedia stalls are attributed to the environment. Wikimedia allows 10 req/min to clients without contact info in the User-Agent and 200/min with it **D**; `net.py:29` sends `book-editions-lookup/3.0 (personal research tool)` with none **V** *(own)*. A first test was inconclusive (3 successes then 12 × 429, not reproduced in reversed order) *(community)* | reopen the "Settled" row with a proper test |
+| G7 | Wikipedia stalls are attributed to the environment. Wikimedia's 2026 limits for the Action and REST APIs give 10 req/min to requests identifiable only by IP, and 200 req/min to bots with a compliant User-Agent such as `CoolBot/0.0 (https://example.org/coolbot/; coolbot@example.org) generic-library/0.0`. No registration is needed for that tier **D** ([policy](https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits), "new in 2026 and subject to experimentation"). `net.py:29` sends `book-editions-lookup/3.0 (personal research tool)`, with no contact **V** *(own)*. A first test was inconclusive (3 successes then 12 × 429, not reproduced in reversed order) *(community)* | reopen the "Settled" row with a proper test |
 
 ---
 
 ## 7. Recommended plan
 
-It replaces the ordering of `STRATEGY.md` Steps 2 and 4–11. Steps 1 and 3 stay.
+It replaces the ordering of `STRATEGY.md` Steps 2 and 4–11. Steps 1 and 3
+stay. It is revised for the decisions in §5, and the benchmark in §9 runs
+before it is recorded in `STRATEGY.md`.
 
-1. **Safety net:** Step 1 as written, plus two baseline metrics: cross-entry
-   record overlap (§2) and cold latency.
+1. **Safety net:** Step 1 on the §9 corpus, plus two baseline metrics:
+   cross-entry record overlap (§2) and cold latency.
 2. **Stop caching error payloads:** Step 3 as written.
 3. **Identify the work once.** One resolver returns a `Work`:
    - the Wikidata item, accepted only when its title matches the query (Step 4);
@@ -344,13 +362,25 @@ It replaces the ordering of `STRATEGY.md` Steps 2 and 4–11. Steps 1 and 3 stay
    - SBN per language (Step 6), plus Open Library `editions.json` for each work
      key, merged into one lean list.
    - Nothing after step 3 uses the typed title.
-5. **Filter locally, then fetch details**, per decision 3.
+5. **Filter locally, then fetch details.**
+   - Filters apply to the lean list (decision 4).
+   - Holdings and buy links are fetched when a row is expanded (decision 3).
+   - Cross-source duplicates are merged by the ISBN-collision workaround only
+     if §9 (A4) supports it.
+   - The header shows the original and the first edition separately when they
+     differ (decision 2), plus coverage against a census (decision 1).
 6. **Fall back** to today's inference routes (author sweep, Dewey, reverse
    expansion) only when no strong identity exists, marked as inferred. Drop the
    Open Library sibling probes (Step 8: 0 editions from 512 candidates).
-7. **Author mode:** choose the author, then list works (Step 10 plus G5).
-8. **Title only** (Step 11, per decision 7).
-9. **Correct the record** (Step 2), once the new path is in.
+7. **Author mode** (Step 10 plus G5, decision 6):
+   - Resolve author candidates, pre-grouped by authority (SBN name authority,
+     VIAF) where one exists.
+   - Let the user select one or several.
+   - List works titled in their original language, newest first.
+   - Selecting a work runs the title + author lookup.
+8. **Correct the record** (Step 2), once the new path is in. Title-only
+   disambiguation (Step 11) is dropped (decision 7). A title lookup without an
+   author asks for one.
 
 **How to build it:**
 
@@ -378,10 +408,91 @@ It replaces the ordering of `STRATEGY.md` Steps 2 and 4–11. Steps 1 and 3 stay
   labels need a normalisation table.
 - The Japanese national library API, Jisc Library Hub, hbz lobid, Trove.
 - LoC and BnF dump size and freshness.
-- Duplicate detection across SBN and Open Library without ISBNs.
+- Duplicate detection across SBN and Open Library without ISBNs (the decision 3
+  workaround; §9 A4).
 - The enumeration probe on *Verso un'ecologia della mente* (the script stopped
   on Open Library's empty result before reaching SBN).
 - Repeat cold runs of the enumeration probe (n = 1).
+
+---
+
+## 9. Wider benchmark (draft, for review)
+
+Most §3–§4 evidence rests on 3–5 books. The assumptions below are tested on a
+wider corpus before the plan is recorded. The corpus then becomes Step 1's
+regression set, so the work is not done twice.
+
+### Assumptions under test
+
+| # | Assumption | Metric | Fails if |
+|---|---|---|---|
+| A1 | Every entry title + author reaches one identity | Wikidata item, SBN work (tier) and Open Library main work, per entry title | any entry title of a book resolves differently |
+| A2 | Listing by identity loses nothing today's tool finds | records in today's result missing from the listing, each explained; requests; cold latency | an unexplained loss, or cold latency worse than today |
+| A3 | Listing rows are enough to filter | year, publisher, language parse rates per source | < 90% year parse on SBN rows |
+| A4 | ISBN-collision dedup (decision 3) | on books whose full records are fetched as ground truth: precision and recall of (language, year, normalised publisher) collisions against shared ISBNs; detail fetches needed against all | precision < 95%, or no fetch saving |
+| A5 | Original vs first edition is detectable (decision 2) | Wikidata original (title, language, year) against the earliest catalogued edition | a wrong original; a missed or false "first edition differs" |
+| A6 | A census can state coverage (decision 1) | VIAF work languages (normalised) against languages found | census unavailable or smaller than found for most books |
+| A7 | Authorities group author variants (decision 6) | variant forms reaching one SBN / VIAF authority | variants split, leaving only manual multi-select |
+| A8 | A contact User-Agent removes Wikimedia throttling (G7) | same request sequence with each User-Agent: 429s, stalls > 5 s | no difference |
+
+### Corpus
+
+Already in `STRATEGY.md` (kept): *Cien años de soledad*, *Steps to an Ecology
+of Mind*, *Bruits*, *Umibe no Kafuka*, *The Invention of News*, *More
+Brilliant Than the Sun*, *Liquid Modernity*, *Communication: The Social Matrix
+of Psychiatry*, *Il nome della rosa*, *Opere* (Leopardi), *Poesie* (Montale),
+*Über den Begriff der Geschichte*, *Angelus Novus*, *Per una economia
+positiva*, *The Essential Knuth*, plus *Doktor Živago* (this assessment).
+
+New. Facts below are from memory. Establishing ground truth for each is the
+run's first stage, and is itself a test of A5.
+
+| # | Original title | Author | Original | EN / IT entry titles | Fame | What it tests |
+|---|---|---|---|---|---|---|
+| N1 | Nesnesitelná lehkost bytí | Milan Kundera | cze; first printed in French, Gallimard 1984 | The Unbearable Lightness of Being / L'insostenibile leggerezza dell'essere | high | original ≠ first edition; diacritics |
+| N2 | Le Petit Prince | Antoine de Saint-Exupéry | fre; first printed New York 1943, in English and French | The Little Prince / Il piccolo principe | very high | first edition abroad; hundreds of languages; census |
+| N3 | Se questo è un uomo | Primo Levi | ita; De Silva 1947, Einaudi 1958 | If This Is a Man, *and* Survival in Auschwitz | high | Italian original outward; two English titles; first publisher ≠ famous one |
+| N4 | Преступление и наказание | Fëdor Dostoevskij | rus; serial 1866, book 1867 | Crime and Punishment / Delitto e castigo | very high | transliterated author; pre-1900; page and facet caps |
+| N5 | The Catcher in the Rye | J. D. Salinger | eng 1951 | — / Il giovane Holden, *and* Vita da uomo (1952) | high | no shared words; retranslation under another title |
+| N6 | Nineteen Eighty-Four | George Orwell | eng 1949 | — / 1984, Millenovecentottantaquattro | very high | pseudonym; numeric title forms |
+| N7 | Se una notte d'inverno un viaggiatore | Italo Calvino | ita 1979 | If on a Winter's Night a Traveler / — | high | Italian original; long punctuated title |
+| N8 | L'amica geniale | Elena Ferrante | ita 2011 | My Brilliant Friend / — | high, recent | pseudonym; recent translations; TV adaptation in facets |
+| N9 | Il formaggio e i vermi | Carlo Ginzburg | ita 1976 | The Cheese and the Worms / — | mid, academic | Italian non-fiction outward |
+| N10 | L'Étranger | Albert Camus | fre 1942 | The Stranger, *and* The Outsider / Lo straniero | very high | two English titles |
+| N11 | La Disparition | Georges Perec | fre 1969 | A Void / La scomparsa | mid | retitled everywhere |
+| N12 | Der Process | Franz Kafka | ger 1925 | The Trial / Il processo | very high | posthumous; spelling variants (Process / Prozess); many Italian translations |
+| N13 | Müdigkeitsgesellschaft | Byung-Chul Han | ger 2010 | The Burnout Society / La società della stanchezza | mid, recent | name order and romanisation |
+| N14 | Ensaio sobre a cegueira | José Saramago | por 1995 | Blindness / Cecità | high | Portuguese |
+| N15 | 2666 | Roberto Bolaño | spa 2004 | 2666 / 2666 | mid | numeric title identical everywhere |
+| N16 | 活着 | Yu Hua | chi 1993 | To Live / Vivere! | mid | Chinese script and romanisation |
+| N17 | بين القصرين | Naguib Mahfouz | ara 1956 | Palace Walk / Tra i due palazzi (verify) | mid | Arabic script; transliterated author |
+| N18 | Capitalist Realism | Mark Fisher | eng 2009 | — / Realismo capitalista | niche | small press; subtitle |
+| N19 | Tomorrow, and Tomorrow, and Tomorrow | Gabrielle Zevin | eng 2022 | — / Domani, e domani, e domani | high, very recent | few editions; catalogue lag |
+| N20 | Metaphors We Live By | George Lakoff, Mark Johnson | eng 1980 | — / Metafora e vita quotidiana | mid, academic | two authors; retitled |
+| N21 | Veinte poemas de amor y una canción desesperada | Pablo Neruda | spa 1924 | Twenty Love Poems and a Song of Despair / Venti poesie d'amore e una canzone disperata | high | poetry; bilingual editions |
+| N22 | Le Capital au XXIe siècle | Thomas Piketty | fre 2013 | Capital in the Twenty-First Century / Il capitale nel XXI secolo | high | recent non-fiction; roman numerals |
+| N23 | Ὀδύσσεια | Homer | grc | The Odyssey / Odissea | extreme | insights only, no fail criteria applied: no meaningful first edition; thousands of records |
+| N24 | Tutto per una casa: dalla Russia alla Siberia fino in Spagna | Orlando Ciprian | ita; one edition, no translations known (user) | — / — | obscure | the minimal case, likely absent from Wikidata and Open Library: exactly one edition, no invented original, translation or census; subtitle |
+
+Author-only set (A7): Gregory Bateson · Murakami Haruki / Haruki Murakami ·
+Fëdor Dostoevskij (Dostoevsky, Dostoïevski) · Elena Ferrante · Jacques Attali
+(prolific; duplicate Open Library authors; 50-item facet cap) · Umberto Eco ·
+Kodwo Eshun (tiny bibliography) · Byung-Chul Han.
+
+### How it runs
+
+- Plain scripts, not exploratory agents. Earlier in this session three
+  parallel agents hit the session limit.
+- Serial per host, with a fresh cache per stage.
+- **Stage 1:** ground truth, then A1, A3, A5, A6, A7, A8. Cheap: identity and
+  listing requests only. A8's contact User-Agent carries the project's GitHub
+  URL.
+- **Stage 2:** today's pipeline on every entry title, in the background, for
+  A2. About 90 entry titles at ~1 min cold.
+- **Stage 3:** A4 on about 8 books of mixed size, fetching full records as
+  ground truth.
+- Each stage reports raw numbers against the fail criteria before the next
+  starts.
 
 ---
 
