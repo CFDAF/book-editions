@@ -1,0 +1,1014 @@
+{
+ "id": "N09",
+ "sbn": [
+  {
+   "W": "formaggio e i vermi",
+   "author": "Carlo Ginzburg",
+   "total": 27,
+   "lingua_facet": [
+    [
+     "ita",
+     22
+    ],
+    [
+     "eng",
+     2
+    ],
+    [
+     "alb",
+     1
+    ],
+    [
+     "rus",
+     1
+    ],
+    [
+     "slv",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 27,
+   "rows": 27,
+   "multilingual_rows": 0,
+   "languages": 5,
+   "bogus_lingua_total": 0,
+   "year_parsed": 27,
+   "year_parse_failures": [],
+   "publisher_present": 27,
+   "language_present": 27,
+   "records_on_no_language_page": [],
+   "requests": 9,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 3.6,
+   "items": [
+    {
+     "bid": "UBO2836184",
+     "title": "Djathi dhe krimbat : bota e një mullisi të shekullit 16. / Carlo Ginzburg ; përktheu nga origjinali italisht Pëllumb Xhufi",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Tirane : Çabej : CEU press, [1998]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "1998",
+     "publisher": "Çabej : CEU press",
+     "place": "Tirane"
+    },
+    {
+     "bid": "TO01388679",
+     "title": "The cheese and the worms : the cosmos of a sixteenth-century miller / Carlo Ginzburg ; translated by John and Anne Tedeschi",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Baltimore ; London : Johns Hopkins University Press, stampa 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1982",
+     "publisher": "Johns Hopkins University Press",
+     "place": "Baltimore ; London"
+    },
+    {
+     "bid": "USM2026963",
+     "title": "The cheese and the worms : the cosmos of a sixteenth-century miller / Carlo Ginzburg with a new preface ; translated by John and Anne C. Tedeschi",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Baltimore: The Johns Hopkins University Press, c2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2013",
+     "publisher": "Baltimore: The Johns Hopkins University Press",
+     "place": null
+    },
+    {
+     "bid": "RAV0120901",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, [1976]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0509687",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : G. Einaudi, stampa 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "ANA0179197",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, c1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO11098907",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, stampa 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "NAP0870996",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Milano : Adelphi, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0324789",
+     "title": "Il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RL10056816",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, c1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RL10027333",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Milano : Adelphi, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1231933",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Milano : CDE, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA0673823",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "[S. l.] : La biblioteca del Messaggero Veneto, ©2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2003",
+     "publisher": "La biblioteca del Messaggero Veneto",
+     "place": "S. l."
+    },
+    {
+     "bid": "UBO0115486",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01957955",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, stampa 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS3058636",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "MIL0777236",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : G. Einaudi, [2009]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "PUV1114045",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, stampa 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "IEI0193110",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, 1976, stampa 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO2092681",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, c1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO2020213",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, c1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO00777028",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, [1999]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "VEA1090869",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "MOD0243798",
+     "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500 / Carlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Torino : Einaudi, stampa 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV2179775",
+     "title": "Le fromage et les vers : l'univers d'un meunier du 16. siècle / Carlo Ginzburg ; traduit de l'italien par Monique Aymard",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Paris : Flammarion, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Flammarion",
+     "place": "Paris"
+    },
+    {
+     "bid": "CFI0544426",
+     "title": "Syr i červi : kartina mira odnogo melʹnika, živšego v 16. v. / Karlo Ginzburg",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Moskva : ROSSPĖN, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2000",
+     "publisher": "ROSSPĖN",
+     "place": "Moskva"
+    },
+    {
+     "bid": "TSA1692276",
+     "title": "Sir in črvi : svet nekega mlinarja iz 16. stoletja / Carlo Ginzburg ; [prevedel Tomaž Jurca]",
+     "author": "Ginzburg, Carlo",
+     "imprint": "Ljubljana : Studia Humanitatis, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "2010",
+     "publisher": "Studia Humanitatis",
+     "place": "Ljubljana"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL14872792W",
+  "size": 23,
+  "rows": 23,
+  "languages": 6,
+  "language_codes": [
+   "eng",
+   "fre",
+   "ger",
+   "ita",
+   "por",
+   "spa"
+  ],
+  "year_parsed": 23,
+  "year_parse_failures": [],
+  "publisher_present": 23,
+  "language_present": 18,
+  "requests": 4,
+  "failed": [],
+  "wall_s": 2.0,
+  "items": [
+   {
+    "key": "/books/OL58752378M",
+    "title": "The Cheese And The Worms, The Cosmos Of  A Sixteenth-Century Miller",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "The Johns Hopkins University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL47485450M",
+    "title": "El formatge i els cucs",
+    "publish_date": "Jan 01, 2006",
+    "year": "2006",
+    "publishers": [
+     "Publicacions de la Universitat de València"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8437061717"
+    ],
+    "isbn_13": [
+     "9788437061719"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL47485451M",
+    "title": "El formatge i els cucs",
+    "publish_date": "Jan 01, 2006",
+    "year": "2006",
+    "publishers": [
+     "Publicacions de la Universitat de València"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8437061717"
+    ],
+    "isbn_13": [
+     "9788437061719"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL47130913M",
+    "title": "El queso y los gusanos",
+    "publish_date": "Feb 02, 2016",
+    "year": "2016",
+    "publishers": [
+     "Ediciones Península"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8499424392"
+    ],
+    "isbn_13": [
+     "9788499424392"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL47130973M",
+    "title": "El queso y los gusanos",
+    "publish_date": "Oct 22, 2009",
+    "year": "2009",
+    "publishers": [
+     "Ediciones Península"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8483078953"
+    ],
+    "isbn_13": [
+     "9788483078952"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL35602642M",
+    "title": "Peynir ve Kurtlar",
+    "publish_date": "Nov 04, 2007",
+    "year": "2007",
+    "publishers": [
+     "Metis Yayincilik"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9753420986"
+    ],
+    "isbn_13": [
+     "9789753420983"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL35500468M",
+    "title": "Cheese and the Worms",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Johns Hopkins University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781421409894"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL27195764M",
+    "title": "The cheese and the worms",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Johns Hopkins University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1421409887"
+    ],
+    "isbn_13": [
+     "9781421409887"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL27079089M",
+    "title": "O queijo e os vermes",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Companhia das Letras"
+    ],
+    "publish_places": [
+     "Sao Paulo"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8535908102"
+    ],
+    "isbn_13": [
+     "9788535908107"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL21244992M",
+    "title": "The Cheese and the worms",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Johns Hopkins University Press"
+    ],
+    "publish_places": [
+     "Baltimore"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0801823366"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL9402983M",
+    "title": "El Queso y Los Gusanos",
+    "publish_date": "May 2004",
+    "year": "2004",
+    "publishers": [
+     "Peninsular Publishing Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "848307379X"
+    ],
+    "isbn_13": [
+     "9788483073797"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL9179183M",
+    "title": "El Queso Y Los Gusanos",
+    "publish_date": "December 2003",
+    "year": "2003",
+    "publishers": [
+     "Oceano De Mexico"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9706512071"
+    ],
+    "isbn_13": [
+     "9789706512079"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL19837386M",
+    "title": "Le fromage et les vers",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Flammarion"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2080643266"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL9140688M",
+    "title": "El Queso y Los Gusanos / The Cheese and the Worms",
+    "publish_date": "September 1997",
+    "year": "1997",
+    "publishers": [
+     "Muchnik"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8476692811"
+    ],
+    "isbn_13": [
+     "9788476692813"
+    ],
+    "translation_of": "Il formaggio e i vermi",
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL12927073M",
+    "title": "Der Käse und die Würmer. Die Welt eines Müllers um 1600.",
+    "publish_date": "August 1, 2002",
+    "year": "2002",
+    "publishers": [
+     "Wagenbach"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3803124441"
+    ],
+    "isbn_13": [
+     "9783803124449"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL4402319M",
+    "title": "The cheese and the worms",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Johns Hopkins University Press"
+    ],
+    "publish_places": [
+     "Baltimore"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0801823366"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL8133454M",
+    "title": "The Cheese and the Worms",
+    "publish_date": "December 1989",
+    "year": "1989",
+    "publishers": [
+     "Dorset Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0880294485"
+    ],
+    "isbn_13": [
+     "9780880294485"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL7869984M",
+    "title": "The Cheese and the Worms",
+    "publish_date": "March 1, 1992",
+    "year": "1992",
+    "publishers": [
+     "The Johns Hopkins University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0801843871"
+    ],
+    "isbn_13": [
+     "9780801843877"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL4266213M",
+    "title": "The cheese and the worms",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York, N.Y"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140060464"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL22361385M",
+    "title": "The cheese and the worms",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Routledge & Kegan Paul"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0710005911"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL15150598M",
+    "title": "The cheese and the worms",
+    "publish_date": "1981",
+    "year": "1981",
+    "publishers": [
+     "Routledge & Kegan Paul",
+     "Penguin"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0710009607"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL18232444M",
+    "title": "The cheese and the worms",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Penguin",
+     "John Hopkins University"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140168753"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   },
+   {
+    "key": "/books/OL4316225M",
+    "title": "Il formaggio e i vermi",
+    "publish_date": "1976",
+    "year": "1976",
+    "publishers": [
+     "G. Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL14872792W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.6,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 8,
+   "failed": 0,
+   "total_s": 6.83,
+   "p50_s": 0.836,
+   "max_s": 1.133
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.97,
+   "p50_s": 1.965,
+   "max_s": 1.965
+  }
+ },
+ "failures": []
+}

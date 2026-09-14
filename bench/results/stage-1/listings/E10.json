@@ -1,0 +1,287 @@
+{
+ "id": "E10",
+ "sbn": [],
+ "ol": {
+  "key": "/works/OL15102110W",
+  "size": 12,
+  "rows": 12,
+  "languages": 2,
+  "language_codes": [
+   "fre",
+   "ita"
+  ],
+  "year_parsed": 12,
+  "year_parse_failures": [],
+  "publisher_present": 12,
+  "language_present": 12,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 6.4,
+  "items": [
+   {
+    "key": "/books/OL19258661M",
+    "title": "Opere.",
+    "publish_date": "1956",
+    "year": "1956",
+    "publishers": [
+     "R. Ricciardi"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL22356601M",
+    "title": "Opere",
+    "publish_date": "1948",
+    "year": "1948",
+    "publishers": [
+     "Unione tipografico, Ed. Torinese"
+    ],
+    "publish_places": [
+     "[Torino]"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL19258591M",
+    "title": "Opere",
+    "publish_date": "1937",
+    "year": "1937",
+    "publishers": [
+     "Rizzoli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL17962319M",
+    "title": "Opere.",
+    "publish_date": "1877",
+    "year": "1877",
+    "publishers": [
+     "Brockhaus"
+    ],
+    "publish_places": [
+     "Leipzig"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL4046704M",
+    "title": "Opere",
+    "publish_date": "1977",
+    "year": "1977",
+    "publishers": [
+     "Unione tipografico-editrice torinese"
+    ],
+    "publish_places": [
+     "[Torino]"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL16041309M",
+    "title": "Opere.",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Mursia"
+    ],
+    "publish_places": [
+     "[Milano]"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL17734115M",
+    "title": "Opere",
+    "publish_date": "1956",
+    "year": "1956",
+    "publishers": [
+     "R. Ricciardi"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL13760906M",
+    "title": "Opere",
+    "publish_date": "1973",
+    "year": "1973",
+    "publishers": [
+     "U. Mursia"
+    ],
+    "publish_places": [
+     "Milan"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL20647921M",
+    "title": "Opere",
+    "publish_date": "1956",
+    "year": "1956",
+    "publishers": [
+     "R. Ricciardi"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL17776252M",
+    "title": "Opere.",
+    "publish_date": "1956",
+    "year": "1956",
+    "publishers": [
+     "R. Ricciardi"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL19258791M",
+    "title": "Opere.",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Unione tipografico-editrice torinese"
+    ],
+    "publish_places": [
+     "[Torino]"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   },
+   {
+    "key": "/books/OL15514051M",
+    "title": "Opere.",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Unione tipografico-editrice torinese"
+    ],
+    "publish_places": [
+     "[Torino]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL15102110W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 6.4,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 6.36,
+   "p50_s": 6.356,
+   "max_s": 6.356
+  }
+ },
+ "failures": []
+}

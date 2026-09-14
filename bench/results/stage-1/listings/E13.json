@@ -1,0 +1,76 @@
+{
+ "id": "E13",
+ "sbn": [],
+ "ol": {
+  "key": "/works/OL156188W",
+  "size": 2,
+  "rows": 2,
+  "languages": 1,
+  "language_codes": [
+   "ger"
+  ],
+  "year_parsed": 2,
+  "year_parse_failures": [],
+  "publisher_present": 2,
+  "language_present": 2,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 2.6,
+  "items": [
+   {
+    "key": "/books/OL16404576M",
+    "title": "Angelus novus.",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Suhrkamp"
+    ],
+    "publish_places": [
+     "(Frankfurt a.M.)"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL156188W"
+    ]
+   },
+   {
+    "key": "/books/OL20304391M",
+    "title": "Angelus novus.",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Suhrkamp"
+    ],
+    "publish_places": [
+     "Frankfurt a.M"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL156188W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 2.6,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 2.61,
+   "p50_s": 2.61,
+   "max_s": 2.61
+  }
+ },
+ "failures": []
+}

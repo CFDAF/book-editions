@@ -1,0 +1,161 @@
+{
+ "id": "E06",
+ "sbn": [
+  {
+   "W": "more brilliant than the sun",
+   "author": "Eshun",
+   "total": 1,
+   "lingua_facet": [
+    [
+     "ita",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 1,
+   "rows": 1,
+   "multilingual_rows": 0,
+   "languages": 1,
+   "bogus_lingua_total": 0,
+   "year_parsed": 1,
+   "year_parse_failures": [],
+   "publisher_present": 1,
+   "language_present": 1,
+   "records_on_no_language_page": [],
+   "requests": 3,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 0.4,
+   "items": [
+    {
+     "bid": "LZ10006458",
+     "title": "Più brillante del sole : [avventure nella fantasonica] / Kodwo Eshun ; traduzione di Alessandro Mazzi ; revisione della traduzione a cura della redazione di NERO",
+     "author": "Eshun, Kodwo",
+     "imprint": "Roma : Nero, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2021",
+     "publisher": "Nero",
+     "place": "Roma"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL2693265W",
+  "size": 3,
+  "rows": 3,
+  "languages": 1,
+  "language_codes": [
+   "eng"
+  ],
+  "year_parsed": 2,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL35792654M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 3,
+  "language_present": 3,
+  "requests": 4,
+  "failed": [],
+  "wall_s": 7.7,
+  "items": [
+   {
+    "key": "/books/OL35792654M",
+    "title": "More Brilliant Than the Sun",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Verso Books",
+     "Verso"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784786724"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2693265W"
+    ]
+   },
+   {
+    "key": "/books/OL7775607M",
+    "title": "More Brilliant Than the Sun",
+    "publish_date": "July 1999",
+    "year": "1999",
+    "publishers": [
+     "Quartet Books (UK)"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0704380250"
+    ],
+    "isbn_13": [
+     "9780704380257"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2693265W"
+    ]
+   },
+   {
+    "key": "/books/OL450084M",
+    "title": "More brilliant than the sun",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Quartet Books"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0704380250"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2693265W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 7.7,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.44,
+   "p50_s": 0.161,
+   "max_s": 0.184
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 7.7,
+   "p50_s": 7.696,
+   "max_s": 7.696
+  }
+ },
+ "failures": []
+}

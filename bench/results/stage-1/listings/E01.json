@@ -1,0 +1,6937 @@
+{
+ "id": "E01",
+ "sbn": [
+  {
+   "W": "cien anos de soledad",
+   "author": "Garcia Marquez",
+   "total": 143,
+   "lingua_facet": [
+    [
+     "ita",
+     90
+    ],
+    [
+     "spa",
+     22
+    ],
+    [
+     "eng",
+     12
+    ],
+    [
+     "ger",
+     3
+    ],
+    [
+     "ara",
+     2
+    ],
+    [
+     "rus",
+     2
+    ],
+    [
+     "alb",
+     1
+    ],
+    [
+     "chi",
+     1
+    ],
+    [
+     "epo",
+     1
+    ],
+    [
+     "fre",
+     1
+    ],
+    [
+     "gre",
+     1
+    ],
+    [
+     "per",
+     1
+    ],
+    [
+     "pol",
+     1
+    ],
+    [
+     "por",
+     1
+    ],
+    [
+     "rum",
+     1
+    ],
+    [
+     "slv",
+     1
+    ],
+    [
+     "srp",
+     1
+    ],
+    [
+     "tur",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 143,
+   "rows": 143,
+   "multilingual_rows": 0,
+   "languages": 18,
+   "bogus_lingua_total": 0,
+   "year_parsed": 141,
+   "year_parse_failures": [
+    {
+     "bid": "AQ10067111",
+     "imprint": "Athena : Libane, \\s. d.!"
+    },
+    {
+     "bid": "UMC0987900",
+     "imprint": "Fa parte di: 1"
+    }
+   ],
+   "publisher_present": 143,
+   "language_present": 143,
+   "records_on_no_language_page": [],
+   "requests": 25,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 2.5,
+   "items": [
+    {
+     "bid": "FOG0469564",
+     "title": "Njëqind vjet vetmi / gabriel Garsia Markez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Prishtinë : Rilindja, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "1978",
+     "publisher": "Rilindja",
+     "place": "Prishtinë"
+    },
+    {
+     "bid": "UBO3991759",
+     "title": "Mi'at 'am min al-uzla / Gabriel Garcia Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Damasco : Al-Mada, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2008",
+     "publisher": "Al-Mada",
+     "place": "Damasco"
+    },
+    {
+     "bid": "UBO3685988",
+     "title": "Mi'at 'am min al-'uzlah / Ghabriyl Gharsia Markiz ; tarjamah: Muhammad al-Hajj Khalil",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Bayrut : al-Mu'asasat al-arabiyah lil-Dirasat wa al-Nashr, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2005",
+     "publisher": "al-Mu'asasat al-arabiyah lil-Dirasat wa al-Nashr",
+     "place": "Bayrut"
+    },
+    {
+     "bid": "UBO4342410",
+     "title": "Băinián gūdú / Jiāfūliě'ěr Jiāxīyà Mǎ'ěrkès ; Fan Ye",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Haikou : Nan hai chu ban gong si, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2017",
+     "publisher": "Nan hai chu ban gong si",
+     "place": "Haikou"
+    },
+    {
+     "bid": "RAV0216473",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the Spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "London : Picador, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1982",
+     "publisher": "Picador",
+     "place": "London"
+    },
+    {
+     "bid": "PAR0878540",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "London : Penguin books, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2000",
+     "publisher": "Penguin books",
+     "place": "London"
+    },
+    {
+     "bid": "LO11346350",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the Spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "New York : Perennial Classics, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1998",
+     "publisher": "Perennial Classics",
+     "place": "New York"
+    },
+    {
+     "bid": "PCM0044477",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "London : Penguin books, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2014",
+     "publisher": "Penguin books",
+     "place": "London"
+    },
+    {
+     "bid": "TSA0864967",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "New York : Avon books, 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1971",
+     "publisher": "Avon books",
+     "place": "New York"
+    },
+    {
+     "bid": "RT10055305",
+     "title": "One hundred years of solitude / Gabriel Garcìa Màrquez ; translated from the spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "New Delhi [etc.] : Penguin books, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1996",
+     "publisher": "Penguin books",
+     "place": "New Delhi etc."
+    },
+    {
+     "bid": "RT10095924",
+     "title": "One hundred years of solitude / Gabriel García Márquez ; translated from the Spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "New York : Harper Perennial Modern Classics, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2006",
+     "publisher": "Harper Perennial Modern Classics",
+     "place": "New York"
+    },
+    {
+     "bid": "BMT0042189",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the Spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Harmondsworth : Penguin Books, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1970",
+     "publisher": "Penguin Books",
+     "place": "Harmondsworth"
+    },
+    {
+     "bid": "CAG2117339",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the Spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[New York] : Harper Large Print, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2004",
+     "publisher": "Harper Large Print",
+     "place": "New York"
+    },
+    {
+     "bid": "VEA1015994",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the Spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "New York [etc.] : Harper & Row, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1970",
+     "publisher": "Harper & Row",
+     "place": "New York etc."
+    },
+    {
+     "bid": "UBO2593788",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "London : Pan Books, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1978",
+     "publisher": "Pan Books",
+     "place": "London"
+    },
+    {
+     "bid": "IEI0742644",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; translated from the spanish by Gregory Rabassa ; with an introduction by Carlos Fuentes",
+     "author": "García Márquez, Gabriel",
+     "imprint": "New York [etc.] : Alfred A. Knopf, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1995",
+     "publisher": "Alfred A. Knopf",
+     "place": "New York etc."
+    },
+    {
+     "bid": "TO01939683",
+     "title": "Cent jaroj da soleco / Gabriel García Márquez ; el la hispana tradukis Fernando de Diego",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Chapecó : Fonto, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "epo",
+     "langs": [
+      "epo"
+     ],
+     "year": "2012",
+     "publisher": "Fonto",
+     "place": "Chapecó"
+    },
+    {
+     "bid": "CAG2114357",
+     "title": "Cent ans de solitude / Gabriel García Márquez ; traduit de l'espagnol (Colombie) par Claude et Carmen Durand ; présentation par Albert Bensoussan",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Paris : Èditions du Seuil, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1995",
+     "publisher": "Èditions du Seuil",
+     "place": "Paris"
+    },
+    {
+     "bid": "CAG2178443",
+     "title": "Hundert Jahre Einsamkeit : Roman / Gabriel García Márquez ; Deutsch von Curt Meyer-Clason",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Munchen : Deutscher Taschenbuch Verlag, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1984",
+     "publisher": "Deutscher Taschenbuch Verlag",
+     "place": "Munchen"
+    },
+    {
+     "bid": "UBO4106778",
+     "title": "Hundert Jahre Einsamkeit : Roman / Gabriel García Márquez ; aus dem Spanischen von Curt Meyer-Clason",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Reinbek bei Hamburg : Rowohlt, 1972",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1972",
+     "publisher": "Rowohlt",
+     "place": "Reinbek bei Hamburg"
+    },
+    {
+     "bid": "UFE0957255",
+     "title": "Hundert Jahre Einsamkeit : Roman / Gabriel García Márquez ; Aus dem Spanischen von Curt Meyer-Clason",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Köln : Kiepenheuer & Witsch, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2002",
+     "publisher": "Kiepenheuer & Witsch",
+     "place": "Köln"
+    },
+    {
+     "bid": "AQ10067111",
+     "title": "Ekato chronia monaxia / Gkampriel Gkarsia Markes ; metaphrase apo ta ispanika Klaite Soteriadoy-Mparachas",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Athena : Libane, \\s. d.!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "gre",
+     "langs": [
+      "gre"
+     ],
+     "year": null,
+     "publisher": "Libane, s. d.",
+     "place": "Athena"
+    },
+    {
+     "bid": "LIA0171888",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "SBL0469215",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0138644",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0397120",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "\\Milano! : Euroclub, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "IEI0622076",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcìa Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1974",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1974",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10349098",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0942302",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, stampa 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOL0004396",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01001988",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0279030",
+     "title": "Cent'anni di solitudine / Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : CDE, stampa 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0345602",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : G. Feltrinelli, 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1971",
+     "publisher": "G. Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01920388",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Bergamo! : Euroclub, 1983, stampa 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "CAG0074270",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00380550",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A.Mondadori, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "A.Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UMC0987900",
+     "title": "Cent'anni di solitudine",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Fa parte di: 1",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "Fa parte di: 1",
+     "place": null
+    },
+    {
+     "bid": "SBL0108566",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1968",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1968",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00372405",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : CDE, stampa 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1993",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00566882",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RML0471708",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez ; [traduzione dallo spagnolo di Enrico Cicogna]",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1969",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1969",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1150115",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Milano] : Euroclub, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01758938",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1974",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1974",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL1100838",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; con il dossier \"Gabo racconta la nascita del romanzo\"",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondolibri, stampa 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00749031",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10079296",
+     "title": "cent'anni di solitudine : romanzo / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1974",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1974",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0155190",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, stampa 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1977",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0012001",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Novara : Mondadori-De Agostini, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Mondadori-De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "CSA0100946",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0127049",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0324218",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "\\Bergamo! : Euroclub, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "LO10551210",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcìa Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1974",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1974",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10543983",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0223752",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1996",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0386576",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, stampa 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10258594",
+     "title": "One hundred years of solitude / Gabriel Garcia Marquez ; transl. from the Spanish by Gregory Rabassa",
+     "author": "García Márquez, Gabriel",
+     "imprint": "New-York : Avon books : Bard books, 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1971",
+     "publisher": "Avon books : Bard books",
+     "place": "New-York"
+    },
+    {
+     "bid": "UM10142815",
+     "title": "Cent' anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Bergamo] : Euroclub, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "CAG0046270",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Alba : Famiglia Cristiana, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Famiglia Cristiana",
+     "place": "Alba"
+    },
+    {
+     "bid": "LIA0963851",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 1995, stampa 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL0472973",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0969595",
+     "title": "Cent'anni di solitudine / Marquez Garcia Gabriel",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Arnoldo Mondadori editore, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1993",
+     "publisher": "Arnoldo Mondadori editore",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO10020144",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; con il dossier \"Gabo racconta la nascita del romanzo\" ; traduzione di Ilide Carmignani",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2478496",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMB0805191",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "PA10031730",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMB0623829",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1996841",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, stampa 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "LEK0024548",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; con il dossier \"Gabo racconta la nascita del romanzo\" ; traduzione di Ilide Carmignani",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Ed. Speciale] - Milano : Mondadori, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Mondadori",
+     "place": "Ed. Speciale - Milano"
+    },
+    {
+     "bid": "ABR0020447",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0484144",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO11110460",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; illustrazioni di Sandro Chia",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Roma] : Telecom Italia, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Telecom Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "LO10869753",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Bergamo! : Euroclub, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "BVE0439155",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2007",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0439245",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0427245",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0113582",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "\\Bergamo! : Euroclub, 1983, stampa 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "CFI0141199",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0116278",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0941315",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10015287",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : CDE, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10026378",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Ilde Carmignani",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10052982",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 2. rist. 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "A. Mondadori, 2. rist.",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10113378",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0227798",
+     "title": "Cent' anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "SBL0607749",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2750006",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2789876",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Màrquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01914911",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01946992",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TER0011241",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, stampa 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TER0011263",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, stampa 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BCT0041473",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "CAG0093908",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Roma : La biblioteca di Repubblica, c2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "La biblioteca di Repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "LO11525971",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0021448",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL0861209",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO02033108",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Oscar Mondadori, stampa 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO0263187",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00368212",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAV0185566",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Ilide Carmignani",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0078012",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0150440",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Euroclub, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "UFI0307321",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO2693981",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00808427",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Novara : Mondadori-De Agostini, \\1999!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Mondadori-De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "UBO1441556",
+     "title": "Cent'anni di solitudine : romanzo / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Feltrinelli, 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1977",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0115611",
+     "title": "Cent'anni di solitudine / Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Club degli editori, [1983]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Club degli editori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0088420",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4471941",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; legge Paolo Fiorilli",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Feltre : Centro Internazionale del Libro Parlato, [dopo il 2005]",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Centro Internazionale del Libro Parlato, dopo il",
+     "place": "Feltre"
+    },
+    {
+     "bid": "MOD0037056",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Márquez ; traduzione di Enrico Cicogna ; introduzione di Cesare Segre",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : Mondadori, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0017417",
+     "title": "Cent'anni di solitudine / Gabriel Garcia Marquez ; traduzione di Enrico Cicogna; introduzione di Cesare Segre",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10092147",
+     "title": "Cent'anni di solitudine / Gabriel García Márquez ; traduzione di Enrico Cicogna, introduzione di Cesare Segre",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Milano : A. Mondadori, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01804756",
+     "title": "Ṣad sāl tinhāīy / Gābrīl Gārsīā Mārkiz ; [trad.! Kyūmars Pārsāyi",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Tihran : Aryaban, 1386 [2007!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "per",
+     "langs": [
+      "per"
+     ],
+     "year": "1386",
+     "publisher": "Aryaban",
+     "place": "Tihran"
+    },
+    {
+     "bid": "RMS2336745",
+     "title": "Sto lat samotnosci / Gabriel Garcia Marquez ; prelozyly Grazyna Grudzinska i Kalina Wojciechowska",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Waszawa : Warszawkie Wydawnictwo Literackie MUZA SA, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2008",
+     "publisher": "Warszawkie Wydawnictwo Literackie MUZA SA",
+     "place": "Waszawa"
+    },
+    {
+     "bid": "LI20005180",
+     "title": "Cem años de solidão / Gabriel García Márquez ; tradução de Eric Nepomuceno",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Rio de Janeiro : Record, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2014",
+     "publisher": "Record",
+     "place": "Rio de Janeiro"
+    },
+    {
+     "bid": "UBO3863449",
+     "title": "Un veac de singuratate / Gabriel Garcia Marquez ; traducere din limba spaniola Mihnea Gheorghiu",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Bucuresti : Editura RAO, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2011",
+     "publisher": "Editura RAO",
+     "place": "Bucuresti"
+    },
+    {
+     "bid": "RAV1157458",
+     "title": "Sto let odinocestva : roman / Gabriel' Garsia Markes",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Moskva : Eksmo press, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2001",
+     "publisher": "Eksmo press",
+     "place": "Moskva"
+    },
+    {
+     "bid": "UBO3427173",
+     "title": "Sto let odinocestva : roman / Gabriel' Garsia Markes",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Sankt Peterburg : Izdatel'skis dom : Azbuka-klassika, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2006",
+     "publisher": "Izdatel'skis dom : Azbuka-klassika",
+     "place": "Sankt Peterburg"
+    },
+    {
+     "bid": "TSA1535765",
+     "title": "Sto let samote / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Ljubljana : Mladinska knjiga, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "1978",
+     "publisher": "Mladinska knjiga",
+     "place": "Ljubljana"
+    },
+    {
+     "bid": "RMB0829921",
+     "title": "Cien años de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Bogotà : Penguin Random House, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2014",
+     "publisher": "Penguin Random House",
+     "place": "Bogotà"
+    },
+    {
+     "bid": "TO10008528",
+     "title": "Cien años de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Debolsillo, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2014",
+     "publisher": "Debolsillo",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01228867",
+     "title": "Cien años de soledad / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Debolsillo, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2003",
+     "publisher": "Debolsillo",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "PAL0067726",
+     "title": "Cien años de soledad / Gabriel Garcia Marquez ; estudio introductorio: Gabriel Garcia Marquez y sus cien anos de soledad por Joaquin Marco",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Madrid : Espasa-Calpe, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1982",
+     "publisher": "Espasa-Calpe",
+     "place": "Madrid"
+    },
+    {
+     "bid": "BVE0917706",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Buenos Aires : Editorial sudamericana, 1967",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1967",
+     "publisher": "Editorial sudamericana",
+     "place": "Buenos Aires"
+    },
+    {
+     "bid": "RT10223240",
+     "title": "Cien años de soledad / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Bogotá : Random house, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2024",
+     "publisher": "Random house",
+     "place": "Bogotá"
+    },
+    {
+     "bid": "CAG0071090",
+     "title": "Cien años de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Plaza & Janes, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1999",
+     "publisher": "Plaza & Janes",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "LO11507779",
+     "title": "Cien años de soledad / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Bogotá : Norma, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2012",
+     "publisher": "Norma",
+     "place": "Bogotá"
+    },
+    {
+     "bid": "TO02097537",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Mexico : Diana, stampa 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1994",
+     "publisher": "Diana",
+     "place": "Mexico"
+    },
+    {
+     "bid": "RMS3100353",
+     "title": "Cien años de soledad / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Mondadori, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1999",
+     "publisher": "Mondadori",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "LO11684290",
+     "title": "Cien años de soledad / Gabriel García Márquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Bogotá : Norma, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1997",
+     "publisher": "Norma",
+     "place": "Bogotá"
+    },
+    {
+     "bid": "VIA0269311",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Debolsillo, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2013",
+     "publisher": "Debolsillo",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "VIA0067470",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Plaza & Janes, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1997",
+     "publisher": "Plaza & Janes",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UBO3162817",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Barcelona] : Debolsillo, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2007",
+     "publisher": "Debolsillo",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UBO3271711",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez ; texto revisado por el autor para esta edicion",
+     "author": "García Márquez, Gabriel",
+     "imprint": "[Madrid : Alfaguara], [2007]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2007",
+     "publisher": "Alfaguara",
+     "place": "Madrid"
+    },
+    {
+     "bid": "TO00869070",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Plaza & Janes, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1998",
+     "publisher": "Plaza & Janes",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UBO3843768",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Barcelona : Debolsillo, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2010",
+     "publisher": "Debolsillo",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TSA0011107",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez ; edicion de Jacques Joset",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Madrid : Catedra, c1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1995",
+     "publisher": "Catedra",
+     "place": "Madrid"
+    },
+    {
+     "bid": "TSA1342384",
+     "title": "Cien años de soledad / Gabriel García Márquez ; edición de Jacques Joset",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Madrid : Catedra, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1986",
+     "publisher": "Catedra",
+     "place": "Madrid"
+    },
+    {
+     "bid": "UBO2887564",
+     "title": "Cien años de soledad / Gabriel García Márquez ; edición de Jacques Joset",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Madrid : Cátedra, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2004",
+     "publisher": "Cátedra",
+     "place": "Madrid"
+    },
+    {
+     "bid": "UBO4699667",
+     "title": "Cien años de soledad / Gabriel García Márquez ; edicion de Jacques Joset.- 23. ed. revisada y actualizada",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Madrid : Catedra, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2017",
+     "publisher": "Catedra",
+     "place": "Madrid"
+    },
+    {
+     "bid": "UBO4270690",
+     "title": "Cien anos de soledad / Gabriel Garcia Marquez ; edicion de Jacques Joset",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Madrid : Catedra, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2014",
+     "publisher": "Catedra",
+     "place": "Madrid"
+    },
+    {
+     "bid": "TSA1534031",
+     "title": "Sto godina samoće : roman / Gabrijel Garsija Markes ; prevela Jasna Mimica-Popović",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Beograd : Beogradski izdavačko-grafički zavod ; Zagreb : August Cesarec, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "srp",
+     "langs": [
+      "srp"
+     ],
+     "year": "1984",
+     "publisher": "Beogradski izdavačko-grafički zavod ; Zagreb : August Cesarec",
+     "place": "Beograd"
+    },
+    {
+     "bid": "RMB0814067",
+     "title": "Yüzyillik Yalnizlik / Gabriel Garcia Marquez ; çeviri : Seçkin Selvi",
+     "author": "García Márquez, Gabriel",
+     "imprint": "Istanbul : Can Sanat Yayinlari, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "1984",
+     "publisher": "Can Sanat Yayinlari",
+     "place": "Istanbul"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng",
+    "spa"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL274505W",
+  "size": 208,
+  "rows": 208,
+  "languages": 15,
+  "language_codes": [
+   "ara",
+   "chi",
+   "eng",
+   "fre",
+   "ger",
+   "gre",
+   "guj",
+   "ita",
+   "jpn",
+   "kor",
+   "pol",
+   "por",
+   "rus",
+   "spa",
+   "tur"
+  ],
+  "year_parsed": 204,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL49665545M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL43428360M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL27672255M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL8834508M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 202,
+  "language_present": 162,
+  "requests": 26,
+  "failed": [],
+  "wall_s": 3.7,
+  "items": [
+   {
+    "key": "/books/OL62423598M",
+    "title": "Cem Anos de Solidão",
+    "publish_date": "1977",
+    "year": "1977",
+    "publishers": [
+     "Record"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL62012175M",
+    "title": "Cien años de soledad",
+    "publish_date": "O5/06/1995",
+    "year": "1995",
+    "publishers": [
+     "Real academia española"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL45606013M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "1970-01-01",
+    "year": "1970",
+    "publishers": [
+     "Harper & Row, Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0241972353"
+    ],
+    "isbn_13": [
+     "9780241972359"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL48124364M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Penguin"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL60001193M",
+    "title": "Cent'anni di solitudine",
+    "publish_date": "2025",
+    "year": "2025",
+    "publishers": [
+     "Mondadori"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8804809841"
+    ],
+    "isbn_13": [
+     "978-8804809845"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL49665545M",
+    "title": "CIEN AÑOS DE SOLEDAD",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "958888621X"
+    ],
+    "isbn_13": [
+     "9789588886213"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL47046081M",
+    "title": "Cem Anos de Solidão",
+    "publish_date": "2000-01-01",
+    "year": "2000",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9722000314"
+    ],
+    "isbn_13": [
+     "9789722000314"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL43428360M",
+    "title": "Cien años de soledad. Novela.",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL35663961M",
+    "title": "Cem Anos De Solidão",
+    "publish_date": "Nov 13, 2017",
+    "year": "2017",
+    "publishers": [
+     "Record"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8501110361"
+    ],
+    "isbn_13": [
+     "9788501110367"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL33021517M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Penguin"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140278761"
+    ],
+    "isbn_13": [
+     "9780140278767"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL52249481M",
+    "title": "Cien años de soledad",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires, Argentina"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789500767170"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL46864926M",
+    "title": "Cien Años De Soledad",
+    "publish_date": "1972-01-01",
+    "year": "1972",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL35346764M",
+    "title": "Bai nian gu du",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Shanghai yi wen chu ban she"
+    ],
+    "publish_places": [
+     "Shanghai"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7532706907"
+    ],
+    "isbn_13": [
+     "9787532706907"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL32256442M",
+    "title": "Cien Anos De Soledad",
+    "publish_date": "Oct 01, 1994",
+    "year": "1994",
+    "publishers": [
+     "Grijalbo Mondadori, S.A."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8439719787"
+    ],
+    "isbn_13": [
+     "9788439719786"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL32166993M",
+    "title": "Cem Anos de Solidao - Cien Anos de Soledad",
+    "publish_date": "Jan 01, 2009",
+    "year": "2009",
+    "publishers": [
+     "Record"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8501078891"
+    ],
+    "isbn_13": [
+     "9788501078896"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL48571928M",
+    "title": "Cien años de soledad",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Mondadori"
+    ],
+    "publish_places": [
+     "Madrid, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8439711085"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL39812811M",
+    "title": "Cien años de soledad",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Random House Mondadori"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "843972067X"
+    ],
+    "isbn_13": [
+     "9788439720676"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL40226882M",
+    "title": "Cien años de soledad",
+    "publish_date": "Oct 31, 2012",
+    "year": "2012",
+    "publishers": [
+     "Universidad Nacional Autónoma de México"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6070728793"
+    ],
+    "isbn_13": [
+     "9786070728792"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL39480196M",
+    "title": "Cien años de soledad",
+    "publish_date": "Sep 03, 2003",
+    "year": "2003",
+    "publishers": [
+     "Círculo de Lectores"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8467200669"
+    ],
+    "isbn_13": [
+     "9788467200669"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL38570141M",
+    "title": "Cien años de soledad",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Diana"
+    ],
+    "publish_places": [
+     "México"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "6070714865"
+    ],
+    "isbn_13": [
+     "9786070714863"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28317824M",
+    "title": "Cien años de soledad",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Editorial Norma"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9580482179"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL37410074M",
+    "title": "One Hundred Years of Solitude Slipcased Ed",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "HarperCollins Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780062377395"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL35946516M",
+    "title": "One Hundred Years of Solitude Slipcased Edition",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "HarperCollins Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780062380449"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL38800855M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Penguin Books, Limited"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780241968598"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL35680957M",
+    "title": "One Hundred years of Solitude",
+    "publish_date": "Nov 25, 2021",
+    "year": "2021",
+    "publishers": [
+     "MANJUL PUBLISHING HOUSE"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9390085683"
+    ],
+    "isbn_13": [
+     "9789390085682"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL32183371M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "Jan 28, 2014",
+    "year": "2014",
+    "publishers": [
+     "Blackstone Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1482939681"
+    ],
+    "isbn_13": [
+     "9781482939682"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL32307832M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "May 01, 1998",
+    "year": "1998",
+    "publishers": [
+     "imusti",
+     "Easton Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0241971829"
+    ],
+    "isbn_13": [
+     "9780241971826"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL33990002M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Penguin India"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780140157512"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL41522296M",
+    "title": "Cien años de soledad",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "Diana"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9786070728792"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL37050600M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "2014-04",
+    "year": "2014",
+    "publishers": [
+     "Fischer Taschenbuch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783596162505"
+    ],
+    "translation_of": "Cien años de soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL31869208M",
+    "title": "Cien años de soledad",
+    "publish_date": "Apr 22, 2014",
+    "year": "2014",
+    "publishers": [
+     "LITERATURA RANDOM HOUSE",
+     "Literatura Random House"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8439728360"
+    ],
+    "isbn_13": [
+     "9788439728368"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL31869207M",
+    "title": "Cien años de soledad",
+    "publish_date": "Apr 22, 2014",
+    "year": "2014",
+    "publishers": [
+     "LITERATURA RANDOM HOUSE",
+     "Literatura Random House"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8439728360"
+    ],
+    "isbn_13": [
+     "9788439728368"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28317817M",
+    "title": "Cien años de soledad",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Norma"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9580482179"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28303476M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "Jan 01, 2007",
+    "year": "2007",
+    "publishers": [
+     "FISCHER Taschenbuch"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3596509815"
+    ],
+    "isbn_13": [
+     "9783596509812"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28322939M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "Jun 08, 2017",
+    "year": "2017",
+    "publishers": [
+     "Kiepenheuer & Witsch GmbH"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3462050214"
+    ],
+    "isbn_13": [
+     "9783462050219"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL12589716M",
+    "title": "Sto Let Odinocestva",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Koch, Neff & Oetinger & Co"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "5870870119"
+    ],
+    "isbn_13": [
+     "9785870870113"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL30646478M",
+    "title": "Cien años de soledad",
+    "publish_date": "1979",
+    "year": "1979",
+    "publishers": [
+     "Editorial Argos Vergara"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "847017681"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28317754M",
+    "title": "Cien años de soledad",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Editorial Norma"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789588774060"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL30775614M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "Oct 31, 1999",
+    "year": "1999",
+    "publishers": [
+     "Penguin Books Ltd"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0141181400"
+    ],
+    "isbn_13": [
+     "9780141181400"
+    ],
+    "translation_of": "Cien años de soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL30448691M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "Nov 01, 1996",
+    "year": "1996",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140157514"
+    ],
+    "isbn_13": [
+     "9780140157512"
+    ],
+    "translation_of": "Cien años de soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28176709M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "Mar 25, 1970",
+    "year": "1970",
+    "publishers": [
+     "Harper & Row"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060114185"
+    ],
+    "isbn_13": [
+     "9780060114183"
+    ],
+    "translation_of": "Cien años de soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28302486M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "Jan 28, 2014",
+    "year": "2014",
+    "publishers": [
+     "Blackstone Audio"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1482939673"
+    ],
+    "isbn_13": [
+     "9781482939675"
+    ],
+    "translation_of": "Cien años de soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL30541598M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "Aug 31, 1995",
+    "year": "1995",
+    "publishers": [
+     "Gardners Books",
+     "imusti"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1857152239"
+    ],
+    "isbn_13": [
+     "9781857152234"
+    ],
+    "translation_of": "Cien años de soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL30527559M",
+    "title": "Cien años de soledad",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Editorial Diana, S. A."
+    ],
+    "publish_places": [
+     "Ciudad de México, México"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "968131574X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL13971949M",
+    "title": "Cien an os de soledad",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Ca tedra"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL14556840M",
+    "title": "Cien ano s de soledad",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL13917518M",
+    "title": "Cien anos de soledad",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Casa de las Americas"
+    ],
+    "publish_places": [
+     "La Habana"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL14274205M",
+    "title": "Cien an os de soledad",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27241972M",
+    "title": "Cent jaroj da soleco (Romantraduko al Esperanto) (Esperanto Edition)",
+    "publish_date": "May 02, 2015",
+    "year": "2015",
+    "publishers": [
+     "Mondial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1595693017"
+    ],
+    "isbn_13": [
+     "9781595693013"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9171951M",
+    "title": "Cent'anni di solitudine",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Arnoldo Mondadori Editore"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "880431463X"
+    ],
+    "isbn_13": [
+     "9788804314639"
+    ],
+    "translation_of": "Cien años de soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL25422792M",
+    "title": "Cem Anos de Solidão",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "RECORD"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26347146M",
+    "title": "Ekato chronia monachia",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Livani"
+    ],
+    "publish_places": [],
+    "languages": [
+     "gre"
+    ],
+    "isbn_10": [
+     "9602360097"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26506702M",
+    "title": "Sto lat samotności",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Warszawskie Wydawnictwo Literackie MUZA"
+    ],
+    "publish_places": [
+     "Poland"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788328706217"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27672255M",
+    "title": "Honderd jaar eenzaamheid",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9029083409"
+    ],
+    "isbn_13": [
+     "9789029083409"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23089979M",
+    "title": "Sto let odinochestva",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "ĖKSMO"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5224050588"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL12584312M",
+    "title": "Sto let odinochestva.",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Eksmo (M.)"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "5699055959"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26931142M",
+    "title": "Сто лет одиночества",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5171041555"
+    ],
+    "isbn_13": [
+     "9785171041557"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26302686M",
+    "title": "Sto let odinochestva",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "E ksmo"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5040048270"
+    ],
+    "isbn_13": [
+     "9785040048274"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL15574507M",
+    "title": "Sto let odinochestva.",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Azbuka"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5267000639"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26893016M",
+    "title": "100 years of solitude",
+    "publish_date": "Jan 10, 2012",
+    "year": "2012",
+    "publishers": [
+     "Ariaban"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9647196229"
+    ],
+    "isbn_13": [
+     "9789647196222"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28150139M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "Feb 01, 2004",
+    "year": "2004",
+    "publishers": [
+     "French and European Publications Inc"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3596162505"
+    ],
+    "isbn_13": [
+     "9783596162505"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL28129792M",
+    "title": "Hundert Jahre Einsamkeit. Roman, Aus dem Spanischen von Curt Meyer-Clason [One Hundred Years in Solitude]",
+    "publish_date": "May 22, 1979",
+    "year": "1979",
+    "publishers": [
+     "Kiepenheuer & Witsch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3462013114"
+    ],
+    "isbn_13": [
+     "9783462013115"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26329748M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1975?",
+    "year": "1975",
+    "publishers": [
+     "Avon Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0380452782"
+    ],
+    "isbn_13": [
+     "9780380452781"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7585142M",
+    "title": "One Hundred Years of Solitude (Modern Classics",
+    "publish_date": "February 2006",
+    "year": "2006",
+    "publishers": [
+     "Turtleback Books Distributed by Demco Media"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0606349154"
+    ],
+    "isbn_13": [
+     "9780606349154"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL11763236M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "March 2006",
+    "year": "2006",
+    "publishers": [
+     "Tandem Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1417735988"
+    ],
+    "isbn_13": [
+     "9781417735983"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26683853M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "Feb 05, 2001",
+    "year": "2001",
+    "publishers": [
+     "Quality Paperback Book Club"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0965018946"
+    ],
+    "isbn_13": [
+     "9780965018944"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26214601M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Penguin"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0241968585"
+    ],
+    "isbn_13": [
+     "9780241968581"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9118320M",
+    "title": "Cien Anos De Soledad / 100 Years of Solitude (Neuva Austral Series : Volume 100)",
+    "publish_date": "December 1991",
+    "year": "1991",
+    "publishers": [
+     "I.B.D. Limited"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "842392100X"
+    ],
+    "isbn_13": [
+     "9788423921003"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9150419M",
+    "title": "Cien Anos de Soledad (Estudio Literario)",
+    "publish_date": "September 2003",
+    "year": "2003",
+    "publishers": [
+     "Panamericana Editorial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9583007846"
+    ],
+    "isbn_13": [
+     "9789583007842"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9199502M",
+    "title": "Cien Anos De Soledad / 100 Years of Solitude (Contemporanea)",
+    "publish_date": "June 2003",
+    "year": "2003",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9871138148"
+    ],
+    "isbn_13": [
+     "9789871138142"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22797610M",
+    "title": "Cien anos de soledad",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Editorial Sud-americana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL13957631M",
+    "title": "Una interpretacio n de Cien anos de soledad.",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Ed.Costa Rica"
+    ],
+    "publish_places": [
+     "San Jose"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22151430M",
+    "title": "One Hundred Years of Solitude.",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Picador"
+    ],
+    "publish_places": [],
+    "languages": [
+     "und"
+    ],
+    "isbn_10": [
+     "0330329537"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL364041M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Perennial Classics"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0060929790"
+    ],
+    "isbn_13": [
+     "9780141184999"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL16727927M",
+    "title": "Cien años de soledad.",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Editorial Sud-Americana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL18598148M",
+    "title": "Cent'anni di solitudine.",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Mondadori"
+    ],
+    "publish_places": [
+     "Milan"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8804404078"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL18019759M",
+    "title": "Cien años de soledad",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Mondadori",
+     "distributed by Random House Inc."
+    ],
+    "publish_places": [
+     "Barcelona",
+     "New York"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0307350274"
+    ],
+    "isbn_13": [
+     "9780307350275"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22369170M",
+    "title": "Cien años de soledad",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Plaza & Janés Editores"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8401242266"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL5073397M",
+    "title": "One hundred years of solitude.",
+    "publish_date": "1974",
+    "year": "1974",
+    "publishers": [
+     "Harper & Row"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL3101784M",
+    "title": "Cien años de soledad",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Espasa-Calpe"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "842392100X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL1719713M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "G.K. Hall"
+    ],
+    "publish_places": [
+     "Boston, Mass"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "081615483X",
+     "0816154848"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL17721555M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1971",
+    "year": "1971",
+    "publishers": [
+     "Avon"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "038001503X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL19828377M",
+    "title": "Cien anos de soledad",
+    "publish_date": "1978",
+    "year": "1978",
+    "publishers": [
+     "Plaza & Janes"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22838646M",
+    "title": "Cien años de soledad",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Cátedra"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22474959M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "ISIS Large Print"
+    ],
+    "publish_places": [
+     "Oxford"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1856953211"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22859040M",
+    "title": "Cien años de soledad",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Cátedra"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843760494X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL19871516M",
+    "title": "Paengnyŏn tongan ŭi kodok",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Munhak Sasangsa"
+    ],
+    "publish_places": [
+     "Sŏul Tʻŭkpyŏlsi"
+    ],
+    "languages": [
+     "kor"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL4958874M",
+    "title": "Cent'anni di solitudine",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL18986719M",
+    "title": "Cien años de soledad",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8497592204"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL5583516M",
+    "title": "Cien años de soledad",
+    "publish_date": "1994-07",
+    "year": "1994",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500700298"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL20377425M",
+    "title": "Cien años de soledad",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22918063M",
+    "title": "Hyakunen no kodoku",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Shinchōsha"
+    ],
+    "publish_places": [
+     "Tōkyō"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [
+     "4105090011"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL17767386M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1971",
+    "year": "1971",
+    "publishers": [
+     "Avon"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "038001503X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL18175333M",
+    "title": "Cien años de soledad",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9871138148"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22977260M",
+    "title": "Bai nian gu ji",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Zhi wen chu ban she"
+    ],
+    "publish_places": [
+     "Taipei shih"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9575452917"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23035579M",
+    "title": "Sto lat samotności",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "MUZA SA"
+    ],
+    "publish_places": [
+     "Warszawa"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [
+     "8372008922"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9517804M",
+    "title": "Cien Anos De Soledad",
+    "publish_date": "April 2005",
+    "year": "2005",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500726092"
+    ],
+    "isbn_13": [
+     "9789500726092"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9566271M",
+    "title": "Cien Anos de Soledad",
+    "publish_date": "November 1995",
+    "year": "1995",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500711060"
+    ],
+    "isbn_13": [
+     "9789500711067"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23090066M",
+    "title": "Sto let odinochestva",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Izd-vo \"Azbuka\""
+    ],
+    "publish_places": [
+     "Sankt-Peterburg"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5352006298"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL17228124M",
+    "title": "Cien años de soledad",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Alfaguara",
+     "Real Academia Española",
+     "Asociación de Academias de la Lengua Española"
+    ],
+    "publish_places": [
+     "[Madrid]",
+     "[México, D.F.]"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420471836"
+    ],
+    "isbn_13": [
+     "9788420471837"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL20654427M",
+    "title": "Cien años de soledad",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Cátedra"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843760494X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9621732M",
+    "title": "Cien Anos de Soledad",
+    "publish_date": "September 1995",
+    "year": "1995",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500710684"
+    ],
+    "isbn_13": [
+     "9789500710688"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL17456146M",
+    "title": "Cien años de soledad",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL21391025M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "J. Cape"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL18340637M",
+    "title": "Cien años de soledad",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Diana",
+     "Editorial Diana S.A. De C.V."
+    ],
+    "publish_places": [
+     "México, D.F"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "968131574X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL13534295M",
+    "title": "Cien años de soledad",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL14422686M",
+    "title": "Cien anos de soledad",
+    "publish_date": "1971",
+    "year": "1971",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9150088M",
+    "title": "Cien Anos De Soledad",
+    "publish_date": "May 2003",
+    "year": "2003",
+    "publishers": [
+     "Norma S a Editorial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9580470324"
+    ],
+    "isbn_13": [
+     "9789580470328"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL20196162M",
+    "title": "Cien anos de soledad",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL17226876M",
+    "title": "Yüzyillik yalnizlik",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Can Yayinlari"
+    ],
+    "publish_places": [
+     "Istanbul"
+    ],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "9755101586"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL21086250M",
+    "title": "Cien años de soledad",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Cátedra"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22904665M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Kiepenheuer & Witsch"
+    ],
+    "publish_places": [
+     "Köln"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3462015095"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL2316494M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Limited Editions Club"
+    ],
+    "publish_places": [
+     "[New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL17754512M",
+    "title": "One hundred years of solitude.",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Harper & Row"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL21627151M",
+    "title": "Cien anos de soledad",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Argos Vergara"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8470176811"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL2605135M",
+    "title": "Cien años de soledad",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Cátedra"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843760494X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL20150170M",
+    "title": "Cien años de soledad",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL19306836M",
+    "title": "Mi'at aam minal uzla",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Al Kalima"
+    ],
+    "publish_places": [
+     "Beirut"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL21950853M",
+    "title": "Cien años de soledad",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Oveja Negra"
+    ],
+    "publish_places": [
+     "Bogotá, Colombia"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9580600023"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL10353390M",
+    "title": "Cien años de soledad",
+    "publish_date": "2006-02",
+    "year": "2006",
+    "publishers": [
+     "Plaza y Janes"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0307350274"
+    ],
+    "isbn_13": [
+     "9780307350275"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9773444M",
+    "title": "Cien Anos de Soledad",
+    "publish_date": "January 1, 1996",
+    "year": "1996",
+    "publishers": [
+     "Norma S a Editorial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9580431035"
+    ],
+    "isbn_13": [
+     "9789580431039"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL3831387M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1981",
+    "year": "1981",
+    "publishers": [
+     "Franklin Library"
+    ],
+    "publish_places": [
+     "Franklin Center, Pa"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL1297934M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Jonathan Cape"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0224032356"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22384581M",
+    "title": "One hundred years of solitude.",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "J. Cape"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL933845M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Alfred A. Knopf"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0679444653"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22752164M",
+    "title": "One hundred years of solitude",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060883286"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22378065M",
+    "title": "Cien años de soledad",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Diana"
+    ],
+    "publish_places": [
+     "México, D.F"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "968131574X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22303768M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Penguin"
+    ],
+    "publish_places": [
+     "Harmondsworth"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140035249"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23535851M",
+    "title": "Cien años de soledad",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Vintage Español"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780307474728"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23096025M",
+    "title": "Maʾit ʻalm min al-ʻazlah",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Al Muassasa Al Arabin"
+    ],
+    "publish_places": [
+     "Beirut"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL1216175M",
+    "title": "Cien años de soledad",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Mondadori"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8439711085"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL15329518M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng",
+     "spa"
+    ],
+    "isbn_10": [
+     "0060919655"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL8104162M",
+    "title": "Cien Años de Soledad",
+    "publish_date": "January 1997",
+    "year": "1997",
+    "publishers": [
+     "French & European Pubns"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0785950109"
+    ],
+    "isbn_13": [
+     "9780785950103"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9042422M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "April 1, 1997",
+    "year": "1997",
+    "publishers": [
+     "Kiepenheuer & Witsch"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3462026291"
+    ],
+    "isbn_13": [
+     "9783462026290"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7277973M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "July 1, 2003",
+    "year": "2003",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060531045"
+    ],
+    "isbn_13": [
+     "9780060531041"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9032278M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "1984-04",
+    "year": "1984",
+    "publishers": [
+     "Deutscher Taschenbuch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3423102497"
+    ],
+    "isbn_13": [
+     "9783423102490"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL5161829M",
+    "title": "Cent ans de solitude",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Éditions du Seuil"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Cien años de soledad.",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9731722M",
+    "title": "Cien Años de Soledad",
+    "publish_date": "October 1991",
+    "year": "1991",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500700298"
+    ],
+    "isbn_13": [
+     "9789500700290"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL8104160M",
+    "title": "Cent Ans de Solitude",
+    "publish_date": "January 1, 1995",
+    "year": "1995",
+    "publishers": [
+     "French & European Pubns"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "0785949836"
+    ],
+    "isbn_13": [
+     "9780785949831"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL18340730M",
+    "title": "Cien años de soledad",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Editorial Sudamericana",
+     "Sudamericana",
+     "Brand: Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500700298"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9235730M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "February 1, 2004",
+    "year": "2004",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060750766"
+    ],
+    "isbn_13": [
+     "9780060750763"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL8171865M",
+    "title": "Cien años de soledad",
+    "publish_date": "June 1989",
+    "year": "1989",
+    "publishers": [
+     "French & European Pubns"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "082882567X"
+    ],
+    "isbn_13": [
+     "9780828825672"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9155429M",
+    "title": "Cem Anos de Solidão",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Record"
+    ],
+    "publish_places": [
+     "Rio de Janeiro, Brazil"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8501012076"
+    ],
+    "isbn_13": [
+     "9788501012074"
+    ],
+    "translation_of": "Cien Años de Soledad",
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9042556M",
+    "title": "Hundert Jahre Einsamkeit",
+    "publish_date": "August 1, 2002",
+    "year": "2002",
+    "publishers": [
+     "Kiepenheuer & Witsch"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3462032003"
+    ],
+    "isbn_13": [
+     "9783462032000"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9247964M",
+    "title": "100 Years of Solitude",
+    "publish_date": "March 1998",
+    "year": "1998",
+    "publishers": [
+     "Addison Wesley"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "006502396X"
+    ],
+    "isbn_13": [
+     "9780065023961"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9118288M",
+    "title": "Cien Años de Soledad/ 100 Years of Solitude",
+    "publish_date": "June 30, 1982",
+    "year": "1982",
+    "publishers": [
+     "Elliot's Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8423919005"
+    ],
+    "isbn_13": [
+     "9788423919000"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7280757M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "January 20, 2004",
+    "year": "2004",
+    "publishers": [
+     "Harper Perennial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060740450"
+    ],
+    "isbn_13": [
+     "9780060740450"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7585051M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "January 2004",
+    "year": "2004",
+    "publishers": [
+     "Turtleback Books Distributed by Demco Media"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "060630052X"
+    ],
+    "isbn_13": [
+     "9780606300520"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27672081M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Penguin"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0141045639"
+    ],
+    "isbn_13": [
+     "9780141045634"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9235464M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Harper Perennial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060740450"
+    ],
+    "isbn_13": [
+     "9780060740450"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7281023M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "February 1, 2004",
+    "year": "2004",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060750766"
+    ],
+    "isbn_13": [
+     "9780060750763"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9116617M",
+    "title": "Cien años de soledad",
+    "publish_date": "March 21, 2007",
+    "year": "2007",
+    "publishers": [
+     "Santillana USA Publishing Co."
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420471836"
+    ],
+    "isbn_13": [
+     "9788420471839"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL24636515M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Penguin Modern Classics"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780141184999"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL8276739M",
+    "title": "100 Years of Solitude",
+    "publish_date": "July 1990",
+    "year": "1990",
+    "publishers": [
+     "Buccaneer Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0899667031"
+    ],
+    "isbn_13": [
+     "9780899667034"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9116461M",
+    "title": "Cien Años de Soledad/ 100 Years of Solitude",
+    "publish_date": "June 1984",
+    "year": "1984",
+    "publishers": [
+     "Alfaguara"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420421367"
+    ],
+    "isbn_13": [
+     "9788420421360"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7670046M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "December 1996",
+    "year": "1996",
+    "publishers": [
+     "Not Avail"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0673787931"
+    ],
+    "isbn_13": [
+     "9780673787934"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9130926M",
+    "title": "Cien años de soledad",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Grijalbo Mondadori Sa"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8439703872"
+    ],
+    "isbn_13": [
+     "9788439703877"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL20108390M",
+    "title": "Cent ans de solitude",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Seuil"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2020055821"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL21333866M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Harper & Row"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "038001503X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL24983227M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Harper and Rowe"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL24983228M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Harper and Rowe"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27660051M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Barnes and Noble"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "143512605X"
+    ],
+    "isbn_13": [
+     "9781435126053"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23961914M",
+    "title": "Cien años de soledad",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Vintage Español"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0307474720"
+    ],
+    "isbn_13": [
+     "9780307474728"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL22223737M",
+    "title": "Cent ans de solitude",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Editions du Seuil"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2020015374"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9150189M",
+    "title": "Cien Años de Soledad",
+    "publish_date": "December 15, 1989",
+    "year": "1989",
+    "publishers": [
+     "Editorial Oveja Negra"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9580600023"
+    ],
+    "isbn_13": [
+     "9789580600022"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL24748659M",
+    "title": "One hundred years of solitude",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "006112009X"
+    ],
+    "isbn_13": [
+     "9780061120091"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL24043601M",
+    "title": "Cien años de soledad",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Vintage Español"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0307474720"
+    ],
+    "isbn_13": [
+     "9780307474728"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9242849M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "May 30, 2006",
+    "year": "2006",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "006112009X"
+    ],
+    "isbn_13": [
+     "9780061120091"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL8834508M",
+    "title": "Cent Ans De Solitude",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Editions du Seuil"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "202023811X"
+    ],
+    "isbn_13": [
+     "9782020238113"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL18366435M",
+    "title": "Cien años de soledad",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Ediciones Alfaguara"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420421367"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7588078M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "March 2001",
+    "year": "2001",
+    "publishers": [
+     "Sagebrush Education Resources"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0613174186"
+    ],
+    "isbn_13": [
+     "9780613174183"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7414939M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "December 27, 1987",
+    "year": "1987",
+    "publishers": [
+     "RH Canada UK Dist"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0224618539"
+    ],
+    "isbn_13": [
+     "9780224618533"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL10487952M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1978",
+    "year": "1978",
+    "publishers": [
+     "Picador"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0330255592"
+    ],
+    "isbn_13": [
+     "9780330255592"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9169376M",
+    "title": "Cien años de soledad",
+    "publish_date": "March 1999",
+    "year": "1999",
+    "publishers": [
+     "Diana"
+    ],
+    "publish_places": [
+     "México"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "968131574X"
+    ],
+    "isbn_13": [
+     "9789681315740"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23988484M",
+    "title": "Cien años de soledad",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Vintage Español"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0307474720"
+    ],
+    "isbn_13": [
+     "9780307474728"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27928849M",
+    "title": "Cent'anni di solitudine",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Mondadori"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8420421367"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9097442M",
+    "title": "Honderd Jaar Eenzaamheid",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Meulenhoff Editie"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "9029000147"
+    ],
+    "isbn_13": [
+     "9789029000147"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL11759981M",
+    "title": "One Hundred Years Of Solitude",
+    "publish_date": "January 20, 2004",
+    "year": "2004",
+    "publishers": [
+     "Tandem Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1417619147"
+    ],
+    "isbn_13": [
+     "9781417619146"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7288144M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "May 30, 2006",
+    "year": "2006",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "006112009X"
+    ],
+    "isbn_13": [
+     "9780061120091"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9232681M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "July 1, 2003",
+    "year": "2003",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060531045"
+    ],
+    "isbn_13": [
+     "9780060531041"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9238195M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "February 21, 2006",
+    "year": "2006",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060883286"
+    ],
+    "isbn_13": [
+     "9780060883287"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7293259M",
+    "title": "100 Years of Solitude",
+    "publish_date": "March 1998",
+    "year": "1998",
+    "publishers": [
+     "Addison Wesley"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "006502396X"
+    ],
+    "isbn_13": [
+     "9780065023961"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9150008M",
+    "title": "Cien Años de Soledad",
+    "publish_date": "January 1996",
+    "year": "1996",
+    "publishers": [
+     "Norma S a Editorial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9580439524"
+    ],
+    "isbn_13": [
+     "9789580439523"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL7283488M",
+    "title": "One Hundred Years of Solitude",
+    "publish_date": "February 21, 2006",
+    "year": "2006",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060883286"
+    ],
+    "isbn_13": [
+     "9780060883287"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26479201M",
+    "title": "Cien años de soledad",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Casa Editorial El Tiempo"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9588089123"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26215710M",
+    "title": "Cien años de soledad",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Editorial Norma"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9580439524"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL25442249M",
+    "title": "Cien años de soledad",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Unidad editorial"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [],
+    "isbn_10": [
+     "848130123X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26245997M",
+    "title": "Cien años de soledad",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788439732471"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9150009M",
+    "title": "Cien años de soledad",
+    "publish_date": "May 1, 1997",
+    "year": "1997",
+    "publishers": [
+     "Grupo Editorial Norma"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9580439877"
+    ],
+    "isbn_13": [
+     "9789580439875"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9111806M",
+    "title": "Cien Anos de Soledad",
+    "publish_date": "January 1, 1999",
+    "year": "1999",
+    "publishers": [
+     "Plaza & Janes Editories Sa"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8401242266"
+    ],
+    "isbn_13": [
+     "9788401242267"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL25938381M",
+    "title": "Cien años de soledad. - 4. edición",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     " Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788497592208"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26344351M",
+    "title": "Cien años de soledad",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "848450770X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9626782M",
+    "title": "Cien años de soledad",
+    "publish_date": "February 7, 2006",
+    "year": "2006",
+    "publishers": [
+     "Plaza y Janes"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0307350428"
+    ],
+    "isbn_13": [
+     "9780307350428"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27676581M",
+    "title": "Cien años de soledad",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "SUDAMERICANA"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9500728249"
+    ],
+    "isbn_13": [
+     "9789500728249"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26950477M",
+    "title": "Bai nian gu ji",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Huang guan wen hua chu ban you xian gong si",
+     "Huang Guan"
+    ],
+    "publish_places": [
+     "Taibei Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9573333570"
+    ],
+    "isbn_13": [
+     "9789573333579"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL25935853M",
+    "title": "Cien años de soledad",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Círculo de Lectores"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8422656779"
+    ],
+    "isbn_13": [
+     "9788422656777"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9130184M",
+    "title": "Cien Años de Soledad",
+    "publish_date": "December 1994",
+    "year": "1994",
+    "publishers": [
+     "Ediciones Catedra S.A."
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843760494X"
+    ],
+    "isbn_13": [
+     "9788437604947"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL15315986M",
+    "title": "Cien años de soledad.",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Plaza & Janés"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8401301548"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27151681M",
+    "title": "Bai nian gu du",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Nan hai chu ban gong si"
+    ],
+    "publish_places": [
+     "Haikou Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7544253996"
+    ],
+    "isbn_13": [
+     "9787544253994"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL9143910M",
+    "title": "Cien Años de Soledad",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Editorial Oveja Negra",
+     "Selecciones austral"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8482800000"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27107613M",
+    "title": "Miʼat ʻām min al-ʻuzlah",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "al-Muʼassasah al-ʻArabīyah lil-Dirāsāt wa-al-Nashr"
+    ],
+    "publish_places": [
+     "Bayrūt"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL25442238M",
+    "title": "Cien años de soledad",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Mondadori",
+     "LITERATURA RANDOM HOUSE"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788439703877"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26942859M",
+    "title": "Cien años de soledad",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0525562443"
+    ],
+    "isbn_13": [
+     "9780525562443"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL25888823M",
+    "title": "Cien años de soledad",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "RBA Ediciones S.A."
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8447306194"
+    ],
+    "isbn_13": [
+     "9788447306190"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL23834562M",
+    "title": "One hundred years of solitude",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Harper and Row"
+    ],
+    "publish_places": [
+     "1st ed.\u001e",
+     "New York"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL26884999M",
+    "title": "Cien años de soledad",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Editorial Sudamericana"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27116826M",
+    "title": "Sau varsha ekalatānāṃ",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Harsha Prakāśana"
+    ],
+    "publish_places": [
+     "Amadāvāda"
+    ],
+    "languages": [
+     "guj"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788189848620"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   },
+   {
+    "key": "/books/OL27581809M",
+    "title": "Cien años de soledad",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Diana"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6070704355"
+    ],
+    "isbn_13": [
+     "9786070704352"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL274505W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.7,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 25,
+   "failed": 0,
+   "total_s": 7.62,
+   "p50_s": 0.33,
+   "max_s": 0.592
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.71,
+   "p50_s": 3.708,
+   "max_s": 3.708
+  }
+ },
+ "failures": []
+}

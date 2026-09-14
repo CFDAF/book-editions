@@ -1,0 +1,1740 @@
+{
+ "id": "N14",
+ "sbn": [
+  {
+   "W": "ensaio sobre a cegueira",
+   "author": "José Saramago",
+   "total": 48,
+   "lingua_facet": [
+    [
+     "ita",
+     32
+    ],
+    [
+     "por",
+     5
+    ],
+    [
+     "eng",
+     4
+    ],
+    [
+     "slv",
+     2
+    ],
+    [
+     "chi",
+     1
+    ],
+    [
+     "fre",
+     1
+    ],
+    [
+     "ger",
+     1
+    ],
+    [
+     "pol",
+     1
+    ],
+    [
+     "spa",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 48,
+   "rows": 48,
+   "multilingual_rows": 0,
+   "languages": 9,
+   "bogus_lingua_total": 0,
+   "year_parsed": 48,
+   "year_parse_failures": [],
+   "publisher_present": 48,
+   "language_present": 48,
+   "records_on_no_language_page": [],
+   "requests": 13,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 4.8,
+   "items": [
+    {
+     "bid": "MOD1811132",
+     "title": "Shi ming zheng man ji / Ruo ze Sa la ma ge zhu [José Saramago] ; [traduttore] Fan wei xin yi",
+     "author": "Saramago, José",
+     "imprint": "Zheng zhou : He nan wen yi chu ban she, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2022",
+     "publisher": "He nan wen yi chu ban she",
+     "place": "Zheng zhou"
+    },
+    {
+     "bid": "LUA0552637",
+     "title": "Blindness / José Saramago ; translated from the portuguese by Giovanni Pontiero",
+     "author": "Saramago, José",
+     "imprint": "San Diego [etc.] : A Harvest Book, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1999",
+     "publisher": "A Harvest Book",
+     "place": "San Diego etc."
+    },
+    {
+     "bid": "BMT0017063",
+     "title": "Blindness / José Saramago ; translated from the Portuguese by Giovanni Pontiero",
+     "author": "Saramago, José",
+     "imprint": "London : The Harvill Press, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1999",
+     "publisher": "The Harvill Press",
+     "place": "London"
+    },
+    {
+     "bid": "RAV2153707",
+     "title": "Blindness / José Saramago ; translated from the portuguese by Giovanni Pontiero",
+     "author": "Saramago, José",
+     "imprint": "London : Vintage Classics, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2017",
+     "publisher": "Vintage Classics",
+     "place": "London"
+    },
+    {
+     "bid": "RT10052878",
+     "title": "Seeing / José Saramago ; translated from the portoguese by Margaret Jull Costa",
+     "author": "Saramago, José",
+     "imprint": "Orlando [etc.] : Harvest, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2007",
+     "publisher": "Harvest",
+     "place": "Orlando etc."
+    },
+    {
+     "bid": "RMS2575916",
+     "title": "L'aveuglement : roman / José Saramago ; traduit du portugais par Geneviève Leibrich",
+     "author": "Saramago, José",
+     "imprint": "[Paris] : Editions du Seuil ; Points, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2009",
+     "publisher": "Editions du Seuil ; Points",
+     "place": "Paris"
+    },
+    {
+     "bid": "RAV2097773",
+     "title": "Die Stadt der blinden : roman / José Saramago ; aus dem portugiesischen von Ray-Güde Mertin",
+     "author": "Saramago, José",
+     "imprint": "München : Random House, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1995",
+     "publisher": "Random House",
+     "place": "München"
+    },
+    {
+     "bid": "MOL0169329",
+     "title": "Cecità / José Saramago",
+     "author": "Saramago, José",
+     "imprint": "Milano : RCS Quotidiani, c2007, stampa 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "RCS Quotidiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "SBS0014661",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Torino : Einaudi, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0751050",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1318864",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Torino : Einaudi, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TPS0012117",
+     "title": "Cecità / Josè Saramago ; [traduzione di Rita Desti]",
+     "author": "Saramago, José",
+     "imprint": "Milano : Mondolibri, stampa 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO10047728",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2026",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2026",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0488580",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "AGR0023852",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0328377",
+     "title": "Cecità / José Saramago",
+     "author": "Saramago, José",
+     "imprint": "Milano : CDE, stampa 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10118136",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2025",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2025",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10065334",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0274843",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Torino : Einaudi, \\1996!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "GMP0030471",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00605244",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Torino : Einaudi, \\1998!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO02109013",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO02080045",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2021",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV2144044",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2021",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PBE0265215",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PBE0265216",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO02019416",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA1781781",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAV0194745",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3425172",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Torino : Einaudi, c2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10123272",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "URB0973601",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2025",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2025",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "URB0982242",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0846995",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0861924",
+     "title": "Cecità / Josè Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2021",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UDA0246567",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Milano : Feltrinelli, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0171478",
+     "title": "Cecità / José Saramago ; traduzione di Rita Desti",
+     "author": "Saramago, José",
+     "imprint": "Torino : Einaudi, stampa 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "ARE0003294",
+     "title": "Cecità / José Saramago ; letto da Sergio Rubini",
+     "author": "Saramago, José",
+     "imprint": "Roma : Emons Italia, ©2020",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "MO10029278",
+     "title": "Cecità / José Saramago ; letto da Sergio Rubini ; traduzione di Rita Desti ; regia Flavia Gentili",
+     "author": "Saramago, José",
+     "imprint": "[Roma] : Emons Italia ; [Milano] : Feltrinelli, 2011",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Emons Italia ; Milano : Feltrinelli",
+     "place": "Roma"
+    },
+    {
+     "bid": "UBO3935606",
+     "title": "Miasto slepcow / Jose Saramago ; przelozyla Zofia Stanislawaska",
+     "author": "Saramago, José",
+     "imprint": "Poznan : Rebis, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2009",
+     "publisher": "Rebis",
+     "place": "Poznan"
+    },
+    {
+     "bid": "MIL0288581",
+     "title": "Ensaio sobre a Cegueira : romance / Jose Saramago",
+     "author": "Saramago, José",
+     "imprint": "Lisboa : Caminho, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "1995",
+     "publisher": "Caminho",
+     "place": "Lisboa"
+    },
+    {
+     "bid": "IEI0787604",
+     "title": "Ensaio sobre a Cegueira : romance / Jose Saramago",
+     "author": "Saramago, José",
+     "imprint": "São Paulo : Companhia das Letras, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "1995",
+     "publisher": "Companhia das Letras",
+     "place": "São Paulo"
+    },
+    {
+     "bid": "AQ10093360",
+     "title": "Ensaio Sobre a Cegueira : romance / Jose Saramago",
+     "author": "Saramago, José",
+     "imprint": "[S.l.] : Caminho, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2009",
+     "publisher": "Caminho",
+     "place": "S.l."
+    },
+    {
+     "bid": "MOD1766373",
+     "title": "Ensaio sobre a cegueira / José Saramago",
+     "author": "Saramago, José",
+     "imprint": "Lisboa : Porto, ©2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2014",
+     "publisher": "Porto",
+     "place": "Lisboa"
+    },
+    {
+     "bid": "SBT0021606",
+     "title": "Ensaio sobre Cegueira : romance / José Saramago ; prefácio de Zeferino Coelho",
+     "author": "Saramago, José",
+     "imprint": "Alfragide : Leya Sa, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2016",
+     "publisher": "Leya Sa",
+     "place": "Alfragide"
+    },
+    {
+     "bid": "TSA1600414",
+     "title": "Esej o slepoti / José Saramago",
+     "author": "Saramago, José",
+     "imprint": "Ljubljana : Delo, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "2004",
+     "publisher": "Delo",
+     "place": "Ljubljana"
+    },
+    {
+     "bid": "TSA1483797",
+     "title": "Esej o slepoti / José Saramago",
+     "author": "Saramago, José",
+     "imprint": "V Ljubljani : Cankarjeva založba, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "1998",
+     "publisher": "Cankarjeva založba",
+     "place": "V Ljubljani"
+    },
+    {
+     "bid": "BRI0468955",
+     "title": "Ensayo sobre la ceguera / José Saramago ; traducción de Basilio Losada",
+     "author": "Saramago, José",
+     "imprint": "[Madrid] : Alfaguara, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1998",
+     "publisher": "Alfaguara",
+     "place": "Madrid"
+    }
+   ],
+   "entries": [
+    "por",
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL27420W",
+  "size": 40,
+  "rows": 40,
+  "languages": 7,
+  "language_codes": [
+   "eng",
+   "fre",
+   "ger",
+   "kor",
+   "por",
+   "spa",
+   "tur"
+  ],
+  "year_parsed": 40,
+  "year_parse_failures": [],
+  "publisher_present": 40,
+  "language_present": 34,
+  "requests": 12,
+  "failed": [],
+  "wall_s": 4.1,
+  "items": [
+   {
+    "key": "/books/OL61412784M",
+    "title": "Ensayo sobre la ceguera",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Punto de Lectura"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788466321495"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL8834647M",
+    "title": "L'Aveuglement",
+    "publish_date": "January 23, 1997",
+    "year": "1997",
+    "publishers": [
+     "Seuil"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2020289520"
+    ],
+    "isbn_13": [
+     "9782020289528"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL8835006M",
+    "title": "L'aveuglement",
+    "publish_date": "March 9, 2000",
+    "year": "2000",
+    "publishers": [
+     "Seuil"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2020403439"
+    ],
+    "isbn_13": [
+     "9782020403436"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL51656284M",
+    "title": "Ensaio Sobre a Cegueira",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Companhia das Letras"
+    ],
+    "publish_places": [
+     "São Paulo, Brazil"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8543801214"
+    ],
+    "isbn_13": [
+     "9788543801216"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL26384858M",
+    "title": "Ensayo sobre la ceguera",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Punto de Lectura"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8466306439"
+    ],
+    "isbn_13": [
+     "9788466306430"
+    ],
+    "translation_of": "Ensaio sobre a cegueira",
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL32063393M",
+    "title": "Körlük",
+    "publish_date": "May 23, 2017",
+    "year": "2017",
+    "publishers": [
+     "Kırmızı Kedi",
+     "Krmz Kedi"
+    ],
+    "publish_places": [],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "6052980818"
+    ],
+    "isbn_13": [
+     "9786052980811"
+    ],
+    "translation_of": "Ensaio Sobre a Cegueira",
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL33329037M",
+    "title": "Blindness",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Houghton Mifflin Harcourt Trade & Reference Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780156035583"
+    ],
+    "translation_of": "Ensaio Sobre a Cegueira",
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL33979271M",
+    "title": "Blindness",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Houghton Mifflin Harcourt Publishing Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780547537597"
+    ],
+    "translation_of": "Ensaio Sobre a Cegueira",
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL30983927M",
+    "title": "Ensayo sobre la ceguera",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788466350976"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL36638514M",
+    "title": "Die Stadt der Blinden",
+    "publish_date": "2000-02",
+    "year": "2000",
+    "publishers": [
+     "Rowohlt Taschenbuch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3499224674"
+    ],
+    "isbn_13": [],
+    "translation_of": "Ensaio sobre a cegueira",
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL31913883M",
+    "title": "Körlük",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Can"
+    ],
+    "publish_places": [
+     "İstanbul"
+    ],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "9755109285"
+    ],
+    "isbn_13": [
+     "9789755109282"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL19483289M",
+    "title": "Nunmŏn chadŭl ŭi tosi",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Haenaem"
+    ],
+    "publish_places": [
+     "Sŏul-si"
+    ],
+    "languages": [
+     "kor"
+    ],
+    "isbn_10": [
+     "8973372122"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9047860M",
+    "title": "Die Stadt der Blinden.",
+    "publish_date": "September 1, 1997",
+    "year": "1997",
+    "publishers": [
+     "Rowohlt, Reinbek"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3498063189"
+    ],
+    "isbn_13": [
+     "9783498063184"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9048533M",
+    "title": "Die Stadt Der Blinden",
+    "publish_date": "April 1, 1999",
+    "year": "1999",
+    "publishers": [
+     "Rowohlt Taschenbuch Verlag GmbH"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3499224674"
+    ],
+    "isbn_13": [
+     "9783499224676"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL31979608M",
+    "title": "Blindness",
+    "publish_date": "Aug 07, 2018",
+    "year": "2018",
+    "publishers": [
+     "Blackstone on Brilliance Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1721315543"
+    ],
+    "isbn_13": [
+     "9781721315543"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL32236992M",
+    "title": "Blindness",
+    "publish_date": "Aug 05, 2008",
+    "year": "2008",
+    "publishers": [
+     "BBC Audiobooks",
+     "BBC Audiobooks America"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "160283444X"
+    ],
+    "isbn_13": [
+     "9781602834446"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL31900553M",
+    "title": "Ensayo sobre la ceguera / Blindness",
+    "publish_date": "Jan 26, 2016",
+    "year": "2016",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8490628726"
+    ],
+    "isbn_13": [
+     "9788490628720"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL31146912M",
+    "title": "Blindness",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Houghton Mifflin Harcourt"
+    ],
+    "publish_places": [
+     "Boston"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780547554884"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL30674740M",
+    "title": "Ensaio Sobre a Cegueira",
+    "publish_date": "Oct 18, 2016",
+    "year": "2016",
+    "publishers": [
+     "Leya"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9896604010"
+    ],
+    "isbn_13": [
+     "9789896604011"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL27380882M",
+    "title": "Blindness",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Vintage Classics"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "009957358X"
+    ],
+    "isbn_13": [
+     "9780099573586"
+    ],
+    "translation_of": "Ensaio sobre a cegueira",
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9116490M",
+    "title": "Ensayo Sobre LA Ceguera",
+    "publish_date": "January 1, 1996",
+    "year": "1996",
+    "publishers": [
+     "Alfaguara Ediciones, S.A. (Spain)"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420428655"
+    ],
+    "isbn_13": [
+     "9788420428659"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9162940M",
+    "title": "Ensaio Sobre a Cegueira",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Companhia das Letras"
+    ],
+    "publish_places": [
+     "São Paulo, Brazil"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8571644950"
+    ],
+    "isbn_13": [
+     "9788571644953"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9199217M",
+    "title": "Ensayo Sobre La Ceguera",
+    "publish_date": "October 2006",
+    "year": "2006",
+    "publishers": [
+     "Alfaguara"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9870400442"
+    ],
+    "isbn_13": [
+     "9789870400448"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL13118076M",
+    "title": "Ensayo sobre la ceguera",
+    "publish_date": "May 2, 2000",
+    "year": "2000",
+    "publishers": [
+     "Aguilar, Altea, Taurus, Alfaguara, S.A. de C."
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9681904540"
+    ],
+    "isbn_13": [
+     "9789681904548"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9886860M",
+    "title": "Ensayo Sobre La Ceguera",
+    "publish_date": "December 2000",
+    "year": "2000",
+    "publishers": [
+     "Alfaguara Ediciones, S.A. (Spain)"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9505116721"
+    ],
+    "isbn_13": [
+     "9789505116720"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL24300584M",
+    "title": "ensayo sobre la ceguera",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Punto de Lectura"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8463312161"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9153039M",
+    "title": "Ensayo sobre la ceguera",
+    "publish_date": "January 31, 2001",
+    "year": "2001",
+    "publishers": [
+     "Ediciones Santillana, S.A."
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8495501074"
+    ],
+    "isbn_13": [
+     "9788495501073"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL13196051M",
+    "title": "Ensayo Sobre La Ceguera",
+    "publish_date": "July 2003",
+    "year": "2003",
+    "publishers": [
+     "Suma de Letras Suma de Letras"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9871106173"
+    ],
+    "isbn_13": [
+     "9789871106172"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL26368537M",
+    "title": "Blindness",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Harvest Books"
+    ],
+    "publish_places": [
+     "United States of America"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0156007754"
+    ],
+    "isbn_13": [
+     "9780156007757"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL21503777M",
+    "title": "Ensayo sobre la ceguera",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Alfaguara"
+    ],
+    "publish_places": [
+     "México, D.F"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9681904540"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL24362268M",
+    "title": "Ensayo Sobre La Ceguera (Biblioteca Jose Saramago)",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Punto de lectura"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789707311152"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL9173184M",
+    "title": "Ensayo Sobre La Ceguera (Biblioteca Jose Saramago)",
+    "publish_date": "August 2002",
+    "year": "2002",
+    "publishers": [
+     "Alfaguara"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9681908716"
+    ],
+    "isbn_13": [
+     "9789681908713"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL24300583M",
+    "title": "ensayo sobre la ceguera",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Punto de Lectura "
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8463312161"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL8626239M",
+    "title": "Blindness",
+    "publish_date": "May 1999",
+    "year": "1999",
+    "publishers": [
+     "Harvill Pr"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1860466850"
+    ],
+    "isbn_13": [
+     "9781860466854"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL7365439M",
+    "title": "Blindness",
+    "publish_date": "October 4, 1999",
+    "year": "1999",
+    "publishers": [
+     "Harvest Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0156007754"
+    ],
+    "isbn_13": [
+     "9780156007757"
+    ],
+    "translation_of": "Ensaio sobre a cegueira",
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL21630365M",
+    "title": "Blindness",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Harcourt Brace & Co."
+    ],
+    "publish_places": [
+     "San Diego"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0156007754"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL552444M",
+    "title": "Ensaio sobre a Cegueira",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Caminho"
+    ],
+    "publish_places": [
+     "Lisboa"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "9722110217"
+    ],
+    "isbn_13": [
+     "9789722110211"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL6854985M",
+    "title": "Blindness",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Harvill Press"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1860462987",
+     "1860462979"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL16431240M",
+    "title": "Blindness",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Thorndike Press"
+    ],
+    "publish_places": [
+     "Thorndike, Me"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0786218347"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   },
+   {
+    "key": "/books/OL352517M",
+    "title": "Blindness",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Harcourt Brace & Company"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0151002517"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL27420W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 4.8,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 12,
+   "failed": 0,
+   "total_s": 11.59,
+   "p50_s": 0.889,
+   "max_s": 1.241
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 4.08,
+   "p50_s": 4.08,
+   "max_s": 4.08
+  }
+ },
+ "failures": []
+}

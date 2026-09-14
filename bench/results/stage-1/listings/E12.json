@@ -1,0 +1,59 @@
+{
+ "id": "E12",
+ "sbn": [],
+ "ol": {
+  "key": "/works/OL16171243W",
+  "size": 1,
+  "rows": 1,
+  "languages": 1,
+  "language_codes": [
+   "ger"
+  ],
+  "year_parsed": 1,
+  "year_parse_failures": [],
+  "publisher_present": 1,
+  "language_present": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 2.8,
+  "items": [
+   {
+    "key": "/books/OL25049991M",
+    "title": "Über den Begriff der Geschichte",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Suhrkamp"
+    ],
+    "publish_places": [
+     "Berlin"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3518585495"
+    ],
+    "isbn_13": [
+     "9783518585498"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16171243W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 2.8,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 2.85,
+   "p50_s": 2.845,
+   "max_s": 2.845
+  }
+ },
+ "failures": []
+}

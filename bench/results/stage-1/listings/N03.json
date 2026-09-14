@@ -1,0 +1,6648 @@
+{
+ "id": "N03",
+ "sbn": [
+  {
+   "W": "se questo e un uomo",
+   "author": "Primo Levi",
+   "total": 264,
+   "lingua_facet": [
+    [
+     "ita",
+     170
+    ],
+    [
+     "ger",
+     11
+    ],
+    [
+     "spa",
+     11
+    ],
+    [
+     "eng",
+     10
+    ],
+    [
+     "dut",
+     8
+    ],
+    [
+     "fre",
+     7
+    ],
+    [
+     "cat",
+     6
+    ],
+    [
+     "dan",
+     3
+    ],
+    [
+     "por",
+     3
+    ],
+    [
+     "rus",
+     3
+    ],
+    [
+     "alb",
+     2
+    ],
+    [
+     "chi",
+     2
+    ],
+    [
+     "cze",
+     2
+    ],
+    [
+     "jpn",
+     2
+    ],
+    [
+     "pol",
+     2
+    ],
+    [
+     "rum",
+     2
+    ],
+    [
+     "ara",
+     1
+    ],
+    [
+     "baq",
+     1
+    ],
+    [
+     "bre",
+     1
+    ],
+    [
+     "bul",
+     1
+    ],
+    [
+     "est",
+     1
+    ],
+    [
+     "hbs",
+     1
+    ],
+    [
+     "heb",
+     1
+    ],
+    [
+     "hrv",
+     1
+    ],
+    [
+     "hun",
+     1
+    ],
+    [
+     "ice",
+     1
+    ],
+    [
+     "kor",
+     1
+    ],
+    [
+     "nor",
+     1
+    ],
+    [
+     "per",
+     1
+    ],
+    [
+     "roa",
+     1
+    ],
+    [
+     "slo",
+     1
+    ],
+    [
+     "slv",
+     1
+    ],
+    [
+     "srp",
+     1
+    ],
+    [
+     "swa",
+     1
+    ],
+    [
+     "swe",
+     1
+    ],
+    [
+     "tur",
+     1
+    ],
+    [
+     "ukr",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 265,
+   "rows": 264,
+   "multilingual_rows": 1,
+   "languages": 37,
+   "bogus_lingua_total": 0,
+   "year_parsed": 262,
+   "year_parse_failures": [
+    {
+     "bid": "TO01615607",
+     "imprint": "Frankfurt am Main : Fischer, [19..!"
+    },
+    {
+     "bid": "RMS1156657",
+     "imprint": "18 ed"
+    }
+   ],
+   "publisher_present": 264,
+   "language_present": 264,
+   "records_on_no_language_page": [],
+   "requests": 47,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 9.0,
+   "items": [
+    {
+     "bid": "TSA1008086",
+     "title": "A është, vallë, njeri...? : roman / Primo Levi ; përktheu nga origjinali: Genci Pjetri",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Tiranë : PEGI, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2002",
+     "publisher": "PEGI",
+     "place": "Tiranë"
+    },
+    {
+     "bid": "TO01960098",
+     "title": "A është, vallë, njeri...? / Primo Levi ; shqipëroi: Genci Pjetri",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Tiranë : PEGI, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2016",
+     "publisher": "PEGI",
+     "place": "Tiranë"
+    },
+    {
+     "bid": "RMB0712396",
+     "title": "Hal hada hua al-insan? / Primo Levi ; traduzione di Salim Gibran",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Maktaba 'Ala'ddin : Éditions Le Manuscrit, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2009",
+     "publisher": "Maktaba 'Ala'ddin : Éditions Le Manuscrit",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01841162",
+     "title": "Hau gizon bat bada : lekukotasuna / Primo Levi ; itzultzailea Mikel Irurtia",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Irun : Alberdania, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "baq",
+     "langs": [
+      "baq"
+     ],
+     "year": "2011",
+     "publisher": "Alberdania",
+     "place": "Irun"
+    },
+    {
+     "bid": "UTO1266870",
+     "title": "Hag un den ez eus anezhañ / Primo Levi ; troet diwar an italianeg gant Serj Richard",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Lannion] : Mouladurioù Hor yezh, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "bre",
+     "langs": [
+      "bre"
+     ],
+     "year": "2015",
+     "publisher": "Mouladurioù Hor yezh",
+     "place": "Lannion"
+    },
+    {
+     "bid": "TO01864291",
+     "title": "Nima tova e chovek : Primirieto / Primo Levi ; Prevod ot Italianiski Bozhan Khristov",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Sofia : Angelinov i Partniaori, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "bul",
+     "langs": [
+      "bul"
+     ],
+     "year": "1995",
+     "publisher": "Angelinov i Partniaori",
+     "place": "Sofia"
+    },
+    {
+     "bid": "TO01829311",
+     "title": "Si això és un home / Primo Levi ; traducció de Francesc Miravitlles",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Edicions 62, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "2010",
+     "publisher": "Edicions 62",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UBO2393789",
+     "title": "Si aixo es un home / Primo Levi ; proleg de Vincenc Villatoro ; traduccio de Francesc Miravitlles",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Edicions 62, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "2002",
+     "publisher": "Edicions 62",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01847486",
+     "title": "Si això és un home / Primo Levi ; pròleg de Vicenç Villatoro ; traducció de Francesc Miravitlles",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Edicions 62, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "1996",
+     "publisher": "Edicions 62",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01847496",
+     "title": "Si això és un home / Primo Levi ; pròleg de Vicenç Villatoro ; traducció de Francesc Miravitlles",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Edicions 62, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "1998",
+     "publisher": "Edicions 62",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01848962",
+     "title": "Si això és un home / Primo Levi ; pròleg de Vicenç Villatoro ; traducció d e Francesc Miratvilles",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Edicions 62, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "2001",
+     "publisher": "Edicions 62",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UTO1290379",
+     "title": "Si esto es un hombre ; La tregua ; Los hundidos y los salvados / Primo Levi ; traducción de Pilar Gómez Bedate ; prólogo de Antonio Muñoz Molina",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Círculo de Lectores, [2004]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "2004",
+     "publisher": "Círculo de Lectores",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UTO1271263",
+     "title": "Zhei shi bu shi ge ren / Pulimo Laiwei ; Emei Shen NuÌ",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Beijing : Ren min wen xue chu ban she, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2016",
+     "publisher": "Ren min wen xue chu ban she",
+     "place": "Beijing"
+    },
+    {
+     "bid": "UTO1309270",
+     "title": "Rúguǒ zhè shì yīgèrén / Li wei ; [traduzione di] Wu Ruonan",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Taibei Shi : qi ming chu ban shi ye gu fen you xian gong si ; Taibei Shi : hong ma yi tu shu you xian gong si, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2018",
+     "publisher": "qi ming chu ban shi ye gu fen you xian gong si ; Taibei Shi : hong ma yi tu shu you xian gong si",
+     "place": "Taibei Shi"
+    },
+    {
+     "bid": "TO01756748",
+     "title": "Je-li toto clovek / Primo Levi ; [prelozila Drahoslava Janderova!",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Praha : Sefer, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "1995",
+     "publisher": "Sefer",
+     "place": "Praha"
+    },
+    {
+     "bid": "UTO1334409",
+     "title": "Je-li toto clovek / Primo Levi ; [prelozila Drahoslava Janderová]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Voznice : Leda, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "2019",
+     "publisher": "Leda",
+     "place": "Voznice"
+    },
+    {
+     "bid": "TO01868139",
+     "title": "Vidnesbyrd / Primo Levi ; oversat af Nina Gross",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Copenaghen : Rosinante, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dan",
+     "langs": [
+      "dan"
+     ],
+     "year": "2012",
+     "publisher": "Rosinante",
+     "place": "Copenaghen"
+    },
+    {
+     "bid": "BCT0044634",
+     "title": "Hvis dette er et menneske / Primo Levi ; oversat af Nina Gross",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Copenhagen : Forum, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dan",
+     "langs": [
+      "dan"
+     ],
+     "year": "2003",
+     "publisher": "Forum",
+     "place": "Copenhagen"
+    },
+    {
+     "bid": "TO01758859",
+     "title": "Hvis dette er et menneske / Primo Levi ; oversat af Nina Gross",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Copenhagen : Forum, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dan",
+     "langs": [
+      "dan"
+     ],
+     "year": "1989",
+     "publisher": "Forum",
+     "place": "Copenhagen"
+    },
+    {
+     "bid": "IEI0481234",
+     "title": "Is dit een mens / Primo Levi ; [vert. uit het Italiaans door Frida De Matteis-Vogels]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Meulenhoff, 1912",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1912",
+     "publisher": "Meulenhoff",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "TSA1415510",
+     "title": "Is dit een mens / Primo Levi ; vertaald door Frida De Matteis-Vogels",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Meulenhoff, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1987",
+     "publisher": "Meulenhoff",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "TO01830491",
+     "title": "Is dit een mens : roman / Primo Levi ; vertaald door Frida De Matteis-Vogels",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Meulenhoff, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "2010",
+     "publisher": "Meulenhoff",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "TO01845503",
+     "title": "Is dit een mens / Primo Levi ; vertaald door Frida De Matteis-Vogels",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Muntinga, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1999",
+     "publisher": "Muntinga",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "TO01830473",
+     "title": "Is dit een mens / Primo Levi ; vertaald door Frida De Matteis-Vogels ; met een nawoord van Marcel Möring",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Meulenhoff, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "2007",
+     "publisher": "Meulenhoff",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "TO01830500",
+     "title": "Is dit een mens / Primo Levi ; vertaald door Frida De Matteis-Vogels ; met een nawoord van Maarten Asscher",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Athenaeum-Polak & Van Gennep, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "2009",
+     "publisher": "Athenaeum-Polak & Van Gennep",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "TO01847507",
+     "title": "De getuigenissen : Is dit een mens ; Het respijt ; De verdronkenen en de geredden / Primo Levi ; uit het Italiaans vertaald door Frida De Matteis Vogels",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Meulenhoff, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1999",
+     "publisher": "Meulenhoff",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "BCT0044596",
+     "title": "De getuigenissen ; uit het Italiaans vertaald door Frida De Matteis-Vogels : Is dit een mens, Het respijt, De verdronkenen en de geredden/ Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Amsterdam : Meulenhoff, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1990",
+     "publisher": "Meulenhoff",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "LO10887205",
+     "title": "Survival in Auschwitz : the nazi assault on humanity / Primo Levi ; translated from the Italian by Stuart Woolf",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "New York : Collier books, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1961",
+     "publisher": "Collier books",
+     "place": "New York"
+    },
+    {
+     "bid": "RAV2219822",
+     "title": "Survival in Auschwitz : the nazi assault on humanity / Primo Levi ; translated from the Italian by Stuart Woolf",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "New York : Collier books, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1987",
+     "publisher": "Collier books",
+     "place": "New York"
+    },
+    {
+     "bid": "TO01932471",
+     "title": "If this is a man & The truce / Primo Levi ; read by Henry Goodman",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Oxford : Hachette Audio, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2014",
+     "publisher": "Hachette Audio",
+     "place": "Oxford"
+    },
+    {
+     "bid": "IEI0712539",
+     "title": "If this is a man / Primo Levi ; translated by Stuart Woolf",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Oświęcim : Auschwitz-Birkenau State Museum, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2017",
+     "publisher": "Auschwitz-Birkenau State Museum",
+     "place": "Oświęcim"
+    },
+    {
+     "bid": "PCM0003287",
+     "title": "If this is a man ; The truce / Primo Levi ; translated by Stuart Woolf ; [introduction: Howard Jacobson]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "London : Abacus, c2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2013",
+     "publisher": "Abacus",
+     "place": "London"
+    },
+    {
+     "bid": "TO01864528",
+     "title": "Survival in Auschwitz : the Nazi assault on humanity / Primo Levi ; translated from the Italian by Stuart Woolf ; including \"A conversation with Primo Levi by Philip Roth\".",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "New York : Simon & Schuster, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1996",
+     "publisher": "Simon & Schuster",
+     "place": "New York"
+    },
+    {
+     "bid": "RML0382709",
+     "title": "If this is a man / by Primo Levi ; translated from the italian by Stuart Woolf",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "New York : The Orion Press, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1959",
+     "publisher": "The Orion Press",
+     "place": "New York"
+    },
+    {
+     "bid": "TO01626517",
+     "title": "Survival in Auschwitz ; and, The reawakening : two memoirs / by Primo Levi ; translated by Stuart Woolf",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "New York : Summit Books, [1986!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1986",
+     "publisher": "Summit Books",
+     "place": "New York"
+    },
+    {
+     "bid": "TO01344004",
+     "title": "If this is a man : and, The truce / Primo Levi ; translated by Stuart Woolf ; with an introduction by Paul Bailey",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "London : Abacus, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1987",
+     "publisher": "Abacus",
+     "place": "London"
+    },
+    {
+     "bid": "TO01758300",
+     "title": "If this is a man ; The truce / Primo Levi ; translated by Stuart Woolf ; with an introduction by Paul Bailey and an afterword by the author",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[London! : Vintage, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1996",
+     "publisher": "Vintage",
+     "place": "London"
+    },
+    {
+     "bid": "UTO1320154",
+     "title": "Kas see on inimene / Primo Levi ; itaalia keelest tõlkinud Maarja Kaplinski",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Tallinn : Varrak, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "est",
+     "langs": [
+      "est"
+     ],
+     "year": "2019",
+     "publisher": "Varrak",
+     "place": "Tallinn"
+    },
+    {
+     "bid": "TO01799238",
+     "title": "Si c'est un homme / Primo Levi ; traduit de l'italien par Martine Schruoffeneger ; [con Appendice di Primo Levi!",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Julliard, c1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1987",
+     "publisher": "Julliard",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01695102",
+     "title": "Si c'est un homme / Primo Levi , traduit de l'italien par Martine Schruoffeneger",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Paris! : Julliard, ©1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1987",
+     "publisher": "Julliard",
+     "place": "Paris"
+    },
+    {
+     "bid": "RAV0690253",
+     "title": "Si c'est un homme / Primo Levi ; traduit de l'italien par Martine Schruoffeneger",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Julliard, c1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1987",
+     "publisher": "Julliard",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01592441",
+     "title": "Si c'est un homme / Primo Levi ; traduit de l'italien par Martine Schruoffeneger",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : France Loisirs, stampa 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1997",
+     "publisher": "France Loisirs",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01756743",
+     "title": "Si c'est un homme / Primo Levi ; traduit de l'italien par Martine Schruoffeneger",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Robert Laffont, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1996",
+     "publisher": "Robert Laffont",
+     "place": "Paris"
+    },
+    {
+     "bid": "LO11120372",
+     "title": "J'étais un homme : se questo è un uomo / Primo Levi ; traduit de l'italien par Valentina Montel avec adjonctions qui se réfèrent à la deuxième édition italienne par Michèle Causse",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Buchet Chastel, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1961",
+     "publisher": "Buchet Chastel",
+     "place": "Paris"
+    },
+    {
+     "bid": "UTO1394359",
+     "title": "Si c'est un homme / Primo Levi ; traduit de l'italien par Martine Schruoffeneger ; préface de Philippe Claudel",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Robert Laffont, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2017",
+     "publisher": "Robert Laffont",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01828480",
+     "title": "Ist das ein Mensch? : ein autobiographischer Bericht / Primo Levi ; aus dem Italienischen von Heinz Riedt",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Munchen : Deutscher Taschenbuch, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2010",
+     "publisher": "Deutscher Taschenbuch",
+     "place": "Munchen"
+    },
+    {
+     "bid": "LO10738646",
+     "title": "Ist das ein Mensch? : ein autobiographischer Bericht / Primo Levi ; Deutsch von Heinz Riedt",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "München : Deutscher Taschenbuch, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1997",
+     "publisher": "Deutscher Taschenbuch",
+     "place": "München"
+    },
+    {
+     "bid": "PAR1150529",
+     "title": "Ist das ein Mensch? : ein autobiographischer Bericht / Primo Levi ; aus dem italienishen von Heinz Riedt",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Munchen : Taschenbuch, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2007",
+     "publisher": "Taschenbuch",
+     "place": "Munchen"
+    },
+    {
+     "bid": "TO01847492",
+     "title": "Ist das ein Mensch? : Ein autobiographischer Bericht / Primo Levi ; Deutsch von Heinz Riedt",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "München : Deutscher Taschenbuch Verlag, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1992",
+     "publisher": "Deutscher Taschenbuch Verlag",
+     "place": "München"
+    },
+    {
+     "bid": "RAV1984251",
+     "title": "Ist das ein Mensch? : Erinnerungen an Auschwitz / Primo Levi ; mit einem Nachwort des Autors zur Neuausgabe ; aus dem Italienischen von Heinz Riedt",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Frankfurt am Main : Fischer Taschenbuch, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1979",
+     "publisher": "Fischer Taschenbuch",
+     "place": "Frankfurt am Main"
+    },
+    {
+     "bid": "UBO2191543",
+     "title": "Ist das ein Mensch? / Primo Levi ; [Übertragung aus dem Italienischen von Heinz Riedt!",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Frankfurt am Main : Fischer Bucherei, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1961",
+     "publisher": "Fischer Bucherei",
+     "place": "Frankfurt am Main"
+    },
+    {
+     "bid": "TO01615607",
+     "title": "Ist das ein Mensch? / von Primo Levi ; Bühnenfassung von Pieralberto Marché und Primo Levi ; Deutsch von Heinz Riedt",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Frankfurt am Main : Fischer, [19..!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": null,
+     "publisher": "Fischer, 19..",
+     "place": "Frankfurt am Main"
+    },
+    {
+     "bid": "UTO1364776",
+     "title": "Ist das ein Mensch? / Primo Levi ; ungekürzte Lesung mit Alexander Fehling ; [übertragung aus dem Italienischen von Heinz Riedt]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Berlin : Der Audio Verlag, 2020",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2020",
+     "publisher": "Der Audio Verlag",
+     "place": "Berlin"
+    },
+    {
+     "bid": "TO01759896",
+     "title": "Ist das ein Mensch? ; Die Atempause / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Munchen ; Wien : C. Hanser, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1991",
+     "publisher": "C. Hanser",
+     "place": "Munchen ; Wien"
+    },
+    {
+     "bid": "TO01831920",
+     "title": "Ist das ein Mensch? ; Die Atempause / Primo Levi ; aus dem Italienischen von Heinz Riedt, Barbara und Robert Picht ; mit einem Kommentar von Marco Belpoliti",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "München : C. Hanser, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2011",
+     "publisher": "C. Hanser",
+     "place": "München"
+    },
+    {
+     "bid": "TO01900907",
+     "title": "Ist das ein Mensch? ; Die Atempause / Primo Levi ; mit einem Nachwort von Cordelia Edvardson",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "München ; Wien : C. Hanser, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1988",
+     "publisher": "C. Hanser",
+     "place": "München ; Wien"
+    },
+    {
+     "bid": "TO01917517",
+     "title": "Zar je to čovjek / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Zagreb : Znanje, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hbs",
+     "langs": [
+      "hbs"
+     ],
+     "year": "1993",
+     "publisher": "Znanje",
+     "place": "Zagreb"
+    },
+    {
+     "bid": "TO01863611",
+     "title": "ha-Zehu adam? / Primo Leṿi ; [tirgem me-Iṭalḳit Yitsḥaḳ Garṭi]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Tel-Aviv : ʻAm ʻOved, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "heb",
+     "langs": [
+      "heb"
+     ],
+     "year": "1989",
+     "publisher": "ʻAm ʻOved",
+     "place": "Tel-Aviv"
+    },
+    {
+     "bid": "UTO1275116",
+     "title": "Zar je to čovjek / Primo Levi ; preveo s talijanskog Tvrtko Klarić",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Zaprešić : Fraktura, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hrv",
+     "langs": [
+      "hrv"
+     ],
+     "year": "2017",
+     "publisher": "Fraktura",
+     "place": "Zaprešić"
+    },
+    {
+     "bid": "TO01798627",
+     "title": "Ember ez? ; Fegyvernyugvás / Primo Levi ; [hungarian translation Magyarósi Gizella]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Budapest : Európa Konyvkiadó, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hun",
+     "langs": [
+      "hun"
+     ],
+     "year": "1994",
+     "publisher": "Európa Konyvkiadó",
+     "place": "Budapest"
+    },
+    {
+     "bid": "UTO1434613",
+     "title": "Ef þetta er maður / Primo Levi ; Magnús H. Guðjónsson býddi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Reykjavik : Mál og menning, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ice",
+     "langs": [
+      "ice"
+     ],
+     "year": "2022",
+     "publisher": "Mál og menning",
+     "place": "Reykjavik"
+    },
+    {
+     "bid": "BCT0075086",
+     "title": "[2.]: Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : GEDI, 2024",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "GEDI",
+     "place": "Torino"
+    },
+    {
+     "bid": "BA10080528",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "FER0032837",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO11330487",
+     "title": "Se questo e un uomo ; la tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Mondolibri, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1156657",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "18 ed",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "18 ed",
+     "place": null
+    },
+    {
+     "bid": "RLZ0216021",
+     "title": "Se questo e' un uomo / Primo Levi ; presentazione e note a cura dell'A",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, stampa 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01077968",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[S.l.! : Euroclub, stampa 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Euroclub",
+     "place": "S.l."
+    },
+    {
+     "bid": "TO10036341",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : La Stampa, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "La Stampa",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV0143767",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, [1973]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV0082879",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1971",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "SBL0485399",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Torino] : G. Einaudi, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMB0810929",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, c1973, stampa 1975",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0308159",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1965",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1965",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01308609",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "PAL0204311",
+     "title": "Se questo e un uomo ; la tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS2243036",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "AQ10001812",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, c1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LIA0508819",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, c1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO11189881",
+     "title": "Se questo è un uomo : Teatro stabile di Torino al Teatro Carignano / [testo di Primo Levi!",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[S.l. : s.n., 1966?!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1966",
+     "publisher": "s.n.",
+     "place": "S.l."
+    },
+    {
+     "bid": "BA10047697",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "AQ10100551",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Milano] : Euroclub, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0092136",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "AQ10110353",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LIA0027133",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1968",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1968",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10871151",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Euroclub, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Euroclub",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0178160",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Novara : Mondadori-De Agostini, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Mondadori-De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "CFI0172958",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Novara : Istituto geografico De Agostini, stampa 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Istituto geografico De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "CFI0134174",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Milano] : Euroclub, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "LUA0607551",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAM0001939",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Giulio Einaudi, stampa 1977 ( Casarile : Officine Fotolitografiche)",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1977",
+     "publisher": "Giulio Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0266748",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Novara : Mondadori-DeAgostini, ©1989, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Mondadori-DeAgostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "CFI0266583",
+     "title": "Se questo è un uomo / primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[S. l.] : Euroclub, 1991 (Bergamo : Nuovo istituto italiano d'arti grafiche)",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "Euroclub",
+     "place": "S. l."
+    },
+    {
+     "bid": "RMS0190358",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Firenze : Stamperia Braille, stampa 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2003",
+     "publisher": "Stamperia Braille",
+     "place": "Firenze"
+    },
+    {
+     "bid": "SBL0255474",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1963",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV0001551",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01119713",
+     "title": "Se questo é un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1977",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0123910",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Novara : Mondadori-DeAgostini, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Mondadori-DeAgostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "TO01051196",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Roma : La Biblioteca di Repubblica, ©2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "La Biblioteca di Repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "RLZ0268692",
+     "title": "Se questo e un uomo / Primo Levi ; Presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, [1973]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "SBL0244464",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, [1960!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1960",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS2535896",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1971, stampa 1978 - 221 p. ; 20 cm.",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1971",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01320244",
+     "title": "Se questo è un uomo ; la tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, stampa 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2563295",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1958, stampa 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TSA0816524",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Udine : Editoriale FVG, ©2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Editoriale FVG",
+     "place": "Udine"
+    },
+    {
+     "bid": "PAL0345682",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS2660669",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1958, stampa 1966",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS2777895",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1978",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV0255420",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, \\1973!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01876659",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01917679",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1966",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1966",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO00062732",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01951419",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO0090793",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell' autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01706241",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01723531",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BIA0002620",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1977",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAG0855936",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Sassari : Editoriale La Nuova Sardegna, c2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Editoriale La Nuova Sardegna",
+     "place": "Sassari"
+    },
+    {
+     "bid": "MIL0886516",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Mondadori, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0132100",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'A",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Einaudi scuola, c1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Einaudi scuola",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00550521",
+     "title": "Se questo e un uomo ; la tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Club degli editori, stampa 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "Club degli editori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0142029",
+     "title": "Se questo e un uomo ; la tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, stampa 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO02177830",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV0302081",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Alba] : Famiglia Cristiana, stampa 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Famiglia Cristiana",
+     "place": "Alba"
+    },
+    {
+     "bid": "PAV0154888",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1971",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01592532",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Padova : Finegil, c2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Finegil",
+     "place": "Padova"
+    },
+    {
+     "bid": "RAV0799629",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, [1967]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1967",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "PAV0176215",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1972",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1972",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO11762982",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, ©1958, stampa 1974",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BRI0414579",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, \\1973!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10092623",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : F. De Silva, [1947]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1947",
+     "publisher": "F. De Silva",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAM0202884",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1963",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAM0221687",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1978",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAM0248673",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "VIA0080153",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10028389",
+     "title": "Se questo e un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, c1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UFI0302679",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1966",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1966",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10069479",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RCA0830494",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Novara : Istituto Geografico De Agostini, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Istituto Geografico De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "VIA0002740",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "VIA0003562",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Novara : Istituto geografico De Agostini, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Istituto geografico De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "CSA0113196",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10466314",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Trezzano sul Naviglio] : Euroclub, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Euroclub",
+     "place": "Trezzano sul Naviglio"
+    },
+    {
+     "bid": "CSA0113008",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAT0042204",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino, Einaudi 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Torino, Einaudi",
+     "place": null
+    },
+    {
+     "bid": "MOD0124001",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1964",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1964",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "MOD0098069",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LUA0537096",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO4049663",
+     "title": "Se questo e un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, stampa 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4356619",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Torino] : Einaudi, [2018]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RT10149314",
+     "title": "Chy t︠s︡e li︠u︡dyna / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Lʹviv : Vydavnyt︠s︡tvo Staroho Leva, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "ukr"
+     ],
+     "year": "2017",
+     "publisher": "Vydavnyt︠s︡tvo Staroho Leva",
+     "place": "Lʹviv"
+    },
+    {
+     "bid": "LO11417079",
+     "title": "Se questo è un uomo / Primo Levi ; edizione commentata a cura di Alberto Cavaglion ; indici a cura di Daniela Muraca",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UTO1267071",
+     "title": "Se questo è un uomo / Primo Levi ; edizione commentata a cura di Alberto Cavaglion ; indici a cura di Daniela Muraca",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Mondolibri, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Mondolibri",
+     "place": "Torino"
+    },
+    {
+     "bid": "SBL0555486",
+     "title": "Se questo è un uomo / Primo Levi ; versione drammatica di Pieralberto Marche e Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1966",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1966",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0279666",
+     "title": "Se questo e un uomo / Primo Levi ; introduzione di Paola Maiello",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Novara : Mondadori-De Agostini, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Mondadori-De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "RLZ0224268",
+     "title": "Se questo e' un uomo / Primo Levi ; A cura di Elefteria Morosini ; Note e appendice dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Einaudi Scuola, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Einaudi Scuola",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0176592",
+     "title": "Se questo e un uomo / Primo Levi ; a cura di Elefteria Morosini ; note e appendice dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Einaudi scuola, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1993",
+     "publisher": "Einaudi scuola",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2600732",
+     "title": "J'étais un homme : se questo è un uomo / Primo Levi ; traduit de l'italien par Michèle Causse",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Buchet-Chastel, c1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Buchet-Chastel",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01768682",
+     "title": "Se questo è un uomo / di Primo Levi ; [commento redatto da Alberto Cavaglion!",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Torino : Einaudi, 2000?!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10247966",
+     "title": "Se questo è un uomo / Primo Levi ; a cura di Elefteria Morosini ; note e appendice dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi scuola, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "Einaudi scuola",
+     "place": "Torino"
+    },
+    {
+     "bid": "BVE0130054",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi scuola, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Einaudi scuola",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO4445258",
+     "title": "Se questo è un uomo / Primo Levi ; letto da Roberto Saviano",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Roma : Emons, 2020",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Emons",
+     "place": "Roma"
+    },
+    {
+     "bid": "VIA0594183",
+     "title": "Se questo è un uomo / Primo Levi",
+     "author": null,
+     "imprint": "Torino : Einaudi, c1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BA10126183",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : RCS, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "RCS",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0948424",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01899213",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01864273",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Fabbri, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Fabbri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01891166",
+     "title": "Roberto Saviano legge Se questo è un uomo / Primo Levi ; [regia di Flavia Gentili]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Roma : Emons Italia, 2013",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "TO01777373",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi ; La Stampa, [2010?]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Einaudi ; La Stampa",
+     "place": "Torino"
+    },
+    {
+     "bid": "BRI0000702",
+     "title": "Se questo è un uomo / Primo Levi ; presentazione e note a cura dell'autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BMT0008863",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Periodici San Paolo, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Periodici San Paolo",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO02016576",
+     "title": "Se questo e un uomo / Primo Levi ; postfazione de Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : La Stampa, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "La Stampa",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01977470",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01958987",
+     "title": "Roberto Saviano legge Se questo è un uomo / Primo Levi ; regia di Flavia Gentili",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Roma : Emons Italia, 2017",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "TSA1542689",
+     "title": "1: Se questo è un uomo / Primo Levi ; postazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Corriere della sera, 2018",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Corriere della sera",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1872443",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[S.l. : s.n.], 2010 (Bergamo : Nuovo Isituto Italiano d'Arti Grafiche)",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "s.n.",
+     "place": "S.l."
+    },
+    {
+     "bid": "VIA0397900",
+     "title": "Se questo è un uomo / Primo Levi ; postfazione di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Mondadori, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL0795743",
+     "title": "Se questo è un uomo / Primo Levi ; a cura di Simona Brenna ed Elefteria Morosini ; note e appendice dell'Autore",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Einaudi scuola, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Einaudi scuola",
+     "place": "Milano"
+    },
+    {
+     "bid": "BA10051438",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, c1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01161949",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS1764037",
+     "title": "Se questo è un uomo ; La*tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano: CDE, stampa 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Milano: CDE",
+     "place": null
+    },
+    {
+     "bid": "TO01238166",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, stampa 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "SBL0462439",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1972",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1972",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "PAL0199260",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1977",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LIA0169720",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1972",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1972",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "ANA0021158",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LIA0113915",
+     "title": "Se questo è un uomo ; La *tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LIA0015178",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1972",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1972",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BVE0593150",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Torino] : Einaudi, [1976]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAM0017668",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0187373",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "MOD1621515",
+     "title": "If this is a man and The truce / Primo Levi ; translated by Stuart Woolf ; with an introduction by Paul Bailey and an afterword by the autor",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "London : Abacus, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Abacus",
+     "place": "London"
+    },
+    {
+     "bid": "RLZ0134601",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0190262",
+     "title": "Se questo e un uomo ; la tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1991",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0229008",
+     "title": "Se questo e un uomo; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : G. Einaudi, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS0989394",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS2580703",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Roma : Edizioni KK, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Edizioni KK",
+     "place": "Roma"
+    },
+    {
+     "bid": "RAV0253979",
+     "title": "Se questo è un uomo ; la tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0345720",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1993",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01526623",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, [1989]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "NAP0336874",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV2053602",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : ETC edizioni, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "ETC edizioni",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0371546",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Euroclub, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "BIA0026365",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0269570",
+     "title": "Se questo é un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "NAP0555531",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Mondolibri, stampa 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00708029",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Euroclub, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0149873",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2001",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "PAL0221007",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10058461",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, c1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAM0232799",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3032321",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Mondolibri, stampa 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0074425",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10090134",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10065263",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10076374",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, stampa 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10093799",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2003",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "URB0931495",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BVE0417355",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10167444",
+     "title": "Se questo è un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : CDE, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4057791",
+     "title": "Se questo e un uomo ; La tregua / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Milano : Mondolibri, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0191942",
+     "title": "Se questo e un uomo / Primo Levi ; \\presentazione di Vittorio Foa!",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "\\Roma! : L'Unita ; Torino : Einaudi, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "L'Unita ; Torino : Einaudi",
+     "place": "Roma"
+    },
+    {
+     "bid": "BMT0055080",
+     "title": "Se questo è un uomo / Primo Levi ; a cura di Domenico Scarpa ; con uno scritto di Cesare Segre",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, 2026",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2026",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV2111219",
+     "title": "Se questo è un uomo : dall'opera di Primo Levi : uno spettacolo di Valter Malosti / condensazione scenica a cura di Domenico Scarpa e Valter Malosti",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Edizioni del Teatro stabile di Torino, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Edizioni del Teatro stabile di Torino",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01796849",
+     "title": "SQEUU : Se questo è un uomo per coro e orchestra : da un libro di Primo Levi / Andrea Talmelli ; riprese video Alessandro Scillitani ; registrazione audio e mixaggio di Uberto Pieroni",
+     "author": "Talmelli, Andrea",
+     "imprint": "[Reggio Emilia : s.n.], 2010",
+     "infos_n": 2,
+     "type": "projector",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "s.n.",
+     "place": "Reggio Emilia"
+    },
+    {
+     "bid": "RAV0028501",
+     "title": "1: Se questo è un uomo ; La tregua ; Il sistema periodico ; I sommersi e i salvati / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, \\1987!",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS1677951",
+     "title": "1: Se questo è un uomo ; La *tregua ; Il *sistema periodco ; I *sommersi e i salvati / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, ©1987",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV1798227",
+     "title": "Vol. 1: Se questo è un uomo ; La tregua ; Storie naturali / Primo Levi ; introduzione di Daniele Del Giudice",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Roma : Gruppo editoriale L'Espresso, 2009",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Gruppo editoriale L'Espresso",
+     "place": "Roma"
+    },
+    {
+     "bid": "VEA0099010",
+     "title": "1: Se questo è un uomo ; La tregua ; Storie naturali ; Vizio di forma ; Il sistema periodico ; La chiave a stella ; Pagine sparse 1946-1980 / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Einaudi, [1997]",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RL10113381",
+     "title": "Se questo è un uomo / Primo Levi ; trascritto in braille a cura della Biblioteca italiana per i ciechi Regina Margherita",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Monza : Biblioteca italiana per i ciechi Regina Margherita, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "Biblioteca italiana per i ciechi Regina Margherita",
+     "place": "Monza"
+    },
+    {
+     "bid": "CAG1315738",
+     "title": "Se questo è un uomo / Primo Levi ; trascritto in braille a cura della Biblioteca italiana per i ciechi Regina Margherita",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Monza : Biblioteca italiana per i ciechi Regina Margherita, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Biblioteca italiana per i ciechi Regina Margherita",
+     "place": "Monza"
+    },
+    {
+     "bid": "TO01802281",
+     "title": "Aushubittu wa owaranai / Primo Levi ; [traduzione di! Hirohide Takeyama",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Tokio : Asahi Shimbun Shuppan, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "jpn",
+     "langs": [
+      "jpn"
+     ],
+     "year": "2008",
+     "publisher": "Asahi Shimbun Shuppan",
+     "place": "Tokio"
+    },
+    {
+     "bid": "UTO1288712",
+     "title": "Kore ga ningen / Primo Levi ; [traduzione di] Hirohide Takeyama",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Tokyo : Asahishinbunshuppan, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "jpn",
+     "langs": [
+      "jpn"
+     ],
+     "year": "2017",
+     "publisher": "Asahishinbunshuppan",
+     "place": "Tokyo"
+    },
+    {
+     "bid": "TO01865961",
+     "title": "Igŏt i in'gan in'ga / Primo Levi ; [traduzione di] Yi Hyŏn-gyŏng",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Kyŏnggi-do P'aju-si : Tol Pegae, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "kor",
+     "langs": [
+      "kor"
+     ],
+     "year": "2007",
+     "publisher": "Tol Pegae",
+     "place": "Kyŏnggi-do P'aju-si"
+    },
+    {
+     "bid": "CFI0343066",
+     "title": "Hvis dette er et menneske / Primo Levi ; oversatt fra italiensk av Tommy Watz",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Oslo : Document, [1990]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "nor",
+     "langs": [
+      "nor"
+     ],
+     "year": "1990",
+     "publisher": "Document",
+     "place": "Oslo"
+    },
+    {
+     "bid": "RMB0716017",
+     "title": "Aia in iek ensan ast? / Primo Levi ; tarjome Ruia Tloe'",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Paris : Editions Le Manuscrit, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "per",
+     "langs": [
+      "per"
+     ],
+     "year": "2009",
+     "publisher": "Editions Le Manuscrit",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01798581",
+     "title": "Czy to jest czlowiek / Primo Levi ; przelozyla Halszka Wisniowska",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Kraków : Wydawnictwo Literackie, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2008",
+     "publisher": "Wydawnictwo Literackie",
+     "place": "Kraków"
+    },
+    {
+     "bid": "TO01845524",
+     "title": "Czy to jest człowiek / Primo Levi ; z wloskiego przelozyla Halszka Wisniowska ; przedmową opatrzył Israel Gutman",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Warszawa : Ksiazka i Wiedza, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "1996",
+     "publisher": "Ksiazka i Wiedza",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "TO01798604",
+     "title": "Se isto é um homem / Primo Levi ; traducao de Simonetta Cabrita Neto",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Lisboa : Teorema, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2001",
+     "publisher": "Teorema",
+     "place": "Lisboa"
+    },
+    {
+     "bid": "TO01829364",
+     "title": "É isto um homem? / Primo Levi ; traducão de Luigi Del Re",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Rio de Janeiro : Rocco, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "1988",
+     "publisher": "Rocco",
+     "place": "Rio de Janeiro"
+    },
+    {
+     "bid": "UTO1288821",
+     "title": "Se isto é um homem / Primo Levi ; traducao de Simonetta Cabrita Neto ; prefacio de Fernando Pinto do Amaral",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Alfragide : Leya, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2018",
+     "publisher": "Leya",
+     "place": "Alfragide"
+    },
+    {
+     "bid": "TO01841174",
+     "title": "Sche quei ei in carstgaun : [raquent autobiografic] / Primo Levi ; translatau dil talian dad Ursicin G.G. Derungs",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Cuira] : Chasa editura rumantscha, [2011]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "roa",
+     "langs": [
+      "roa"
+     ],
+     "year": "2011",
+     "publisher": "Chasa editura rumantscha",
+     "place": "Cuira"
+    },
+    {
+     "bid": "TO01404677",
+     "title": "Mai este oare acesta un om? / Primo Levi ; traducere ʂi postfaƫă de Doina Condrea Derer",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Iaʂi ; Bucureʂti : Polirom, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2004",
+     "publisher": "Polirom",
+     "place": "Iaʂi ; Bucureʂti"
+    },
+    {
+     "bid": "UTO1297375",
+     "title": "Mai este oare acesta un om? / Primo Levi ; traducere din limba italiana si postfata de Doina Condrea Derer",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Bucuresti : Art, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2018",
+     "publisher": "Art",
+     "place": "Bucuresti"
+    },
+    {
+     "bid": "TO01841190",
+     "title": "Celovek li eto? / Primo Levi ; perevod s ital'janskogo Eleny Dmitrievoj ; predislovie Mihaila Svydkogo",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Mosca : Tekst, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2011",
+     "publisher": "Tekst",
+     "place": "Mosca"
+    },
+    {
+     "bid": "UTO1421193",
+     "title": "Čelovek li èto? / Primo Levi ; perevod s ital'janskogo Eleny Dmitrievoj ; predislovie Mihaila Svydkogo",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Mosca : Tekst, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2021",
+     "publisher": "Tekst",
+     "place": "Mosca"
+    },
+    {
+     "bid": "UBO2599850",
+     "title": "Celovek li eto? / Primo Levi ; perevod s ital'janskogo Eleny Dmitrievoj ; predislovie Mihaila Svydkogo",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Moskva : Tekst, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2001",
+     "publisher": "Tekst",
+     "place": "Moskva"
+    },
+    {
+     "bid": "TO01758836",
+     "title": "Je to človek? / Primo Levi ; [prelozili Terézia Gasparíková!",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Bratislava : Agora, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slo",
+     "langs": [
+      "slo"
+     ],
+     "year": "2001",
+     "publisher": "Agora",
+     "place": "Bratislava"
+    },
+    {
+     "bid": "PBE0178099",
+     "title": "Ali je to človek ; Premirje / Primo Levi ; prevod Sergij Šlenc",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Ljubljana : Cankarjeva založba, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "2004",
+     "publisher": "Cankarjeva založba",
+     "place": "Ljubljana"
+    },
+    {
+     "bid": "TO01759873",
+     "title": "Trilogía de Auschwitz / Primo Levi ; traducción de Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : El Aleph, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2009",
+     "publisher": "El Aleph",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01846582",
+     "title": "Si esto es un hombre / Primo Levi ; traducido del italiano por Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "[Barcelona] : Muchnik, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1999",
+     "publisher": "Muchnik",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01845497",
+     "title": "Si esto es un hombre / Primo Levi ; traducción Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : El Aleph, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2009",
+     "publisher": "El Aleph",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01848848",
+     "title": "Si esto es un hombre / Primo Levi ; traducción de Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Muchnik, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2002",
+     "publisher": "Muchnik",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01848681",
+     "title": "Si esto es un hombre / Primo Levi ; traducción de Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : El Aleph, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2010",
+     "publisher": "El Aleph",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01848653",
+     "title": "Si esto es un hombre / Primo Levi ; traducción de Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Muchnik, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2001",
+     "publisher": "Muchnik",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01890289",
+     "title": "Si esto es un hombre / Primo Levi ; traducción del italiano Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Muchnik, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1987",
+     "publisher": "Muchnik",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01938364",
+     "title": "Si esto es un hombre / Primo Levi ; traducción de Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : Ediciones Península, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2015",
+     "publisher": "Ediciones Península",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01963086",
+     "title": "Si esto es un hombre / Primo Levi ; traducción Pilar Gómez Bedate",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : El Aleph, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2006",
+     "publisher": "El Aleph",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UTO1320147",
+     "title": "Se isto é un home / Primo Levi ; tradución de Xoán Manuel Garrido Vilariño",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Vigo : Edicions Xerais de Galicia, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2019",
+     "publisher": "Edicions Xerais de Galicia",
+     "place": "Vigo"
+    },
+    {
+     "bid": "TO01858834",
+     "title": "Trilogia de Auschwitz / Primo Levi ; [prólogo de Antonio Muñoz Molina]",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Barcelona : El Aleph Editores, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2012",
+     "publisher": "El Aleph Editores",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UTO1364680",
+     "title": "Zar je to čovek / Primo Levi ; sa italijanskog prevela Elizabet Vasiljević",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Beograd : Paideia, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "srp",
+     "langs": [
+      "srp"
+     ],
+     "year": "2005",
+     "publisher": "Paideia",
+     "place": "Beograd"
+    },
+    {
+     "bid": "UTO1563055",
+     "title": "Ikiwa huyo ni mtu / Primo Levi ; kimetafsiriwa na Graziella Acquaviva na kusahihishwa na Janet Revocatus Buhanza",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Torino : Zamorani, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "swa",
+     "langs": [
+      "swa"
+     ],
+     "year": "2024",
+     "publisher": "Zamorani",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01868147",
+     "title": "Är detta en människa? ; Fristen ; De förlorade och de räddade / Primo Levi",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "Stockholm : Bonniers, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "swe",
+     "langs": [
+      "swe"
+     ],
+     "year": "2013",
+     "publisher": "Bonniers",
+     "place": "Stockholm"
+    },
+    {
+     "bid": "UTO1364681",
+     "title": "Bunlar da mı insan : roman / Primo Levi ; çeviri Zeyyat Selimoğlu",
+     "author": "Levi, Primo <1919-1987>",
+     "imprint": "İstanbul : Can Yayınları, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2017",
+     "publisher": "Can Yayınları",
+     "place": "İstanbul"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng",
+    "eng-2"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL860066W",
+  "size": 112,
+  "rows": 112,
+  "languages": 13,
+  "language_codes": [
+   "alb",
+   "eng",
+   "fre",
+   "ger",
+   "heb",
+   "ita",
+   "kor",
+   "pol",
+   "por",
+   "roh",
+   "rus",
+   "spa",
+   "tur"
+  ],
+  "year_parsed": 109,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL46529534M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL9176434M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL9176507M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 109,
+  "language_present": 85,
+  "requests": 48,
+  "failed": [],
+  "wall_s": 9.1,
+  "items": [
+   {
+    "key": "/books/OL61498487M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL60464808M",
+    "title": "Si esto es un hombre",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Muchnik"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "847669525X"
+    ],
+    "isbn_13": [],
+    "translation_of": "Se questo è un uomo",
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL25379938M",
+    "title": "Sche quei ei in carstgaun",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Chasa Editura Rumantscha"
+    ],
+    "publish_places": [
+     "Cuera, CH"
+    ],
+    "languages": [
+     "roh"
+    ],
+    "isbn_10": [
+     "3905956063"
+    ],
+    "isbn_13": [
+     "9783905956061"
+    ],
+    "translation_of": "Se questo è un uomo",
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL57956811M",
+    "title": "Ha-zehu adam?",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Am Oved"
+    ],
+    "publish_places": [
+     "Tel Aviv"
+    ],
+    "languages": [
+     "heb"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL35613928M",
+    "title": "Bunlar da mi Insan",
+    "publish_date": "Nov 05, 2018",
+    "year": "2018",
+    "publishers": [
+     "Can Yayinlari"
+    ],
+    "publish_places": [],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "9755105255"
+    ],
+    "isbn_13": [
+     "9789755105253"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47516266M",
+    "title": "Hau gizon bat bada",
+    "publish_date": "May 27, 2011",
+    "year": "2011",
+    "publishers": [
+     "Alberdania"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8498682827"
+    ],
+    "isbn_13": [
+     "9788498682823"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47516267M",
+    "title": "Hau gizon bat bada",
+    "publish_date": "May 27, 2011",
+    "year": "2011",
+    "publishers": [
+     "Alberdania"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8498682827"
+    ],
+    "isbn_13": [
+     "9788498682823"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47141699M",
+    "title": "Se isto é un home",
+    "publish_date": "Jan 17, 2019",
+    "year": "2019",
+    "publishers": [
+     "Edicións Xerais",
+     "Xerais"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8491214690"
+    ],
+    "isbn_13": [
+     "9788491214694"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL39472303M",
+    "title": "Is dit een mens?",
+    "publish_date": "Aug 23, 1994",
+    "year": "1994",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9029046074"
+    ],
+    "isbn_13": [
+     "9789029046077"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47216442M",
+    "title": "Is dit een mens?",
+    "publish_date": "Jun 01, 2010",
+    "year": "2010",
+    "publishers": [
+     "Meulenhoff Boekerij B.V.",
+     "J.M. Meulenhoff"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9029086114"
+    ],
+    "isbn_13": [
+     "9789029086110"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL32330334M",
+    "title": "Si això és un home",
+    "publish_date": "Jun 01, 2008",
+    "year": "2008",
+    "publishers": [
+     "labutxaca"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8496863646"
+    ],
+    "isbn_13": [
+     "9788496863644"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL21793999M",
+    "title": "Si c'est un homme",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Juillard"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2260005284"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL12510444M",
+    "title": "Si c'est un homme ",
+    "publish_date": "September 20, 2001",
+    "year": "2001",
+    "publishers": [
+     "Presses Pocket"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2266118188"
+    ],
+    "isbn_13": [
+     "9782266118187"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL8889676M",
+    "title": "Si c'est un homme",
+    "publish_date": "January 1, 1988",
+    "year": "1988",
+    "publishers": [
+     "Presses Pocket",
+     "Pocket"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2266022504"
+    ],
+    "isbn_13": [
+     "9782266022507"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL53591787M",
+    "title": "Si c'est un homme",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Robert Laffont"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782221199831"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9032363M",
+    "title": "Ist Das Ein Mensch?",
+    "publish_date": "Aug 01, 1992",
+    "year": "1992",
+    "publishers": [
+     "Deutscher Taschenbuch Verlag GmbH & Co.",
+     "Dtv"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3423115610"
+    ],
+    "isbn_13": [
+     "9783423115612"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL15279254M",
+    "title": "Ist das ein Mensch?",
+    "publish_date": "1979",
+    "year": "1979",
+    "publishers": [
+     "Fischer"
+    ],
+    "publish_places": [
+     "Frankfurt amMain"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596222265"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL27473682M",
+    "title": "Ist das ein Mensch ?",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "DTV Deutscher Taschenbuch"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3423123958"
+    ],
+    "isbn_13": [
+     "9783423123952"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL58876983M",
+    "title": "If this is a Man",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "The Folio Society"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL51735118M",
+    "title": "If this is a man",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "The Folio Society"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Se questo è un uomo",
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL58876980M",
+    "title": "If This Is A Man",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "The Orion Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL39472305M",
+    "title": "If This Is a Man",
+    "publish_date": "Feb 11, 2009",
+    "year": "2009",
+    "publishers": [
+     "MANUSCRIT",
+     "Editions Le Manuscrit - manuscrit.com -"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2304025706"
+    ],
+    "isbn_13": [
+     "9782304025705"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL58736101M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Collier"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47293901M",
+    "title": "Si esto es un hombre",
+    "publish_date": "Mar 21, 1995",
+    "year": "1995",
+    "publishers": [
+     "Muchnik."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8476690452"
+    ],
+    "isbn_13": [
+     "9788476690451"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47385372M",
+    "title": "Si esto es un hombre",
+    "publish_date": "May 08, 2018",
+    "year": "2018",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8499426972"
+    ],
+    "isbn_13": [
+     "9788499426976"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47385373M",
+    "title": "Si esto es un hombre",
+    "publish_date": "May 08, 2018",
+    "year": "2018",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8499426972"
+    ],
+    "isbn_13": [
+     "9788499426976"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL47140066M",
+    "title": "Si esto es un hombre. Edición 75 aniversario",
+    "publish_date": "May 04, 2022",
+    "year": "2022",
+    "publishers": [
+     "Ediciones Península"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8411000818"
+    ],
+    "isbn_13": [
+     "9788411000819"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL31876964M",
+    "title": "Si esto es un hombre",
+    "publish_date": "Jul 02, 2013",
+    "year": "2013",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8415325916"
+    ],
+    "isbn_13": [
+     "9788415325918"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL31876963M",
+    "title": "Si esto es un hombre",
+    "publish_date": "Jul 02, 2013",
+    "year": "2013",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8415325916"
+    ],
+    "isbn_13": [
+     "9788415325918"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL31876965M",
+    "title": "Si esto es un hombre",
+    "publish_date": "Jul 02, 2013",
+    "year": "2013",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8415325916"
+    ],
+    "isbn_13": [
+     "9788415325918"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL26384922M",
+    "title": "Si esto es un hombre",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Península"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788499422886"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL26384921M",
+    "title": "Si esto es un hombre",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Península"
+    ],
+    "publish_places": [
+     "Barcelona, Spain"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8499422888"
+    ],
+    "isbn_13": [
+     "9788499422886",
+     "9788499422886"
+    ],
+    "translation_of": "Se questo è un uomo",
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9140706M",
+    "title": "Si Esto Es Un Hombre",
+    "publish_date": "June 2005",
+    "year": "2005",
+    "publishers": [
+     "El Aleph"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "847669525X"
+    ],
+    "isbn_13": [
+     "9788476695258"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9480061M",
+    "title": "Si Esto Es Un Hombre",
+    "publish_date": "July 2002",
+    "year": "2002",
+    "publishers": [
+     "El Aleph"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8476694008"
+    ],
+    "isbn_13": [
+     "9788476694008"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL57500996M",
+    "title": "Si esto es un hombre",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Muchnik Editores"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL57945585M",
+    "title": "Si esto es un hombre",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Milà Editora"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9509879169"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL53818640M",
+    "title": "Je to človek?",
+    "publish_date": "1963",
+    "year": "1963",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL53657661M",
+    "title": "A është, vallë, njeri--?",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Pegi"
+    ],
+    "publish_places": [
+     "Tiranë"
+    ],
+    "languages": [
+     "alb"
+    ],
+    "isbn_10": [
+     "9992772557"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL53521620M",
+    "title": "Czy to jest człowiek",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Wydawnictwo Literackie"
+    ],
+    "publish_places": [
+     "Kraków"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [
+     "8308042570"
+    ],
+    "isbn_13": [
+     "9788308042571"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL52802332M",
+    "title": "Se questo é un uomo",
+    "publish_date": "1963",
+    "year": "1963",
+    "publishers": [
+     "G. Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL52756471M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1947",
+    "year": "1947",
+    "publishers": [
+     "F. de Silva"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL57424584M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1947",
+    "year": "1947",
+    "publishers": [
+     "F. de Silva"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL46815960M",
+    "title": "Se questo è un uomo",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Independently Published"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9798607807849"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL46529534M",
+    "title": "Se questo è un uomo",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "La Biblioteca di Repubblica"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8481304581"
+    ],
+    "isbn_13": [
+     "9788481304589"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL43962619M",
+    "title": "Chelovek li ėto?",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Tekst",
+     "Knizhniki"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5751609778",
+     "5995301276"
+    ],
+    "isbn_13": [
+     "9785751609771",
+     "9785995301271"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL43696334M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL43761056M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1973",
+    "year": "1973",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL44654621M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Giulio Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL13901954M",
+    "title": "Se questo e   un uomo",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL13922423M",
+    "title": "Se questo e   un uomo",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL13660172M",
+    "title": "Se questo e   un uomo.",
+    "publish_date": "1971",
+    "year": "1971",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9176434M",
+    "title": "SE Questo E UN Uomo",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8806131729"
+    ],
+    "isbn_13": [
+     "9788806131722"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL24943737M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1971",
+    "year": "1971",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8806031368"
+    ],
+    "isbn_13": [
+     "9788806031367"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL28378493M",
+    "title": "If this is a man",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Folio Society"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL39814043M",
+    "title": "Si esto es un hombre",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "El Aleph"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8496333728"
+    ],
+    "isbn_13": [
+     "9788496333727"
+    ],
+    "translation_of": "Se questo è un uomo",
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL31876962M",
+    "title": "Si esto es un hombre",
+    "publish_date": "Jul 02, 2013",
+    "year": "2013",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8415325916"
+    ],
+    "isbn_13": [
+     "9788415325918"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL35605422M",
+    "title": "Se questo è un uomo",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8806219359"
+    ],
+    "isbn_13": [
+     "9788806219352"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL37923623M",
+    "title": "Se Questo E' Un Uomo",
+    "publish_date": "May 18, 2005",
+    "year": "2005",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8806176552"
+    ],
+    "isbn_13": [
+     "9788806176556"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL45365344M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL59234569M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL43047075M",
+    "title": "Igŏt i in'gan in'ga",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Tol Pegae"
+    ],
+    "publish_places": [
+     "Kyŏnggi-do P'aju-si"
+    ],
+    "languages": [
+     "kor"
+    ],
+    "isbn_10": [
+     "8971992646"
+    ],
+    "isbn_13": [
+     "9788971992647"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL15604073M",
+    "title": "Se isto é um homem",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Editorial Teorema"
+    ],
+    "publish_places": [
+     "Lisboa"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "9726954622"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL14964268M",
+    "title": "If this is a man",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Summit Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL14634798M",
+    "title": "If this is a man.",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Orion Press"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL14615686M",
+    "title": "If this is a man",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Orion Press"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL18394463M",
+    "title": "If this is a man",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Bodley Head"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0370003837"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL6015646M",
+    "title": "If this is a man",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Bodley Head"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL17270334M",
+    "title": "If this is a man",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Orion Press"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL23808518M",
+    "title": "Survival in Auschwitz, the Nazi assault on humanity",
+    "publish_date": "1973",
+    "year": "1973",
+    "publishers": [
+     "Collier"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL18842958M",
+    "title": "Survival in Auschwitz, the Nazi assault on humanity",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Collins"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL37767950M",
+    "title": "Ist das ein Mensch?",
+    "publish_date": "1961-11",
+    "year": "1961",
+    "publishers": [
+     "Fischer Bücherei"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Se questo è un uomo",
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL16219320M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL15497869M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Simon & Schuster"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0684826801"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9816877M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "August 20, 2007",
+    "year": "2007",
+    "publishers": [
+     "www.bnpublishing.com"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "9562915298"
+    ],
+    "isbn_13": [
+     "9789562915298"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL7721416M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "September 1, 1995",
+    "year": "1995",
+    "publishers": [
+     "Touchstone"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0684826801"
+    ],
+    "isbn_13": [
+     "9780684826806"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL22644289M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Touchstone"
+    ],
+    "publish_places": [
+     "New York",
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0684826801"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL21940728M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Collier"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL18952950M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [],
+    "publish_places": [
+     "Torino :Einaudi"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL24221100M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Collier Books",
+     "Collier"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng",
+     "ita"
+    ],
+    "isbn_10": [
+     "0020343000"
+    ],
+    "isbn_13": [
+     "9780020343004"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9644602M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "August 22, 2007",
+    "year": "2007",
+    "publishers": [
+     "www.bnpublishing.com"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "9562915638"
+    ],
+    "isbn_13": [
+     "9789562915632"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL22931768M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1976",
+    "year": "1976",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "880631369X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL17201133M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Collier-Macmillan"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL18324480M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Collier Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [],
+    "isbn_10": [
+     "0020343108"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL22811504M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Collier Books",
+     "Collier Macmillan Publishers"
+    ],
+    "publish_places": [
+     "New York",
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0020343000"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9219715M",
+    "title": "SURVIVAL IN AUSCHWITZ",
+    "publish_date": "October 1, 1961",
+    "year": "1961",
+    "publishers": [
+     "Scribner Paper Fiction"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0020343000"
+    ],
+    "isbn_13": [
+     "9780020343004"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL2720252M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Collier Books",
+     "Maxwell Macmillan Canada"
+    ],
+    "publish_places": [
+     "New York",
+     "Toronto"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0020291922"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL7265001M",
+    "title": "SURVIVAL IN AUSCHWITZ",
+    "publish_date": "October 1, 1961",
+    "year": "1961",
+    "publishers": [
+     "Scribner Paper Fiction"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0020343000"
+    ],
+    "isbn_13": [
+     "9780020343004"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9885042M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "August 20, 2007",
+    "year": "2007",
+    "publishers": [
+     "www.bnpublishing.com"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "9562915301"
+    ],
+    "isbn_13": [
+     "9789562915304"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9219716M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "August 1987",
+    "year": "1987",
+    "publishers": [
+     "Collier Books"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0020343108"
+    ],
+    "isbn_13": [
+     "9780020343103"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL19042911M",
+    "title": "Se questo è un uomo",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL7265002M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "August 1987",
+    "year": "1987",
+    "publishers": [
+     "Collier Books"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0020343108"
+    ],
+    "isbn_13": [
+     "9780020343103"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL25437300M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781492942580"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL26039746M",
+    "title": "Sobreviviendo en Auschwitz",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "BN Publishing"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781607960157"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL26883287M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Collier"
+    ],
+    "publish_places": [
+     "New York, NY"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL27645958M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "May 30, 2011",
+    "year": "2011",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1463525567"
+    ],
+    "isbn_13": [
+     "9781463525569"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL27632973M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "Jan 12, 2011",
+    "year": "2011",
+    "publishers": [
+     "Wilder Publications"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1617201685"
+    ],
+    "isbn_13": [
+     "9781617201684"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL27613004M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "Jul 13, 2012",
+    "year": "2012",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1478239522"
+    ],
+    "isbn_13": [
+     "9781478239529"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL40291857M",
+    "title": "Survival In Auschwitz",
+    "publish_date": "Dec 27, 2008",
+    "year": "2008",
+    "publishers": [
+     "Classic House Books"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0979905281"
+    ],
+    "isbn_13": [
+     "9780979905285"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL39187648M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2021",
+    "year": "2021",
+    "publishers": [
+     "Rehak, David",
+     "Must Have Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781774641910"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL43027200M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2007-08-20",
+    "year": "2007",
+    "publishers": [
+     "BN Publishing"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL50991171M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Collier"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL55061990M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781493510214"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL54521696M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781482621440"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL54516244M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781481065832"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL54312586M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781480270008"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL54252198M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781482671148"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL54177587M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781480213029"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL54109738M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781481015332"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL52802477M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "1971",
+    "year": "1971",
+    "publishers": [
+     "Collier"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL51939240M",
+    "title": "Survival in Auschwitz",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Blurb"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781388446499"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL14582954M",
+    "title": "Se questo e   un uamo.",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   },
+   {
+    "key": "/books/OL9176507M",
+    "title": "Se Questo E Un Jomo",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "880631369X"
+    ],
+    "isbn_13": [
+     "9788806313692"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL860066W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 9.1,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 47,
+   "failed": 0,
+   "total_s": 31.5,
+   "p50_s": 0.459,
+   "max_s": 2.285
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 9.05,
+   "p50_s": 9.054,
+   "max_s": 9.054
+  }
+ },
+ "failures": []
+}

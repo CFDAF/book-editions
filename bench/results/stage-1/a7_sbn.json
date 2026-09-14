@@ -1,0 +1,1412 @@
+{
+ "controls": {
+  "bare_autori_total": 4391659,
+  "bogus_text_total": 0,
+  "bogus_authority_records": 0
+ },
+ "persons": {
+  "P01": {
+   "person": "Gregory Bateson",
+   "variants": [
+    {
+     "variant": "Gregory Bateson",
+     "total": 2,
+     "returned": 2,
+     "authorities": [
+      {
+       "id": "CFIV034892",
+       "heading": "Bateson , Gregory",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      },
+      {
+       "id": "RT1V031559",
+       "heading": "Finke , Peter  <1942->",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": "CFIV034892",
+     "chosen_heading": "Bateson , Gregory",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 134,
+     "namesakes": [],
+     "text_dropped": false
+    }
+   ],
+   "one_id": true,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Bateson",
+    "total": 37,
+    "first_page_persons": [
+     "Bateson , Alan N.",
+     "Bateson , Beatrice",
+     "Bateson , Catherine",
+     "Bateson , Claire",
+     "Bateson , David  <1960- >",
+     "Bateson , Donal",
+     "Bateson , Frederic Hewitt",
+     "Bateson , Frederick Wilse",
+     "Bateson , G.",
+     "Bateson , Gregory",
+     "Bateson , J. Donal",
+     "Bateson , J. H.",
+     "Bateson , John",
+     "Bateson , John  <1951->",
+     "Bateson , John E. G.",
+     "Bateson , Maggie",
+     "Bateson , Malcom C.",
+     "Bateson , Mary",
+     "Bateson , Mary Catherine",
+     "Bateson , Melissa"
+    ]
+   }
+  },
+  "P02": {
+   "person": "Haruki Murakami",
+   "variants": [
+    {
+     "variant": "Murakami Haruki",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "LO1V086706",
+       "heading": "Murakami , Haruki",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      }
+     ],
+     "chosen": "LO1V086706",
+     "chosen_heading": "Murakami , Haruki",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 405,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "Haruki Murakami",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "LO1V086706",
+       "heading": "Murakami , Haruki",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      }
+     ],
+     "chosen": "LO1V086706",
+     "chosen_heading": "Murakami , Haruki",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 405,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "村上春樹",
+     "total": 4391659,
+     "returned": 60,
+     "authorities": [
+      {
+       "id": "UTOV590564",
+       "heading": "",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RL1V005528",
+       "heading": "!3. Comunità montana Monti Lepini - Ausoni",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RAVV497246",
+       "heading": "!DelaDap    <gruppo musicale>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "PAVV054505",
+       "heading": "'4 motors for Europe' interregional colloquium on ceramics   ; 1993   <4.  ; Salou (Catalogna)>",
+       "kind": "Congresso, esposizione ...",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "NAPV111582",
+       "heading": "'Amici' dell'Ospedale Evangelico Valdese di Torino",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "LO1V481473",
+       "heading": "'Associazione ex allievi Norberto Duzioni    <Bergamo>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311323",
+       "heading": "'Ba yi qiangsheng' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "USMV870865",
+       "heading": "'Di ba jie guoji hanyu jiaoxue taolunhui lunwen xuan' biabji bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV290602",
+       "heading": "'Diguo zhuyi shi ziben zhuyi de zuigao jieduan' qianshuo bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV433367",
+       "heading": "'Fengshuiling jitihu riji xuan' bianji xiao zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311569",
+       "heading": "'Gongren zhexue Jiayue Dicigen' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV290074",
+       "heading": "'Hongqi' zazhi",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV289898",
+       "heading": "'Jiangnan zaochuan chang shi' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV136937",
+       "heading": "'Kua shi ji wen cong' bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311444",
+       "heading": "'Lidai laodong Renmin fan Kong douzheng shiliao jianbian' xuanbian xiaozu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV433358",
+       "heading": "'Longmenzhen' congshu bianji zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV289905",
+       "heading": "'Lundu jinxi' gongren bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV310520",
+       "heading": "'Maodun lun qianshuo' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CAGV603282",
+       "heading": "'Midnight notes'",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "GEAV006211",
+       "heading": "'Naturwissenschaften'    <Redazione>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "TO0V356191",
+       "heading": "'Non-violence actualite'",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "DDSV124604",
+       "heading": "'Peanuts' Taylor , Berkeley",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "PUVV455868",
+       "heading": "'Premio europeo di letteratura giovanile Pier Paolo Vergerio      <Padova>",
+       "kind": "Congresso, esposizione ...",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UBOV335570",
+       "heading": "'Shanghai jiaoqui nongyexue dazai' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "LO1V452917",
+       "heading": "'Shanghai nian jian' bian zuan wei yuan hui bian",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV978389",
+       "heading": "'Shinpen kokka taikan' Henshū Iinkai",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV136778",
+       "heading": "'Si xiang shi' bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV138505",
+       "heading": "'Sui bi' bian ji bu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311446",
+       "heading": "'Taiping Tianguo Jintian qiyi' san jiehe bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV432844",
+       "heading": "'Taiping Yang diqu fazhan qianjing he Zhongguo xiandaihua' xueshu taolunhui zuzhi",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": null,
+     "chosen_heading": null,
+     "chosen_rule": "no match",
+     "namesakes": [],
+     "text_dropped": true
+    }
+   ],
+   "one_id": false,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Murakami",
+    "total": 85,
+    "first_page_persons": [
+     "Kresin-Murakami , Jutta",
+     "Masashi , Murakami",
+     "Murakami , Akira",
+     "Murakami , Ana Maria Brandão",
+     "Murakami , Fumiaki",
+     "Murakami , Fuminobu",
+     "Murakami , Gen-Ichiro",
+     "Murakami , Genzō  <1910-2006>",
+     "Murakami , Glen",
+     "Murakami , H.",
+     "Murakami , Hanzô",
+     "Murakami , Haruki",
+     "Murakami , Hiroki",
+     "Murakami , Hiroshi",
+     "Murakami , Hiroshi",
+     "Murakami , Hiroya",
+     "Murakami , Hiroyasu",
+     "Murakami , Hisashi",
+     "Murakami , Hitomi",
+     "Murakami , Hitomi  <1979->"
+    ]
+   }
+  },
+  "P03": {
+   "person": "Fyodor Dostoevsky",
+   "variants": [
+    {
+     "variant": "Fëdor Dostoevskij",
+     "total": 4,
+     "returned": 4,
+     "authorities": [
+      {
+       "id": "CFIV103739",
+       "heading": "Coldefy-Faucard , Anne",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RAVV016928",
+       "heading": "Dostoevskaja , Anna Grigorʹevna",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CFIV001049",
+       "heading": "Dostoevskij , Fëdor Mihajlovič",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "UMCV162044",
+       "heading": "Gražis , Pranas Jonovič",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": "CFIV001049",
+     "chosen_heading": "Dostoevskij , Fëdor Mihajlovič",
+     "chosen_rule": "heading tokens contain the name's",
+     "records_by_authority": 4787,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "Fyodor Dostoevsky",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "CFIV001049",
+       "heading": "Dostoevskij , Fëdor Mihajlovič",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": "CFIV001049",
+     "chosen_heading": "Dostoevskij , Fëdor Mihajlovič",
+     "chosen_rule": "sole Persona result (heading in another transliteration)",
+     "records_by_authority": 4787,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "Dostoïevski",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "CFIV001049",
+       "heading": "Dostoevskij , Fëdor Mihajlovič",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": "CFIV001049",
+     "chosen_heading": "Dostoevskij , Fëdor Mihajlovič",
+     "chosen_rule": "sole Persona result (heading in another transliteration)",
+     "records_by_authority": 4787,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "Фёдор Достоевский",
+     "total": 4391659,
+     "returned": 60,
+     "authorities": [
+      {
+       "id": "UTOV590564",
+       "heading": "",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RL1V005528",
+       "heading": "!3. Comunità montana Monti Lepini - Ausoni",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RAVV497246",
+       "heading": "!DelaDap    <gruppo musicale>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "PAVV054505",
+       "heading": "'4 motors for Europe' interregional colloquium on ceramics   ; 1993   <4.  ; Salou (Catalogna)>",
+       "kind": "Congresso, esposizione ...",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "NAPV111582",
+       "heading": "'Amici' dell'Ospedale Evangelico Valdese di Torino",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "LO1V481473",
+       "heading": "'Associazione ex allievi Norberto Duzioni    <Bergamo>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311323",
+       "heading": "'Ba yi qiangsheng' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "USMV870865",
+       "heading": "'Di ba jie guoji hanyu jiaoxue taolunhui lunwen xuan' biabji bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV290602",
+       "heading": "'Diguo zhuyi shi ziben zhuyi de zuigao jieduan' qianshuo bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV433367",
+       "heading": "'Fengshuiling jitihu riji xuan' bianji xiao zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311569",
+       "heading": "'Gongren zhexue Jiayue Dicigen' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV290074",
+       "heading": "'Hongqi' zazhi",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV289898",
+       "heading": "'Jiangnan zaochuan chang shi' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV136937",
+       "heading": "'Kua shi ji wen cong' bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311444",
+       "heading": "'Lidai laodong Renmin fan Kong douzheng shiliao jianbian' xuanbian xiaozu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV433358",
+       "heading": "'Longmenzhen' congshu bianji zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV289905",
+       "heading": "'Lundu jinxi' gongren bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV310520",
+       "heading": "'Maodun lun qianshuo' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CAGV603282",
+       "heading": "'Midnight notes'",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "GEAV006211",
+       "heading": "'Naturwissenschaften'    <Redazione>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "TO0V356191",
+       "heading": "'Non-violence actualite'",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "DDSV124604",
+       "heading": "'Peanuts' Taylor , Berkeley",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "PUVV455868",
+       "heading": "'Premio europeo di letteratura giovanile Pier Paolo Vergerio      <Padova>",
+       "kind": "Congresso, esposizione ...",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UBOV335570",
+       "heading": "'Shanghai jiaoqui nongyexue dazai' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "LO1V452917",
+       "heading": "'Shanghai nian jian' bian zuan wei yuan hui bian",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV978389",
+       "heading": "'Shinpen kokka taikan' Henshū Iinkai",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV136778",
+       "heading": "'Si xiang shi' bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV138505",
+       "heading": "'Sui bi' bian ji bu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311446",
+       "heading": "'Taiping Tianguo Jintian qiyi' san jiehe bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV432844",
+       "heading": "'Taiping Yang diqu fazhan qianjing he Zhongguo xiandaihua' xueshu taolunhui zuzhi",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": null,
+     "chosen_heading": null,
+     "chosen_rule": "no match",
+     "namesakes": [],
+     "text_dropped": true
+    }
+   ],
+   "one_id": false,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Dostoevskij",
+    "total": 16,
+    "first_page_persons": [
+     "Ašimbaeva , Natal'ja Tujmebaevna",
+     "Coldefy-Faucard , Anne",
+     "Dostoevskaja , Anna Grigorʹevna",
+     "Dostoevskaja , Ljubov' Fedorovna",
+     "Dostoevskij , A.F",
+     "Dostoevskij , Andrej Andreevič",
+     "Dostoevskij , Andrej Mihajlovic",
+     "Dostoevskij , Fëdor Mihajlovič",
+     "Dostoevskij , Mihail Andreevič",
+     "Fokin , Pavel",
+     "Gražis , Pranas Jonovič",
+     "Nečaeva , Vera Stepanovna",
+     "Peace , Richard",
+     "Rahsin , E. K.",
+     "Seleznev , Jurij Ivanovič"
+    ]
+   }
+  },
+  "P04": {
+   "person": "Elena Ferrante",
+   "variants": [
+    {
+     "variant": "Elena Ferrante",
+     "total": 2,
+     "returned": 2,
+     "authorities": [
+      {
+       "id": "CFIV327660",
+       "heading": "Ferrante , Concetta Elena",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "RAVV076631",
+       "heading": "Ferrante , Elena",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      }
+     ],
+     "chosen": "RAVV076631",
+     "chosen_heading": "Ferrante , Elena",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 408,
+     "namesakes": [],
+     "text_dropped": false
+    }
+   ],
+   "one_id": true,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Ferrante",
+    "total": 591,
+    "first_page_persons": [
+     "Adessoscrivo",
+     "Agnelli Soardi , Ferrante   <ballerino>",
+     "Albergotti , Ferrante  <fl. 1621>",
+     "Ambivere , Ferrante : d'",
+     "Anna Isabella    <duchessa di Mantova>",
+     "Aporti , Ferrante",
+     "Aporti , Ferrante  <1791-1858>",
+     "Aporti , Ferrante  <sec. 19.-20.>",
+     "Averoldi , Ferrante",
+     "Avogadro , Ferrante",
+     "Azzali , Ferrante",
+     "Azzi , Ferrante",
+     "Balboni , Ferrante",
+     "Bartoli , Daniello",
+     "Bedogni , Ferrante",
+     "Bellini , Ferrante",
+     "Bentivogli , Ferrante",
+     "Bentivogli , Ferrante   <conte di Antignago>",
+     "Bentivoglio , Ferrante  <m.1695>"
+    ]
+   }
+  },
+  "P05": {
+   "person": "Jacques Attali",
+   "variants": [
+    {
+     "variant": "Jacques Attali",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "CFIV023341",
+       "heading": "Attali , Jacques",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      }
+     ],
+     "chosen": "CFIV023341",
+     "chosen_heading": "Attali , Jacques",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 185,
+     "namesakes": [],
+     "text_dropped": false
+    }
+   ],
+   "one_id": true,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Attali",
+    "total": 16,
+    "first_page_persons": [
+     "Araujo-Attali , Luisa",
+     "Attali , Arlette",
+     "Attali , Bernard",
+     "Attali , Erieta",
+     "Attali , Fernand",
+     "Attali , Isabelle",
+     "Attali , Jacques",
+     "Attali , Jean",
+     "Attali , Jean-Pierre",
+     "Attali , Laurence",
+     "Attali , Marc",
+     "Attali , Maureen",
+     "Attali , Michaël",
+     "Attali , Patrick",
+     "Attali , Stéphane",
+     "Lipszyc-Attali , Arlette"
+    ]
+   }
+  },
+  "P06": {
+   "person": "Umberto Eco",
+   "variants": [
+    {
+     "variant": "Umberto Eco",
+     "total": 13,
+     "returned": 13,
+     "authorities": [
+      {
+       "id": "CFIV218727",
+       "heading": "Barbieri , Daniele",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CFIV077502",
+       "heading": "Carmi , Eugenio",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BRIV159214",
+       "heading": "Crapis , Claudio",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CFIV017024",
+       "heading": "Eco , Renate",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RT1V062207",
+       "heading": "Eco , Stefano",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CFIV006213",
+       "heading": "Eco , Umberto",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      },
+      {
+       "id": "UBOV162090",
+       "heading": "Fondazione Umberto Eco",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "RMBV286480",
+       "heading": "Nocerino , Alberto",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV313093",
+       "heading": "Scorza , Elena",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RAVV078680",
+       "heading": "Speciale , Emilio",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CFIV061343",
+       "heading": "Tuzzi , Hans",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "MODV668189",
+       "heading": "Violi , Maria Patrizia",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CFIV050755",
+       "heading": "Violi , Patrizia  <1949-    >",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": "CFIV006213",
+     "chosen_heading": "Eco , Umberto",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 2573,
+     "namesakes": [],
+     "text_dropped": false
+    }
+   ],
+   "one_id": true,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Eco",
+    "total": 194,
+    "first_page_persons": [
+     "Alfonzo , Antonio",
+     "Arbore , Giuseppe  <1945- >",
+     "Attinà , Rocco",
+     "Barbacci , Dante",
+     "Barbieri , Daniele",
+     "Barker , Christofer Paul",
+     "Basile , Angelo   <ingegnere chimico>",
+     "Bassoli , Carlo  ; fl. 1924-1926>  <agente e noleggiatore di pellicole cinematografiche",
+     "Benigni , Andrea   <giornalista>",
+     "Bertolla , Claudio",
+     "Boehnert , Joanna",
+     "Brotti , Giulio",
+     "Caffulli , Giuseppe",
+     "Cairati , Luisa",
+     "Canarutto , Paola   <medico>"
+    ]
+   }
+  },
+  "P07": {
+   "person": "Kodwo Eshun",
+   "variants": [
+    {
+     "variant": "Kodwo Eshun",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "UM1V031295",
+       "heading": "Eshun , Kodwo",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      }
+     ],
+     "chosen": "UM1V031295",
+     "chosen_heading": "Eshun , Kodwo",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 4,
+     "namesakes": [],
+     "text_dropped": false
+    }
+   ],
+   "one_id": true,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Eshun",
+    "total": 4,
+    "first_page_persons": [
+     "Eshun , Ekow",
+     "Eshun , I. T.",
+     "Eshun , Kodwo",
+     "Hamaguchi , Eshun"
+    ]
+   }
+  },
+  "P08": {
+   "person": "Byung-Chul Han",
+   "variants": [
+    {
+     "variant": "Byung-Chul Han",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "RAVV673297",
+       "heading": "Han , Byung-Chul",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      }
+     ],
+     "chosen": "RAVV673297",
+     "chosen_heading": "Han , Byung-Chul",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 61,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "Han Byung-Chul",
+     "total": 1,
+     "returned": 1,
+     "authorities": [
+      {
+       "id": "RAVV673297",
+       "heading": "Han , Byung-Chul",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      }
+     ],
+     "chosen": "RAVV673297",
+     "chosen_heading": "Han , Byung-Chul",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 61,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "한병철",
+     "total": 4391659,
+     "returned": 60,
+     "authorities": [
+      {
+       "id": "UTOV590564",
+       "heading": "",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RL1V005528",
+       "heading": "!3. Comunità montana Monti Lepini - Ausoni",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RAVV497246",
+       "heading": "!DelaDap    <gruppo musicale>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "PAVV054505",
+       "heading": "'4 motors for Europe' interregional colloquium on ceramics   ; 1993   <4.  ; Salou (Catalogna)>",
+       "kind": "Congresso, esposizione ...",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "NAPV111582",
+       "heading": "'Amici' dell'Ospedale Evangelico Valdese di Torino",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "LO1V481473",
+       "heading": "'Associazione ex allievi Norberto Duzioni    <Bergamo>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311323",
+       "heading": "'Ba yi qiangsheng' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "USMV870865",
+       "heading": "'Di ba jie guoji hanyu jiaoxue taolunhui lunwen xuan' biabji bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV290602",
+       "heading": "'Diguo zhuyi shi ziben zhuyi de zuigao jieduan' qianshuo bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV433367",
+       "heading": "'Fengshuiling jitihu riji xuan' bianji xiao zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311569",
+       "heading": "'Gongren zhexue Jiayue Dicigen' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV290074",
+       "heading": "'Hongqi' zazhi",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV289898",
+       "heading": "'Jiangnan zaochuan chang shi' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV136937",
+       "heading": "'Kua shi ji wen cong' bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311444",
+       "heading": "'Lidai laodong Renmin fan Kong douzheng shiliao jianbian' xuanbian xiaozu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV433358",
+       "heading": "'Longmenzhen' congshu bianji zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV289905",
+       "heading": "'Lundu jinxi' gongren bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV310520",
+       "heading": "'Maodun lun qianshuo' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "CAGV603282",
+       "heading": "'Midnight notes'",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "GEAV006211",
+       "heading": "'Naturwissenschaften'    <Redazione>",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "TO0V356191",
+       "heading": "'Non-violence actualite'",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "DDSV124604",
+       "heading": "'Peanuts' Taylor , Berkeley",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "PUVV455868",
+       "heading": "'Premio europeo di letteratura giovanile Pier Paolo Vergerio      <Padova>",
+       "kind": "Congresso, esposizione ...",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UBOV335570",
+       "heading": "'Shanghai jiaoqui nongyexue dazai' bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "LO1V452917",
+       "heading": "'Shanghai nian jian' bian zuan wei yuan hui bian",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV978389",
+       "heading": "'Shinpen kokka taikan' Henshū Iinkai",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV136778",
+       "heading": "'Si xiang shi' bian wei hui",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RMSV138505",
+       "heading": "'Sui bi' bian ji bu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "BVEV311446",
+       "heading": "'Taiping Tianguo Jintian qiyi' san jiehe bianxie zu",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "UMCV432844",
+       "heading": "'Taiping Yang diqu fazhan qianjing he Zhongguo xiandaihua' xueshu taolunhui zuzhi",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": null,
+     "chosen_heading": null,
+     "chosen_rule": "no match",
+     "namesakes": [],
+     "text_dropped": true
+    }
+   ],
+   "one_id": false,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Han",
+    "total": 945,
+    "first_page_persons": [
+     "'Abd al-Mu'id Han , Muhammad",
+     "Abu Talib Han",
+     "Abu Talib Han ibn Muhammad Istahani",
+     "Abulghazi Behadir Han , Khan av Khorezm",
+     "Admiraal , Han",
+     "Adriaanse , Hendrik Johan",
+     "Adriaenssen , Han Thomas",
+     "Ahn , Yong Han",
+     "Asard , Han",
+     "Azimov , El'han Gejdarovič",
+     "Baltussen , Han",
+     "Bantje , Han",
+     "Bayānī , Ḫān Bābā",
+     "Bedir Han , Celadet",
+     "Bedir Han , Kamuran"
+    ]
+   }
+  },
+  "P09": {
+   "person": "Gabriel García Márquez",
+   "variants": [
+    {
+     "variant": "Gabriel García Márquez",
+     "total": 2,
+     "returned": 2,
+     "authorities": [
+      {
+       "id": "CFIV002730",
+       "heading": "García Márquez , Gabriel",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      },
+      {
+       "id": "RAVV702005",
+       "heading": "Zuluaga , Conrado",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": "CFIV002730",
+     "chosen_heading": "García Márquez , Gabriel",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 1366,
+     "namesakes": [],
+     "text_dropped": false
+    },
+    {
+     "variant": "Garcia Marquez",
+     "total": 11,
+     "returned": 11,
+     "authorities": [
+      {
+       "id": "IEIV093212",
+       "heading": "Comite impulsor del juicio de responsabilidades contra Luis Garcia Marquez y sus colaboradores",
+       "kind": "Ente",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "TO0V660313",
+       "heading": "Garcia Marquez , Vicente",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "MILV184548",
+       "heading": "Garcia-Escudero Marquez , Piedad",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "NAPV219464",
+       "heading": "García de Castro Márquez , Carmelo",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "NAPV219465",
+       "heading": "García de Castro Márquez , Emilio",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "TO0V578023",
+       "heading": "García Márquez , Eligio",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "UFEV425921",
+       "heading": "García Márquez , Fausto Pedro",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "CFIV002730",
+       "heading": "García Márquez , Gabriel",
+       "kind": "Persona",
+       "exact_name": true,
+       "same_name": true
+      },
+      {
+       "id": "IEIV149195",
+       "heading": "Marquez Garcia , Alex",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": true
+      },
+      {
+       "id": "TSAV615141",
+       "heading": "Pacheco , Fernando Assis",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      },
+      {
+       "id": "RAVV702005",
+       "heading": "Zuluaga , Conrado",
+       "kind": "Persona",
+       "exact_name": false,
+       "same_name": false
+      }
+     ],
+     "chosen": "CFIV002730",
+     "chosen_heading": "García Márquez , Gabriel",
+     "chosen_rule": "heading tokens equal the name's",
+     "records_by_authority": 1366,
+     "namesakes": [],
+     "text_dropped": false
+    }
+   ],
+   "one_id": true,
+   "one_id_latin_forms": true,
+   "surname_probe": {
+    "text": "Garcia Marquez",
+    "total": 11,
+    "first_page_persons": [
+     "Garcia Marquez , Vicente",
+     "Garcia-Escudero Marquez , Piedad",
+     "García de Castro Márquez , Carmelo",
+     "García de Castro Márquez , Emilio",
+     "García Márquez , Eligio",
+     "García Márquez , Fausto Pedro",
+     "García Márquez , Gabriel",
+     "Marquez Garcia , Alex",
+     "Pacheco , Fernando Assis",
+     "Zuluaga , Conrado"
+    ]
+   }
+  }
+ },
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 6.91,
+   "p50_s": 0.705,
+   "max_s": 0.95
+  }
+ },
+ "failures": []
+}

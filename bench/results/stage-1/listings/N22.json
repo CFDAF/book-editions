@@ -1,0 +1,528 @@
+{
+ "id": "N22",
+ "sbn": [
+  {
+   "W": "capital au xxie siecle",
+   "author": "Thomas Piketty",
+   "total": 2,
+   "lingua_facet": [
+    [
+     "eng",
+     1
+    ],
+    [
+     "ita",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 2,
+   "rows": 2,
+   "multilingual_rows": 0,
+   "languages": 2,
+   "bogus_lingua_total": 0,
+   "year_parsed": 2,
+   "year_parse_failures": [],
+   "publisher_present": 2,
+   "language_present": 2,
+   "records_on_no_language_page": [],
+   "requests": 5,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 3.0,
+   "items": [
+    {
+     "bid": "TSA1875962",
+     "title": "Capital in the twenty-first century / Thomas Piketty ; translated by Arthur Goldhammer",
+     "author": "Piketty, Thomas",
+     "imprint": "Cambridge [Massachusetts] ; London : The Belknap press of Harvard University press, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2017",
+     "publisher": "The Belknap press of Harvard University press",
+     "place": "Cambridge Massachusetts ; London"
+    },
+    {
+     "bid": "UBO4971378",
+     "title": "Il capitale nel XXI secolo / Piketty Thomas ; traduzione di Sergio Arecco",
+     "author": "Piketty, Thomas",
+     "imprint": "Milano : Bompiani, 2026",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2026",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    }
+   ],
+   "entries": [
+    "fre"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL16814568W",
+  "size": 20,
+  "rows": 20,
+  "languages": 4,
+  "language_codes": [
+   "eng",
+   "fre",
+   "ger",
+   "spa"
+  ],
+  "year_parsed": 20,
+  "year_parse_failures": [],
+  "publisher_present": 20,
+  "language_present": 12,
+  "requests": 4,
+  "failed": [],
+  "wall_s": 2.6,
+  "items": [
+   {
+    "key": "/books/OL62542400M",
+    "title": "Le capital au XXIe siècle",
+    "publish_date": "2019",
+    "year": "2019",
+    "publishers": [
+     "Seuil"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782757876503"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL46525520M",
+    "title": "Das Kapital im 21. Jahrhundert",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "C. H. Beck"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783406671319"
+    ],
+    "translation_of": "Le capital au XXIe siècle",
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL25442759M",
+    "title": "Capital In the 21st Century",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Belknap Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780674369542"
+    ],
+    "translation_of": "Le Capital au XXIe siècle",
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL25628894M",
+    "title": "Capital in the21 century",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "The Belknap Press of Harvard University Press CAMBRIDGE,"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL25649859M",
+    "title": "El capital en el siglo XXI",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Fondo de Cultura Económica",
+     "Fondo de Cultura Económica de España"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788437507231"
+    ],
+    "translation_of": "Le Capital au XXIe siècle",
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL27180385M",
+    "title": "Le capital au XXIe siècle",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Éditions du Seuil"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2021082288"
+    ],
+    "isbn_13": [
+     "9782021082289"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL31960338M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "Feb 17, 2015",
+    "year": "2015",
+    "publishers": [
+     "Brilliance Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1491591617"
+    ],
+    "isbn_13": [
+     "9781491591611"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL30691924M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "Jun 17, 2014",
+    "year": "2014",
+    "publishers": [
+     "Brilliance Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1491534648"
+    ],
+    "isbn_13": [
+     "9781491534649"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL29771918M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Harvard University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780674982918"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL29506757M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Harvard University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780674980259"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL29349357M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Harvard University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780674979857"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL32033782M",
+    "title": "Capital en el siglo XXI, El",
+    "publish_date": "Mar 12, 2015",
+    "year": "2015",
+    "publishers": [
+     "FONDO DE CULTURA ECONOMICA"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6071627559"
+    ],
+    "isbn_13": [
+     "9786071627551"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL32033781M",
+    "title": "Capital en el siglo XXI, El",
+    "publish_date": "Mar 12, 2015",
+    "year": "2015",
+    "publishers": [
+     "FONDO DE CULTURA ECONOMICA"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6071627559"
+    ],
+    "isbn_13": [
+     "9786071627551"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL35629222M",
+    "title": "El capital en el Siglo XXI",
+    "publish_date": "Nov 03, 2015",
+    "year": "2015",
+    "publishers": [
+     "PAIDOS"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9501297055"
+    ],
+    "isbn_13": [
+     "9789501297058"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL35801187M",
+    "title": "Kapital Im 21. Jahrhundert",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "C. H. Beck'sch Verlagsbuchhandlung"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781322400556"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL38566637M",
+    "title": "Das Kapital im 21. Jahrhundert",
+    "publish_date": "Feb 10, 2016",
+    "year": "2016",
+    "publishers": [
+     "Beck C. H."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3406688659"
+    ],
+    "isbn_13": [
+     "9783406688652"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL39223500M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "Aug 13, 2014",
+    "year": "2014",
+    "publishers": [
+     "Belknap Press: An Imprint of Harvard University Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8937834693"
+    ],
+    "isbn_13": [
+     "9788937834691"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL32602533M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Belknap Press of Harvard University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780674430006"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL25440550M",
+    "title": "Capital in the twenty-first century",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "The Belknap Press of Harvard University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780674430006"
+    ],
+    "translation_of": "Le Capital au XXIe siècle",
+    "works": [
+     "/works/OL16814568W"
+    ]
+   },
+   {
+    "key": "/books/OL25619817M",
+    "title": "Capital in the Twenty-First Century",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Éditions du Seuil, Harvard University Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780674430006"
+    ],
+    "translation_of": "Le Capital au XXIe siècle",
+    "works": [
+     "/works/OL16814568W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.0,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 3.91,
+   "p50_s": 0.88,
+   "max_s": 1.35
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 2.59,
+   "p50_s": 2.592,
+   "max_s": 2.592
+  }
+ },
+ "failures": []
+}

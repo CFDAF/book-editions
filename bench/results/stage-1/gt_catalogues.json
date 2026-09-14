@@ -1,0 +1,2489 @@
+{
+ "controls": {
+  "loc_bogus_title": 0,
+  "bnf_bogus_title": 0,
+  "dnb_bogus_title": 0,
+  "sbn_bogus_title": 0
+ },
+ "books": {
+  "E01": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Cien anos de soledad\" and bath.author=Marquez",
+     "total": 24,
+     "fetched": 24,
+     "title_matches": 12,
+     "earliest": [
+      {
+       "title": "Cien años de soledad /",
+       "year": "1982",
+       "publisher": "Madrid : Espasa-Calpe,",
+       "language": "spa"
+      },
+      {
+       "title": "Cien años de soledad /",
+       "year": "1984",
+       "publisher": "Madrid : Cátedra,",
+       "language": "spa"
+      },
+      {
+       "title": "Cien años de soledad /",
+       "year": "1991",
+       "publisher": "Madrid : Mondadori,",
+       "language": "spa"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Cent'anni di solitudine",
+      "author": "Garcia Marquez",
+      "lingua": null
+     },
+     "total": 138,
+     "title_matches": 133,
+     "earliest": [
+      {
+       "bid": "ITICCUSBL0108566",
+       "title": "Cent'anni di solitudine : romanzo",
+       "imprint": "Milano : Feltrinelli, 1968",
+       "year": "1968"
+      },
+      {
+       "bid": "ITICCURML0471708",
+       "title": "Cent'anni di solitudine : romanzo",
+       "imprint": "Milano : Feltrinelli, 1969",
+       "year": "1969"
+      },
+      {
+       "bid": "ITICCUMIL0472973",
+       "title": "Cent'anni di solitudine : romanzo",
+       "imprint": "Milano : Feltrinelli, 1970",
+       "year": "1970"
+      }
+     ]
+    },
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"One Hundred Years of Solitude\" and bath.author=Marquez",
+     "total": 7,
+     "fetched": 7,
+     "title_matches": 7,
+     "earliest": [
+      {
+       "title": "One hundred years of solitude.",
+       "year": "1970",
+       "publisher": "New York, Harper & Row",
+       "language": "eng"
+      },
+      {
+       "title": "One hundred years of solitude /",
+       "year": "1981",
+       "publisher": "Franklin Center, Pa. : Franklin Library,",
+       "language": "eng"
+      },
+      {
+       "title": "One hundred years of solitude /",
+       "year": "1982",
+       "publisher": "[New York : Limited Editions Club,",
+       "language": "eng"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E02": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Steps to an Ecology of Mind\" and bath.author=Bateson",
+     "total": 4,
+     "fetched": 4,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "title": "Steps to an ecology of mind /",
+       "year": "2000",
+       "publisher": "Chicago : University of Chicago Press,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Verso un'ecologia della mente",
+      "author": "Bateson",
+      "lingua": null
+     },
+     "total": 28,
+     "title_matches": 26,
+     "earliest": [
+      {
+       "bid": "ITICCURAV0043511",
+       "title": "Verso un'ecologia della mente",
+       "imprint": "Milano : Adelphi, \\1976!",
+       "year": "1976"
+      },
+      {
+       "bid": "ITICCUCSA0000645",
+       "title": "Verso un'ecologia della mente",
+       "imprint": "Milano : Adelphi, 1980",
+       "year": "1980"
+      },
+      {
+       "bid": "ITICCUPUV0801350",
+       "title": "Verso un'ecologia della mente",
+       "imprint": "Milano : Adelphi, 1983",
+       "year": "1983"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E03": {
+   "original": [
+    {
+     "catalogue": "bnf",
+     "query": "bib.title all \"Bruits\" and bib.author all \"Attali\"",
+     "total": 4,
+     "fetched": 4,
+     "title_matches": 4,
+     "earliest": [
+      {
+       "title": "Bruits : essai sur l'économie politique de la musique / Jacques Attali",
+       "year": "1977",
+       "publisher": "Presses universitaires de France (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "Bruits : essai sur l'économie politique de la musique / Jacques Attali",
+       "year": "1986",
+       "publisher": "Librairie générale française (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "Bruits : essai sur l'économie politique de la musique (Nouv. éd. rev. et augm.) Jacques Attali",
+       "year": "2001",
+       "publisher": "Fayard (Paris)",
+       "language": "fre"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Rumori",
+      "author": "Jacques Attali",
+      "lingua": null
+     },
+     "total": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "bid": "ITICCURAV0064979",
+       "title": "Rumori : saggio sull'economia politica della musica",
+       "imprint": "Milano : Mazzotta, c1978,, stampa 1977",
+       "year": "1978"
+      }
+     ]
+    },
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Noise\" and bath.author=Attali",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 1,
+     "earliest": []
+    }
+   },
+   "extra": []
+  },
+  "E04": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Umibe no Kafuka\" and bath.author=Haruki",
+     "total": 2,
+     "fetched": 2,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Kafka sulla spiaggia",
+      "author": "Murakami Haruki",
+      "lingua": null
+     },
+     "total": 13,
+     "title_matches": 13,
+     "earliest": [
+      {
+       "bid": "ITICCUMOD1450780",
+       "title": "Kafka sulla spiaggia",
+       "imprint": "Torino : Einaudi, ©2008",
+       "year": "2008"
+      },
+      {
+       "bid": "ITICCUPAV0036096",
+       "title": "Kafka sulla spiaggia",
+       "imprint": "Torino : Einaudi, 2008",
+       "year": "2008"
+      },
+      {
+       "bid": "ITICCUVIA0177261",
+       "title": "Kafka sulla spiaggia",
+       "imprint": "Milano : Mondolibri, stampa 2009",
+       "year": "2009"
+      }
+     ]
+    },
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Kafka on the Shore\" and bath.author=Haruki",
+     "total": 2,
+     "fetched": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "title": "Kafka on the shore /",
+       "year": "2005",
+       "publisher": "New York : Alfred A. Knopf : Distributed by Random House,",
+       "language": "eng"
+      },
+      {
+       "title": "Kafka on the shore /",
+       "year": "2006",
+       "publisher": "New York, N.Y. : Vintage International,",
+       "language": "eng"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E05": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Invention of News\" and bath.author=Pettegree",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 1,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "L'invenzione delle notizie",
+      "author": "Pettegree",
+      "lingua": null
+     },
+     "total": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "bid": "ITICCURMS2685379",
+       "title": "L'invenzione delle notizie : come il mondo arrivò a conoscersi",
+       "imprint": "Torino : Einaudi, 2015",
+       "year": "2015"
+      },
+      {
+       "bid": "ITICCUUTO1620070",
+       "title": "L'invenzione delle notizie : come il mondo arrivò a conoscersi",
+       "imprint": "Torino : Einaudi, 2026",
+       "year": "2026"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E06": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"More Brilliant Than the Sun\" and bath.author=Eshun",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "title": "More brilliant than the sun : adventures in sonic fiction /",
+       "year": "1998",
+       "publisher": "London : Quartet Books,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Più brillante del sole",
+      "author": "Eshun",
+      "lingua": null
+     },
+     "total": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "bid": "ITICCULZ10006458",
+       "title": "Più brillante del sole : [avventure nella fantasonica]",
+       "imprint": "Roma : Nero, 2021",
+       "year": "2021"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E07": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Liquid Modernity\" and bath.author=Bauman",
+     "total": 5,
+     "fetched": 5,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "title": "Liquid modernity /",
+       "year": "2000",
+       "publisher": "Cambridge, UK : Polity Press ; Malden, MA : Blackwell,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Modernità liquida",
+      "author": "Bauman",
+      "lingua": null
+     },
+     "total": 27,
+     "title_matches": 16,
+     "earliest": [
+      {
+       "bid": "ITICCUUBO1658760",
+       "title": "Modernità liquida",
+       "imprint": "Roma [etc.] : GLF editori Laterza, 2002",
+       "year": "2002"
+      },
+      {
+       "bid": "ITICCUURB0546025",
+       "title": "Modernita liquida",
+       "imprint": "Bari : GLF Editori Laterza, 2003",
+       "year": "2003"
+      },
+      {
+       "bid": "ITICCUTO01339978",
+       "title": "Modernita liquida",
+       "imprint": "Roma ; Bari : GLF editori Laterza, 2004",
+       "year": "2004"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E08": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Communication\" and bath.author=Ruesch",
+     "total": 9,
+     "fetched": 9,
+     "title_matches": 3,
+     "earliest": [
+      {
+       "title": "Communication, the social matrix of psychiatry",
+       "year": "1951",
+       "publisher": "New York, Norton",
+       "language": "eng"
+      },
+      {
+       "title": "Communication : the social matrix of psychiatry /",
+       "year": "2008",
+       "publisher": "New Brunswick, U.S.A. : Transaction Publishers,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "La matrice sociale della psichiatria",
+      "author": "Ruesch",
+      "lingua": null
+     },
+     "total": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "bid": "ITICCUSBL0053002",
+       "title": "La matrice sociale della psichiatria",
+       "imprint": "Bologna : Il mulino, [1976]",
+       "year": "1976"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E09": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il nome della rosa",
+      "author": "Eco",
+      "lingua": "ita"
+     },
+     "total": 226,
+     "title_matches": 215,
+     "earliest": [
+      {
+       "bid": "ITICCUBRI0253002",
+       "title": "Il nome della rosa",
+       "imprint": "Milano : Club del libro, c1980, stampa 1982",
+       "year": "1980"
+      },
+      {
+       "bid": "ITICCUUSM1336524",
+       "title": "Il nome della rosa",
+       "imprint": "Milano : Bompiani, 1980",
+       "year": "1980"
+      },
+      {
+       "bid": "ITICCURAV0047653",
+       "title": "Il nome della rosa",
+       "imprint": "Milano : Bompiani, 1980",
+       "year": "1980"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Name of the Rose\" and bath.author=Eco",
+     "total": 6,
+     "fetched": 6,
+     "title_matches": 6,
+     "earliest": [
+      {
+       "title": "The name of the rose /",
+       "year": "1994",
+       "publisher": "San Diego : Harcourt Brace,",
+       "language": "eng"
+      },
+      {
+       "title": "The name of the rose /",
+       "year": "2006",
+       "publisher": "New York : Everyman's Library,",
+       "language": "eng"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E10": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Opere",
+      "author": "Leopardi",
+      "lingua": "ita"
+     },
+     "total": 383,
+     "title_matches": 58,
+     "earliest": [
+      {
+       "bid": "ITICCURLZ0303064",
+       "title": "Opere",
+       "imprint": "Firenze : Felice Le Monnier, 1845",
+       "year": "1845"
+      },
+      {
+       "bid": "ITICCUTO02176971",
+       "title": "Opere",
+       "imprint": "Firenze : Felice Le Monnier, 1845",
+       "year": "1845"
+      },
+      {
+       "bid": "ITICCUTO02176974",
+       "title": "{Opere}1",
+       "imprint": "Firenze : Felice Le Monnier, 1845",
+       "year": "1845"
+      }
+     ]
+    }
+   ],
+   "entries": {},
+   "extra": []
+  },
+  "E11": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Poesie",
+      "author": "Montale",
+      "lingua": "ita"
+     },
+     "total": 223,
+     "title_matches": 44,
+     "earliest": [
+      {
+       "bid": "ITICCURML0149381",
+       "title": "Poesie",
+       "imprint": "Firenze : Parenti, 1938",
+       "year": "1938"
+      },
+      {
+       "bid": "ITICCUUBO0093054",
+       "title": "Poesie",
+       "imprint": "Milano : A. Mondadori, 1940",
+       "year": "1940"
+      },
+      {
+       "bid": "ITICCURAV0091247",
+       "title": "Le poesie",
+       "imprint": "Milano : Garzanti, 1960",
+       "year": "1960"
+      }
+     ]
+    }
+   ],
+   "entries": {},
+   "extra": []
+  },
+  "E12": {
+   "original": [
+    {
+     "catalogue": "dnb",
+     "query": "tit=\"Uber den Begriff der Geschichte\" and per=Benjamin",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Tesi di filosofia della storia",
+      "author": "Walter Benjamin",
+      "lingua": null
+     },
+     "total": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "bid": "ITICCUMOD1601343",
+       "title": "Tesi di filosofia della storia",
+       "imprint": "Milano ; Udine : Mimesis, 2012",
+       "year": "2012"
+      },
+      {
+       "bid": "ITICCUCAG2120893",
+       "title": "Tesi di filosofia della storia",
+       "imprint": "Spoleto : Edizioni Monte Bove, 2021",
+       "year": "2021"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E13": {
+   "original": [
+    {
+     "catalogue": "dnb",
+     "query": "tit=\"Angelus Novus\" and per=Benjamin",
+     "total": 15,
+     "fetched": 15,
+     "title_matches": 14,
+     "earliest": [
+      {
+       "title": "Angelus Novus : Saggi e frammenti / Walter Benjamin. Trad. e introd. di Renato Solmi",
+       "year": "1962",
+       "publisher": "Torino : Einaudi",
+       "language": null
+      },
+      {
+       "title": "2. Angelus Novus / Walter Benjamin",
+       "year": "1966",
+       "publisher": null,
+       "language": "ger"
+      },
+      {
+       "title": "Angelus novus / Walter Benjamin. [Trad. de H. A. Murena. Prólogo de Ignacio de Solá-Morales Rubio]",
+       "year": "1971",
+       "publisher": "Barcelona : EDHASA",
+       "language": null
+      }
+     ]
+    }
+   ],
+   "entries": {},
+   "extra": []
+  },
+  "E14": {
+   "original": [
+    {
+     "catalogue": "bnf",
+     "query": "bib.title all \"Pour une economie positive\" and bib.author all \"Attali\"",
+     "total": 2,
+     "fetched": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "title": "Pour une économie positive / groupe de réflexion présidé par Jacques Attali",
+       "year": "2013",
+       "publisher": "la Documentation française (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "Manifeste pour une société positive : l'économie positive en actions / Positive economy forum ; [coordination et] préface de Jacques Attali",
+       "year": "2014",
+       "publisher": "Éd. Mille et une nuits (Paris)",
+       "language": "fre"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Per una economia positiva",
+      "author": "Jacques Attali",
+      "lingua": null
+     },
+     "total": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "bid": "ITICCUMIL0871878",
+       "title": "Per una economia positiva",
+       "imprint": "Milano : EGEA, 2014",
+       "year": "2014"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "E15": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Essential Knuth\" and bath.author=Knuth",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {},
+   "extra": []
+  },
+  "E16": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Doktor Zhivago\" and bath.author=Pasternak",
+     "total": 23,
+     "fetched": 23,
+     "title_matches": 6,
+     "earliest": [
+      {
+       "title": "Doktor Zhivago /",
+       "year": "2000",
+       "publisher": "Moskva : ĖKSMO-Press,",
+       "language": "rus"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il dottor Živago",
+      "author": "Pasternak",
+      "lingua": null
+     },
+     "total": 159,
+     "title_matches": 152,
+     "earliest": [
+      {
+       "bid": "ITICCURAV0064624",
+       "title": "Il dottor Zivago : romanzo",
+       "imprint": "Milano : Feltrinelli, 1957",
+       "year": "1957"
+      },
+      {
+       "bid": "ITICCUUM10038453",
+       "title": "Il dottor Živago : romanzo",
+       "imprint": "Milano : Feltrinelli, 1957",
+       "year": "1957"
+      },
+      {
+       "bid": "ITICCURLZ0139584",
+       "title": "Il dottor Zivago",
+       "imprint": "Milano : Feltrinelli, 1957!",
+       "year": "1957"
+      }
+     ]
+    },
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Doctor Zhivago\" and bath.author=Pasternak",
+     "total": 18,
+     "fetched": 18,
+     "title_matches": 16,
+     "earliest": [
+      {
+       "title": "Doctor Zhivago.",
+       "year": "1958",
+       "publisher": "New York] Pantheon",
+       "language": "eng"
+      },
+      {
+       "title": "Doctor Zhivago.",
+       "year": "1960",
+       "publisher": "New York] Pantheon Books",
+       "language": "eng"
+      },
+      {
+       "title": "Doctor Zhivago: the screenplay",
+       "year": "1966",
+       "publisher": "London, Harvill P.",
+       "language": "eng"
+      }
+     ]
+    }
+   },
+   "extra": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il dottor Živago",
+      "author": "Pasternak",
+      "lingua": "ita"
+     },
+     "total": 156,
+     "title_matches": 151,
+     "earliest": [
+      {
+       "bid": "ITICCURAV0064624",
+       "title": "Il dottor Zivago : romanzo",
+       "imprint": "Milano : Feltrinelli, 1957",
+       "year": "1957"
+      },
+      {
+       "bid": "ITICCUUM10038453",
+       "title": "Il dottor Živago : romanzo",
+       "imprint": "Milano : Feltrinelli, 1957",
+       "year": "1957"
+      },
+      {
+       "bid": "ITICCURLZ0139584",
+       "title": "Il dottor Zivago",
+       "imprint": "Milano : Feltrinelli, 1957!",
+       "year": "1957"
+      }
+     ]
+    }
+   ]
+  },
+  "N01": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Nesnesitelna lehkost byti\" and bath.author=Kundera",
+     "total": 7,
+     "fetched": 7,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "title": "Nesnesitelná lehkost bytí /",
+       "year": "1985",
+       "publisher": "Toronto, On., Canada : Sixty-Eight Publishers,",
+       "language": "cze"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Unbearable Lightness of Being\" and bath.author=Kundera",
+     "total": 4,
+     "fetched": 4,
+     "title_matches": 4,
+     "earliest": [
+      {
+       "title": "The unbearable lightness of being /",
+       "year": "1984",
+       "publisher": "London ; Boston : Faber and Faber,",
+       "language": "eng"
+      },
+      {
+       "title": "The unbearable lightness of being /",
+       "year": "2004",
+       "publisher": "New York : HarperCollins,",
+       "language": "eng"
+      },
+      {
+       "title": "The unbearable lightness of being /",
+       "year": "2009",
+       "publisher": "New York : Harperperennial,",
+       "language": "eng"
+      }
+     ]
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "L'insostenibile leggerezza dell'essere",
+      "author": "Milan Kundera",
+      "lingua": null
+     },
+     "total": 79,
+     "title_matches": 79,
+     "earliest": [
+      {
+       "bid": "ITICCUBAS0267450",
+       "title": "L'insostenibile leggerezza dell'essere",
+       "imprint": "Milano : Adelphi, 1985",
+       "year": "1985"
+      },
+      {
+       "bid": "ITICCUBAS0130823",
+       "title": "L'insostenibile leggerezza dell'essere",
+       "imprint": "Milano : Adelphi, 1985",
+       "year": "1985"
+      },
+      {
+       "bid": "ITICCUNAP0717377",
+       "title": "L'insostenibile leggerezza dell'essere",
+       "imprint": "Milano : Adelphi, 1985",
+       "year": "1985"
+      }
+     ]
+    }
+   },
+   "extra": [
+    {
+     "catalogue": "bnf",
+     "query": "bib.title all \"L'insoutenable legerete de l'etre\" and bib.author all \"Kundera\"",
+     "total": 19,
+     "fetched": 19,
+     "title_matches": 8,
+     "earliest": [
+      {
+       "title": "L'Insoutenable légèreté de l'être / Milan Kundera",
+       "year": "1984",
+       "publisher": "France loisirs (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "L'Insoutenable légèreté de l'être : roman / Milan Kundera ; traduit du tchèque par François Kérel",
+       "year": "1984",
+       "publisher": "Gallimard (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "L'Insoutenable légèreté de l'être : roman / Milan Kundera ; traduit du tchèque par Françoise Kérel",
+       "year": "1984",
+       "publisher": "[le Grand livre du mois] (Paris)",
+       "language": "fre"
+      }
+     ]
+    }
+   ]
+  },
+  "N02": {
+   "original": [
+    {
+     "catalogue": "bnf",
+     "query": "bib.title all \"Le Petit Prince\" and bib.author all \"Saint-Exupery\"",
+     "total": 330,
+     "fetched": 300,
+     "title_matches": 146,
+     "earliest": [
+      {
+       "title": "Le petit prince : Avec dessins de l'auteur (Third printing) Antoine de Saint-Exupéry",
+       "year": "1943",
+       "publisher": "Reynal & Hitchcock (New York)",
+       "language": "fre"
+      },
+      {
+       "title": "Le petit prince : Avec dessins de l'auteur (Edition originale)",
+       "year": "1943",
+       "publisher": "Reynal and Hitchcock (New York)",
+       "language": "fre"
+      },
+      {
+       "title": "Le petit prince",
+       "year": "1943",
+       "publisher": "Reynal and Hitchcock (New York)",
+       "language": "fre"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Little Prince\" and bath.author=Saint-Exupery",
+     "total": 39,
+     "fetched": 39,
+     "title_matches": 23,
+     "earliest": [
+      {
+       "title": "The little prince,",
+       "year": "1943",
+       "publisher": "New York, Reynal & Hitchcock",
+       "language": "eng"
+      },
+      {
+       "title": "The little prince /",
+       "year": "1982",
+       "publisher": "San Diego : Harcourt Brace Jovanovich,",
+       "language": "eng"
+      },
+      {
+       "title": "The little prince /",
+       "year": "2000",
+       "publisher": "San Diego : Harcourt,",
+       "language": "eng"
+      }
+     ]
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il piccolo principe",
+      "author": "Antoine de Saint-Exupéry",
+      "lingua": null
+     },
+     "total": 561,
+     "title_matches": 284,
+     "earliest": [
+      {
+       "bid": "ITICCURMS0089706",
+       "title": "Il piccolo principe",
+       "imprint": "Milano : CDE, c1949, stampa 1990",
+       "year": "1949"
+      },
+      {
+       "bid": "ITICCUUM10256221",
+       "title": "Il piccolo principe",
+       "imprint": "Milano : Bompiani, c1949, stampa 1970",
+       "year": "1949"
+      },
+      {
+       "bid": "ITICCUMOD0325272",
+       "title": "Il piccolo principe",
+       "imprint": "Milano : Bompiani, 1958",
+       "year": "1958"
+      }
+     ]
+    }
+   },
+   "extra": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Little Prince\" and bath.author=Saint-Exupery",
+     "total": 39,
+     "fetched": 39,
+     "title_matches": 23,
+     "earliest": [
+      {
+       "title": "The little prince,",
+       "year": "1943",
+       "publisher": "New York, Reynal & Hitchcock",
+       "language": "eng"
+      },
+      {
+       "title": "The little prince /",
+       "year": "1982",
+       "publisher": "San Diego : Harcourt Brace Jovanovich,",
+       "language": "eng"
+      },
+      {
+       "title": "The little prince /",
+       "year": "2000",
+       "publisher": "San Diego : Harcourt,",
+       "language": "eng"
+      }
+     ]
+    }
+   ]
+  },
+  "N03": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Se questo è un uomo",
+      "author": "Primo Levi",
+      "lingua": "ita"
+     },
+     "total": 192,
+     "title_matches": 180,
+     "earliest": [
+      {
+       "bid": "ITICCULO10092623",
+       "title": "Se questo è un uomo",
+       "imprint": "Torino : F. De Silva, [1947]",
+       "year": "1947"
+      },
+      {
+       "bid": "ITICCURMS2563295",
+       "title": "Se questo e un uomo",
+       "imprint": "Torino : Einaudi, 1958, stampa 1971",
+       "year": "1958"
+      },
+      {
+       "bid": "ITICCURMS2660669",
+       "title": "Se questo e un uomo",
+       "imprint": "Torino : Einaudi, 1958, stampa 1966",
+       "year": "1958"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"If This Is a Man\" and bath.author=Levi",
+     "total": 22,
+     "fetched": 22,
+     "title_matches": 3,
+     "earliest": [
+      {
+       "title": "If this is a man /",
+       "year": "1966",
+       "publisher": "London : Bodley Head,",
+       "language": "eng"
+      },
+      {
+       "title": "If this is a man ; and, The truce /",
+       "year": "1979",
+       "publisher": "Harmondsworth ; New York [etc.] : Penguin,",
+       "language": "eng"
+      }
+     ]
+    },
+    "eng-2": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Survival in Auschwitz\" and bath.author=Levi",
+     "total": 3,
+     "fetched": 3,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "title": "Survival in Auschwitz ; and, The reawakening : two memoirs /",
+       "year": "1986",
+       "publisher": "New York : Summit Books,",
+       "language": "eng"
+      },
+      {
+       "title": "Survival in Auschwitz : the Nazi assault on humanity /",
+       "year": "1993",
+       "publisher": "New York : Collier Books ; Toronto : Maxwell Macmillan Canada,",
+       "language": "eng"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N04": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Prestuplenie i nakazanie\" and bath.author=Dostoevskij",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Crime and Punishment\" and bath.author=Dostoevskij",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Delitto e castigo",
+      "author": "Fëdor Dostoevskij",
+      "lingua": null
+     },
+     "total": 512,
+     "title_matches": 279,
+     "earliest": [
+      {
+       "bid": "ITICCUTO00729271",
+       "title": "{Il delitto e il castigo : (Raskolnikoff) : romanzo}2",
+       "imprint": "Milano : F.lli Treves, 1889",
+       "year": "1889"
+      },
+      {
+       "bid": "ITICCUTO00729269",
+       "title": "{Il delitto e il castigo : (Raskolnikoff) : romanzo}1",
+       "imprint": "Milano : F. lli Treves, 1889",
+       "year": "1889"
+      },
+      {
+       "bid": "ITICCURAV0083010",
+       "title": "{Delitto e castigo (Raskolnikoff) : romanzo}v. 3:",
+       "imprint": "Milano : Treves, [1889]",
+       "year": "1889"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N05": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Catcher in the Rye\" and bath.author=Salinger",
+     "total": 13,
+     "fetched": 13,
+     "title_matches": 8,
+     "earliest": [
+      {
+       "title": "The catcher in the rye /",
+       "year": "1951",
+       "publisher": "London : Hamish,",
+       "language": "eng"
+      },
+      {
+       "title": "The Catcher in the Rye.",
+       "year": "1953",
+       "publisher": "n. p. :",
+       "language": "eng"
+      },
+      {
+       "title": "The catcher in the rye",
+       "year": "1968",
+       "publisher": "[Moscow] Progress Publishers,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il giovane Holden",
+      "author": "J. D. Salinger",
+      "lingua": null
+     },
+     "total": 51,
+     "title_matches": 42,
+     "earliest": [
+      {
+       "bid": "ITICCURMS1264617",
+       "title": "Il giovane Holden",
+       "imprint": "Torino : Einaudi, 1961",
+       "year": "1961"
+      },
+      {
+       "bid": "ITICCUMOD0113676",
+       "title": "Il giovane Holden",
+       "imprint": "Torino : Einaudi, c1961, stampa 1973",
+       "year": "1961"
+      },
+      {
+       "bid": "ITICCUTO10010645",
+       "title": "Il Giovane Holden",
+       "imprint": "Torino : Einaudi, c1961",
+       "year": "1961"
+      }
+     ]
+    },
+    "ita-2": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Vita da uomo",
+      "author": "J. D. Salinger",
+      "lingua": null
+     },
+     "total": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "bid": "ITICCULIA0063618",
+       "title": "Vita da uomo",
+       "imprint": "Roma : Casini, 1952",
+       "year": "1952"
+      }
+     ]
+    }
+   },
+   "extra": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Vita da uomo",
+      "author": "Salinger",
+      "lingua": null
+     },
+     "total": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "bid": "ITICCULIA0063618",
+       "title": "Vita da uomo",
+       "imprint": "Roma : Casini, 1952",
+       "year": "1952"
+      }
+     ]
+    }
+   ]
+  },
+  "N06": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Nineteen Eighty-Four\" and bath.author=Orwell",
+     "total": 33,
+     "fetched": 33,
+     "title_matches": 13,
+     "earliest": [
+      {
+       "title": "Nineteen eighty-four, a novel.",
+       "year": "1949",
+       "publisher": "London, Secker & Warburg,",
+       "language": "eng"
+      },
+      {
+       "title": "Nineteen eighty-four, a novel.",
+       "year": "1949",
+       "publisher": "New York, Harcourt, Brace",
+       "language": "eng"
+      },
+      {
+       "title": "Nineteen eighty-four /",
+       "year": "1974",
+       "publisher": "[Geneva : Edito-Service S.A.,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "1984",
+      "author": "George Orwell",
+      "lingua": null
+     },
+     "total": 222,
+     "title_matches": 180,
+     "earliest": [
+      {
+       "bid": "ITICCULIA0928967",
+       "title": "1984",
+       "imprint": "New York : The new American Library, 1950",
+       "year": "1950"
+      },
+      {
+       "bid": "ITICCUBIA0013110",
+       "title": "1984",
+       "imprint": "[Paris] : Gallimard, 1950",
+       "year": "1950"
+      },
+      {
+       "bid": "ITICCULO10411146",
+       "title": "1984",
+       "imprint": "Milano : Mondadori, 1950",
+       "year": "1950"
+      }
+     ]
+    },
+    "ita-2": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Millenovecentottantaquattro",
+      "author": "George Orwell",
+      "lingua": null
+     },
+     "total": 57,
+     "title_matches": 3,
+     "earliest": [
+      {
+       "bid": "ITICCURLZ0197278",
+       "title": "Millenovecentottantaquattro : Romanzo",
+       "imprint": "Milano : Mondadori, 1967",
+       "year": "1967"
+      },
+      {
+       "bid": "ITICCURAV2121935",
+       "title": "Millenovecentottantaquattro",
+       "imprint": "Milano : Chiarelettere, 2021",
+       "year": "2021"
+      },
+      {
+       "bid": "ITICCURL10059299",
+       "title": "Millenovecentottantaquattro",
+       "imprint": "Palermo : Sellerio, 2021",
+       "year": "2021"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N07": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Se una notte d'inverno un viaggiatore",
+      "author": "Italo Calvino",
+      "lingua": "ita"
+     },
+     "total": 54,
+     "title_matches": 47,
+     "earliest": [
+      {
+       "bid": "ITICCUFER0136648",
+       "title": "Se una notte d'inverno un viaggiatore",
+       "imprint": "Torino : Einaudi, c1979",
+       "year": "1979"
+      },
+      {
+       "bid": "ITICCULIA0170775",
+       "title": "Se una notte d'inverno un viaggiatore",
+       "imprint": "Torino : Einaudi, 1979",
+       "year": "1979"
+      },
+      {
+       "bid": "ITICCUPBE0100781",
+       "title": "Se una notte d'inverno un viaggiatore",
+       "imprint": "Torino : Einaudi, 1979",
+       "year": "1979"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"If on a Winter's Night a Traveler\" and bath.author=Calvino",
+     "total": 2,
+     "fetched": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "title": "If on a winter's night a traveler /",
+       "year": "1993",
+       "publisher": "New York : Knopf : Distributed by Random House,",
+       "language": "eng"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N08": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "L'amica geniale",
+      "author": "Elena Ferrante",
+      "lingua": "ita"
+     },
+     "total": 125,
+     "title_matches": 31,
+     "earliest": [
+      {
+       "bid": "ITICCULI30005852",
+       "title": "L'amica geniale",
+       "imprint": "Roma : E/O, 2011-2016",
+       "year": "2011"
+      },
+      {
+       "bid": "ITICCUBVE0773702",
+       "title": "L'amica geniale",
+       "imprint": "Milano : Mondolibri, [2015-2017]",
+       "year": "2015"
+      },
+      {
+       "bid": "ITICCUTO01978798",
+       "title": "L'amica geniale : libro primo",
+       "imprint": "Roma : Emons Italia, 2015",
+       "year": "2015"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"My Brilliant Friend\" and bath.author=Ferrante",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 1,
+     "earliest": []
+    }
+   },
+   "extra": []
+  },
+  "N09": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il formaggio e i vermi",
+      "author": "Carlo Ginzburg",
+      "lingua": "ita"
+     },
+     "total": 25,
+     "title_matches": 20,
+     "earliest": [
+      {
+       "bid": "ITICCUANA0179197",
+       "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500",
+       "imprint": "Torino : Einaudi, c1976",
+       "year": "1976"
+      },
+      {
+       "bid": "ITICCURL10056816",
+       "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500",
+       "imprint": "Torino : Einaudi, c1976",
+       "year": "1976"
+      },
+      {
+       "bid": "ITICCURMS3058636",
+       "title": "Il formaggio e i vermi : il cosmo di un mugnaio del '500",
+       "imprint": "Torino : Einaudi, 1976",
+       "year": "1976"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Cheese and the Worms\" and bath.author=Ginzburg",
+     "total": 5,
+     "fetched": 5,
+     "title_matches": 5,
+     "earliest": [
+      {
+       "title": "The cheese and the worms : the cosmos of a sixteenth-century miller /",
+       "year": "1980",
+       "publisher": "Baltimore : Johns Hopkins University Press,",
+       "language": "eng"
+      },
+      {
+       "title": "The cheese and the worms : the cosmos of a sixteenth-century miller /",
+       "year": "1982",
+       "publisher": "New York, N.Y. : Penguin Books,",
+       "language": "eng"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N10": {
+   "original": [
+    {
+     "catalogue": "bnf",
+     "query": "bib.title all \"L'Etranger\" and bib.author all \"Camus\"",
+     "total": 107,
+     "fetched": 107,
+     "title_matches": 43,
+     "earliest": [
+      {
+       "title": "L'étranger : roman / Albert Camus",
+       "year": "1942",
+       "publisher": "Gallimard (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "L'étranger : roman (2ème édition) Albert Camus",
+       "year": "1942",
+       "publisher": "Gallimard (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "L'Etranger : roman / Albert Camus",
+       "year": "1943",
+       "publisher": "Gallimard (Paris)",
+       "language": "fre"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Stranger\" and bath.author=Camus",
+     "total": 7,
+     "fetched": 7,
+     "title_matches": 7,
+     "earliest": [
+      {
+       "title": "The stranger,",
+       "year": "1946",
+       "publisher": "New York, A. A. Knopf,",
+       "language": "eng"
+      },
+      {
+       "title": "The stranger /",
+       "year": "1971",
+       "publisher": "New York : Limited Editions Club,",
+       "language": "eng"
+      },
+      {
+       "title": "The stranger /",
+       "year": "1988",
+       "publisher": "New York : A.A. Knopf,",
+       "language": "eng"
+      }
+     ]
+    },
+    "eng-2": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Outsider\" and bath.author=Camus",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 1,
+     "earliest": []
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Lo straniero",
+      "author": "Albert Camus",
+      "lingua": null
+     },
+     "total": 102,
+     "title_matches": 92,
+     "earliest": [
+      {
+       "bid": "ITICCURAV0047808",
+       "title": "Lo straniero",
+       "imprint": "Milano : Bompiani, c1947, stampa 1973",
+       "year": "1947"
+      },
+      {
+       "bid": "ITICCUTSA0498691",
+       "title": "Lo straniero",
+       "imprint": "Milano : Bompiani, c1947",
+       "year": "1947"
+      },
+      {
+       "bid": "ITICCUTO00583616",
+       "title": "Lo straniero",
+       "imprint": "Milano : Bompiani, c1947, stampa1971",
+       "year": "1947"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N11": {
+   "original": [
+    {
+     "catalogue": "bnf",
+     "query": "bib.title all \"La Disparition\" and bib.author all \"Perec\"",
+     "total": 11,
+     "fetched": 11,
+     "title_matches": 6,
+     "earliest": [
+      {
+       "title": "La disparition : roman / Georges Perec",
+       "year": "1969",
+       "publisher": "Denoël (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "La Disparition : roman / Georges Pérec",
+       "year": "1979",
+       "publisher": "Denoël (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "La Disparition / Georges Perec",
+       "year": "1989",
+       "publisher": "[Gallimard] (Paris)",
+       "language": "fre"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"A Void\" and bath.author=Perec",
+     "total": 2,
+     "fetched": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "title": "A void /",
+       "year": "1995",
+       "publisher": "London : Harvill Press,",
+       "language": "eng"
+      },
+      {
+       "title": "A void /",
+       "year": "2005",
+       "publisher": "Boston : D.R. Godine,",
+       "language": "eng"
+      }
+     ]
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "La scomparsa",
+      "author": "Georges Perec",
+      "lingua": null
+     },
+     "total": 3,
+     "title_matches": 3,
+     "earliest": [
+      {
+       "bid": "ITICCURAV0257828",
+       "title": "La scomparsa : romanzo",
+       "imprint": "Napoli : Guida, \\1995!",
+       "year": "1995"
+      },
+      {
+       "bid": "ITICCURT10051813",
+       "title": "La scomparsa : romanzo",
+       "imprint": "Napoli : Alfredo Guida, 2007",
+       "year": "2007"
+      },
+      {
+       "bid": "ITICCULO11179584",
+       "title": "La scomparsa : romanzo",
+       "imprint": "Napoli : Guida, [2007!",
+       "year": "2007"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N12": {
+   "original": [
+    {
+     "catalogue": "dnb",
+     "query": "tit=\"Der Process\" and per=Kafka",
+     "total": 497,
+     "fetched": 300,
+     "title_matches": 289,
+     "earliest": [
+      {
+       "title": "Der Process : Advokat/Fabrikant/Maler - Teil 01 / Reclam Hörbücher, Hans Sigl, Franz Kafka",
+       "year": "2018",
+       "publisher": "München : Sony Music Catalog",
+       "language": "ger"
+      },
+      {
+       "title": "Der Process : Advokat/Fabrikant/Maler - Teil 02 / Reclam Hörbücher, Hans Sigl, Franz Kafka",
+       "year": "2018",
+       "publisher": "München : Sony Music Catalog",
+       "language": "ger"
+      },
+      {
+       "title": "Der Process : Advokat/Fabrikant/Maler - Teil 03 / Reclam Hörbücher, Hans Sigl, Franz Kafka",
+       "year": "2018",
+       "publisher": "München : Sony Music Catalog",
+       "language": "ger"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Trial\" and bath.author=Kafka",
+     "total": 31,
+     "fetched": 31,
+     "title_matches": 22,
+     "earliest": [
+      {
+       "title": "The trial.",
+       "year": "1937",
+       "publisher": "London, V. Gollancz, ltd.,",
+       "language": "eng"
+      },
+      {
+       "title": "The trial,",
+       "year": "1937",
+       "publisher": "New York, A. A. Knopf,",
+       "language": "eng"
+      },
+      {
+       "title": "The trial,",
+       "year": "1945",
+       "publisher": "London, Secker and Warburg,",
+       "language": "eng"
+      }
+     ]
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il processo",
+      "author": "Franz Kafka",
+      "lingua": null
+     },
+     "total": 231,
+     "title_matches": 202,
+     "earliest": [
+      {
+       "bid": "ITICCURAV0082804",
+       "title": "Il processo",
+       "imprint": "Torino : Frassinelli, 1933",
+       "year": "1933"
+      },
+      {
+       "bid": "ITICCUCUB0352673",
+       "title": "Il processo",
+       "imprint": "Torino : Frassinelli, 1933",
+       "year": "1933"
+      },
+      {
+       "bid": "ITICCULO10056890",
+       "title": "Il processo",
+       "imprint": "Torino : Frassinelli, 1945",
+       "year": "1945"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N13": {
+   "original": [
+    {
+     "catalogue": "dnb",
+     "query": "tit=\"Mudigkeitsgesellschaft\" and per=Han",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Burnout Society\" and bath.author=Han",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 1,
+     "earliest": []
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "La società della stanchezza",
+      "author": "Byung-Chul Han",
+      "lingua": null
+     },
+     "total": 4,
+     "title_matches": 4,
+     "earliest": [
+      {
+       "bid": "ITICCURAV1957566",
+       "title": "La società della stanchezza",
+       "imprint": "Roma : Nottetempo, 2012",
+       "year": "2012"
+      },
+      {
+       "bid": "ITICCUCAM0234192",
+       "title": "La società della stanchezza",
+       "imprint": "Roma : Nottetempo, 2016",
+       "year": "2016"
+      },
+      {
+       "bid": "ITICCULO11793756",
+       "title": "La società della stanchezza",
+       "imprint": "Roma : Nottetempo, 2020",
+       "year": "2020"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N14": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Ensaio sobre a cegueira\" and bath.author=Saramago",
+     "total": 5,
+     "fetched": 5,
+     "title_matches": 2,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Blindness\" and bath.author=Saramago",
+     "total": 5,
+     "fetched": 5,
+     "title_matches": 5,
+     "earliest": [
+      {
+       "title": "Blindness : a novel /",
+       "year": "1997",
+       "publisher": "London : Harvill Press,",
+       "language": "eng"
+      },
+      {
+       "title": "Blindness.",
+       "year": "1997",
+       "publisher": "[n. p.] : Harcourt Brace,",
+       "language": "eng"
+      },
+      {
+       "title": "Blindness /",
+       "year": "1998",
+       "publisher": "New York : Harcourt Brace & Company,",
+       "language": "eng"
+      }
+     ]
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Cecità",
+      "author": "José Saramago",
+      "lingua": null
+     },
+     "total": 39,
+     "title_matches": 36,
+     "earliest": [
+      {
+       "bid": "ITICCUCFI0328377",
+       "title": "Cecità",
+       "imprint": "Milano : CDE, stampa 1996",
+       "year": "1996"
+      },
+      {
+       "bid": "ITICCURAV0274843",
+       "title": "Cecità",
+       "imprint": "Torino : Einaudi, \\1996!",
+       "year": "1996"
+      },
+      {
+       "bid": "ITICCUSBS0014661",
+       "title": "Cecità",
+       "imprint": "Torino : Einaudi, 1998",
+       "year": "1998"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N15": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"2666\" and bath.author=Bolano",
+     "total": 4,
+     "fetched": 4,
+     "title_matches": 4,
+     "earliest": [
+      {
+       "title": "2666 /",
+       "year": "2008",
+       "publisher": "New York : Farrar, Straus and Giroux,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {},
+   "extra": []
+  },
+  "N16": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Huozhe\" and bath.author=Hua",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"To Live\" and bath.author=Hua",
+     "total": 5,
+     "fetched": 5,
+     "title_matches": 1,
+     "earliest": []
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Vivere!",
+      "author": "Yu Hua",
+      "lingua": null
+     },
+     "total": 10,
+     "title_matches": 10,
+     "earliest": [
+      {
+       "bid": "ITICCUUSM1698372",
+       "title": "Vivere!",
+       "imprint": "[S.l.] : Columbia Tristar Home Video, ©1993",
+       "year": "1993"
+      },
+      {
+       "bid": "ITICCUDDS0104231",
+       "title": "Vivere",
+       "imprint": "Roma : Columbia Tristar Home Video, 1995",
+       "year": "1995"
+      },
+      {
+       "bid": "ITICCULO10435177",
+       "title": "Vivere|",
+       "imprint": "Roma : Donzelli, \\1997!",
+       "year": "1997"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N17": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Bayn al-Qasrayn\" and bath.author=Mahfouz",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Palace Walk\" and bath.author=Mahfouz",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Tra i due palazzi",
+      "author": "Naguib Mahfouz",
+      "lingua": null
+     },
+     "total": 7,
+     "title_matches": 7,
+     "earliest": [
+      {
+       "bid": "ITICCUVEA0020485",
+       "title": "Tra i due palazzi",
+       "imprint": "Napoli : Pironti, 1989",
+       "year": "1989"
+      },
+      {
+       "bid": "ITICCULZ10246665",
+       "title": "Tra i due palazzi : La Trilogia del Cairo",
+       "imprint": "Napoli : Pironti, 1989",
+       "year": "1989"
+      },
+      {
+       "bid": "ITICCUCFI0193625",
+       "title": "Tra i due palazzi : la trilogia del Cairo",
+       "imprint": "Napoli : T. Pironti, 1989",
+       "year": "1989"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N18": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Capitalist Realism\" and bath.author=Fisher",
+     "total": 0,
+     "fetched": 0,
+     "title_matches": 0,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Realismo capitalista",
+      "author": "Mark Fisher",
+      "lingua": null
+     },
+     "total": 3,
+     "title_matches": 3,
+     "earliest": [
+      {
+       "bid": "ITICCUPUV1569910",
+       "title": "Realismo capitalista : ¿No hay alternativa?",
+       "imprint": "Buenos Aires : Caja Negra, 2016",
+       "year": "2016"
+      },
+      {
+       "bid": "ITICCUUTO1280621",
+       "title": "Realismo capitalista",
+       "imprint": "Roma : Nero, 2018",
+       "year": "2018"
+      },
+      {
+       "bid": "ITICCUTO02095517",
+       "title": "Realismo capitalista",
+       "imprint": "Roma : Nero, 2021",
+       "year": "2021"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N19": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Tomorrow, and Tomorrow, and Tomorrow\" and bath.author=Zevin",
+     "total": 2,
+     "fetched": 2,
+     "title_matches": 2,
+     "earliest": []
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Domani, e domani, e domani",
+      "author": "Gabrielle Zevin",
+      "lingua": null
+     },
+     "total": 0,
+     "title_matches": 0,
+     "earliest": []
+    }
+   },
+   "extra": []
+  },
+  "N20": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Metaphors We Live By\" and bath.author=Lakoff",
+     "total": 2,
+     "fetched": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "title": "Metaphors we live by /",
+       "year": "1980",
+       "publisher": "Chicago : University of Chicago Press,",
+       "language": "eng"
+      },
+      {
+       "title": "Metaphors we live by /",
+       "year": "2003",
+       "publisher": "Chicago : University of Chicago Press,",
+       "language": "eng"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Metafora e vita quotidiana",
+      "author": "George Lakoff",
+      "lingua": null
+     },
+     "total": 6,
+     "title_matches": 6,
+     "earliest": [
+      {
+       "bid": "ITICCUSBL0636008",
+       "title": "Metafora e vita quotidiana",
+       "imprint": "Roma : L'Espresso, 1982",
+       "year": "1982"
+      },
+      {
+       "bid": "ITICCUVIA0073489",
+       "title": "Metafora e vita quotidiana",
+       "imprint": "Milano : Strumenti Bompiani, 1998",
+       "year": "1998"
+      },
+      {
+       "bid": "ITICCUUBO2634384",
+       "title": "Metafora e vita quotidiana",
+       "imprint": "[Milano] : Strumenti Bompiani, 2004",
+       "year": "2004"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N21": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Veinte poemas de amor y una cancion desesperada\" and bath.author=Neruda",
+     "total": 23,
+     "fetched": 23,
+     "title_matches": 21,
+     "earliest": [
+      {
+       "title": "Veinte poemas de amor y una canción desesperada.",
+       "year": "1924",
+       "publisher": "Santiago, Chile, Nascimento,",
+       "language": "spa"
+      },
+      {
+       "title": "Veinte poemas de amor y una canción desesperada,",
+       "year": "1932",
+       "publisher": "[Santiago de Chile] Nascimento,",
+       "language": "spa"
+      },
+      {
+       "title": "Veinte poemas de amor y una canción desesperada.",
+       "year": "1938",
+       "publisher": "Santiago de Chile, Ediciones Ercilla,",
+       "language": "spa"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Twenty Love Poems and a Song of Despair\" and bath.author=Neruda",
+     "total": 5,
+     "fetched": 5,
+     "title_matches": 3,
+     "earliest": [
+      {
+       "title": "Twenty love poems and a song of despair;",
+       "year": "1969",
+       "publisher": "London, Cape,",
+       "language": "eng"
+      },
+      {
+       "title": "Twenty love poems and a song of despair /",
+       "year": "2004",
+       "publisher": "New York : Penguin Books,",
+       "language": "eng"
+      }
+     ]
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Venti poesie d'amore e una canzone disperata",
+      "author": "Pablo Neruda",
+      "lingua": null
+     },
+     "total": 27,
+     "title_matches": 17,
+     "earliest": [
+      {
+       "bid": "ITICCUTO00665328",
+       "title": "20 poesie d'amore e una canzone disperata",
+       "imprint": "Milano : Nuova Accademia, c1962",
+       "year": "1962"
+      },
+      {
+       "bid": "ITICCUSBL0262114",
+       "title": "20 poesie d'amore e una canzone disperata",
+       "imprint": "Milano : Nuova Accademia, 1963",
+       "year": "1963"
+      },
+      {
+       "bid": "ITICCURLZ0324513",
+       "title": "Crepuscolario : Venti poesie d'amore e una canzone disperata",
+       "imprint": "Milano : Accademia, 1973",
+       "year": "1973"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N22": {
+   "original": [
+    {
+     "catalogue": "bnf",
+     "query": "bib.title all \"Le Capital au XXIe siecle\" and bib.author all \"Piketty\"",
+     "total": 3,
+     "fetched": 3,
+     "title_matches": 3,
+     "earliest": [
+      {
+       "title": "Le capital au XXIe siècle / Thomas Piketty",
+       "year": "2013",
+       "publisher": "Éd. du Seuil (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "Le capital au XXIe siècle / Thomas Piketty",
+       "year": "2019",
+       "publisher": "Éditions Points (Paris)",
+       "language": "fre"
+      },
+      {
+       "title": "Le capital au XXIe siècle / Thomas Piketty, aut. ; lu par Christophe Brault",
+       "year": "2020",
+       "publisher": "Audiolib (Paris)",
+       "language": "fre"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"Capital in the Twenty-First Century\" and bath.author=Piketty",
+     "total": 1,
+     "fetched": 1,
+     "title_matches": 1,
+     "earliest": []
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Il capitale nel XXI secolo",
+      "author": "Thomas Piketty",
+      "lingua": null
+     },
+     "total": 2,
+     "title_matches": 2,
+     "earliest": [
+      {
+       "bid": "ITICCULIG0324565",
+       "title": "Il capitale nel XXI secolo",
+       "imprint": "Milano : Bompiani, 2018",
+       "year": "2018"
+      },
+      {
+       "bid": "ITICCUUBO4971378",
+       "title": "Il capitale nel XXI secolo",
+       "imprint": "Milano : Bompiani, 2026",
+       "year": "2026"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N23": {
+   "original": [
+    {
+     "catalogue": "loc",
+     "query": "bath.title=\"Odysseia\" and bath.author=Homer",
+     "total": 25,
+     "fetched": 25,
+     "title_matches": 7,
+     "earliest": [
+      {
+       "title": "Odysseia.",
+       "year": "1820",
+       "publisher": "[n.p.]",
+       "language": "grc"
+      },
+      {
+       "title": "Odysseia.",
+       "year": "1873",
+       "publisher": null,
+       "language": "gre"
+      },
+      {
+       "title": "Odysseia.",
+       "year": "1960",
+       "publisher": null,
+       "language": "gre"
+      }
+     ]
+    }
+   ],
+   "entries": {
+    "eng": {
+     "catalogue": "loc",
+     "query": "bath.title=\"The Odyssey\" and bath.author=Homer",
+     "total": 332,
+     "fetched": 100,
+     "title_matches": 62,
+     "earliest": [
+      {
+       "title": "The Odyssey:",
+       "year": "1863",
+       "publisher": "London [etc.] Williams and Norgate,",
+       "language": "eng"
+      },
+      {
+       "title": "The Odyssey /",
+       "year": "1871",
+       "publisher": "Boston : J.R. Osgod,",
+       "language": "eng"
+      },
+      {
+       "title": "The Odyssey,",
+       "year": "1903",
+       "publisher": "London, J. Murray,",
+       "language": "eng"
+      }
+     ]
+    },
+    "ita": {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Odissea",
+      "author": "Homer",
+      "lingua": null
+     },
+     "total": 2326,
+     "title_matches": 148,
+     "earliest": [
+      {
+       "bid": "ITICCUCSAE000110",
+       "title": "Odissea",
+       "imprint": "Patavii : apud Joannem Manfre, 1744",
+       "year": "1744"
+      },
+      {
+       "bid": "ITICCULO11109146",
+       "title": "Odissea",
+       "imprint": "Verona : R.F. Munster, 1869",
+       "year": "1869"
+      },
+      {
+       "bid": "ITICCURMS2668117",
+       "title": "Odissea",
+       "imprint": "[Fidenza] : Mattioli 1885, 2014",
+       "year": "1885"
+      }
+     ]
+    }
+   },
+   "extra": []
+  },
+  "N24": {
+   "original": [
+    {
+     "catalogue": "sbn",
+     "query": {
+      "any": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+      "author": "Orlando Ciprian",
+      "lingua": "ita"
+     },
+     "total": 1,
+     "title_matches": 1,
+     "earliest": [
+      {
+       "bid": "ITICCUVIA0219276",
+       "title": "Tutto per una casa : dalla Russia alla Siberia fino in Spagna",
+       "imprint": "Silea : Piazza, 2009",
+       "year": "2009"
+      }
+     ]
+    }
+   ],
+   "entries": {},
+   "extra": []
+  }
+ },
+ "requests": {
+  "lx2.loc.gov:210": {
+   "requests": 50,
+   "failed": 0,
+   "total_s": 27.17,
+   "p50_s": 0.289,
+   "max_s": 1.669
+  },
+  "catalogue.bnf.fr": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 24.22,
+   "p50_s": 1.758,
+   "max_s": 3.089
+  },
+  "services.dnb.de": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 1.75,
+   "p50_s": 0.188,
+   "max_s": 0.591
+  },
+  "opac.sbn.it/o": {
+   "requests": 196,
+   "failed": 0,
+   "total_s": 196.21,
+   "p50_s": 0.972,
+   "max_s": 2.745
+  }
+ },
+ "failures": []
+}

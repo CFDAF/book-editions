@@ -1,0 +1,3381 @@
+{
+ "id": "N21",
+ "sbn": [
+  {
+   "W": "veinte poemas de amor y una cancion desesperada.",
+   "author": "Pablo Neruda",
+   "total": 21,
+   "lingua_facet": [
+    [
+     "spa",
+     19
+    ],
+    [
+     "ita",
+     13
+    ],
+    [
+     "eng",
+     1
+    ],
+    [
+     "ger",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 34,
+   "rows": 21,
+   "multilingual_rows": 13,
+   "languages": 4,
+   "bogus_lingua_total": 0,
+   "year_parsed": 21,
+   "year_parse_failures": [],
+   "publisher_present": 21,
+   "language_present": 21,
+   "records_on_no_language_page": [],
+   "requests": 6,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 4.5,
+   "items": [
+    {
+     "bid": "UBO4539299",
+     "title": "Twenty love poems : and a song of despair / Pablo Neruda ; translated by W. S. Merwin",
+     "author": "Neruda, Pablo",
+     "imprint": "New York : Penguin Books, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng",
+      "spa"
+     ],
+     "year": "1993",
+     "publisher": "Penguin Books",
+     "place": "New York"
+    },
+    {
+     "bid": "RAV1982012",
+     "title": "Liebesgedichte : Die Verse des Kapitäns, 20 Liebesgedichte und ein Lied der Verzweiflung, Der rasende Schleuderer / Pablo Neruda ; Deutsch von Fritz Vogelgsang",
+     "author": "Neruda, Pablo",
+     "imprint": "Darmstadt : Luchterhand, 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger",
+      "spa"
+     ],
+     "year": "1977",
+     "publisher": "Luchterhand",
+     "place": "Darmstadt"
+    },
+    {
+     "bid": "VIA0079015",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda",
+     "author": "Neruda, Pablo",
+     "imprint": "Firenze : Passigli, ©1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Passigli",
+     "place": "Firenze"
+    },
+    {
+     "bid": "SBL0262114",
+     "title": "20 poesie d'amore e una canzone disperata / Pablo Neruda ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Milano : Nuova Accademia, 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "1963",
+     "publisher": "Nuova Accademia",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00665328",
+     "title": "20 poesie d'amore e una canzone disperata / Pablo Neruda ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Milano : Nuova Accademia, c1962",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "1962",
+     "publisher": "Nuova Accademia",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0360915",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; con una testimonianza di Federico García Lorca ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Antella : Passigli, ©2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "2004",
+     "publisher": "Passigli",
+     "place": "Antella"
+    },
+    {
+     "bid": "UBO2041722",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; introduzione di Giuseppe Conte ; traduzione di Roberta Bovaia",
+     "author": "Neruda, Pablo",
+     "imprint": "Parma : Guanda, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Guanda",
+     "place": "Parma"
+    },
+    {
+     "bid": "TO00981309",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; introduzione di Giuseppe Conte ; traduzione di Roberta Bovaia",
+     "author": "Neruda, Pablo",
+     "imprint": "Parma : U. Guanda, c1997, stampa 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "1997",
+     "publisher": "U. Guanda",
+     "place": "Parma"
+    },
+    {
+     "bid": "RAV0287829",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; introduzione di Giuseppe Conte ; traduzione di Roberta Bovaia",
+     "author": "Neruda, Pablo",
+     "imprint": "Parma : U. Guanda, c1997, stampa 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "1997",
+     "publisher": "U. Guanda",
+     "place": "Parma"
+    },
+    {
+     "bid": "LIA0915993",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; con una testimonianza di Federico García Lorca ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Antella, [Bagno a Ripoli] : Passigli, ©2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "2005",
+     "publisher": "Passigli",
+     "place": "Antella, Bagno a Ripoli"
+    },
+    {
+     "bid": "TO01046661",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; con una testimonianza di Federico Garcia Lorca ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Antella : Passigli, c2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "2000",
+     "publisher": "Passigli",
+     "place": "Antella"
+    },
+    {
+     "bid": "LO10427659",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; con una testimonianza di Federico García Lorca ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Firenze : Passigli, ©1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "1996",
+     "publisher": "Passigli",
+     "place": "Firenze"
+    },
+    {
+     "bid": "RE20013336",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; con una testimonianza di Federico García Lorca ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Bagno a Ripoli : Passigli, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "2018",
+     "publisher": "Passigli",
+     "place": "Bagno a Ripoli"
+    },
+    {
+     "bid": "BVE0379460",
+     "title": "Venti poesie d'amore e una canzone disperata / Pablo Neruda ; con una testimonianza di Federico Garcia Lorca ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Firenze : Passigli, c2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "2004",
+     "publisher": "Passigli",
+     "place": "Firenze"
+    },
+    {
+     "bid": "LIA0167214",
+     "title": "Poesia d'amore / Pablo Neruda ; a cura di Giuseppe Bellini",
+     "author": "Neruda, Pablo",
+     "imprint": "Milano : Nuova accademia, c1963, stampa 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "spa"
+     ],
+     "year": "1963",
+     "publisher": "Nuova accademia",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2589499",
+     "title": "Veinte poemas de amor y una cancion desesperada / Pablo Neruda",
+     "author": "Neruda, Pablo",
+     "imprint": "Barcelona : Seix Barral, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2010",
+     "publisher": "Seix Barral",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "CAG2117335",
+     "title": "Veinte poemas de amor y una canción desesperada / Pablo Neruda",
+     "author": null,
+     "imprint": "Madrid : Alianza editorial, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1994",
+     "publisher": "Alianza editorial",
+     "place": "Madrid"
+    },
+    {
+     "bid": "GMP0025477",
+     "title": "Veinte poemas de amor y una canción desesperada / Pablo Neruda ; edición, introducción, notas y actividades de Matías Barchino",
+     "author": "Neruda, Pablo",
+     "imprint": "Madrid : Bruño, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1994",
+     "publisher": "Bruño",
+     "place": "Madrid"
+    },
+    {
+     "bid": "GMP0025474",
+     "title": "20 poemas de amor y una canción desesperada / Pablo Neruda ; con seis ilustraciones de Raúl Soldi",
+     "author": "Neruda, Pablo",
+     "imprint": "Buenos Aires : Losada, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1978",
+     "publisher": "Losada",
+     "place": "Buenos Aires"
+    },
+    {
+     "bid": "UBO0317206",
+     "title": "Veinte poemas de amor y una cancion desesperada / Pablo Neruda ; edicion, introduccion y notas de Hugo Montes",
+     "author": "Neruda, Pablo",
+     "imprint": "Madrid : Castalia, [1987]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1987",
+     "publisher": "Castalia",
+     "place": "Madrid"
+    },
+    {
+     "bid": "GMP0025473",
+     "title": "Veinte poemas de amor y una canciòn desesperada ; *Cien sonetos de amor / Pablo Neruda",
+     "author": "Neruda, Pablo",
+     "imprint": "Barcelona : Plaza & Janés, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1996",
+     "publisher": "Plaza & Janés",
+     "place": "Barcelona"
+    }
+   ],
+   "entries": [
+    "spa",
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL979517W",
+  "size": 135,
+  "rows": 135,
+  "languages": 5,
+  "language_codes": [
+   "arn",
+   "eng",
+   "heb",
+   "ita",
+   "spa"
+  ],
+  "year_parsed": 134,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL23042548M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 135,
+  "language_present": 94,
+  "requests": 7,
+  "failed": [],
+  "wall_s": 5.5,
+  "items": [
+   {
+    "key": "/books/OL56576794M",
+    "title": "Veinte Poemas de Amor y una Cancion Desesperada",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781511687393"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL55196934M",
+    "title": "20 Poemas de Amor y una Cancion Desesperada",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781515085683"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL32635802M",
+    "title": "Vinte Poemas de Amor e uma Canção Desesperada",
+    "publish_date": "Jun 18, 2019",
+    "year": "2019",
+    "publishers": [
+     "Independently Published",
+     "Independently published"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1074799712"
+    ],
+    "isbn_13": [
+     "9781074799717"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL57864664M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Ismael Espinosa"
+    ],
+    "publish_places": [
+     "Santiago de Chile"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL56636344M",
+    "title": "Veinte Poemas de Amor y una Cancion Desesperada (Spanish Edition)",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781517321338"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL49822630M",
+    "title": "Veinte Poemas de Amor y una Canción Desesperada",
+    "publish_date": "2013-03-01",
+    "year": "2013",
+    "publishers": [
+     "Editores mexicanos unidos"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6071411254"
+    ],
+    "isbn_13": [
+     "9786071411259"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL50701607M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "Editorial Oceano de Mexico"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786075575605"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL55112844M",
+    "title": "Veinte Poemas de Amor y una Canción Desesperada",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781517426965"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL55392894M",
+    "title": "Veinte Poemas de Amor y una Canción Desesperada",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781517680664"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47117817M",
+    "title": "VEINTE POEMAS DE AMOR Y UNA CANCION DESESPERADA",
+    "publish_date": "Mar 16, 2014",
+    "year": "2014",
+    "publishers": [
+     "PLUTONEDICIONES"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9807716047"
+    ],
+    "isbn_13": [
+     "9789807716048"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL42103959M",
+    "title": "Veinte Poemas de Amor y una Canción Desesperada",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Independently Published"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9798694025836"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL40445478M",
+    "title": "Veinte Poemas de Amor y Una Cancion Desesperada",
+    "publish_date": "Nov 16, 1992",
+    "year": "1992",
+    "publishers": [
+     "Pehuin"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9561602792"
+    ],
+    "isbn_13": [
+     "9789561602793"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL40258324M",
+    "title": "20 Poemas de Amor y Una Cancion Desesperada",
+    "publish_date": "Dec 01, 2014",
+    "year": "2014",
+    "publishers": [
+     "Epoca"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9706218777"
+    ],
+    "isbn_13": [
+     "9789706218773"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL26216385M",
+    "title": "20 poemas de amor y una canción desesperada  ",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Publimexi "
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9686642501"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL57366194M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL57654386M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL50242027M",
+    "title": "ʻEśrim shire ahavah ṿe-shirat-yeʾush aḥat",
+    "publish_date": "1977",
+    "year": "1977",
+    "publishers": [
+     "Dorah"
+    ],
+    "publish_places": [
+     "Tel Aviv"
+    ],
+    "languages": [
+     "heb"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL49930497M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Editorial Grijalbo"
+    ],
+    "publish_places": [
+     "Santiago de Chile"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9562581330"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL52814489M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": "1974",
+    "year": "1974",
+    "publishers": [
+     "Editora Zarco"
+    ],
+    "publish_places": [
+     "México"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47545790M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jul 28, 2014",
+    "year": "2014",
+    "publishers": [
+     "Editorial Luis Vives (Edelvives)"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8426392296"
+    ],
+    "isbn_13": [
+     "9788426392299"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47545791M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jul 28, 2014",
+    "year": "2014",
+    "publishers": [
+     "Editorial Luis Vives (Edelvives)"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8426392296"
+    ],
+    "isbn_13": [
+     "9788426392299"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47645659M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jan 13, 2010",
+    "year": "2010",
+    "publishers": [
+     "Seix Barral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432212792"
+    ],
+    "isbn_13": [
+     "9788432212796"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47645658M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jan 13, 2010",
+    "year": "2010",
+    "publishers": [
+     "Seix Barral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432212792"
+    ],
+    "isbn_13": [
+     "9788432212796"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47645660M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jan 13, 2010",
+    "year": "2010",
+    "publishers": [
+     "Seix Barral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432212792"
+    ],
+    "isbn_13": [
+     "9788432212796"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47645661M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jan 13, 2010",
+    "year": "2010",
+    "publishers": [
+     "Seix Barral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432212792"
+    ],
+    "isbn_13": [
+     "9788432212796"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47125537M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Mar 16, 2008",
+    "year": "2008",
+    "publishers": [
+     "Universidad Diego Portales"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9563140516"
+    ],
+    "isbn_13": [
+     "9789563140514"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47145721M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Mar 17, 2014",
+    "year": "2014",
+    "publishers": [
+     "Navona"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8416259593"
+    ],
+    "isbn_13": [
+     "9788416259595"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47147260M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jun 01, 2008",
+    "year": "2008",
+    "publishers": [
+     "Verticales"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8492421215"
+    ],
+    "isbn_13": [
+     "9788492421213"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47291474M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jun 08, 2004",
+    "year": "2004",
+    "publishers": [
+     "La Galera, SAU"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8441211167"
+    ],
+    "isbn_13": [
+     "9788441211162"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL47344021M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Jan 01, 2004",
+    "year": "2004",
+    "publishers": [
+     "Editorial Renacimiento"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8484721906"
+    ],
+    "isbn_13": [
+     "9788484721901"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL45166197M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "RIL Editores"
+    ],
+    "publish_places": [
+     "Santiago de Chile"
+    ],
+    "languages": [
+     "spa",
+     "arn"
+    ],
+    "isbn_10": [
+     "9562845133"
+    ],
+    "isbn_13": [
+     "9789562845137"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL45156812M",
+    "title": "ʻEśrim shire ahavah ṿe-shir eḥad meyoʼash",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Ḳeshev le-shirah"
+    ],
+    "publish_places": [
+     "Tel Aviv"
+    ],
+    "languages": [
+     "heb"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789655310290"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL44998642M",
+    "title": "20 [i.e. Veinte] poemas de amor y una canción desesperada",
+    "publish_date": "1965",
+    "year": "1965",
+    "publishers": [
+     "Editorial Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL44429468M",
+    "title": "Venti poesie d'amore e una canzone disperata",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Tallone Editore"
+    ],
+    "publish_places": [
+     "Alpignano [Italy]"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13114916M",
+    "title": "Vinte Poemas de Amor y Una Cancion Desesperada",
+    "publish_date": "May 15, 2006",
+    "year": "2006",
+    "publishers": [
+     "Editores Mexicanos Unidos"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9681520920"
+    ],
+    "isbn_13": [
+     "9789681520922"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9137179M",
+    "title": "20 Poemas de Amor y Una Cancion Desesperada-C/CD",
+    "publish_date": "December 1998",
+    "year": "1998",
+    "publishers": [
+     "Visor"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8475223672"
+    ],
+    "isbn_13": [
+     "9788475223674"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL12952434M",
+    "title": "The Veinte Poemas de Amor y Una Cancion Desesperada",
+    "publish_date": "August 1993",
+    "year": "1993",
+    "publishers": [
+     "Losada Losada"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500356236"
+    ],
+    "isbn_13": [
+     "9789500356237"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL18371347M",
+    "title": "Veinte poemas de amor y una cancion desesperada",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Seix Barral"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8432203270"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL22595725M",
+    "title": "Veinte poemas de amor y una cancion desesperada",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Editorial Lumen"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426427103"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13000156M",
+    "title": "Veinte Poemas de Amor - A Viva Voz",
+    "publish_date": "December 1996",
+    "year": "1996",
+    "publishers": [
+     "Espasa Calpe Mexicana, S.A."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9508520620"
+    ],
+    "isbn_13": [
+     "9789508520623"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL1038185M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL38942464M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "Editorial Alma"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788418395796"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL37992762M",
+    "title": "Twenty Love Poems and a Song of Despair",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784878207"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL37758348M",
+    "title": "20 POEMAS DE AMOR Y UNA CANCION DESESPERADA",
+    "publish_date": "Mar 15, 2010",
+    "year": "2010",
+    "publishers": [
+     "EXODO"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9709087053"
+    ],
+    "isbn_13": [
+     "9789709087055"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL35624767M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": "Jun 01, 2021",
+    "year": "2021",
+    "publishers": [
+     "expres"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6074003696"
+    ],
+    "isbn_13": [
+     "9786074003697"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL33336303M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Opoca"
+    ],
+    "publish_places": [
+     "Mexico"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9706271879",
+     "9706271872"
+    ],
+    "isbn_13": [
+     "9789706271877"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL31484701M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Feb 05, 2020",
+    "year": "2020",
+    "publishers": [
+     "l'Aleph"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9176377113"
+    ],
+    "isbn_13": [
+     "9789176377116"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL31861025M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Oct 11, 2010",
+    "year": "2010",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8420664081"
+    ],
+    "isbn_13": [
+     "9788420664088"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL31878663M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Oct 05, 2011",
+    "year": "2011",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432248428"
+    ],
+    "isbn_13": [
+     "9788432248429"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL31878664M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Oct 05, 2011",
+    "year": "2011",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432248428"
+    ],
+    "isbn_13": [
+     "9788432248429"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL31878674M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "May 04, 2017",
+    "year": "2017",
+    "publishers": [
+     "Espasa Calpe"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432232475"
+    ],
+    "isbn_13": [
+     "9788432232473"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL31878675M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "May 04, 2017",
+    "year": "2017",
+    "publishers": [
+     "Espasa Calpe"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432232475"
+    ],
+    "isbn_13": [
+     "9788432232473"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL33890985M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Sep 29, 2020",
+    "year": "2020",
+    "publishers": [
+     "L'Aleph"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9176379124"
+    ],
+    "isbn_13": [
+     "9789176379127"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL34861992M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Castalia, Editorial S.A."
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788497404501"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL31484700M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "Feb 05, 2020",
+    "year": "2020",
+    "publishers": [
+     "l'Aleph"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9176377113"
+    ],
+    "isbn_13": [
+     "9789176377116"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL30941755M",
+    "title": "Veinte Poemas De Amor Y Una Cancion Desesperada",
+    "publish_date": "Jan 01, 1986",
+    "year": "1986",
+    "publishers": [
+     "Bruguera"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8402068812"
+    ],
+    "isbn_13": [
+     "9788402068811"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL27793238M",
+    "title": "20 [Veinte] poemas de amor y una canción desesperada",
+    "publish_date": "1956",
+    "year": "1956",
+    "publishers": [
+     "Editorial Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL26374789M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Espasa-Calpe"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788467021837"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL26374787M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Alianza"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8420646229"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL24874429M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1978",
+    "year": "1978",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140422056"
+    ],
+    "isbn_13": [
+     "9780140422054"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL24565473M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Visor Libros"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788475229485"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL20830785M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Cape"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL6446240M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1932",
+    "year": "1932",
+    "publishers": [
+     "Nascimento"
+    ],
+    "publish_places": [
+     "[Santiago de Chile]"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL4677261M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1976",
+    "year": "1976",
+    "publishers": [
+     "Editorial Lumen"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426427103"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL3693437M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng",
+     "spa"
+    ],
+    "isbn_10": [
+     "0142437700"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL4895480M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1978",
+    "year": "1978",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140422056"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL2086801M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Castalia"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8470394940"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL17779274M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1976",
+    "year": "1976",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL136332M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420634182"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL1355932M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Pehuén"
+    ],
+    "publish_places": [
+     "[Santiago, Chile]"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL23834478M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Cape"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9174814M",
+    "title": "Veinte Poemas de Amor y una Canción Desesperada",
+    "publish_date": "January 8, 2004",
+    "year": "2004",
+    "publishers": [
+     "Editorial y Distribuidora Leo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9685368503"
+    ],
+    "isbn_13": [
+     "9789685368506"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL314348M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Espasa-Calpe"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8423974006"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL934226M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Colegio de España"
+    ],
+    "publish_places": [
+     "Salamanca, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8486408504"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL21086424M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Visor",
+     "VISOR LIBROS, S.L."
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8475223672"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL22643133M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Visor"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8475223672"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL18330224M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Seix Barral"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843220773X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL7361808M",
+    "title": "Twenty Love Poems and a Song of Despair",
+    "publish_date": "December 26, 2006",
+    "year": "2006",
+    "publishers": [
+     "Penguin Classics"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0143039962"
+    ],
+    "isbn_13": [
+     "9780143039969"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL14412527M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York, N.Y., U.S.A"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140186484"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL23176338M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Cátedra"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788437624662"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL14808237M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": "1978",
+    "year": "1978",
+    "publishers": [
+     "Editorial Epoca"
+    ],
+    "publish_places": [
+     "Mexico"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL22765116M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0143039962"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL6388030M",
+    "title": "Veinte poemas de amor y una canción desesperada.",
+    "publish_date": "1938",
+    "year": "1938",
+    "publishers": [
+     "Ediciones Ercilla"
+    ],
+    "publish_places": [
+     "Santiago de Chile"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL6735230M",
+    "title": "Veinte poemas de amor y una canción desesperada.",
+    "publish_date": "1924",
+    "year": "1924",
+    "publishers": [
+     "Chile, Nascimento"
+    ],
+    "publish_places": [
+     "Santiago"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL23095366M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0143039962"
+    ],
+    "isbn_13": [
+     "9780143039969"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL22751795M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Manchester University Press",
+     "Distributed exclusively in Canada by Palgrave"
+    ],
+    "publish_places": [
+     "Manchester, UK",
+     "Vancouver"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0719072999"
+    ],
+    "isbn_13": [
+     "9780719072994"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL21730888M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Jonathan Cape"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng",
+     "spa"
+    ],
+    "isbn_10": [
+     "0224012061"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL23083535M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Editores Mexicanos Unidos",
+     "Editores"
+    ],
+    "publish_places": [
+     "[Mexico City]"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "968151307X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL7361022M",
+    "title": "Twenty Love Poems and a Song of Despair",
+    "publish_date": "December 2, 2003",
+    "year": "2003",
+    "publishers": [
+     "Penguin Classics"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0142437700"
+    ],
+    "isbn_13": [
+     "9780142437704"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL20389947M",
+    "title": "Veinte poemas de amor y una canción desesperada.",
+    "publish_date": "1954",
+    "year": "1954",
+    "publishers": [
+     "Editorial Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL1739876M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Chronicle Books"
+    ],
+    "publish_places": [
+     "San Francisco"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0811803201"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9120912M",
+    "title": "Veinte poemas de amor y Una canción desesperada",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Editorial Seix Barral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8432203270"
+    ],
+    "isbn_13": [
+     "9788432203275"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL5727603M",
+    "title": "Twenty love poems and a song of despair",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Cape"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng",
+     "spa"
+    ],
+    "isbn_10": [
+     "0224617257"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL32583345M",
+    "title": "Veinte poemas de amor y una canción desesperada",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788497933056"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL22094948M",
+    "title": "20 poemas de amor, y Una canción desesperada",
+    "publish_date": "1963",
+    "year": "1963",
+    "publishers": [
+     "Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL16800362M",
+    "title": "20 poemas de amor y una canción desesperada.",
+    "publish_date": "1944",
+    "year": "1944",
+    "publishers": [
+     "Editorial Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL23042548M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Clásicos Roxsil"
+    ],
+    "publish_places": [
+     "Santa Tecla, El Salvador"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL15572457M",
+    "title": "20 poemas de amor y una canción desesperada.",
+    "publish_date": "1942",
+    "year": "1942",
+    "publishers": [
+     "Ediciones Ercilla"
+    ],
+    "publish_places": [
+     "Santiago de Chile"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL22904511M",
+    "title": "20 poemas de amor y una canción desesperada",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Editores Mexicanos Unidos"
+    ],
+    "publish_places": [
+     "México D.F., México"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "968150108X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13067585M",
+    "title": "Veinte poemas de amor...",
+    "publish_date": "September 1, 1991",
+    "year": "1991",
+    "publishers": [
+     "Norma"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9580415072"
+    ],
+    "isbn_13": [
+     "9789580415077"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9117074M",
+    "title": "Veinte Poemas de Amor",
+    "publish_date": "January 1, 1994",
+    "year": "1994",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8420634182"
+    ],
+    "isbn_13": [
+     "9788420634180"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL12951930M",
+    "title": "Veinte Poemas de Amor",
+    "publish_date": "November 1996",
+    "year": "1996",
+    "publishers": [
+     "Losada"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500300192"
+    ],
+    "isbn_13": [
+     "9789500300193"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9174700M",
+    "title": "Veinte Poemas De Amor",
+    "publish_date": "October 1999",
+    "year": "1999",
+    "publishers": [
+     "La Mancha Pub"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9685146101"
+    ],
+    "isbn_13": [
+     "9789685146104"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9172325M",
+    "title": "20 Poemas de Amor y una Cancion Desesperada",
+    "publish_date": "June 1998",
+    "year": "1998",
+    "publishers": [
+     "Editores"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "968151307X"
+    ],
+    "isbn_13": [
+     "9789681513078"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9778530M",
+    "title": "20 Poemas de Amor y Una Cancion Desesperada",
+    "publish_date": "October 1999",
+    "year": "1999",
+    "publishers": [
+     "Losada"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8449408202"
+    ],
+    "isbn_13": [
+     "9788449408205"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL18381152M",
+    "title": "20 poemas de amor y una cancion desesperada",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Editores Mexicanos Unidos"
+    ],
+    "publish_places": [
+     "Mexico, D.F"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9681509307"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13884288M",
+    "title": "20 poemas de amor y una cancio n desesperada.",
+    "publish_date": "1974",
+    "year": "1974",
+    "publishers": [
+     "Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL16718045M",
+    "title": "20 [i.e. Veinte] Poemas de amor y una canción desesperada.",
+    "publish_date": "1970",
+    "year": "1970",
+    "publishers": [
+     "Editorial Lord Cochrane"
+    ],
+    "publish_places": [
+     "Santiago de Chile"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL22354904M",
+    "title": "20 [i.e. Veinte] poemas de amor y una canción desesperada.",
+    "publish_date": "1965",
+    "year": "1965",
+    "publishers": [
+     "Editorial Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL18027861M",
+    "title": "20 [i.e. Veinte] poemas de amor y una canción desesperada.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL14818090M",
+    "title": "20 [i. e. Veinte] poemas de amor y una canción desesperada",
+    "publish_date": "1944",
+    "year": "1944",
+    "publishers": [
+     "Editorial Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9172316M",
+    "title": "20 Poemas De Amor Y Una Cancion Desesperada / 20 Poems And A Desperate Song",
+    "publish_date": "April 2004",
+    "year": "2004",
+    "publishers": [
+     "Giron Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9681509307"
+    ],
+    "isbn_13": [
+     "9789681509309"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13124180M",
+    "title": "20 Poemas De Amor Y Una Cancion Desesperada / 20 Poems And A Desperate Song",
+    "publish_date": "August 2000",
+    "year": "2000",
+    "publishers": [
+     "Giron Spanish Books Distributors"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9686769277"
+    ],
+    "isbn_13": [
+     "9789686769272"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9179306M",
+    "title": "20 Poemas De Amor Y Una Cancion Desesperada / 20 Poems And A Desperate Song",
+    "publish_date": "June 1998",
+    "year": "1998",
+    "publishers": [
+     "Grupo Editorial Tomo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9706660712"
+    ],
+    "isbn_13": [
+     "9789706660718"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13364262M",
+    "title": "Veinte Poemas De Amor Y Una Cancion.....",
+    "publish_date": "March 2004",
+    "year": "2004",
+    "publishers": [
+     "European Schoolbooks",
+     "Debolsillo",
+     "DEBOLSILLO"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8497933052"
+    ],
+    "isbn_13": [
+     "9788497933056"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13156026M",
+    "title": "Veinte Poemas De Amor Y Una Cancion",
+    "publish_date": "June 30, 2005",
+    "year": "2005",
+    "publishers": [
+     "Planeta Mexico"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9707490020"
+    ],
+    "isbn_13": [
+     "9789707490024"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL14967778M",
+    "title": "Twenty love poems",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Cape"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0224617249"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL7414717M",
+    "title": "Twenty Love Poems and a Song of Despair",
+    "publish_date": "November 18, 2004",
+    "year": "2004",
+    "publishers": [
+     "Jonathan Cape"
+    ],
+    "publish_places": [
+     "London, England"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0224074415"
+    ],
+    "isbn_13": [
+     "9780224074414"
+    ],
+    "translation_of": "Veinte Poemas de Amor y una Cancion Desesperada",
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9131518M",
+    "title": "Veinte poemás de amor",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Edaf S.A."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8441404712"
+    ],
+    "isbn_13": [
+     "9788441404717"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13071078M",
+    "title": "Veinte Poemas de Amor y Una Cancisn Desesperada",
+    "publish_date": "May 2004",
+    "year": "2004",
+    "publishers": [
+     "Editorial Seix Barral"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9584208683"
+    ],
+    "isbn_13": [
+     "9789584208682"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9138794M",
+    "title": "Veinte Poemas de Amor y Una Cancion Desesperada",
+    "publish_date": "October 2002",
+    "year": "2002",
+    "publishers": [
+     "Editorial Seix Barral"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9507313575"
+    ],
+    "isbn_13": [
+     "9789507313578"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9136890M",
+    "title": "Veinte Poemas de Amor y Una Cancion Desesperada",
+    "publish_date": "February 2003",
+    "year": "2003",
+    "publishers": [
+     "Grupo Oceano"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8475059007"
+    ],
+    "isbn_13": [
+     "9788475059006"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9150082M",
+    "title": "Veinte Poemas De Amor Y Una Cancion Desesperada",
+    "publish_date": "March 2002",
+    "year": "2002",
+    "publishers": [
+     "Grupo Editorial Norma"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9580469113"
+    ],
+    "isbn_13": [
+     "9789580469117"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9117271M",
+    "title": "Veinte Poemas De Amor Y Una Cancion Desesperada/ 20 Love Poems and a Desperate Song",
+    "publish_date": "February 28, 2004",
+    "year": "2004",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420641901"
+    ],
+    "isbn_13": [
+     "9788420641904"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13056792M",
+    "title": "Veinte Poemas de Amor y Una Cancion Desesp",
+    "publish_date": "January 1, 1996",
+    "year": "1996",
+    "publishers": [
+     "Andres Bello"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9561314118"
+    ],
+    "isbn_13": [
+     "9789561314115"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9134755M",
+    "title": "Veinte Poemas De Amor Y Una Cancion",
+    "publish_date": "January 2000",
+    "year": "2000",
+    "publishers": [
+     "Editorial Castalia"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8470394940"
+    ],
+    "isbn_13": [
+     "9788470394942"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9357313M",
+    "title": "Veinte Poemas De Amor",
+    "publish_date": "April 1999",
+    "year": "1999",
+    "publishers": [
+     "Planeta"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843220773X"
+    ],
+    "isbn_13": [
+     "9788432207730"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL7354563M",
+    "title": "Twenty Love Poems",
+    "publish_date": "October 28, 1976",
+    "year": "1976",
+    "publishers": [
+     "Penguin Classics"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0140422056"
+    ],
+    "isbn_13": [
+     "9780140422054"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9483253M",
+    "title": "20 Poemas De Amor Y Una Cancion Desesperada / 20 Poems And A Desperate Song (Joyas Edaf)",
+    "publish_date": "January 2003",
+    "year": "2003",
+    "publishers": [
+     "Edaf S.A."
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8441410356"
+    ],
+    "isbn_13": [
+     "9788441410350"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9172283M",
+    "title": "20 Poemas De Amor Y Una Cancion Deseperada / 20 Poems Desperate Song",
+    "publish_date": "October 1998",
+    "year": "1998",
+    "publishers": [
+     "Enslow Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "968150108X"
+    ],
+    "isbn_13": [
+     "9789681501082"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL9199504M",
+    "title": "20 Poemas De Amor Y Una Cancio (Contemporanea)",
+    "publish_date": "March 2005",
+    "year": "2005",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9871138164"
+    ],
+    "isbn_13": [
+     "9789871138166"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL12952471M",
+    "title": "20 Poemas de Amor y una Canción Desesperada (Intemporales)",
+    "publish_date": "April 1, 1997",
+    "year": "1997",
+    "publishers": [
+     "Losada/Argentina"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500362368"
+    ],
+    "isbn_13": [
+     "9789500362368"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL5661788M",
+    "title": "20 poemas de amor; 1. canción desesperada.",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Mestre Jon"
+    ],
+    "publish_places": [
+     "São Paulo"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL8364679M",
+    "title": "20 Poemas De Amor",
+    "publish_date": "August 18, 2004",
+    "year": "2004",
+    "publishers": [
+     "Grijalbo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "1400099722"
+    ],
+    "isbn_13": [
+     "9781400099726"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   },
+   {
+    "key": "/books/OL13534271M",
+    "title": "20 (Veinte) poemas de amor y una canción desesperada",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Editorial Losada"
+    ],
+    "publish_places": [
+     "Buenos Aires, Argentina"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL979517W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 5.5,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 6,
+   "failed": 0,
+   "total_s": 7.89,
+   "p50_s": 1.302,
+   "max_s": 1.85
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 5.51,
+   "p50_s": 5.509,
+   "max_s": 5.509
+  }
+ },
+ "failures": []
+}

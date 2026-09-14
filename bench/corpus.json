@@ -1,139 +1,2272 @@
 {
-  "version": 1,
-  "created": "2026-09-14",
-  "about": "Benchmark corpus for docs/assessment-2026-09-14.md §9. Entry titles: existing books from STRATEGY.md 'Convergence sets' and 'Single cases' (Živago from docs/Task.md); N1-N24 from §9, with the original title as the UC3 entry. query_author is the author string sent with every entry title: the form the regression tables use for existing books, the §9 form for new ones. ground_truth is filled in step 1 of Stage 1.",
-  "books": [
-    {"id": "E01", "slug": "cien-anos", "original_title": "Cien años de soledad", "authors": ["Gabriel García Márquez"], "query_author": "Garcia Marquez",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Cent'anni di solitudine"}, {"key": "eng", "lang": "eng", "title": "One Hundred Years of Solitude"}, {"key": "spa", "lang": "spa", "title": "Cien años de soledad"}],
-     "origin": "STRATEGY convergence set", "insights_only": false, "ground_truth": null},
-    {"id": "E02", "slug": "steps-ecology", "original_title": "Steps to an Ecology of Mind", "authors": ["Gregory Bateson"], "query_author": "Bateson",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Verso un'ecologia della mente"}, {"key": "eng", "lang": "eng", "title": "Steps to an Ecology of Mind"}],
-     "origin": "STRATEGY convergence set; single case (UFI0556368)", "insights_only": false, "ground_truth": null},
-    {"id": "E03", "slug": "bruits", "original_title": "Bruits : essai sur l'économie politique de la musique", "authors": ["Jacques Attali"], "query_author": "Jacques Attali",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Rumori"}, {"key": "eng", "lang": "eng", "title": "Noise"}, {"key": "fre", "lang": "fre", "title": "Bruits"}],
-     "origin": "STRATEGY convergence set", "insights_only": false, "ground_truth": null},
-    {"id": "E04", "slug": "kafka-shore", "original_title": "海辺のカフカ (Umibe no Kafuka)", "authors": ["Haruki Murakami"], "query_author": "Murakami Haruki",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Kafka sulla spiaggia"}, {"key": "eng", "lang": "eng", "title": "Kafka on the Shore"}, {"key": "jpn", "lang": "jpn", "title": "Umibe no Kafuka"}],
-     "origin": "STRATEGY convergence set; single cases (Step 4 caveat, cache poisoning)", "insights_only": false, "ground_truth": null},
-    {"id": "E05", "slug": "invention-news", "original_title": "The Invention of News", "authors": ["Andrew Pettegree"], "query_author": "Pettegree",
-     "entries": [{"key": "ita", "lang": "ita", "title": "L'invenzione delle notizie"}, {"key": "eng", "lang": "eng", "title": "The Invention of News"}],
-     "origin": "STRATEGY convergence set", "insights_only": false, "ground_truth": null},
-    {"id": "E06", "slug": "more-brilliant", "original_title": "More Brilliant Than the Sun", "authors": ["Kodwo Eshun"], "query_author": "Eshun",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Più brillante del sole"}, {"key": "eng", "lang": "eng", "title": "More Brilliant Than the Sun"}],
-     "origin": "STRATEGY convergence set", "insights_only": false, "ground_truth": null},
-    {"id": "E07", "slug": "liquid-modernity", "original_title": "Liquid Modernity", "authors": ["Zygmunt Bauman"], "query_author": "Bauman",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Modernità liquida"}, {"key": "eng", "lang": "eng", "title": "Liquid Modernity"}],
-     "origin": "STRATEGY convergence set; single case (share threshold)", "insights_only": false, "ground_truth": null},
-    {"id": "E08", "slug": "social-matrix", "original_title": "Communication: The Social Matrix of Psychiatry", "authors": ["Jurgen Ruesch", "Gregory Bateson"], "query_author": "Ruesch",
-     "entries": [{"key": "ita", "lang": "ita", "title": "La matrice sociale della psichiatria"}, {"key": "eng", "lang": "eng", "title": "Communication: The Social Matrix of Psychiatry"}],
-     "origin": "STRATEGY convergence set", "insights_only": false, "ground_truth": null},
-    {"id": "E09", "slug": "name-rose", "original_title": "Il nome della rosa", "authors": ["Umberto Eco"], "query_author": "Eco",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Il nome della rosa"}, {"key": "eng", "lang": "eng", "title": "The Name of the Rose"}],
-     "origin": "STRATEGY convergence set; single case (B ≈ 0.54)", "insights_only": false, "ground_truth": null},
-    {"id": "E10", "slug": "leopardi-opere", "original_title": "Opere", "authors": ["Giacomo Leopardi"], "query_author": "Leopardi",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Opere"}],
-     "origin": "STRATEGY single case (generic title, expect rejected)", "insights_only": false, "ground_truth": null},
-    {"id": "E11", "slug": "montale-poesie", "original_title": "Poesie", "authors": ["Eugenio Montale"], "query_author": "Montale",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Poesie"}],
-     "origin": "STRATEGY single case (generic title, expect rejected)", "insights_only": false, "ground_truth": null},
-    {"id": "E12", "slug": "benjamin-begriff", "original_title": "Über den Begriff der Geschichte", "authors": ["Walter Benjamin"], "query_author": "Walter Benjamin",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Tesi di filosofia della storia"}],
-     "origin": "STRATEGY single cases (weak work, retranslation limit)", "insights_only": false, "ground_truth": null},
-    {"id": "E13", "slug": "benjamin-angelus", "original_title": "Angelus Novus", "authors": ["Walter Benjamin"], "query_author": "Walter Benjamin",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Angelus Novus"}],
-     "origin": "STRATEGY single case (anthology vs collected works)", "insights_only": false, "ground_truth": null},
-    {"id": "E14", "slug": "attali-economia-positiva", "original_title": "Pour une économie positive", "authors": ["Jacques Attali"], "query_author": "Jacques Attali",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Per una economia positiva"}],
-     "origin": "STRATEGY single case (translation SBN has not linked)", "insights_only": false, "ground_truth": null},
-    {"id": "E15", "slug": "essential-knuth", "original_title": "The Essential Knuth", "authors": ["Edgar G. Daylight", "Donald E. Knuth"], "query_author": "Knuth",
-     "entries": [{"key": "eng", "lang": "eng", "title": "The Essential Knuth"}],
-     "origin": "HANDOFF §9 (no Italian edition)", "insights_only": false, "ground_truth": null},
-    {"id": "E16", "slug": "doctor-zhivago", "original_title": "Доктор Живаго", "authors": ["Boris Pasternak"], "query_author": "Pasternak",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Il dottor Živago"}, {"key": "eng", "lang": "eng", "title": "Doctor Zhivago"}, {"key": "rus", "lang": "rus", "title": "Доктор Живаго"}],
-     "origin": "assessment §2 / docs/Task.md", "insights_only": false, "ground_truth": null},
-
-    {"id": "N01", "slug": "kundera-lightness", "original_title": "Nesnesitelná lehkost bytí", "authors": ["Milan Kundera"], "query_author": "Milan Kundera",
-     "entries": [{"key": "cze", "lang": "cze", "title": "Nesnesitelná lehkost bytí"}, {"key": "eng", "lang": "eng", "title": "The Unbearable Lightness of Being"}, {"key": "ita", "lang": "ita", "title": "L'insostenibile leggerezza dell'essere"}],
-     "origin": "§9 N1", "insights_only": false, "ground_truth": null},
-    {"id": "N02", "slug": "petit-prince", "original_title": "Le Petit Prince", "authors": ["Antoine de Saint-Exupéry"], "query_author": "Antoine de Saint-Exupéry",
-     "entries": [{"key": "fre", "lang": "fre", "title": "Le Petit Prince"}, {"key": "eng", "lang": "eng", "title": "The Little Prince"}, {"key": "ita", "lang": "ita", "title": "Il piccolo principe"}],
-     "origin": "§9 N2", "insights_only": false, "ground_truth": null},
-    {"id": "N03", "slug": "levi-uomo", "original_title": "Se questo è un uomo", "authors": ["Primo Levi"], "query_author": "Primo Levi",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Se questo è un uomo"}, {"key": "eng", "lang": "eng", "title": "If This Is a Man"}, {"key": "eng-2", "lang": "eng", "title": "Survival in Auschwitz"}],
-     "origin": "§9 N3", "insights_only": false, "ground_truth": null},
-    {"id": "N04", "slug": "crime-punishment", "original_title": "Преступление и наказание", "authors": ["Fëdor Dostoevskij"], "query_author": "Fëdor Dostoevskij",
-     "entries": [{"key": "rus", "lang": "rus", "title": "Преступление и наказание"}, {"key": "eng", "lang": "eng", "title": "Crime and Punishment"}, {"key": "ita", "lang": "ita", "title": "Delitto e castigo"}],
-     "origin": "§9 N4", "insights_only": false, "ground_truth": null},
-    {"id": "N05", "slug": "catcher-rye", "original_title": "The Catcher in the Rye", "authors": ["J. D. Salinger"], "query_author": "J. D. Salinger",
-     "entries": [{"key": "eng", "lang": "eng", "title": "The Catcher in the Rye"}, {"key": "ita", "lang": "ita", "title": "Il giovane Holden"}, {"key": "ita-2", "lang": "ita", "title": "Vita da uomo"}],
-     "origin": "§9 N5", "insights_only": false, "ground_truth": null},
-    {"id": "N06", "slug": "nineteen-eighty-four", "original_title": "Nineteen Eighty-Four", "authors": ["George Orwell"], "query_author": "George Orwell",
-     "entries": [{"key": "eng", "lang": "eng", "title": "Nineteen Eighty-Four"}, {"key": "ita", "lang": "ita", "title": "1984"}, {"key": "ita-2", "lang": "ita", "title": "Millenovecentottantaquattro"}],
-     "origin": "§9 N6", "insights_only": false, "ground_truth": null},
-    {"id": "N07", "slug": "calvino-viaggiatore", "original_title": "Se una notte d'inverno un viaggiatore", "authors": ["Italo Calvino"], "query_author": "Italo Calvino",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Se una notte d'inverno un viaggiatore"}, {"key": "eng", "lang": "eng", "title": "If on a Winter's Night a Traveler"}],
-     "origin": "§9 N7", "insights_only": false, "ground_truth": null},
-    {"id": "N08", "slug": "amica-geniale", "original_title": "L'amica geniale", "authors": ["Elena Ferrante"], "query_author": "Elena Ferrante",
-     "entries": [{"key": "ita", "lang": "ita", "title": "L'amica geniale"}, {"key": "eng", "lang": "eng", "title": "My Brilliant Friend"}],
-     "origin": "§9 N8", "insights_only": false, "ground_truth": null},
-    {"id": "N09", "slug": "formaggio-vermi", "original_title": "Il formaggio e i vermi", "authors": ["Carlo Ginzburg"], "query_author": "Carlo Ginzburg",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Il formaggio e i vermi"}, {"key": "eng", "lang": "eng", "title": "The Cheese and the Worms"}],
-     "origin": "§9 N9", "insights_only": false, "ground_truth": null},
-    {"id": "N10", "slug": "etranger", "original_title": "L'Étranger", "authors": ["Albert Camus"], "query_author": "Albert Camus",
-     "entries": [{"key": "fre", "lang": "fre", "title": "L'Étranger"}, {"key": "eng", "lang": "eng", "title": "The Stranger"}, {"key": "eng-2", "lang": "eng", "title": "The Outsider"}, {"key": "ita", "lang": "ita", "title": "Lo straniero"}],
-     "origin": "§9 N10", "insights_only": false, "ground_truth": null},
-    {"id": "N11", "slug": "disparition", "original_title": "La Disparition", "authors": ["Georges Perec"], "query_author": "Georges Perec",
-     "entries": [{"key": "fre", "lang": "fre", "title": "La Disparition"}, {"key": "eng", "lang": "eng", "title": "A Void"}, {"key": "ita", "lang": "ita", "title": "La scomparsa"}],
-     "origin": "§9 N11", "insights_only": false, "ground_truth": null},
-    {"id": "N12", "slug": "kafka-process", "original_title": "Der Process", "authors": ["Franz Kafka"], "query_author": "Franz Kafka",
-     "entries": [{"key": "ger", "lang": "ger", "title": "Der Process"}, {"key": "ger-2", "lang": "ger", "title": "Der Prozess"}, {"key": "eng", "lang": "eng", "title": "The Trial"}, {"key": "ita", "lang": "ita", "title": "Il processo"}],
-     "origin": "§9 N12 (both spellings named there)", "insights_only": false, "ground_truth": null},
-    {"id": "N13", "slug": "han-burnout", "original_title": "Müdigkeitsgesellschaft", "authors": ["Byung-Chul Han"], "query_author": "Byung-Chul Han",
-     "entries": [{"key": "ger", "lang": "ger", "title": "Müdigkeitsgesellschaft"}, {"key": "eng", "lang": "eng", "title": "The Burnout Society"}, {"key": "ita", "lang": "ita", "title": "La società della stanchezza"}],
-     "origin": "§9 N13", "insights_only": false, "ground_truth": null},
-    {"id": "N14", "slug": "saramago-cegueira", "original_title": "Ensaio sobre a cegueira", "authors": ["José Saramago"], "query_author": "José Saramago",
-     "entries": [{"key": "por", "lang": "por", "title": "Ensaio sobre a cegueira"}, {"key": "eng", "lang": "eng", "title": "Blindness"}, {"key": "ita", "lang": "ita", "title": "Cecità"}],
-     "origin": "§9 N14", "insights_only": false, "ground_truth": null},
-    {"id": "N15", "slug": "bolano-2666", "original_title": "2666", "authors": ["Roberto Bolaño"], "query_author": "Roberto Bolaño",
-     "entries": [{"key": "spa", "lang": "spa", "title": "2666"}, {"key": "eng", "lang": "eng", "title": "2666"}, {"key": "ita", "lang": "ita", "title": "2666"}],
-     "origin": "§9 N15 (one string for all three languages)", "insights_only": false, "ground_truth": null},
-    {"id": "N16", "slug": "yu-hua-to-live", "original_title": "活着", "authors": ["Yu Hua"], "query_author": "Yu Hua",
-     "entries": [{"key": "chi", "lang": "chi", "title": "活着"}, {"key": "eng", "lang": "eng", "title": "To Live"}, {"key": "ita", "lang": "ita", "title": "Vivere!"}],
-     "origin": "§9 N16", "insights_only": false, "ground_truth": null},
-    {"id": "N17", "slug": "mahfouz-palace-walk", "original_title": "بين القصرين", "authors": ["Naguib Mahfouz"], "query_author": "Naguib Mahfouz",
-     "entries": [{"key": "ara", "lang": "ara", "title": "بين القصرين"}, {"key": "eng", "lang": "eng", "title": "Palace Walk"}, {"key": "ita", "lang": "ita", "title": "Tra i due palazzi"}],
-     "origin": "§9 N17 (Italian title to verify)", "insights_only": false, "ground_truth": null},
-    {"id": "N18", "slug": "fisher-capitalist-realism", "original_title": "Capitalist Realism", "authors": ["Mark Fisher"], "query_author": "Mark Fisher",
-     "entries": [{"key": "eng", "lang": "eng", "title": "Capitalist Realism"}, {"key": "ita", "lang": "ita", "title": "Realismo capitalista"}],
-     "origin": "§9 N18", "insights_only": false, "ground_truth": null},
-    {"id": "N19", "slug": "zevin-tomorrow", "original_title": "Tomorrow, and Tomorrow, and Tomorrow", "authors": ["Gabrielle Zevin"], "query_author": "Gabrielle Zevin",
-     "entries": [{"key": "eng", "lang": "eng", "title": "Tomorrow, and Tomorrow, and Tomorrow"}, {"key": "ita", "lang": "ita", "title": "Domani, e domani, e domani"}],
-     "origin": "§9 N19", "insights_only": false, "ground_truth": null},
-    {"id": "N20", "slug": "metaphors-live-by", "original_title": "Metaphors We Live By", "authors": ["George Lakoff", "Mark Johnson"], "query_author": "George Lakoff",
-     "entries": [{"key": "eng", "lang": "eng", "title": "Metaphors We Live By"}, {"key": "ita", "lang": "ita", "title": "Metafora e vita quotidiana"}],
-     "origin": "§9 N20", "insights_only": false, "ground_truth": null},
-    {"id": "N21", "slug": "neruda-veinte-poemas", "original_title": "Veinte poemas de amor y una canción desesperada", "authors": ["Pablo Neruda"], "query_author": "Pablo Neruda",
-     "entries": [{"key": "spa", "lang": "spa", "title": "Veinte poemas de amor y una canción desesperada"}, {"key": "eng", "lang": "eng", "title": "Twenty Love Poems and a Song of Despair"}, {"key": "ita", "lang": "ita", "title": "Venti poesie d'amore e una canzone disperata"}],
-     "origin": "§9 N21", "insights_only": false, "ground_truth": null},
-    {"id": "N22", "slug": "piketty-capital", "original_title": "Le Capital au XXIe siècle", "authors": ["Thomas Piketty"], "query_author": "Thomas Piketty",
-     "entries": [{"key": "fre", "lang": "fre", "title": "Le Capital au XXIe siècle"}, {"key": "eng", "lang": "eng", "title": "Capital in the Twenty-First Century"}, {"key": "ita", "lang": "ita", "title": "Il capitale nel XXI secolo"}],
-     "origin": "§9 N22", "insights_only": false, "ground_truth": null},
-    {"id": "N23", "slug": "odyssey", "original_title": "Ὀδύσσεια", "authors": ["Homer"], "query_author": "Homer",
-     "entries": [{"key": "grc", "lang": "grc", "title": "Ὀδύσσεια"}, {"key": "eng", "lang": "eng", "title": "The Odyssey"}, {"key": "ita", "lang": "ita", "title": "Odissea"}],
-     "origin": "§9 N23", "insights_only": true, "ground_truth": null},
-    {"id": "N24", "slug": "ciprian-casa", "original_title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna", "authors": ["Orlando Ciprian"], "query_author": "Orlando Ciprian",
-     "entries": [{"key": "ita", "lang": "ita", "title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna"}],
-     "origin": "§9 N24 (facts from the user)", "insights_only": false, "ground_truth": null}
-  ],
-  "authors": [
-    {"id": "P01", "person": "Gregory Bateson", "variants": ["Gregory Bateson"]},
-    {"id": "P02", "person": "Haruki Murakami", "variants": ["Murakami Haruki", "Haruki Murakami", "村上春樹"]},
-    {"id": "P03", "person": "Fyodor Dostoevsky", "variants": ["Fëdor Dostoevskij", "Fyodor Dostoevsky", "Dostoïevski", "Фёдор Достоевский"]},
-    {"id": "P04", "person": "Elena Ferrante", "variants": ["Elena Ferrante"]},
-    {"id": "P05", "person": "Jacques Attali", "variants": ["Jacques Attali"]},
-    {"id": "P06", "person": "Umberto Eco", "variants": ["Umberto Eco"]},
-    {"id": "P07", "person": "Kodwo Eshun", "variants": ["Kodwo Eshun"]},
-    {"id": "P08", "person": "Byung-Chul Han", "variants": ["Byung-Chul Han", "Han Byung-Chul", "한병철"]},
-    {"id": "P09", "person": "Gabriel García Márquez", "variants": ["Gabriel García Márquez", "Garcia Marquez"]}
-  ]
+ "version": 1,
+ "created": "2026-09-14",
+ "about": "Benchmark corpus for docs/assessment-2026-09-14.md §9. Entry titles: existing books from STRATEGY.md 'Convergence sets' and 'Single cases' (Živago from docs/Task.md); N1-N24 from §9, with the original title as the UC3 entry. query_author is the author string sent with every entry title: the form the regression tables use for existing books, the §9 form for new ones. ground_truth is filled in step 1 of Stage 1. Ground truth: facts from Wikipedia article text, national-library records (SBN, LoC, BnF, DNB) or the publisher; never from Wikidata. Raw evidence: results/stage-1/gt_catalogues.json, gt_wikipedia.json.",
+ "books": [
+  {
+   "id": "E01",
+   "slug": "cien-anos",
+   "original_title": "Cien años de soledad",
+   "authors": [
+    "Gabriel García Márquez"
+   ],
+   "query_author": "Garcia Marquez",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Cent'anni di solitudine"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "One Hundred Years of Solitude"
+    },
+    {
+     "key": "spa",
+     "lang": "spa",
+     "title": "Cien años de soledad"
+    }
+   ],
+   "origin": "STRATEGY convergence set",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Cien años de soledad",
+    "original_language": "spa",
+    "original_first_edition": {
+     "year": "1967",
+     "publisher": "Editorial Sudamericana",
+     "place": "Buenos Aires",
+     "sources": [
+      "en.wikipedia 'One Hundred Years of Solitude': infobox May 1967, Editorial Sudamericana; body: first published May 1967 in Buenos Aires"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": {
+     "count": "46 (en.wikipedia) vs 37 (it.wikipedia)",
+     "sources": [
+      "en.wikipedia 'One Hundred Years of Solitude'",
+      "it.wikipedia 'Cent'anni di solitudine'"
+     ],
+     "conflict": true
+    },
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : Feltrinelli, 1968"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: New York, Harper & Row, 1970"
+     },
+     "spa": {
+      "published": true,
+      "evidence": "original title"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E02",
+   "slug": "steps-ecology",
+   "original_title": "Steps to an Ecology of Mind",
+   "authors": [
+    "Gregory Bateson"
+   ],
+   "query_author": "Bateson",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Verso un'ecologia della mente"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Steps to an Ecology of Mind"
+    }
+   ],
+   "origin": "STRATEGY convergence set; single case (UFI0556368)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Steps to an Ecology of Mind",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "1972",
+     "publisher": "Chandler Publishing Company or Ballantine Books",
+     "place": "unknown",
+     "sources": [
+      "en.wikipedia 'Steps to an Ecology of Mind': infobox: Chandler Publishing Company, 1972; lead: originally published by Ballantine Books in 1972"
+     ],
+     "note": "the one article names two publishers; LoC SRU returned only the 2000 Chicago reprint"
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : Adelphi, 1976"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E03",
+   "slug": "bruits",
+   "original_title": "Bruits : essai sur l'économie politique de la musique",
+   "authors": [
+    "Jacques Attali"
+   ],
+   "query_author": "Jacques Attali",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Rumori"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Noise"
+    },
+    {
+     "key": "fre",
+     "lang": "fre",
+     "title": "Bruits"
+    }
+   ],
+   "origin": "STRATEGY convergence set",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Bruits : essai sur l'économie politique de la musique",
+    "original_language": "fre",
+    "original_first_edition": {
+     "year": "1977",
+     "publisher": "Presses universitaires de France",
+     "place": "Paris",
+     "sources": [
+      "BnF SRU record: Presses universitaires de France (Paris), 1977",
+      "en.wikipedia 'Noise: The Political Economy of Music': first published in French in 1977, PUF"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN RAV0064979: Milano : Mazzotta, c1978, stampa 1977"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'Noise: The Political Economy of Music': English translation by Brian Massumi, 1985, University of Minnesota Press"
+     },
+     "fre": {
+      "published": true,
+      "evidence": "BnF SRU record: title matches, 1977"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E04",
+   "slug": "kafka-shore",
+   "original_title": "海辺のカフカ",
+   "authors": [
+    "Haruki Murakami"
+   ],
+   "query_author": "Murakami Haruki",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Kafka sulla spiaggia"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Kafka on the Shore"
+    },
+    {
+     "key": "jpn",
+     "lang": "jpn",
+     "title": "Umibe no Kafuka"
+    }
+   ],
+   "origin": "STRATEGY convergence set; single cases (Step 4 caveat, cache poisoning)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "海辺のカフカ",
+    "original_language": "jpn",
+    "original_first_edition": {
+     "year": "2002",
+     "publisher": "Shinchōsha (新潮社)",
+     "place": "unknown",
+     "sources": [
+      "ja.wikipedia '海辺のカフカ': infobox 2002年9月12日, 新潮社",
+      "en.wikipedia 'Kafka on the Shore': 2002 novel"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Torino : Einaudi, 2008"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: New York : Alfred A. Knopf, 2005"
+     },
+     "jpn": {
+      "published": true,
+      "evidence": "en.wikipedia 'Kafka on the Shore': title_orig 海辺のカフカ / Umibe no Kafuka (a romanisation, not a printed title)"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   },
+   "original_title_romanised": "Umibe no Kafuka"
+  },
+  {
+   "id": "E05",
+   "slug": "invention-news",
+   "original_title": "The Invention of News",
+   "authors": [
+    "Andrew Pettegree"
+   ],
+   "query_author": "Pettegree",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "L'invenzione delle notizie"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Invention of News"
+    }
+   ],
+   "origin": "STRATEGY convergence set",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "The Invention of News: How the World Came to Know about Itself",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "2014",
+     "publisher": "Yale University Press",
+     "place": "New Haven",
+     "sources": [
+      "publisher: https://yalebooks.yale.edu/book/9780300212761/the-invention-of-news/",
+      "LoC SRU (lx2.loc.gov LCDB) record: The invention of news, ISBN 9780300179088 (no date in the DC record)"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN RMS2685379: Torino : Einaudi, 2015"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E06",
+   "slug": "more-brilliant",
+   "original_title": "More Brilliant Than the Sun",
+   "authors": [
+    "Kodwo Eshun"
+   ],
+   "query_author": "Eshun",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Più brillante del sole"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "More Brilliant Than the Sun"
+    }
+   ],
+   "origin": "STRATEGY convergence set",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "More Brilliant Than the Sun: Adventures in Sonic Fiction",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "1998",
+     "publisher": "Quartet Books",
+     "place": "London",
+     "sources": [
+      "LoC SRU (lx2.loc.gov LCDB) record: London : Quartet Books, 1998"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Roma : Nero, 2021"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E07",
+   "slug": "liquid-modernity",
+   "original_title": "Liquid Modernity",
+   "authors": [
+    "Zygmunt Bauman"
+   ],
+   "query_author": "Bauman",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Modernità liquida"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Liquid Modernity"
+    }
+   ],
+   "origin": "STRATEGY convergence set; single case (share threshold)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Liquid Modernity",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "2000",
+     "publisher": "Polity Press",
+     "place": "Cambridge, UK",
+     "sources": [
+      "LoC SRU (lx2.loc.gov LCDB) record: Cambridge, UK : Polity Press ; Malden, MA, 2000"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Roma : GLF editori Laterza, 2002"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E08",
+   "slug": "social-matrix",
+   "original_title": "Communication: The Social Matrix of Psychiatry",
+   "authors": [
+    "Jurgen Ruesch",
+    "Gregory Bateson"
+   ],
+   "query_author": "Ruesch",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "La matrice sociale della psichiatria"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Communication: The Social Matrix of Psychiatry"
+    }
+   ],
+   "origin": "STRATEGY convergence set",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Communication: The Social Matrix of Psychiatry",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "1951",
+     "publisher": "W. W. Norton",
+     "place": "New York",
+     "sources": [
+      "LoC SRU (lx2.loc.gov LCDB) record: New York, Norton, 1951"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Bologna : Il mulino, [1976]"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E09",
+   "slug": "name-rose",
+   "original_title": "Il nome della rosa",
+   "authors": [
+    "Umberto Eco"
+   ],
+   "query_author": "Eco",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Il nome della rosa"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Name of the Rose"
+    }
+   ],
+   "origin": "STRATEGY convergence set; single case (B ≈ 0.54)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Il nome della rosa",
+    "original_language": "ita",
+    "original_first_edition": {
+     "year": "1980",
+     "publisher": "Bompiani",
+     "place": "Milano",
+     "sources": [
+      "en.wikipedia 'The Name of the Rose': infobox 1980, Bompiani",
+      "SBN RAV0047653: Milano : Bompiani, 1980"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": {
+     "count": "over 40",
+     "sources": [
+      "it.wikipedia 'Il nome della rosa'"
+     ]
+    },
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'The Name of the Rose': English 1983, Harcourt; LoC Harcourt Brace record"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E10",
+   "slug": "leopardi-opere",
+   "original_title": "Opere",
+   "authors": [
+    "Giacomo Leopardi"
+   ],
+   "query_author": "Leopardi",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Opere"
+    }
+   ],
+   "origin": "STRATEGY single case (generic title, expect rejected)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Opere (a generic title: many different collected editions)",
+    "original_language": "ita",
+    "original_first_edition": null,
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "not_a_single_work": true,
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: 58 title matches, earliest Firenze : Felice Le Monnier, 1845"
+     }
+    },
+    "first_edition_differs": null,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E11",
+   "slug": "montale-poesie",
+   "original_title": "Poesie",
+   "authors": [
+    "Eugenio Montale"
+   ],
+   "query_author": "Montale",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Poesie"
+    }
+   ],
+   "origin": "STRATEGY single case (generic title, expect rejected)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Poesie (a generic title: several different selections)",
+    "original_language": "ita",
+    "original_first_edition": null,
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "not_a_single_work": true,
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: 44 title matches, earliest Firenze : Parenti, 1938"
+     }
+    },
+    "first_edition_differs": null,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E12",
+   "slug": "benjamin-begriff",
+   "original_title": "Über den Begriff der Geschichte",
+   "authors": [
+    "Walter Benjamin"
+   ],
+   "query_author": "Walter Benjamin",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Tesi di filosofia della storia"
+    }
+   ],
+   "origin": "STRATEGY single cases (weak work, retranslation limit)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Über den Begriff der Geschichte",
+    "original_language": "ger",
+    "original_first_edition": {
+     "year": "1942",
+     "publisher": "Institut für Sozialforschung (in 'Walter Benjamin zum Gedächtnis', hectographed)",
+     "place": "unknown",
+     "sources": [
+      "de.wikipedia 'Über den Begriff der Geschichte': erschien postum erstmals 1942 hektographiert ... Gedenkband des Instituts für Sozialforschung (ref. Brodersen 2005)",
+      "en.wikipedia 'Theses on the Philosophy of History': Walter Benjamin zum Gedächtnis, spring 1942"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano ; Udine : Mimesis, 2012 (title match); also inside Angelus Novus, 1962"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E13",
+   "slug": "benjamin-angelus",
+   "original_title": "Angelus Novus",
+   "authors": [
+    "Walter Benjamin"
+   ],
+   "query_author": "Walter Benjamin",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Angelus Novus"
+    }
+   ],
+   "origin": "STRATEGY single case (anthology vs collected works)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Angelus Novus: saggi e frammenti (Italian anthology of Benjamin's essays)",
+    "original_language": "ita",
+    "original_first_edition": {
+     "year": "1962",
+     "publisher": "Einaudi",
+     "place": "Torino",
+     "sources": [
+      "DNB SRU record: Angelus novus, Torino : Einaudi, 1962"
+     ],
+     "note": "an anthology first published in Italian translation; the German 'Angelus Novus' selection (1966) is a different book"
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "uncertain": "which book counts as the work is a modelling choice",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "DNB SRU record: Torino : Einaudi, 1962"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E14",
+   "slug": "attali-economia-positiva",
+   "original_title": "Pour une économie positive",
+   "authors": [
+    "Jacques Attali"
+   ],
+   "query_author": "Jacques Attali",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Per una economia positiva"
+    }
+   ],
+   "origin": "STRATEGY single case (translation SBN has not linked)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Pour une économie positive",
+    "original_language": "fre",
+    "original_first_edition": {
+     "year": "2013",
+     "publisher": "La Documentation française",
+     "place": "Paris",
+     "sources": [
+      "BnF SRU record: la Documentation française (Paris), 2013"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : EGEA, 2014"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E15",
+   "slug": "essential-knuth",
+   "original_title": "The Essential Knuth",
+   "authors": [
+    "Edgar G. Daylight",
+    "Donald E. Knuth"
+   ],
+   "query_author": "Knuth",
+   "entries": [
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Essential Knuth"
+    }
+   ],
+   "origin": "HANDOFF §9 (no Italian edition)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "The Essential Knuth",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "2013",
+     "publisher": "Lonely Scholar",
+     "place": "unknown",
+     "sources": [
+      "publisher: https://www.lonelyscholar.com/knuth"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "eng": {
+      "published": true,
+      "evidence": "publisher page"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "E16",
+   "slug": "doctor-zhivago",
+   "original_title": "Доктор Живаго",
+   "authors": [
+    "Boris Pasternak"
+   ],
+   "query_author": "Pasternak",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Il dottor Živago"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Doctor Zhivago"
+    },
+    {
+     "key": "rus",
+     "lang": "rus",
+     "title": "Доктор Живаго"
+    }
+   ],
+   "origin": "assessment §2 / docs/Task.md",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Доктор Живаго",
+    "original_language": "rus",
+    "original_first_edition": {
+     "year": "1958",
+     "publisher": "Mouton",
+     "place": "The Hague",
+     "sources": [
+      "it.wikipedia 'Il dottor Živago': CIA-backed Russian edition printed by Mouton, The Hague, early September 1958 (ref. Washington Post 2014)",
+      "ru.wikipedia 'Доктор Живаго': Feltrinelli's Russian edition, Milan, January 1959"
+     ]
+    },
+    "first_edition_overall": {
+     "year": "1957",
+     "publisher": "Feltrinelli",
+     "place": "Milano",
+     "sources": [
+      "en.wikipedia 'Doctor Zhivago (novel)': infobox 23 November 1957, Feltrinelli (first edition)",
+      "SBN listing: Milano : Feltrinelli, 1957"
+     ],
+     "language": "ita"
+    },
+    "translation_languages": {
+     "count": "unknown",
+     "note": "Feltrinelli licensed rights in 18 languages before publication (en.wikipedia); not a count of published translations"
+    },
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : Feltrinelli, 1957"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: New York, Pantheon, 1958"
+     },
+     "rus": {
+      "published": true,
+      "evidence": "original title"
+     }
+    },
+    "first_edition_differs": true,
+    "checked": "2026-09-14"
+   },
+   "original_title_romanised": "Doktor Zhivago"
+  },
+  {
+   "id": "N01",
+   "slug": "kundera-lightness",
+   "original_title": "Nesnesitelná lehkost bytí",
+   "authors": [
+    "Milan Kundera"
+   ],
+   "query_author": "Milan Kundera",
+   "entries": [
+    {
+     "key": "cze",
+     "lang": "cze",
+     "title": "Nesnesitelná lehkost bytí"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Unbearable Lightness of Being"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "L'insostenibile leggerezza dell'essere"
+    }
+   ],
+   "origin": "§9 N1",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Nesnesitelná lehkost bytí",
+    "original_language": "cze",
+    "original_first_edition": {
+     "year": "1985",
+     "publisher": "Sixty-Eight Publishers",
+     "place": "Toronto",
+     "sources": [
+      "en.wikipedia 'The Unbearable Lightness of Being': 1985 (original Czech), 68 Publishers",
+      "LoC SRU (lx2.loc.gov LCDB) record: Toronto : Sixty-Eight Publishers, 1985"
+     ]
+    },
+    "first_edition_overall": {
+     "year": "1984",
+     "publisher": "Gallimard",
+     "place": "Paris",
+     "sources": [
+      "en.wikipedia 'The Unbearable Lightness of Being': 1984 (French translation), Gallimard",
+      "it.wikipedia 'L'insostenibile leggerezza dell'essere (romanzo)': pubblicato per la prima volta in Francia nel 1984"
+     ],
+     "language": "fre"
+    },
+    "translation_languages": "unknown",
+    "entries": {
+     "cze": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: London ; Boston : Faber and Faber, 1984"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : Adelphi, 1985"
+     }
+    },
+    "first_edition_differs": true,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N02",
+   "slug": "petit-prince",
+   "original_title": "Le Petit Prince",
+   "authors": [
+    "Antoine de Saint-Exupéry"
+   ],
+   "query_author": "Antoine de Saint-Exupéry",
+   "entries": [
+    {
+     "key": "fre",
+     "lang": "fre",
+     "title": "Le Petit Prince"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Little Prince"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Il piccolo principe"
+    }
+   ],
+   "origin": "§9 N2",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Le Petit Prince",
+    "original_language": "fre",
+    "original_first_edition": {
+     "year": "1943",
+     "publisher": "Reynal & Hitchcock",
+     "place": "New York",
+     "sources": [
+      "fr.wikipedia 'Le Petit Prince': published in English in New York by Reynal & Hitchcock, the French original about fifteen days later",
+      "BnF SRU record: Reynal & Hitchcock (New York), 1943"
+     ]
+    },
+    "first_edition_overall": {
+     "year": "1943",
+     "publisher": "Reynal & Hitchcock",
+     "place": "New York",
+     "sources": [
+      "it.wikipedia 'Il piccolo principe': English translation 6 April 1943, French original a few days later, both Reynal & Hitchcock",
+      "LoC SRU (lx2.loc.gov LCDB) record: New York, Reynal & Hitchcock, 1943"
+     ],
+     "language": "eng",
+     "note": "same year and publisher; English precedes French by days. France: Gallimard 1945 (it.wikipedia) or April 1946 (fr.wikipedia)"
+    },
+    "translation_languages": {
+     "count": "600 languages and dialects (2024); 300 languages (2017)",
+     "sources": [
+      "en.wikipedia 'The Little Prince'",
+      "fr.wikipedia 'Le Petit Prince'"
+     ]
+    },
+    "entries": {
+     "fre": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: New York, Reynal & Hitchcock, 1943"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN UBO0145106: Milano : Bompiani, 1949"
+     }
+    },
+    "first_edition_differs": true,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N03",
+   "slug": "levi-uomo",
+   "original_title": "Se questo è un uomo",
+   "authors": [
+    "Primo Levi"
+   ],
+   "query_author": "Primo Levi",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Se questo è un uomo"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "If This Is a Man"
+    },
+    {
+     "key": "eng-2",
+     "lang": "eng",
+     "title": "Survival in Auschwitz"
+    }
+   ],
+   "origin": "§9 N3",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Se questo è un uomo",
+    "original_language": "ita",
+    "original_first_edition": {
+     "year": "1947",
+     "publisher": "F. De Silva",
+     "place": "Torino",
+     "sources": [
+      "en.wikipedia 'If This Is a Man': 11 Oct 1947, De Silva; Einaudi edition 1958",
+      "SBN listing: Torino : F. De Silva, [1947]"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'If This Is a Man': English translation by Stuart Woolf, 1959, Orion Press"
+     },
+     "eng-2": {
+      "published": true,
+      "evidence": "en.wikipedia 'If This Is a Man': United States title: Survival in Auschwitz; LoC SRU (lx2.loc.gov LCDB) record: New York : Summit Books, 1986"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N04",
+   "slug": "crime-punishment",
+   "original_title": "Преступление и наказание",
+   "authors": [
+    "Fëdor Dostoevskij"
+   ],
+   "query_author": "Fëdor Dostoevskij",
+   "entries": [
+    {
+     "key": "rus",
+     "lang": "rus",
+     "title": "Преступление и наказание"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Crime and Punishment"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Delitto e castigo"
+    }
+   ],
+   "origin": "§9 N4",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Преступление и наказание",
+    "original_language": "rus",
+    "original_first_edition": {
+     "year": "1867",
+     "publisher": "unknown",
+     "place": "unknown",
+     "sources": [
+      "en.wikipedia 'Crime and Punishment': The Russian Messenger, twelve instalments 1866; separate edition 1867"
+     ],
+     "note": "first appearance: serial in The Russian Messenger, 1866"
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "rus": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'Crime and Punishment': article title"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : F.lli Treves, 1889"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   },
+   "original_title_romanised": "Prestuplenie i nakazanie"
+  },
+  {
+   "id": "N05",
+   "slug": "catcher-rye",
+   "original_title": "The Catcher in the Rye",
+   "authors": [
+    "J. D. Salinger"
+   ],
+   "query_author": "J. D. Salinger",
+   "entries": [
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Catcher in the Rye"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Il giovane Holden"
+    },
+    {
+     "key": "ita-2",
+     "lang": "ita",
+     "title": "Vita da uomo"
+    }
+   ],
+   "origin": "§9 N5",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "The Catcher in the Rye",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "1951",
+     "publisher": "Little, Brown and Company",
+     "place": "unknown",
+     "sources": [
+      "en.wikipedia 'The Catcher in the Rye': published July 16, 1951, Little, Brown and Company"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Torino : Einaudi, 1961"
+     },
+     "ita-2": {
+      "published": true,
+      "evidence": "SBN listing: Vita da uomo, Roma : Casini, 1952 (§9's 1952 confirmed)"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N06",
+   "slug": "nineteen-eighty-four",
+   "original_title": "Nineteen Eighty-Four",
+   "authors": [
+    "George Orwell"
+   ],
+   "query_author": "George Orwell",
+   "entries": [
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Nineteen Eighty-Four"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "1984"
+    },
+    {
+     "key": "ita-2",
+     "lang": "ita",
+     "title": "Millenovecentottantaquattro"
+    }
+   ],
+   "origin": "§9 N6",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Nineteen Eighty-Four",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "1949",
+     "publisher": "Secker & Warburg",
+     "place": "London",
+     "sources": [
+      "en.wikipedia 'Nineteen Eighty-Four': 8 June 1949, Secker & Warburg",
+      "LoC SRU (lx2.loc.gov LCDB) record: London, Secker & Warburg, 1949"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": {
+     "count": "65 by 1989",
+     "sources": [
+      "en.wikipedia 'Nineteen Eighty-Four'"
+     ]
+    },
+    "entries": {
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN LO10411146: 1984, Milano : Mondadori, 1950"
+     },
+     "ita-2": {
+      "published": true,
+      "evidence": "SBN listing: Millenovecentottantaquattro, Milano : Mondadori, 1967"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N07",
+   "slug": "calvino-viaggiatore",
+   "original_title": "Se una notte d'inverno un viaggiatore",
+   "authors": [
+    "Italo Calvino"
+   ],
+   "query_author": "Italo Calvino",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Se una notte d'inverno un viaggiatore"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "If on a Winter's Night a Traveler"
+    }
+   ],
+   "origin": "§9 N7",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Se una notte d'inverno un viaggiatore",
+    "original_language": "ita",
+    "original_first_edition": {
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino",
+     "sources": [
+      "en.wikipedia 'If on a winter's night a traveler': 1979, Einaudi",
+      "SBN listing: Torino : Einaudi, c1979"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'If on a winter's night a traveler': translated by William Weaver; LoC SRU (lx2.loc.gov LCDB) record: New York : Knopf, 1993"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N08",
+   "slug": "amica-geniale",
+   "original_title": "L'amica geniale",
+   "authors": [
+    "Elena Ferrante"
+   ],
+   "query_author": "Elena Ferrante",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "L'amica geniale"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "My Brilliant Friend"
+    }
+   ],
+   "origin": "§9 N8",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "L'amica geniale",
+    "original_language": "ita",
+    "original_first_edition": {
+     "year": "2011",
+     "publisher": "Edizioni E/O",
+     "place": "Roma",
+     "sources": [
+      "en.wikipedia 'My Brilliant Friend': 2011, Edizioni e/o",
+      "SBN listing: Roma : E/O, 2011"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'My Brilliant Friend': Europa Editions, 2012"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N09",
+   "slug": "formaggio-vermi",
+   "original_title": "Il formaggio e i vermi",
+   "authors": [
+    "Carlo Ginzburg"
+   ],
+   "query_author": "Carlo Ginzburg",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Il formaggio e i vermi"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Cheese and the Worms"
+    }
+   ],
+   "origin": "§9 N9",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Il formaggio e i vermi",
+    "original_language": "ita",
+    "original_first_edition": {
+     "year": "1976",
+     "publisher": "Einaudi",
+     "place": "Torino",
+     "sources": [
+      "en.wikipedia 'The Cheese and the Worms': 1976 Einaudi",
+      "SBN listing: Torino : Einaudi, c1976"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: Baltimore : Johns Hopkins University Press, 1980"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N10",
+   "slug": "etranger",
+   "original_title": "L'Étranger",
+   "authors": [
+    "Albert Camus"
+   ],
+   "query_author": "Albert Camus",
+   "entries": [
+    {
+     "key": "fre",
+     "lang": "fre",
+     "title": "L'Étranger"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Stranger"
+    },
+    {
+     "key": "eng-2",
+     "lang": "eng",
+     "title": "The Outsider"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Lo straniero"
+    }
+   ],
+   "origin": "§9 N10",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "L'Étranger",
+    "original_language": "fre",
+    "original_first_edition": {
+     "year": "1942",
+     "publisher": "Gallimard",
+     "place": "Paris",
+     "sources": [
+      "en.wikipedia 'The Stranger (Camus novel)': 19 May 1942, Gallimard",
+      "BnF SRU record: Gallimard (Paris), 1942"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": {
+     "count": "68",
+     "sources": [
+      "fr.wikipedia 'L'Étranger'"
+     ]
+    },
+    "entries": {
+     "fre": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: New York, A. A. Knopf, 1946"
+     },
+     "eng-2": {
+      "published": true,
+      "evidence": "en.wikipedia 'The Stranger (Camus novel)': also published in English as The Outsider"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : Bompiani, c1947"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N11",
+   "slug": "disparition",
+   "original_title": "La Disparition",
+   "authors": [
+    "Georges Perec"
+   ],
+   "query_author": "Georges Perec",
+   "entries": [
+    {
+     "key": "fre",
+     "lang": "fre",
+     "title": "La Disparition"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "A Void"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "La scomparsa"
+    }
+   ],
+   "origin": "§9 N11",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "La Disparition",
+    "original_language": "fre",
+    "original_first_edition": {
+     "year": "1969",
+     "publisher": "Denoël",
+     "place": "Paris",
+     "sources": [
+      "BnF SRU record: Denoël (Paris), 1969",
+      "fr.wikipedia 'La Disparition (roman)': éditeur Éditions Denoël, 1969"
+     ],
+     "note": "en.wikipedia's infobox names Gallimard; BnF and fr.wikipedia name Denoël"
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "fre": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: London : Harvill Press, 1995"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Napoli : Guida, 1995"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N12",
+   "slug": "kafka-process",
+   "original_title": "Der Process",
+   "authors": [
+    "Franz Kafka"
+   ],
+   "query_author": "Franz Kafka",
+   "entries": [
+    {
+     "key": "ger",
+     "lang": "ger",
+     "title": "Der Process"
+    },
+    {
+     "key": "ger-2",
+     "lang": "ger",
+     "title": "Der Prozess"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Trial"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Il processo"
+    }
+   ],
+   "origin": "§9 N12 (both spellings named there)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Der Process (Kafka's spelling; published as Der Prozess)",
+    "original_language": "ger",
+    "original_first_edition": {
+     "year": "1925",
+     "publisher": "Verlag Die Schmiede",
+     "place": "Berlin",
+     "sources": [
+      "en.wikipedia 'The Trial': 26 April 1925, Verlag Die Schmiede, Berlin; Kafka used the spelling Process"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ger": {
+      "published": true,
+      "evidence": "DNB SRU record: 289 title matches for 'Der Process'"
+     },
+     "ger-2": {
+      "published": true,
+      "evidence": "en.wikipedia 'The Trial': title_orig Der Prozess"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: London, V. Gollancz, 1937"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Torino : Frassinelli, 1933"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N13",
+   "slug": "han-burnout",
+   "original_title": "Müdigkeitsgesellschaft",
+   "authors": [
+    "Byung-Chul Han"
+   ],
+   "query_author": "Byung-Chul Han",
+   "entries": [
+    {
+     "key": "ger",
+     "lang": "ger",
+     "title": "Müdigkeitsgesellschaft"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Burnout Society"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "La società della stanchezza"
+    }
+   ],
+   "origin": "§9 N13",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Müdigkeitsgesellschaft",
+    "original_language": "ger",
+    "original_first_edition": {
+     "year": "2010",
+     "publisher": "Matthes & Seitz Berlin",
+     "place": "Berlin",
+     "sources": [
+      "en.wikipedia 'The Burnout Society': 4 October 2010 (German), Matthes & Seitz Berlin"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": {
+     "count": "more than 35",
+     "sources": [
+      "en.wikipedia 'The Burnout Society'"
+     ]
+    },
+    "entries": {
+     "ger": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'The Burnout Society': Stanford University Press, August 2015"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Roma : Nottetempo, 2012"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N14",
+   "slug": "saramago-cegueira",
+   "original_title": "Ensaio sobre a cegueira",
+   "authors": [
+    "José Saramago"
+   ],
+   "query_author": "José Saramago",
+   "entries": [
+    {
+     "key": "por",
+     "lang": "por",
+     "title": "Ensaio sobre a cegueira"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Blindness"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Cecità"
+    }
+   ],
+   "origin": "§9 N14",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Ensaio sobre a cegueira",
+    "original_language": "por",
+    "original_first_edition": {
+     "year": "1995",
+     "publisher": "Caminho",
+     "place": "Lisboa",
+     "sources": [
+      "en.wikipedia 'Blindness (novel)': 1995, Caminho",
+      "it.wikipedia 'Cecità (romanzo)': Edizioni: Caminho, Lisboa, 1995"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "por": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: London : Harvill Press, 1997"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "it.wikipedia 'Cecità (romanzo)': Einaudi, Torino, 1996; SBN listing 1996"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N15",
+   "slug": "bolano-2666",
+   "original_title": "2666",
+   "authors": [
+    "Roberto Bolaño"
+   ],
+   "query_author": "Roberto Bolaño",
+   "entries": [
+    {
+     "key": "spa",
+     "lang": "spa",
+     "title": "2666"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "2666"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "2666"
+    }
+   ],
+   "origin": "§9 N15 (one string for all three languages)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "2666",
+    "original_language": "spa",
+    "original_first_edition": {
+     "year": "2004",
+     "publisher": "Editorial Anagrama",
+     "place": "Barcelona",
+     "sources": [
+      "en.wikipedia '2666': 2004 (Editorial Anagrama, Barcelona)",
+      "es.wikipedia '2666 (novela)': octubre de 2004, Anagrama, Barcelona"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "spa": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia '2666': Farrar, Straus and Giroux, 2008"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "it.wikipedia '2666': Adelphi, 2007"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N16",
+   "slug": "yu-hua-to-live",
+   "original_title": "活着",
+   "authors": [
+    "Yu Hua"
+   ],
+   "query_author": "Yu Hua",
+   "entries": [
+    {
+     "key": "chi",
+     "lang": "chi",
+     "title": "活着"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "To Live"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Vivere!"
+    }
+   ],
+   "origin": "§9 N16",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "活着",
+    "original_language": "chi",
+    "original_first_edition": {
+     "year": "1993",
+     "publisher": "Changjiang Literature and Art Publishing House (长江文艺出版社)",
+     "place": "unknown",
+     "sources": [
+      "zh.wikipedia '活着': 1993年11月, 长江文艺出版社",
+      "en.wikipedia 'To Live (novel)': 1993"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "chi": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'To Live (novel)': translated by Michael Berry, Anchor Books"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN LO10435177: Vivere!, Roma : Donzelli, 1997 (§9 title confirmed)"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   },
+   "original_title_romanised": "Huozhe"
+  },
+  {
+   "id": "N17",
+   "slug": "mahfouz-palace-walk",
+   "original_title": "بين القصرين",
+   "authors": [
+    "Naguib Mahfouz"
+   ],
+   "query_author": "Naguib Mahfouz",
+   "entries": [
+    {
+     "key": "ara",
+     "lang": "ara",
+     "title": "بين القصرين"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Palace Walk"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Tra i due palazzi"
+    }
+   ],
+   "origin": "§9 N17 (Italian title to verify)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "بين القصرين",
+    "original_language": "ara",
+    "original_first_edition": {
+     "year": "1956",
+     "publisher": "Maktabat Misr",
+     "place": "unknown",
+     "sources": [
+      "en.wikipedia 'Palace Walk': 1956, Maktabat Misr"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "ara": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'Palace Walk': Doubleday, 1990"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Tra i due palazzi, Napoli : Pironti, 1989 (§9 title confirmed)"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   },
+   "original_title_romanised": "Bayn al-Qasrayn"
+  },
+  {
+   "id": "N18",
+   "slug": "fisher-capitalist-realism",
+   "original_title": "Capitalist Realism",
+   "authors": [
+    "Mark Fisher"
+   ],
+   "query_author": "Mark Fisher",
+   "entries": [
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Capitalist Realism"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Realismo capitalista"
+    }
+   ],
+   "origin": "§9 N18",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Capitalist Realism: Is There No Alternative?",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "2009",
+     "publisher": "Zero Books",
+     "place": "unknown",
+     "sources": [
+      "en.wikipedia 'Capitalist Realism': 2009, Zero Books"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN UTO1280621: Realismo capitalista, Roma : Nero, 2018"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N19",
+   "slug": "zevin-tomorrow",
+   "original_title": "Tomorrow, and Tomorrow, and Tomorrow",
+   "authors": [
+    "Gabrielle Zevin"
+   ],
+   "query_author": "Gabrielle Zevin",
+   "entries": [
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Tomorrow, and Tomorrow, and Tomorrow"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Domani, e domani, e domani"
+    }
+   ],
+   "origin": "§9 N19",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "2022",
+     "publisher": "Knopf",
+     "place": "unknown",
+     "sources": [
+      "en.wikipedia 'Tomorrow, and Tomorrow, and Tomorrow (novel)': July 5, 2022, Knopf"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "ita": {
+      "published": false,
+      "evidence": "it.wikipedia 'Tomorrow, and Tomorrow, and Tomorrow': the Italian translation keeps the original title, Nord, March 2023; SBN UBO4696991: Tomorrow, and tomorrow, and tomorrow : romanzo, [Milano] : Nord, 2023; OPAC: 0 records for 'Domani, e domani, e domani' + Zevin"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N20",
+   "slug": "metaphors-live-by",
+   "original_title": "Metaphors We Live By",
+   "authors": [
+    "George Lakoff",
+    "Mark Johnson"
+   ],
+   "query_author": "George Lakoff",
+   "entries": [
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Metaphors We Live By"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Metafora e vita quotidiana"
+    }
+   ],
+   "origin": "§9 N20",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Metaphors We Live By",
+    "original_language": "eng",
+    "original_first_edition": {
+     "year": "1980",
+     "publisher": "University of Chicago Press",
+     "place": "Chicago",
+     "sources": [
+      "en.wikipedia 'Metaphors We Live By': 1980, University of Chicago Press",
+      "LoC SRU (lx2.loc.gov LCDB) record: Chicago : University of Chicago Press, 1980"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "eng": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Metafora e vita quotidiana, Roma : L'Espresso, 1982"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N21",
+   "slug": "neruda-veinte-poemas",
+   "original_title": "Veinte poemas de amor y una canción desesperada",
+   "authors": [
+    "Pablo Neruda"
+   ],
+   "query_author": "Pablo Neruda",
+   "entries": [
+    {
+     "key": "spa",
+     "lang": "spa",
+     "title": "Veinte poemas de amor y una canción desesperada"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Twenty Love Poems and a Song of Despair"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Venti poesie d'amore e una canzone disperata"
+    }
+   ],
+   "origin": "§9 N21",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Veinte poemas de amor y una canción desesperada",
+    "original_language": "spa",
+    "original_first_edition": {
+     "year": "1924",
+     "publisher": "Editorial Nascimento",
+     "place": "Santiago",
+     "sources": [
+      "en.wikipedia 'Twenty Love Poems and a Song of Despair': June 1924, Editorial Nascimento",
+      "LoC SRU (lx2.loc.gov LCDB) record: Santiago, Chile, Nascimento, 1924"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "spa": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "LoC SRU (lx2.loc.gov LCDB) record: London, Cape, 1969"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Milano : Nuova Accademia, c1962"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N22",
+   "slug": "piketty-capital",
+   "original_title": "Le Capital au XXIe siècle",
+   "authors": [
+    "Thomas Piketty"
+   ],
+   "query_author": "Thomas Piketty",
+   "entries": [
+    {
+     "key": "fre",
+     "lang": "fre",
+     "title": "Le Capital au XXIe siècle"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "Capital in the Twenty-First Century"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Il capitale nel XXI secolo"
+    }
+   ],
+   "origin": "§9 N22",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Le Capital au XXIe siècle",
+    "original_language": "fre",
+    "original_first_edition": {
+     "year": "2013",
+     "publisher": "Éditions du Seuil",
+     "place": "Paris",
+     "sources": [
+      "en.wikipedia 'Capital in the Twenty-First Century': August 2013, Éditions du Seuil",
+      "BnF SRU record: Éd. du Seuil (Paris), 2013"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "entries": {
+     "fre": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'Capital in the Twenty-First Century': Harvard University Press, tr. Arthur Goldhammer"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "SBN UBO4971378: Il capitale nel XXI secolo, Milano : Bompiani (earliest catalogued date is not the first Italian edition's)"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  },
+  {
+   "id": "N23",
+   "slug": "odyssey",
+   "original_title": "Ὀδύσσεια",
+   "authors": [
+    "Homer"
+   ],
+   "query_author": "Homer",
+   "entries": [
+    {
+     "key": "grc",
+     "lang": "grc",
+     "title": "Ὀδύσσεια"
+    },
+    {
+     "key": "eng",
+     "lang": "eng",
+     "title": "The Odyssey"
+    },
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Odissea"
+    }
+   ],
+   "origin": "§9 N23",
+   "insights_only": true,
+   "ground_truth": {
+    "original_title": "Ὀδύσσεια",
+    "original_language": "grc",
+    "original_first_edition": null,
+    "first_edition_overall": null,
+    "translation_languages": "unknown",
+    "insights_only": true,
+    "note": "it.wikipedia 'Odissea': annoorig VIII–VI secolo a.C.; no meaningful first edition",
+    "entries": {
+     "grc": {
+      "published": true,
+      "evidence": "original title"
+     },
+     "eng": {
+      "published": true,
+      "evidence": "en.wikipedia 'Odyssey'"
+     },
+     "ita": {
+      "published": true,
+      "evidence": "it.wikipedia 'Odissea'"
+     }
+    },
+    "first_edition_differs": null,
+    "checked": "2026-09-14"
+   },
+   "original_title_romanised": "Odysseia"
+  },
+  {
+   "id": "N24",
+   "slug": "ciprian-casa",
+   "original_title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+   "authors": [
+    "Orlando Ciprian"
+   ],
+   "query_author": "Orlando Ciprian",
+   "entries": [
+    {
+     "key": "ita",
+     "lang": "ita",
+     "title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna"
+    }
+   ],
+   "origin": "§9 N24 (facts from the user)",
+   "insights_only": false,
+   "ground_truth": {
+    "original_title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+    "original_language": "ita",
+    "original_first_edition": {
+     "year": "2009",
+     "publisher": "Piazza",
+     "place": "Silea",
+     "sources": [
+      "SBN listing: Silea : Piazza, 2009",
+      "user: one Italian edition, no translations"
+     ]
+    },
+    "first_edition_overall": null,
+    "translation_languages": {
+     "count": "0",
+     "sources": [
+      "user"
+     ]
+    },
+    "entries": {
+     "ita": {
+      "published": true,
+      "evidence": "SBN listing: Silea : Piazza, 2009"
+     }
+    },
+    "first_edition_differs": false,
+    "checked": "2026-09-14"
+   }
+  }
+ ],
+ "authors": [
+  {
+   "id": "P01",
+   "person": "Gregory Bateson",
+   "variants": [
+    "Gregory Bateson"
+   ]
+  },
+  {
+   "id": "P02",
+   "person": "Haruki Murakami",
+   "variants": [
+    "Murakami Haruki",
+    "Haruki Murakami",
+    "村上春樹"
+   ]
+  },
+  {
+   "id": "P03",
+   "person": "Fyodor Dostoevsky",
+   "variants": [
+    "Fëdor Dostoevskij",
+    "Fyodor Dostoevsky",
+    "Dostoïevski",
+    "Фёдор Достоевский"
+   ]
+  },
+  {
+   "id": "P04",
+   "person": "Elena Ferrante",
+   "variants": [
+    "Elena Ferrante"
+   ]
+  },
+  {
+   "id": "P05",
+   "person": "Jacques Attali",
+   "variants": [
+    "Jacques Attali"
+   ]
+  },
+  {
+   "id": "P06",
+   "person": "Umberto Eco",
+   "variants": [
+    "Umberto Eco"
+   ]
+  },
+  {
+   "id": "P07",
+   "person": "Kodwo Eshun",
+   "variants": [
+    "Kodwo Eshun"
+   ]
+  },
+  {
+   "id": "P08",
+   "person": "Byung-Chul Han",
+   "variants": [
+    "Byung-Chul Han",
+    "Han Byung-Chul",
+    "한병철"
+   ]
+  },
+  {
+   "id": "P09",
+   "person": "Gabriel García Márquez",
+   "variants": [
+    "Gabriel García Márquez",
+    "Garcia Marquez"
+   ]
+  }
+ ]
 }

@@ -1,0 +1,446 @@
+{
+ "id": "E11",
+ "sbn": [],
+ "ol": {
+  "key": "/works/OL610110W",
+  "size": 19,
+  "rows": 19,
+  "languages": 2,
+  "language_codes": [
+   "eng",
+   "ita"
+  ],
+  "year_parsed": 19,
+  "year_parse_failures": [],
+  "publisher_present": 19,
+  "language_present": 19,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 3.2,
+  "items": [
+   {
+    "key": "/books/OL9171971M",
+    "title": "Montale Tutte Le Poesie",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Oscar Grandi Classici"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8804340487"
+    ],
+    "isbn_13": [
+     "9788804340485"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL17116265M",
+    "title": "Selected poems",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "University Press"
+    ],
+    "publish_places": [
+     "Edinburgh"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL22823969M",
+    "title": "La bufera e altro",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "[Mondadori]"
+    ],
+    "publish_places": [
+     "[Milano]"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL16534882M",
+    "title": "Le occasioni, 1928-1939",
+    "publish_date": "1963",
+    "year": "1963",
+    "publishers": [
+     "A. Mondadori"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL19067077M",
+    "title": "Selected poems",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Manchester University Press"
+    ],
+    "publish_places": [
+     "Manchester"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL13780373M",
+    "title": "L' opera in versi",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [
+     "Torino"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL3316608M",
+    "title": "Selected poems",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Oberlin College Press"
+    ],
+    "publish_places": [
+     "Oberlin, OH"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0932440983"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL4314608M",
+    "title": "Tutte le poesie",
+    "publish_date": "1977",
+    "year": "1977",
+    "publishers": [
+     "A. Mondadori"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL13533528M",
+    "title": "Selected poems.",
+    "publish_date": "1965",
+    "year": "1965",
+    "publishers": [
+     "New Directions"
+    ],
+    "publish_places": [
+     "New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL4816531M",
+    "title": "Selected poems",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Manchester University Press"
+    ],
+    "publish_places": [
+     "Manchester"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "0719005582"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL7999690M",
+    "title": "Selected Poems",
+    "publish_date": "April 1966",
+    "year": "1966",
+    "publishers": [
+     "New Directions Publishing Corporation"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0811201198"
+    ],
+    "isbn_13": [
+     "9780811201193"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL17116277M",
+    "title": "Poems",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Penguin"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0141181028"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL19205410M",
+    "title": "Selectedpoems",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Edinburgh University Press"
+    ],
+    "publish_places": [
+     "Edinburgh"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL5791453M",
+    "title": "Poems.",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "University of Reading"
+    ],
+    "publish_places": [
+     "[Reading, Eng.]  Printed in the School of Art"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL15506122M",
+    "title": "Selected poems.",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "New Directions"
+    ],
+    "publish_places": [
+     "[New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL23334367M",
+    "title": "Selected poems.",
+    "publish_date": "1965",
+    "year": "1965",
+    "publishers": [
+     "New Directions"
+    ],
+    "publish_places": [
+     "New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL2753110M",
+    "title": "Tutte le poesie",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "A. Mondadori"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL5944465M",
+    "title": "Selected poems.",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "New Directions"
+    ],
+    "publish_places": [
+     "New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   },
+   {
+    "key": "/books/OL21443209M",
+    "title": "Tutte le poesie",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "A. Mondadori"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8804340487"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL610110W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.2,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.18,
+   "p50_s": 3.181,
+   "max_s": 3.181
+  }
+ },
+ "failures": []
+}

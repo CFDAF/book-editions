@@ -1,0 +1,548 @@
+{
+ "id": "N19",
+ "sbn": [
+  {
+   "W": "tomorrow, and tomorrow, and tomorrow",
+   "author": "Gabrielle Zevin",
+   "total": 7,
+   "lingua_facet": [
+    [
+     "eng",
+     4
+    ],
+    [
+     "ita",
+     3
+    ]
+   ],
+   "lingua_facet_sum": 7,
+   "rows": 7,
+   "multilingual_rows": 0,
+   "languages": 2,
+   "bogus_lingua_total": 0,
+   "year_parsed": 7,
+   "year_parse_failures": [],
+   "publisher_present": 7,
+   "language_present": 7,
+   "records_on_no_language_page": [],
+   "requests": 5,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 3.4,
+   "items": [
+    {
+     "bid": "PCM0037140",
+     "title": "Tomorrow, and tomorrow, and tomorrow / Gabrielle Zevin",
+     "author": "Zevin, Gabrielle",
+     "imprint": "Dublin : Vintage, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2022",
+     "publisher": "Vintage",
+     "place": "Dublin"
+    },
+    {
+     "bid": "PCM0038459",
+     "title": "Tomorrow, and tomorrow, and tomorrow / Gabrielle Zevin",
+     "author": "Zevin, Gabrielle",
+     "imprint": "New York : Vintage Books, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2023",
+     "publisher": "Vintage Books",
+     "place": "New York"
+    },
+    {
+     "bid": "MOD1754482",
+     "title": "Tomorrow, and tomorrow, and tomorrow / Gabrielle Zevin",
+     "author": "Zevin, Gabrielle",
+     "imprint": "London : Chatto & Windus, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2022",
+     "publisher": "Chatto & Windus",
+     "place": "London"
+    },
+    {
+     "bid": "PAR1301585",
+     "title": "Tomorrow, and tomorrow, and tomorrow / Gabrielle Zevin",
+     "author": "Zevin, Gabrielle",
+     "imprint": "London : Vintage, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2023",
+     "publisher": "Vintage",
+     "place": "London"
+    },
+    {
+     "bid": "BCT0100997",
+     "title": "Tomorrow, and tomorrow, and tomorrow : romanzo / Gabrielle Zevin ; traduzione di Elisa Banfi",
+     "author": "Zevin, Gabrielle",
+     "imprint": "Milano : TEA, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "TEA",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL1179180",
+     "title": "Tomorrow, and tomorrow, and tomorrow : romanzo / Gabrielle Zevin ; traduzione di Elisa Banfi",
+     "author": "Zevin, Gabrielle",
+     "imprint": "Milano : TEA, 2026",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2026",
+     "publisher": "TEA",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4696991",
+     "title": "Tomorrow, and tomorrow, and tomorrow : romanzo / Gabrielle Zevin ; traduzione di Elisa Banfi",
+     "author": "Zevin, Gabrielle",
+     "imprint": "[Milano] : Nord, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Nord",
+     "place": "Milano"
+    }
+   ],
+   "entries": [
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL26004554W",
+  "size": 17,
+  "rows": 17,
+  "languages": 4,
+  "language_codes": [
+   "dut",
+   "eng",
+   "fre",
+   "ita"
+  ],
+  "year_parsed": 17,
+  "year_parse_failures": [],
+  "publisher_present": 17,
+  "language_present": 13,
+  "requests": 4,
+  "failed": [],
+  "wall_s": 3.3,
+  "items": [
+   {
+    "key": "/books/OL62085818M",
+    "title": "Demain, et demain, et demain",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "Fleuve éditions"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782265155602"
+    ],
+    "translation_of": "Tomorrow, and Tomorrow, and Tomorrow",
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL60632368M",
+    "title": "Morgen en morgen en morgen",
+    "publish_date": "January 6, 2023",
+    "year": "2023",
+    "publishers": [
+     "Nieuw Amsterdam"
+    ],
+    "publish_places": [],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9046829200"
+    ],
+    "isbn_13": [
+     "9789046829202"
+    ],
+    "translation_of": "Tomorrow and Tomorrow and Tomorrow",
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL53616477M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781529193626"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL51804378M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2024",
+    "year": "2024",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781529944792"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL47330507M",
+    "title": "Demà, i demà, i demà",
+    "publish_date": "Feb 22, 2023",
+    "year": "2023",
+    "publishers": [
+     "Periscopi"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8419332151"
+    ],
+    "isbn_13": [
+     "9788419332158"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL47448529M",
+    "title": "Mañana, y mañana, y mañana",
+    "publish_date": "Feb 23, 2023",
+    "year": "2023",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8411481484"
+    ],
+    "isbn_13": [
+     "9788411481489"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL47448528M",
+    "title": "Mañana, y mañana, y mañana",
+    "publish_date": "Feb 23, 2023",
+    "year": "2023",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8411481484"
+    ],
+    "isbn_13": [
+     "9788411481489"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL51013964M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2024",
+    "year": "2024",
+    "publishers": [
+     "Albert Bonniers Förlag"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789100801113"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL47709411M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "5 July 2022",
+    "year": "2022",
+    "publishers": [
+     "Knopf"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0735243344"
+    ],
+    "isbn_13": [
+     "9780735243347"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL40318871M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781529115543"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL39374639M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "Jul 05, 2022",
+    "year": "2022",
+    "publishers": [
+     "Knopf Doubleday Publishing Group"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780593321218"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL37996581M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784744656"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL36484566M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Diversified Publishing",
+     "Random House Large Print"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780593607831"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL35858334M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781473597402"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL35854253M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784744649"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL35099313M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Knopf Incorporated, Alfred A."
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780593466490"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   },
+   {
+    "key": "/books/OL35099312M",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "publish_date": "July 1, 2022",
+    "year": "2022",
+    "publishers": [
+     "Knopf"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0593321200"
+    ],
+    "isbn_13": [
+     "9780593321201"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL26004554W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.4,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 4.29,
+   "p50_s": 0.897,
+   "max_s": 1.654
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.33,
+   "p50_s": 3.329,
+   "max_s": 3.329
+  }
+ },
+ "failures": []
+}

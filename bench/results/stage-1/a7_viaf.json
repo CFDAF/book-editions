@@ -1,0 +1,3665 @@
+{
+ "controls": {
+  "bogus_index": 0,
+  "bogus_value": 0,
+  "real_value": 4
+ },
+ "persons": {
+  "P01": {
+   "person": "Gregory Bateson",
+   "variants": [
+    {
+     "variant": "Gregory Bateson",
+     "sent": "Gregory Bateson",
+     "total": 7,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "3228178606703301110002",
+       "headings": [
+        "Bateson, Gregory, 1904-1980."
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1904,
+       "death": 1980,
+       "same_name": true
+      },
+      {
+       "viafID": "305715634",
+       "headings": [
+        "Bateson, Gregory"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "288449164",
+       "headings": [
+        "Bateson, Gregory"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "108155210",
+       "headings": [
+        "星川, 淳, 1952-",
+        "Hoshikawa, Jun, 1952-....",
+        "호시카와 준 1952-"
+       ],
+       "sources": 8,
+       "wikidata": [
+        "Q11512897"
+       ],
+       "iccu": [],
+       "birth": "1952-03-31",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "56605567",
+       "headings": [
+        "Bateson, Gregory, 1904-1980",
+        "Bateson, Gregory",
+        "Gregory Bateson"
+       ],
+       "sources": 33,
+       "wikidata": [
+        "Q314252"
+       ],
+       "iccu": [
+        "ICCU|CFIV034892"
+       ],
+       "birth": "1904-05-09",
+       "death": "1980-07-04",
+       "same_name": true
+      },
+      {
+       "viafID": "44302511",
+       "headings": [
+        "Mead, Margaret, 1901-1978",
+        "Mead, Margaret, 1901-1978, anthropologue",
+        "Mead, Margaret"
+       ],
+       "sources": 33,
+       "wikidata": [
+        "Q180099"
+       ],
+       "iccu": [],
+       "birth": "1901-12-16",
+       "death": "1978-11-15",
+       "same_name": false
+      },
+      {
+       "viafID": "7407502",
+       "headings": [
+        "Bateson, Mary Catherine",
+        "Bateson, Mary Catherine, 1939-2021",
+        "Bateson, Mary Catherine, 1939-"
+       ],
+       "sources": 21,
+       "wikidata": [
+        "Q4081262"
+       ],
+       "iccu": [],
+       "birth": "1939-12-08",
+       "death": "2021-01-02",
+       "same_name": false
+      }
+     ],
+     "chosen": "56605567",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  },
+  "P02": {
+   "person": "Haruki Murakami",
+   "variants": [
+    {
+     "variant": "Murakami Haruki",
+     "sent": "Murakami Haruki",
+     "total": 10,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "1688171710780706720004",
+       "headings": [
+        "村上, 春樹"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "578144647669167300874",
+       "headings": [
+        "Murakami, H. 1949- Haruki"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1949,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "308277919",
+       "headings": [
+        "Murakami, Haruki, 1949-",
+        "Silberstein, Solomon Joseph 1845-1919"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1845-01-12",
+       "death": 1919,
+       "same_name": true
+      },
+      {
+       "viafID": "251727227",
+       "headings": [
+        "村上, 春季"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "117406937",
+       "headings": [
+        "Murakami, Haruki, 1937-",
+        "村上, 春樹, 1937-",
+        "村上, 春樹"
+       ],
+       "sources": 8,
+       "wikidata": [
+        "Q11522814"
+       ],
+       "iccu": [],
+       "birth": 1937,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "113439123",
+       "headings": [
+        "内田, 春菊, 1959-",
+        "Uchida, Shungiku, 1959-....",
+        "内田, 春菊"
+       ],
+       "sources": 12,
+       "wikidata": [
+        "Q3081347"
+       ],
+       "iccu": [],
+       "birth": "1959-08-07",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "108238901",
+       "headings": [
+        "Murakami, Haruki, 1949-....",
+        "村上, 春樹",
+        "Murakami, Haruki"
+       ],
+       "sources": 41,
+       "wikidata": [
+        "Q134798"
+       ],
+       "iccu": [
+        "ICCU|LO1V086706"
+       ],
+       "birth": "1949-01-12",
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "75912839",
+       "headings": [
+        "佐々木, マキ, 1946-",
+        "Sasaki, Maki, 1946-...",
+        "佐々木, マキ"
+       ],
+       "sources": 16,
+       "wikidata": [
+        "Q11382048"
+       ],
+       "iccu": [],
+       "birth": "1946-10-18",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "68357290",
+       "headings": [
+        "Gordon, Lorraine",
+        "Gordon, Lorraine, 1922-2018",
+        "Lorraine Gordon"
+       ],
+       "sources": 9,
+       "wikidata": [
+        "Q15440235"
+       ],
+       "iccu": [],
+       "birth": "1922-10-15",
+       "death": "2018-06-09",
+       "same_name": false
+      },
+      {
+       "viafID": "42050323",
+       "headings": [
+        "Gabay, Bernard",
+        "Gabay, Bernard, 1963-....",
+        "Bernard Gabay acteur français"
+       ],
+       "sources": 7,
+       "wikidata": [
+        "Q2897933"
+       ],
+       "iccu": [],
+       "birth": "1963-05-18",
+       "death": 0,
+       "same_name": false
+      }
+     ],
+     "chosen": "108238901",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    },
+    {
+     "variant": "Haruki Murakami",
+     "sent": "Haruki Murakami",
+     "total": 10,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "1688171710780706720004",
+       "headings": [
+        "村上, 春樹"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "578144647669167300874",
+       "headings": [
+        "Murakami, H. 1949- Haruki"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1949,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "308277919",
+       "headings": [
+        "Murakami, Haruki, 1949-",
+        "Silberstein, Solomon Joseph 1845-1919"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1845-01-12",
+       "death": 1919,
+       "same_name": true
+      },
+      {
+       "viafID": "251727227",
+       "headings": [
+        "村上, 春季"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "117406937",
+       "headings": [
+        "Murakami, Haruki, 1937-",
+        "村上, 春樹, 1937-",
+        "村上, 春樹"
+       ],
+       "sources": 8,
+       "wikidata": [
+        "Q11522814"
+       ],
+       "iccu": [],
+       "birth": 1937,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "113439123",
+       "headings": [
+        "内田, 春菊, 1959-",
+        "Uchida, Shungiku, 1959-....",
+        "内田, 春菊"
+       ],
+       "sources": 12,
+       "wikidata": [
+        "Q3081347"
+       ],
+       "iccu": [],
+       "birth": "1959-08-07",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "108238901",
+       "headings": [
+        "Murakami, Haruki, 1949-....",
+        "村上, 春樹",
+        "Murakami, Haruki"
+       ],
+       "sources": 41,
+       "wikidata": [
+        "Q134798"
+       ],
+       "iccu": [
+        "ICCU|LO1V086706"
+       ],
+       "birth": "1949-01-12",
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "75912839",
+       "headings": [
+        "佐々木, マキ, 1946-",
+        "Sasaki, Maki, 1946-...",
+        "佐々木, マキ"
+       ],
+       "sources": 16,
+       "wikidata": [
+        "Q11382048"
+       ],
+       "iccu": [],
+       "birth": "1946-10-18",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "68357290",
+       "headings": [
+        "Gordon, Lorraine",
+        "Gordon, Lorraine, 1922-2018",
+        "Lorraine Gordon"
+       ],
+       "sources": 9,
+       "wikidata": [
+        "Q15440235"
+       ],
+       "iccu": [],
+       "birth": "1922-10-15",
+       "death": "2018-06-09",
+       "same_name": false
+      },
+      {
+       "viafID": "42050323",
+       "headings": [
+        "Gabay, Bernard",
+        "Gabay, Bernard, 1963-....",
+        "Bernard Gabay acteur français"
+       ],
+       "sources": 7,
+       "wikidata": [
+        "Q2897933"
+       ],
+       "iccu": [],
+       "birth": "1963-05-18",
+       "death": 0,
+       "same_name": false
+      }
+     ],
+     "chosen": "108238901",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    },
+    {
+     "variant": "村上春樹",
+     "sent": "村上春樹",
+     "total": 3,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "308277919",
+       "headings": [
+        "Murakami, Haruki, 1949-",
+        "Silberstein, Solomon Joseph 1845-1919"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1845-01-12",
+       "death": 1919,
+       "same_name": true
+      },
+      {
+       "viafID": "117406937",
+       "headings": [
+        "Murakami, Haruki, 1937-",
+        "村上, 春樹, 1937-",
+        "村上, 春樹"
+       ],
+       "sources": 8,
+       "wikidata": [
+        "Q11522814"
+       ],
+       "iccu": [],
+       "birth": 1937,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "108238901",
+       "headings": [
+        "Murakami, Haruki, 1949-....",
+        "村上, 春樹",
+        "Murakami, Haruki"
+       ],
+       "sources": 41,
+       "wikidata": [
+        "Q134798"
+       ],
+       "iccu": [
+        "ICCU|LO1V086706"
+       ],
+       "birth": "1949-01-12",
+       "death": 0,
+       "same_name": true
+      }
+     ],
+     "chosen": "108238901",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  },
+  "P03": {
+   "person": "Fyodor Dostoevsky",
+   "variants": [
+    {
+     "variant": "Fëdor Dostoevskij",
+     "sent": "Fedor Dostoevskij",
+     "total": 29,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "6074160486121805180007",
+       "headings": [
+        "Dostoïevski, Fedor Mikhaïlovitch"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "303996282",
+       "headings": [
+        "Guédroïtz, Alexis 1923-1992)",
+        "Guédroïtz, Alexis",
+        "Alexis Guédroïtz prince d'origine russe, de nationalité belge, professeur de langue et de littérature russe"
+       ],
+       "sources": 6,
+       "wikidata": [
+        "Q2834525"
+       ],
+       "iccu": [],
+       "birth": "1923-06-09",
+       "death": 1992,
+       "same_name": false
+      },
+      {
+       "viafID": "295143153",
+       "headings": [
+        "Dostoevskij, F.M. (Fëdor Michajlovič), ok. 1821-ok. 1881"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1821,
+       "death": 1881,
+       "same_name": false
+      },
+      {
+       "viafID": "274449332",
+       "headings": [
+        "Bataille, Marie-Louise",
+        "Bataille, Marie-Louise 1889-1966",
+        "Bataille, Marie-Louise, 189.-19..?"
+       ],
+       "sources": 12,
+       "wikidata": [
+        "Q110979131"
+       ],
+       "iccu": [],
+       "birth": "1889-11-05",
+       "death": "1966-04-02",
+       "same_name": false
+      },
+      {
+       "viafID": "136790703",
+       "headings": [
+        "Bühne, David 1984-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1984,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "120094566",
+       "headings": [
+        "Wrangel, Alexandr J. 1833-1915",
+        "Alexandre Wrangel",
+        "Vrangel', Alexandr Jegorovič, baron, 1833-1915"
+       ],
+       "sources": 4,
+       "wikidata": [
+        "Q15782243"
+       ],
+       "iccu": [],
+       "birth": "1833-03-23",
+       "death": "1915-09-12",
+       "same_name": false
+      },
+      {
+       "viafID": "117711532",
+       "headings": [
+        "Schell, Maria, 1926-2005",
+        "Schell, Maria",
+        "Maria Schell österreichisch-schweizerische Schauspielerin (1926-2005)"
+       ],
+       "sources": 15,
+       "wikidata": [
+        "Q84365"
+       ],
+       "iccu": [],
+       "birth": "1926-01-15",
+       "death": "2005-04-26",
+       "same_name": false
+      },
+      {
+       "viafID": "107597395",
+       "headings": [
+        "Netchaeva, Vera Stepanovna, 1895-1979",
+        "Nečaeva, Vera Stepanovna",
+        "Nečaeva, Vera Stepanovna 1895-1979"
+       ],
+       "sources": 18,
+       "wikidata": [
+        "Q4318251"
+       ],
+       "iccu": [],
+       "birth": "1895-01-21",
+       "death": "1979-04-11",
+       "same_name": false
+      },
+      {
+       "viafID": "106969633",
+       "headings": [
+        "Schloezer, Boris de 1881-1969",
+        "Schloezer, Boris de",
+        "Boris de Schlœzer écrivain, musicologue et traducteur français d'origine russe"
+       ],
+       "sources": 29,
+       "wikidata": [
+        "Q373117"
+       ],
+       "iccu": [],
+       "birth": "1881-12-08",
+       "death": "1969-10-07",
+       "same_name": false
+      },
+      {
+       "viafID": "104023256",
+       "headings": [
+        "Dostoyevsky, Fyodor, 1821-1881",
+        "Dostoiévski, Fiódor, 1821-1881",
+        "Dostoevskij, F.M. 1821-1881 Fedor Michajlovič"
+       ],
+       "sources": 49,
+       "wikidata": [
+        "Q991"
+       ],
+       "iccu": [
+        "ICCU|CFIV001049"
+       ],
+       "birth": "1821-11-11",
+       "death": "1881-02-09",
+       "same_name": false
+      },
+      {
+       "viafID": "101747131",
+       "headings": [
+        "Dr J. P. Zajączkowski",
+        "Zajączkowski, J. P. dr"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "100215361",
+       "headings": [
+        "Jullian, Philippe, 1921-1977",
+        "Jullian, Philippe, 1919-1977",
+        "Jullian, Philippe"
+       ],
+       "sources": 29,
+       "wikidata": [
+        "Q285654"
+       ],
+       "iccu": [],
+       "birth": "1919-07-11",
+       "death": "1977-10-01",
+       "same_name": false
+      },
+      {
+       "viafID": "80953725",
+       "headings": [
+        "Markstein, Elisabeth, 1929-2013",
+        "Markstein, Elisabeth",
+        "Elisabeth Markstein"
+       ],
+       "sources": 14,
+       "wikidata": [
+        "Q1330128"
+       ],
+       "iccu": [],
+       "birth": "1929-04-18",
+       "death": "2013-10-15",
+       "same_name": false
+      },
+      {
+       "viafID": "71488396",
+       "headings": [
+        "Suslova, Apollinarii︠a︡, 1840-1918",
+        "Suslova, Apollinarii︠a︡ Prokofʹevna",
+        "Suslova, Apollinariâ Prokof'evna (1840-1918)"
+       ],
+       "sources": 18,
+       "wikidata": [
+        "Q4446736"
+       ],
+       "iccu": [],
+       "birth": 1840,
+       "death": 1918,
+       "same_name": false
+      },
+      {
+       "viafID": "70663107",
+       "headings": [
+        "Kostalevsky, Marina",
+        "Marina Kostalevsky",
+        "Kostalevsky, Marina, 19..-...."
+       ],
+       "sources": 16,
+       "wikidata": [
+        "Q113736120"
+       ],
+       "iccu": [],
+       "birth": 1950,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "61783179",
+       "headings": [
+        "Struck, Hermann, 1876-1944",
+        "שטרוק, הרמן, 1876-1944",
+        "Штрук, Герман, 1876-1944"
+       ],
+       "sources": 18,
+       "wikidata": [
+        "Q473771"
+       ],
+       "iccu": [],
+       "birth": "1876-03-06",
+       "death": "1944-01-11",
+       "same_name": false
+      },
+      {
+       "viafID": "59077920",
+       "headings": [
+        "Allevy, Marie-Antoinette, 1903-1966",
+        "Akakia-Viala",
+        "Allevy, Marie-Antoinette"
+       ],
+       "sources": 13,
+       "wikidata": [
+        "Q15973165"
+       ],
+       "iccu": [],
+       "birth": "1903-03-26",
+       "death": "1966-05-10",
+       "same_name": false
+      },
+      {
+       "viafID": "49969785",
+       "headings": [
+        "Kiepenheuer, Noa, 1893-1971",
+        "Kiepenheuer, Noa Elisabeth 1893-1971",
+        "Noa Kiepenheuer"
+       ],
+       "sources": 11,
+       "wikidata": [
+        "Q1505397"
+       ],
+       "iccu": [],
+       "birth": "1893-02-24",
+       "death": "1971-11-07",
+       "same_name": false
+      },
+      {
+       "viafID": "47043096",
+       "headings": [
+        "Константин Константинович Случевский русский поэт, писатель, драматург, переводчик",
+        "Slučevskij, Konstantin Konstantinovič, 1837-1904",
+        "Sluchevskīĭ, K. K. (Konstantin Konstantinovich), 1837-1904"
+       ],
+       "sources": 19,
+       "wikidata": [
+        "Q2627162"
+       ],
+       "iccu": [],
+       "birth": "1837-08-07",
+       "death": "1904-10-08",
+       "same_name": false
+      },
+      {
+       "viafID": "44323722",
+       "headings": [
+        "Bergengruen, Werner, 1892-1964.",
+        "Bergengruen, Werner",
+        "Werner Bergengruen deutsch-baltischer Schriftsteller (1892–1964)"
+       ],
+       "sources": 32,
+       "wikidata": [
+        "Q704552"
+       ],
+       "iccu": [],
+       "birth": "1892-09-16",
+       "death": "1964-09-04",
+       "same_name": false
+      },
+      {
+       "viafID": "39036534",
+       "headings": [
+        "Pański, Jerzy, 1900-1979",
+        "Pański, Jerzy",
+        "Jerzy Pański polski wydawca"
+       ],
+       "sources": 10,
+       "wikidata": [
+        "Q6185466"
+       ],
+       "iccu": [],
+       "birth": 1900,
+       "death": 1979,
+       "same_name": false
+      },
+      {
+       "viafID": "32027729",
+       "headings": [
+        "Nau, John-Antoine, 1873-1918",
+        "Nau, John-Antoine"
+       ],
+       "sources": 5,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1873,
+       "death": 1918,
+       "same_name": false
+      },
+      {
+       "viafID": "29649406",
+       "headings": [
+        "Dostoevskai︠a︡, Anna Grigorʹevna Snitkina, 1846-1918",
+        "Dostoevskaâ, Anna Grigorʹevna 1846-1918",
+        "Dostoevskaja, Anna G. 1846-1918"
+       ],
+       "sources": 36,
+       "wikidata": [
+        "Q872246"
+       ],
+       "iccu": [
+        "ICCU|RAVV016928"
+       ],
+       "birth": "1846-09-12",
+       "death": "1918-06-09",
+       "same_name": false
+      },
+      {
+       "viafID": "25465497",
+       "headings": [
+        "Dostoevskij, Andrej Michajlovič 1825-1897",
+        "Dostoevskiĭ, Andreĭ Mikhaĭlovich, 1825-1897",
+        "Достоевский, Андрей Михайлович, 1825-1897"
+       ],
+       "sources": 13,
+       "wikidata": [
+        "Q4167251"
+       ],
+       "iccu": [],
+       "birth": "1825-03-27",
+       "death": "1897-03-19",
+       "same_name": false
+      },
+      {
+       "viafID": "17459432",
+       "headings": [
+        "Geiger, Willi, 1878-1971",
+        "Willi Geiger",
+        "Willi Geiger deutscher Maler"
+       ],
+       "sources": 16,
+       "wikidata": [
+        "Q117472"
+       ],
+       "iccu": [],
+       "birth": "1878-08-27",
+       "death": "1971-02-11",
+       "same_name": false
+      },
+      {
+       "viafID": "9896952",
+       "headings": [
+        "Dostoevskai︠a︡, L. Ḟ. (Li︠u︡bovʹ Ḟedorovna), 1869-1926",
+        "Dostoevskaâ, Lûbov' Fëdorovna 1869-1926",
+        "Dostoevskaja, Ljubovʹ Fedorovna 1869-1926"
+       ],
+       "sources": 26,
+       "wikidata": [
+        "Q4167247"
+       ],
+       "iccu": [
+        "ICCU|UM1V011577"
+       ],
+       "birth": "1869-09-26",
+       "death": "1926-11-10",
+       "same_name": false
+      },
+      {
+       "viafID": "7453684",
+       "headings": [
+        "Durtain, Luc, 1881-1959",
+        "Durtain, Luc",
+        "Durtain, Luc, 1881-"
+       ],
+       "sources": 25,
+       "wikidata": [
+        "Q3264810"
+       ],
+       "iccu": [],
+       "birth": "1881-03-10",
+       "death": "1959-01-29",
+       "same_name": false
+      },
+      {
+       "viafID": "4745901",
+       "headings": [
+        "Parker, Claire, 1906-1981",
+        "Claire Parker",
+        "Parker, Claire"
+       ],
+       "sources": 11,
+       "wikidata": [
+        "Q16009678"
+       ],
+       "iccu": [],
+       "birth": "1906-08-31",
+       "death": "1981-10-03",
+       "same_name": false
+      },
+      {
+       "viafID": "2253234",
+       "headings": [
+        "Rahsin, E.K., 1886-1966",
+        "Kaerrick, Less, 1886-1966",
+        "Elisabeth Kaerrick"
+       ],
+       "sources": 10,
+       "wikidata": [
+        "Q2691942"
+       ],
+       "iccu": [],
+       "birth": "1886-01-04",
+       "death": 1966,
+       "same_name": false
+      }
+     ],
+     "chosen": "104023256",
+     "chosen_rule": "most sources among all personal clusters returned"
+    },
+    {
+     "variant": "Fyodor Dostoevsky",
+     "sent": "Fyodor Dostoevsky",
+     "total": 2,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "6074160486121805180007",
+       "headings": [
+        "Dostoïevski, Fedor Mikhaïlovitch"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "104023256",
+       "headings": [
+        "Dostoyevsky, Fyodor, 1821-1881",
+        "Dostoiévski, Fiódor, 1821-1881",
+        "Dostoevskij, F.M. 1821-1881 Fedor Michajlovič"
+       ],
+       "sources": 49,
+       "wikidata": [
+        "Q991"
+       ],
+       "iccu": [
+        "ICCU|CFIV001049"
+       ],
+       "birth": "1821-11-11",
+       "death": "1881-02-09",
+       "same_name": false
+      }
+     ],
+     "chosen": "104023256",
+     "chosen_rule": "most sources among all personal clusters returned"
+    },
+    {
+     "variant": "Dostoïevski",
+     "sent": "Dostoievski",
+     "total": 23,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "7134154260794724480009",
+       "headings": [
+        "Klejman, Rita Jakovlevna 1947-2008",
+        "Клейман, Рита Яковлевна 1947-2008",
+        "Rita Kleiman"
+       ],
+       "sources": 3,
+       "wikidata": [
+        "Q4223203"
+       ],
+       "iccu": [],
+       "birth": "1947-09-25",
+       "death": "2008-11-27",
+       "same_name": false
+      },
+      {
+       "viafID": "6074160486121805180007",
+       "headings": [
+        "Dostoïevski, Fedor Mikhaïlovitch"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "826144647700509806282",
+       "headings": [
+        "Dostoevskiĭ, A. A. (Andreĭ Andreevich), 1863-1933",
+        "Достоевский, А. А. 1863-1933 Андрей Андреевич",
+        "Dostoevskij, Andrej Andreevič 1863-1933"
+       ],
+       "sources": 6,
+       "wikidata": [
+        "Q19907905"
+       ],
+       "iccu": [],
+       "birth": "1863-04-03",
+       "death": "1933-09-13",
+       "same_name": false
+      },
+      {
+       "viafID": "679159233954103370348",
+       "headings": [
+        "Dostoïevski (famille)"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "597150323649909971056",
+       "headings": [
+        "Dostoievski, Fiodor (Espírito)"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "133144814451884389418",
+       "headings": [
+        "Fridlender, Georgiĭ",
+        "Fridlender, Gueorgui Mikhai͏̈lovitch, 1915-1995",
+        "Fridlender, Georgij Michajlovič, 1915-1995"
+       ],
+       "sources": 22,
+       "wikidata": [
+        "Q4492727"
+       ],
+       "iccu": [],
+       "birth": "1915-02-09",
+       "death": "1995-12-22",
+       "same_name": false
+      },
+      {
+       "viafID": "41163994638601831860",
+       "headings": [
+        "Dostoevskij, Aleksandr Andreevič (1857-1894)",
+        "Александр Андреевич Достоевский российский гистолог"
+       ],
+       "sources": 2,
+       "wikidata": [
+        "Q4167250"
+       ],
+       "iccu": [],
+       "birth": "1857-02-03",
+       "death": "1894-10-06",
+       "same_name": false
+      },
+      {
+       "viafID": "207181162",
+       "headings": [
+        "Mudie, Doris",
+        "Mudie, Doris, 1894-1977"
+       ],
+       "sources": 7,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1894,
+       "death": 1977,
+       "same_name": false
+      },
+      {
+       "viafID": "120094566",
+       "headings": [
+        "Wrangel, Alexandr J. 1833-1915",
+        "Alexandre Wrangel",
+        "Vrangel', Alexandr Jegorovič, baron, 1833-1915"
+       ],
+       "sources": 4,
+       "wikidata": [
+        "Q15782243"
+       ],
+       "iccu": [],
+       "birth": "1833-03-23",
+       "death": "1915-09-12",
+       "same_name": false
+      },
+      {
+       "viafID": "111406297",
+       "headings": [
+        "Pózner, Vladímir, 1905-1992",
+        "Pozner, Vladimir",
+        "Познер, Владимир Соломонович"
+       ],
+       "sources": 29,
+       "wikidata": [
+        "Q1368557"
+       ],
+       "iccu": [],
+       "birth": "1905-01-05",
+       "death": "1992-02-17",
+       "same_name": false
+      },
+      {
+       "viafID": "106969633",
+       "headings": [
+        "Schloezer, Boris de 1881-1969",
+        "Schloezer, Boris de",
+        "Boris de Schlœzer écrivain, musicologue et traducteur français d'origine russe"
+       ],
+       "sources": 29,
+       "wikidata": [
+        "Q373117"
+       ],
+       "iccu": [],
+       "birth": "1881-12-08",
+       "death": "1969-10-07",
+       "same_name": false
+      },
+      {
+       "viafID": "104023256",
+       "headings": [
+        "Dostoyevsky, Fyodor, 1821-1881",
+        "Dostoiévski, Fiódor, 1821-1881",
+        "Dostoevskij, F.M. 1821-1881 Fedor Michajlovič"
+       ],
+       "sources": 49,
+       "wikidata": [
+        "Q991"
+       ],
+       "iccu": [
+        "ICCU|CFIV001049"
+       ],
+       "birth": "1821-11-11",
+       "death": "1881-02-09",
+       "same_name": false
+      },
+      {
+       "viafID": "88060296",
+       "headings": [
+        "Dolinin, A.S.",
+        "Dolinine, Arkadi Semenovitch, 1883-1968",
+        "Dolinin, Arkadij Semenovič, 1880-1968"
+       ],
+       "sources": 18,
+       "wikidata": [
+        "Q4164956"
+       ],
+       "iccu": [],
+       "birth": "1880-04-29",
+       "death": "1968-08-21",
+       "same_name": false
+      },
+      {
+       "viafID": "64931496",
+       "headings": [
+        "Dostoevskij, Michail M. 1820-1864",
+        "Dostoevskiĭ, Mikhail Mikhaĭlovich, 1820-1864",
+        "Достоевский, М. М. 1820-1864 Михаил Михайлович"
+       ],
+       "sources": 9,
+       "wikidata": [
+        "Q4167253"
+       ],
+       "iccu": [],
+       "birth": "1820-10-13",
+       "death": "1864-07-10",
+       "same_name": false
+      },
+      {
+       "viafID": "47043096",
+       "headings": [
+        "Константин Константинович Случевский русский поэт, писатель, драматург, переводчик",
+        "Slučevskij, Konstantin Konstantinovič, 1837-1904",
+        "Sluchevskīĭ, K. K. (Konstantin Konstantinovich), 1837-1904"
+       ],
+       "sources": 19,
+       "wikidata": [
+        "Q2627162"
+       ],
+       "iccu": [],
+       "birth": "1837-08-07",
+       "death": "1904-10-08",
+       "same_name": false
+      },
+      {
+       "viafID": "29649406",
+       "headings": [
+        "Dostoevskai︠a︡, Anna Grigorʹevna Snitkina, 1846-1918",
+        "Dostoevskaâ, Anna Grigorʹevna 1846-1918",
+        "Dostoevskaja, Anna G. 1846-1918"
+       ],
+       "sources": 36,
+       "wikidata": [
+        "Q872246"
+       ],
+       "iccu": [
+        "ICCU|RAVV016928"
+       ],
+       "birth": "1846-09-12",
+       "death": "1918-06-09",
+       "same_name": false
+      },
+      {
+       "viafID": "28698837",
+       "headings": [
+        "Verchovskij, Zacharija V. 1767-1833",
+        "Zosima, skhimonakh, 1767-1833",
+        "Зосима (Верховский)"
+       ],
+       "sources": 4,
+       "wikidata": [
+        "Q4194073"
+       ],
+       "iccu": [],
+       "birth": "1767-03-24",
+       "death": "1833-10-24",
+       "same_name": false
+      },
+      {
+       "viafID": "27309586",
+       "headings": [
+        "Страхов, Н. Н. философ 1828-1896 Николай Николаевич",
+        "Strakhov, N. (Nikolaĭ), 1828-1896",
+        "Страхов, Николай Николаевич, 1828-1896."
+       ],
+       "sources": 21,
+       "wikidata": [
+        "Q2636293"
+       ],
+       "iccu": [],
+       "birth": "1828-10-28",
+       "death": "1896-02-05",
+       "same_name": false
+      },
+      {
+       "viafID": "25465497",
+       "headings": [
+        "Dostoevskij, Andrej Michajlovič 1825-1897",
+        "Dostoevskiĭ, Andreĭ Mikhaĭlovich, 1825-1897",
+        "Достоевский, Андрей Михайлович, 1825-1897"
+       ],
+       "sources": 13,
+       "wikidata": [
+        "Q4167251"
+       ],
+       "iccu": [],
+       "birth": "1825-03-27",
+       "death": "1897-03-19",
+       "same_name": false
+      },
+      {
+       "viafID": "16511866",
+       "headings": [
+        "Dostoevskaja, Marija D. 1824-1864",
+        "Мария Дмитриевна Достоевская Первая жена Фёдора Михайловича Достоевского",
+        "Dostoevskai︠a︡, Marii︠a︡ Dmitrievna, 1825 or 1826-1864"
+       ],
+       "sources": 6,
+       "wikidata": [
+        "Q15833960"
+       ],
+       "iccu": [],
+       "birth": "1824-09-11",
+       "death": "1864-04-15",
+       "same_name": false
+      },
+      {
+       "viafID": "9896952",
+       "headings": [
+        "Dostoevskai︠a︡, L. Ḟ. (Li︠u︡bovʹ Ḟedorovna), 1869-1926",
+        "Dostoevskaâ, Lûbov' Fëdorovna 1869-1926",
+        "Dostoevskaja, Ljubovʹ Fedorovna 1869-1926"
+       ],
+       "sources": 26,
+       "wikidata": [
+        "Q4167247"
+       ],
+       "iccu": [
+        "ICCU|UM1V011577"
+       ],
+       "birth": "1869-09-26",
+       "death": "1926-11-10",
+       "same_name": false
+      },
+      {
+       "viafID": "4927930",
+       "headings": [
+        "Chaplet, Pierre",
+        "Chaplet, Pierre 1925-2011",
+        "Chaplet, Pierre, 19..-...."
+       ],
+       "sources": 12,
+       "wikidata": [
+        "Q122599480"
+       ],
+       "iccu": [],
+       "birth": "1925-02-11",
+       "death": "2011-12-22",
+       "same_name": false
+      },
+      {
+       "viafID": "3268293",
+       "headings": [
+        "Eckstein, Friedrich, 1861-1939",
+        "Eckstein, Friedrich",
+        "Eckstein, Fr."
+       ],
+       "sources": 17,
+       "wikidata": [
+        "Q86581"
+       ],
+       "iccu": [],
+       "birth": "1861-02-17",
+       "death": "1939-11-10",
+       "same_name": false
+      }
+     ],
+     "chosen": "104023256",
+     "chosen_rule": "most sources among all personal clusters returned"
+    },
+    {
+     "variant": "Фёдор Достоевский",
+     "sent": "Фёдор Достоевский",
+     "total": 5,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "104023256",
+       "headings": [
+        "Dostoyevsky, Fyodor, 1821-1881",
+        "Dostoiévski, Fiódor, 1821-1881",
+        "Dostoevskij, F.M. 1821-1881 Fedor Michajlovič"
+       ],
+       "sources": 49,
+       "wikidata": [
+        "Q991"
+       ],
+       "iccu": [
+        "ICCU|CFIV001049"
+       ],
+       "birth": "1821-11-11",
+       "death": "1881-02-09",
+       "same_name": false
+      },
+      {
+       "viafID": "95260021",
+       "headings": [
+        "Тютчев, Ф. И. 1803-1873 Федор Иванович",
+        "Tûtčev, Fëdor Ivanovič (1803-1873)",
+        "Ti︠u︡tchev, F. I. (Fedor Ivanovich), 1803-1873"
+       ],
+       "sources": 35,
+       "wikidata": [
+        "Q37217"
+       ],
+       "iccu": [
+        "ICCU|MILV006877"
+       ],
+       "birth": "1803-12-05",
+       "death": "1873-07-15",
+       "same_name": false
+      },
+      {
+       "viafID": "47043096",
+       "headings": [
+        "Константин Константинович Случевский русский поэт, писатель, драматург, переводчик",
+        "Slučevskij, Konstantin Konstantinovič, 1837-1904",
+        "Sluchevskīĭ, K. K. (Konstantin Konstantinovich), 1837-1904"
+       ],
+       "sources": 19,
+       "wikidata": [
+        "Q2627162"
+       ],
+       "iccu": [],
+       "birth": "1837-08-07",
+       "death": "1904-10-08",
+       "same_name": false
+      },
+      {
+       "viafID": "44304389",
+       "headings": [
+        "Roïdīs, Emmanouīl D. (1836-1904)",
+        "Roïdēs, Emmanuēl D. 1836-1904",
+        "Rhoidēs, Emmanouēl D., 1835-1904"
+       ],
+       "sources": 30,
+       "wikidata": [
+        "Q211350"
+       ],
+       "iccu": [],
+       "birth": "1836-07-28",
+       "death": "1904-01-07",
+       "same_name": false
+      },
+      {
+       "viafID": "9896952",
+       "headings": [
+        "Dostoevskai︠a︡, L. Ḟ. (Li︠u︡bovʹ Ḟedorovna), 1869-1926",
+        "Dostoevskaâ, Lûbov' Fëdorovna 1869-1926",
+        "Dostoevskaja, Ljubovʹ Fedorovna 1869-1926"
+       ],
+       "sources": 26,
+       "wikidata": [
+        "Q4167247"
+       ],
+       "iccu": [
+        "ICCU|UM1V011577"
+       ],
+       "birth": "1869-09-26",
+       "death": "1926-11-10",
+       "same_name": false
+      }
+     ],
+     "chosen": "104023256",
+     "chosen_rule": "most sources among all personal clusters returned"
+    }
+   ],
+   "one_id": true
+  },
+  "P04": {
+   "person": "Elena Ferrante",
+   "variants": [
+    {
+     "variant": "Elena Ferrante",
+     "sent": "Elena Ferrante",
+     "total": 6,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "8059178606696501110007",
+       "headings": [
+        "Ferrante, Elena, pseudonüüm, 1943-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1943,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "6008158792852539040006",
+       "headings": [
+        "Ferrante, Elena"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "21151897123724070835",
+       "headings": [
+        "Elena Greco (postać fikcyjna)",
+        "Elena Greco"
+       ],
+       "sources": 2,
+       "wikidata": [
+        "Q117323535"
+       ],
+       "iccu": [],
+       "birth": "1944-08-25",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "19151897194824072005",
+       "headings": [
+        "Raffaella Cerullo (postać fikcyjna)"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "69611902",
+       "headings": [
+        "Ferrante, Elena",
+        "Raja, Anita, 1953-",
+        "Ferrante, Elena, pseud."
+       ],
+       "sources": 7,
+       "wikidata": [
+        "Q27100818"
+       ],
+       "iccu": [
+        "ICCU|CFIV012107"
+       ],
+       "birth": 1953,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "32103009",
+       "headings": [
+        "Ferrante, Elena, 1943-....",
+        "Ferrante, Elena",
+        "Elena Ferrante"
+       ],
+       "sources": 31,
+       "wikidata": [
+        "Q368127"
+       ],
+       "iccu": [
+        "ICCU|RAVV076631"
+       ],
+       "birth": "1943-04-05",
+       "death": 0,
+       "same_name": true
+      }
+     ],
+     "chosen": "32103009",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  },
+  "P05": {
+   "person": "Jacques Attali",
+   "variants": [
+    {
+     "variant": "Jacques Attali",
+     "sent": "Jacques Attali",
+     "total": 3,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "189628526",
+       "headings": [
+        "Jacques, Claire",
+        "Claire Jacques researcher"
+       ],
+       "sources": 3,
+       "wikidata": [
+        "Q56942709"
+       ],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "121940552",
+       "headings": [
+        "Berggruen, Nicolas, 1961-....",
+        "Nicolas Berggruen Businessperson, billionaire",
+        "Berggruen, Nicolas"
+       ],
+       "sources": 16,
+       "wikidata": [
+        "Q88917"
+       ],
+       "iccu": [],
+       "birth": "1961-08-10",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "101721040",
+       "headings": [
+        "Attali, Jacques, 1943-....",
+        "Attali, Jacques",
+        "Attali, Jacques (Jacques José), 1943-"
+       ],
+       "sources": 33,
+       "wikidata": [
+        "Q364315"
+       ],
+       "iccu": [
+        "ICCU|CFIV023341"
+       ],
+       "birth": "1943-11-01",
+       "death": 0,
+       "same_name": true
+      }
+     ],
+     "chosen": "101721040",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  },
+  "P06": {
+   "person": "Umberto Eco",
+   "variants": [
+    {
+     "variant": "Umberto Eco",
+     "sent": "Umberto Eco",
+     "total": 11,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "311629977",
+       "headings": [
+        "Eco, Stefano",
+        "Stefano Eco"
+       ],
+       "sources": 2,
+       "wikidata": [
+        "Q95777106"
+       ],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "302299325",
+       "headings": [
+        "Frýbort, Zdeněk, 1931-2013",
+        "Frýbort, Zdeněk",
+        "Zdeněk Frýbort český redaktor a překladatel"
+       ],
+       "sources": 9,
+       "wikidata": [
+        "Q22915780"
+       ],
+       "iccu": [],
+       "birth": "1931-07-20",
+       "death": "2013-04-04",
+       "same_name": false
+      },
+      {
+       "viafID": "252382849",
+       "headings": [
+        "谷口, 伊兵衛, 1936-",
+        "다니구치 이헤에 1936-",
+        "Taniguchi, Ihei 1936-"
+       ],
+       "sources": 5,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1936,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "120741316",
+       "headings": [
+        "Chaliapin, Feodor, 1905-1992",
+        "Chaliapin, Feodor 1907-1992",
+        "Шаляпин, Фёдор Фёдорович"
+       ],
+       "sources": 9,
+       "wikidata": [
+        "Q1377478"
+       ],
+       "iccu": [],
+       "birth": "1905-10-06",
+       "death": "1992-09-17",
+       "same_name": false
+      },
+      {
+       "viafID": "108299403",
+       "headings": [
+        "Eco, Umberto, 1932-2016.",
+        "Eco, Umberto",
+        "Umberto Eco"
+       ],
+       "sources": 49,
+       "wikidata": [
+        "Q12807"
+       ],
+       "iccu": [
+        "ICCU|CFIV006213"
+       ],
+       "birth": "1932-01-05",
+       "death": "2016-02-19",
+       "same_name": true
+      },
+      {
+       "viafID": "81635013",
+       "headings": [
+        "谷口, 勇, 1936-",
+        "Taniguchi, Isamu",
+        "Isamu Taniguchi"
+       ],
+       "sources": 9,
+       "wikidata": [
+        "Q11632678"
+       ],
+       "iccu": [],
+       "birth": 1936,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "61599687",
+       "headings": [
+        "Barbieri, Daniele, 1957-....",
+        "Barbieri, Daniele",
+        "Daniele Barbieri semiologo, saggista e poeta italiano (1957-)"
+       ],
+       "sources": 15,
+       "wikidata": [
+        "Q3701865"
+       ],
+       "iccu": [
+        "ICCU|CFIV100878"
+       ],
+       "birth": "1957-01-03",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "33291920",
+       "headings": [
+        "Eco, Renate",
+        "Renate Ramge deutsch-italienische Dozentin für Kommunikation und Design, Ehefrau von Umberto Eco",
+        "Eco, Renate 1935-"
+       ],
+       "sources": 4,
+       "wikidata": [
+        "Q2143481"
+       ],
+       "iccu": [],
+       "birth": 1935,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "31160925",
+       "headings": [
+        "Viggiani, Beatrice",
+        "Viggiani, Beatrice 1932-2017"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1932-10-26",
+       "death": "2017-01-00",
+       "same_name": false
+      },
+      {
+       "viafID": "17254063",
+       "headings": [
+        "Mazarin, Jules, 1602-1661.",
+        "Mazarin, Jules 1602-1661 kardinal",
+        "Mazarin, Jules, card., 1602-1661"
+       ],
+       "sources": 39,
+       "wikidata": [
+        "Q166056"
+       ],
+       "iccu": [],
+       "birth": "1602-07-14",
+       "death": "1661-03-09",
+       "same_name": false
+      },
+      {
+       "viafID": "14856686",
+       "headings": [
+        "Magli, Patrizia",
+        "Magli, Patrizia, 1945-...."
+       ],
+       "sources": 9,
+       "wikidata": [],
+       "iccu": [
+        "ICCU|CFIV061616"
+       ],
+       "birth": "1945-09-19",
+       "death": 0,
+       "same_name": false
+      }
+     ],
+     "chosen": "108299403",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  },
+  "P07": {
+   "person": "Kodwo Eshun",
+   "variants": [
+    {
+     "variant": "Kodwo Eshun",
+     "sent": "Kodwo Eshun",
+     "total": 4,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "8485167202617767930007",
+       "headings": [
+        "Eshun, Kodwo (English video artist, flourished 2000-2024)"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1500,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "8129154441759235460003",
+       "headings": [
+        "Eshun, Kodwo, 1967-...."
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1967,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "305654245",
+       "headings": [
+        "Eshun, Kodwo"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "79471390",
+       "headings": [
+        "Eshun, Kodwo, 1967-....",
+        "Eshun, Kodwo",
+        "Kodwo Eshun British writer"
+       ],
+       "sources": 17,
+       "wikidata": [
+        "Q113174"
+       ],
+       "iccu": [],
+       "birth": 1967,
+       "death": 0,
+       "same_name": true
+      }
+     ],
+     "chosen": "79471390",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  },
+  "P08": {
+   "person": "Byung-Chul Han",
+   "variants": [
+    {
+     "variant": "Byung-Chul Han",
+     "sent": "Byung Chul Han",
+     "total": 4,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "3534149416755189730009",
+       "headings": [
+        "Choi, Byungchul"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "196153409782241582666",
+       "headings": [
+        "한병철",
+        "한병철 (韓炳哲) 1967-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1967,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "37059891",
+       "headings": [
+        "Han, Byung-Chul, 1959-....",
+        "Han, Byung-chul",
+        "한병철"
+       ],
+       "sources": 33,
+       "wikidata": [
+        "Q495875"
+       ],
+       "iccu": [
+        "ICCU|RAVV673297"
+       ],
+       "birth": 1959,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "35808150",
+       "headings": [
+        "이병철",
+        "이병철 (李秉喆) 1910-1987",
+        "Yi, Pyŏng-ch'ŏl, 1910-1987"
+       ],
+       "sources": 7,
+       "wikidata": [
+        "Q445643"
+       ],
+       "iccu": [],
+       "birth": "1910-02-12",
+       "death": "1987-11-19",
+       "same_name": false
+      }
+     ],
+     "chosen": "37059891",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    },
+    {
+     "variant": "Han Byung-Chul",
+     "sent": "Han Byung Chul",
+     "total": 4,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "3534149416755189730009",
+       "headings": [
+        "Choi, Byungchul"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "196153409782241582666",
+       "headings": [
+        "한병철",
+        "한병철 (韓炳哲) 1967-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1967,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "37059891",
+       "headings": [
+        "Han, Byung-Chul, 1959-....",
+        "Han, Byung-chul",
+        "한병철"
+       ],
+       "sources": 33,
+       "wikidata": [
+        "Q495875"
+       ],
+       "iccu": [
+        "ICCU|RAVV673297"
+       ],
+       "birth": 1959,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "35808150",
+       "headings": [
+        "이병철",
+        "이병철 (李秉喆) 1910-1987",
+        "Yi, Pyŏng-ch'ŏl, 1910-1987"
+       ],
+       "sources": 7,
+       "wikidata": [
+        "Q445643"
+       ],
+       "iccu": [],
+       "birth": "1910-02-12",
+       "death": "1987-11-19",
+       "same_name": false
+      }
+     ],
+     "chosen": "37059891",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    },
+    {
+     "variant": "한병철",
+     "sent": "한병철",
+     "total": 8,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "3867157527291827300003",
+       "headings": [
+        "한병철"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "666163874116845721710",
+       "headings": [
+        "한병철"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "377144928076454340511",
+       "headings": [
+        "한병철"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "271153409749141582117",
+       "headings": [
+        "한병철",
+        "한병철 (韓秉澈) 1986-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1986,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "196153409782241582666",
+       "headings": [
+        "한병철",
+        "한병철 (韓炳哲) 1967-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1967,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "121155103915376200854",
+       "headings": [
+        "한병철"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "69152380138001762895",
+       "headings": [
+        "Han, Pyŏng-chʻŏl"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "37059891",
+       "headings": [
+        "Han, Byung-Chul, 1959-....",
+        "Han, Byung-chul",
+        "한병철"
+       ],
+       "sources": 33,
+       "wikidata": [
+        "Q495875"
+       ],
+       "iccu": [
+        "ICCU|RAVV673297"
+       ],
+       "birth": 1959,
+       "death": 0,
+       "same_name": true
+      }
+     ],
+     "chosen": "37059891",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  },
+  "P09": {
+   "person": "Gabriel García Márquez",
+   "variants": [
+    {
+     "variant": "Gabriel García Márquez",
+     "sent": "Gabriel Garcia Marquez",
+     "total": 10,
+     "requests": 0,
+     "clusters": [
+      {
+       "viafID": "182144782717753613643",
+       "headings": [
+        "Mercedes Barcha Pardo",
+        "Barcha, Mercedes 1932-2020"
+       ],
+       "sources": 2,
+       "wikidata": [
+        "Q22087347"
+       ],
+       "iccu": [],
+       "birth": "1932-11-06",
+       "death": "2020-08-15",
+       "same_name": false
+      },
+      {
+       "viafID": "309810874",
+       "headings": [
+        "Gabo 1927-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1927,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "303068050",
+       "headings": [
+        "Meļinovskis, Voldemārs, 1910-1997"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1910-06-29",
+       "death": "1997-01-14",
+       "same_name": false
+      },
+      {
+       "viafID": "115923666",
+       "headings": [
+        "Alberto, Eliseo, 1951-2011",
+        "Alberto, Eliseo",
+        "Eliseo Alberto 1951-2011"
+       ],
+       "sources": 28,
+       "wikidata": [
+        "Q2595739"
+       ],
+       "iccu": [
+        "ICCU|TO0V312748"
+       ],
+       "birth": "1951-09-10",
+       "death": "2011-07-31",
+       "same_name": false
+      },
+      {
+       "viafID": "93912283",
+       "headings": [
+        "García, Eligio",
+        "García, Eligio, 1947-2001",
+        "García Márquez, Eligio 1947-2001"
+       ],
+       "sources": 13,
+       "wikidata": [
+        "Q111424819"
+       ],
+       "iccu": [],
+       "birth": "1947-11-14",
+       "death": "2001-06-30",
+       "same_name": false
+      },
+      {
+       "viafID": "79161087",
+       "headings": [
+        "Pol, Barber van de (Albertha Johanna), 1944-",
+        "van de Pol, Barber",
+        "Pol, Barber van de 1944-"
+       ],
+       "sources": 8,
+       "wikidata": [
+        "Q2105259"
+       ],
+       "iccu": [],
+       "birth": 1944,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "71701829",
+       "headings": [
+        "García, Rodrigo, 1959-",
+        "Rodrigo García Barcha",
+        "García, Rodrigo"
+       ],
+       "sources": 23,
+       "wikidata": [
+        "Q714651"
+       ],
+       "iccu": [],
+       "birth": "1959-08-24",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "58387190",
+       "headings": [
+        "García Márquez, Gabriel 1952-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1952,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "54147956",
+       "headings": [
+        "García Márquez, Gabriel, 1927-2014",
+        "García Márquez, Gabriel",
+        "García Márquez, Gabriel, 1928-2014."
+       ],
+       "sources": 46,
+       "wikidata": [
+        "Q5878"
+       ],
+       "iccu": [
+        "ICCU|CFIV002730"
+       ],
+       "birth": "1927-03-06",
+       "death": "2014-04-17",
+       "same_name": true
+      },
+      {
+       "viafID": "36917642",
+       "headings": [
+        "Durand, Claude, 1938-2015",
+        "Durand, Claude, 1938-",
+        "Durand, Claude"
+       ],
+       "sources": 17,
+       "wikidata": [
+        "Q1249963"
+       ],
+       "iccu": [],
+       "birth": "1938-11-09",
+       "death": "2015-05-07",
+       "same_name": false
+      }
+     ],
+     "chosen": "54147956",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    },
+    {
+     "variant": "Garcia Marquez",
+     "sent": "Garcia Marquez",
+     "total": 103,
+     "requests": 6,
+     "clusters": [
+      {
+       "viafID": "9836159477817627990007",
+       "headings": [
+        "García de Castro Márquez, Carmelo"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "9346169639289596580007",
+       "headings": [
+        "García Márquez, Manuel Enrique"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "8484161211785440070001",
+       "headings": [
+        "García Márquez, Asoid"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "8145160667584103560006",
+       "headings": [
+        "Loza Márquez, Ildefonso 1930-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1930,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "6445160668334003560000",
+       "headings": [
+        "García Márquez, Nélida"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "3568161211989940070001",
+       "headings": [
+        "García-Márquez, Vicente, 1953-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1953,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "2514171732601609080008",
+       "headings": [
+        "Márquez García, Ricardo"
+       ],
+       "sources": 5,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 2000,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "2349174440389811360002",
+       "headings": [
+        "Márquez García, María Luisa"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "2297178467180135190000",
+       "headings": [
+        "García Márquez, Fausto Pedro, 19..-...."
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1950,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "1889152381757201950007",
+       "headings": [
+        "Márquez García, Francisco"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "1239159234565203371984",
+       "headings": [
+        "García Márquez, Jaime R."
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "398171191105958030004",
+       "headings": [
+        "García Márquez, Fausto Pedro"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "269152561563315442167",
+       "headings": [
+        "García Márquez, Carmen"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "182144782717753613643",
+       "headings": [
+        "Mercedes Barcha Pardo",
+        "Barcha, Mercedes 1932-2020"
+       ],
+       "sources": 2,
+       "wikidata": [
+        "Q22087347"
+       ],
+       "iccu": [],
+       "birth": "1932-11-06",
+       "death": "2020-08-15",
+       "same_name": false
+      },
+      {
+       "viafID": "168145003292561300879",
+       "headings": [
+        "Márquez García, Jorge Edgar"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "117151050124133411038",
+       "headings": [
+        "García Márquez, Faustino"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "94169017962366982722",
+       "headings": [
+        "García Márquez, Diego"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "82148933724254301708",
+       "headings": [
+        "Garcia Marquez, Annabel"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "60153833207664331791",
+       "headings": [
+        "García Márquez, Francisco Javier"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "53158669799227201199",
+       "headings": [
+        "Márquez García, María Jesús"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "43152023733803312053",
+       "headings": [
+        "García Márquez, Fausto Pedro"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "42162842298273041468",
+       "headings": [
+        "García Márquez, Fausto Pedro",
+        "García Márquez, Fausto Pedro 1974-",
+        "Fausto Pedro García Márquez researcher, ORCID id # 0000-0002-9245-440X"
+       ],
+       "sources": 11,
+       "wikidata": [
+        "Q58311661"
+       ],
+       "iccu": [],
+       "birth": 1974,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "41152561584115442009",
+       "headings": [
+        "García Márquez, Manuel"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "28157523402927032373",
+       "headings": [
+        "García Márquez, Aitana, 2003-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 2003,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "27176018920801352887",
+       "headings": [
+        "García Márquez, Wilfredo"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "19173061653026372060",
+       "headings": [
+        "García Márquez, Jesús"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "16146936566713780223",
+       "headings": [
+        "García-Márquez Robledillo, Víctor"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "12162841942473040773",
+       "headings": [
+        "Márquez García, Yeraldina"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1950,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "10171591726503232826",
+       "headings": [
+        "Márquez García, Alfonso Miguel"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1972,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "8166060003480320216",
+       "headings": [
+        "Márquez, Melina"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "317055577",
+       "headings": [
+        "García Márquez, María Alejandra 1986-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1986,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "316588357",
+       "headings": [
+        "García Márquez family"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "316582861",
+       "headings": [
+        "Garcia family"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "316576802",
+       "headings": [
+        "Marquez family"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "315594985",
+       "headings": [
+        "Márquez García, Luis A."
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "313507014",
+       "headings": [
+        "García Márquez, Luis Jorge"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "311589037",
+       "headings": [
+        "Márquez, Ana María 1967-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1967,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "310554975",
+       "headings": [
+        "García-Márquez, Vicente -1993"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 1993,
+       "same_name": false
+      },
+      {
+       "viafID": "309810874",
+       "headings": [
+        "Gabo 1927-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1927,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "309773425",
+       "headings": [
+        "García Márquez, Agustín"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "309773252",
+       "headings": [
+        "García Márquez, Enrique"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "309592104",
+       "headings": [
+        "Marquez Garcia, Margot"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "305817714",
+       "headings": [
+        "García-Escudero Márquez, Patricia"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "305791735",
+       "headings": [
+        "Márquez-Garciá, A. C."
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "305044891",
+       "headings": [
+        "García Márquez, Aída 1930-"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1930-12-17",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "304343388",
+       "headings": [
+        "Márquez García, Emilio, 1951-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1951,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "303068050",
+       "headings": [
+        "Meļinovskis, Voldemārs, 1910-1997"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1910-06-29",
+       "death": "1997-01-14",
+       "same_name": false
+      },
+      {
+       "viafID": "300113069",
+       "headings": [
+        "García Márquez, Antonio 1957-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1957,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "288625225",
+       "headings": [
+        "García Márquez, fam."
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "282734224",
+       "headings": [
+        "García Márquez, Asoid"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "269883995",
+       "headings": [
+        "Márquez García, Concepción"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "263564097",
+       "headings": [
+        "Méndez, Roberto, 1958-",
+        "Méndez Martínez, Roberto",
+        "Méndez Martínez, Roberto, 1958-..."
+       ],
+       "sources": 10,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1958,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "261765353",
+       "headings": [
+        "García Márquez, Fausto Pedro"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "232972416",
+       "headings": [
+        "García-Escudero Márquez, Pío",
+        "García-Escudero, Pío 1952-",
+        "Garcia-Escudero Marquez, Pio (1952- )"
+       ],
+       "sources": 6,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1952-10-28",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "217311496",
+       "headings": [
+        "García de Castro Márquez, Carmelo"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "196221018",
+       "headings": [
+        "Garcia Marquez, Alfonso, 1979-...."
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1979-04-19",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "172419214",
+       "headings": [
+        "García Márquez, Luis"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "170694582",
+       "headings": [
+        "García Márquez, Jaime Ricardo 1977-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1977,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "169565924",
+       "headings": [
+        "García Márquez, José María, 1950-",
+        "García Márquez, José María",
+        "José María García Márquez 1950-"
+       ],
+       "sources": 8,
+       "wikidata": [
+        "Q53550052"
+       ],
+       "iccu": [],
+       "birth": 1950,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "168953655",
+       "headings": [
+        "García Márquez, Juan Antonio 1983-"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1983,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "168770953",
+       "headings": [
+        "García Márquez, Berta María"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "164068477",
+       "headings": [
+        "García Márquez, Ernesto"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "151925744",
+       "headings": [
+        "Roberto Castro García político español",
+        "Castro, Roberto 1955-"
+       ],
+       "sources": 2,
+       "wikidata": [
+        "Q12399119"
+       ],
+       "iccu": [],
+       "birth": "1955-10-22",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "130610506",
+       "headings": [
+        "García Márquez, José Luis"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "115923666",
+       "headings": [
+        "Alberto, Eliseo, 1951-2011",
+        "Alberto, Eliseo",
+        "Eliseo Alberto 1951-2011"
+       ],
+       "sources": 28,
+       "wikidata": [
+        "Q2595739"
+       ],
+       "iccu": [
+        "ICCU|TO0V312748"
+       ],
+       "birth": "1951-09-10",
+       "death": "2011-07-31",
+       "same_name": false
+      },
+      {
+       "viafID": "114983334",
+       "headings": [
+        "Marcía-Márquez, Vicente"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "106993753",
+       "headings": [
+        "García de Castro Márquez, Emilio 1932-2014",
+        "García de Castro Márquez, Emilio"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1932,
+       "death": 2014,
+       "same_name": false
+      },
+      {
+       "viafID": "106850141",
+       "headings": [
+        "García Márquez, Elba Esther"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "103674337",
+       "headings": [
+        "García Márquez, Juan Pedro"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1950,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "100945163",
+       "headings": [
+        "García Márquez, Antonio"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "93912283",
+       "headings": [
+        "García, Eligio",
+        "García, Eligio, 1947-2001",
+        "García Márquez, Eligio 1947-2001"
+       ],
+       "sources": 13,
+       "wikidata": [
+        "Q111424819"
+       ],
+       "iccu": [],
+       "birth": "1947-11-14",
+       "death": "2001-06-30",
+       "same_name": false
+      },
+      {
+       "viafID": "87135485",
+       "headings": [
+        "Márquez García, María Luisa"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "86870274",
+       "headings": [
+        "Jagarmus"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "79161087",
+       "headings": [
+        "Pol, Barber van de (Albertha Johanna), 1944-",
+        "van de Pol, Barber",
+        "Pol, Barber van de 1944-"
+       ],
+       "sources": 8,
+       "wikidata": [
+        "Q2105259"
+       ],
+       "iccu": [],
+       "birth": 1944,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "78915565",
+       "headings": [
+        "García de la Noceda Márquez, Celestino"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "76112333",
+       "headings": [
+        "Márquez García, Guadalupe"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "73533079",
+       "headings": [
+        "García Márquez, Rómulo"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "73025603",
+       "headings": [
+        "García Márquez, Enrique"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "71701829",
+       "headings": [
+        "García, Rodrigo, 1959-",
+        "Rodrigo García Barcha",
+        "García, Rodrigo"
+       ],
+       "sources": 23,
+       "wikidata": [
+        "Q714651"
+       ],
+       "iccu": [],
+       "birth": "1959-08-24",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "70166250",
+       "headings": [
+        "García Márquez, Agustín"
+       ],
+       "sources": 4,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "68966116",
+       "headings": [
+        "García Marqués, Alfonso",
+        "García Marqués, Alfonso 1954-",
+        "Alfonso García Marqués"
+       ],
+       "sources": 10,
+       "wikidata": [
+        "Q5666866"
+       ],
+       "iccu": [],
+       "birth": 1954,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "65698915",
+       "headings": [
+        "Ramoncín, 1955-",
+        "Márquez Martínez, José Ramón Julio",
+        "Martínez Márquez, José Ramón Julio, 1955-...."
+       ],
+       "sources": 11,
+       "wikidata": [
+        "Q3323663"
+       ],
+       "iccu": [],
+       "birth": "1955-11-25",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "60522791",
+       "headings": [
+        "García Márquez, Manuel",
+        "Manuel García Márquez",
+        "García Márquez, Manuel 1949-...."
+       ],
+       "sources": 6,
+       "wikidata": [
+        "Q93431346"
+       ],
+       "iccu": [],
+       "birth": 1949,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "58433412",
+       "headings": [
+        "García de Castro Márquez, Emilio"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "58387190",
+       "headings": [
+        "García Márquez, Gabriel 1952-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1952,
+       "death": 0,
+       "same_name": true
+      },
+      {
+       "viafID": "54147956",
+       "headings": [
+        "García Márquez, Gabriel, 1927-2014",
+        "García Márquez, Gabriel",
+        "García Márquez, Gabriel, 1928-2014."
+       ],
+       "sources": 46,
+       "wikidata": [
+        "Q5878"
+       ],
+       "iccu": [
+        "ICCU|CFIV002730"
+       ],
+       "birth": "1927-03-06",
+       "death": "2014-04-17",
+       "same_name": true
+      },
+      {
+       "viafID": "53943299",
+       "headings": [
+        "Márquez García, Francisco Manuel"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "53019494",
+       "headings": [
+        "García Márquez, Wilfredo"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "46802471",
+       "headings": [
+        "García-Márquez, Vicente",
+        "García-Márquez, Vicente 1953-",
+        "García-Márquez, Vicente, musicologue"
+       ],
+       "sources": 11,
+       "wikidata": [
+        "Q94618394"
+       ],
+       "iccu": [],
+       "birth": 1953,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "46447993",
+       "headings": [
+        "García Márquez, Rogelio"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "43530070",
+       "headings": [
+        "García Márquez, Carmen"
+       ],
+       "sources": 3,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "39061532",
+       "headings": [
+        "García Márquez, Nélida"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "36917642",
+       "headings": [
+        "Durand, Claude, 1938-2015",
+        "Durand, Claude, 1938-",
+        "Durand, Claude"
+       ],
+       "sources": 17,
+       "wikidata": [
+        "Q1249963"
+       ],
+       "iccu": [],
+       "birth": "1938-11-09",
+       "death": "2015-05-07",
+       "same_name": false
+      },
+      {
+       "viafID": "36567457",
+       "headings": [
+        "Márquez, Antonio",
+        "Antonio Márquez",
+        "Márquez, Antonio, 1963-...."
+       ],
+       "sources": 4,
+       "wikidata": [
+        "Q5699179"
+       ],
+       "iccu": [],
+       "birth": "1963-05-24",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "31264961",
+       "headings": [
+        "Lasala, José Luis 1945-",
+        "Lasala, José Luis",
+        "José Luis Lasala"
+       ],
+       "sources": 5,
+       "wikidata": [
+        "Q55987538"
+       ],
+       "iccu": [],
+       "birth": 1945,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "26247640",
+       "headings": [
+        "Márquez-Padilla, Paz Consuelo"
+       ],
+       "sources": 7,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 1950,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "23840206",
+       "headings": [
+        "Marqués, Pedro Miguel, 1843-1918",
+        "Marqués, Miguel, 1843-1918",
+        "Marqués y Garcia, Pedro Miguel, 1843-1918"
+       ],
+       "sources": 18,
+       "wikidata": [
+        "Q577477"
+       ],
+       "iccu": [],
+       "birth": "1843-05-23",
+       "death": "1918-02-25",
+       "same_name": false
+      },
+      {
+       "viafID": "17133600",
+       "headings": [
+        "Marquez Garcia-Sola, Luz"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "14138619",
+       "headings": [
+        "García Márquez, Pura 1959-",
+        "García, Pura, 1959-",
+        "García Márquez, Purificación (Spanish architect, born 1959)"
+       ],
+       "sources": 6,
+       "wikidata": [
+        "Q124846254"
+       ],
+       "iccu": [],
+       "birth": 1959,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "12025513",
+       "headings": [
+        "García Márquez, Fernando"
+       ],
+       "sources": 1,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "11679723",
+       "headings": [
+        "Loza Márquez, Ildefonso 1930-"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": "1930-10-16",
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "8836729",
+       "headings": [
+        "García-Escudero Márquez, Piedad",
+        "Piedad García-Escudero Márquez"
+       ],
+       "sources": 6,
+       "wikidata": [
+        "Q94947879"
+       ],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      },
+      {
+       "viafID": "3886188",
+       "headings": [
+        "García M., Próspero (García Márquez)",
+        "García M, Próspero"
+       ],
+       "sources": 2,
+       "wikidata": [],
+       "iccu": [],
+       "birth": 0,
+       "death": 0,
+       "same_name": false
+      }
+     ],
+     "chosen": "54147956",
+     "chosen_rule": "most sources among clusters whose heading contains every token of the person's name"
+    }
+   ],
+   "one_id": true
+  }
+ },
+ "requests": {
+  "viaf.org": {
+   "requests": 6,
+   "failed": 0,
+   "total_s": 3.38,
+   "p50_s": 0.463,
+   "max_s": 1.276
+  }
+ },
+ "failures": []
+}

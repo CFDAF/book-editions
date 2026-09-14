@@ -1,0 +1,5834 @@
+{
+ "id": "E16",
+ "sbn": [
+  {
+   "W": "doktor zivago",
+   "author": "Pasternak",
+   "total": 126,
+   "lingua_facet": [
+    [
+     "ita",
+     99
+    ],
+    [
+     "rus",
+     11
+    ],
+    [
+     "eng",
+     9
+    ],
+    [
+     "fre",
+     4
+    ],
+    [
+     "rum",
+     2
+    ],
+    [
+     "alb",
+     1
+    ],
+    [
+     "ger",
+     1
+    ],
+    [
+     "por",
+     1
+    ],
+    [
+     "slv",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 129,
+   "rows": 126,
+   "multilingual_rows": 3,
+   "languages": 9,
+   "bogus_lingua_total": 0,
+   "year_parsed": 123,
+   "year_parse_failures": [
+    {
+     "bid": "RMS1900157",
+     "imprint": "28. ed"
+    },
+    {
+     "bid": "MOD1598740",
+     "imprint": "Registrazione sonora non musicale - Monografia [IT\\ICCU\\MOD\\1598740]"
+    },
+    {
+     "bid": "PAR1195904",
+     "imprint": "Fa parte di: Opere narrative"
+    }
+   ],
+   "publisher_present": 125,
+   "language_present": 126,
+   "records_on_no_language_page": [],
+   "requests": 15,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 2.5,
+   "items": [
+    {
+     "bid": "RT10103576",
+     "title": "Doktor Zhivago / Boris Pasternak ; shqipëroi: Xhemile Zykaj",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Tiranë : Fan Noli, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2018",
+     "publisher": "Fan Noli",
+     "place": "Tiranë"
+    },
+    {
+     "bid": "PUV1025309",
+     "title": "Doctor Zhivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "New York : New american library, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1958",
+     "publisher": "New american library",
+     "place": "New York"
+    },
+    {
+     "bid": "LIA0066794",
+     "title": "Doctor Zhivago / Boris Pasternak ; Translated from the Russian by Max Haywara and Manya Harari",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "London : Collins, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1958",
+     "publisher": "Collins",
+     "place": "London"
+    },
+    {
+     "bid": "RL10042140",
+     "title": "Doctor Zhivago / Boris Pasternak ; translated from the russian by Max Hayward and Manya Harari",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "London ; Glasgow : Collins Fontana book, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1978",
+     "publisher": "Collins Fontana book",
+     "place": "London ; Glasgow"
+    },
+    {
+     "bid": "IEI0778664",
+     "title": "Doctor Zhivago / Boris Pasternak ; translated from the Russian by Max Hayward and Manya Harari",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "London : Collins and Harvill press, 1967",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1967",
+     "publisher": "Collins and Harvill press",
+     "place": "London"
+    },
+    {
+     "bid": "IEI0749568",
+     "title": "Doctor Zhivago / Boris Pasternak ; translated from the Russian by Max Hayward and Manya Harari",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "London : Collins, 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1971",
+     "publisher": "Collins",
+     "place": "London"
+    },
+    {
+     "bid": "IEI0753452",
+     "title": "Doctor Zhivago / Boris Pasternak ; translated from the Russian by Max Hay ward and Manya Harari",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "New York [etc.] ; Everyman's library, [1991]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1991",
+     "publisher": "New York etc. ; Everyman's library",
+     "place": null
+    },
+    {
+     "bid": "UPG0027813",
+     "title": "Doctor Zhivago / Boris Pasternak ; translated from the Russian by Max Hay ward and Manya Harari",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "London : Collins, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1961",
+     "publisher": "Collins",
+     "place": "London"
+    },
+    {
+     "bid": "CAG1998206",
+     "title": "Doctor Zhivago / Boris Pasternak ; abridged and simplified by Lewis Jones ; illustrations by Maureen and Gordon Gray",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "London ; Glasgow : Collins, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1978",
+     "publisher": "Collins",
+     "place": "London ; Glasgow"
+    },
+    {
+     "bid": "UM10304704",
+     "title": "Doctor Zhivago : level 5. / Boris Pasternak ; retold by Nancy Stanley ; series editors: Andy Hopkins and Jocelyn Potter",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "[Harmondsworth] : Penguin books ; Harlow : Pearson Education Limited, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1999",
+     "publisher": "Penguin books ; Harlow : Pearson Education Limited",
+     "place": "Harmondsworth"
+    },
+    {
+     "bid": "BVE0613702",
+     "title": "Le docteur Jivago : roman / Boris Pasternak ; traduit du russe",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Paris : Gallimard, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1958",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "SBL0237747",
+     "title": "Doktor Živago : roman / Boris Leonidovič Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Paris : Societé d'édition et d'impression mondiale, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1959",
+     "publisher": "Societé d'édition et d'impression mondiale",
+     "place": "Paris"
+    },
+    {
+     "bid": "RAV0254919",
+     "title": "Le docteur Jivago / Boris Pasternak ; traduit du russe",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Paris : Gallimard, c1958, stampa 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1958",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "BVE0328439",
+     "title": "Le docteur Jivago : roman / Boris Pasternak ; traduit du russe",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Paris : Gallimard, ©1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1958",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO01932192",
+     "title": "Doktor Schiwago : Roman / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Frankfurt a. M. : Fischer, c1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1958",
+     "publisher": "Fischer",
+     "place": "Frankfurt a. M."
+    },
+    {
+     "bid": "RMS1900157",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "28. ed",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "28. ed",
+     "place": null
+    },
+    {
+     "bid": "RAV0064624",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1957",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1957",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0059730",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0018498",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0631850",
+     "title": "Il dottor Živago / Borìs Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10926618",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0527159",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak ; [traduzione dal russo di Pietro Zveteremich]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0055210",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0114080",
+     "title": "Il dottor Živago / Borìs Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "IEI0164396",
+     "title": "Il dottor Živago : romanzo / Borís Leonídovič Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD1598740",
+     "title": "Il dottor Zivago / Pasternak, Boris ; legge: Rizzini, V. -1 compact disc (23 h 39 min) ; 12 cm",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Registrazione sonora non musicale - Monografia [IT\\ICCU\\MOD\\1598740]",
+     "infos_n": 1,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "Registrazione sonora non musicale - Monografia ITICCUMOD1598740",
+     "place": null
+    },
+    {
+     "bid": "CFI0176788",
+     "title": "Il dottor Živago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Novara : Istituto geografico De Agostini, stampa 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Istituto geografico De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "RMS0178911",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0043459",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1964",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1964",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOL0074737",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, stampa 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0175622",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0223882",
+     "title": "Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "\\Torino! : UTET, stampa 1967",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1967",
+     "publisher": "UTET",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01417008",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1968",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1968",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV0588881",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1960",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1960",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAR1195904",
+     "title": "Il dottor Zivago / Boris Pasternak.",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Fa parte di: Opere narrative",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "Fa parte di: Opere narrative",
+     "place": null
+    },
+    {
+     "bid": "RAV0262156",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternac",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA1227204",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1959",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV1062752",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1971",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1971",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BIA0010345",
+     "title": "Il dottor Živago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "CAG1525371",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01972723",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1963",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0140319",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0086137",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00568595",
+     "title": "Il dottor Živago : romanzo / Bőris Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1968",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1968",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00586339",
+     "title": "Il dottor Živago / Borís Pasternák",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli , 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0135201",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1959",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1237798",
+     "title": "Il Dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2003",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01585874",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV0900891",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10342102",
+     "title": "Il dottor Zivago / Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : CDE, stampa 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10027432",
+     "title": "Il dottor Zivago / Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : CDE, c1983, stampa 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10038453",
+     "title": "Il dottor Živago : romanzo / Boris Leonidovič Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1957",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1957",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10076313",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3982342",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1959",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0185541",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1973",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "IEI0336066",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0103944",
+     "title": "Il dottor Živago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Novara : Istituto geografico De Agostini, 1985!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Istituto geografico De Agostini",
+     "place": "Novara"
+    },
+    {
+     "bid": "UBO4402250",
+     "title": "Doktor Zivago : roman / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Sankt-Peterburg : Azbuka, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Azbuka",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "BVE0846796",
+     "title": "Il dottor Zivago / Boris Pasternak ; nuova traduzione di Serena Prina",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0218063",
+     "title": "Il dottor Zivago / Boris Pasternak ; prefazione di Eugenio Montale",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Torino : Einaudi, 1967",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1967",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV2070212",
+     "title": "Il dottor Živago / Boris Pasternak ; traduzione di Serena Prina",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3326250",
+     "title": "Il dottor Zivago / Boris Pasternak ; traduzione di Serena Prina",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00748338",
+     "title": "Il dottor Živago / Boris Pasternàk ; prefazione di Eugenio Montale",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Torino : Einaudi, 1969",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1969",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO4874093",
+     "title": "Il dottor Živago / Boris Pasternak ; traduzione di Serena Prina",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "[Milano] : Feltrinelli, 2025",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2025",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0298305",
+     "title": "Il dottor Zivago / Boris Pasternak ; prefazione di Eugenio Montale",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Torino : G. Einaudi, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10259853",
+     "title": "Il dottor Zivago / Borìs Pasternàk ; nuova traduzione di Serena Prina",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0124786",
+     "title": "Il dottor Živago / Borìs Pasternàk ; a cura di Carmen D'Eletto e Lucrezia Tesè",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Torino : Loescher, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Loescher",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01011945",
+     "title": "Boris Pasternak / [a cura di Ettore Lo Gatto]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Club degli editori, [1968]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1968",
+     "publisher": "Club degli editori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD1788238",
+     "title": "Le poesie di Jurij Živago / Boris Pasternak ; a cura di Clara Strada Janovic",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "[Milano] : Crocetti, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "rus"
+     ],
+     "year": "2024",
+     "publisher": "Crocetti",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0978096",
+     "title": "Le poesie di Jurij Živago / Boris Pasternak ; a cura di Clara Strada Janovic",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "rus"
+     ],
+     "year": "2018",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "FER0077577",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak ; [traduzione di Pietro Zveteremich]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1976",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BAS0272549",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1960",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1960",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BA10091083",
+     "title": "Il dottor Zivago / Borìs Pasternàk ; traduzione di Pietro Zveteremich",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1634262",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA0060573",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "CUB0429849",
+     "title": "Il dottor Zivago : Romanzo. Traduzione dal Russo di Pietro Zveteremich",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : G. G. Feltrinelli, 1957 (Varese, Tip. La Tipografica Varese)",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1957",
+     "publisher": "G. G. Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0099357",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1959",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0070548",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0527522",
+     "title": "Il dottor Živago : romanzo / Borís Leonídovič Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0478673",
+     "title": "Il dottor Živago : romanzo / Borís Leonídovič Pasternàk ; [traduzione dal russo di Pietro Zveteremich]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOL0242298",
+     "title": "Il dottor zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PIS0009454",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1959",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RML0084655",
+     "title": "Dottor Zivago : romanzo / Borís Leonídovič Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1957",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1957",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PBE0105315",
+     "title": "Il dottor Zivago / Boris Pasternak ; [traduzione di Pietro Zveteremich]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1978",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1978",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PBE0030256",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "FER0190235",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1963",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0090562",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO0136827",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA1506305",
+     "title": "Il dottor Zivago / Borìs Pasternàk ; traduzione di Pietro Zveteremich",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10333186",
+     "title": "Il dottor Živago : romanzo / Borís Leonídovič Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1957",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1957",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "USM2054367",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0075687",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0042458",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1965",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1965",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10069036",
+     "title": "Il dottor Zivago : romanzo / Borís Leonídovič Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10084377",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0765089",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1959",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "USM1310643",
+     "title": "Il dottor Zivago : romanzo / Borís Leonídovic Pasternàk",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1957",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1957",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "USM1846172",
+     "title": "Il dottor Zivago / Boris Pasternak ; [traduzione dal russo di Pietro Zveteremich]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, c2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO2815400",
+     "title": "Il dottor Živago : [romanzo] / Borís Leonídovič Pasternàk ; traduzione dal russo di Pietro Zveteremich",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "IEI0394769",
+     "title": "Il dottor Zivago / Borìs Pasternàk ; traduzione di Pietro Zveteremich",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0305110",
+     "title": "Il dottor Zivago : romanzo / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1958",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0004070",
+     "title": "Il dottor Zivago / Boris Pasternak ; traduzione di Pietro Zveteremich",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "rus"
+     ],
+     "year": "1973",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01149771",
+     "title": "Il dottor Zivago / Borìs Pasternàk ; traduzione di Pietro Zveteremich",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Roma : La biblioteca di Repubblica, c2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "La biblioteca di Repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "TO00982269",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "SBL0384595",
+     "title": "Il dottor Zivago : romanzo",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "[Roma] : Palazzi, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "Palazzi",
+     "place": "Roma"
+    },
+    {
+     "bid": "UBO1984424",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Euroclub, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "SBL0427879",
+     "title": "Il dottor Zivago / Boris Pasternak ; prefazione di Eugenio Montale",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Torino : G. Einaudi, 1964",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1964",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS1697572",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : RCS Quotidiani, [2006]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "RCS Quotidiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "IEI0725294",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak ; [traduzione dal russo di Pietro Zveteremich ; edizione riveduta da Mario Socrate ; Maria Olsoufieva ; Pietro Zveteremich ; la traduzione delle poesie è di Mario Socrate ; copertina disegnata da Heiri Steiner]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1963",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2546650",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0293845",
+     "title": "Il dottor Zivago / Boris Pasternak ; prefazione di Eugenio Montale",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Torino : Einaudi, 1968",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1968",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0850106",
+     "title": "Il dottor Zivago / Borís Pasternàk ; prefazione di Eugenio Montale",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Torino : G. Einaudi, ©1957",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1957",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO02044847",
+     "title": "Il dottor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3696222",
+     "title": "Il dottor Zivago : romanzo / Boris Pasternak ; [edizione riveduta da Mario Socrate, Maria Olsoufieva, Pietro Zveteremich]",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1963",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAV0099330",
+     "title": "Doutor Jivago / Boris Pasternak ; traduzido do russo por António Pescada",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Lisboa : Sextante, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2008",
+     "publisher": "Sextante",
+     "place": "Lisboa"
+    },
+    {
+     "bid": "LZ10262795",
+     "title": "Doctor Jivago / Boris Pasternak ; traducere, prefaţă şi tabel cronologic de Emil Iordache",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Iaşi : Polirom, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2004",
+     "publisher": "Polirom",
+     "place": "Iaşi"
+    },
+    {
+     "bid": "RT10035344",
+     "title": "Doctor Jivago / Boris Pasternak ; traducere din limba rusă de Emil Iordache",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Iaṣi : Polirom, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2013",
+     "publisher": "Polirom",
+     "place": "Iaṣi"
+    },
+    {
+     "bid": "MIL0051624",
+     "title": "Tom 3: Doktor Zivago : roman / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": ", 1990",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "1990",
+     "publisher": null,
+     "place": null
+    },
+    {
+     "bid": "UBO1185522",
+     "title": "Doktor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, 1957",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "1957",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1210769",
+     "title": "Doktor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Sankt-Peterburg : Kristall, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2003",
+     "publisher": "Kristall",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "UBO3645578",
+     "title": "Doktor Zivago / Boris Leonidovic Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Moskva : AST : Tranzitkniga hranitel', 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2008",
+     "publisher": "AST : Tranzitkniga hranitel'",
+     "place": "Moskva"
+    },
+    {
+     "bid": "UBO2592065",
+     "title": "Doktor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Moskva : AST, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2004",
+     "publisher": "AST",
+     "place": "Moskva"
+    },
+    {
+     "bid": "UBO4777710",
+     "title": "Doktor Zivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Ann Arbor : The University of Michigan Press, 1959",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "1959",
+     "publisher": "The University of Michigan Press",
+     "place": "Ann Arbor"
+    },
+    {
+     "bid": "BVE0330526",
+     "title": "Doktor Živago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Milano : Feltrinelli, stampa 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "1961",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4133193",
+     "title": "Doktor Zhivago / Boris Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "Moskva : Djetskaja litjeratura, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2013",
+     "publisher": "Djetskaja litjeratura",
+     "place": "Moskva"
+    },
+    {
+     "bid": "TSA1819553",
+     "title": "Doktor Živago / Boris L. Pasternak",
+     "author": "Pasternak, Boris Leonidovič",
+     "imprint": "V Ljubljani : Cankarjeva založba, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "1986",
+     "publisher": "Cankarjeva založba",
+     "place": "V Ljubljani"
+    }
+   ],
+   "entries": [
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL258301W",
+  "size": 176,
+  "rows": 176,
+  "languages": 14,
+  "language_codes": [
+   "chi",
+   "dan",
+   "dut",
+   "eng",
+   "est",
+   "fre",
+   "ger",
+   "ita",
+   "pol",
+   "rus",
+   "slo",
+   "spa",
+   "vie",
+   "yid"
+  ],
+  "year_parsed": 172,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL27932723M",
+    "publish_date": "1940s"
+   },
+   {
+    "key": "/books/OL22026474M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL21988810M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL13854907M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 175,
+  "language_present": 154,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 5.1,
+  "items": [
+   {
+    "key": "/books/OL49953365M",
+    "title": "Доктор Живаго",
+    "publish_date": "1957",
+    "year": "1957",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL47314530M",
+    "title": "Doktor Schiwago",
+    "publish_date": "1968-03",
+    "year": "1968",
+    "publishers": [
+     "Fischer Bücherei"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Доктор Живаго",
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL39804749M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL39804745M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1967-01",
+    "year": "1967",
+    "publishers": [
+     "Collins Fontana Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL39804743M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL39804739M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Collins and Harvill Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL39804736M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1963-11",
+    "year": "1963",
+    "publishers": [
+     "Collins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL39804733M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27932723M",
+    "title": "Doctor zhivago",
+    "publish_date": "1940s",
+    "year": null,
+    "publishers": [
+     "Pasternik"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27589767M",
+    "title": "El doctor Zhivago",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788499893785"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL26877108M",
+    "title": "El doctor Zhivago - 2. edición",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Galaxia Gutenberg"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788416734023"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37805815M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1959-04",
+    "year": "1959",
+    "publishers": [
+     "Collins and Harvill Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37805813M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1959-04",
+    "year": "1959",
+    "publishers": [
+     "Collins and Harvill Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37805811M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958-11",
+    "year": "1958",
+    "publishers": [
+     "Collins and Harvill Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL36620498M",
+    "title": "Riwage yi sheng",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Feng huang chu ban she"
+    ],
+    "publish_places": [
+     "Nanjing"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7550602522"
+    ],
+    "isbn_13": [
+     "9787550602526"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37805805M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Modern Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37805804M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1959-04",
+    "year": "1959",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37805802M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37805797M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Reader's Digest Association"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0895773422"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL25975350M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Vintage Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780307390950"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL28468098M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780099541240"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804461M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Reprint Society"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804459M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804457M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1959-02",
+    "year": "1959",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804453M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1974-06",
+    "year": "1974",
+    "publishers": [
+     "Collins Fontana Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0006121985"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804419M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958-11",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804416M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Reprint Society"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804412M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1966-06",
+    "year": "1966",
+    "publishers": [
+     "Collins Fontana Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804408M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1962",
+    "year": "1962",
+    "publishers": [
+     "Reprint Society"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804405M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Reprint Society"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804403M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1967-04",
+    "year": "1967",
+    "publishers": [
+     "Collins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804402M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958-09",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL8626067M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "The Harvill Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1860461697"
+    ],
+    "isbn_13": [
+     "9781860461699"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804401M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804358M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1962",
+    "year": "1962",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL37804357M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34506004M",
+    "title": "Doctor Zhivago (Vintage Classic Russians Series)",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781448103454"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34427061M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780099518778"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL32880441M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Collins-Harvill"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL30693576M",
+    "title": "Doktor Zhivago",
+    "publish_date": "Oct 24, 2015",
+    "year": "2015",
+    "publishers": [
+     "AST, M"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "5170882203"
+    ],
+    "isbn_13": [
+     "9785170882205"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL29219033M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Pearson Education, Limited"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780582402607"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL32857696M",
+    "title": "Doctor Zhivago",
+    "publish_date": "Jun 14, 2011",
+    "year": "2011",
+    "publishers": [
+     "Random House"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1617075760"
+    ],
+    "isbn_13": [
+     "9781617075766"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34434285M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781846553790"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34434384M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780099541554"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34453543M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780099560579"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34497411M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Knopf Doubleday Publishing Group"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781283997508"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34499207M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Penguin Random House",
+     "The Harvill Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781860461897"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34502495M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780099596035"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34811727M",
+    "title": "Doctor Zhivago",
+    "publish_date": "/1970",
+    "year": "1970",
+    "publishers": [
+     "Pantheon Books",
+     "New American Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780394422237"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL34830833M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Perfection Learning Corporation"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780780744080"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL36315553M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Rehak, David"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781926487885"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL36961611M",
+    "title": "Doctor Zhivago",
+    "publish_date": "Jan 04, 2021",
+    "year": "2021",
+    "publishers": [
+     "Chintha Publishers"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9390301610"
+    ],
+    "isbn_13": [
+     "9789390301614"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL28608694M",
+    "title": "Doctor Zhivago (Vintage Classic Russians Series)",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784871925"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL28436685M",
+    "title": "Dr Zhivago",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Pearson Education, Limited"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781405882422"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL29076395M",
+    "title": "Dr Zhivago",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Pearson Education, Limited"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781408273449"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27142945M",
+    "title": "Doktor Zhivago",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Ėksmo",
+     "EKSMO, M"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5699543821"
+    ],
+    "isbn_13": [
+     "9785699543823"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL25915826M",
+    "title": "El doctor Zhivago",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Ediciones Orbis"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [],
+    "isbn_10": [
+     "8440221339"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7816943M",
+    "title": "Doctor Zhivago (The Greatest Historical Novels series)",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Bantam"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553064118"
+    ],
+    "isbn_13": [
+     "9780553064117"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27488279M",
+    "title": "Doctor Zhivago",
+    "publish_date": "Oct 04, 2011",
+    "year": "2011",
+    "publishers": [
+     "Perfection Learning"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1613834551"
+    ],
+    "isbn_13": [
+     "9781613834558"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27482233M",
+    "title": "El doctor Zhivago",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "843391491X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27167364M",
+    "title": "Qiwage yi sheng",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Yuan liu chu ban shi ye gu fen you xian gong si"
+    ],
+    "publish_places": [
+     "Taibei Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9573274213"
+    ],
+    "isbn_13": [
+     "9789573274216"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27033017M",
+    "title": "Doktor Shiwago",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Fischer-Taschenbuch-Verl."
+    ],
+    "publish_places": [
+     "Frankfurt am Main"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596903297"
+    ],
+    "isbn_13": [
+     "9783596903290"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL26982034M",
+    "title": "Il dottor Živago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita",
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL26911564M",
+    "title": "Doktor Schiwago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "S. Fischer"
+    ],
+    "publish_places": [
+     "Frankfurt a. M.]"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22805508M",
+    "title": "Doktor Schiwago",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Fischer Taschenbuch"
+    ],
+    "publish_places": [
+     "Frankfurt am Main"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3436005851"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL26585086M",
+    "title": "Doktor Żywago",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Dom Wydawniczy Rebis"
+    ],
+    "publish_places": [
+     "Poland"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788380620629"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL25619508M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Galaxia Guttemberg",
+     "Círculo de Lectores"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788467237009",
+     "9788481098297"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL25440935M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Galaxia Gutenberg"
+    ],
+    "publish_places": [
+     "Barcelona, Spain"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL24628217M",
+    "title": "Doktor Schiwago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "S. Fischer Verlag"
+    ],
+    "publish_places": [
+     "Frankfurt"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL20314930M",
+    "title": "Doktor Zivagko.",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Dillimoi"
+    ],
+    "publish_places": [
+     "Athens"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL20318661M",
+    "title": "Doktor Schiwago.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "S.Fischer Verlag"
+    ],
+    "publish_places": [
+     "Frankfurt"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL15533058M",
+    "title": "El doctor Jivago",
+    "publish_date": "1971",
+    "year": "1971",
+    "publishers": [
+     "Editorial Noguer"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22026474M",
+    "title": "Doctor Zhivago.",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milan"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL19542548M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1957",
+    "year": "1957",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL18514479M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Folio Society"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL13754840M",
+    "title": "Doktor Zhivago.",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Zemlia i Fabrika"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL21154355M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Nelosn"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "017556762X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22323758M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0006497071"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL20071112M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1957",
+    "year": "1957",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milan"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL13820469M",
+    "title": "Doctor Zhivago..",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Reprint Society"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL21904455M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Knizhnaya palata"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5700001292"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL20035476M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Société d'Edition et d'Impression mondiale"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL13946605M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Zemlia i Fabrika",
+     "Flegon Press"
+    ],
+    "publish_places": [
+     "Moskva",
+     "[i.e London"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL13736091M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Socie te  d'edition et d'impression mondiale."
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL13676969M",
+    "title": "Doktor Ziwago.",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Instytut Literacki"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL14845606M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "[University of Michigan Press?]"
+    ],
+    "publish_places": [
+     "[Ann Arbor(Mich.)?]"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22610223M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Collins Harvill"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL16481696M",
+    "title": "Le docteur Jivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22610216M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Flamingo"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0006540090"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL15307087M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Sov. Rossiya",
+     "\" Sovetskaia Rossiia \""
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5268000683"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL19569605M",
+    "title": "le Docteur Jivago",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL19954741M",
+    "title": "Doktor Živàgo.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [],
+    "publish_places": [
+     "Koebenhavn"
+    ],
+    "languages": [
+     "dan"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL12584865M",
+    "title": "Doktor Zhivago",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "EKSMO"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5699167463"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL12584728M",
+    "title": "Doktor Zhivago.",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Eksmo (M.)"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "5699151141"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL12538881M",
+    "title": "Doktor ZHivago ",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "AST",
+     "AST, AST Moskva, Tranzitkniga, Neoclassic"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5170162146"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9766235M",
+    "title": "El Doctor Zhivago",
+    "publish_date": "September 1995",
+    "year": "1995",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8433911570"
+    ],
+    "isbn_13": [
+     "9788433911575"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL25417862M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9209126M",
+    "title": "Doctor Zhivago",
+    "publish_date": "August 22, 1994",
+    "year": "1994",
+    "publishers": [
+     "HarperCollins Audio",
+     "Audiobooks"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0001048058"
+    ],
+    "isbn_13": [
+     "9780001048058"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7569737M",
+    "title": "Doctor Zhivago",
+    "publish_date": "June 1, 1969",
+    "year": "1969",
+    "publishers": [
+     "Signet"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0451018028"
+    ],
+    "isbn_13": [
+     "9780451018021"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7569977M",
+    "title": "Doctor Zhivago",
+    "publish_date": "June 1, 1969",
+    "year": "1969",
+    "publishers": [
+     "Signet"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0451040589"
+    ],
+    "isbn_13": [
+     "9780451040589"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7701120M",
+    "title": "Doctor Zhivago",
+    "publish_date": "March 18, 1997",
+    "year": "1997",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0679774386"
+    ],
+    "isbn_13": [
+     "9780679774389"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7569758M",
+    "title": "Doctor Zhivago",
+    "publish_date": "June 1, 1969",
+    "year": "1969",
+    "publishers": [
+     "Signet"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0451020146"
+    ],
+    "isbn_13": [
+     "9780451020147"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL12392608M",
+    "title": "Le Docteur Jivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2070249298"
+    ],
+    "isbn_13": [
+     "9782070249299"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL11039916M",
+    "title": "Le\\Docteur Jivago",
+    "publish_date": "October 1, 1972",
+    "year": "1972",
+    "publishers": [
+     "French & European Pubns"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0785939849"
+    ],
+    "isbn_13": [
+     "9780785939849"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9762443M",
+    "title": "Le Docteur Jivago",
+    "publish_date": "September 1, 1991",
+    "year": "1991",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2070739791"
+    ],
+    "isbn_13": [
+     "9782070739790"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL8837778M",
+    "title": "Le Docteur Jivago",
+    "publish_date": "November 4, 1998",
+    "year": "1998",
+    "publishers": [
+     "Gallimard French"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2070360792"
+    ],
+    "isbn_13": [
+     "9782070360796"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9644999M",
+    "title": "Dr. Zhivago",
+    "publish_date": "October 12, 1986",
+    "year": "1986",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng",
+     "rus"
+    ],
+    "isbn_10": [
+     "0345341007"
+    ],
+    "isbn_13": [
+     "9780345341006"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL10684058M",
+    "title": "Dr. Zhivago",
+    "publish_date": "September 12, 1983",
+    "year": "1983",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0345307593"
+    ],
+    "isbn_13": [
+     "9780345307590"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9068018M",
+    "title": "Dr. Zhivago",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Foreign Lang Teaching & Research Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "7560018513"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9443449M",
+    "title": "DR. ZHIVAGO",
+    "publish_date": "February 12, 1981",
+    "year": "1981",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "034529310X"
+    ],
+    "isbn_13": [
+     "9780345293107"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9853180M",
+    "title": "Doktor Schiwago.",
+    "publish_date": "January 1, 1992",
+    "year": "1992",
+    "publishers": [
+     "Fischer (S.), Frankfurt"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3103605048"
+    ],
+    "isbn_13": [
+     "9783103605044"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9053577M",
+    "title": "Doktor Schiwago.",
+    "publish_date": "March 1, 1997",
+    "year": "1997",
+    "publishers": [
+     "Artemis & Winkler"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3538053863"
+    ],
+    "isbn_13": [
+     "9783538053861"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9128845M",
+    "title": "El Doctor Zhivago",
+    "publish_date": "November 1998",
+    "year": "1998",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843391491X"
+    ],
+    "isbn_13": [
+     "9788433914910"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9066707M",
+    "title": "Doktor Schiwago. Roman.",
+    "publish_date": "December 1, 1992",
+    "year": "1992",
+    "publishers": [
+     "Fischer (Tb.), Frankfurt"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "359629519X"
+    ],
+    "isbn_13": [
+     "9783596295197"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL21779469M",
+    "title": "Doktor Jivago",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Altin Kitaplar"
+    ],
+    "publish_places": [
+     "Istanbul"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9470643M",
+    "title": "Doctor Zhivago",
+    "publish_date": "October 18, 2000",
+    "year": "2000",
+    "publishers": [
+     "Longman"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0582464749"
+    ],
+    "isbn_13": [
+     "9780582464742"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9272818M",
+    "title": "Doctor Zhivago",
+    "publish_date": "September 5, 2002",
+    "year": "2002",
+    "publishers": [
+     "VINTAGE (RAND)"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0099448424"
+    ],
+    "isbn_13": [
+     "9780099448426"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7318163M",
+    "title": "Doctor Zhivago",
+    "publish_date": "September 5, 2002",
+    "year": "2002",
+    "publishers": [
+     "VINTAGE (RAND)"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0099448424"
+    ],
+    "isbn_13": [
+     "9780099448426"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL24205428M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "International Collectors Library"
+    ],
+    "publish_places": [
+     "Garden City, N.Y"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9402655M",
+    "title": "Doctor Zhivago",
+    "publish_date": "April 2000",
+    "year": "2000",
+    "publishers": [
+     "Chivers Audio Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0754053636"
+    ],
+    "isbn_13": [
+     "9780754053637"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL6263676M",
+    "title": "Doktor Zhivago.",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "The University of Michigan Press"
+    ],
+    "publish_places": [
+     "Ann Arbor"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL23266300M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng",
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22946850M",
+    "title": "Doktor Schiwago.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "S. Fischer"
+    ],
+    "publish_places": [
+     "Frankfurt a. M.]"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL8195309M",
+    "title": "Doctor Zhivago",
+    "publish_date": "November 1985",
+    "year": "1985",
+    "publishers": [
+     "Dh Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0886460387"
+    ],
+    "isbn_13": [
+     "9780886460389"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL21988810M",
+    "title": "DIE GEDICHTE DES JURIJ Z̆IVAGO",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "s.n.]"
+    ],
+    "publish_places": [
+     "[S.l"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL17721494M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Collins and Harvill Press"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL12195904M",
+    "title": "Doctor Zhivago",
+    "publish_date": "January 1997",
+    "year": "1997",
+    "publishers": [
+     "University Publishing House, Inc."
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1570020396"
+    ],
+    "isbn_13": [
+     "9781570020391"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL6247150M",
+    "title": "Doctor Zhivago.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [
+     "New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22971749M",
+    "title": "Qi-wa-ge yi sheng",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Lin yü wen hua shi yeh yu xian gong si",
+     "dai li shang Jin de tu shu shi yeh yu xian gong si"
+    ],
+    "publish_places": [
+     "Taibei Shi",
+     "Banqiao Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9579093571"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL2223949M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Reader's Digest Association"
+    ],
+    "publish_places": [
+     "Pleasantville, N.Y"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0895773422"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22954233M",
+    "title": "Qi-wa-ge yi sheng",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Shu Hua chu ban shi yeh yu xian gong si"
+    ],
+    "publish_places": [
+     "Zhonghe Shi Taibei yüan"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL17759939M",
+    "title": "Doctor Zhivago.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Pantheon"
+    ],
+    "publish_places": [
+     "New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL6848255M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Gudʹi͡a︡l-Press"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5802600055"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL21021003M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1962",
+    "year": "1962",
+    "publishers": [
+     "Collins and Harvill Press"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL20054206M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Collins/Fontana"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL887911M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Izd-vo \"Troĭka\""
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5870870070"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL1567480M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Knopf"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0679407596"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9497113M",
+    "title": "Doctor Zhivago",
+    "publish_date": "September 2000",
+    "year": "2000",
+    "publishers": [
+     "Wheeler Publishing"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1568959303"
+    ],
+    "isbn_13": [
+     "9781568959306"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL14786085M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "\"Knizhnai︠a︡ palata\""
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5700001292"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7954717M",
+    "title": "Doctor Zhivago",
+    "publish_date": "December 1995",
+    "year": "1995",
+    "publishers": [
+     "Chivers Audio Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0745127347"
+    ],
+    "isbn_13": [
+     "9780745127347"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL19876391M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Société d'Edition et d'Impression Mondiale"
+    ],
+    "publish_places": [
+     "[France]"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL23089538M",
+    "title": "Doktor Zhivago",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "ĖKSMO-Press"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5040041055"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL5350614M",
+    "title": "Doktor Zshivago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Menorah"
+    ],
+    "publish_places": [
+     "Tel-Aviv"
+    ],
+    "languages": [
+     "yid"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL15250235M",
+    "title": "Doktor Zhivago.",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL24205427M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL4760238M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1978",
+    "year": "1978",
+    "publishers": [
+     "Franklin Library"
+    ],
+    "publish_places": [
+     "Franklin Center, Pa"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL5798917M",
+    "title": "Doctor Zhivago.",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Pantheon Books"
+    ],
+    "publish_places": [
+     "New York]"
+    ],
+    "languages": [
+     "eng",
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22906935M",
+    "title": "Doktor Żiwago",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Państwowy Instytut"
+    ],
+    "publish_places": [
+     "Warszawa"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [
+     "8306020200"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL827781M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Everyman's Library",
+     "Distributed by Random Century Group"
+    ],
+    "publish_places": [
+     "[London]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1857150414"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL1890012M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Pantheon Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0679731237"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL23026384M",
+    "title": "Bác sĩ Zhivago",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "NXB Tp. Hso Chí Minh",
+     "[FAHASA]"
+    ],
+    "publish_places": [
+     "Tp. Hso Chí Minh"
+    ],
+    "languages": [
+     "vie"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22940184M",
+    "title": "Doktor Živago",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Tatran"
+    ],
+    "publish_places": [
+     "Bratislava"
+    ],
+    "languages": [
+     "slo"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL24011133M",
+    "title": "Doctor Zhivago",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Pantheon Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780307377692"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL17727774M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0451084306"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22971591M",
+    "title": "Dokter Zjivago",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "A.W. Bruna & Zoon"
+    ],
+    "publish_places": [
+     "Utrecht"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9022970019"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22906692M",
+    "title": "El Doctor Jivago.",
+    "publish_date": "1957",
+    "year": "1957",
+    "publishers": [
+     "Argos Vergara"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL19079959M",
+    "title": "Doktor Zhivago.",
+    "publish_date": "1976",
+    "year": "1976",
+    "publishers": [
+     "University of Michigan Press"
+    ],
+    "publish_places": [
+     "Ann Arbor"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "0472717960"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22355451M",
+    "title": "Doctor Zhivago",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Zemlia I Fabrika"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL27998904M",
+    "title": "Doktor Zhivago",
+    "publish_date": "1968-03",
+    "year": "1968",
+    "publishers": [
+     "Collins Fontana Books"
+    ],
+    "publish_places": [
+     "London, England"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Доктор Живаго",
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9051928M",
+    "title": "Doctor Zhivago",
+    "publish_date": "January 1, 2000",
+    "year": "2000",
+    "publishers": [
+     "Langensch.-Hachette, M"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3526416958"
+    ],
+    "isbn_13": [
+     "9783526416951"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL13854907M",
+    "title": "Bac-si Zivago.",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "[S.n.]"
+    ],
+    "publish_places": [
+     "[S.L.]"
+    ],
+    "languages": [
+     "vie"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL20111417M",
+    "title": "Le docteur Jivago",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Gallimard",
+     "Gallimard (Folio)"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2070360792"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL20428009M",
+    "title": "Le docteur Jivago",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL22906695M",
+    "title": "Il dottor Živago",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL16383794M",
+    "title": "Il dottor Živago",
+    "publish_date": "1957",
+    "year": "1957",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7461732M",
+    "title": "Dr. Zhivago",
+    "publish_date": "June 1968",
+    "year": "1968",
+    "publishers": [
+     "Random House Inc (T)"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0394607864"
+    ],
+    "isbn_13": [
+     "9780394607863"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL8276784M",
+    "title": "Dr. Zhivago",
+    "publish_date": "December 1991",
+    "year": "1991",
+    "publishers": [
+     "Buccaneer Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0899668399"
+    ],
+    "isbn_13": [
+     "9780899668390"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9329100M",
+    "title": "Doktor Zivago",
+    "publish_date": "February 2005",
+    "year": "2005",
+    "publishers": [
+     "Distribooks"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5040041055"
+    ],
+    "isbn_13": [
+     "9785040041053"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9563794M",
+    "title": "Doktor Zivago",
+    "publish_date": "January 2007",
+    "year": "2007",
+    "publishers": [
+     "Distribooks"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5699167447"
+    ],
+    "isbn_13": [
+     "9785699167449"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL19298957M",
+    "title": "Dokter Z|H|ivago.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "University of Michigan"
+    ],
+    "publish_places": [
+     "Ann Arbor"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL14202085M",
+    "title": "Dokter ZH Łivago.",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "University of Michigan"
+    ],
+    "publish_places": [
+     "Ann Arbor"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL13241733M",
+    "title": "El Doctor Zhivago / The Doctor Zhivago",
+    "publish_date": "June 30, 2005",
+    "year": "2005",
+    "publishers": [
+     "Ediciones Catedra S.A."
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8437610400"
+    ],
+    "isbn_13": [
+     "9788437610405"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9058491M",
+    "title": "Dr. Zhivago",
+    "publish_date": "May 1999",
+    "year": "1999",
+    "publishers": [
+     "Limbus Press, OOO"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5837003754"
+    ],
+    "isbn_13": [
+     "9785837003752"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL5836244M",
+    "title": "Doktor Živago.",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Kirjastus Vaba Eesti"
+    ],
+    "publish_places": [
+     "Stockholm]"
+    ],
+    "languages": [
+     "est"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL7256304M",
+    "title": "DOCTOR ZHIVAGO",
+    "publish_date": "1957",
+    "year": "1957",
+    "publishers": [
+     "PANTHEON"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0002611503"
+    ],
+    "isbn_13": [
+     "9780002611503"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   },
+   {
+    "key": "/books/OL9211020M",
+    "title": "DOCTOR ZHIVAGO",
+    "publish_date": "1957",
+    "year": "1957",
+    "publishers": [
+     "PANTHEON"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0002611503"
+    ],
+    "isbn_13": [
+     "9780002611503"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL258301W"
+    ]
+   }
+  ],
+  "how": "original, strict author match",
+  "retry": {
+   "first_attempt_failures": [
+    {
+     "host": "openlibrary.org",
+     "method": "GET",
+     "url": "https://openlibrary.org/works/OL258301W/editions.json",
+     "params": {
+      "limit": "1000"
+     },
+     "t": 1789402867.583,
+     "elapsed": 12.622,
+     "status": null,
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL258301W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+    }
+   ],
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 5.07,
+     "p50_s": 5.065,
+     "max_s": 5.065
+    }
+   },
+   "note": "first cold attempt failed; this listing is a second attempt"
+  }
+ },
+ "wall_s": 12.6,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 6.84,
+   "p50_s": 0.456,
+   "max_s": 1.237
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 1,
+   "total_s": 12.62,
+   "p50_s": 12.622,
+   "max_s": 12.622
+  }
+ },
+ "failures": [
+  {
+   "host": "openlibrary.org",
+   "method": "GET",
+   "url": "https://openlibrary.org/works/OL258301W/editions.json",
+   "params": {
+    "limit": "1000"
+   },
+   "t": 1789402867.583,
+   "elapsed": 12.622,
+   "status": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL258301W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+  }
+ ]
+}

@@ -1,0 +1,793 @@
+{
+ "id": "E02",
+ "sbn": [
+  {
+   "W": "steps to an ecology of mind",
+   "author": "Bateson",
+   "total": 26,
+   "lingua_facet": [
+    [
+     "ita",
+     22
+    ],
+    [
+     "eng",
+     2
+    ],
+    [
+     "fre",
+     1
+    ],
+    [
+     "ger",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 26,
+   "rows": 26,
+   "multilingual_rows": 0,
+   "languages": 4,
+   "bogus_lingua_total": 0,
+   "year_parsed": 25,
+   "year_parse_failures": [
+    {
+     "bid": "UBO0976973",
+     "imprint": "Paris : Seuil"
+    }
+   ],
+   "publisher_present": 26,
+   "language_present": 26,
+   "records_on_no_language_page": [],
+   "requests": 7,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 1.1,
+   "items": [
+    {
+     "bid": "UTO1471790",
+     "title": "Steps to an ecology of mind : collected essays in anthropology, psychiatry, evolution, and epistemology / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "San Francisco [etc.] : Chandler, c1972",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1972",
+     "publisher": "Chandler",
+     "place": "San Francisco etc."
+    },
+    {
+     "bid": "UBO2561577",
+     "title": "Steps to an ecology of mind : collected essays in antrophology, psychiatry, evolution and epistemology / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "[London] : Granada Publishing : Paladin, 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1973",
+     "publisher": "Granada Publishing : Paladin",
+     "place": "London"
+    },
+    {
+     "bid": "UBO0976973",
+     "title": "Vers une ecologie de l'esprit / Gregory Bateson ; traduit de l'Américan par Ferial Drosso, Laurencine Lot et Eugène Simion",
+     "author": "Bateson, Gregory",
+     "imprint": "Paris : Seuil",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": null,
+     "publisher": "Seuil",
+     "place": "Paris"
+    },
+    {
+     "bid": "RAV1984943",
+     "title": "Ökologie des Geistes : anthropologische, psychologische, biologische und epistemologische Perspektiven / Gregory Bateson ; übersetzt von Hans Günter Holl",
+     "author": "Bateson, Gregory",
+     "imprint": "Frankfurt a. M. : Suhrkamp, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1983",
+     "publisher": "Suhrkamp",
+     "place": "Frankfurt a. M."
+    },
+    {
+     "bid": "CFI0766925",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0171160",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0553614",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV1586379",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0017793",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01873090",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV0976892",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0147630",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2975936",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2021",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL0923352",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : RCS MediaGroup, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "RCS MediaGroup",
+     "place": "Milano"
+    },
+    {
+     "bid": "UFI0432788",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2003",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "USM1564399",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0118431",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0012031",
+     "title": "Verso una ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0112602",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0251945",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Mondolibri, stampa 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0416448",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "VEA0083906",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0043511",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, \\1976!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "CSA0000645",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0991558",
+     "title": "Verso un'ecologia della mente / Gregory Bateson",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Adelphi, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAR1204038",
+     "title": "Verso un'ecologia della mente / Gregory Bateson ; traduzione di Giuseppe Longo e Giuseppe Trautteur",
+     "author": "Bateson, Gregory",
+     "imprint": "Milano : Corriere della Sera, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Corriere della Sera",
+     "place": "Milano"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL486424W",
+  "size": 14,
+  "rows": 14,
+  "languages": 2,
+  "language_codes": [
+   "eng",
+   "ger"
+  ],
+  "year_parsed": 14,
+  "year_parse_failures": [],
+  "publisher_present": 14,
+  "language_present": 12,
+  "requests": 8,
+  "failed": [],
+  "wall_s": 9.1,
+  "items": [
+   {
+    "key": "/books/OL32225548M",
+    "title": "Ökologie des Geistes",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Suhrkamp"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3518281712"
+    ],
+    "isbn_13": [],
+    "translation_of": "Steps to an ecology of mind",
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL26420337M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "The University of Chicago Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0226039056"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL26420336M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "The University of Chicago Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0226039056"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL9564533M",
+    "title": "Steps to an Ecology of Mind",
+    "publish_date": "June 12, 1980",
+    "year": "1980",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0345293517"
+    ],
+    "isbn_13": [
+     "9780345293510"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL2394502M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Aronson"
+    ],
+    "publish_places": [
+     "Northvale, N.J"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0876689500"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL15062215M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "1976",
+    "year": "1976",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0345248371"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL18229195M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "034524837"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL46335M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "University of Chicago Press"
+    ],
+    "publish_places": [
+     "Chicago"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0226039064",
+     "0226039056"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL5222804M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Chandler Pub. Co."
+    ],
+    "publish_places": [
+     "San Francisco"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0810204479"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL7415232M",
+    "title": "Steps to an Ecology of Mind",
+    "publish_date": "December 1, 1999",
+    "year": "1999",
+    "publishers": [
+     "University Of Chicago Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0226039064"
+    ],
+    "isbn_13": [
+     "9780226039060"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL19826667M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Paladin"
+    ],
+    "publish_places": [
+     "St Albans, Australia"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL17854018M",
+    "title": "Steps to an ecology of mind",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Ballantine Books",
+     "Chandler Pub. Co."
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0810204479"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL10682898M",
+    "title": "Steps to an Ecology of Mind",
+    "publish_date": "September 12, 1977",
+    "year": "1977",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0345273702"
+    ],
+    "isbn_13": [
+     "9780345273703"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   },
+   {
+    "key": "/books/OL10683884M",
+    "title": "Steps to an Ecology of Mind",
+    "publish_date": "July 12, 1981",
+    "year": "1981",
+    "publishers": [
+     "Ballantine Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0345301781"
+    ],
+    "isbn_13": [
+     "9780345301789"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL486424W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 9.1,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 2.21,
+   "p50_s": 0.299,
+   "max_s": 0.525
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 9.06,
+   "p50_s": 9.061,
+   "max_s": 9.061
+  }
+ },
+ "failures": []
+}

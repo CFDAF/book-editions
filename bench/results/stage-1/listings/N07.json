@@ -1,0 +1,2287 @@
+{
+ "id": "N07",
+ "sbn": [
+  {
+   "W": "se una notte d'inverno un viaggiatore",
+   "author": "Italo Calvino",
+   "total": 141,
+   "lingua_facet": [
+    [
+     "ita",
+     46
+    ],
+    [
+     "eng",
+     13
+    ],
+    [
+     "spa",
+     11
+    ],
+    [
+     "tur",
+     9
+    ],
+    [
+     "por",
+     6
+    ],
+    [
+     "fre",
+     5
+    ],
+    [
+     "ger",
+     5
+    ],
+    [
+     "dan",
+     3
+    ],
+    [
+     "dut",
+     3
+    ],
+    [
+     "fin",
+     3
+    ],
+    [
+     "gre",
+     3
+    ],
+    [
+     "hun",
+     3
+    ],
+    [
+     "rus",
+     3
+    ],
+    [
+     "swe",
+     3
+    ],
+    [
+     "chi",
+     2
+    ],
+    [
+     "cze",
+     2
+    ],
+    [
+     "hrv",
+     2
+    ],
+    [
+     "mac",
+     2
+    ],
+    [
+     "nor",
+     2
+    ],
+    [
+     "pol",
+     2
+    ],
+    [
+     "rum",
+     2
+    ],
+    [
+     "alb",
+     1
+    ],
+    [
+     "bul",
+     1
+    ],
+    [
+     "cat",
+     1
+    ],
+    [
+     "est",
+     1
+    ],
+    [
+     "hbs",
+     1
+    ],
+    [
+     "lav",
+     1
+    ],
+    [
+     "lit",
+     1
+    ],
+    [
+     "per",
+     1
+    ],
+    [
+     "slo",
+     1
+    ],
+    [
+     "ukr",
+     1
+    ],
+    [
+     "vie",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 141,
+   "rows": 141,
+   "multilingual_rows": 0,
+   "languages": 32,
+   "bogus_lingua_total": 0,
+   "year_parsed": 141,
+   "year_parse_failures": [],
+   "publisher_present": 141,
+   "language_present": 141,
+   "records_on_no_language_page": [],
+   "requests": 36,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 16.0,
+   "items": [
+    {
+     "bid": "RMS3019683",
+     "title": "Nëse një natë dimri një udhëtar... / Italo Calvino ; përktheu Alban Bobrati",
+     "author": "Calvino, Italo",
+     "imprint": "Tiranë : Botimet Dudaj, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2012",
+     "publisher": "Botimet Dudaj",
+     "place": "Tiranë"
+    },
+    {
+     "bid": "RMS3035817",
+     "title": "Ako p'tnik v zimna nošč / Italo Calvino ; prevela ot italianski Neva Micheva",
+     "author": "Calvino, Italo",
+     "imprint": "Sofija : Kolibri, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "bul",
+     "langs": [
+      "bul"
+     ],
+     "year": "2008",
+     "publisher": "Kolibri",
+     "place": "Sofija"
+    },
+    {
+     "bid": "CAG1142188",
+     "title": "Si una nit d'hivern un viatger / Italo Calvino ; traducció de Montserrat Puig",
+     "author": null,
+     "imprint": "Barcelona : Edicions 62, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "1987",
+     "publisher": "Edicions 62",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "RMS2900088",
+     "title": "Han dong ye xing ren / Yitaluo Kaerweinuo zhu ; Xiao Tianyou yi",
+     "author": "Calvino, Italo",
+     "imprint": "Hefei : An hui wen yi chu ban she, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "1993",
+     "publisher": "An hui wen yi chu ban she",
+     "place": "Hefei"
+    },
+    {
+     "bid": "UBO4236138",
+     "title": "Ruguozaidongye: yige lvren / Italo Calvino ; traduzione: Xiao Tianyou",
+     "author": "Calvino, Italo",
+     "imprint": "Nanchino : Yilin Press, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2012",
+     "publisher": "Yilin Press",
+     "place": "Nanchino"
+    },
+    {
+     "bid": "RMS3035255",
+     "title": "Když jedné zimní noci cestující / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Praha : Mladá fronta, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "1998",
+     "publisher": "Mladá fronta",
+     "place": "Praha"
+    },
+    {
+     "bid": "RMS3035270",
+     "title": "Když jedné zimní noci cestující / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Praha : Dokořán, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "2017",
+     "publisher": "Dokořán",
+     "place": "Praha"
+    },
+    {
+     "bid": "RMS3023949",
+     "title": "Hvis en vinternat en rejsende / Italo Calvino ; oversat af Lene Waage Petersen",
+     "author": "Calvino, Italo",
+     "imprint": "[København] : Tiderne Skifter, c1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dan",
+     "langs": [
+      "dan"
+     ],
+     "year": "1997",
+     "publisher": "Tiderne Skifter",
+     "place": "København"
+    },
+    {
+     "bid": "RMS3026273",
+     "title": "Hvis en vinternat en rejsende / Italo Calvino ; pa dansk ved Lene Waage Petersen",
+     "author": "Calvino, Italo",
+     "imprint": "[København] : Gyldendal, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dan",
+     "langs": [
+      "dan"
+     ],
+     "year": "2011",
+     "publisher": "Gyldendal",
+     "place": "København"
+    },
+    {
+     "bid": "RMS3055650",
+     "title": "Hvis en vinternat en rejsende / Italo Calvino ; oversat af Lene Waage Petersen",
+     "author": "Calvino, Italo",
+     "imprint": "[København] : Tiderne skifter, ©1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dan",
+     "langs": [
+      "dan"
+     ],
+     "year": "1984",
+     "publisher": "Tiderne skifter",
+     "place": "København"
+    },
+    {
+     "bid": "RMS3033513",
+     "title": "Als op een winternacht een reiziger / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Amsterdam : Ooievaar Pockethouse, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1995",
+     "publisher": "Ooievaar Pockethouse",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "RMS3033570",
+     "title": "Als op een winternacht een reiziger / Italo Calvino ; vertaald door Henny Vlot",
+     "author": "Calvino, Italo",
+     "imprint": "Amsterdam : Atlas, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "2019",
+     "publisher": "Atlas",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "RMS3055782",
+     "title": "Als op een winternacht een reiziger / Italo Calvino ; vertaald door Henny Vlot",
+     "author": "Calvino, Italo",
+     "imprint": "Amsterdam . Bert Bakker, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1983",
+     "publisher": "Amsterdam . Bert Bakker",
+     "place": null
+    },
+    {
+     "bid": "RMS2721978",
+     "title": "If on a winter's night a traveler / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "Toronto : Lester & Orpen Dennys, c1981. - 260 p. ; 22 cm.",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1981",
+     "publisher": "Lester & Orpen Dennys",
+     "place": "Toronto"
+    },
+    {
+     "bid": "RMS2731531",
+     "title": "If on a winter's night a traveller / Italo Calvino ; traduzione : William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "Londra : Vintage. , 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1992",
+     "publisher": "Vintage.",
+     "place": "Londra"
+    },
+    {
+     "bid": "RMS2731175",
+     "title": "If on a winter's night a traveler / Italo Calvino ; traduzione : William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "Londra : Pan. , 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1982",
+     "publisher": "Pan.",
+     "place": "Londra"
+    },
+    {
+     "bid": "PAR0880576",
+     "title": "If on a winter's night a traveller / Italo Calvino ; translated from the italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "London : Vintage, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1998",
+     "publisher": "Vintage",
+     "place": "London"
+    },
+    {
+     "bid": "RMS3055655",
+     "title": "If on a winter' s night a traveller / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "London : Secker & Warburg, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1981",
+     "publisher": "Secker & Warburg",
+     "place": "London"
+    },
+    {
+     "bid": "RMS3055766",
+     "title": "If on a winter' s night a traveler / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "Orlando [etc.] : Harcourt, ©1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1981",
+     "publisher": "Harcourt",
+     "place": "Orlando etc."
+    },
+    {
+     "bid": "RMS3055763",
+     "title": "If on a winter' s night a traveler / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "New York [etc.] : Harcourt Brace Jovanovich, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1981",
+     "publisher": "Harcourt Brace Jovanovich",
+     "place": "New York etc."
+    },
+    {
+     "bid": "RMS3055778",
+     "title": "If on a winter' s night a traveler / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "London : Pan Books in association with Secker & Warburg, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1982",
+     "publisher": "Pan Books in association with Secker & Warburg",
+     "place": "London"
+    },
+    {
+     "bid": "RMS3055789",
+     "title": "If on a winter' s night a traveler / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "San Diego [etc.] : Harcourt Brace Jovanovich, ©1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1981",
+     "publisher": "Harcourt Brace Jovanovich",
+     "place": "San Diego etc."
+    },
+    {
+     "bid": "RMS3055747",
+     "title": "If on a winter' s night a traveler / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "Orlando [etc.] : Harcourt, ©1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1981",
+     "publisher": "Harcourt",
+     "place": "Orlando etc."
+    },
+    {
+     "bid": "RMS3034585",
+     "title": "If on a winter' s night a traveller / Italo Calvino ; translated from the Italian by William Weaver",
+     "author": "Calvino, Italo",
+     "imprint": "London : Minerva, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1992",
+     "publisher": "Minerva",
+     "place": "London"
+    },
+    {
+     "bid": "TO00901962",
+     "title": "If on a winter's night a traveler / Italo Calvino ; translated from the Italian by William Weaver ; with an introduction by Peter Washington",
+     "author": "Calvino, Italo",
+     "imprint": "London : David Campbell, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1993",
+     "publisher": "David Campbell",
+     "place": "London"
+    },
+    {
+     "bid": "RMS3038175",
+     "title": "If on a winter' s night a traveler / Italo Calvino ; translated from the Italian by William Weaver ; with an introduction by Peter Washington",
+     "author": "Calvino, Italo",
+     "imprint": "New York [etc.] : Alfred A. Knopf, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1993",
+     "publisher": "Alfred A. Knopf",
+     "place": "New York etc."
+    },
+    {
+     "bid": "RMS3026332",
+     "title": "Kui rändaja talvisel ööl / Italo Calvino ; Itaalia keelest tõlkinud Eva Ingerpuu-Rümmel",
+     "author": "Calvino, Italo",
+     "imprint": "Tallin : Koolibri, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "est",
+     "langs": [
+      "est"
+     ],
+     "year": "2012",
+     "publisher": "Koolibri",
+     "place": "Tallin"
+    },
+    {
+     "bid": "RMS3026413",
+     "title": "Jos talviyönä matkamies / Italo Calvino ; suomentanut Jorma Kapari",
+     "author": "Calvino, Italo",
+     "imprint": "Helsinki : Tammi, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fin",
+     "langs": [
+      "fin"
+     ],
+     "year": "2009",
+     "publisher": "Tammi",
+     "place": "Helsinki"
+    },
+    {
+     "bid": "RMS3026378",
+     "title": "Jos talviyönä matkamies / Italo Calvino ; suomentanut Jorma Kapari",
+     "author": "Calvino, Italo",
+     "imprint": "Helsinki : Tammi, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fin",
+     "langs": [
+      "fin"
+     ],
+     "year": "2000",
+     "publisher": "Tammi",
+     "place": "Helsinki"
+    },
+    {
+     "bid": "RMS3055646",
+     "title": "Jos talviyönä matkamies / Italo Calvino ; suomentanut Jorma Kapari",
+     "author": "Calvino, Italo",
+     "imprint": "Helsinki : Kustannusosakeyhtiö Tammi, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fin",
+     "langs": [
+      "fin"
+     ],
+     "year": "1983",
+     "publisher": "Kustannusosakeyhtiö Tammi",
+     "place": "Helsinki"
+    },
+    {
+     "bid": "RMS3030197",
+     "title": "Si une nuit d'hiver un voyageur / Italo Calvino ; nouvelle traduction de l'italien par Martin Rueff",
+     "author": "Calvino, Italo",
+     "imprint": "[Paris] : Gallimard, [2015]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2015",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "RMS2725326",
+     "title": "Si par une nuit d'hiver un voyageur : roman / Italo Calvino ; traduit de l'italien par Danièle Sallenave et François Wahl",
+     "author": "Calvino, Italo",
+     "imprint": "[Paris] : Éditions du seuil, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1995",
+     "publisher": "Éditions du seuil",
+     "place": "Paris"
+    },
+    {
+     "bid": "RMS3055627",
+     "title": "Si par une nuit d' hiver un voyageur : roman / Italo Calvino ; traduit de l' italien par Danièle Sallenave et François Wahl",
+     "author": "Calvino, Italo",
+     "imprint": "Paris : Éditions du Seuil, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1981",
+     "publisher": "Éditions du Seuil",
+     "place": "Paris"
+    },
+    {
+     "bid": "RMS3055634",
+     "title": "Si par une nuit d' hiver un voyageur : roman / Italo Calvino ; traduit de l' italien par Danièle Sallenave et François Wahl",
+     "author": "Calvino, Italo",
+     "imprint": "Paris : Éditions du Seuil, ©1981, D.L. 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1981",
+     "publisher": "Éditions du Seuil",
+     "place": "Paris"
+    },
+    {
+     "bid": "UBO3099473",
+     "title": "Si par une nuit d'hiver un voyageur : roman / Italo Calvino ; traduit de l'italien par Daniele Sallenave et François Wahl",
+     "author": "Calvino, Italo",
+     "imprint": "[S.l.] : Editions du Seuil, c1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1995",
+     "publisher": "Editions du Seuil",
+     "place": "S.l."
+    },
+    {
+     "bid": "RMS3032407",
+     "title": "Wenn ein Reisender in einer Winternacht : Roman / Italo Calvino ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Calvino, Italo",
+     "imprint": "Frankfurt am Main : Fischer Taschenbuch Verlag, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2012",
+     "publisher": "Fischer Taschenbuch Verlag",
+     "place": "Frankfurt am Main"
+    },
+    {
+     "bid": "RMS3055669",
+     "title": "Wenn ein Reisender in einer Winternacht / Italo Calvino ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Calvino, Italo",
+     "imprint": "München [etc.] : Carl Hanser, ©1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1983",
+     "publisher": "Carl Hanser",
+     "place": "München etc."
+    },
+    {
+     "bid": "RMS3055744",
+     "title": "Wenn ein Reisender in einer Winternacht : roman / Italo Calvino ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Calvino, Italo",
+     "imprint": "Berlin : Volk und Welt, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1985",
+     "publisher": "Volk und Welt",
+     "place": "Berlin"
+    },
+    {
+     "bid": "TO01701950",
+     "title": "Wenn ein Reisender in einer Winternacht : Roman / Italo Calvino ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Calvino, Italo",
+     "imprint": "München : Deutscher taschenbuch Verlag, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1986",
+     "publisher": "Deutscher taschenbuch Verlag",
+     "place": "München"
+    },
+    {
+     "bid": "TO01996477",
+     "title": "Wenn ein Reisender in einer Winternacht : Roman / Italo Calvino ; Deutsch von Burkhart Kroeber",
+     "author": "Calvino, Italo",
+     "imprint": "München : Deutscher taschenbuch Verlag, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1986",
+     "publisher": "Deutscher taschenbuch Verlag",
+     "place": "München"
+    },
+    {
+     "bid": "RMS3032735",
+     "title": "An mia nýchta tou cheimóna énas taxidiótis : mythistórima / Italo Calvino ; anatheorímeni metáfrasi apo ta italika Antaios Chrysostomidis",
+     "author": "Calvino, Italo",
+     "imprint": "Atene : Kastaniotis, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "gre",
+     "langs": [
+      "gre"
+     ],
+     "year": "2009",
+     "publisher": "Kastaniotis",
+     "place": "Atene"
+    },
+    {
+     "bid": "PUV0878350",
+     "title": "An mia nychta tou cheimona henas taxidiotes / Italo Kalbino ; metaphrase Antaios Chrysostomides",
+     "author": "Calvino, Italo",
+     "imprint": "<S.l.> : Astarte, c1982, stampa 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "gre",
+     "langs": [
+      "gre"
+     ],
+     "year": "1982",
+     "publisher": "Astarte",
+     "place": "<S.l.>"
+    },
+    {
+     "bid": "RMS3055665",
+     "title": "An mia nýchta tou cheimóna énas taxidiótēs / Italo Kalvino ; metafrasē Antaios Chrisostomidēs",
+     "author": "Calvino, Italo",
+     "imprint": "[Athēna] : Astartē, ©1982, stampa 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "gre",
+     "langs": [
+      "gre"
+     ],
+     "year": "1982",
+     "publisher": "Astartē",
+     "place": "Athēna"
+    },
+    {
+     "bid": "RMS3036110",
+     "title": "Ako jedne zimske noći neki putnik / Italo calvino ; prevod Ana Srbinović",
+     "author": "Calvino, Italo",
+     "imprint": "Podgorica : Daily Press, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hbs",
+     "langs": [
+      "hbs"
+     ],
+     "year": "2003",
+     "publisher": "Daily Press",
+     "place": "Podgorica"
+    },
+    {
+     "bid": "RMS3023837",
+     "title": "Ako jedne zimske noći neki putnik / Italo Calvino ; prijevod Pavao Pavličić",
+     "author": "Calvino, Italo",
+     "imprint": "Zagreb : Globus media, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hrv",
+     "langs": [
+      "hrv"
+     ],
+     "year": "2004",
+     "publisher": "Globus media",
+     "place": "Zagreb"
+    },
+    {
+     "bid": "RMS3055661",
+     "title": "Ako jedne zimske noći neki putnik / Italo Calvino ; s talijanskog preveo Pavao Pavličić",
+     "author": "Calvino, Italo",
+     "imprint": "Zagreb : Znanje, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hrv",
+     "langs": [
+      "hrv"
+     ],
+     "year": "1981",
+     "publisher": "Znanje",
+     "place": "Zagreb"
+    },
+    {
+     "bid": "BVE0104741",
+     "title": "Ha egy téli éjszakán egy utazó : regény / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "\\Budapest! : Európa, ©1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hun",
+     "langs": [
+      "hun"
+     ],
+     "year": "1985",
+     "publisher": "Európa",
+     "place": "Budapest"
+    },
+    {
+     "bid": "RMS3055758",
+     "title": "Ha egy téli éjszakán egy utazó : regény / Italo Calvino ; [fordította és az utószót írta Telegdi Polgár István]",
+     "author": "Calvino, Italo",
+     "imprint": "[Budapest] : Európa Könyvkiadó, ©1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hun",
+     "langs": [
+      "hun"
+     ],
+     "year": "1985",
+     "publisher": "Európa Könyvkiadó",
+     "place": "Budapest"
+    },
+    {
+     "bid": "RMS3040394",
+     "title": "Ha egy téli éjszakán egy utazó / Italo Calvino : [fordította Telegdi Polgár István]",
+     "author": "Calvino, Italo",
+     "imprint": "Budapest : Európa, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hun",
+     "langs": [
+      "hun"
+     ],
+     "year": "2011",
+     "publisher": "Európa",
+     "place": "Budapest"
+    },
+    {
+     "bid": "LIA0844308",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "FER0136648",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, c1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV0002500",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, [1979]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO10011023",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1653091",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : A. Mondadori, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0170775",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "ANA0163654",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione a cura dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, c2002, stampa 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0577138",
+     "title": "Se una notte d' inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10850139",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, c2002, stampa 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "LUA0576589",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Einaudi, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Einaudi",
+     "place": null
+    },
+    {
+     "bid": "RLZ0191050",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0168903",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : A. Mondadori, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01039149",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Roma : La Biblioteca di Repubblica, ©2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "La Biblioteca di Repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "RMS0155594",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, stampa 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0850471",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, ©1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BCT0075340",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "[Roma] : GEDI, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "GEDI",
+     "place": "Roma"
+    },
+    {
+     "bid": "BIA0008453",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "[Milano] : A. Mondadori, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "PBE0100781",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RCA0308985",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0574087",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS0133831",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMR0413305",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RCA0661386",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Roma : la biblioteca di repubblica, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "la biblioteca di repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "UBO4579730",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0149593",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS3099787",
+     "title": "Se una notte d' inverno un viaggiatore / Italo calvino ; presentazione dell' autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Mondadori, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01580290",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, ©1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RCA0753606",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; Presentazione dell'autore con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Mondadori, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4968558",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UDA0244144",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : A. Mondadori, stampa 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "A. Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0610076",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, stampa 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2001",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UMC0651238",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Mondadori, c2002, Stampa 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO11188534",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; legge: Daria Cacchi",
+     "author": "Calvino, Italo",
+     "imprint": "Feltre : Centro Internazionale del Libro parlato, 2006",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Centro Internazionale del Libro parlato",
+     "place": "Feltre"
+    },
+    {
+     "bid": "MOD1661708",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Mondadori, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA1417404",
+     "title": "Als op een winternacht een reiziger / Italo Calvino ; vertaald door Henny Vlot",
+     "author": "Calvino, Italo",
+     "imprint": "Amsterdam : Bakker, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Bakker",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "RMS3100158",
+     "title": "Se una notte d' inverno un viaggiatore / Italo Calvino ; presentazione dell' autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Mondadori, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS3100162",
+     "title": "Se una notte d' inverno un viaggiatore / Italo Calvino ; presentazione dell' autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Mondadori, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4502012",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO11348949",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "IEI0394397",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, stampa 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "PCM0003599",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10069862",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore ; con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, stampa 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01896654",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2521028",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore con uno scritto di Giovanni Raboni",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : Oscar Mondadori, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Oscar Mondadori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00556010",
+     "title": "Altri romanzi / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Milano : CDE, stampa 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "BCT0060397",
+     "title": "Se una notte d'inverno un viaggiatore / Italo Calvino ; presentazione dell'autore",
+     "author": "Calvino, Italo",
+     "imprint": "Roma : GEDI, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "GEDI",
+     "place": "Roma"
+    },
+    {
+     "bid": "RMS3047711",
+     "title": "Ja reiz ziemas naktī ceļinieks / Italo Kalvīno ; no itāļu valodas tulkojusi Dace Meiere",
+     "author": "Calvino, Italo",
+     "imprint": "Rīgā : Jāņa Rozes Apgāds, ©2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "lav",
+     "langs": [
+      "lav"
+     ],
+     "year": "2019",
+     "publisher": "Jāņa Rozes Apgāds",
+     "place": "Rīgā"
+    },
+    {
+     "bid": "RMS3032750",
+     "title": "Jeigu keleivis ziemos nakti / Italo Calvino ; is italu kalbos verté Asta Zukaité",
+     "author": "Calvino, Italo",
+     "imprint": "Vilnius : Baltos Lankos, c2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "lit",
+     "langs": [
+      "lit"
+     ],
+     "year": "2006",
+     "publisher": "Baltos Lankos",
+     "place": "Vilnius"
+    },
+    {
+     "bid": "RMS3032973",
+     "title": "Ako edna zimska nok nekoJ patnik / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Skopje : Magor, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "mac",
+     "langs": [
+      "mac"
+     ],
+     "year": "2012",
+     "publisher": "Magor",
+     "place": "Skopje"
+    },
+    {
+     "bid": "RMS3032967",
+     "title": "Ako edna zimska nok nekoJ patnik / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Skopje : Tri, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "mac",
+     "langs": [
+      "mac"
+     ],
+     "year": "2011",
+     "publisher": "Tri",
+     "place": "Skopje"
+    },
+    {
+     "bid": "RMS3055657",
+     "title": "[Vis en reisende en vinternatt / Italo Calvino ; oversatt av Jorunn Aardal]",
+     "author": "Calvino, Italo",
+     "imprint": "Oslo : Aschehoug, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "nor",
+     "langs": [
+      "nor"
+     ],
+     "year": "1985",
+     "publisher": "Aschehoug",
+     "place": "Oslo"
+    },
+    {
+     "bid": "CFI0085449",
+     "title": "Hvis en reisende en vinternatt / Italo Calvino ; oversatt av Jorunn Aardal",
+     "author": "Calvino, Italo",
+     "imprint": "Oslo : Aschehoug, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "nor",
+     "langs": [
+      "nor"
+     ],
+     "year": "1986",
+     "publisher": "Aschehoug",
+     "place": "Oslo"
+    },
+    {
+     "bid": "TO01804217",
+     "title": "Agar šabī az šabhāī zamistān musāfarī / Ītālū Kālwīnu ; tarǧumah-ʻi Līlī Gulistān",
+     "author": "Calvino, Italo",
+     "imprint": "Tihran : Agah, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "per",
+     "langs": [
+      "per"
+     ],
+     "year": "2006",
+     "publisher": "Agah",
+     "place": "Tihran"
+    },
+    {
+     "bid": "RMB0781346",
+     "title": "Jeśli zimową nocą podróżny / Italo Calvino ; przełożyła i posłowiem opatrzyła Anna Wasilewska",
+     "author": "Calvino, Italo",
+     "imprint": "Warszawa : W.A.B., 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2012",
+     "publisher": "W.A.B.",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "RMS3033577",
+     "title": "Jeśli zimową nocą podróżny / Italo Calvino ; przelozyla Anna Wasilewska",
+     "author": "Calvino, Italo",
+     "imprint": "Warszawa : Panstwowy Instytut Wydawniczy, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "1989",
+     "publisher": "Panstwowy Instytut Wydawniczy",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "RMS3055770",
+     "title": "Se um viajante numa noite de inverno / Italo Calvino ; tradução de Margarida Salomão",
+     "author": "Calvino, Italo",
+     "imprint": "Rio de Janeiro : Nova Fronteira, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "1982",
+     "publisher": "Nova Fronteira",
+     "place": "Rio de Janeiro"
+    },
+    {
+     "bid": "RMS3020954",
+     "title": "Se um viajante numa noite de inverno / Italo Calvino ; tradução Nilson Moulin",
+     "author": "Calvino, Italo",
+     "imprint": "São Paulo : Planeta De Agostini, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2003",
+     "publisher": "Planeta De Agostini",
+     "place": "São Paulo"
+    },
+    {
+     "bid": "RMS3020914",
+     "title": "Se um viajante numa noite de inverno / Italo Calvino ; tradução Nilson Moulin",
+     "author": "Calvino, Italo",
+     "imprint": "São Paulo : Companhia das letras, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "1990",
+     "publisher": "Companhia das letras",
+     "place": "São Paulo"
+    },
+    {
+     "bid": "RMS3047672",
+     "title": "Se um viajante numa noite de inverno / Italo Calvino ; tradução Nilson Moulin ; posfácio Maurício Santana Dias",
+     "author": "Calvino, Italo",
+     "imprint": "[São Paulo] : Companhia das Letras, impr. 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2023",
+     "publisher": "Companhia das Letras",
+     "place": "São Paulo"
+    },
+    {
+     "bid": "RT10134736",
+     "title": "Se numa noite de inverno um viajante : romance / Italo Calvino ; tradução de José Colaço Barreiros",
+     "author": "Calvino, Italo",
+     "imprint": "Alfragide : Dom Quixote, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2018",
+     "publisher": "Dom Quixote",
+     "place": "Alfragide"
+    },
+    {
+     "bid": "RMS3047535",
+     "title": "Se numa noite de inverno um viajante : romance / Italo Calvino ; tradução de José Colaço Barreiros",
+     "author": "Calvino, Italo",
+     "imprint": "2. ed. (reimpressão) - Alfragide . D. Quixote, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2022",
+     "publisher": "2. ed. (reimpressão) - Alfragide . D. Quixote",
+     "place": null
+    },
+    {
+     "bid": "CFI0548375",
+     "title": "Dacă într-o noapte de iarnă un călător / Italo Calvino ; traducere ʂi postfayă de Anca Giurescu ; cu o prezentare a autorului",
+     "author": "Calvino, Italo",
+     "imprint": "Bucureʂti : Univers, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "1999",
+     "publisher": "Univers",
+     "place": "Bucureʂti"
+    },
+    {
+     "bid": "TO01794806",
+     "title": "Dacă într-o noapte de iarnă un călător / Italo Calvino ; traducere din limba italiană de Anca Giurescu ; postfaţă de Bogdan-Alexandru Stănescu",
+     "author": "Calvino, Italo",
+     "imprint": "Iaşi : Polirom, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2006",
+     "publisher": "Polirom",
+     "place": "Iaşi"
+    },
+    {
+     "bid": "MOD1337510",
+     "title": "Esli odnaždy zimnej noč'ju putnik / Italo Calvino ; [sostavitel' G.P. Kiseleva]",
+     "author": "Calvino, Italo",
+     "imprint": "Sankt-Peterburg : Simpozium, 2000",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2000",
+     "publisher": "Simpozium",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "RMS3035849",
+     "title": "Esli odnaždy zimnej noč'ju putnik / Italo Calvino",
+     "author": "Calvino, Italo",
+     "imprint": "Moskva : AST-Astrel', 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2010",
+     "publisher": "AST-Astrel'",
+     "place": "Moskva"
+    },
+    {
+     "bid": "PUV0764534",
+     "title": "Esli odnaždy zimnej noč'ju putnik : roman / Italio Calvino ; perevod s ital'janskogo Gennadija Kiseleva",
+     "author": "Calvino, Italo",
+     "imprint": "Moskva : Inostrannaja literatura -BSG Press, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2000",
+     "publisher": "Inostrannaja literatura -BSG Press",
+     "place": "Moskva"
+    },
+    {
+     "bid": "RMS3036104",
+     "title": "Ked' cestujúci jednej zimnej noci ... / Italo Calvino ; preložila Mária Štefánková",
+     "author": "Calvino, Italo",
+     "imprint": "Bratislava : Petit Press, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slo",
+     "langs": [
+      "slo"
+     ],
+     "year": "2005",
+     "publisher": "Petit Press",
+     "place": "Bratislava"
+    },
+    {
+     "bid": "RMS3037899",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción del italiano de Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela ; [Buenos Aires] : Grupal [distributore], 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2013",
+     "publisher": "Siruela ; Buenos Aires : Grupal distributore",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3036491",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, ©1989, impresión 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1989",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3037140",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción de Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2001",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3036655",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1993",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3036657",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, [1993]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1993",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3036972",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción de Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, ©1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1999",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3037720",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción del italiano de Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2009",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3047467",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción del italiano de Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2023",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3055750",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción de Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Barcelona : Bruguera, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1980",
+     "publisher": "Bruguera",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "RMS3055751",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; [traducción Esther Benítez]",
+     "author": "Calvino, Italo",
+     "imprint": "Barcelona : Bruguera, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1983",
+     "publisher": "Bruguera",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "RMS3037413",
+     "title": "Si una noche de invierno un viajero / Italo Calvino ; traducción del italiano de Esther Benítez",
+     "author": "Calvino, Italo",
+     "imprint": "Madrid : Siruela, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2006",
+     "publisher": "Siruela",
+     "place": "Madrid"
+    },
+    {
+     "bid": "RMS3035916",
+     "title": "Om en vinternatt en resande / Italo Calvino ; översättning av Viveca Melander",
+     "author": "Calvino, Italo",
+     "imprint": "Stockholm : Bonniers, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "swe",
+     "langs": [
+      "swe"
+     ],
+     "year": "1999",
+     "publisher": "Bonniers",
+     "place": "Stockholm"
+    },
+    {
+     "bid": "RMS3035954",
+     "title": "Om en vinternatt en resande / Italo Calvino ; översättning Viveca Melander",
+     "author": "Calvino, Italo",
+     "imprint": "Stockholm : Natur & Kultur, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "swe",
+     "langs": [
+      "swe"
+     ],
+     "year": "2017",
+     "publisher": "Natur & Kultur",
+     "place": "Stockholm"
+    },
+    {
+     "bid": "RMS3055773",
+     "title": "Om en vinternatt en resande / Italo Calvino ; översättning av Viveca Melander",
+     "author": "Calvino, Italo",
+     "imprint": "Stockholm : Bonniers, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "swe",
+     "langs": [
+      "swe"
+     ],
+     "year": "1983",
+     "publisher": "Bonniers",
+     "place": "Stockholm"
+    },
+    {
+     "bid": "VEA1128981",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; William Weaver'in İngilizceye yaptığı çeviriden Tüçeye çeviren Ülker İnce",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Can, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "1990",
+     "publisher": "Can",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3038636",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2008",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3039126",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2018",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3038695",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2015",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3038926",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2017",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3047351",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2023",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3047083",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2022",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3053942",
+     "title": "Bir Kış Gecesi Eğer Bir Yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2024",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMS3038928",
+     "title": "Bir kış gecesi eğer bir yolcu : roman / Italo Calvino ; çeviren Eren Yücesan Cendey",
+     "author": "Calvino, Italo",
+     "imprint": "İstanbul : Yapı Kredi Yayınları, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2017",
+     "publisher": "Yapı Kredi Yayınları",
+     "place": "İstanbul"
+    },
+    {
+     "bid": "RMB0811458",
+     "title": "Yakshcho podorozhniy odnoyi zymovoyi nochi / Italo Calvino ; Roman Skakun",
+     "author": "Calvino, Italo",
+     "imprint": "Lʹviv : Vydavnyt︠s︡tvo Staroho Leva, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ukr",
+     "langs": [
+      "ukr"
+     ],
+     "year": "2018",
+     "publisher": "Vydavnyt︠s︡tvo Staroho Leva",
+     "place": "Lʹviv"
+    },
+    {
+     "bid": "RMS3040413",
+     "title": "Nếu một đêm đông có người lữ khách / Italo Calvino ; Trần Tiến Cao Đăng dich",
+     "author": "Calvino, Italo",
+     "imprint": "Hà Nội : Văn học : Nhã Nam, [2011]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "vie",
+     "langs": [
+      "vie"
+     ],
+     "year": "2011",
+     "publisher": "Văn học : Nhã Nam",
+     "place": "Hà Nội"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": null,
+ "wall_s": 16.0,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 36,
+   "failed": 0,
+   "total_s": 48.91,
+   "p50_s": 0.983,
+   "max_s": 4.947
+  }
+ },
+ "failures": []
+}

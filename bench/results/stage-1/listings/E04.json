@@ -1,0 +1,1786 @@
+{
+ "id": "E04",
+ "sbn": [
+  {
+   "W": "umibe no kafuka",
+   "author": "Murakami Haruki",
+   "total": 20,
+   "lingua_facet": [
+    [
+     "ita",
+     12
+    ],
+    [
+     "eng",
+     3
+    ],
+    [
+     "ara",
+     1
+    ],
+    [
+     "chi",
+     1
+    ],
+    [
+     "fre",
+     1
+    ],
+    [
+     "jpn",
+     1
+    ],
+    [
+     "rus",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 20,
+   "rows": 20,
+   "multilingual_rows": 0,
+   "languages": 7,
+   "bogus_lingua_total": 0,
+   "year_parsed": 20,
+   "year_parse_failures": [],
+   "publisher_present": 20,
+   "language_present": 20,
+   "records_on_no_language_page": [],
+   "requests": 9,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 0.7,
+   "items": [
+    {
+     "bid": "RMB0792755",
+     "title": "Kafka 'ala al-shati' : riwayah / Haruki Murakami ; tarjamat Iman Rizq Allah ; muraja'at Samir Abu Hawash",
+     "author": "Murakami, Haruki",
+     "imprint": "al-Dar al-Bayda : al-Markaz al-thaqafi al-'arabi, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2013",
+     "publisher": "al-Markaz al-thaqafi al-'arabi",
+     "place": "al-Dar al-Bayda"
+    },
+    {
+     "bid": "TO01700217",
+     "title": "Hai bian de Kafuka / Cunshang Chunshu zhu ; Lin Shaohua yi",
+     "author": "Murakami, Haruki",
+     "imprint": "Shanghai : Shanghai yi wen chu ban she, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2003",
+     "publisher": "Shanghai yi wen chu ban she",
+     "place": "Shanghai"
+    },
+    {
+     "bid": "UBO4353929",
+     "title": "Kafka on the shore / Haruki Murakami ; translated from the Japanese by Philip Gabriel",
+     "author": "Murakami, Haruki",
+     "imprint": "London : Vintage, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2005",
+     "publisher": "Vintage",
+     "place": "London"
+    },
+    {
+     "bid": "TO01665832",
+     "title": "Kafka on the shore / Haruki Murakami ; traslated from the Japanese by Philip Gabriel",
+     "author": "Murakami, Haruki",
+     "imprint": "London : Harvill, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2005",
+     "publisher": "Harvill",
+     "place": "London"
+    },
+    {
+     "bid": "LO11474597",
+     "title": "Kafka on the shore / Haruki Murakami ; translated from the Japanese by Philip Gabriel",
+     "author": "Murakami, Haruki",
+     "imprint": "New York : Vintage Books, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2005",
+     "publisher": "Vintage Books",
+     "place": "New York"
+    },
+    {
+     "bid": "LO11485154",
+     "title": "Kafka sur le rivage / Haruki Murakami ; traduit du japonais par Corinne ATLAN",
+     "author": "Murakami, Haruki",
+     "imprint": "Paris : Belfond, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2006",
+     "publisher": "Belfond",
+     "place": "Paris"
+    },
+    {
+     "bid": "UBO4414630",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; legge Vincenzo Liguori",
+     "author": "Murakami, Haruki",
+     "imprint": "Feltre : Centro Internazionale del Libro Parlato, 2019",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Centro Internazionale del Libro Parlato",
+     "place": "Feltre"
+    },
+    {
+     "bid": "MOD1450780",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; traduzione dal giapponese di Giorgio Amitrano",
+     "author": "Murakami, Haruki",
+     "imprint": "Torino : Einaudi, ©2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RL10062224",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; traduzione di Giorgio Amitrano",
+     "author": "Murakami, Haruki",
+     "imprint": "Torino : Einaudi, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV1987616",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; traduzione di Giorgio Amitrano",
+     "author": "Murakami, Haruki",
+     "imprint": "Torino : Einaudi, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RT10073737",
+     "title": "Kafka sulla spiaggia / Murakami Haruki",
+     "author": "Murakami, Haruki",
+     "imprint": "Roma : La Biblioteca di Repubblica-L'Espresso, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "La Biblioteca di Repubblica-L'Espresso",
+     "place": "Roma"
+    },
+    {
+     "bid": "BMT0037443",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; traduzione di Giorgio Amitrano",
+     "author": "Murakami, Haruki",
+     "imprint": "Torino : Einaudi, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO02153226",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; [traduzione dal giapponese di Giorgio Amitrano]",
+     "author": "Murakami, Haruki",
+     "imprint": "Milano : Mondolibri, stampa 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO02145634",
+     "title": "Kafka sulla spiaggia / Murakami Haruki",
+     "author": "Murakami, Haruki",
+     "imprint": "Milano : Mondolibri, stampa 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAV0036096",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; traduzione dal giapponese di Giorgio Amitrano",
+     "author": "Murakami, Haruki",
+     "imprint": "Torino : Einaudi, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CAG2099269",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; traduzione di Giorgio Amitrano",
+     "author": "Murakami, Haruki",
+     "imprint": "Milano : RCS MediaGroup, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "RCS MediaGroup",
+     "place": "Milano"
+    },
+    {
+     "bid": "MO10041098",
+     "title": "Kafka sulla spiaggia / Murakami Haruki ; traduzione di Giorgio Amitrano",
+     "author": "Murakami, Haruki",
+     "imprint": "Torino : Einaudi, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "VIA0177261",
+     "title": "Kafka sulla spiaggia / Murakami Haruki",
+     "author": "Murakami, Haruki",
+     "imprint": "Milano : Mondolibri, stampa 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4636099",
+     "title": "Kafka on the shore / Haruki Murakami ; translated from the Japanese by Philip Gabriel",
+     "author": "Murakami, Haruki",
+     "imprint": "London : Vintage, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "jpn",
+     "langs": [
+      "jpn"
+     ],
+     "year": "2005",
+     "publisher": "Vintage",
+     "place": "London"
+    },
+    {
+     "bid": "UBO4039376",
+     "title": "Kafka na plaze / Haruki Murakami",
+     "author": "Murakami, Haruki",
+     "imprint": "Moskva : Eksmo, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2012",
+     "publisher": "Eksmo",
+     "place": "Moskva"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng",
+    "jpn"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL2625431W",
+  "size": 61,
+  "rows": 61,
+  "languages": 15,
+  "language_codes": [
+   "cat",
+   "chi",
+   "dut",
+   "eng",
+   "fre",
+   "ger",
+   "heb",
+   "jpn",
+   "kor",
+   "pol",
+   "rus",
+   "spa",
+   "srp",
+   "swe",
+   "vie"
+  ],
+  "year_parsed": 60,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL28265871M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 60,
+  "language_present": 43,
+  "requests": 10,
+  "failed": [],
+  "wall_s": 5.1,
+  "items": [
+   {
+    "key": "/books/OL47337676M",
+    "title": "Kafka a la platja",
+    "publish_date": "2021-11-04",
+    "year": "2021",
+    "publishers": [
+     "Editorial Empúries"
+    ],
+    "publish_places": [],
+    "languages": [
+     "cat"
+    ],
+    "isbn_10": [
+     "8418833203"
+    ],
+    "isbn_13": [
+     "9788418833205"
+    ],
+    "translation_of": "海辺のカフカ [Umibe no Kafuka]",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL47131110M",
+    "title": "Kafka a la platja",
+    "publish_date": "2020-11-30",
+    "year": "2020",
+    "publishers": [
+     "labutxaca"
+    ],
+    "publish_places": [],
+    "languages": [
+     "cat"
+    ],
+    "isbn_10": [
+     "8499305571"
+    ],
+    "isbn_13": [
+     "9788499305578"
+    ],
+    "translation_of": "海辺のカフカ [Umibe no Kafuka]",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL56917583M",
+    "title": "קפקא על החוף",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Keter"
+    ],
+    "publish_places": [
+     "Yerushalayim"
+    ],
+    "languages": [
+     "heb"
+    ],
+    "isbn_10": [
+     "9650715053"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL45769935M",
+    "title": "Kafka na plyazhe. Kamen'",
+    "publish_date": "2006-01-01",
+    "year": "2006",
+    "publishers": [
+     "Eksmo"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "5699173145"
+    ],
+    "isbn_13": [
+     "9785699173143"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL42986170M",
+    "title": "Kafka på stranden",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Norstedts"
+    ],
+    "publish_places": [
+     "Stockholm, Sverige"
+    ],
+    "languages": [
+     "swe"
+    ],
+    "isbn_10": [
+     "9113015648"
+    ],
+    "isbn_13": [
+     "9789113015644"
+    ],
+    "translation_of": "Umibe no Kafuka",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL40336060M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781843432715"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL40340904M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781843432289"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL39215508M",
+    "title": "Kafka sulla spiaggia",
+    "publish_date": "May 28, 2013",
+    "year": "2013",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8806216945"
+    ],
+    "isbn_13": [
+     "9788806216948"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL38228207M",
+    "title": "Kafka à Beira-Mar",
+    "publish_date": "Jun 05, 2006",
+    "year": "2006",
+    "publishers": [
+     "Casa das Letras"
+    ],
+    "publish_places": [
+     "Cruz Quebrada, Portugal"
+    ],
+    "languages": [],
+    "isbn_10": [
+     "9724616460"
+    ],
+    "isbn_13": [
+     "9789724616469"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL36270783M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784877989"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL37073350M",
+    "title": "Kafka on the Shore",
+    "publish_date": "Feb 21, 2005",
+    "year": "2005",
+    "publishers": [
+     "RANDOM HOUSE @ TRADE"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0307275264"
+    ],
+    "isbn_13": [
+     "9780307275264"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL37806051M",
+    "title": "Kafka on the shore",
+    "publish_date": "Apr 08, 2005",
+    "year": "2005",
+    "publishers": [
+     "Random House Export Editions",
+     "Knopf"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0099494094"
+    ],
+    "isbn_13": [
+     "9780099494096"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL35668036M",
+    "title": "Kafka sur le rivage",
+    "publish_date": "Sep 18, 2008",
+    "year": "2008",
+    "publishers": [
+     "10/18",
+     "10 * 18"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "226404473X"
+    ],
+    "isbn_13": [
+     "9782264044730"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL35630649M",
+    "title": "Kafka En La Orilla",
+    "publish_date": "Nov 03, 2009",
+    "year": "2009",
+    "publishers": [
+     "TUSQUETS"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9871544189"
+    ],
+    "isbn_13": [
+     "9789871544189"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9045587M",
+    "title": "Kafka na plyazhe. Koshki",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Eksmo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5699173102"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL45392766M",
+    "title": "Kafka op het strand",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Atlas"
+    ],
+    "publish_places": [
+     "Amsterdam"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789045000947"
+    ],
+    "translation_of": "Umibe no Kafuka",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL37045455M",
+    "title": "Haebyŏn ŭi K'ap'ŭk'a",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Munhak Sasangsa"
+    ],
+    "publish_places": [
+     "Sŏul T'ŭkpyŏlsi"
+    ],
+    "languages": [
+     "kor"
+    ],
+    "isbn_10": [
+     "8970124977"
+    ],
+    "isbn_13": [
+     "9788970124971"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL34464368M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781448103690"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL33898345M",
+    "title": "海辺のカフカ",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "RHUK"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780099458326"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL32243131M",
+    "title": "Kafka en la orilla",
+    "publish_date": "Apr 27, 2007",
+    "year": "2007",
+    "publishers": [
+     "Círculo de Lectores"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8467223340"
+    ],
+    "isbn_13": [
+     "9788467223347"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL32243132M",
+    "title": "Kafka en la orilla",
+    "publish_date": "Dec 20, 2018",
+    "year": "2018",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9706991581"
+    ],
+    "isbn_13": [
+     "9789706991584"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL32199828M",
+    "title": "Sahilde Kafka",
+    "publish_date": "Oct 01, 2017",
+    "year": "2017",
+    "publishers": [
+     "Dogan Kitap"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "605111386X"
+    ],
+    "isbn_13": [
+     "9786051113869"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL31856364M",
+    "title": "Kafka a la platja",
+    "publish_date": "Jun 01, 2008",
+    "year": "2008",
+    "publishers": [
+     "labutxaca"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8496863751"
+    ],
+    "isbn_13": [
+     "9788496863750"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL32209387M",
+    "title": "Kafka a la platja",
+    "publish_date": "Nov 14, 2006",
+    "year": "2006",
+    "publishers": [
+     "Editorial Empúries"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8497872096"
+    ],
+    "isbn_13": [
+     "9788497872096"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL31856357M",
+    "title": "Kafka a la platja",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Labutxaca"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL27176746M",
+    "title": "Kafka na obali mora",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Geopoetika"
+    ],
+    "publish_places": [
+     "Beograd"
+    ],
+    "languages": [
+     "srp"
+    ],
+    "isbn_10": [
+     "8661451671"
+    ],
+    "isbn_13": [
+     "9788661451676"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL27120554M",
+    "title": "Kafka bên bờ biển",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "NXB Văn học",
+     "Nhã Nam"
+    ],
+    "publish_places": [
+     "Hà Nội"
+    ],
+    "languages": [
+     "vie"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL26092125M",
+    "title": "Kafka en la orilla",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788483835241"
+    ],
+    "translation_of": "海辺のカフカ",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL30696912M",
+    "title": "Kafka am Strand",
+    "publish_date": "Apr 30, 2006",
+    "year": "2006",
+    "publishers": [
+     "btb"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3442733235"
+    ],
+    "isbn_13": [
+     "9783442733231"
+    ],
+    "translation_of": "Umibe no Kafuka",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL27939392M",
+    "title": "海边的卡夫卡",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Yi wen chu ban she"
+    ],
+    "publish_places": [
+     "Shanghai"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7532743004"
+    ],
+    "isbn_13": [
+     "9787532743001"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL28265871M",
+    "title": "Kafka on the Shore",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "4864072892"
+    ],
+    "isbn_13": [
+     "9784864072892"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL27525369M",
+    "title": "Kafka On The Shore",
+    "publish_date": "2014-10-02",
+    "year": "2014",
+    "publishers": [
+     "Vintage Classics"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0099593866"
+    ],
+    "isbn_13": [
+     "9780099593867"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL7318410M",
+    "title": "KAFKA ON THE SHORE",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Alfred A Knopf"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0099458322"
+    ],
+    "isbn_13": [
+     "9780099458326"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL8363016M",
+    "title": "Kafka on the Shore",
+    "publish_date": "January 18, 2005",
+    "year": "2005",
+    "publishers": [
+     "Knopf"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1400043662"
+    ],
+    "isbn_13": [
+     "9781400043668"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9453775M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Vintage (Rand)"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "5551416399"
+    ],
+    "isbn_13": [
+     "9785551416395"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL24277007M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Knopf Doubleday Publishing Group"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781400044818"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL8931327M",
+    "title": "Kafka on the Shore",
+    "publish_date": "January 6, 2005",
+    "year": "2005",
+    "publishers": [
+     "The Harvill Press"
+    ],
+    "publish_places": [
+     "London, United Kingdom"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1843431106"
+    ],
+    "isbn_13": [
+     "9781843431107"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL8364133M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Vintage International"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1400079276"
+    ],
+    "isbn_13": [
+     "9781400079278"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL23086017M",
+    "title": "Umibe no Kafuka",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Shinchōsha",
+     "Shinchosha"
+    ],
+    "publish_places": [
+     "Tōkyō"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [
+     "4103534133",
+     "4103534141"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL24367154M",
+    "title": "Kafka am Strand",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "btb"
+    ],
+    "publish_places": [
+     "Munich, Germany"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783442740437"
+    ],
+    "translation_of": "Umibe no Kafuka",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL8931367M",
+    "title": "Kafka on the Shore",
+    "publish_date": "January 6, 2005",
+    "year": "2005",
+    "publishers": [
+     "The Harvill Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1843432684"
+    ],
+    "isbn_13": [
+     "9781843432685"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9161080M",
+    "title": "Kafka on the Shore",
+    "publish_date": "May 2006",
+    "year": "2006",
+    "publishers": [
+     "Naxos of America"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "9626344059"
+    ],
+    "isbn_13": [
+     "9789626344057"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL23059586M",
+    "title": "Kafka na pli︠a︡zhe",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "ĖKSMO"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5699109382"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL19617410M",
+    "title": "Umibe no Kafuka",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Shinchōsha"
+    ],
+    "publish_places": [
+     "Tōkyō"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL26420371M",
+    "title": "Kafka sur le Rivage",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "10/18"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782264056160"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL23037922M",
+    "title": "Murakami Haruki henshūchō shōnen Kafuka",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Shinchōsha"
+    ],
+    "publish_places": [
+     "Tōkyō"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [
+     "410353415X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL23015826M",
+    "title": "Hai bian de Kafuka",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Shi bao wen hua chu ban qi ye gu fen you xian gong si"
+    ],
+    "publish_places": [
+     "Taibei Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9571338400",
+     "9571338419"
+    ],
+    "isbn_13": [],
+    "translation_of": "Umibe no Kafka",
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL22613913M",
+    "title": "Kafka on the shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Harvill Press"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1843431106"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL25554921M",
+    "title": "Kafka am strand",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "DuMont"
+    ],
+    "publish_places": [
+     "Köln"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "383217866X"
+    ],
+    "isbn_13": [
+     "9783832178666"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL26384078M",
+    "title": "Kafka nad morzem",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Warszawskie Wydawnictwo Literackie Muza"
+    ],
+    "publish_places": [
+     "Poland"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788374950978",
+     "9788374950961"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL25155348M",
+    "title": "Kafka sur le rivage",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Belfond",
+     "French and European Publications Inc",
+     "10 X 18"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782264056160"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL8904254M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Audiofy/Naxos"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1600837964"
+    ],
+    "isbn_13": [
+     "9781600837968"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL24196634M",
+    "title": "Kafka on the Shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Knopf"
+    ],
+    "publish_places": [
+     "United States"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1400043662"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9504746M",
+    "title": "Kafka en la orilla",
+    "publish_date": "November 1, 2006",
+    "year": "2006",
+    "publishers": [
+     "TusQuets"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8483103567"
+    ],
+    "isbn_13": [
+     "9788483103562"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9045571M",
+    "title": "Kafka Na Plyazhe",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Eksmo"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5699109382"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9199671M",
+    "title": "Kafka En La Orilla",
+    "publish_date": "November 2006",
+    "year": "2006",
+    "publishers": [
+     "TusQuets"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9871210558"
+    ],
+    "isbn_13": [
+     "9789871210558"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL24196633M",
+    "title": "Kafka on the shore",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Vintage",
+     "Vintage International"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1400079276"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9273065M",
+    "title": "Kafka on the shore",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Alfred A Knopf"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0099458322"
+    ],
+    "isbn_13": [
+     "9780099458326"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL26336340M",
+    "title": "Umibe no Kafuka",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Shincho sha"
+    ],
+    "publish_places": [
+     "Tokyo"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [
+     "4101001545",
+     "4101001553"
+    ],
+    "isbn_13": [
+     "9784101001548",
+     "9784101001555"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9149765M",
+    "title": "Kafka on the Shore Vol 1 of 2 (in traditional Chinese)",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Shi Bao Wen Hua Chu Ban Qi Ye"
+    ],
+    "publish_places": [],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9571338400"
+    ],
+    "isbn_13": [
+     "9789571338408"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   },
+   {
+    "key": "/books/OL9149766M",
+    "title": "Kafka on the Shore, Vol 2 of 2 (in traditional Chinese)",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Shi Bao Wen Hua Qi Ye"
+    ],
+    "publish_places": [],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9571338419"
+    ],
+    "isbn_13": [
+     "9789571338415"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL2625431W"
+    ]
+   }
+  ],
+  "how": "original, keyed author match"
+ },
+ "wall_s": 5.1,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 1.67,
+   "p50_s": 0.182,
+   "max_s": 0.245
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 5.13,
+   "p50_s": 5.129,
+   "max_s": 5.129
+  }
+ },
+ "failures": []
+}

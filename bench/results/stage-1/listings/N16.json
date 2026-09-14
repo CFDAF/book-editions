@@ -1,0 +1,205 @@
+{
+ "id": "N16",
+ "sbn": [
+  {
+   "W": "huozhe",
+   "author": "Yu Hua",
+   "total": 10,
+   "lingua_facet": [
+    [
+     "ita",
+     7
+    ],
+    [
+     "chi",
+     2
+    ],
+    [
+     "fre",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 10,
+   "rows": 10,
+   "multilingual_rows": 0,
+   "languages": 3,
+   "bogus_lingua_total": 0,
+   "year_parsed": 10,
+   "year_parse_failures": [],
+   "publisher_present": 10,
+   "language_present": 10,
+   "records_on_no_language_page": [],
+   "requests": 5,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 3.3,
+   "items": [
+    {
+     "bid": "LO11503758",
+     "title": "Huo zhe / Yu Hua zhu",
+     "author": "Yu Hua",
+     "imprint": "Beijing : Zuo jia chu ban she, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2010",
+     "publisher": "Zuo jia chu ban she",
+     "place": "Beijing"
+    },
+    {
+     "bid": "UBO4797688",
+     "title": "Huo zhe / Yu Hua zhu",
+     "author": "Yu Hua",
+     "imprint": "Beijing : Beijing shiyue wenyi chubanshe, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2021",
+     "publisher": "Beijing shiyue wenyi chubanshe",
+     "place": "Beijing"
+    },
+    {
+     "bid": "TSA1644885",
+     "title": "Vivre! : un film de Zhang Yimou ; ARP presente Selection Officielle, Cannes 94 ...",
+     "author": null,
+     "imprint": "[Paris : Caractères, 1994]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1994",
+     "publisher": "Caractères",
+     "place": "Paris"
+    },
+    {
+     "bid": "MOD1523037",
+     "title": "Vivere! / Yu Hua ; traduzione di Nicoletta Pesaro",
+     "author": "Yu Hua",
+     "imprint": "Milano : Feltrinelli, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA1889251",
+     "title": "Vivere! / Yu Hua ; traduzione di Nicoletta Pesaro",
+     "author": "Yu Hua",
+     "imprint": "Torino : Gedi, 2025",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2025",
+     "publisher": "Gedi",
+     "place": "Torino"
+    },
+    {
+     "bid": "MIL0834084",
+     "title": "Vivere! / Yu Hua ; traduzione di Nicoletta Pesaro",
+     "author": "Yu Hua",
+     "imprint": "Milano : Feltrinelli, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAV3223003",
+     "title": "Vivere! / Yu Hua ; traduzione di Nicoletta Pesaro",
+     "author": "Yu Hua",
+     "imprint": "Milano : Feltrinelli, 2025",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2025",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0173648",
+     "title": "Vivere! / Yu Hua ; traduzione di Nicoletta Pesaro",
+     "author": "Yu Hua",
+     "imprint": "Roma : Donzelli, c1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Donzelli",
+     "place": "Roma"
+    },
+    {
+     "bid": "UTO1273480",
+     "title": "Vivere! / Yu Hua ; traduzione di Nicoletta Pesaro",
+     "author": "Yu Hua",
+     "imprint": "Milano : Feltrinelli, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Feltrinelli",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10435177",
+     "title": "Vivere| / Yu Hua ; traduzione di Nicoletta Pesaro",
+     "author": "Yu Hua",
+     "imprint": "Roma : Donzelli, \\1997!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Donzelli",
+     "place": "Roma"
+    }
+   ],
+   "entries": [
+    "ita"
+   ]
+  }
+ ],
+ "ol": null,
+ "wall_s": 3.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 4.96,
+   "p50_s": 0.9,
+   "max_s": 1.262
+  }
+ },
+ "failures": []
+}

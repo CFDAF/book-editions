@@ -1,0 +1,6508 @@
+{
+ "books": {
+  "E01": {
+   "author_keys": [
+    "OL27363A",
+    "OL9627217A",
+    "OL12725507A",
+    "OL12725508A",
+    "OL12725509A",
+    "OL9947500A",
+    "OL15290656A",
+    "OL15389184A",
+    "OL7914987A",
+    "OL15193084A"
+   ],
+   "main": {
+    "original": {
+     "q": "Cien años de soledad Garcia Marquez",
+     "num_found": 101,
+     "docs": 20,
+     "author_docs": 9,
+     "keyed_author_docs": 7,
+     "key": "/works/OL274505W",
+     "title": "Cien años de soledad",
+     "edition_count": 208,
+     "rank": 0,
+     "first_publish_year": 1967,
+     "author_name": [
+      "Gabriel García Márquez"
+     ],
+     "others": [
+      [
+       "/works/OL2454505W",
+       "Cien años de soledad [de] Gabriel García Márquez",
+       1
+      ],
+      [
+       "/works/OL25917022W",
+       "Cien años de Soledad. Edición Conmemorativa de la RAE / One Hundred Years of Sol Itude. Conmemorative Edition",
+       1
+      ],
+      [
+       "/works/OL43144891W",
+       "Cien Años De Soledad",
+       1
+      ],
+      [
+       "/works/OL26187580W",
+       "Sto godina samoće",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL274505W",
+      "title": "Cien años de soledad",
+      "edition_count": 208,
+      "rank": 0,
+      "first_publish_year": 1967,
+      "author_name": [
+       "Gabriel García Márquez"
+      ],
+      "others": [
+       [
+        "/works/OL25917022W",
+        "Cien años de Soledad. Edición Conmemorativa de la RAE / One Hundred Years of Sol Itude. Conmemorative Edition",
+        1
+       ],
+       [
+        "/works/OL43144891W",
+        "Cien Años De Soledad",
+        1
+       ],
+       [
+        "/works/OL26187580W",
+        "Sto godina samoće",
+        1
+       ],
+       [
+        "/works/OL28027117W",
+        "Cien Años de Soledad",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Cien años de soledad",
+     "q": "Cent'anni di solitudine Garcia Marquez",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL274505W",
+     "edition_count": 208,
+     "rank": 0,
+     "first_publish_year": 1967,
+     "author_name": [
+      "Gabriel García Márquez"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL274505W",
+      "title": "Cien años de soledad",
+      "edition_count": 208,
+      "rank": 0,
+      "first_publish_year": 1967,
+      "author_name": [
+       "Gabriel García Márquez"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "Cien años de soledad",
+     "q": "One Hundred Years of Solitude Garcia Marquez",
+     "num_found": 63,
+     "docs": 20,
+     "author_docs": 5,
+     "keyed_author_docs": 5,
+     "key": "/works/OL274505W",
+     "edition_count": 208,
+     "rank": 0,
+     "first_publish_year": 1967,
+     "author_name": [
+      "Gabriel García Márquez"
+     ],
+     "others": [
+      [
+       "/works/OL29355621W",
+       "One Hundred Years of Solitude",
+       2
+      ],
+      [
+       "/works/OL43108828W",
+       "One Hundred Years of Solitude",
+       2
+      ],
+      [
+       "/works/OL24213362W",
+       "Cien años de soledad / One Hundred Years of Solitude",
+       1
+      ],
+      [
+       "/works/OL39215842W",
+       "One Hundred Years of Solitude [tie-In Edition]",
+       2
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL274505W",
+      "title": "Cien años de soledad",
+      "edition_count": 208,
+      "rank": 0,
+      "first_publish_year": 1967,
+      "author_name": [
+       "Gabriel García Márquez"
+      ],
+      "others": [
+       [
+        "/works/OL29355621W",
+        "One Hundred Years of Solitude",
+        2
+       ],
+       [
+        "/works/OL43108828W",
+        "One Hundred Years of Solitude",
+        2
+       ],
+       [
+        "/works/OL24213362W",
+        "Cien años de soledad / One Hundred Years of Solitude",
+        1
+       ],
+       [
+        "/works/OL39215842W",
+        "One Hundred Years of Solitude [tie-In Edition]",
+        2
+       ]
+      ]
+     }
+    },
+    "spa": {
+     "title": "Cien años de soledad",
+     "q": "Cien años de soledad Garcia Marquez",
+     "num_found": 101,
+     "docs": 20,
+     "author_docs": 9,
+     "keyed_author_docs": 7,
+     "key": "/works/OL274505W",
+     "edition_count": 208,
+     "rank": 0,
+     "first_publish_year": 1967,
+     "author_name": [
+      "Gabriel García Márquez"
+     ],
+     "others": [
+      [
+       "/works/OL2454505W",
+       "Cien años de soledad [de] Gabriel García Márquez",
+       1
+      ],
+      [
+       "/works/OL25917022W",
+       "Cien años de Soledad. Edición Conmemorativa de la RAE / One Hundred Years of Sol Itude. Conmemorative Edition",
+       1
+      ],
+      [
+       "/works/OL43144891W",
+       "Cien Años De Soledad",
+       1
+      ],
+      [
+       "/works/OL26187580W",
+       "Sto godina samoće",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL274505W",
+      "title": "Cien años de soledad",
+      "edition_count": 208,
+      "rank": 0,
+      "first_publish_year": 1967,
+      "author_name": [
+       "Gabriel García Márquez"
+      ],
+      "others": [
+       [
+        "/works/OL25917022W",
+        "Cien años de Soledad. Edición Conmemorativa de la RAE / One Hundred Years of Sol Itude. Conmemorative Edition",
+        1
+       ],
+       [
+        "/works/OL43144891W",
+        "Cien Años De Soledad",
+        1
+       ],
+       [
+        "/works/OL26187580W",
+        "Sto godina samoće",
+        1
+       ],
+       [
+        "/works/OL28027117W",
+        "Cien Años de Soledad",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E02": {
+   "author_keys": [
+    "OL30388A",
+    "OL137884A",
+    "OL3286484A",
+    "OL720819A",
+    "OL6904707A",
+    "OL774110A",
+    "OL5052862A",
+    "OL288083A",
+    "OL1238084A",
+    "OL794039A"
+   ],
+   "main": {
+    "original": {
+     "q": "Steps to an Ecology of Mind Bateson",
+     "num_found": 13,
+     "docs": 13,
+     "author_docs": 12,
+     "keyed_author_docs": 12,
+     "key": "/works/OL486424W",
+     "title": "Steps to an ecology of mind",
+     "edition_count": 14,
+     "rank": 0,
+     "first_publish_year": 1972,
+     "author_name": [
+      "Gregory Bateson"
+     ],
+     "others": [
+      [
+       "/works/OL10580255W",
+       "Steps to an ecology of mind",
+       3
+      ],
+      [
+       "/works/OL486420W",
+       "A sacred unity",
+       3
+      ],
+      [
+       "/works/OL17979575W",
+       "Steps to an ecology of mind",
+       3
+      ],
+      [
+       "/works/OL486413W",
+       "Steps to an Ecology of the Mind",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL486424W",
+      "title": "Steps to an ecology of mind",
+      "edition_count": 14,
+      "rank": 0,
+      "first_publish_year": 1972,
+      "author_name": [
+       "Gregory Bateson"
+      ],
+      "others": [
+       [
+        "/works/OL10580255W",
+        "Steps to an ecology of mind",
+        3
+       ],
+       [
+        "/works/OL486420W",
+        "A sacred unity",
+        3
+       ],
+       [
+        "/works/OL17979575W",
+        "Steps to an ecology of mind",
+        3
+       ],
+       [
+        "/works/OL486413W",
+        "Steps to an Ecology of the Mind",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Verso un'ecologia della mente",
+     "q": "Verso un'ecologia della mente Bateson",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "eng": {
+     "title": "Steps to an ecology of mind",
+     "q": "Steps to an Ecology of Mind Bateson",
+     "num_found": 13,
+     "docs": 13,
+     "author_docs": 12,
+     "keyed_author_docs": 12,
+     "key": "/works/OL486424W",
+     "edition_count": 14,
+     "rank": 0,
+     "first_publish_year": 1972,
+     "author_name": [
+      "Gregory Bateson"
+     ],
+     "others": [
+      [
+       "/works/OL10580255W",
+       "Steps to an ecology of mind",
+       3
+      ],
+      [
+       "/works/OL486420W",
+       "A sacred unity",
+       3
+      ],
+      [
+       "/works/OL17979575W",
+       "Steps to an ecology of mind",
+       3
+      ],
+      [
+       "/works/OL486413W",
+       "Steps to an Ecology of the Mind",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL486424W",
+      "title": "Steps to an ecology of mind",
+      "edition_count": 14,
+      "rank": 0,
+      "first_publish_year": 1972,
+      "author_name": [
+       "Gregory Bateson"
+      ],
+      "others": [
+       [
+        "/works/OL10580255W",
+        "Steps to an ecology of mind",
+        3
+       ],
+       [
+        "/works/OL486420W",
+        "A sacred unity",
+        3
+       ],
+       [
+        "/works/OL17979575W",
+        "Steps to an ecology of mind",
+        3
+       ],
+       [
+        "/works/OL486413W",
+        "Steps to an Ecology of the Mind",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E03": {
+   "author_keys": [
+    "OL53916A",
+    "OL4762242A",
+    "OL12549002A",
+    "OL4260364A",
+    "OL11543673A",
+    "OL15314826A",
+    "OL3127919A"
+   ],
+   "main": {
+    "original": {
+     "q": "Bruits : essai sur l'économie politique de la musique Jacques Attali",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "original_core": {
+     "q": "Bruits Jacques Attali",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 3,
+     "keyed_author_docs": 3,
+     "key": "/works/OL685250W",
+     "title": "Bruits",
+     "edition_count": 7,
+     "rank": 0,
+     "first_publish_year": 1977,
+     "author_name": [
+      "Jacques Attali"
+     ],
+     "others": [
+      [
+       "/works/OL23775717W",
+       "Bruits",
+       1
+      ],
+      [
+       "/works/OL11331978W",
+       "Bruits",
+       2
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL685250W",
+      "title": "Bruits",
+      "edition_count": 7,
+      "rank": 0,
+      "first_publish_year": 1977,
+      "author_name": [
+       "Jacques Attali"
+      ],
+      "others": [
+       [
+        "/works/OL23775717W",
+        "Bruits",
+        1
+       ],
+       [
+        "/works/OL11331978W",
+        "Bruits",
+        2
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Rumori",
+     "q": "Rumori Jacques Attali",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL15764295W",
+     "edition_count": 1,
+     "rank": 0,
+     "first_publish_year": 1978,
+     "author_name": [
+      "Jacques Attali"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL15764295W",
+      "title": "Rumori",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 1978,
+      "author_name": [
+       "Jacques Attali"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "Bruits",
+     "q": "Noise Jacques Attali",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL685250W",
+     "edition_count": 7,
+     "rank": 0,
+     "first_publish_year": 1977,
+     "author_name": [
+      "Jacques Attali"
+     ],
+     "others": [
+      [
+       "/works/OL19402867W",
+       "Noise: Political Economy of Music (Theory & History of Literature)",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL685250W",
+      "title": "Bruits",
+      "edition_count": 7,
+      "rank": 0,
+      "first_publish_year": 1977,
+      "author_name": [
+       "Jacques Attali"
+      ],
+      "others": [
+       [
+        "/works/OL19402867W",
+        "Noise: Political Economy of Music (Theory & History of Literature)",
+        1
+       ]
+      ]
+     }
+    },
+    "fre": {
+     "title": "Bruits",
+     "q": "Bruits Jacques Attali",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 3,
+     "keyed_author_docs": 3,
+     "key": "/works/OL685250W",
+     "edition_count": 7,
+     "rank": 0,
+     "first_publish_year": 1977,
+     "author_name": [
+      "Jacques Attali"
+     ],
+     "others": [
+      [
+       "/works/OL23775717W",
+       "Bruits",
+       1
+      ],
+      [
+       "/works/OL11331978W",
+       "Bruits",
+       2
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL685250W",
+      "title": "Bruits",
+      "edition_count": 7,
+      "rank": 0,
+      "first_publish_year": 1977,
+      "author_name": [
+       "Jacques Attali"
+      ],
+      "others": [
+       [
+        "/works/OL23775717W",
+        "Bruits",
+        1
+       ],
+       [
+        "/works/OL11331978W",
+        "Bruits",
+        2
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E04": {
+   "author_keys": [
+    "OL382524A",
+    "OL10355377A",
+    "OL11994305A",
+    "OL9888421A",
+    "OL13496877A",
+    "OL13824319A",
+    "OL12033223A"
+   ],
+   "main": {
+    "original": {
+     "q": "海辺のカフカ Murakami Haruki",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 0,
+     "keyed_author_docs": 1,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL2625431W",
+      "title": "海辺のカフカ",
+      "edition_count": 61,
+      "rank": 0,
+      "first_publish_year": 2001,
+      "author_name": [
+       "村上春樹"
+      ],
+      "others": []
+     }
+    },
+    "romanised": {
+     "q": "Umibe no Kafuka Murakami Haruki",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 0,
+     "keyed_author_docs": 1,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL2625431W",
+      "title": "海辺のカフカ",
+      "edition_count": 61,
+      "rank": 0,
+      "first_publish_year": 2001,
+      "author_name": [
+       "村上春樹"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Kafka sulla spiaggia",
+     "q": "Kafka sulla spiaggia Murakami Haruki",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 0,
+     "keyed_author_docs": 1,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL2625431W",
+      "title": "海辺のカフカ",
+      "edition_count": 61,
+      "rank": 0,
+      "first_publish_year": 2001,
+      "author_name": [
+       "村上春樹"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "Kafka on the Shore",
+     "q": "Kafka on the Shore Murakami Haruki",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 0,
+     "keyed_author_docs": 1,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL2625431W",
+      "title": "海辺のカフカ",
+      "edition_count": 61,
+      "rank": 0,
+      "first_publish_year": 2001,
+      "author_name": [
+       "村上春樹"
+      ],
+      "others": []
+     }
+    },
+    "jpn": {
+     "title": "Umibe no Kafuka",
+     "q": "Umibe no Kafuka Murakami Haruki",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 0,
+     "keyed_author_docs": 1,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL2625431W",
+      "title": "海辺のカフカ",
+      "edition_count": 61,
+      "rank": 0,
+      "first_publish_year": 2001,
+      "author_name": [
+       "村上春樹"
+      ],
+      "others": []
+     }
+    }
+   }
+  },
+  "E05": {
+   "author_keys": [
+    "OL453386A",
+    "OL2697471A",
+    "OL7027342A",
+    "OL6496009A",
+    "OL9713941A",
+    "OL9698332A"
+   ],
+   "main": {
+    "original": {
+     "q": "The Invention of News Pettegree",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL19983430W",
+     "title": "The invention of news",
+     "edition_count": 3,
+     "rank": 0,
+     "first_publish_year": 2014,
+     "author_name": [
+      "Andrew Pettegree"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL19983430W",
+      "title": "The invention of news",
+      "edition_count": 3,
+      "rank": 0,
+      "first_publish_year": 2014,
+      "author_name": [
+       "Andrew Pettegree"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "L'invenzione delle notizie",
+     "q": "L'invenzione delle notizie Pettegree",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "eng": {
+     "title": "The invention of news",
+     "q": "The Invention of News Pettegree",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL19983430W",
+     "edition_count": 3,
+     "rank": 0,
+     "first_publish_year": 2014,
+     "author_name": [
+      "Andrew Pettegree"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL19983430W",
+      "title": "The invention of news",
+      "edition_count": 3,
+      "rank": 0,
+      "first_publish_year": 2014,
+      "author_name": [
+       "Andrew Pettegree"
+      ],
+      "others": []
+     }
+    }
+   }
+  },
+  "E06": {
+   "author_keys": [
+    "OL1317696A",
+    "OL1436143A",
+    "OL276117A",
+    "OL14329096A",
+    "OL3927090A",
+    "OL2749396A",
+    "OL14394494A",
+    "OL10668244A",
+    "OL1294427A",
+    "OL2757384A"
+   ],
+   "main": {
+    "original": {
+     "q": "More Brilliant Than the Sun Eshun",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL2693265W",
+     "title": "More brilliant than the sun",
+     "edition_count": 3,
+     "rank": 0,
+     "first_publish_year": 1998,
+     "author_name": [
+      "Kodwo Eshun"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL2693265W",
+      "title": "More brilliant than the sun",
+      "edition_count": 3,
+      "rank": 0,
+      "first_publish_year": 1998,
+      "author_name": [
+       "Kodwo Eshun"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Più brillante del sole",
+     "q": "Più brillante del sole Eshun",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "eng": {
+     "title": "More brilliant than the sun",
+     "q": "More Brilliant Than the Sun Eshun",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL2693265W",
+     "edition_count": 3,
+     "rank": 0,
+     "first_publish_year": 1998,
+     "author_name": [
+      "Kodwo Eshun"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL2693265W",
+      "title": "More brilliant than the sun",
+      "edition_count": 3,
+      "rank": 0,
+      "first_publish_year": 1998,
+      "author_name": [
+       "Kodwo Eshun"
+      ],
+      "others": []
+     }
+    }
+   }
+  },
+  "E07": {
+   "author_keys": [
+    "OL1436510A",
+    "OL37109A",
+    "OL7753774A",
+    "OL14422461A",
+    "OL1126036A",
+    "OL761905A",
+    "OL8478525A",
+    "OL7633592A",
+    "OL6760291A",
+    "OL831547A"
+   ],
+   "main": {
+    "original": {
+     "q": "Liquid Modernity Bauman",
+     "num_found": 36,
+     "docs": 20,
+     "author_docs": 16,
+     "keyed_author_docs": 16,
+     "key": "/works/OL527224W",
+     "title": "Liquid modernity",
+     "edition_count": 6,
+     "rank": 0,
+     "first_publish_year": 2000,
+     "author_name": [
+      "Zygmunt Bauman"
+     ],
+     "others": [
+      [
+       "/works/OL17401195W",
+       "Culture In A Liquid Modern World",
+       6
+      ],
+      [
+       "/works/OL527227W",
+       "Modernidad Liquida / Liquid Modernity",
+       1
+      ],
+      [
+       "/works/OL527258W",
+       "Liquid Life",
+       6
+      ],
+      [
+       "/works/OL12944293W",
+       "LIQUID FEAR",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL527224W",
+      "title": "Liquid modernity",
+      "edition_count": 6,
+      "rank": 0,
+      "first_publish_year": 2000,
+      "author_name": [
+       "Zygmunt Bauman"
+      ],
+      "others": [
+       [
+        "/works/OL17401195W",
+        "Culture In A Liquid Modern World",
+        6
+       ],
+       [
+        "/works/OL527227W",
+        "Modernidad Liquida / Liquid Modernity",
+        1
+       ],
+       [
+        "/works/OL527258W",
+        "Liquid Life",
+        6
+       ],
+       [
+        "/works/OL12944293W",
+        "LIQUID FEAR",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Modernità liquida",
+     "q": "Modernità liquida Bauman",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL28769163W",
+     "edition_count": 1,
+     "rank": 0,
+     "first_publish_year": 2011,
+     "author_name": [
+      "Zygmunt Bauman"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL28769163W",
+      "title": "Modernità liquida",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 2011,
+      "author_name": [
+       "Zygmunt Bauman"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "Liquid modernity",
+     "q": "Liquid Modernity Bauman",
+     "num_found": 36,
+     "docs": 20,
+     "author_docs": 16,
+     "keyed_author_docs": 16,
+     "key": "/works/OL527224W",
+     "edition_count": 6,
+     "rank": 0,
+     "first_publish_year": 2000,
+     "author_name": [
+      "Zygmunt Bauman"
+     ],
+     "others": [
+      [
+       "/works/OL17401195W",
+       "Culture In A Liquid Modern World",
+       6
+      ],
+      [
+       "/works/OL527227W",
+       "Modernidad Liquida / Liquid Modernity",
+       1
+      ],
+      [
+       "/works/OL527258W",
+       "Liquid Life",
+       6
+      ],
+      [
+       "/works/OL12944293W",
+       "LIQUID FEAR",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL527224W",
+      "title": "Liquid modernity",
+      "edition_count": 6,
+      "rank": 0,
+      "first_publish_year": 2000,
+      "author_name": [
+       "Zygmunt Bauman"
+      ],
+      "others": [
+       [
+        "/works/OL17401195W",
+        "Culture In A Liquid Modern World",
+        6
+       ],
+       [
+        "/works/OL527227W",
+        "Modernidad Liquida / Liquid Modernity",
+        1
+       ],
+       [
+        "/works/OL527258W",
+        "Liquid Life",
+        6
+       ],
+       [
+        "/works/OL12944293W",
+        "LIQUID FEAR",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E08": {
+   "author_keys": [
+    "OL172309A",
+    "OL616743A",
+    "OL4371129A",
+    "OL3021547A",
+    "OL2748469A",
+    "OL11532182A",
+    "OL9778154A",
+    "OL13276724A",
+    "OL14394573A",
+    "OL14406259A"
+   ],
+   "main": {
+    "original": {
+     "q": "Communication: The Social Matrix of Psychiatry Ruesch",
+     "num_found": 11,
+     "docs": 11,
+     "author_docs": 10,
+     "keyed_author_docs": 7,
+     "key": "/works/OL12269244W",
+     "title": "Communication",
+     "edition_count": 5,
+     "rank": 1,
+     "first_publish_year": 1951,
+     "author_name": [
+      "Jurgen Ruesch",
+      "Gregory Bateson"
+     ],
+     "others": [
+      [
+       "/works/OL1590658W",
+       "Communication",
+       4
+      ],
+      [
+       "/works/OL16051319W",
+       "Communication",
+       1
+      ],
+      [
+       "/works/OL32327824W",
+       "Communication",
+       4
+      ],
+      [
+       "/works/OL1590647W",
+       "Communication, the social matrix of psychiatry [by] Jurgen Ruesch and Gregory Bateson",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL12269244W",
+      "title": "Communication",
+      "edition_count": 5,
+      "rank": 1,
+      "first_publish_year": 1951,
+      "author_name": [
+       "Jurgen Ruesch",
+       "Gregory Bateson"
+      ],
+      "others": [
+       [
+        "/works/OL1590658W",
+        "Communication",
+        4
+       ],
+       [
+        "/works/OL16051319W",
+        "Communication",
+        1
+       ],
+       [
+        "/works/OL32327824W",
+        "Communication",
+        4
+       ],
+       [
+        "/works/OL1590647W",
+        "Communication, the social matrix of psychiatry [by] Jurgen Ruesch and Gregory Bateson",
+        1
+       ]
+      ]
+     }
+    },
+    "original_core": {
+     "q": "Communication Ruesch",
+     "num_found": 34,
+     "docs": 20,
+     "author_docs": 20,
+     "keyed_author_docs": 18,
+     "key": "/works/OL12269244W",
+     "title": "Communication",
+     "edition_count": 5,
+     "rank": 4,
+     "first_publish_year": 1951,
+     "author_name": [
+      "Jurgen Ruesch",
+      "Gregory Bateson"
+     ],
+     "others": [
+      [
+       "/works/OL1590660W",
+       "Therapeutic communication",
+       4
+      ],
+      [
+       "/works/OL1590658W",
+       "Communication",
+       4
+      ],
+      [
+       "/works/OL1590659W",
+       "Nonverbal communication",
+       3
+      ],
+      [
+       "/works/OL16051319W",
+       "Communication",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL12269244W",
+      "title": "Communication",
+      "edition_count": 5,
+      "rank": 4,
+      "first_publish_year": 1951,
+      "author_name": [
+       "Jurgen Ruesch",
+       "Gregory Bateson"
+      ],
+      "others": [
+       [
+        "/works/OL1590660W",
+        "Therapeutic communication",
+        4
+       ],
+       [
+        "/works/OL1590658W",
+        "Communication",
+        4
+       ],
+       [
+        "/works/OL1590659W",
+        "Nonverbal communication",
+        3
+       ],
+       [
+        "/works/OL16051319W",
+        "Communication",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "La matrice sociale della psichiatria",
+     "q": "La matrice sociale della psichiatria Ruesch",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "eng": {
+     "title": "Communication",
+     "q": "Communication: The Social Matrix of Psychiatry Ruesch",
+     "num_found": 11,
+     "docs": 11,
+     "author_docs": 10,
+     "keyed_author_docs": 7,
+     "key": "/works/OL12269244W",
+     "edition_count": 5,
+     "rank": 1,
+     "first_publish_year": 1951,
+     "author_name": [
+      "Jurgen Ruesch",
+      "Gregory Bateson"
+     ],
+     "others": [
+      [
+       "/works/OL1590658W",
+       "Communication",
+       4
+      ],
+      [
+       "/works/OL16051319W",
+       "Communication",
+       1
+      ],
+      [
+       "/works/OL32327824W",
+       "Communication",
+       4
+      ],
+      [
+       "/works/OL1590647W",
+       "Communication, the social matrix of psychiatry [by] Jurgen Ruesch and Gregory Bateson",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL12269244W",
+      "title": "Communication",
+      "edition_count": 5,
+      "rank": 1,
+      "first_publish_year": 1951,
+      "author_name": [
+       "Jurgen Ruesch",
+       "Gregory Bateson"
+      ],
+      "others": [
+       [
+        "/works/OL1590658W",
+        "Communication",
+        4
+       ],
+       [
+        "/works/OL16051319W",
+        "Communication",
+        1
+       ],
+       [
+        "/works/OL32327824W",
+        "Communication",
+        4
+       ],
+       [
+        "/works/OL1590647W",
+        "Communication, the social matrix of psychiatry [by] Jurgen Ruesch and Gregory Bateson",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E09": {
+   "author_keys": [
+    "OL20735A",
+    "OL3254394A",
+    "OL9321372A",
+    "OL9711467A",
+    "OL9947075A",
+    "OL1816771A",
+    "OL1481038A",
+    "OL6940215A",
+    "OL12264868A",
+    "OL4220808A"
+   ],
+   "main": {
+    "original": {
+     "q": "Il nome della rosa Eco",
+     "num_found": 24,
+     "docs": 20,
+     "author_docs": 9,
+     "keyed_author_docs": 9,
+     "key": "/works/OL8996439W",
+     "title": "Il nome della rosa",
+     "edition_count": 151,
+     "rank": 0,
+     "first_publish_year": 1980,
+     "author_name": [
+      "Umberto Eco"
+     ],
+     "others": [
+      [
+       "/works/OL14852855W",
+       "Postille a Il nome della rosa",
+       11
+      ],
+      [
+       "/works/OL37388433W",
+       "Il nome della rosa",
+       1
+      ],
+      [
+       "/works/OL42189123W",
+       "Il nome della rosa",
+       1
+      ],
+      [
+       "/works/OL32805084W",
+       "Mei gui de ming zi",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL8996439W",
+      "title": "Il nome della rosa",
+      "edition_count": 151,
+      "rank": 0,
+      "first_publish_year": 1980,
+      "author_name": [
+       "Umberto Eco"
+      ],
+      "others": [
+       [
+        "/works/OL14852855W",
+        "Postille a Il nome della rosa",
+        11
+       ],
+       [
+        "/works/OL37388433W",
+        "Il nome della rosa",
+        1
+       ],
+       [
+        "/works/OL42189123W",
+        "Il nome della rosa",
+        1
+       ],
+       [
+        "/works/OL32805084W",
+        "Mei gui de ming zi",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Il nome della rosa",
+     "q": "Il nome della rosa Eco",
+     "num_found": 24,
+     "docs": 20,
+     "author_docs": 9,
+     "keyed_author_docs": 9,
+     "key": "/works/OL8996439W",
+     "edition_count": 151,
+     "rank": 0,
+     "first_publish_year": 1980,
+     "author_name": [
+      "Umberto Eco"
+     ],
+     "others": [
+      [
+       "/works/OL14852855W",
+       "Postille a Il nome della rosa",
+       11
+      ],
+      [
+       "/works/OL37388433W",
+       "Il nome della rosa",
+       1
+      ],
+      [
+       "/works/OL42189123W",
+       "Il nome della rosa",
+       1
+      ],
+      [
+       "/works/OL32805084W",
+       "Mei gui de ming zi",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL8996439W",
+      "title": "Il nome della rosa",
+      "edition_count": 151,
+      "rank": 0,
+      "first_publish_year": 1980,
+      "author_name": [
+       "Umberto Eco"
+      ],
+      "others": [
+       [
+        "/works/OL14852855W",
+        "Postille a Il nome della rosa",
+        11
+       ],
+       [
+        "/works/OL37388433W",
+        "Il nome della rosa",
+        1
+       ],
+       [
+        "/works/OL42189123W",
+        "Il nome della rosa",
+        1
+       ],
+       [
+        "/works/OL32805084W",
+        "Mei gui de ming zi",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Il nome della rosa",
+     "q": "The Name of the Rose Eco",
+     "num_found": 19,
+     "docs": 19,
+     "author_docs": 5,
+     "keyed_author_docs": 5,
+     "key": "/works/OL8996439W",
+     "edition_count": 151,
+     "rank": 0,
+     "first_publish_year": 1980,
+     "author_name": [
+      "Umberto Eco"
+     ],
+     "others": [
+      [
+       "/works/OL8996438W",
+       "Il pendolo di Foucault",
+       81
+      ],
+      [
+       "/works/OL14852855W",
+       "Postille a Il nome della rosa",
+       11
+      ],
+      [
+       "/works/OL20413022W",
+       "Naming the Rose",
+       3
+      ],
+      [
+       "/works/OL37535473W",
+       "The Name of the Rose (Helen and Kurt Wolff Books)",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL8996439W",
+      "title": "Il nome della rosa",
+      "edition_count": 151,
+      "rank": 0,
+      "first_publish_year": 1980,
+      "author_name": [
+       "Umberto Eco"
+      ],
+      "others": [
+       [
+        "/works/OL8996438W",
+        "Il pendolo di Foucault",
+        81
+       ],
+       [
+        "/works/OL14852855W",
+        "Postille a Il nome della rosa",
+        11
+       ],
+       [
+        "/works/OL20413022W",
+        "Naming the Rose",
+        3
+       ],
+       [
+        "/works/OL37535473W",
+        "The Name of the Rose (Helen and Kurt Wolff Books)",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E10": {
+   "author_keys": [
+    "OL45982A",
+    "OL50287A",
+    "OL499507A",
+    "OL1594959A",
+    "OL3220558A",
+    "OL661859A",
+    "OL15028025A",
+    "OL3157980A",
+    "OL13540120A",
+    "OL2409243A"
+   ],
+   "main": {
+    "original": {
+     "q": "Opere Leopardi",
+     "num_found": 87,
+     "docs": 20,
+     "author_docs": 19,
+     "keyed_author_docs": 19,
+     "key": "/works/OL15102110W",
+     "title": "Opere",
+     "edition_count": 12,
+     "rank": 0,
+     "first_publish_year": 1877,
+     "author_name": [
+      "Giacomo Leopardi"
+     ],
+     "others": [
+      [
+       "/works/OL15102109W",
+       "Opere di Giacomo Leopardi",
+       6
+      ],
+      [
+       "/works/OL15102105W",
+       "Tutte le opere di Giacomo Leopardi",
+       4
+      ],
+      [
+       "/works/OL15730740W",
+       "Opere inedite di Giacomo Leopardi",
+       2
+      ],
+      [
+       "/works/OL15102108W",
+       "Tutte le opere",
+       5
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL15102110W",
+      "title": "Opere",
+      "edition_count": 12,
+      "rank": 0,
+      "first_publish_year": 1877,
+      "author_name": [
+       "Giacomo Leopardi"
+      ],
+      "others": [
+       [
+        "/works/OL15102109W",
+        "Opere di Giacomo Leopardi",
+        6
+       ],
+       [
+        "/works/OL15102105W",
+        "Tutte le opere di Giacomo Leopardi",
+        4
+       ],
+       [
+        "/works/OL15730740W",
+        "Opere inedite di Giacomo Leopardi",
+        2
+       ],
+       [
+        "/works/OL15102108W",
+        "Tutte le opere",
+        5
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Opere",
+     "q": "Opere Leopardi",
+     "num_found": 87,
+     "docs": 20,
+     "author_docs": 19,
+     "keyed_author_docs": 19,
+     "key": "/works/OL15102110W",
+     "edition_count": 12,
+     "rank": 0,
+     "first_publish_year": 1877,
+     "author_name": [
+      "Giacomo Leopardi"
+     ],
+     "others": [
+      [
+       "/works/OL15102109W",
+       "Opere di Giacomo Leopardi",
+       6
+      ],
+      [
+       "/works/OL15102105W",
+       "Tutte le opere di Giacomo Leopardi",
+       4
+      ],
+      [
+       "/works/OL15730740W",
+       "Opere inedite di Giacomo Leopardi",
+       2
+      ],
+      [
+       "/works/OL15102108W",
+       "Tutte le opere",
+       5
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL15102110W",
+      "title": "Opere",
+      "edition_count": 12,
+      "rank": 0,
+      "first_publish_year": 1877,
+      "author_name": [
+       "Giacomo Leopardi"
+      ],
+      "others": [
+       [
+        "/works/OL15102109W",
+        "Opere di Giacomo Leopardi",
+        6
+       ],
+       [
+        "/works/OL15102105W",
+        "Tutte le opere di Giacomo Leopardi",
+        4
+       ],
+       [
+        "/works/OL15730740W",
+        "Opere inedite di Giacomo Leopardi",
+        2
+       ],
+       [
+        "/works/OL15102108W",
+        "Tutte le opere",
+        5
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E11": {
+   "author_keys": [
+    "OL46998A",
+    "OL18277A",
+    "OL1379617A",
+    "OL11470266A",
+    "OL13099489A",
+    "OL15255356A",
+    "OL11441129A",
+    "OL2827110A",
+    "OL11225895A",
+    "OL10855897A"
+   ],
+   "main": {
+    "original": {
+     "q": "Poesie Montale",
+     "num_found": 54,
+     "docs": 20,
+     "author_docs": 15,
+     "keyed_author_docs": 15,
+     "key": "/works/OL610110W",
+     "title": "Poems",
+     "edition_count": 19,
+     "rank": 0,
+     "first_publish_year": 1959,
+     "author_name": [
+      "Eugenio Montale"
+     ],
+     "others": [
+      [
+       "/works/OL610100W",
+       "Ossi di seppia",
+       4
+      ],
+      [
+       "/works/OL610101W",
+       "Poesie",
+       5
+      ],
+      [
+       "/works/OL610098W",
+       "Altri versi e poesie disperse",
+       4
+      ],
+      [
+       "/works/OL22505375W",
+       "Poesie di Montale",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL610110W",
+      "title": "Poems",
+      "edition_count": 19,
+      "rank": 0,
+      "first_publish_year": 1959,
+      "author_name": [
+       "Eugenio Montale"
+      ],
+      "others": [
+       [
+        "/works/OL610100W",
+        "Ossi di seppia",
+        4
+       ],
+       [
+        "/works/OL610101W",
+        "Poesie",
+        5
+       ],
+       [
+        "/works/OL610098W",
+        "Altri versi e poesie disperse",
+        4
+       ],
+       [
+        "/works/OL22505375W",
+        "Poesie di Montale",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Poems",
+     "q": "Poesie Montale",
+     "num_found": 54,
+     "docs": 20,
+     "author_docs": 15,
+     "keyed_author_docs": 15,
+     "key": "/works/OL610110W",
+     "edition_count": 19,
+     "rank": 0,
+     "first_publish_year": 1959,
+     "author_name": [
+      "Eugenio Montale"
+     ],
+     "others": [
+      [
+       "/works/OL610100W",
+       "Ossi di seppia",
+       4
+      ],
+      [
+       "/works/OL610101W",
+       "Poesie",
+       5
+      ],
+      [
+       "/works/OL610098W",
+       "Altri versi e poesie disperse",
+       4
+      ],
+      [
+       "/works/OL22505375W",
+       "Poesie di Montale",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL610110W",
+      "title": "Poems",
+      "edition_count": 19,
+      "rank": 0,
+      "first_publish_year": 1959,
+      "author_name": [
+       "Eugenio Montale"
+      ],
+      "others": [
+       [
+        "/works/OL610100W",
+        "Ossi di seppia",
+        4
+       ],
+       [
+        "/works/OL610101W",
+        "Poesie",
+        5
+       ],
+       [
+        "/works/OL610098W",
+        "Altri versi e poesie disperse",
+        4
+       ],
+       [
+        "/works/OL22505375W",
+        "Poesie di Montale",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E12": {
+   "author_keys": [
+    "OL25218A",
+    "OL13735871A",
+    "OL169160A",
+    "OL12763307A",
+    "OL15259318A",
+    "OL13675504A",
+    "OL9176842A",
+    "OL10599530A",
+    "OL2514444A",
+    "OL15568703A"
+   ],
+   "main": {
+    "original": {
+     "q": "Über den Begriff der Geschichte Walter Benjamin",
+     "num_found": 11,
+     "docs": 11,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL16171243W",
+     "title": "Über den Begriff der Geschichte",
+     "edition_count": 1,
+     "rank": 0,
+     "first_publish_year": 2010,
+     "author_name": [
+      "Walter Benjamin"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL16171243W",
+      "title": "Über den Begriff der Geschichte",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 2010,
+      "author_name": [
+       "Walter Benjamin"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Tesi di filosofia della storia",
+     "q": "Tesi di filosofia della storia Walter Benjamin",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "E13": {
+   "author_keys": [
+    "OL25218A",
+    "OL13735871A",
+    "OL169160A",
+    "OL12763307A",
+    "OL15259318A",
+    "OL13675504A",
+    "OL9176842A",
+    "OL10599530A",
+    "OL2514444A",
+    "OL15568703A"
+   ],
+   "main": {
+    "original": {
+     "q": "Angelus Novus Walter Benjamin",
+     "num_found": 13,
+     "docs": 13,
+     "author_docs": 5,
+     "keyed_author_docs": 4,
+     "key": "/works/OL156188W",
+     "title": "Angelus novus",
+     "edition_count": 2,
+     "rank": 0,
+     "first_publish_year": 1966,
+     "author_name": [
+      "Walter Benjamin"
+     ],
+     "others": [
+      [
+       "/works/OL12352246W",
+       "Angelus Novus",
+       1
+      ],
+      [
+       "/works/OL42982785W",
+       "Angelus Novus",
+       1
+      ],
+      [
+       "/works/OL156117W",
+       "Angelus Novus. ( Ausgewählte Schriften, 2)",
+       1
+      ],
+      [
+       "/works/OL43057717W",
+       "Ausgewählte Schriften",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL156188W",
+      "title": "Angelus novus",
+      "edition_count": 2,
+      "rank": 0,
+      "first_publish_year": 1966,
+      "author_name": [
+       "Walter Benjamin"
+      ],
+      "others": [
+       [
+        "/works/OL42982785W",
+        "Angelus Novus",
+        1
+       ],
+       [
+        "/works/OL156117W",
+        "Angelus Novus. ( Ausgewählte Schriften, 2)",
+        1
+       ],
+       [
+        "/works/OL43057717W",
+        "Ausgewählte Schriften",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Angelus novus",
+     "q": "Angelus Novus Walter Benjamin",
+     "num_found": 13,
+     "docs": 13,
+     "author_docs": 5,
+     "keyed_author_docs": 4,
+     "key": "/works/OL156188W",
+     "edition_count": 2,
+     "rank": 0,
+     "first_publish_year": 1966,
+     "author_name": [
+      "Walter Benjamin"
+     ],
+     "others": [
+      [
+       "/works/OL12352246W",
+       "Angelus Novus",
+       1
+      ],
+      [
+       "/works/OL42982785W",
+       "Angelus Novus",
+       1
+      ],
+      [
+       "/works/OL156117W",
+       "Angelus Novus. ( Ausgewählte Schriften, 2)",
+       1
+      ],
+      [
+       "/works/OL43057717W",
+       "Ausgewählte Schriften",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL156188W",
+      "title": "Angelus novus",
+      "edition_count": 2,
+      "rank": 0,
+      "first_publish_year": 1966,
+      "author_name": [
+       "Walter Benjamin"
+      ],
+      "others": [
+       [
+        "/works/OL42982785W",
+        "Angelus Novus",
+        1
+       ],
+       [
+        "/works/OL156117W",
+        "Angelus Novus. ( Ausgewählte Schriften, 2)",
+        1
+       ],
+       [
+        "/works/OL43057717W",
+        "Ausgewählte Schriften",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E14": {
+   "author_keys": [
+    "OL53916A",
+    "OL4762242A",
+    "OL12549002A",
+    "OL4260364A",
+    "OL11543673A",
+    "OL15314826A",
+    "OL3127919A"
+   ],
+   "main": {
+    "original": {
+     "q": "Pour une économie positive Jacques Attali",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL23302246W",
+     "title": "Pour une économie positive",
+     "edition_count": 1,
+     "rank": 0,
+     "first_publish_year": 2013,
+     "author_name": [
+      "Jacques Attali"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL23302246W",
+      "title": "Pour une économie positive",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 2013,
+      "author_name": [
+       "Jacques Attali"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Per una economia positiva",
+     "q": "Per una economia positiva Jacques Attali",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "E15": {
+   "author_keys": [
+    "OL229501A",
+    "OL2112651A",
+    "OL124696A",
+    "OL24137A",
+    "OL2503898A",
+    "OL1094149A",
+    "OL4477907A",
+    "OL1052702A",
+    "OL7577136A",
+    "OL625131A"
+   ],
+   "main": {
+    "original": {
+     "q": "The Essential Knuth Knuth",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL36428365W",
+     "title": "The Essential Knuth",
+     "edition_count": 1,
+     "rank": 0,
+     "first_publish_year": 2013,
+     "author_name": [
+      "Donald Knuth",
+      "Edgar G. Daylight",
+      "Kurt De Grave"
+     ],
+     "others": [
+      [
+       "/works/OL16714495W",
+       "Developing essential understanding of proof and proving for teaching mathematics in grades 9-12",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL36428365W",
+      "title": "The Essential Knuth",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 2013,
+      "author_name": [
+       "Donald Knuth",
+       "Edgar G. Daylight",
+       "Kurt De Grave"
+      ],
+      "others": [
+       [
+        "/works/OL26371232W",
+        "Literature--Texas Treasures--Course 3",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "eng": {
+     "title": "The Essential Knuth",
+     "q": "The Essential Knuth Knuth",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL36428365W",
+     "edition_count": 1,
+     "rank": 0,
+     "first_publish_year": 2013,
+     "author_name": [
+      "Donald Knuth",
+      "Edgar G. Daylight",
+      "Kurt De Grave"
+     ],
+     "others": [
+      [
+       "/works/OL16714495W",
+       "Developing essential understanding of proof and proving for teaching mathematics in grades 9-12",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL36428365W",
+      "title": "The Essential Knuth",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 2013,
+      "author_name": [
+       "Donald Knuth",
+       "Edgar G. Daylight",
+       "Kurt De Grave"
+      ],
+      "others": [
+       [
+        "/works/OL26371232W",
+        "Literature--Texas Treasures--Course 3",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "E16": {
+   "author_keys": [
+    "OL41878A",
+    "OL239723A",
+    "OL2786202A",
+    "OL10829181A",
+    "OL10836357A",
+    "OL4538484A",
+    "OL320973A",
+    "OL228936A",
+    "OL2688858A",
+    "OL12860023A"
+   ],
+   "main": {
+    "original": {
+     "q": "Доктор Живаго Pasternak",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 3,
+     "keyed_author_docs": 2,
+     "key": "/works/OL258301W",
+     "title": "Доктор Живаго",
+     "edition_count": 176,
+     "rank": 0,
+     "first_publish_year": 1957,
+     "author_name": [
+      "Boris Leonidovich Pasternak"
+     ],
+     "others": [
+      [
+       "/works/OL32722588W",
+       "Doctor Zhivago Доктор Живаго Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL27711910W",
+       "Доктор Живаго [1/2]",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL258301W",
+      "title": "Доктор Живаго",
+      "edition_count": 176,
+      "rank": 0,
+      "first_publish_year": 1957,
+      "author_name": [
+       "Boris Leonidovich Pasternak"
+      ],
+      "others": [
+       [
+        "/works/OL27711910W",
+        "Доктор Живаго [1/2]",
+        1
+       ]
+      ]
+     }
+    },
+    "romanised": {
+     "q": "Doktor Zhivago Pasternak",
+     "num_found": 67,
+     "docs": 20,
+     "author_docs": 16,
+     "keyed_author_docs": 12,
+     "key": "/works/OL258301W",
+     "title": "Доктор Живаго",
+     "edition_count": 176,
+     "rank": 0,
+     "first_publish_year": 1957,
+     "author_name": [
+      "Boris Leonidovich Pasternak"
+     ],
+     "others": [
+      [
+       "/works/OL28955995W",
+       "El Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL10441256W",
+       "The poems of Doctor Zhivago",
+       3
+      ],
+      [
+       "/works/OL31353573W",
+       "Doctor Zhivago / Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL28473460W",
+       "Doktor Zhivago",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL258301W",
+      "title": "Доктор Живаго",
+      "edition_count": 176,
+      "rank": 0,
+      "first_publish_year": 1957,
+      "author_name": [
+       "Boris Leonidovich Pasternak"
+      ],
+      "others": [
+       [
+        "/works/OL28955995W",
+        "El Doctor Zhivago",
+        1
+       ],
+       [
+        "/works/OL10441256W",
+        "The poems of Doctor Zhivago",
+        3
+       ],
+       [
+        "/works/OL31431616W",
+        "Doktor Zhivago",
+        2
+       ],
+       [
+        "/works/OL42514752W",
+        "Doctor Zhivago",
+        2
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Доктор Живаго",
+     "q": "Il dottor Živago Pasternak",
+     "num_found": 6,
+     "docs": 6,
+     "author_docs": 3,
+     "keyed_author_docs": 2,
+     "key": "/works/OL258301W",
+     "edition_count": 176,
+     "rank": 0,
+     "first_publish_year": 1957,
+     "author_name": [
+      "Boris Leonidovich Pasternak"
+     ],
+     "others": [
+      [
+       "/works/OL43693695W",
+       "Il dottor Živago",
+       2
+      ],
+      [
+       "/works/OL43229931W",
+       "il dottor zivago",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL258301W",
+      "title": "Доктор Живаго",
+      "edition_count": 176,
+      "rank": 0,
+      "first_publish_year": 1957,
+      "author_name": [
+       "Boris Leonidovich Pasternak"
+      ],
+      "others": [
+       [
+        "/works/OL43693695W",
+        "Il dottor Živago",
+        2
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Доктор Живаго",
+     "q": "Doctor Zhivago Pasternak",
+     "num_found": 74,
+     "docs": 20,
+     "author_docs": 15,
+     "keyed_author_docs": 9,
+     "key": "/works/OL258301W",
+     "edition_count": 176,
+     "rank": 0,
+     "first_publish_year": 1957,
+     "author_name": [
+      "Boris Leonidovich Pasternak"
+     ],
+     "others": [
+      [
+       "/works/OL19375594W",
+       "Doctor Zhivago [adaptation]",
+       2
+      ],
+      [
+       "/works/OL31357567W",
+       "Doctor Zhivago",
+       13
+      ],
+      [
+       "/works/OL38068744W",
+       "Doctor Zhivago",
+       11
+      ],
+      [
+       "/works/OL31375574W",
+       "Doctor Zhivago",
+       6
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL258301W",
+      "title": "Доктор Живаго",
+      "edition_count": 176,
+      "rank": 0,
+      "first_publish_year": 1957,
+      "author_name": [
+       "Boris Leonidovich Pasternak"
+      ],
+      "others": [
+       [
+        "/works/OL19375594W",
+        "Doctor Zhivago [adaptation]",
+        2
+       ],
+       [
+        "/works/OL31357567W",
+        "Doctor Zhivago",
+        13
+       ],
+       [
+        "/works/OL31375574W",
+        "Doctor Zhivago",
+        6
+       ],
+       [
+        "/works/OL10441256W",
+        "The poems of Doctor Zhivago",
+        3
+       ]
+      ]
+     }
+    },
+    "rus": {
+     "title": "Доктор Живаго",
+     "q": "Доктор Живаго Pasternak",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 3,
+     "keyed_author_docs": 2,
+     "key": "/works/OL258301W",
+     "edition_count": 176,
+     "rank": 0,
+     "first_publish_year": 1957,
+     "author_name": [
+      "Boris Leonidovich Pasternak"
+     ],
+     "others": [
+      [
+       "/works/OL32722588W",
+       "Doctor Zhivago Доктор Живаго Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL27711910W",
+       "Доктор Живаго [1/2]",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL258301W",
+      "title": "Доктор Живаго",
+      "edition_count": 176,
+      "rank": 0,
+      "first_publish_year": 1957,
+      "author_name": [
+       "Boris Leonidovich Pasternak"
+      ],
+      "others": [
+       [
+        "/works/OL27711910W",
+        "Доктор Живаго [1/2]",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N01": {
+   "author_keys": [
+    "OL20887A"
+   ],
+   "main": {
+    "original": {
+     "q": "Nesnesitelná lehkost bytí Milan Kundera",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL8972751W",
+     "title": "Nesnesitelná lehkost bytí",
+     "edition_count": 81,
+     "rank": 0,
+     "first_publish_year": 1984,
+     "author_name": [
+      "Milan Kundera"
+     ],
+     "others": [
+      [
+       "/works/OL32670416W",
+       "L'insoutenable légèreté de l'être",
+       2
+      ],
+      [
+       "/works/OL28766571W",
+       "Nesnesitelná lehkost bytí = The Unbearable Lightness of Being = Sonzai no taerarenai karusa [Japanese Edition]",
+       1
+      ],
+      [
+       "/works/OL45661200W",
+       "ha-Ḳalut ha-bilti nisbelet shel ha-ḳiyum",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL8972751W",
+      "title": "Nesnesitelná lehkost bytí",
+      "edition_count": 81,
+      "rank": 0,
+      "first_publish_year": 1984,
+      "author_name": [
+       "Milan Kundera"
+      ],
+      "others": [
+       [
+        "/works/OL32670416W",
+        "L'insoutenable légèreté de l'être",
+        2
+       ],
+       [
+        "/works/OL28766571W",
+        "Nesnesitelná lehkost bytí = The Unbearable Lightness of Being = Sonzai no taerarenai karusa [Japanese Edition]",
+        1
+       ],
+       [
+        "/works/OL45661200W",
+        "ha-Ḳalut ha-bilti nisbelet shel ha-ḳiyum",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "cze": {
+     "title": "Nesnesitelná lehkost bytí",
+     "q": "Nesnesitelná lehkost bytí Milan Kundera",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL8972751W",
+     "edition_count": 81,
+     "rank": 0,
+     "first_publish_year": 1984,
+     "author_name": [
+      "Milan Kundera"
+     ],
+     "others": [
+      [
+       "/works/OL32670416W",
+       "L'insoutenable légèreté de l'être",
+       2
+      ],
+      [
+       "/works/OL28766571W",
+       "Nesnesitelná lehkost bytí = The Unbearable Lightness of Being = Sonzai no taerarenai karusa [Japanese Edition]",
+       1
+      ],
+      [
+       "/works/OL45661200W",
+       "ha-Ḳalut ha-bilti nisbelet shel ha-ḳiyum",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL8972751W",
+      "title": "Nesnesitelná lehkost bytí",
+      "edition_count": 81,
+      "rank": 0,
+      "first_publish_year": 1984,
+      "author_name": [
+       "Milan Kundera"
+      ],
+      "others": [
+       [
+        "/works/OL32670416W",
+        "L'insoutenable légèreté de l'être",
+        2
+       ],
+       [
+        "/works/OL28766571W",
+        "Nesnesitelná lehkost bytí = The Unbearable Lightness of Being = Sonzai no taerarenai karusa [Japanese Edition]",
+        1
+       ],
+       [
+        "/works/OL45661200W",
+        "ha-Ḳalut ha-bilti nisbelet shel ha-ḳiyum",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Nesnesitelná lehkost bytí",
+     "q": "The Unbearable Lightness of Being Milan Kundera",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 3,
+     "keyed_author_docs": 3,
+     "key": "/works/OL8972751W",
+     "edition_count": 81,
+     "rank": 0,
+     "first_publish_year": 1984,
+     "author_name": [
+      "Milan Kundera"
+     ],
+     "others": [
+      [
+       "/works/OL27447197W",
+       "Masterpieces of Fiction",
+       1
+      ],
+      [
+       "/works/OL28766571W",
+       "Nesnesitelná lehkost bytí = The Unbearable Lightness of Being = Sonzai no taerarenai karusa [Japanese Edition]",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL8972751W",
+      "title": "Nesnesitelná lehkost bytí",
+      "edition_count": 81,
+      "rank": 0,
+      "first_publish_year": 1984,
+      "author_name": [
+       "Milan Kundera"
+      ],
+      "others": [
+       [
+        "/works/OL27447197W",
+        "Masterpieces of Fiction",
+        1
+       ],
+       [
+        "/works/OL28766571W",
+        "Nesnesitelná lehkost bytí = The Unbearable Lightness of Being = Sonzai no taerarenai karusa [Japanese Edition]",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "L'insostenibile leggerezza dell'essere",
+     "q": "L'insostenibile leggerezza dell'essere Milan Kundera",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N02": {
+   "author_keys": [
+    "OL31901A",
+    "OL15841162A",
+    "OL11054074A",
+    "OL12689269A",
+    "OL15839136A",
+    "OL15839867A",
+    "OL12652487A",
+    "OL12652488A",
+    "OL16021934A",
+    "OL12583848A"
+   ],
+   "main": {
+    "original": {
+     "q": "Le Petit Prince Antoine de Saint-Exupéry",
+     "num_found": 22,
+     "docs": 20,
+     "author_docs": 6,
+     "keyed_author_docs": 6,
+     "key": "/works/OL10263W",
+     "title": "Le petit prince",
+     "edition_count": 689,
+     "rank": 0,
+     "first_publish_year": 1943,
+     "author_name": [
+      "Antoine de Saint-Exupéry"
+     ],
+     "others": [
+      [
+       "/works/OL26425550W",
+       "Le Petit Prince. Antoine de Saint-Exupéry",
+       2
+      ],
+      [
+       "/works/OL19728527W",
+       "Xiao wang zi Guangdong hua ban =",
+       10
+      ],
+      [
+       "/works/OL34314944W",
+       "Fiche de lecture Le Petit Prince de Antoine de Saint-Exupéry",
+       1
+      ],
+      [
+       "/works/OL31497788W",
+       "Le Petit Prince",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL10263W",
+      "title": "Le petit prince",
+      "edition_count": 689,
+      "rank": 0,
+      "first_publish_year": 1943,
+      "author_name": [
+       "Antoine de Saint-Exupéry"
+      ],
+      "others": [
+       [
+        "/works/OL26425550W",
+        "Le Petit Prince. Antoine de Saint-Exupéry",
+        2
+       ],
+       [
+        "/works/OL19728527W",
+        "Xiao wang zi Guangdong hua ban =",
+        10
+       ],
+       [
+        "/works/OL34314944W",
+        "Fiche de lecture Le Petit Prince de Antoine de Saint-Exupéry",
+        1
+       ],
+       [
+        "/works/OL31497788W",
+        "Le Petit Prince",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "fre": {
+     "title": "Le petit prince",
+     "q": "Le Petit Prince Antoine de Saint-Exupéry",
+     "num_found": 22,
+     "docs": 20,
+     "author_docs": 6,
+     "keyed_author_docs": 6,
+     "key": "/works/OL10263W",
+     "edition_count": 689,
+     "rank": 0,
+     "first_publish_year": 1943,
+     "author_name": [
+      "Antoine de Saint-Exupéry"
+     ],
+     "others": [
+      [
+       "/works/OL26425550W",
+       "Le Petit Prince. Antoine de Saint-Exupéry",
+       2
+      ],
+      [
+       "/works/OL19728527W",
+       "Xiao wang zi Guangdong hua ban =",
+       10
+      ],
+      [
+       "/works/OL34314944W",
+       "Fiche de lecture Le Petit Prince de Antoine de Saint-Exupéry",
+       1
+      ],
+      [
+       "/works/OL31497788W",
+       "Le Petit Prince",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL10263W",
+      "title": "Le petit prince",
+      "edition_count": 689,
+      "rank": 0,
+      "first_publish_year": 1943,
+      "author_name": [
+       "Antoine de Saint-Exupéry"
+      ],
+      "others": [
+       [
+        "/works/OL26425550W",
+        "Le Petit Prince. Antoine de Saint-Exupéry",
+        2
+       ],
+       [
+        "/works/OL19728527W",
+        "Xiao wang zi Guangdong hua ban =",
+        10
+       ],
+       [
+        "/works/OL34314944W",
+        "Fiche de lecture Le Petit Prince de Antoine de Saint-Exupéry",
+        1
+       ],
+       [
+        "/works/OL31497788W",
+        "Le Petit Prince",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Le petit prince",
+     "q": "The Little Prince Antoine de Saint-Exupéry",
+     "num_found": 16,
+     "docs": 16,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL10263W",
+     "edition_count": 689,
+     "rank": 0,
+     "first_publish_year": 1943,
+     "author_name": [
+      "Antoine de Saint-Exupéry"
+     ],
+     "others": [
+      [
+       "/works/OL34342511W",
+       "Little Prince",
+       4
+      ],
+      [
+       "/works/OL27943824W",
+       "Principito - lo Esencial Es Invisible a Los Ojos",
+       1
+      ],
+      [
+       "/works/OL19728527W",
+       "Xiao wang zi Guangdong hua ban =",
+       10
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL10263W",
+      "title": "Le petit prince",
+      "edition_count": 689,
+      "rank": 0,
+      "first_publish_year": 1943,
+      "author_name": [
+       "Antoine de Saint-Exupéry"
+      ],
+      "others": [
+       [
+        "/works/OL34342511W",
+        "Little Prince",
+        4
+       ],
+       [
+        "/works/OL27943824W",
+        "Principito - lo Esencial Es Invisible a Los Ojos",
+        1
+       ],
+       [
+        "/works/OL19728527W",
+        "Xiao wang zi Guangdong hua ban =",
+        10
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Le petit prince",
+     "q": "Il piccolo principe Antoine de Saint-Exupéry",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 3,
+     "keyed_author_docs": 3,
+     "key": "/works/OL10263W",
+     "edition_count": 689,
+     "rank": 0,
+     "first_publish_year": 1943,
+     "author_name": [
+      "Antoine de Saint-Exupéry"
+     ],
+     "others": [
+      [
+       "/works/OL29839614W",
+       "ANTOINE DE SAINT-EXUPERY - IL",
+       1
+      ],
+      [
+       "/works/OL40432860W",
+       "Petit Prince, Libro e Audiolibro in Francese",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL10263W",
+      "title": "Le petit prince",
+      "edition_count": 689,
+      "rank": 0,
+      "first_publish_year": 1943,
+      "author_name": [
+       "Antoine de Saint-Exupéry"
+      ],
+      "others": [
+       [
+        "/works/OL29839614W",
+        "ANTOINE DE SAINT-EXUPERY - IL",
+        1
+       ],
+       [
+        "/works/OL40432860W",
+        "Petit Prince, Libro e Audiolibro in Francese",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N03": {
+   "author_keys": [
+    "OL74802A",
+    "OL5498800A",
+    "OL16338287A",
+    "OL16244181A",
+    "OL5283996A",
+    "OL5483703A",
+    "OL11728596A",
+    "OL11615198A"
+   ],
+   "main": {
+    "original": {
+     "q": "Se questo è un uomo Primo Levi",
+     "num_found": 16,
+     "docs": 16,
+     "author_docs": 5,
+     "keyed_author_docs": 5,
+     "key": "/works/OL860066W",
+     "title": "Se questo è un uomo",
+     "edition_count": 112,
+     "rank": 0,
+     "first_publish_year": 1947,
+     "author_name": [
+      "Primo Levi"
+     ],
+     "others": [
+      [
+       "/works/OL860032W",
+       "Works (La tregua / Se questo è un uomo)",
+       19
+      ],
+      [
+       "/works/OL860077W",
+       "Trilogía de Auschwitz (I sommersi e i salvati / La tregua / Se questo è un uomo)",
+       8
+      ],
+      [
+       "/works/OL45064345W",
+       "Se questo e un uomo",
+       1
+      ],
+      [
+       "/works/OL10443124W",
+       "Opere",
+       4
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL860066W",
+      "title": "Se questo è un uomo",
+      "edition_count": 112,
+      "rank": 0,
+      "first_publish_year": 1947,
+      "author_name": [
+       "Primo Levi"
+      ],
+      "others": [
+       [
+        "/works/OL860032W",
+        "Works (La tregua / Se questo è un uomo)",
+        19
+       ],
+       [
+        "/works/OL860077W",
+        "Trilogía de Auschwitz (I sommersi e i salvati / La tregua / Se questo è un uomo)",
+        8
+       ],
+       [
+        "/works/OL45064345W",
+        "Se questo e un uomo",
+        1
+       ],
+       [
+        "/works/OL10443124W",
+        "Opere",
+        4
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Se questo è un uomo",
+     "q": "Se questo è un uomo Primo Levi",
+     "num_found": 16,
+     "docs": 16,
+     "author_docs": 5,
+     "keyed_author_docs": 5,
+     "key": "/works/OL860066W",
+     "edition_count": 112,
+     "rank": 0,
+     "first_publish_year": 1947,
+     "author_name": [
+      "Primo Levi"
+     ],
+     "others": [
+      [
+       "/works/OL860032W",
+       "Works (La tregua / Se questo è un uomo)",
+       19
+      ],
+      [
+       "/works/OL860077W",
+       "Trilogía de Auschwitz (I sommersi e i salvati / La tregua / Se questo è un uomo)",
+       8
+      ],
+      [
+       "/works/OL45064345W",
+       "Se questo e un uomo",
+       1
+      ],
+      [
+       "/works/OL10443124W",
+       "Opere",
+       4
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL860066W",
+      "title": "Se questo è un uomo",
+      "edition_count": 112,
+      "rank": 0,
+      "first_publish_year": 1947,
+      "author_name": [
+       "Primo Levi"
+      ],
+      "others": [
+       [
+        "/works/OL860032W",
+        "Works (La tregua / Se questo è un uomo)",
+        19
+       ],
+       [
+        "/works/OL860077W",
+        "Trilogía de Auschwitz (I sommersi e i salvati / La tregua / Se questo è un uomo)",
+        8
+       ],
+       [
+        "/works/OL45064345W",
+        "Se questo e un uomo",
+        1
+       ],
+       [
+        "/works/OL10443124W",
+        "Opere",
+        4
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Se questo è un uomo",
+     "q": "If This Is a Man Primo Levi",
+     "num_found": 11,
+     "docs": 11,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL860066W",
+     "edition_count": 112,
+     "rank": 0,
+     "first_publish_year": 1947,
+     "author_name": [
+      "Primo Levi"
+     ],
+     "others": [
+      [
+       "/works/OL860032W",
+       "Works (La tregua / Se questo è un uomo)",
+       19
+      ],
+      [
+       "/works/OL45315882W",
+       "If this is a man",
+       1
+      ],
+      [
+       "/works/OL20018458W",
+       "The complete works of Primo Levi",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL860066W",
+      "title": "Se questo è un uomo",
+      "edition_count": 112,
+      "rank": 0,
+      "first_publish_year": 1947,
+      "author_name": [
+       "Primo Levi"
+      ],
+      "others": [
+       [
+        "/works/OL860032W",
+        "Works (La tregua / Se questo è un uomo)",
+        19
+       ],
+       [
+        "/works/OL45315882W",
+        "If this is a man",
+        1
+       ],
+       [
+        "/works/OL20018458W",
+        "The complete works of Primo Levi",
+        1
+       ]
+      ]
+     }
+    },
+    "eng-2": {
+     "title": "Se questo è un uomo",
+     "q": "Survival in Auschwitz Primo Levi",
+     "num_found": 13,
+     "docs": 13,
+     "author_docs": 4,
+     "keyed_author_docs": 3,
+     "key": "/works/OL860066W",
+     "edition_count": 112,
+     "rank": 0,
+     "first_publish_year": 1947,
+     "author_name": [
+      "Primo Levi"
+     ],
+     "others": [
+      [
+       "/works/OL860032W",
+       "Works (La tregua / Se questo è un uomo)",
+       19
+      ],
+      [
+       "/works/OL37482894W",
+       "Survival In Auschwitz",
+       1
+      ],
+      [
+       "/works/OL20496535W",
+       "Night with Connected Readings",
+       2
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL860066W",
+      "title": "Se questo è un uomo",
+      "edition_count": 112,
+      "rank": 0,
+      "first_publish_year": 1947,
+      "author_name": [
+       "Primo Levi"
+      ],
+      "others": [
+       [
+        "/works/OL860032W",
+        "Works (La tregua / Se questo è un uomo)",
+        19
+       ],
+       [
+        "/works/OL20496535W",
+        "Night with Connected Readings",
+        2
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N04": {
+   "author_keys": [
+    "OL22242A",
+    "OL14529247A"
+   ],
+   "main": {
+    "original": {
+     "q": "Преступление и наказание Fëdor Dostoevskij",
+     "num_found": 6,
+     "docs": 6,
+     "author_docs": 0,
+     "keyed_author_docs": 6,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL166894W",
+      "title": "Преступление и наказание",
+      "edition_count": 1179,
+      "rank": 5,
+      "first_publish_year": 1866,
+      "author_name": [
+       "Fiódor Dostoievski"
+      ],
+      "others": [
+       [
+        "/works/OL28182239W",
+        "Schuld und Sühne",
+        1
+       ],
+       [
+        "/works/OL27019438W",
+        "Prestuplenie i nakazanie - Преступление и наказание",
+        1
+       ],
+       [
+        "/works/OL37418829W",
+        "Преступление и наказание",
+        1
+       ],
+       [
+        "/works/OL27862848W",
+        "Преступление и наказание",
+        1
+       ]
+      ]
+     }
+    },
+    "romanised": {
+     "q": "Prestuplenie i nakazanie Fëdor Dostoevskij",
+     "num_found": 67,
+     "docs": 20,
+     "author_docs": 0,
+     "keyed_author_docs": 20,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL166894W",
+      "title": "Преступление и наказание",
+      "edition_count": 1179,
+      "rank": 0,
+      "first_publish_year": 1866,
+      "author_name": [
+       "Fiódor Dostoievski"
+      ],
+      "others": [
+       [
+        "/works/OL43824112W",
+        "الجريمة والعقاب",
+        1
+       ],
+       [
+        "/works/OL28598039W",
+        "Prestuplenie i nakazanie",
+        2
+       ],
+       [
+        "/works/OL45355488W",
+        "Prestuplenie i nakazanie",
+        3
+       ],
+       [
+        "/works/OL28473469W",
+        "Prestuplenie I Nakazanie",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "rus": {
+     "title": "Преступление и наказание",
+     "q": "Преступление и наказание Fëdor Dostoevskij",
+     "num_found": 6,
+     "docs": 6,
+     "author_docs": 0,
+     "keyed_author_docs": 6,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL166894W",
+      "title": "Преступление и наказание",
+      "edition_count": 1179,
+      "rank": 5,
+      "first_publish_year": 1866,
+      "author_name": [
+       "Fiódor Dostoievski"
+      ],
+      "others": [
+       [
+        "/works/OL28182239W",
+        "Schuld und Sühne",
+        1
+       ],
+       [
+        "/works/OL27019438W",
+        "Prestuplenie i nakazanie - Преступление и наказание",
+        1
+       ],
+       [
+        "/works/OL37418829W",
+        "Преступление и наказание",
+        1
+       ],
+       [
+        "/works/OL27862848W",
+        "Преступление и наказание",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Crime and Punishment",
+     "q": "Crime and Punishment Fëdor Dostoevskij",
+     "num_found": 80,
+     "docs": 20,
+     "author_docs": 0,
+     "keyed_author_docs": 20,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL166894W",
+      "title": "Преступление и наказание",
+      "edition_count": 1179,
+      "rank": 0,
+      "first_publish_year": 1866,
+      "author_name": [
+       "Fiódor Dostoievski"
+      ],
+      "others": [
+       [
+        "/works/OL32525579W",
+        "Crime and Punishment",
+        18
+       ],
+       [
+        "/works/OL21062236W",
+        "Crime and Punishment",
+        2
+       ],
+       [
+        "/works/OL27530998W",
+        "Crime and Punishment by Fyodor Dostoevsky",
+        1
+       ],
+       [
+        "/works/OL35730244W",
+        "Crime and Punishment",
+        4
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Delitto e castigo",
+     "q": "Delitto e castigo Fëdor Dostoevskij",
+     "num_found": 9,
+     "docs": 9,
+     "author_docs": 0,
+     "keyed_author_docs": 9,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL166894W",
+      "title": "Преступление и наказание",
+      "edition_count": 1179,
+      "rank": 2,
+      "first_publish_year": 1866,
+      "author_name": [
+       "Fiódor Dostoievski"
+      ],
+      "others": [
+       [
+        "/works/OL24232265W",
+        "Delitto e castigo",
+        1
+       ],
+       [
+        "/works/OL28185167W",
+        "Delitto e castigo",
+        1
+       ],
+       [
+        "/works/OL29485158W",
+        "Delitto e Castigo",
+        1
+       ],
+       [
+        "/works/OL44016732W",
+        "Delitto e castigo",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N05": {
+   "author_keys": [
+    "OL540486A",
+    "OL13116434A",
+    "OL9110953A",
+    "OL12901876A"
+   ],
+   "main": {
+    "original": {
+     "q": "The Catcher in the Rye J. D. Salinger",
+     "num_found": 116,
+     "docs": 20,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL3335245W",
+     "title": "The Catcher in the Rye",
+     "edition_count": 204,
+     "rank": 0,
+     "first_publish_year": 1945,
+     "author_name": [
+      "J. D. Salinger",
+      "Shao jia yun"
+     ],
+     "others": [
+      [
+       "/works/OL3335290W",
+       "Nine Stories",
+       82
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL3335245W",
+      "title": "The Catcher in the Rye",
+      "edition_count": 204,
+      "rank": 0,
+      "first_publish_year": 1945,
+      "author_name": [
+       "J. D. Salinger",
+       "Shao jia yun"
+      ],
+      "others": [
+       [
+        "/works/OL3335290W",
+        "Nine Stories",
+        82
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "eng": {
+     "title": "The Catcher in the Rye",
+     "q": "The Catcher in the Rye J. D. Salinger",
+     "num_found": 116,
+     "docs": 20,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL3335245W",
+     "edition_count": 204,
+     "rank": 0,
+     "first_publish_year": 1945,
+     "author_name": [
+      "J. D. Salinger",
+      "Shao jia yun"
+     ],
+     "others": [
+      [
+       "/works/OL3335290W",
+       "Nine Stories",
+       82
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL3335245W",
+      "title": "The Catcher in the Rye",
+      "edition_count": 204,
+      "rank": 0,
+      "first_publish_year": 1945,
+      "author_name": [
+       "J. D. Salinger",
+       "Shao jia yun"
+      ],
+      "others": [
+       [
+        "/works/OL3335290W",
+        "Nine Stories",
+        82
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "The Catcher in the Rye",
+     "q": "Il giovane Holden J. D. Salinger",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL3335245W",
+     "edition_count": 204,
+     "rank": 0,
+     "first_publish_year": 1945,
+     "author_name": [
+      "J. D. Salinger",
+      "Shao jia yun"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL3335245W",
+      "title": "The Catcher in the Rye",
+      "edition_count": 204,
+      "rank": 0,
+      "first_publish_year": 1945,
+      "author_name": [
+       "J. D. Salinger",
+       "Shao jia yun"
+      ],
+      "others": []
+     }
+    },
+    "ita-2": {
+     "title": "Vita da uomo",
+     "q": "Vita da uomo J. D. Salinger",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N06": {
+   "author_keys": [
+    "OL118077A",
+    "OL16029200A",
+    "OL16230010A",
+    "OL11517765A",
+    "OL18319A"
+   ],
+   "main": {
+    "original": {
+     "q": "Nineteen Eighty-Four George Orwell",
+     "num_found": 104,
+     "docs": 20,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL1168083W",
+     "title": "Nineteen Eighty-Four",
+     "edition_count": 537,
+     "rank": 0,
+     "first_publish_year": 1949,
+     "author_name": [
+      "George Orwell"
+     ],
+     "others": [
+      [
+       "/works/OL1167981W",
+       "Animal Farm / Nineteen Eighty-Four",
+       37
+      ],
+      [
+       "/works/OL1168045W",
+       "Novels (Animal Farm / Burmese Days / Clergyman's Daughter / Coming Up for Air / Keep the Aspidistra Flying / Nineteen Eighty-Four)",
+       10
+      ],
+      [
+       "/works/OL34588009W",
+       "1984 George Orwell - Nineteen Eighty-Four - Paperback",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1168083W",
+      "title": "Nineteen Eighty-Four",
+      "edition_count": 537,
+      "rank": 0,
+      "first_publish_year": 1949,
+      "author_name": [
+       "George Orwell"
+      ],
+      "others": [
+       [
+        "/works/OL1167981W",
+        "Animal Farm / Nineteen Eighty-Four",
+        37
+       ],
+       [
+        "/works/OL1168045W",
+        "Novels (Animal Farm / Burmese Days / Clergyman's Daughter / Coming Up for Air / Keep the Aspidistra Flying / Nineteen Eighty-Four)",
+        10
+       ],
+       [
+        "/works/OL34588009W",
+        "1984 George Orwell - Nineteen Eighty-Four - Paperback",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "eng": {
+     "title": "Nineteen Eighty-Four",
+     "q": "Nineteen Eighty-Four George Orwell",
+     "num_found": 104,
+     "docs": 20,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL1168083W",
+     "edition_count": 537,
+     "rank": 0,
+     "first_publish_year": 1949,
+     "author_name": [
+      "George Orwell"
+     ],
+     "others": [
+      [
+       "/works/OL1167981W",
+       "Animal Farm / Nineteen Eighty-Four",
+       37
+      ],
+      [
+       "/works/OL1168045W",
+       "Novels (Animal Farm / Burmese Days / Clergyman's Daughter / Coming Up for Air / Keep the Aspidistra Flying / Nineteen Eighty-Four)",
+       10
+      ],
+      [
+       "/works/OL34588009W",
+       "1984 George Orwell - Nineteen Eighty-Four - Paperback",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1168083W",
+      "title": "Nineteen Eighty-Four",
+      "edition_count": 537,
+      "rank": 0,
+      "first_publish_year": 1949,
+      "author_name": [
+       "George Orwell"
+      ],
+      "others": [
+       [
+        "/works/OL1167981W",
+        "Animal Farm / Nineteen Eighty-Four",
+        37
+       ],
+       [
+        "/works/OL1168045W",
+        "Novels (Animal Farm / Burmese Days / Clergyman's Daughter / Coming Up for Air / Keep the Aspidistra Flying / Nineteen Eighty-Four)",
+        10
+       ],
+       [
+        "/works/OL34588009W",
+        "1984 George Orwell - Nineteen Eighty-Four - Paperback",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Animal Farm",
+     "q": "1984 George Orwell",
+     "num_found": 329,
+     "docs": 20,
+     "author_docs": 8,
+     "keyed_author_docs": 8,
+     "key": "/works/OL1168007W",
+     "edition_count": 653,
+     "rank": 3,
+     "first_publish_year": 1945,
+     "author_name": [
+      "George Orwell"
+     ],
+     "others": [
+      [
+       "/works/OL1168083W",
+       "Nineteen Eighty-Four",
+       537
+      ],
+      [
+       "/works/OL1167981W",
+       "Animal Farm / Nineteen Eighty-Four",
+       37
+      ],
+      [
+       "/works/OL11326416W",
+       "1984 (adaptation)",
+       4
+      ],
+      [
+       "/works/OL30827457W",
+       "1984",
+       8
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1168007W",
+      "title": "Animal Farm",
+      "edition_count": 653,
+      "rank": 3,
+      "first_publish_year": 1945,
+      "author_name": [
+       "George Orwell"
+      ],
+      "others": [
+       [
+        "/works/OL1168083W",
+        "Nineteen Eighty-Four",
+        537
+       ],
+       [
+        "/works/OL1167981W",
+        "Animal Farm / Nineteen Eighty-Four",
+        37
+       ],
+       [
+        "/works/OL11326416W",
+        "1984 (adaptation)",
+        4
+       ],
+       [
+        "/works/OL30827457W",
+        "1984",
+        8
+       ]
+      ]
+     }
+    },
+    "ita-2": {
+     "title": "Millenovecentottantaquattro",
+     "q": "Millenovecentottantaquattro George Orwell",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N07": {
+   "author_keys": [
+    "OL4326372A",
+    "OL13704554A",
+    "OL15271832A",
+    "OL965417A",
+    "OL4910764A",
+    "OL8951962A",
+    "OL13950945A",
+    "OL12216008A",
+    "OL12492112A"
+   ],
+   "main": {
+    "original": {
+     "q": "Se una notte d'inverno un viaggiatore Italo Calvino",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Se una notte d'inverno un viaggiatore",
+     "q": "Se una notte d'inverno un viaggiatore Italo Calvino",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "eng": {
+     "title": "Se una notte d'inverno un viaggiatore",
+     "q": "If on a Winter's Night a Traveler Italo Calvino",
+     "num_found": 10,
+     "docs": 10,
+     "author_docs": 8,
+     "keyed_author_docs": 8,
+     "key": "/works/OL15321W",
+     "edition_count": 31,
+     "rank": 0,
+     "first_publish_year": 1979,
+     "author_name": [
+      "Italo Calvino"
+     ],
+     "others": [
+      [
+       "/works/OL21784995W",
+       "If on a Winter's Night a Traveler",
+       3
+      ],
+      [
+       "/works/OL15166444W",
+       "If on a Winter's Night a Traveler",
+       1
+      ],
+      [
+       "/works/OL28592458W",
+       "If on a Winter's Night a Traveller",
+       1
+      ],
+      [
+       "/works/OL27360336W",
+       "If on a Winter's Night a Traveler",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL15321W",
+      "title": "Se una notte d'inverno un viaggiatore",
+      "edition_count": 31,
+      "rank": 0,
+      "first_publish_year": 1979,
+      "author_name": [
+       "Italo Calvino"
+      ],
+      "others": [
+       [
+        "/works/OL21784995W",
+        "If on a Winter's Night a Traveler",
+        3
+       ],
+       [
+        "/works/OL15166444W",
+        "If on a Winter's Night a Traveler",
+        1
+       ],
+       [
+        "/works/OL28592458W",
+        "If on a Winter's Night a Traveller",
+        1
+       ],
+       [
+        "/works/OL27360336W",
+        "If on a Winter's Night a Traveler",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N08": {
+   "author_keys": [
+    "OL3105889A",
+    "OL13591879A"
+   ],
+   "main": {
+    "original": {
+     "q": "L'amica geniale Elena Ferrante",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL16520879W",
+     "title": "L'amica geniale",
+     "edition_count": 40,
+     "rank": 0,
+     "first_publish_year": 2011,
+     "author_name": [
+      "Elena Ferrante"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL16520879W",
+      "title": "L'amica geniale",
+      "edition_count": 40,
+      "rank": 0,
+      "first_publish_year": 2011,
+      "author_name": [
+       "Elena Ferrante"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "L'amica geniale",
+     "q": "L'amica geniale Elena Ferrante",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL16520879W",
+     "edition_count": 40,
+     "rank": 0,
+     "first_publish_year": 2011,
+     "author_name": [
+      "Elena Ferrante"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL16520879W",
+      "title": "L'amica geniale",
+      "edition_count": 40,
+      "rank": 0,
+      "first_publish_year": 2011,
+      "author_name": [
+       "Elena Ferrante"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "L'amica geniale",
+     "q": "My Brilliant Friend Elena Ferrante",
+     "num_found": 11,
+     "docs": 11,
+     "author_docs": 5,
+     "keyed_author_docs": 5,
+     "key": "/works/OL16520879W",
+     "edition_count": 40,
+     "rank": 0,
+     "first_publish_year": 2011,
+     "author_name": [
+      "Elena Ferrante"
+     ],
+     "others": [
+      [
+       "/works/OL34947113W",
+       "My Brilliant Friend",
+       1
+      ],
+      [
+       "/works/OL44563823W",
+       "My Brilliant Friend : the Four Volumes",
+       1
+      ],
+      [
+       "/works/OL45968028W",
+       "Story of a New Name. The : My Brilliant Friend Book 2 (Neapolitan Novels) by Elena Ferrante ( 2013 ) Paperback",
+       1
+      ],
+      [
+       "/works/OL34777467W",
+       "The Neapolitan Novels : My Brilliant Friend, The Story of a New Name, Those Who Leave and Those Who Stay, and The Story of the Lost Child",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL16520879W",
+      "title": "L'amica geniale",
+      "edition_count": 40,
+      "rank": 0,
+      "first_publish_year": 2011,
+      "author_name": [
+       "Elena Ferrante"
+      ],
+      "others": [
+       [
+        "/works/OL34947113W",
+        "My Brilliant Friend",
+        1
+       ],
+       [
+        "/works/OL44563823W",
+        "My Brilliant Friend : the Four Volumes",
+        1
+       ],
+       [
+        "/works/OL45968028W",
+        "Story of a New Name. The : My Brilliant Friend Book 2 (Neapolitan Novels) by Elena Ferrante ( 2013 ) Paperback",
+        1
+       ],
+       [
+        "/works/OL34777467W",
+        "The Neapolitan Novels : My Brilliant Friend, The Story of a New Name, Those Who Leave and Those Who Stay, and The Story of the Lost Child",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N09": {
+   "author_keys": [
+    "OL24946A"
+   ],
+   "main": {
+    "original": {
+     "q": "Il formaggio e i vermi Carlo Ginzburg",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL14872792W",
+     "title": "Il formaggio e i vermi",
+     "edition_count": 23,
+     "rank": 0,
+     "first_publish_year": 1976,
+     "author_name": [
+      "Carlo Ginzburg",
+      "Anne C. Tedeschi",
+      "John Tedeschi",
+      "Francisco Martín Arribas",
+      "Justo Serna",
+      "Anaclet Pons Pons"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL14872792W",
+      "title": "Il formaggio e i vermi",
+      "edition_count": 23,
+      "rank": 0,
+      "first_publish_year": 1976,
+      "author_name": [
+       "Carlo Ginzburg",
+       "Anne C. Tedeschi",
+       "John Tedeschi",
+       "Francisco Martín Arribas",
+       "Justo Serna",
+       "Anaclet Pons Pons"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Il formaggio e i vermi",
+     "q": "Il formaggio e i vermi Carlo Ginzburg",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL14872792W",
+     "edition_count": 23,
+     "rank": 0,
+     "first_publish_year": 1976,
+     "author_name": [
+      "Carlo Ginzburg",
+      "Anne C. Tedeschi",
+      "John Tedeschi",
+      "Francisco Martín Arribas",
+      "Justo Serna",
+      "Anaclet Pons Pons"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL14872792W",
+      "title": "Il formaggio e i vermi",
+      "edition_count": 23,
+      "rank": 0,
+      "first_publish_year": 1976,
+      "author_name": [
+       "Carlo Ginzburg",
+       "Anne C. Tedeschi",
+       "John Tedeschi",
+       "Francisco Martín Arribas",
+       "Justo Serna",
+       "Anaclet Pons Pons"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "Il formaggio e i vermi",
+     "q": "The Cheese and the Worms Carlo Ginzburg",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL14872792W",
+     "edition_count": 23,
+     "rank": 0,
+     "first_publish_year": 1976,
+     "author_name": [
+      "Carlo Ginzburg",
+      "Anne C. Tedeschi",
+      "John Tedeschi",
+      "Francisco Martín Arribas",
+      "Justo Serna",
+      "Anaclet Pons Pons"
+     ],
+     "others": [
+      [
+       "/works/OL41943338W",
+       "奶酪与蛆虫",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL14872792W",
+      "title": "Il formaggio e i vermi",
+      "edition_count": 23,
+      "rank": 0,
+      "first_publish_year": 1976,
+      "author_name": [
+       "Carlo Ginzburg",
+       "Anne C. Tedeschi",
+       "John Tedeschi",
+       "Francisco Martín Arribas",
+       "Justo Serna",
+       "Anaclet Pons Pons"
+      ],
+      "others": [
+       [
+        "/works/OL41943338W",
+        "奶酪与蛆虫",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N10": {
+   "author_keys": [
+    "OL124171A",
+    "OL15805451A",
+    "OL16323831A",
+    "OL9931256A",
+    "OL11508022A",
+    "OL5542883A",
+    "OL12987207A",
+    "OL15297479A",
+    "OL5821457A",
+    "OL6615645A"
+   ],
+   "main": {
+    "original": {
+     "q": "L'Étranger Albert Camus",
+     "num_found": 74,
+     "docs": 20,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL1230613W",
+     "title": "L’étranger",
+     "edition_count": 468,
+     "rank": 0,
+     "first_publish_year": 1942,
+     "author_name": [
+      "Albert Camus"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL1230613W",
+      "title": "L’étranger",
+      "edition_count": 468,
+      "rank": 0,
+      "first_publish_year": 1942,
+      "author_name": [
+       "Albert Camus"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "fre": {
+     "title": "L’étranger",
+     "q": "L'Étranger Albert Camus",
+     "num_found": 74,
+     "docs": 20,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL1230613W",
+     "edition_count": 468,
+     "rank": 0,
+     "first_publish_year": 1942,
+     "author_name": [
+      "Albert Camus"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL1230613W",
+      "title": "L’étranger",
+      "edition_count": 468,
+      "rank": 0,
+      "first_publish_year": 1942,
+      "author_name": [
+       "Albert Camus"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "L’étranger",
+     "q": "The Stranger Albert Camus",
+     "num_found": 61,
+     "docs": 20,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL1230613W",
+     "edition_count": 468,
+     "rank": 0,
+     "first_publish_year": 1942,
+     "author_name": [
+      "Albert Camus"
+     ],
+     "others": [
+      [
+       "/works/OL16033130W",
+       "Novels (La chute / L'Étranger)",
+       3
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1230613W",
+      "title": "L’étranger",
+      "edition_count": 468,
+      "rank": 0,
+      "first_publish_year": 1942,
+      "author_name": [
+       "Albert Camus"
+      ],
+      "others": [
+       [
+        "/works/OL16033130W",
+        "Novels (La chute / L'Étranger)",
+        3
+       ]
+      ]
+     }
+    },
+    "eng-2": {
+     "title": "L’étranger",
+     "q": "The Outsider Albert Camus",
+     "num_found": 17,
+     "docs": 17,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL1230613W",
+     "edition_count": 468,
+     "rank": 0,
+     "first_publish_year": 1942,
+     "author_name": [
+      "Albert Camus"
+     ],
+     "others": [
+      [
+       "/works/OL16033130W",
+       "Novels (La chute / L'Étranger)",
+       3
+      ],
+      [
+       "/works/OL1230755W",
+       "Collected fiction",
+       7
+      ],
+      [
+       "/works/OL29369067W",
+       "Essential Camus Boxed Set",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1230613W",
+      "title": "L’étranger",
+      "edition_count": 468,
+      "rank": 0,
+      "first_publish_year": 1942,
+      "author_name": [
+       "Albert Camus"
+      ],
+      "others": [
+       [
+        "/works/OL16033130W",
+        "Novels (La chute / L'Étranger)",
+        3
+       ],
+       [
+        "/works/OL1230755W",
+        "Collected fiction",
+        7
+       ],
+       [
+        "/works/OL29369067W",
+        "Essential Camus Boxed Set",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "L’étranger",
+     "q": "Lo straniero Albert Camus",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL1230613W",
+     "edition_count": 468,
+     "rank": 0,
+     "first_publish_year": 1942,
+     "author_name": [
+      "Albert Camus"
+     ],
+     "others": [
+      [
+       "/works/OL36530092W",
+       "Lo Straniero",
+       2
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1230613W",
+      "title": "L’étranger",
+      "edition_count": 468,
+      "rank": 0,
+      "first_publish_year": 1942,
+      "author_name": [
+       "Albert Camus"
+      ],
+      "others": [
+       [
+        "/works/OL36530092W",
+        "Lo Straniero",
+        2
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N11": {
+   "author_keys": [
+    "OL196360A",
+    "OL9892994A"
+   ],
+   "main": {
+    "original": {
+     "q": "La Disparition Georges Perec",
+     "num_found": 10,
+     "docs": 10,
+     "author_docs": 3,
+     "keyed_author_docs": 3,
+     "key": "/works/OL1715351W",
+     "title": "La Disparition",
+     "edition_count": 10,
+     "rank": 0,
+     "first_publish_year": 1969,
+     "author_name": [
+      "Georges Perec"
+     ],
+     "others": [
+      [
+       "/works/OL42300107W",
+       "La disparition",
+       1
+      ],
+      [
+       "/works/OL32444249W",
+       "Oeuvres",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1715351W",
+      "title": "La Disparition",
+      "edition_count": 10,
+      "rank": 0,
+      "first_publish_year": 1969,
+      "author_name": [
+       "Georges Perec"
+      ],
+      "others": [
+       [
+        "/works/OL42300107W",
+        "La disparition",
+        1
+       ],
+       [
+        "/works/OL32444249W",
+        "Oeuvres",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "fre": {
+     "title": "La Disparition",
+     "q": "La Disparition Georges Perec",
+     "num_found": 10,
+     "docs": 10,
+     "author_docs": 3,
+     "keyed_author_docs": 3,
+     "key": "/works/OL1715351W",
+     "edition_count": 10,
+     "rank": 0,
+     "first_publish_year": 1969,
+     "author_name": [
+      "Georges Perec"
+     ],
+     "others": [
+      [
+       "/works/OL42300107W",
+       "La disparition",
+       1
+      ],
+      [
+       "/works/OL32444249W",
+       "Oeuvres",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1715351W",
+      "title": "La Disparition",
+      "edition_count": 10,
+      "rank": 0,
+      "first_publish_year": 1969,
+      "author_name": [
+       "Georges Perec"
+      ],
+      "others": [
+       [
+        "/works/OL42300107W",
+        "La disparition",
+        1
+       ],
+       [
+        "/works/OL32444249W",
+        "Oeuvres",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Disparition",
+     "q": "A Void Georges Perec",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL1715344W",
+     "edition_count": 4,
+     "rank": 0,
+     "first_publish_year": 1994,
+     "author_name": [
+      "Georges Perec"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL1715344W",
+      "title": "Disparition",
+      "edition_count": 4,
+      "rank": 0,
+      "first_publish_year": 1994,
+      "author_name": [
+       "Georges Perec"
+      ],
+      "others": []
+     }
+    },
+    "ita": {
+     "title": "La scomparsa",
+     "q": "La scomparsa Georges Perec",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N12": {
+   "author_keys": [
+    "OL33146A",
+    "OL15716781A",
+    "OL15627662A",
+    "OL1165026A",
+    "OL13633233A",
+    "OL13745858A",
+    "OL10600517A",
+    "OL4187563A",
+    "OL13597203A",
+    "OL13985432A"
+   ],
+   "main": {
+    "original": {
+     "q": "Der Process Franz Kafka",
+     "num_found": 48,
+     "docs": 20,
+     "author_docs": 6,
+     "keyed_author_docs": 6,
+     "key": "/works/OL498463W",
+     "title": "Der Proceß",
+     "edition_count": 783,
+     "rank": 0,
+     "first_publish_year": 1825,
+     "author_name": [
+      "Franz Kafka"
+     ],
+     "others": [
+      [
+       "/works/OL20494872W",
+       "Klett Lektürehilfen Franz Kafka \"Der Proceß\"",
+       1
+      ],
+      [
+       "/works/OL20231814W",
+       "Der Process",
+       2
+      ],
+      [
+       "/works/OL37509903W",
+       "Der Proceß",
+       1
+      ],
+      [
+       "/works/OL498466W",
+       "Der Process (Erlauterungen und Dokumente)",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL498463W",
+      "title": "Der Proceß",
+      "edition_count": 783,
+      "rank": 0,
+      "first_publish_year": 1825,
+      "author_name": [
+       "Franz Kafka"
+      ],
+      "others": [
+       [
+        "/works/OL20494872W",
+        "Klett Lektürehilfen Franz Kafka \"Der Proceß\"",
+        1
+       ],
+       [
+        "/works/OL20231814W",
+        "Der Process",
+        2
+       ],
+       [
+        "/works/OL37509903W",
+        "Der Proceß",
+        1
+       ],
+       [
+        "/works/OL498466W",
+        "Der Process (Erlauterungen und Dokumente)",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "ger": {
+     "title": "Der Proceß",
+     "q": "Der Process Franz Kafka",
+     "num_found": 48,
+     "docs": 20,
+     "author_docs": 6,
+     "keyed_author_docs": 6,
+     "key": "/works/OL498463W",
+     "edition_count": 783,
+     "rank": 0,
+     "first_publish_year": 1825,
+     "author_name": [
+      "Franz Kafka"
+     ],
+     "others": [
+      [
+       "/works/OL20494872W",
+       "Klett Lektürehilfen Franz Kafka \"Der Proceß\"",
+       1
+      ],
+      [
+       "/works/OL20231814W",
+       "Der Process",
+       2
+      ],
+      [
+       "/works/OL37509903W",
+       "Der Proceß",
+       1
+      ],
+      [
+       "/works/OL498466W",
+       "Der Process (Erlauterungen und Dokumente)",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL498463W",
+      "title": "Der Proceß",
+      "edition_count": 783,
+      "rank": 0,
+      "first_publish_year": 1825,
+      "author_name": [
+       "Franz Kafka"
+      ],
+      "others": [
+       [
+        "/works/OL20494872W",
+        "Klett Lektürehilfen Franz Kafka \"Der Proceß\"",
+        1
+       ],
+       [
+        "/works/OL20231814W",
+        "Der Process",
+        2
+       ],
+       [
+        "/works/OL37509903W",
+        "Der Proceß",
+        1
+       ],
+       [
+        "/works/OL498466W",
+        "Der Process (Erlauterungen und Dokumente)",
+        1
+       ]
+      ]
+     }
+    },
+    "ger-2": {
+     "title": "Der Proceß",
+     "q": "Der Prozess Franz Kafka",
+     "num_found": 122,
+     "docs": 20,
+     "author_docs": 7,
+     "keyed_author_docs": 7,
+     "key": "/works/OL498463W",
+     "edition_count": 783,
+     "rank": 0,
+     "first_publish_year": 1825,
+     "author_name": [
+      "Franz Kafka"
+     ],
+     "others": [
+      [
+       "/works/OL33094027W",
+       "Der Prozess",
+       1
+      ],
+      [
+       "/works/OL498716W",
+       "Die Romane: Amerika",
+       3
+      ],
+      [
+       "/works/OL44239374W",
+       "Der Prozess",
+       2
+      ],
+      [
+       "/works/OL29587980W",
+       "Franz Kafka- der Prozeß",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL498463W",
+      "title": "Der Proceß",
+      "edition_count": 783,
+      "rank": 0,
+      "first_publish_year": 1825,
+      "author_name": [
+       "Franz Kafka"
+      ],
+      "others": [
+       [
+        "/works/OL33094027W",
+        "Der Prozess",
+        1
+       ],
+       [
+        "/works/OL498716W",
+        "Die Romane: Amerika",
+        3
+       ],
+       [
+        "/works/OL44239374W",
+        "Der Prozess",
+        2
+       ],
+       [
+        "/works/OL29587980W",
+        "Franz Kafka- der Prozeß",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Metamorphosis",
+     "q": "The Trial Franz Kafka",
+     "num_found": 95,
+     "docs": 20,
+     "author_docs": 13,
+     "keyed_author_docs": 13,
+     "key": "/works/OL498556W",
+     "edition_count": 955,
+     "rank": 1,
+     "first_publish_year": 1915,
+     "author_name": [
+      "Franz Kafka"
+     ],
+     "others": [
+      [
+       "/works/OL498463W",
+       "Der Proceß",
+       783
+      ],
+      [
+       "/works/OL43043884W",
+       "The Trial",
+       7
+      ],
+      [
+       "/works/OL1411622W",
+       "Andere Prozess",
+       12
+      ],
+      [
+       "/works/OL41619190W",
+       "Trial : ",
+       2
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL498556W",
+      "title": "Metamorphosis",
+      "edition_count": 955,
+      "rank": 1,
+      "first_publish_year": 1915,
+      "author_name": [
+       "Franz Kafka"
+      ],
+      "others": [
+       [
+        "/works/OL498463W",
+        "Der Proceß",
+        783
+       ],
+       [
+        "/works/OL43043884W",
+        "The Trial",
+        7
+       ],
+       [
+        "/works/OL1411622W",
+        "Andere Prozess",
+        12
+       ],
+       [
+        "/works/OL41619190W",
+        "Trial : ",
+        2
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Der Proceß",
+     "q": "Il processo Franz Kafka",
+     "num_found": 11,
+     "docs": 11,
+     "author_docs": 3,
+     "keyed_author_docs": 3,
+     "key": "/works/OL498463W",
+     "edition_count": 783,
+     "rank": 0,
+     "first_publish_year": 1825,
+     "author_name": [
+      "Franz Kafka"
+     ],
+     "others": [
+      [
+       "/works/OL44016779W",
+       "Il processo",
+       1
+      ],
+      [
+       "/works/OL45139150W",
+       "Il processo",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL498463W",
+      "title": "Der Proceß",
+      "edition_count": 783,
+      "rank": 0,
+      "first_publish_year": 1825,
+      "author_name": [
+       "Franz Kafka"
+      ],
+      "others": [
+       [
+        "/works/OL44016779W",
+        "Il processo",
+        1
+       ],
+       [
+        "/works/OL45139150W",
+        "Il processo",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N13": {
+   "author_keys": [
+    "OL295822A",
+    "OL15002702A"
+   ],
+   "main": {
+    "original": {
+     "q": "Müdigkeitsgesellschaft Byung-Chul Han",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   },
+   "entries": {
+    "ger": {
+     "title": "Müdigkeitsgesellschaft",
+     "q": "Müdigkeitsgesellschaft Byung-Chul Han",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "eng": {
+     "title": "The Burnout Society",
+     "q": "The Burnout Society Byung-Chul Han",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "ita": {
+     "title": "La società della stanchezza",
+     "q": "La società della stanchezza Byung-Chul Han",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N14": {
+   "author_keys": [
+    "OL3112635A",
+    "OL15561909A",
+    "OL12741136A",
+    "OL13844398A",
+    "OL13690990A",
+    "OL16226923A",
+    "OL7033401A",
+    "OL13412491A",
+    "OL12705474A",
+    "OL11479364A"
+   ],
+   "main": {
+    "original": {
+     "q": "Ensaio sobre a cegueira José Saramago",
+     "num_found": 15,
+     "docs": 15,
+     "author_docs": 9,
+     "keyed_author_docs": 8,
+     "key": "/works/OL27420W",
+     "title": "Ensaio Sobre a Cegueira",
+     "edition_count": 40,
+     "rank": 0,
+     "first_publish_year": 1995,
+     "author_name": [
+      "José Saramago"
+     ],
+     "others": [
+      [
+       "/works/OL26661744W",
+       "Cecità",
+       2
+      ],
+      [
+       "/works/OL17795530W",
+       "Ensaio sobre a cegueira",
+       0
+      ],
+      [
+       "/works/OL16212507W",
+       "Blindness",
+       2
+      ],
+      [
+       "/works/OL44391503W",
+       "Kwêrî",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL27420W",
+      "title": "Ensaio Sobre a Cegueira",
+      "edition_count": 40,
+      "rank": 0,
+      "first_publish_year": 1995,
+      "author_name": [
+       "José Saramago"
+      ],
+      "others": [
+       [
+        "/works/OL26661744W",
+        "Cecità",
+        2
+       ],
+       [
+        "/works/OL17795530W",
+        "Ensaio sobre a cegueira",
+        0
+       ],
+       [
+        "/works/OL16212507W",
+        "Blindness",
+        2
+       ],
+       [
+        "/works/OL44391503W",
+        "Kwêrî",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "por": {
+     "title": "Ensaio Sobre a Cegueira",
+     "q": "Ensaio sobre a cegueira José Saramago",
+     "num_found": 15,
+     "docs": 15,
+     "author_docs": 9,
+     "keyed_author_docs": 8,
+     "key": "/works/OL27420W",
+     "edition_count": 40,
+     "rank": 0,
+     "first_publish_year": 1995,
+     "author_name": [
+      "José Saramago"
+     ],
+     "others": [
+      [
+       "/works/OL26661744W",
+       "Cecità",
+       2
+      ],
+      [
+       "/works/OL17795530W",
+       "Ensaio sobre a cegueira",
+       0
+      ],
+      [
+       "/works/OL16212507W",
+       "Blindness",
+       2
+      ],
+      [
+       "/works/OL44391503W",
+       "Kwêrî",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL27420W",
+      "title": "Ensaio Sobre a Cegueira",
+      "edition_count": 40,
+      "rank": 0,
+      "first_publish_year": 1995,
+      "author_name": [
+       "José Saramago"
+      ],
+      "others": [
+       [
+        "/works/OL26661744W",
+        "Cecità",
+        2
+       ],
+       [
+        "/works/OL17795530W",
+        "Ensaio sobre a cegueira",
+        0
+       ],
+       [
+        "/works/OL16212507W",
+        "Blindness",
+        2
+       ],
+       [
+        "/works/OL44391503W",
+        "Kwêrî",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Ensaio Sobre a Cegueira",
+     "q": "Blindness José Saramago",
+     "num_found": 19,
+     "docs": 19,
+     "author_docs": 13,
+     "keyed_author_docs": 13,
+     "key": "/works/OL27420W",
+     "edition_count": 40,
+     "rank": 0,
+     "first_publish_year": 1995,
+     "author_name": [
+      "José Saramago"
+     ],
+     "others": [
+      [
+       "/works/OL16212507W",
+       "Blindness",
+       2
+      ],
+      [
+       "/works/OL7922559W",
+       "Blindness (Harvest Book)",
+       1
+      ],
+      [
+       "/works/OL25681676W",
+       "Blindness",
+       1
+      ],
+      [
+       "/works/OL27360642W",
+       "Blindness",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL27420W",
+      "title": "Ensaio Sobre a Cegueira",
+      "edition_count": 40,
+      "rank": 0,
+      "first_publish_year": 1995,
+      "author_name": [
+       "José Saramago"
+      ],
+      "others": [
+       [
+        "/works/OL16212507W",
+        "Blindness",
+        2
+       ],
+       [
+        "/works/OL7922559W",
+        "Blindness (Harvest Book)",
+        1
+       ],
+       [
+        "/works/OL25681676W",
+        "Blindness",
+        1
+       ],
+       [
+        "/works/OL27360642W",
+        "Blindness",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Cecità",
+     "q": "Cecità José Saramago",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL26661744W",
+     "edition_count": 2,
+     "rank": 0,
+     "first_publish_year": 2013,
+     "author_name": [
+      "José Saramago"
+     ],
+     "others": [
+      [
+       "/works/OL19833586W",
+       "Cecita",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL26661744W",
+      "title": "Cecità",
+      "edition_count": 2,
+      "rank": 0,
+      "first_publish_year": 2013,
+      "author_name": [
+       "José Saramago"
+      ],
+      "others": [
+       [
+        "/works/OL19833586W",
+        "Cecita",
+        1
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N15": {
+   "author_keys": [
+    "OL56795A",
+    "OL6577584A",
+    "OL16278230A",
+    "OL9183912A",
+    "OL624681A",
+    "OL11465200A"
+   ],
+   "main": {
+    "original": {
+     "q": "2666 Roberto Bolaño",
+     "num_found": 20,
+     "docs": 20,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL712025W",
+     "title": "2666",
+     "edition_count": 62,
+     "rank": 0,
+     "first_publish_year": 2004,
+     "author_name": [
+      "Roberto Bolaño"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL712025W",
+      "title": "2666",
+      "edition_count": 62,
+      "rank": 0,
+      "first_publish_year": 2004,
+      "author_name": [
+       "Roberto Bolaño"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "spa": {
+     "title": "2666",
+     "q": "2666 Roberto Bolaño",
+     "num_found": 20,
+     "docs": 20,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL712025W",
+     "edition_count": 62,
+     "rank": 0,
+     "first_publish_year": 2004,
+     "author_name": [
+      "Roberto Bolaño"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL712025W",
+      "title": "2666",
+      "edition_count": 62,
+      "rank": 0,
+      "first_publish_year": 2004,
+      "author_name": [
+       "Roberto Bolaño"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "2666",
+     "q": "2666 Roberto Bolaño",
+     "num_found": 20,
+     "docs": 20,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL712025W",
+     "edition_count": 62,
+     "rank": 0,
+     "first_publish_year": 2004,
+     "author_name": [
+      "Roberto Bolaño"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL712025W",
+      "title": "2666",
+      "edition_count": 62,
+      "rank": 0,
+      "first_publish_year": 2004,
+      "author_name": [
+       "Roberto Bolaño"
+      ],
+      "others": []
+     }
+    },
+    "ita": {
+     "title": "2666",
+     "q": "2666 Roberto Bolaño",
+     "num_found": 20,
+     "docs": 20,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL712025W",
+     "edition_count": 62,
+     "rank": 0,
+     "first_publish_year": 2004,
+     "author_name": [
+      "Roberto Bolaño"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL712025W",
+      "title": "2666",
+      "edition_count": 62,
+      "rank": 0,
+      "first_publish_year": 2004,
+      "author_name": [
+       "Roberto Bolaño"
+      ],
+      "others": []
+     }
+    }
+   }
+  },
+  "N16": {
+   "author_keys": [
+    "OL528199A",
+    "OL4283371A",
+    "OL7812856A",
+    "OL12793399A",
+    "OL7504664A",
+    "OL10434552A",
+    "OL7511043A",
+    "OL5605019A",
+    "OL13711281A",
+    "OL7872423A"
+   ],
+   "main": {
+    "original": {
+     "q": "活着 Yu Hua",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "romanised": {
+     "q": "Huozhe Yu Hua",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   },
+   "entries": {
+    "chi": {
+     "title": "活着",
+     "q": "活着 Yu Hua",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "eng": {
+     "title": "To Live",
+     "q": "To Live Yu Hua",
+     "num_found": 52,
+     "docs": 20,
+     "author_docs": 0,
+     "keyed_author_docs": 6,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL3240289W",
+      "title": "Huo zhe",
+      "edition_count": 5,
+      "rank": 13,
+      "first_publish_year": 1994,
+      "author_name": [
+       "余华"
+      ],
+      "others": [
+       [
+        "/works/OL15861449W",
+        "To live",
+        1
+       ],
+       [
+        "/works/OL8036242W",
+        "To Live",
+        2
+       ],
+       [
+        "/works/OL25686018W",
+        "To Live",
+        3
+       ],
+       [
+        "/works/OL28765493W",
+        "Viver - To Live",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Vivere!",
+     "q": "Vivere! Yu Hua",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 0,
+     "keyed_author_docs": 1,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL28765493W",
+      "title": "Viver - To Live",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 2008,
+      "author_name": [
+       "余华"
+      ],
+      "others": []
+     }
+    }
+   }
+  },
+  "N17": {
+   "author_keys": [
+    "OL14707246A",
+    "OL15316974A",
+    "OL173760A",
+    "OL5801867A"
+   ],
+   "main": {
+    "original": {
+     "q": "بين القصرين Naguib Mahfouz",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 0,
+     "keyed_author_docs": 2,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL1599742W",
+      "title": "بين القصرين",
+      "edition_count": 37,
+      "rank": 1,
+      "first_publish_year": 1960,
+      "author_name": [
+       "نجيب محفوظ"
+      ],
+      "others": [
+       [
+        "/works/OL27033967W",
+        "Naguib Mahfouz Al - Sukkariya Trio ثلاثية نجيب محفوظ السكرية قصر الشوق بين القصرين مجموعة 3 كتب",
+        1
+       ]
+      ]
+     }
+    },
+    "romanised": {
+     "q": "Bayn al-Qasrayn Naguib Mahfouz",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   },
+   "entries": {
+    "ara": {
+     "title": "بين القصرين",
+     "q": "بين القصرين Naguib Mahfouz",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 0,
+     "keyed_author_docs": 2,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL1599742W",
+      "title": "بين القصرين",
+      "edition_count": 37,
+      "rank": 1,
+      "first_publish_year": 1960,
+      "author_name": [
+       "نجيب محفوظ"
+      ],
+      "others": [
+       [
+        "/works/OL27033967W",
+        "Naguib Mahfouz Al - Sukkariya Trio ثلاثية نجيب محفوظ السكرية قصر الشوق بين القصرين مجموعة 3 كتب",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Palace Walk",
+     "q": "Palace Walk Naguib Mahfouz",
+     "num_found": 5,
+     "docs": 5,
+     "author_docs": 0,
+     "keyed_author_docs": 3,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL1599742W",
+      "title": "بين القصرين",
+      "edition_count": 37,
+      "rank": 0,
+      "first_publish_year": 1960,
+      "author_name": [
+       "نجيب محفوظ"
+      ],
+      "others": [
+       [
+        "/works/OL1599697W",
+        "The Cairo trilogy",
+        5
+       ],
+       [
+        "/works/OL16606220W",
+        "The Naguib Mahfouz centennial library",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Tra i due palazzi",
+     "q": "Tra i due palazzi Naguib Mahfouz",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 0,
+     "keyed_author_docs": 1,
+     "key": null,
+     "keyed": {
+      "key": "/works/OL16621871W",
+      "title": "Tra i due palazzi",
+      "edition_count": 1,
+      "rank": 0,
+      "first_publish_year": 1996,
+      "author_name": [
+       "نجيب محفوظ"
+      ],
+      "others": []
+     }
+    }
+   }
+  },
+  "N18": {
+   "author_keys": [
+    "OL4763728A",
+    "OL42390A",
+    "OL7859745A",
+    "OL7432422A",
+    "OL12549917A",
+    "OL2659701A",
+    "OL16274114A",
+    "OL6816417A",
+    "OL2120032A",
+    "OL2818806A"
+   ],
+   "main": {
+    "original": {
+     "q": "Capitalist Realism Mark Fisher",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL15683250W",
+     "title": "Capitalist Realism",
+     "edition_count": 8,
+     "rank": 0,
+     "first_publish_year": 2009,
+     "author_name": [
+      "Mark Fisher",
+      "MARK FISHER"
+     ],
+     "others": [
+      [
+       "/works/OL35356386W",
+       "Realism capitalist",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL15683250W",
+      "title": "Capitalist Realism",
+      "edition_count": 8,
+      "rank": 0,
+      "first_publish_year": 2009,
+      "author_name": [
+       "Mark Fisher",
+       "MARK FISHER"
+      ],
+      "others": [
+       [
+        "/works/OL35356386W",
+        "Realism capitalist",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "eng": {
+     "title": "Capitalist Realism",
+     "q": "Capitalist Realism Mark Fisher",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 2,
+     "keyed_author_docs": 2,
+     "key": "/works/OL15683250W",
+     "edition_count": 8,
+     "rank": 0,
+     "first_publish_year": 2009,
+     "author_name": [
+      "Mark Fisher",
+      "MARK FISHER"
+     ],
+     "others": [
+      [
+       "/works/OL35356386W",
+       "Realism capitalist",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL15683250W",
+      "title": "Capitalist Realism",
+      "edition_count": 8,
+      "rank": 0,
+      "first_publish_year": 2009,
+      "author_name": [
+       "Mark Fisher",
+       "MARK FISHER"
+      ],
+      "others": [
+       [
+        "/works/OL35356386W",
+        "Realism capitalist",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Capitalist Realism",
+     "q": "Realismo capitalista Mark Fisher",
+     "num_found": 2,
+     "docs": 2,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL15683250W",
+     "edition_count": 8,
+     "rank": 0,
+     "first_publish_year": 2009,
+     "author_name": [
+      "Mark Fisher",
+      "MARK FISHER"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL15683250W",
+      "title": "Capitalist Realism",
+      "edition_count": 8,
+      "rank": 0,
+      "first_publish_year": 2009,
+      "author_name": [
+       "Mark Fisher",
+       "MARK FISHER"
+      ],
+      "others": []
+     }
+    }
+   }
+  },
+  "N19": {
+   "author_keys": [
+    "OL1394023A",
+    "OL14003892A",
+    "OL13951163A"
+   ],
+   "main": {
+    "original": {
+     "q": "Tomorrow, and Tomorrow, and Tomorrow Gabrielle Zevin",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL26004554W",
+     "title": "Tomorrow, and Tomorrow, and Tomorrow",
+     "edition_count": 17,
+     "rank": 0,
+     "first_publish_year": 2022,
+     "author_name": [
+      "Gabrielle Zevin"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL26004554W",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "edition_count": 17,
+      "rank": 0,
+      "first_publish_year": 2022,
+      "author_name": [
+       "Gabrielle Zevin"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "eng": {
+     "title": "Tomorrow, and Tomorrow, and Tomorrow",
+     "q": "Tomorrow, and Tomorrow, and Tomorrow Gabrielle Zevin",
+     "num_found": 1,
+     "docs": 1,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL26004554W",
+     "edition_count": 17,
+     "rank": 0,
+     "first_publish_year": 2022,
+     "author_name": [
+      "Gabrielle Zevin"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL26004554W",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "edition_count": 17,
+      "rank": 0,
+      "first_publish_year": 2022,
+      "author_name": [
+       "Gabrielle Zevin"
+      ],
+      "others": []
+     }
+    },
+    "ita": {
+     "title": "Domani, e domani, e domani",
+     "q": "Domani, e domani, e domani Gabrielle Zevin",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N20": {
+   "author_keys": [
+    "OL234222A"
+   ],
+   "main": {
+    "original": {
+     "q": "Metaphors We Live By George Lakoff",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 2,
+     "keyed_author_docs": 1,
+     "key": "/works/OL1952983W",
+     "title": "Metaphors We Live By",
+     "edition_count": 7,
+     "rank": 0,
+     "first_publish_year": 1980,
+     "author_name": [
+      "George Lakoff",
+      "Mark Johnson",
+      "Lakoff"
+     ],
+     "others": [
+      [
+       "/works/OL18183435W",
+       "The Winchester Reader",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1952983W",
+      "title": "Metaphors We Live By",
+      "edition_count": 7,
+      "rank": 0,
+      "first_publish_year": 1980,
+      "author_name": [
+       "George Lakoff",
+       "Mark Johnson",
+       "Lakoff"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "eng": {
+     "title": "Metaphors We Live By",
+     "q": "Metaphors We Live By George Lakoff",
+     "num_found": 3,
+     "docs": 3,
+     "author_docs": 2,
+     "keyed_author_docs": 1,
+     "key": "/works/OL1952983W",
+     "edition_count": 7,
+     "rank": 0,
+     "first_publish_year": 1980,
+     "author_name": [
+      "George Lakoff",
+      "Mark Johnson",
+      "Lakoff"
+     ],
+     "others": [
+      [
+       "/works/OL18183435W",
+       "The Winchester Reader",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL1952983W",
+      "title": "Metaphors We Live By",
+      "edition_count": 7,
+      "rank": 0,
+      "first_publish_year": 1980,
+      "author_name": [
+       "George Lakoff",
+       "Mark Johnson",
+       "Lakoff"
+      ],
+      "others": []
+     }
+    },
+    "ita": {
+     "title": "Metafora e vita quotidiana",
+     "q": "Metafora e vita quotidiana George Lakoff",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N21": {
+   "author_keys": [
+    "OL89930A",
+    "OL16465510A",
+    "OL16072091A",
+    "OL9931013A",
+    "OL12200718A",
+    "OL5228825A",
+    "OL16061210A",
+    "OL1289963A",
+    "OL12875832A",
+    "OL11420123A"
+   ],
+   "main": {
+    "original": {
+     "q": "Veinte poemas de amor y una canción desesperada Pablo Neruda",
+     "num_found": 12,
+     "docs": 12,
+     "author_docs": 8,
+     "keyed_author_docs": 8,
+     "key": "/works/OL979517W",
+     "title": "Veinte poemas de amor y una canción desesperada",
+     "edition_count": 135,
+     "rank": 0,
+     "first_publish_year": 1924,
+     "author_name": [
+      "Pablo Neruda"
+     ],
+     "others": [
+      [
+       "/works/OL979577W",
+       "Cien Sonetos de Amor - Veinte Poemas de Amor",
+       8
+      ],
+      [
+       "/works/OL979787W",
+       "Veinte poemas de amor y una cancion desesperada  Los versos del capitan",
+       1
+      ],
+      [
+       "/works/OL42550151W",
+       "Veinte Poemas de Amor y una Canción Desesperada y Cien Sonetos de Amor / Twenty Love Poems and a Song of Despair and 100 Love Sonnets",
+       1
+      ],
+      [
+       "/works/OL43693642W",
+       "Eikosi poiēmata tou erōta ki hena tragoudi apelpismeno",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL979517W",
+      "title": "Veinte poemas de amor y una canción desesperada",
+      "edition_count": 135,
+      "rank": 0,
+      "first_publish_year": 1924,
+      "author_name": [
+       "Pablo Neruda"
+      ],
+      "others": [
+       [
+        "/works/OL979577W",
+        "Cien Sonetos de Amor - Veinte Poemas de Amor",
+        8
+       ],
+       [
+        "/works/OL979787W",
+        "Veinte poemas de amor y una cancion desesperada  Los versos del capitan",
+        1
+       ],
+       [
+        "/works/OL42550151W",
+        "Veinte Poemas de Amor y una Canción Desesperada y Cien Sonetos de Amor / Twenty Love Poems and a Song of Despair and 100 Love Sonnets",
+        1
+       ],
+       [
+        "/works/OL43693642W",
+        "Eikosi poiēmata tou erōta ki hena tragoudi apelpismeno",
+        1
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "spa": {
+     "title": "Veinte poemas de amor y una canción desesperada",
+     "q": "Veinte poemas de amor y una canción desesperada Pablo Neruda",
+     "num_found": 12,
+     "docs": 12,
+     "author_docs": 8,
+     "keyed_author_docs": 8,
+     "key": "/works/OL979517W",
+     "edition_count": 135,
+     "rank": 0,
+     "first_publish_year": 1924,
+     "author_name": [
+      "Pablo Neruda"
+     ],
+     "others": [
+      [
+       "/works/OL979577W",
+       "Cien Sonetos de Amor - Veinte Poemas de Amor",
+       8
+      ],
+      [
+       "/works/OL979787W",
+       "Veinte poemas de amor y una cancion desesperada  Los versos del capitan",
+       1
+      ],
+      [
+       "/works/OL42550151W",
+       "Veinte Poemas de Amor y una Canción Desesperada y Cien Sonetos de Amor / Twenty Love Poems and a Song of Despair and 100 Love Sonnets",
+       1
+      ],
+      [
+       "/works/OL43693642W",
+       "Eikosi poiēmata tou erōta ki hena tragoudi apelpismeno",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL979517W",
+      "title": "Veinte poemas de amor y una canción desesperada",
+      "edition_count": 135,
+      "rank": 0,
+      "first_publish_year": 1924,
+      "author_name": [
+       "Pablo Neruda"
+      ],
+      "others": [
+       [
+        "/works/OL979577W",
+        "Cien Sonetos de Amor - Veinte Poemas de Amor",
+        8
+       ],
+       [
+        "/works/OL979787W",
+        "Veinte poemas de amor y una cancion desesperada  Los versos del capitan",
+        1
+       ],
+       [
+        "/works/OL42550151W",
+        "Veinte Poemas de Amor y una Canción Desesperada y Cien Sonetos de Amor / Twenty Love Poems and a Song of Despair and 100 Love Sonnets",
+        1
+       ],
+       [
+        "/works/OL43693642W",
+        "Eikosi poiēmata tou erōta ki hena tragoudi apelpismeno",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Veinte poemas de amor y una canción desesperada",
+     "q": "Twenty Love Poems and a Song of Despair Pablo Neruda",
+     "num_found": 6,
+     "docs": 6,
+     "author_docs": 4,
+     "keyed_author_docs": 4,
+     "key": "/works/OL979517W",
+     "edition_count": 135,
+     "rank": 0,
+     "first_publish_year": 1924,
+     "author_name": [
+      "Pablo Neruda"
+     ],
+     "others": [
+      [
+       "/works/OL30526511W",
+       "Twenty Love Poems and a Song of Despair",
+       1
+      ],
+      [
+       "/works/OL22033079W",
+       "Even This Twilight",
+       1
+      ],
+      [
+       "/works/OL42550151W",
+       "Veinte Poemas de Amor y una Canción Desesperada y Cien Sonetos de Amor / Twenty Love Poems and a Song of Despair and 100 Love Sonnets",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL979517W",
+      "title": "Veinte poemas de amor y una canción desesperada",
+      "edition_count": 135,
+      "rank": 0,
+      "first_publish_year": 1924,
+      "author_name": [
+       "Pablo Neruda"
+      ],
+      "others": [
+       [
+        "/works/OL30526511W",
+        "Twenty Love Poems and a Song of Despair",
+        1
+       ],
+       [
+        "/works/OL22033079W",
+        "Even This Twilight",
+        1
+       ],
+       [
+        "/works/OL42550151W",
+        "Veinte Poemas de Amor y una Canción Desesperada y Cien Sonetos de Amor / Twenty Love Poems and a Song of Despair and 100 Love Sonnets",
+        1
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Venti poesie d'amore e una canzone disperata",
+     "q": "Venti poesie d'amore e una canzone disperata Pablo Neruda",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N22": {
+   "author_keys": [
+    "OL466123A",
+    "OL13374495A"
+   ],
+   "main": {
+    "original": {
+     "q": "Le Capital au XXIe siècle Thomas Piketty",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL16814568W",
+     "title": "Le capital au XXIe siècle",
+     "edition_count": 20,
+     "rank": 0,
+     "first_publish_year": 2013,
+     "author_name": [
+      "Thomas Piketty"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL16814568W",
+      "title": "Le capital au XXIe siècle",
+      "edition_count": 20,
+      "rank": 0,
+      "first_publish_year": 2013,
+      "author_name": [
+       "Thomas Piketty"
+      ],
+      "others": []
+     }
+    }
+   },
+   "entries": {
+    "fre": {
+     "title": "Le capital au XXIe siècle",
+     "q": "Le Capital au XXIe siècle Thomas Piketty",
+     "num_found": 4,
+     "docs": 4,
+     "author_docs": 1,
+     "keyed_author_docs": 1,
+     "key": "/works/OL16814568W",
+     "edition_count": 20,
+     "rank": 0,
+     "first_publish_year": 2013,
+     "author_name": [
+      "Thomas Piketty"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL16814568W",
+      "title": "Le capital au XXIe siècle",
+      "edition_count": 20,
+      "rank": 0,
+      "first_publish_year": 2013,
+      "author_name": [
+       "Thomas Piketty"
+      ],
+      "others": []
+     }
+    },
+    "eng": {
+     "title": "Capital in the Twenty-First Century",
+     "q": "Capital in the Twenty-First Century Thomas Piketty",
+     "num_found": 8,
+     "docs": 8,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "ita": {
+     "title": "Il capitale nel XXI secolo",
+     "q": "Il capitale nel XXI secolo Thomas Piketty",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  },
+  "N23": {
+   "author_keys": [
+    "OL23273A",
+    "OL2354868A",
+    "OL5988788A",
+    "OL1278601A",
+    "OL18404A",
+    "OL160391A",
+    "OL998545A",
+    "OL1710422A",
+    "OL198044A",
+    "OL6724207A"
+   ],
+   "main": {
+    "original": {
+     "q": "Ὀδύσσεια Homer",
+     "num_found": 6,
+     "docs": 6,
+     "author_docs": 2,
+     "keyed_author_docs": 4,
+     "key": "/works/OL29477874W",
+     "title": "Iliad and the Oddysey",
+     "edition_count": 1,
+     "rank": 2,
+     "first_publish_year": 1488,
+     "author_name": [
+      "Homer Epic Poem"
+     ],
+     "others": [
+      [
+       "/works/OL43226560W",
+       "Ὁμήρου Ὀδυ̋σσεια",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL61981W",
+      "title": "Ἰλιάς",
+      "edition_count": 1084,
+      "rank": 1,
+      "first_publish_year": 1505,
+      "author_name": [
+       "Όμηρος"
+      ],
+      "others": [
+       [
+        "/works/OL61982W",
+        "Ὀδύσσεια",
+        1066
+       ],
+       [
+        "/works/OL61971W",
+        "Opera",
+        31
+       ],
+       [
+        "/works/OL43226560W",
+        "Ὁμήρου Ὀδυ̋σσεια",
+        1
+       ]
+      ]
+     }
+    },
+    "romanised": {
+     "q": "Odysseia Homer",
+     "num_found": 131,
+     "docs": 20,
+     "author_docs": 5,
+     "keyed_author_docs": 15,
+     "key": "/works/OL43354206W",
+     "title": "Homērou Odysseia",
+     "edition_count": 3,
+     "rank": 6,
+     "first_publish_year": 1547,
+     "author_name": [
+      "Homer"
+     ],
+     "others": [
+      [
+       "/works/OL44697574W",
+       "Odysseia",
+       2
+      ],
+      [
+       "/works/OL43637907W",
+       "Homērou Odysseia",
+       1
+      ],
+      [
+       "/works/OL45739214W",
+       "Odysseia",
+       1
+      ],
+      [
+       "/works/OL45627196W",
+       "Homērou Odysseia",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL61981W",
+      "title": "Ἰλιάς",
+      "edition_count": 1084,
+      "rank": 1,
+      "first_publish_year": 1505,
+      "author_name": [
+       "Όμηρος"
+      ],
+      "others": [
+       [
+        "/works/OL61982W",
+        "Ὀδύσσεια",
+        1066
+       ],
+       [
+        "/works/OL16110109W",
+        "Homērou Odysseia",
+        4
+       ],
+       [
+        "/works/OL33155117W",
+        "Homērou Odysseia",
+        1
+       ],
+       [
+        "/works/OL43354206W",
+        "Homērou Odysseia",
+        3
+       ]
+      ]
+     }
+    }
+   },
+   "entries": {
+    "grc": {
+     "title": "Iliad and the Oddysey",
+     "q": "Ὀδύσσεια Homer",
+     "num_found": 6,
+     "docs": 6,
+     "author_docs": 2,
+     "keyed_author_docs": 4,
+     "key": "/works/OL29477874W",
+     "edition_count": 1,
+     "rank": 2,
+     "first_publish_year": 1488,
+     "author_name": [
+      "Homer Epic Poem"
+     ],
+     "others": [
+      [
+       "/works/OL43226560W",
+       "Ὁμήρου Ὀδυ̋σσεια",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL61981W",
+      "title": "Ἰλιάς",
+      "edition_count": 1084,
+      "rank": 1,
+      "first_publish_year": 1505,
+      "author_name": [
+       "Όμηρος"
+      ],
+      "others": [
+       [
+        "/works/OL61982W",
+        "Ὀδύσσεια",
+        1066
+       ],
+       [
+        "/works/OL61971W",
+        "Opera",
+        31
+       ],
+       [
+        "/works/OL43226560W",
+        "Ὁμήρου Ὀδυ̋σσεια",
+        1
+       ]
+      ]
+     }
+    },
+    "eng": {
+     "title": "Homer",
+     "q": "The Odyssey Homer",
+     "num_found": 1174,
+     "docs": 20,
+     "author_docs": 1,
+     "keyed_author_docs": 9,
+     "key": "/works/OL12818091W",
+     "edition_count": 29,
+     "rank": 5,
+     "first_publish_year": 1870,
+     "author_name": [
+      "W. Lucas Collins",
+      "Homer Odyssey English"
+     ],
+     "others": [],
+     "keyed": {
+      "key": "/works/OL61981W",
+      "title": "Ἰλιάς",
+      "edition_count": 1084,
+      "rank": 1,
+      "first_publish_year": 1505,
+      "author_name": [
+       "Όμηρος"
+      ],
+      "others": [
+       [
+        "/works/OL61982W",
+        "Ὀδύσσεια",
+        1066
+       ],
+       [
+        "/works/OL26446888W",
+        "The Odyssey",
+        118
+       ],
+       [
+        "/works/OL26784440W",
+        "Odyssey",
+        240
+       ],
+       [
+        "/works/OL17812254W",
+        "The Odyssey",
+        20
+       ]
+      ]
+     }
+    },
+    "ita": {
+     "title": "Iliade",
+     "q": "Odissea Homer",
+     "num_found": 127,
+     "docs": 20,
+     "author_docs": 13,
+     "keyed_author_docs": 14,
+     "key": "/works/OL43999507W",
+     "edition_count": 3,
+     "rank": 3,
+     "first_publish_year": 1858,
+     "author_name": [
+      "Homer",
+      "J. U. Faesi"
+     ],
+     "others": [
+      [
+       "/works/OL31076433W",
+       "Odissea Illustrata",
+       1
+      ],
+      [
+       "/works/OL45967711W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL45949140W",
+       "L'Odissea",
+       1
+      ],
+      [
+       "/works/OL27496073W",
+       "Odissea Illustrata",
+       1
+      ]
+     ],
+     "keyed": {
+      "key": "/works/OL61982W",
+      "title": "Ὀδύσσεια",
+      "edition_count": 1066,
+      "rank": 0,
+      "first_publish_year": 1488,
+      "author_name": [
+       "Ὅμηρος"
+      ],
+      "others": [
+       [
+        "/works/OL26995759W",
+        "Odissea",
+        11
+       ],
+       [
+        "/works/OL43999507W",
+        "Iliade",
+        3
+       ],
+       [
+        "/works/OL45967711W",
+        "Odissea",
+        1
+       ],
+       [
+        "/works/OL18021904W",
+        "Odissea",
+        2
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "N24": {
+   "author_keys": [],
+   "main": {
+    "original": {
+     "q": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna Orlando Ciprian",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    },
+    "original_core": {
+     "q": "Tutto per una casa Orlando Ciprian",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   },
+   "entries": {
+    "ita": {
+     "title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+     "q": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna Orlando Ciprian",
+     "num_found": 0,
+     "docs": 0,
+     "author_docs": 0,
+     "keyed_author_docs": 0,
+     "key": null,
+     "keyed": {
+      "key": null
+     }
+    }
+   }
+  }
+ },
+ "wall_s": 48.6,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 38,
+   "failed": 0,
+   "total_s": 40.06,
+   "p50_s": 0.774,
+   "max_s": 6.049
+  }
+ },
+ "failures": []
+}

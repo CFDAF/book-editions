@@ -1,0 +1,4457 @@
+{
+ "books": {
+  "E01": {
+   "id": "E01",
+   "wall_s": 3.7,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 25,
+     "failed": 0,
+     "total_s": 7.62,
+     "p50_s": 0.33,
+     "max_s": 0.592
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.71,
+     "p50_s": 3.708,
+     "max_s": 3.708
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "cien anos de soledad",
+     "author": "Garcia Marquez",
+     "total": 143,
+     "lingua_facet": [
+      [
+       "ita",
+       90
+      ],
+      [
+       "spa",
+       22
+      ],
+      [
+       "eng",
+       12
+      ],
+      [
+       "ger",
+       3
+      ],
+      [
+       "ara",
+       2
+      ],
+      [
+       "rus",
+       2
+      ],
+      [
+       "alb",
+       1
+      ],
+      [
+       "chi",
+       1
+      ],
+      [
+       "epo",
+       1
+      ],
+      [
+       "fre",
+       1
+      ],
+      [
+       "gre",
+       1
+      ],
+      [
+       "per",
+       1
+      ],
+      [
+       "pol",
+       1
+      ],
+      [
+       "por",
+       1
+      ],
+      [
+       "rum",
+       1
+      ],
+      [
+       "slv",
+       1
+      ],
+      [
+       "srp",
+       1
+      ],
+      [
+       "tur",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 143,
+     "rows": 143,
+     "multilingual_rows": 0,
+     "languages": 18,
+     "bogus_lingua_total": 0,
+     "year_parsed": 141,
+     "publisher_present": 143,
+     "language_present": 143,
+     "requests": 25,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 2.5,
+     "entries": [
+      "ita",
+      "eng",
+      "spa"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "AQ10067111",
+       "imprint": "Athena : Libane, \\s. d.!"
+      },
+      {
+       "bid": "UMC0987900",
+       "imprint": "Fa parte di: 1"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL274505W",
+    "size": 208,
+    "rows": 208,
+    "languages": 15,
+    "language_codes": [
+     "ara",
+     "chi",
+     "eng",
+     "fre",
+     "ger",
+     "gre",
+     "guj",
+     "ita",
+     "jpn",
+     "kor",
+     "pol",
+     "por",
+     "rus",
+     "spa",
+     "tur"
+    ],
+    "year_parsed": 204,
+    "publisher_present": 202,
+    "language_present": 162,
+    "requests": 26,
+    "failed": [],
+    "wall_s": 3.7,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL49665545M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL43428360M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL27672255M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL8834508M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "E02": {
+   "id": "E02",
+   "wall_s": 9.1,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 7,
+     "failed": 0,
+     "total_s": 2.21,
+     "p50_s": 0.299,
+     "max_s": 0.525
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 9.06,
+     "p50_s": 9.061,
+     "max_s": 9.061
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "steps to an ecology of mind",
+     "author": "Bateson",
+     "total": 26,
+     "lingua_facet": [
+      [
+       "ita",
+       22
+      ],
+      [
+       "eng",
+       2
+      ],
+      [
+       "fre",
+       1
+      ],
+      [
+       "ger",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 26,
+     "rows": 26,
+     "multilingual_rows": 0,
+     "languages": 4,
+     "bogus_lingua_total": 0,
+     "year_parsed": 25,
+     "publisher_present": 26,
+     "language_present": 26,
+     "requests": 7,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 1.1,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "UBO0976973",
+       "imprint": "Paris : Seuil"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL486424W",
+    "size": 14,
+    "rows": 14,
+    "languages": 2,
+    "language_codes": [
+     "eng",
+     "ger"
+    ],
+    "year_parsed": 14,
+    "publisher_present": 14,
+    "language_present": 12,
+    "requests": 8,
+    "failed": [],
+    "wall_s": 9.1,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E03": {
+   "id": "E03",
+   "wall_s": 4.3,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 5,
+     "failed": 0,
+     "total_s": 1.61,
+     "p50_s": 0.369,
+     "max_s": 0.423
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 4.34,
+     "p50_s": 4.343,
+     "max_s": 4.343
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "bruits : essai sur l'economie politique de la musique",
+     "author": "Jacques Attali",
+     "total": 3,
+     "lingua_facet": [
+      [
+       "eng",
+       1
+      ],
+      [
+       "fre",
+       1
+      ],
+      [
+       "ita",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 3,
+     "rows": 3,
+     "multilingual_rows": 0,
+     "languages": 3,
+     "bogus_lingua_total": 0,
+     "year_parsed": 3,
+     "publisher_present": 3,
+     "language_present": 3,
+     "requests": 5,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 0.8,
+     "entries": [
+      "ita",
+      "eng",
+      "fre"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL685250W",
+    "size": 7,
+    "rows": 7,
+    "languages": 2,
+    "language_codes": [
+     "eng",
+     "fre"
+    ],
+    "year_parsed": 7,
+    "publisher_present": 7,
+    "language_present": 6,
+    "requests": 6,
+    "failed": [],
+    "wall_s": 4.3,
+    "how": "original_core, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E04": {
+   "id": "E04",
+   "wall_s": 5.1,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 9,
+     "failed": 0,
+     "total_s": 1.67,
+     "p50_s": 0.182,
+     "max_s": 0.245
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 5.13,
+     "p50_s": 5.129,
+     "max_s": 5.129
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "umibe no kafuka",
+     "author": "Murakami Haruki",
+     "total": 20,
+     "lingua_facet": [
+      [
+       "ita",
+       12
+      ],
+      [
+       "eng",
+       3
+      ],
+      [
+       "ara",
+       1
+      ],
+      [
+       "chi",
+       1
+      ],
+      [
+       "fre",
+       1
+      ],
+      [
+       "jpn",
+       1
+      ],
+      [
+       "rus",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 20,
+     "rows": 20,
+     "multilingual_rows": 0,
+     "languages": 7,
+     "bogus_lingua_total": 0,
+     "year_parsed": 20,
+     "publisher_present": 20,
+     "language_present": 20,
+     "requests": 9,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 0.7,
+     "entries": [
+      "ita",
+      "eng",
+      "jpn"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL2625431W",
+    "size": 61,
+    "rows": 61,
+    "languages": 15,
+    "language_codes": [
+     "cat",
+     "chi",
+     "dut",
+     "eng",
+     "fre",
+     "ger",
+     "heb",
+     "jpn",
+     "kor",
+     "pol",
+     "rus",
+     "spa",
+     "srp",
+     "swe",
+     "vie"
+    ],
+    "year_parsed": 60,
+    "publisher_present": 60,
+    "language_present": 43,
+    "requests": 10,
+    "failed": [],
+    "wall_s": 5.1,
+    "how": "original, keyed author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL28265871M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "E05": {
+   "id": "E05",
+   "wall_s": 3.1,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 3,
+     "failed": 0,
+     "total_s": 0.91,
+     "p50_s": 0.294,
+     "max_s": 0.342
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.05,
+     "p50_s": 3.054,
+     "max_s": 3.054
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "invention of news",
+     "author": "Pettegree",
+     "total": 2,
+     "lingua_facet": [
+      [
+       "ita",
+       2
+      ]
+     ],
+     "lingua_facet_sum": 2,
+     "rows": 2,
+     "multilingual_rows": 0,
+     "languages": 1,
+     "bogus_lingua_total": 0,
+     "year_parsed": 2,
+     "publisher_present": 2,
+     "language_present": 2,
+     "requests": 3,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 0.9,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL19983430W",
+    "size": 3,
+    "rows": 3,
+    "languages": 1,
+    "language_codes": [
+     "eng"
+    ],
+    "year_parsed": 3,
+    "publisher_present": 3,
+    "language_present": 3,
+    "requests": 4,
+    "failed": [],
+    "wall_s": 3.1,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E06": {
+   "id": "E06",
+   "wall_s": 7.7,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 3,
+     "failed": 0,
+     "total_s": 0.44,
+     "p50_s": 0.161,
+     "max_s": 0.184
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 7.7,
+     "p50_s": 7.696,
+     "max_s": 7.696
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "more brilliant than the sun",
+     "author": "Eshun",
+     "total": 1,
+     "lingua_facet": [
+      [
+       "ita",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 1,
+     "rows": 1,
+     "multilingual_rows": 0,
+     "languages": 1,
+     "bogus_lingua_total": 0,
+     "year_parsed": 1,
+     "publisher_present": 1,
+     "language_present": 1,
+     "requests": 3,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 0.4,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL2693265W",
+    "size": 3,
+    "rows": 3,
+    "languages": 1,
+    "language_codes": [
+     "eng"
+    ],
+    "year_parsed": 2,
+    "publisher_present": 3,
+    "language_present": 3,
+    "requests": 4,
+    "failed": [],
+    "wall_s": 7.7,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL35792654M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "E07": {
+   "id": "E07",
+   "wall_s": 3.6,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 4,
+     "failed": 0,
+     "total_s": 0.67,
+     "p50_s": 0.186,
+     "max_s": 0.196
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.64,
+     "p50_s": 3.641,
+     "max_s": 3.641
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "liquid modernity.",
+     "author": "Bauman",
+     "total": 15,
+     "lingua_facet": [
+      [
+       "ita",
+       13
+      ],
+      [
+       "eng",
+       2
+      ]
+     ],
+     "lingua_facet_sum": 15,
+     "rows": 15,
+     "multilingual_rows": 0,
+     "languages": 2,
+     "bogus_lingua_total": 0,
+     "year_parsed": 13,
+     "publisher_present": 15,
+     "language_present": 15,
+     "requests": 4,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 0.5,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "UBO4204084",
+       "imprint": "[Rev. ed.]"
+      },
+      {
+       "bid": "RMS1902948",
+       "imprint": "3. ed"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL527224W",
+    "size": 6,
+    "rows": 6,
+    "languages": 1,
+    "language_codes": [
+     "eng"
+    ],
+    "year_parsed": 6,
+    "publisher_present": 6,
+    "language_present": 4,
+    "requests": 5,
+    "failed": [],
+    "wall_s": 3.6,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E08": {
+   "id": "E08",
+   "wall_s": 18.4,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 3,
+     "failed": 0,
+     "total_s": 0.35,
+     "p50_s": 0.117,
+     "max_s": 0.133
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 18.44,
+     "p50_s": 18.444,
+     "max_s": 18.444
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "communication: the social matrix of psychiatry.",
+     "author": "Ruesch",
+     "total": 1,
+     "lingua_facet": [
+      [
+       "ita",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 1,
+     "rows": 1,
+     "multilingual_rows": 0,
+     "languages": 1,
+     "bogus_lingua_total": 0,
+     "year_parsed": 1,
+     "publisher_present": 1,
+     "language_present": 1,
+     "requests": 3,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 0.4,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL12269244W",
+    "size": 5,
+    "rows": 5,
+    "languages": 1,
+    "language_codes": [
+     "eng"
+    ],
+    "year_parsed": 5,
+    "publisher_present": 5,
+    "language_present": 4,
+    "requests": 4,
+    "failed": [],
+    "wall_s": 18.4,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E09": {
+   "id": "E09",
+   "wall_s": 6.7,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 33,
+     "failed": 0,
+     "total_s": 21.01,
+     "p50_s": 0.64,
+     "max_s": 1.07
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 4.22,
+     "p50_s": 4.217,
+     "max_s": 4.217
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "nome della rosa",
+     "author": "Eco",
+     "total": 232,
+     "lingua_facet": [
+      [
+       "ita",
+       166
+      ],
+      [
+       "eng",
+       9
+      ],
+      [
+       "fre",
+       6
+      ],
+      [
+       "ger",
+       6
+      ],
+      [
+       "rum",
+       6
+      ],
+      [
+       "spa",
+       6
+      ],
+      [
+       "rus",
+       5
+      ],
+      [
+       "cze",
+       3
+      ],
+      [
+       "jpn",
+       3
+      ],
+      [
+       "pol",
+       3
+      ],
+      [
+       "por",
+       3
+      ],
+      [
+       "alb",
+       2
+      ],
+      [
+       "chi",
+       2
+      ],
+      [
+       "dut",
+       2
+      ],
+      [
+       "hrv",
+       2
+      ],
+      [
+       "hun",
+       2
+      ],
+      [
+       "slv",
+       2
+      ],
+      [
+       "ukr",
+       2
+      ],
+      [
+       "ara",
+       1
+      ],
+      [
+       "lat",
+       1
+      ],
+      [
+       "lit",
+       1
+      ],
+      [
+       "mul",
+       1
+      ],
+      [
+       "nor",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 235,
+     "rows": 232,
+     "multilingual_rows": 3,
+     "languages": 23,
+     "bogus_lingua_total": 0,
+     "year_parsed": 230,
+     "publisher_present": 232,
+     "language_present": 232,
+     "requests": 34,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 6.7,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "ANA0184685",
+       "imprint": "533 p"
+      },
+      {
+       "bid": "PUV1543472",
+       "imprint": "Lisboa : Difel, [198?]"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL8996439W",
+    "size": 151,
+    "rows": 151,
+    "languages": 12,
+    "language_codes": [
+     "cat",
+     "cze",
+     "dut",
+     "eng",
+     "fre",
+     "ger",
+     "hun",
+     "ita",
+     "pol",
+     "por",
+     "rus",
+     "spa"
+    ],
+    "year_parsed": 151,
+    "publisher_present": 150,
+    "language_present": 125,
+    "requests": 21,
+    "failed": [],
+    "wall_s": 4.2,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E10": {
+   "id": "E10",
+   "wall_s": 6.4,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 6.36,
+     "p50_s": 6.356,
+     "max_s": 6.356
+    }
+   },
+   "failures": [],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL15102110W",
+    "size": 12,
+    "rows": 12,
+    "languages": 2,
+    "language_codes": [
+     "fre",
+     "ita"
+    ],
+    "year_parsed": 12,
+    "publisher_present": 12,
+    "language_present": 12,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 6.4,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E11": {
+   "id": "E11",
+   "wall_s": 3.2,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.18,
+     "p50_s": 3.181,
+     "max_s": 3.181
+    }
+   },
+   "failures": [],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL610110W",
+    "size": 19,
+    "rows": 19,
+    "languages": 2,
+    "language_codes": [
+     "eng",
+     "ita"
+    ],
+    "year_parsed": 19,
+    "publisher_present": 19,
+    "language_present": 19,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 3.2,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E12": {
+   "id": "E12",
+   "wall_s": 2.8,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 2.85,
+     "p50_s": 2.845,
+     "max_s": 2.845
+    }
+   },
+   "failures": [],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL16171243W",
+    "size": 1,
+    "rows": 1,
+    "languages": 1,
+    "language_codes": [
+     "ger"
+    ],
+    "year_parsed": 1,
+    "publisher_present": 1,
+    "language_present": 1,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 2.8,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E13": {
+   "id": "E13",
+   "wall_s": 2.6,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 2.61,
+     "p50_s": 2.61,
+     "max_s": 2.61
+    }
+   },
+   "failures": [],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL156188W",
+    "size": 2,
+    "rows": 2,
+    "languages": 1,
+    "language_codes": [
+     "ger"
+    ],
+    "year_parsed": 2,
+    "publisher_present": 2,
+    "language_present": 2,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 2.6,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E14": {
+   "id": "E14",
+   "wall_s": 5.5,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 5.45,
+     "p50_s": 5.453,
+     "max_s": 5.453
+    }
+   },
+   "failures": [],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL23302246W",
+    "size": 1,
+    "rows": 1,
+    "languages": 1,
+    "language_codes": [
+     "fre"
+    ],
+    "year_parsed": 1,
+    "publisher_present": 1,
+    "language_present": 1,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 5.5,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E15": {
+   "id": "E15",
+   "wall_s": 2.6,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 2.59,
+     "p50_s": 2.589,
+     "max_s": 2.589
+    }
+   },
+   "failures": [],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL36428365W",
+    "size": 1,
+    "rows": 1,
+    "languages": 0,
+    "language_codes": [],
+    "year_parsed": 1,
+    "publisher_present": 1,
+    "language_present": 0,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 2.6,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "E16": {
+   "id": "E16",
+   "wall_s": 12.6,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 15,
+     "failed": 0,
+     "total_s": 6.84,
+     "p50_s": 0.456,
+     "max_s": 1.237
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 1,
+     "total_s": 12.62,
+     "p50_s": 12.622,
+     "max_s": 12.622
+    }
+   },
+   "failures": [
+    {
+     "host": "openlibrary.org",
+     "method": "GET",
+     "url": "https://openlibrary.org/works/OL258301W/editions.json",
+     "params": {
+      "limit": "1000"
+     },
+     "t": 1789402867.583,
+     "elapsed": 12.622,
+     "status": null,
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL258301W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+    }
+   ],
+   "sbn": [
+    {
+     "W": "doktor zivago",
+     "author": "Pasternak",
+     "total": 126,
+     "lingua_facet": [
+      [
+       "ita",
+       99
+      ],
+      [
+       "rus",
+       11
+      ],
+      [
+       "eng",
+       9
+      ],
+      [
+       "fre",
+       4
+      ],
+      [
+       "rum",
+       2
+      ],
+      [
+       "alb",
+       1
+      ],
+      [
+       "ger",
+       1
+      ],
+      [
+       "por",
+       1
+      ],
+      [
+       "slv",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 129,
+     "rows": 126,
+     "multilingual_rows": 3,
+     "languages": 9,
+     "bogus_lingua_total": 0,
+     "year_parsed": 123,
+     "publisher_present": 125,
+     "language_present": 126,
+     "requests": 15,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 2.5,
+     "entries": [
+      "ita"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "RMS1900157",
+       "imprint": "28. ed"
+      },
+      {
+       "bid": "MOD1598740",
+       "imprint": "Registrazione sonora non musicale - Monografia [IT\\ICCU\\MOD\\1598740]"
+      },
+      {
+       "bid": "PAR1195904",
+       "imprint": "Fa parte di: Opere narrative"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL258301W",
+    "size": 176,
+    "rows": 176,
+    "languages": 14,
+    "language_codes": [
+     "chi",
+     "dan",
+     "dut",
+     "eng",
+     "est",
+     "fre",
+     "ger",
+     "ita",
+     "pol",
+     "rus",
+     "slo",
+     "spa",
+     "vie",
+     "yid"
+    ],
+    "year_parsed": 172,
+    "publisher_present": 175,
+    "language_present": 154,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 5.1,
+    "how": "original, strict author match",
+    "retry": {
+     "first_attempt_failures": [
+      {
+       "host": "openlibrary.org",
+       "method": "GET",
+       "url": "https://openlibrary.org/works/OL258301W/editions.json",
+       "params": {
+        "limit": "1000"
+       },
+       "t": 1789402867.583,
+       "elapsed": 12.622,
+       "status": null,
+       "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL258301W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+      }
+     ],
+     "requests": {
+      "openlibrary.org": {
+       "requests": 1,
+       "failed": 0,
+       "total_s": 5.07,
+       "p50_s": 5.065,
+       "max_s": 5.065
+      }
+     },
+     "note": "first cold attempt failed; this listing is a second attempt"
+    },
+    "year_parse_failures": [
+     {
+      "key": "/books/OL27932723M",
+      "publish_date": "1940s"
+     },
+     {
+      "key": "/books/OL22026474M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL21988810M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13854907M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N01": {
+   "id": "N01",
+   "wall_s": 12.3,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 20,
+     "failed": 0,
+     "total_s": 14.22,
+     "p50_s": 0.795,
+     "max_s": 1.754
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 12.29,
+     "p50_s": 12.289,
+     "max_s": 12.289
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "nesnesitelna lehkost byti",
+     "author": "Milan Kundera",
+     "total": 109,
+     "lingua_facet": [
+      [
+       "ita",
+       73
+      ],
+      [
+       "eng",
+       9
+      ],
+      [
+       "fre",
+       6
+      ],
+      [
+       "ger",
+       5
+      ],
+      [
+       "cze",
+       3
+      ],
+      [
+       "rus",
+       3
+      ],
+      [
+       "rum",
+       2
+      ],
+      [
+       "spa",
+       2
+      ],
+      [
+       "alb",
+       1
+      ],
+      [
+       "ara",
+       1
+      ],
+      [
+       "chi",
+       1
+      ],
+      [
+       "pol",
+       1
+      ],
+      [
+       "slv",
+       1
+      ],
+      [
+       "tur",
+       1
+      ],
+      [
+       "ukr",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 110,
+     "rows": 109,
+     "multilingual_rows": 1,
+     "languages": 15,
+     "bogus_lingua_total": 0,
+     "year_parsed": 108,
+     "publisher_present": 109,
+     "language_present": 109,
+     "requests": 20,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 4.9,
+     "entries": [
+      "cze",
+      "eng",
+      "ita"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "LO11265422",
+       "imprint": "Testo - Monografia [IT\\ICCU\\LO1\\1265422]"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL8972751W",
+    "size": 81,
+    "rows": 81,
+    "languages": 14,
+    "language_codes": [
+     "ara",
+     "chi",
+     "cmn",
+     "cze",
+     "eng",
+     "fre",
+     "ger",
+     "ita",
+     "pol",
+     "rum",
+     "rus",
+     "spa",
+     "tur",
+     "vie"
+    ],
+    "year_parsed": 78,
+    "publisher_present": 78,
+    "language_present": 68,
+    "requests": 21,
+    "failed": [],
+    "wall_s": 12.3,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL13627390M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9149762M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9105377M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N02": {
+   "id": "N02",
+   "wall_s": 13.5,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 74,
+     "failed": 0,
+     "total_s": 44.62,
+     "p50_s": 0.598,
+     "max_s": 1.736
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 5.87,
+     "p50_s": 5.873,
+     "max_s": 5.873
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "petit prince",
+     "author": "Antoine de Saint-Exupéry",
+     "total": 613,
+     "lingua_facet": [
+      [
+       "ita",
+       376
+      ],
+      [
+       "fre",
+       64
+      ],
+      [
+       "eng",
+       25
+      ],
+      [
+       "ger",
+       24
+      ],
+      [
+       "spa",
+       18
+      ],
+      [
+       "chi",
+       14
+      ],
+      [
+       "ara",
+       13
+      ],
+      [
+       "por",
+       11
+      ],
+      [
+       "rus",
+       10
+      ],
+      [
+       "pol",
+       7
+      ],
+      [
+       "ukr",
+       6
+      ],
+      [
+       "hrv",
+       5
+      ],
+      [
+       "rum",
+       5
+      ],
+      [
+       "srd",
+       5
+      ],
+      [
+       "alb",
+       4
+      ],
+      [
+       "slv",
+       4
+      ],
+      [
+       "srp",
+       4
+      ],
+      [
+       "tur",
+       4
+      ],
+      [
+       "ben",
+       3
+      ],
+      [
+       "epo",
+       3
+      ],
+      [
+       "hin",
+       3
+      ],
+      [
+       "jpn",
+       3
+      ],
+      [
+       "lat",
+       3
+      ],
+      [
+       "heb",
+       2
+      ],
+      [
+       "hun",
+       2
+      ],
+      [
+       "lld",
+       2
+      ],
+      [
+       "mis",
+       2
+      ],
+      [
+       "per",
+       2
+      ],
+      [
+       "arm",
+       1
+      ],
+      [
+       "baq",
+       1
+      ],
+      [
+       "bul",
+       1
+      ],
+      [
+       "cat",
+       1
+      ],
+      [
+       "cze",
+       1
+      ],
+      [
+       "fin",
+       1
+      ],
+      [
+       "fur",
+       1
+      ],
+      [
+       "gle",
+       1
+      ],
+      [
+       "glg",
+       1
+      ],
+      [
+       "hbs",
+       1
+      ],
+      [
+       "mac",
+       1
+      ],
+      [
+       "mlt",
+       1
+      ],
+      [
+       "pro",
+       1
+      ],
+      [
+       "roh",
+       1
+      ],
+      [
+       "swa",
+       1
+      ],
+      [
+       "swe",
+       1
+      ],
+      [
+       "tha",
+       1
+      ],
+      [
+       "und",
+       1
+      ],
+      [
+       "vie",
+       1
+      ],
+      [
+       "yid",
+       1
+      ],
+      [
+       "zxx",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 645,
+     "rows": 613,
+     "multilingual_rows": 28,
+     "languages": 49,
+     "bogus_lingua_total": 0,
+     "year_parsed": 592,
+     "publisher_present": 613,
+     "language_present": 611,
+     "requests": 75,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 13.5,
+     "entries": [
+      "fre",
+      "eng",
+      "ita"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "CAG2180145",
+       "imprint": "[Al-Qahira] : [Éditions des Imprimeries d’Al-Amiriya ], [201?-] - 104 p. : ill. ; 21 cm."
+      },
+      {
+       "bid": "UBO3396526",
+       "imprint": "[S.l.] : Al-manshurat al-'arabiyah, [200.]"
+      },
+      {
+       "bid": "LUA0529160",
+       "imprint": "[S.l.] : [s.n.], [201.]"
+      },
+      {
+       "bid": "RMS2334260",
+       "imprint": "91 p. : ill. ; 18 cm"
+      },
+      {
+       "bid": "CAG2129834",
+       "imprint": "Paris, Gallimard,1964 (Paris : Paul Dupont)"
+      },
+      {
+       "bid": "CAG1973004",
+       "imprint": "Testo - Monografia [IT\\ICCU\\CAG\\1973004]"
+      },
+      {
+       "bid": "PAR1218145",
+       "imprint": "[Split] : Knjigo Tosak, [200.?]"
+      },
+      {
+       "bid": "RAV1430710",
+       "imprint": "Firenze : Regione Toscana : Stamperia Braille, [19..?]"
+      },
+      {
+       "bid": "FOG0536112",
+       "imprint": "Testo - Monografia [IT\\ICCU\\FOG\\0536112]"
+      },
+      {
+       "bid": "FOG0529986",
+       "imprint": "Testo - Monografia [IT\\ICCU\\FOG\\0529986]"
+      },
+      {
+       "bid": "UMC1015879",
+       "imprint": "Testo - Monografia [IT\\ICCU\\UMC\\1015879]"
+      },
+      {
+       "bid": "URB0986306",
+       "imprint": "[S.l.:s.n.], 2023 (Urbania : Stibu)"
+      },
+      {
+       "bid": "LUA0610719",
+       "imprint": "Testo - Monografia [IT\\ICCU\\LUA\\0610719]"
+      },
+      {
+       "bid": "RLZ0026655",
+       "imprint": "121 p. : ill. ; 24 cm"
+      },
+      {
+       "bid": "RL10117190",
+       "imprint": "5. ed"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL10263W",
+    "size": 689,
+    "rows": 689,
+    "languages": 37,
+    "language_codes": [
+     "amh",
+     "arm",
+     "bre",
+     "cat",
+     "chi",
+     "cze",
+     "eng",
+     "epo",
+     "fao",
+     "fre",
+     "ger",
+     "gle",
+     "grc",
+     "gsw",
+     "heb",
+     "hrv",
+     "ina",
+     "ita",
+     "jpn",
+     "kok",
+     "kor",
+     "lat",
+     "mwl",
+     "ota",
+     "per",
+     "pol",
+     "por",
+     "roh",
+     "rus",
+     "spa",
+     "tgl",
+     "tur",
+     "vie",
+     "wel",
+     "yid",
+     "yue",
+     "zul"
+    ],
+    "year_parsed": 657,
+    "publisher_present": 680,
+    "language_present": 490,
+    "requests": 29,
+    "failed": [],
+    "wall_s": 5.9,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL43865644M",
+      "publish_date": "199u"
+     },
+     {
+      "key": "/books/OL12588649M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL35664014M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL38618653M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL43090366M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL12790355M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9606885M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9842223M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL12346555M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9028259M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9107835M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL12984021M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9109311M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13425982M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL12346556M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N03": {
+   "id": "N03",
+   "wall_s": 9.1,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 47,
+     "failed": 0,
+     "total_s": 31.5,
+     "p50_s": 0.459,
+     "max_s": 2.285
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 9.05,
+     "p50_s": 9.054,
+     "max_s": 9.054
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "se questo e un uomo",
+     "author": "Primo Levi",
+     "total": 264,
+     "lingua_facet": [
+      [
+       "ita",
+       170
+      ],
+      [
+       "ger",
+       11
+      ],
+      [
+       "spa",
+       11
+      ],
+      [
+       "eng",
+       10
+      ],
+      [
+       "dut",
+       8
+      ],
+      [
+       "fre",
+       7
+      ],
+      [
+       "cat",
+       6
+      ],
+      [
+       "dan",
+       3
+      ],
+      [
+       "por",
+       3
+      ],
+      [
+       "rus",
+       3
+      ],
+      [
+       "alb",
+       2
+      ],
+      [
+       "chi",
+       2
+      ],
+      [
+       "cze",
+       2
+      ],
+      [
+       "jpn",
+       2
+      ],
+      [
+       "pol",
+       2
+      ],
+      [
+       "rum",
+       2
+      ],
+      [
+       "ara",
+       1
+      ],
+      [
+       "baq",
+       1
+      ],
+      [
+       "bre",
+       1
+      ],
+      [
+       "bul",
+       1
+      ],
+      [
+       "est",
+       1
+      ],
+      [
+       "hbs",
+       1
+      ],
+      [
+       "heb",
+       1
+      ],
+      [
+       "hrv",
+       1
+      ],
+      [
+       "hun",
+       1
+      ],
+      [
+       "ice",
+       1
+      ],
+      [
+       "kor",
+       1
+      ],
+      [
+       "nor",
+       1
+      ],
+      [
+       "per",
+       1
+      ],
+      [
+       "roa",
+       1
+      ],
+      [
+       "slo",
+       1
+      ],
+      [
+       "slv",
+       1
+      ],
+      [
+       "srp",
+       1
+      ],
+      [
+       "swa",
+       1
+      ],
+      [
+       "swe",
+       1
+      ],
+      [
+       "tur",
+       1
+      ],
+      [
+       "ukr",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 265,
+     "rows": 264,
+     "multilingual_rows": 1,
+     "languages": 37,
+     "bogus_lingua_total": 0,
+     "year_parsed": 262,
+     "publisher_present": 264,
+     "language_present": 264,
+     "requests": 47,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 9.0,
+     "entries": [
+      "ita",
+      "eng",
+      "eng-2"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "TO01615607",
+       "imprint": "Frankfurt am Main : Fischer, [19..!"
+      },
+      {
+       "bid": "RMS1156657",
+       "imprint": "18 ed"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL860066W",
+    "size": 112,
+    "rows": 112,
+    "languages": 13,
+    "language_codes": [
+     "alb",
+     "eng",
+     "fre",
+     "ger",
+     "heb",
+     "ita",
+     "kor",
+     "pol",
+     "por",
+     "roh",
+     "rus",
+     "spa",
+     "tur"
+    ],
+    "year_parsed": 109,
+    "publisher_present": 109,
+    "language_present": 85,
+    "requests": 48,
+    "failed": [],
+    "wall_s": 9.1,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL46529534M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9176434M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9176507M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N04": {
+   "id": "N04",
+   "wall_s": 13.8,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 1,
+     "total_s": 13.82,
+     "p50_s": 13.817,
+     "max_s": 13.817
+    }
+   },
+   "failures": [
+    {
+     "host": "openlibrary.org",
+     "method": "GET",
+     "url": "https://openlibrary.org/works/OL166894W/editions.json",
+     "params": {
+      "limit": "1000"
+     },
+     "t": 1789402915.128,
+     "elapsed": 13.817,
+     "status": null,
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL166894W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+    }
+   ],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL166894W",
+    "size": 1179,
+    "rows": 1179,
+    "languages": 22,
+    "language_codes": [
+     "amh",
+     "chi",
+     "cze",
+     "dan",
+     "dut",
+     "eng",
+     "est",
+     "fin",
+     "fre",
+     "ger",
+     "gre",
+     "heb",
+     "hin",
+     "ita",
+     "jpn",
+     "pol",
+     "por",
+     "rum",
+     "rus",
+     "spa",
+     "ukr",
+     "yid"
+    ],
+    "year_parsed": 1164,
+    "publisher_present": 1175,
+    "language_present": 1045,
+    "requests": 2,
+    "failed": [],
+    "wall_s": 3.2,
+    "how": "original, keyed author match",
+    "retry": {
+     "first_attempt_failures": [
+      {
+       "host": "openlibrary.org",
+       "method": "GET",
+       "url": "https://openlibrary.org/works/OL166894W/editions.json",
+       "params": {
+        "limit": "1000"
+       },
+       "t": 1789402915.128,
+       "elapsed": 13.817,
+       "status": null,
+       "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL166894W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+      }
+     ],
+     "requests": {
+      "openlibrary.org": {
+       "requests": 2,
+       "failed": 0,
+       "total_s": 3.21,
+       "p50_s": 1.604,
+       "max_s": 2.032
+      }
+     },
+     "note": "first cold attempt failed; this listing is a second attempt"
+    },
+    "year_parse_failures": [
+     {
+      "key": "/books/OL47759578M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL57633080M",
+      "publish_date": "199u"
+     },
+     {
+      "key": "/books/OL44650389M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13656435M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL21419469M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL23031373M",
+      "publish_date": "19xx"
+     },
+     {
+      "key": "/books/OL20207897M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL16400881M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL9780997M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL24204373M",
+      "publish_date": "196x"
+     },
+     {
+      "key": "/books/OL7043176M",
+      "publish_date": "19xx"
+     },
+     {
+      "key": "/books/OL9046554M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL11558782M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13708546M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13827949M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N05": {
+   "id": "N05",
+   "wall_s": 6.0,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 18,
+     "failed": 0,
+     "total_s": 17.27,
+     "p50_s": 0.835,
+     "max_s": 2.216
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 6.04,
+     "p50_s": 6.038,
+     "max_s": 6.038
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "catcher in the rye",
+     "author": "J. D. Salinger",
+     "total": 92,
+     "lingua_facet": [
+      [
+       "ita",
+       45
+      ],
+      [
+       "eng",
+       27
+      ],
+      [
+       "ger",
+       4
+      ],
+      [
+       "rus",
+       4
+      ],
+      [
+       "chi",
+       3
+      ],
+      [
+       "fre",
+       2
+      ],
+      [
+       "alb",
+       1
+      ],
+      [
+       "ara",
+       1
+      ],
+      [
+       "per",
+       1
+      ],
+      [
+       "pol",
+       1
+      ],
+      [
+       "rum",
+       1
+      ],
+      [
+       "spa",
+       1
+      ],
+      [
+       "srp",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 92,
+     "rows": 92,
+     "multilingual_rows": 0,
+     "languages": 13,
+     "bogus_lingua_total": 0,
+     "year_parsed": 92,
+     "publisher_present": 92,
+     "language_present": 92,
+     "requests": 18,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 5.9,
+     "entries": [
+      "eng",
+      "ita",
+      "ita-2"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL3335245W",
+    "size": 204,
+    "rows": 204,
+    "languages": 16,
+    "language_codes": [
+     "chi",
+     "cze",
+     "dut",
+     "eng",
+     "fre",
+     "ger",
+     "heb",
+     "ita",
+     "jpn",
+     "kor",
+     "lit",
+     "pol",
+     "por",
+     "rus",
+     "spa",
+     "tur"
+    ],
+    "year_parsed": 200,
+    "publisher_present": 197,
+    "language_present": 163,
+    "requests": 19,
+    "failed": [],
+    "wall_s": 6.0,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL35663922M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL39209776M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13363589M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL7355723M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N06": {
+   "id": "N06",
+   "wall_s": 9.5,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 23,
+     "failed": 0,
+     "total_s": 30.06,
+     "p50_s": 1.361,
+     "max_s": 1.961
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 4.65,
+     "p50_s": 4.654,
+     "max_s": 4.654
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "nineteen eighty-four",
+     "author": "George Orwell",
+     "total": 172,
+     "lingua_facet": [
+      [
+       "ita",
+       93
+      ],
+      [
+       "eng",
+       54
+      ],
+      [
+       "spa",
+       5
+      ],
+      [
+       "rus",
+       3
+      ],
+      [
+       "alb",
+       2
+      ],
+      [
+       "chi",
+       2
+      ],
+      [
+       "fre",
+       2
+      ],
+      [
+       "ger",
+       2
+      ],
+      [
+       "pol",
+       2
+      ],
+      [
+       "slv",
+       2
+      ],
+      [
+       "ukr",
+       2
+      ],
+      [
+       "ara",
+       1
+      ],
+      [
+       "rum",
+       1
+      ],
+      [
+       "srd",
+       1
+      ],
+      [
+       "srp",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 173,
+     "rows": 172,
+     "multilingual_rows": 1,
+     "languages": 15,
+     "bogus_lingua_total": 0,
+     "year_parsed": 169,
+     "publisher_present": 172,
+     "language_present": 172,
+     "requests": 24,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 9.5,
+     "entries": [
+      "eng",
+      "ita",
+      "ita-2"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "PUV1569110",
+       "imprint": "Testo - Monografia [IT\\ICCU\\PUV\\1569110]"
+      },
+      {
+       "bid": "BRI0492135",
+       "imprint": "Testo - Monografia [IT\\ICCU\\BRI\\0492135]"
+      },
+      {
+       "bid": "RMS1138995",
+       "imprint": "12. rist"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL1168083W",
+    "size": 537,
+    "rows": 537,
+    "languages": 22,
+    "language_codes": [
+     "ara",
+     "cat",
+     "chi",
+     "dut",
+     "eng",
+     "fre",
+     "ger",
+     "gre",
+     "ind",
+     "ita",
+     "jpn",
+     "nor",
+     "per",
+     "pol",
+     "por",
+     "rum",
+     "rus",
+     "spa",
+     "swe",
+     "tur",
+     "ukr",
+     "urd"
+    ],
+    "year_parsed": 525,
+    "publisher_present": 532,
+    "language_present": 374,
+    "requests": 10,
+    "failed": [],
+    "wall_s": 4.7,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL45278258M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL32539027M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL22602629M",
+      "publish_date": "19xx"
+     },
+     {
+      "key": "/books/OL8837183M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL10982698M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13871149M",
+      "publish_date": "xxxx"
+     },
+     {
+      "key": "/books/OL7569648M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL14946390M",
+      "publish_date": "xxxx"
+     },
+     {
+      "key": "/books/OL7705869M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL28433327M",
+      "publish_date": "4July2020"
+     },
+     {
+      "key": "/books/OL32230296M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL32230297M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N07": {
+   "id": "N07",
+   "wall_s": 16.0,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 36,
+     "failed": 0,
+     "total_s": 48.91,
+     "p50_s": 0.983,
+     "max_s": 4.947
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "se una notte d'inverno un viaggiatore",
+     "author": "Italo Calvino",
+     "total": 141,
+     "lingua_facet": [
+      [
+       "ita",
+       46
+      ],
+      [
+       "eng",
+       13
+      ],
+      [
+       "spa",
+       11
+      ],
+      [
+       "tur",
+       9
+      ],
+      [
+       "por",
+       6
+      ],
+      [
+       "fre",
+       5
+      ],
+      [
+       "ger",
+       5
+      ],
+      [
+       "dan",
+       3
+      ],
+      [
+       "dut",
+       3
+      ],
+      [
+       "fin",
+       3
+      ],
+      [
+       "gre",
+       3
+      ],
+      [
+       "hun",
+       3
+      ],
+      [
+       "rus",
+       3
+      ],
+      [
+       "swe",
+       3
+      ],
+      [
+       "chi",
+       2
+      ],
+      [
+       "cze",
+       2
+      ],
+      [
+       "hrv",
+       2
+      ],
+      [
+       "mac",
+       2
+      ],
+      [
+       "nor",
+       2
+      ],
+      [
+       "pol",
+       2
+      ],
+      [
+       "rum",
+       2
+      ],
+      [
+       "alb",
+       1
+      ],
+      [
+       "bul",
+       1
+      ],
+      [
+       "cat",
+       1
+      ],
+      [
+       "est",
+       1
+      ],
+      [
+       "hbs",
+       1
+      ],
+      [
+       "lav",
+       1
+      ],
+      [
+       "lit",
+       1
+      ],
+      [
+       "per",
+       1
+      ],
+      [
+       "slo",
+       1
+      ],
+      [
+       "ukr",
+       1
+      ],
+      [
+       "vie",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 141,
+     "rows": 141,
+     "multilingual_rows": 0,
+     "languages": 32,
+     "bogus_lingua_total": 0,
+     "year_parsed": 141,
+     "publisher_present": 141,
+     "language_present": 141,
+     "requests": 36,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 16.0,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": null
+  },
+  "N08": {
+   "id": "N08",
+   "wall_s": 13.4,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 32,
+     "failed": 0,
+     "total_s": 35.58,
+     "p50_s": 0.888,
+     "max_s": 4.374
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 5.73,
+     "p50_s": 5.73,
+     "max_s": 5.73
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "amica geniale : infanzia, adolescenza",
+     "author": "Elena Ferrante",
+     "total": 57,
+     "lingua_facet": [
+      [
+       "ita",
+       15
+      ],
+      [
+       "eng",
+       4
+      ],
+      [
+       "fre",
+       3
+      ],
+      [
+       "ara",
+       2
+      ],
+      [
+       "cat",
+       2
+      ],
+      [
+       "chi",
+       2
+      ],
+      [
+       "ger",
+       2
+      ],
+      [
+       "pol",
+       2
+      ],
+      [
+       "rus",
+       2
+      ],
+      [
+       "slo",
+       2
+      ],
+      [
+       "tur",
+       2
+      ],
+      [
+       "alb",
+       1
+      ],
+      [
+       "cze",
+       1
+      ],
+      [
+       "dan",
+       1
+      ],
+      [
+       "dut",
+       1
+      ],
+      [
+       "est",
+       1
+      ],
+      [
+       "fin",
+       1
+      ],
+      [
+       "heb",
+       1
+      ],
+      [
+       "hrv",
+       1
+      ],
+      [
+       "hun",
+       1
+      ],
+      [
+       "ice",
+       1
+      ],
+      [
+       "ind",
+       1
+      ],
+      [
+       "kor",
+       1
+      ],
+      [
+       "lav",
+       1
+      ],
+      [
+       "lit",
+       1
+      ],
+      [
+       "nor",
+       1
+      ],
+      [
+       "rum",
+       1
+      ],
+      [
+       "spa",
+       1
+      ],
+      [
+       "swe",
+       1
+      ],
+      [
+       "ukr",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 57,
+     "rows": 57,
+     "multilingual_rows": 0,
+     "languages": 30,
+     "bogus_lingua_total": 0,
+     "year_parsed": 56,
+     "publisher_present": 57,
+     "language_present": 57,
+     "requests": 33,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 13.4,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "RL10000219",
+       "imprint": "Testo - Monografia [IT\\ICCU\\RL1\\0000219]"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL16520879W",
+    "size": 40,
+    "rows": 40,
+    "languages": 5,
+    "language_codes": [
+     "eng",
+     "fre",
+     "ger",
+     "ita",
+     "spa"
+    ],
+    "year_parsed": 40,
+    "publisher_present": 39,
+    "language_present": 21,
+    "requests": 6,
+    "failed": [],
+    "wall_s": 5.7,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N09": {
+   "id": "N09",
+   "wall_s": 3.6,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 8,
+     "failed": 0,
+     "total_s": 6.83,
+     "p50_s": 0.836,
+     "max_s": 1.133
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 1.97,
+     "p50_s": 1.965,
+     "max_s": 1.965
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "formaggio e i vermi",
+     "author": "Carlo Ginzburg",
+     "total": 27,
+     "lingua_facet": [
+      [
+       "ita",
+       22
+      ],
+      [
+       "eng",
+       2
+      ],
+      [
+       "alb",
+       1
+      ],
+      [
+       "rus",
+       1
+      ],
+      [
+       "slv",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 27,
+     "rows": 27,
+     "multilingual_rows": 0,
+     "languages": 5,
+     "bogus_lingua_total": 0,
+     "year_parsed": 27,
+     "publisher_present": 27,
+     "language_present": 27,
+     "requests": 9,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 3.6,
+     "entries": [
+      "ita",
+      "eng"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL14872792W",
+    "size": 23,
+    "rows": 23,
+    "languages": 6,
+    "language_codes": [
+     "eng",
+     "fre",
+     "ger",
+     "ita",
+     "por",
+     "spa"
+    ],
+    "year_parsed": 23,
+    "publisher_present": 23,
+    "language_present": 18,
+    "requests": 4,
+    "failed": [],
+    "wall_s": 2.0,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N10": {
+   "id": "N10",
+   "wall_s": 9.0,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 21,
+     "failed": 0,
+     "total_s": 25.15,
+     "p50_s": 1.069,
+     "max_s": 2.312
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 2.96,
+     "p50_s": 2.957,
+     "max_s": 2.957
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "etranger.",
+     "author": "Albert Camus",
+     "total": 216,
+     "lingua_facet": [
+      [
+       "ita",
+       104
+      ],
+      [
+       "fre",
+       90
+      ],
+      [
+       "eng",
+       9
+      ],
+      [
+       "ger",
+       3
+      ],
+      [
+       "rus",
+       3
+      ],
+      [
+       "alb",
+       2
+      ],
+      [
+       "chi",
+       2
+      ],
+      [
+       "spa",
+       2
+      ],
+      [
+       "hbs",
+       1
+      ],
+      [
+       "slv",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 217,
+     "rows": 216,
+     "multilingual_rows": 1,
+     "languages": 10,
+     "bogus_lingua_total": 0,
+     "year_parsed": 213,
+     "publisher_present": 216,
+     "language_present": 216,
+     "requests": 22,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 9.0,
+     "entries": [
+      "fre",
+      "eng",
+      "eng-2",
+      "ita"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "BVE0232949",
+       "imprint": "Testo - Monografia [IT\\ICCU\\BVE\\0232949]"
+      },
+      {
+       "bid": "TO01304882",
+       "imprint": "Milano : Bompiani"
+      },
+      {
+       "bid": "RMS1437271",
+       "imprint": "171 p. ; 20 cm."
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL1230613W",
+    "size": 468,
+    "rows": 468,
+    "languages": 20,
+    "language_codes": [
+     "ara",
+     "chi",
+     "dut",
+     "eng",
+     "fre",
+     "ger",
+     "heb",
+     "hin",
+     "ita",
+     "jav",
+     "jpn",
+     "kur",
+     "mul",
+     "per",
+     "pol",
+     "por",
+     "spa",
+     "swe",
+     "vie",
+     "wel"
+    ],
+    "year_parsed": 464,
+    "publisher_present": 459,
+    "language_present": 413,
+    "requests": 2,
+    "failed": [],
+    "wall_s": 3.0,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL49227898M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL49212519M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13856408M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL23827736M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N11": {
+   "id": "N11",
+   "wall_s": 3.3,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 4,
+     "failed": 0,
+     "total_s": 3.19,
+     "p50_s": 0.804,
+     "max_s": 0.853
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.34,
+     "p50_s": 3.339,
+     "max_s": 3.339
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "disparition.",
+     "author": "Georges Perec",
+     "total": 4,
+     "lingua_facet": [
+      [
+       "fre",
+       2
+      ],
+      [
+       "ita",
+       2
+      ]
+     ],
+     "lingua_facet_sum": 4,
+     "rows": 4,
+     "multilingual_rows": 0,
+     "languages": 2,
+     "bogus_lingua_total": 0,
+     "year_parsed": 4,
+     "publisher_present": 4,
+     "language_present": 4,
+     "requests": 4,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 2.4,
+     "entries": [
+      "fre",
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL1715351W",
+    "size": 10,
+    "rows": 10,
+    "languages": 2,
+    "language_codes": [
+     "fre",
+     "ger"
+    ],
+    "year_parsed": 10,
+    "publisher_present": 9,
+    "language_present": 9,
+    "requests": 5,
+    "failed": [],
+    "wall_s": 3.3,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N12": {
+   "id": "N12",
+   "wall_s": 8.2,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 20,
+     "failed": 0,
+     "total_s": 23.37,
+     "p50_s": 1.118,
+     "max_s": 2.103
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 4.17,
+     "p50_s": 4.173,
+     "max_s": 4.173
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "prozess",
+     "author": "Franz Kafka",
+     "total": 213,
+     "lingua_facet": [
+      [
+       "ita",
+       180
+      ],
+      [
+       "ger",
+       16
+      ],
+      [
+       "eng",
+       5
+      ],
+      [
+       "rus",
+       4
+      ],
+      [
+       "fre",
+       3
+      ],
+      [
+       "cat",
+       1
+      ],
+      [
+       "gre",
+       1
+      ],
+      [
+       "slv",
+       1
+      ],
+      [
+       "spa",
+       1
+      ],
+      [
+       "srp",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 213,
+     "rows": 213,
+     "multilingual_rows": 0,
+     "languages": 10,
+     "bogus_lingua_total": 0,
+     "year_parsed": 212,
+     "publisher_present": 213,
+     "language_present": 213,
+     "requests": 21,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 8.2,
+     "entries": [
+      "ita"
+     ],
+     "year_parse_failures": [
+      {
+       "bid": "UBO0286469",
+       "imprint": "Torino : \\s.n., 19..?!"
+      }
+     ],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL498463W",
+    "size": 783,
+    "rows": 783,
+    "languages": 19,
+    "language_codes": [
+     "chi",
+     "cze",
+     "dut",
+     "eng",
+     "fin",
+     "fre",
+     "ger",
+     "heb",
+     "ita",
+     "jpn",
+     "kor",
+     "nno",
+     "pol",
+     "por",
+     "rus",
+     "spa",
+     "tur",
+     "ukr",
+     "yid"
+    ],
+    "year_parsed": 770,
+    "publisher_present": 779,
+    "language_present": 639,
+    "requests": 8,
+    "failed": [],
+    "wall_s": 4.2,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL43017907M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL45732257M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL27035757M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL8837784M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL8838433M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL11376778M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL20984101M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL47352225M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL22913713M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL13959239M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL21515341M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL23123483M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL23123986M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N13": {
+   "id": "N13",
+   "wall_s": 2.4,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 3,
+     "failed": 0,
+     "total_s": 2.38,
+     "p50_s": 0.758,
+     "max_s": 0.865
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "mudigkeitsgesellschaft",
+     "author": "Byung-Chul Han",
+     "total": 4,
+     "lingua_facet": [
+      [
+       "ita",
+       4
+      ]
+     ],
+     "lingua_facet_sum": 4,
+     "rows": 4,
+     "multilingual_rows": 0,
+     "languages": 1,
+     "bogus_lingua_total": 0,
+     "year_parsed": 4,
+     "publisher_present": 4,
+     "language_present": 4,
+     "requests": 3,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 2.4,
+     "entries": [
+      "ger",
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": null
+  },
+  "N14": {
+   "id": "N14",
+   "wall_s": 4.8,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 12,
+     "failed": 0,
+     "total_s": 11.59,
+     "p50_s": 0.889,
+     "max_s": 1.241
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 4.08,
+     "p50_s": 4.08,
+     "max_s": 4.08
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "ensaio sobre a cegueira",
+     "author": "José Saramago",
+     "total": 48,
+     "lingua_facet": [
+      [
+       "ita",
+       32
+      ],
+      [
+       "por",
+       5
+      ],
+      [
+       "eng",
+       4
+      ],
+      [
+       "slv",
+       2
+      ],
+      [
+       "chi",
+       1
+      ],
+      [
+       "fre",
+       1
+      ],
+      [
+       "ger",
+       1
+      ],
+      [
+       "pol",
+       1
+      ],
+      [
+       "spa",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 48,
+     "rows": 48,
+     "multilingual_rows": 0,
+     "languages": 9,
+     "bogus_lingua_total": 0,
+     "year_parsed": 48,
+     "publisher_present": 48,
+     "language_present": 48,
+     "requests": 13,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 4.8,
+     "entries": [
+      "por",
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL27420W",
+    "size": 40,
+    "rows": 40,
+    "languages": 7,
+    "language_codes": [
+     "eng",
+     "fre",
+     "ger",
+     "kor",
+     "por",
+     "spa",
+     "tur"
+    ],
+    "year_parsed": 40,
+    "publisher_present": 40,
+    "language_present": 34,
+    "requests": 12,
+    "failed": [],
+    "wall_s": 4.1,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N15": {
+   "id": "N15",
+   "wall_s": 5.5,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 6,
+     "failed": 0,
+     "total_s": 6.71,
+     "p50_s": 1.261,
+     "max_s": 1.34
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 5.5,
+     "p50_s": 5.5,
+     "max_s": 5.5
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "2666.",
+     "author": "Roberto Bolaño",
+     "total": 11,
+     "lingua_facet": [
+      [
+       "ita",
+       6
+      ],
+      [
+       "eng",
+       2
+      ],
+      [
+       "spa",
+       2
+      ],
+      [
+       "fre",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 11,
+     "rows": 11,
+     "multilingual_rows": 0,
+     "languages": 4,
+     "bogus_lingua_total": 0,
+     "year_parsed": 11,
+     "publisher_present": 11,
+     "language_present": 11,
+     "requests": 6,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 3.5,
+     "entries": [
+      "spa",
+      "eng",
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL712025W",
+    "size": 62,
+    "rows": 62,
+    "languages": 33,
+    "language_codes": [
+     "alb",
+     "ara",
+     "bos",
+     "bul",
+     "chi",
+     "cze",
+     "dan",
+     "dut",
+     "eng",
+     "fin",
+     "fre",
+     "ger",
+     "gre",
+     "heb",
+     "hrv",
+     "hun",
+     "ita",
+     "jpn",
+     "lav",
+     "lit",
+     "mac",
+     "nor",
+     "per",
+     "pol",
+     "por",
+     "rum",
+     "rus",
+     "spa",
+     "srp",
+     "swe",
+     "tur",
+     "ukr",
+     "vie"
+    ],
+    "year_parsed": 62,
+    "publisher_present": 62,
+    "language_present": 62,
+    "requests": 7,
+    "failed": [],
+    "wall_s": 5.5,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N16": {
+   "id": "N16",
+   "wall_s": 3.3,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 5,
+     "failed": 0,
+     "total_s": 4.96,
+     "p50_s": 0.9,
+     "max_s": 1.262
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "huozhe",
+     "author": "Yu Hua",
+     "total": 10,
+     "lingua_facet": [
+      [
+       "ita",
+       7
+      ],
+      [
+       "chi",
+       2
+      ],
+      [
+       "fre",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 10,
+     "rows": 10,
+     "multilingual_rows": 0,
+     "languages": 3,
+     "bogus_lingua_total": 0,
+     "year_parsed": 10,
+     "publisher_present": 10,
+     "language_present": 10,
+     "requests": 5,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 3.3,
+     "entries": [
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": null
+  },
+  "N17": {
+   "id": "N17",
+   "wall_s": 15.2,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 5,
+     "failed": 0,
+     "total_s": 5.27,
+     "p50_s": 0.891,
+     "max_s": 1.783
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 15.17,
+     "p50_s": 15.17,
+     "max_s": 15.17
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "bain el-qasrain.",
+     "author": "Naguib Mahfouz",
+     "total": 8,
+     "lingua_facet": [
+      [
+       "ita",
+       6
+      ],
+      [
+       "ara",
+       1
+      ],
+      [
+       "eng",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 8,
+     "rows": 8,
+     "multilingual_rows": 0,
+     "languages": 3,
+     "bogus_lingua_total": 0,
+     "year_parsed": 8,
+     "publisher_present": 8,
+     "language_present": 8,
+     "requests": 5,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 3.6,
+     "entries": [
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL1599742W",
+    "size": 37,
+    "rows": 37,
+    "languages": 6,
+    "language_codes": [
+     "ara",
+     "eng",
+     "fre",
+     "ger",
+     "heb",
+     "spa"
+    ],
+    "year_parsed": 35,
+    "publisher_present": 34,
+    "language_present": 33,
+    "requests": 6,
+    "failed": [],
+    "wall_s": 15.2,
+    "how": "original, keyed author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL16410780M",
+      "publish_date": null
+     },
+     {
+      "key": "/books/OL18649514M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N18": {
+   "id": "N18",
+   "wall_s": 4.2,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 3,
+     "failed": 0,
+     "total_s": 4.21,
+     "p50_s": 1.228,
+     "max_s": 2.095
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.5,
+     "p50_s": 3.499,
+     "max_s": 3.499
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "capitalist realism : is there no alternative?",
+     "author": "Mark Fisher",
+     "total": 2,
+     "lingua_facet": [
+      [
+       "ita",
+       2
+      ]
+     ],
+     "lingua_facet_sum": 2,
+     "rows": 2,
+     "multilingual_rows": 0,
+     "languages": 1,
+     "bogus_lingua_total": 0,
+     "year_parsed": 2,
+     "publisher_present": 2,
+     "language_present": 2,
+     "requests": 4,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 4.2,
+     "entries": [
+      "eng",
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL15683250W",
+    "size": 8,
+    "rows": 8,
+    "languages": 4,
+    "language_codes": [
+     "eng",
+     "ita",
+     "por",
+     "rum"
+    ],
+    "year_parsed": 8,
+    "publisher_present": 8,
+    "language_present": 7,
+    "requests": 3,
+    "failed": [],
+    "wall_s": 3.5,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N19": {
+   "id": "N19",
+   "wall_s": 3.4,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 4,
+     "failed": 0,
+     "total_s": 4.29,
+     "p50_s": 0.897,
+     "max_s": 1.654
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.33,
+     "p50_s": 3.329,
+     "max_s": 3.329
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "tomorrow, and tomorrow, and tomorrow",
+     "author": "Gabrielle Zevin",
+     "total": 7,
+     "lingua_facet": [
+      [
+       "eng",
+       4
+      ],
+      [
+       "ita",
+       3
+      ]
+     ],
+     "lingua_facet_sum": 7,
+     "rows": 7,
+     "multilingual_rows": 0,
+     "languages": 2,
+     "bogus_lingua_total": 0,
+     "year_parsed": 7,
+     "publisher_present": 7,
+     "language_present": 7,
+     "requests": 5,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 3.4,
+     "entries": [
+      "eng"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL26004554W",
+    "size": 17,
+    "rows": 17,
+    "languages": 4,
+    "language_codes": [
+     "dut",
+     "eng",
+     "fre",
+     "ita"
+    ],
+    "year_parsed": 17,
+    "publisher_present": 17,
+    "language_present": 13,
+    "requests": 4,
+    "failed": [],
+    "wall_s": 3.3,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N20": {
+   "id": "N20",
+   "wall_s": 4.3,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 8,
+     "failed": 0,
+     "total_s": 9.76,
+     "p50_s": 1.228,
+     "max_s": 1.787
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.4,
+     "p50_s": 3.401,
+     "max_s": 3.401
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "metaphors we live by.",
+     "author": "George Lakoff",
+     "total": 12,
+     "lingua_facet": [
+      [
+       "ita",
+       5
+      ],
+      [
+       "eng",
+       2
+      ],
+      [
+       "spa",
+       2
+      ],
+      [
+       "fre",
+       1
+      ],
+      [
+       "ger",
+       1
+      ],
+      [
+       "rus",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 12,
+     "rows": 12,
+     "multilingual_rows": 0,
+     "languages": 6,
+     "bogus_lingua_total": 0,
+     "year_parsed": 12,
+     "publisher_present": 12,
+     "language_present": 12,
+     "requests": 9,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 4.3,
+     "entries": [
+      "eng",
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL1952983W",
+    "size": 7,
+    "rows": 7,
+    "languages": 3,
+    "language_codes": [
+     "eng",
+     "fre",
+     "spa"
+    ],
+    "year_parsed": 7,
+    "publisher_present": 7,
+    "language_present": 7,
+    "requests": 7,
+    "failed": [],
+    "wall_s": 3.4,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N21": {
+   "id": "N21",
+   "wall_s": 5.5,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 6,
+     "failed": 0,
+     "total_s": 7.89,
+     "p50_s": 1.302,
+     "max_s": 1.85
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 5.51,
+     "p50_s": 5.509,
+     "max_s": 5.509
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "veinte poemas de amor y una cancion desesperada.",
+     "author": "Pablo Neruda",
+     "total": 21,
+     "lingua_facet": [
+      [
+       "spa",
+       19
+      ],
+      [
+       "ita",
+       13
+      ],
+      [
+       "eng",
+       1
+      ],
+      [
+       "ger",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 34,
+     "rows": 21,
+     "multilingual_rows": 13,
+     "languages": 4,
+     "bogus_lingua_total": 0,
+     "year_parsed": 21,
+     "publisher_present": 21,
+     "language_present": 21,
+     "requests": 6,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 4.5,
+     "entries": [
+      "spa",
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL979517W",
+    "size": 135,
+    "rows": 135,
+    "languages": 5,
+    "language_codes": [
+     "arn",
+     "eng",
+     "heb",
+     "ita",
+     "spa"
+    ],
+    "year_parsed": 134,
+    "publisher_present": 135,
+    "language_present": 94,
+    "requests": 7,
+    "failed": [],
+    "wall_s": 5.5,
+    "how": "original, strict author match",
+    "year_parse_failures": [
+     {
+      "key": "/books/OL23042548M",
+      "publish_date": null
+     }
+    ]
+   }
+  },
+  "N22": {
+   "id": "N22",
+   "wall_s": 3.0,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 4,
+     "failed": 0,
+     "total_s": 3.91,
+     "p50_s": 0.88,
+     "max_s": 1.35
+    },
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 2.59,
+     "p50_s": 2.592,
+     "max_s": 2.592
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "capital au xxie siecle",
+     "author": "Thomas Piketty",
+     "total": 2,
+     "lingua_facet": [
+      [
+       "eng",
+       1
+      ],
+      [
+       "ita",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 2,
+     "rows": 2,
+     "multilingual_rows": 0,
+     "languages": 2,
+     "bogus_lingua_total": 0,
+     "year_parsed": 2,
+     "publisher_present": 2,
+     "language_present": 2,
+     "requests": 5,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 3.0,
+     "entries": [
+      "fre"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": {
+    "key": "/works/OL16814568W",
+    "size": 20,
+    "rows": 20,
+    "languages": 4,
+    "language_codes": [
+     "eng",
+     "fre",
+     "ger",
+     "spa"
+    ],
+    "year_parsed": 20,
+    "publisher_present": 20,
+    "language_present": 12,
+    "requests": 4,
+    "failed": [],
+    "wall_s": 2.6,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N23": {
+   "id": "N23",
+   "wall_s": 3.9,
+   "requests": {
+    "openlibrary.org": {
+     "requests": 1,
+     "failed": 0,
+     "total_s": 3.87,
+     "p50_s": 3.873,
+     "max_s": 3.873
+    }
+   },
+   "failures": [],
+   "sbn": [],
+   "ol": {
+    "key": "/works/OL29477874W",
+    "size": 1,
+    "rows": 1,
+    "languages": 1,
+    "language_codes": [
+     "eng"
+    ],
+    "year_parsed": 1,
+    "publisher_present": 1,
+    "language_present": 1,
+    "requests": 1,
+    "failed": [],
+    "wall_s": 3.9,
+    "how": "original, strict author match",
+    "year_parse_failures": []
+   }
+  },
+  "N24": {
+   "id": "N24",
+   "wall_s": 4.2,
+   "requests": {
+    "opac.sbn.it/o": {
+     "requests": 3,
+     "failed": 0,
+     "total_s": 4.21,
+     "p50_s": 1.182,
+     "max_s": 2.142
+    }
+   },
+   "failures": [],
+   "sbn": [
+    {
+     "W": "tutto per una casa",
+     "author": "Orlando Ciprian",
+     "total": 1,
+     "lingua_facet": [
+      [
+       "ita",
+       1
+      ]
+     ],
+     "lingua_facet_sum": 1,
+     "rows": 1,
+     "multilingual_rows": 0,
+     "languages": 1,
+     "bogus_lingua_total": 0,
+     "year_parsed": 1,
+     "publisher_present": 1,
+     "language_present": 1,
+     "requests": 3,
+     "completeness_requests": 0,
+     "failed_pages": [],
+     "wall_s": 4.2,
+     "entries": [
+      "ita"
+     ],
+     "year_parse_failures": [],
+     "records_on_no_language_page": 0
+    }
+   ],
+   "ol": null
+  }
+ },
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 469,
+   "failed": 0,
+   "total_s": 389.22,
+   "p50_s": 0.801,
+   "max_s": 4.947
+  },
+  "openlibrary.org": {
+   "requests": 36,
+   "failed": 2,
+   "total_s": 211.79,
+   "p50_s": 4.28,
+   "max_s": 18.444
+  }
+ },
+ "failures": [
+  {
+   "host": "openlibrary.org",
+   "method": "GET",
+   "url": "https://openlibrary.org/works/OL258301W/editions.json",
+   "params": {
+    "limit": "1000"
+   },
+   "t": 1789402867.583,
+   "elapsed": 12.622,
+   "status": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL258301W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+  },
+  {
+   "host": "openlibrary.org",
+   "method": "GET",
+   "url": "https://openlibrary.org/works/OL166894W/editions.json",
+   "params": {
+    "limit": "1000"
+   },
+   "t": 1789402915.128,
+   "elapsed": 13.817,
+   "status": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='openlibrary.org', port=443): Max retries exceeded with url: /works/OL166894W/editions.json?limit=1000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='openlibrary.org', "
+  }
+ ],
+ "retries": [
+  {
+   "books": [
+    "E16",
+    "N04"
+   ],
+   "requests": {
+    "openlibrary.org": {
+     "requests": 3,
+     "failed": 0,
+     "total_s": 8.27,
+     "p50_s": 2.032,
+     "max_s": 5.065
+    }
+   },
+   "failures": []
+  }
+ ]
+}

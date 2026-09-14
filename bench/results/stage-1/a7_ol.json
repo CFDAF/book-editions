@@ -1,0 +1,894 @@
+{
+ "persons": {
+  "P01": {
+   "person": "Gregory Bateson",
+   "variants": [
+    {
+     "variant": "Gregory Bateson",
+     "resolve_author_keys": [
+      "OL30388A",
+      "OL6904707A",
+      "OL11901148A",
+      "OL15351475A",
+      "OL12281982A"
+     ],
+     "num_found": 8,
+     "top_docs": [
+      {
+       "key": "OL30388A",
+       "name": "Gregory Bateson",
+       "work_count": 41,
+       "birth_date": "9 May 1904",
+       "alternate_names": [
+        "Bateson, Gregory",
+        "Gregory. Bateson"
+       ]
+      },
+      {
+       "key": "OL6904707A",
+       "name": "Gregory Bateson",
+       "work_count": 19,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL11901148A",
+       "name": "Gregory Bateson",
+       "work_count": 4,
+       "birth_date": "1904",
+       "alternate_names": []
+      },
+      {
+       "key": "OL15351475A",
+       "name": "Gregory Bateson Jurgen Ruesch",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12281982A",
+       "name": "Edited by Gregory Bateson",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15284779A",
+       "name": "Gregory Bateson and Margaret Mead ",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12503246A",
+       "name": "Ruesch, Jurgen Bateson, Gregory,",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL13091355A",
+       "name": "Gregory RUESCH,Jurgen & BATESON",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    }
+   ],
+   "same_key_set": true,
+   "shared_keys": [
+    "OL11901148A",
+    "OL12281982A",
+    "OL15351475A",
+    "OL30388A",
+    "OL6904707A"
+   ]
+  },
+  "P02": {
+   "person": "Haruki Murakami",
+   "variants": [
+    {
+     "variant": "Murakami Haruki",
+     "resolve_author_keys": [
+      "OL10355377A",
+      "OL11994305A",
+      "OL9888421A",
+      "OL13496877A"
+     ],
+     "num_found": 7,
+     "top_docs": [
+      {
+       "key": "OL382524A",
+       "name": "村上春樹",
+       "work_count": 534,
+       "birth_date": "12 January 1949",
+       "alternate_names": [
+        "春樹 村上",
+        "HARUKI MURAKAMI",
+        "Haruki MURAKAMI",
+        "MURAKAMI HARUKI",
+        "Murakami Haruki"
+       ]
+      },
+      {
+       "key": "OL10355377A",
+       "name": "Murakami Haruki, Seiji Ozawa, Jay Rubin",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL11994305A",
+       "name": "Haruki Murakami",
+       "work_count": 4,
+       "birth_date": "1937",
+       "alternate_names": []
+      },
+      {
+       "key": "OL9888421A",
+       "name": "Haruki Murakami",
+       "work_count": 0,
+       "birth_date": null,
+       "alternate_names": [
+        "Haruki Murakami, Toni Morrison, Orhan Pamuk, Alice Munro"
+       ]
+      },
+      {
+       "key": "OL13496877A",
+       "name": "CUN SHANG CHUN SHU ( CUN SHANG CHUN SHU Haruki Murakami)",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL13824319A",
+       "name": "Paula Fox, Haruki Murakami, Nathaniel Bellows, Rick DeMarinis, Mary-Beth Hughes, Ignacio Padilla, Spring Melody Berman, Murray Bodo, Billy Collins, Mo",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12033223A",
+       "name": "Kokusai Shinpojūmu & Wākushoppu Haruki o Meguru Bōken, Sekai wa Murakami Bungaku o Dō Yomu ka (2006 Tōkyō Daigaku. Kyōyō Gakubu, etc.)",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    },
+    {
+     "variant": "Haruki Murakami",
+     "resolve_author_keys": [
+      "OL11994305A",
+      "OL9888421A",
+      "OL13496877A",
+      "OL13824319A"
+     ],
+     "num_found": 7,
+     "top_docs": [
+      {
+       "key": "OL11994305A",
+       "name": "Haruki Murakami",
+       "work_count": 4,
+       "birth_date": "1937",
+       "alternate_names": []
+      },
+      {
+       "key": "OL9888421A",
+       "name": "Haruki Murakami",
+       "work_count": 0,
+       "birth_date": null,
+       "alternate_names": [
+        "Haruki Murakami, Toni Morrison, Orhan Pamuk, Alice Munro"
+       ]
+      },
+      {
+       "key": "OL382524A",
+       "name": "村上春樹",
+       "work_count": 534,
+       "birth_date": "12 January 1949",
+       "alternate_names": [
+        "春樹 村上",
+        "HARUKI MURAKAMI",
+        "Haruki MURAKAMI",
+        "MURAKAMI HARUKI",
+        "Murakami Haruki"
+       ]
+      },
+      {
+       "key": "OL13496877A",
+       "name": "CUN SHANG CHUN SHU ( CUN SHANG CHUN SHU Haruki Murakami)",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL13824319A",
+       "name": "Paula Fox, Haruki Murakami, Nathaniel Bellows, Rick DeMarinis, Mary-Beth Hughes, Ignacio Padilla, Spring Melody Berman, Murray Bodo, Billy Collins, Mo",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL10355377A",
+       "name": "Murakami Haruki, Seiji Ozawa, Jay Rubin",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12033223A",
+       "name": "Kokusai Shinpojūmu & Wākushoppu Haruki o Meguru Bōken, Sekai wa Murakami Bungaku o Dō Yomu ka (2006 Tōkyō Daigaku. Kyōyō Gakubu, etc.)",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    },
+    {
+     "variant": "村上春樹",
+     "resolve_author_keys": [],
+     "num_found": 2,
+     "top_docs": [
+      {
+       "key": "OL382524A",
+       "name": "村上春樹",
+       "work_count": 534,
+       "birth_date": "12 January 1949",
+       "alternate_names": [
+        "春樹 村上",
+        "HARUKI MURAKAMI",
+        "Haruki MURAKAMI",
+        "MURAKAMI HARUKI",
+        "Murakami Haruki"
+       ]
+      },
+      {
+       "key": "OL13117121A",
+       "name": "向西村上春樹",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    }
+   ],
+   "same_key_set": false,
+   "shared_keys": []
+  },
+  "P03": {
+   "person": "Fyodor Dostoevsky",
+   "variants": [
+    {
+     "variant": "Fëdor Dostoevskij",
+     "resolve_author_keys": [
+      "OL14529247A"
+     ],
+     "num_found": 2,
+     "top_docs": [
+      {
+       "key": "OL22242A",
+       "name": "Fiódor Dostoievski",
+       "work_count": 2822,
+       "birth_date": "11 November 1821",
+       "alternate_names": [
+        "Фёдор Миха́йлович Достое́вский",
+        "Andreĭ Mikhaĭlovich Dostoevskiĭ",
+        "Dostoevesky",
+        "Dostoevski",
+        "Dostoevskii"
+       ]
+      },
+      {
+       "key": "OL14529247A",
+       "name": "Dostoevskij Fëdor LeggereGiovane",
+       "work_count": 2,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    },
+    {
+     "variant": "Fyodor Dostoevsky",
+     "resolve_author_keys": [
+      "OL16224933A"
+     ],
+     "num_found": 2,
+     "top_docs": [
+      {
+       "key": "OL16224933A",
+       "name": "Fyodor Dostoevsky",
+       "work_count": 6,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL22242A",
+       "name": "Fiódor Dostoievski",
+       "work_count": 2822,
+       "birth_date": "11 November 1821",
+       "alternate_names": [
+        "Фёдор Миха́йлович Достое́вский",
+        "Andreĭ Mikhaĭlovich Dostoevskiĭ",
+        "Dostoevesky",
+        "Dostoevski",
+        "Dostoevskii"
+       ]
+      }
+     ]
+    },
+    {
+     "variant": "Dostoïevski",
+     "resolve_author_keys": [
+      "OL22242A",
+      "OL9312152A",
+      "OL11177180A",
+      "OL9943099A",
+      "OL12270935A"
+     ],
+     "num_found": 9,
+     "top_docs": [
+      {
+       "key": "OL22242A",
+       "name": "Fiódor Dostoievski",
+       "work_count": 2822,
+       "birth_date": "11 November 1821",
+       "alternate_names": [
+        "Фёдор Миха́йлович Достое́вский",
+        "Andreĭ Mikhaĭlovich Dostoevskiĭ",
+        "Dostoevesky",
+        "Dostoevski",
+        "Dostoevskii"
+       ]
+      },
+      {
+       "key": "OL9312152A",
+       "name": "Dostoievski",
+       "work_count": 9,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL11177180A",
+       "name": "DOSTOÏEVSKI",
+       "work_count": 2,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL9943099A",
+       "name": "DOSTOIEVSKI",
+       "work_count": 2,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12270935A",
+       "name": "Dostoïevski",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL10097014A",
+       "name": "Aimée Dostoïevski",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL16572653A",
+       "name": "Fiódor Dostoiévski",
+       "work_count": 0,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL9945557A",
+       "name": "Dostoievski, F. M.; Albano, Sergio, (tr.)",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL10828329A",
+       "name": "Gogol, Verga, Bjornson, Janin, Heyse, Stevenson, Dostoievski, Sacher-Masoch, de Musset, Sudermann, Wells, Tolstoi Gaboriau",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    },
+    {
+     "variant": "Фёдор Достоевский",
+     "resolve_author_keys": [],
+     "num_found": 1,
+     "top_docs": [
+      {
+       "key": "OL22242A",
+       "name": "Fiódor Dostoievski",
+       "work_count": 2822,
+       "birth_date": "11 November 1821",
+       "alternate_names": [
+        "Фёдор Миха́йлович Достое́вский",
+        "Andreĭ Mikhaĭlovich Dostoevskiĭ",
+        "Dostoevesky",
+        "Dostoevski",
+        "Dostoevskii"
+       ]
+      }
+     ]
+    }
+   ],
+   "same_key_set": false,
+   "shared_keys": []
+  },
+  "P04": {
+   "person": "Elena Ferrante",
+   "variants": [
+    {
+     "variant": "Elena Ferrante",
+     "resolve_author_keys": [
+      "OL3105889A",
+      "OL13591879A"
+     ],
+     "num_found": 2,
+     "top_docs": [
+      {
+       "key": "OL3105889A",
+       "name": "Elena Ferrante",
+       "work_count": 40,
+       "birth_date": "1943",
+       "alternate_names": [
+        "Ferrante Elena",
+        "E. Ferrante",
+        "elena Ferrante"
+       ]
+      },
+      {
+       "key": "OL13591879A",
+       "name": "Elena Ferrante",
+       "work_count": 9,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    }
+   ],
+   "same_key_set": true,
+   "shared_keys": [
+    "OL13591879A",
+    "OL3105889A"
+   ]
+  },
+  "P05": {
+   "person": "Jacques Attali",
+   "variants": [
+    {
+     "variant": "Jacques Attali",
+     "resolve_author_keys": [
+      "OL53916A",
+      "OL4762242A",
+      "OL12549002A",
+      "OL4260364A",
+      "OL11543673A"
+     ],
+     "num_found": 7,
+     "top_docs": [
+      {
+       "key": "OL53916A",
+       "name": "Jacques Attali",
+       "work_count": 158,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL4762242A",
+       "name": "Jacques Attali",
+       "work_count": 17,
+       "birth_date": "1943",
+       "alternate_names": []
+      },
+      {
+       "key": "OL12549002A",
+       "name": "JACQUES ATTALI",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL4260364A",
+       "name": "Jacques attali",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL11543673A",
+       "name": "Jacques Attali, Sri Aurobindo, Roberto Caputo, Aru",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15314826A",
+       "name": "georges peninou, manfred holtus, dietrich kebschull and jacques attali",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL3127919A",
+       "name": "Attali Jacques",
+       "work_count": 3,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    }
+   ],
+   "same_key_set": true,
+   "shared_keys": [
+    "OL11543673A",
+    "OL12549002A",
+    "OL4260364A",
+    "OL4762242A",
+    "OL53916A"
+   ]
+  },
+  "P06": {
+   "person": "Umberto Eco",
+   "variants": [
+    {
+     "variant": "Umberto Eco",
+     "resolve_author_keys": [
+      "OL20735A",
+      "OL12264868A",
+      "OL16321029A",
+      "OL12235280A",
+      "OL12550157A"
+     ],
+     "num_found": 6,
+     "top_docs": [
+      {
+       "key": "OL20735A",
+       "name": "Umberto Eco",
+       "work_count": 511,
+       "birth_date": "5 January 1932",
+       "alternate_names": [
+        "Умберто Эко",
+        "Umberto Eco (Italia)",
+        "Eco Umberto",
+        "UMBERTO ECO",
+        "Umberto (Italia) Eco"
+       ]
+      },
+      {
+       "key": "OL12264868A",
+       "name": "Umberto Eco",
+       "work_count": 2,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL16321029A",
+       "name": "Umberto Eco",
+       "work_count": 2,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12235280A",
+       "name": "G.B. Zorzoli Umberto Eco",
+       "work_count": 0,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12550157A",
+       "name": "Roland Barthes, A.J. Greimas, Umberto Eco, Jules Gritti, et al",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL11592017A",
+       "name": "Ceserani, Gian Paolo, Eco, Umberto, And Placido, Beniamino, Trans, Glinga, Werner",
+       "work_count": 0,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    }
+   ],
+   "same_key_set": true,
+   "shared_keys": [
+    "OL12235280A",
+    "OL12264868A",
+    "OL12550157A",
+    "OL16321029A",
+    "OL20735A"
+   ]
+  },
+  "P07": {
+   "person": "Kodwo Eshun",
+   "variants": [
+    {
+     "variant": "Kodwo Eshun",
+     "resolve_author_keys": [
+      "OL276117A"
+     ],
+     "num_found": 1,
+     "top_docs": [
+      {
+       "key": "OL276117A",
+       "name": "Kodwo Eshun",
+       "work_count": 15,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    }
+   ],
+   "same_key_set": true,
+   "shared_keys": [
+    "OL276117A"
+   ]
+  },
+  "P08": {
+   "person": "Byung-Chul Han",
+   "variants": [
+    {
+     "variant": "Byung-Chul Han",
+     "resolve_author_keys": [
+      "OL295822A",
+      "OL15002702A"
+     ],
+     "num_found": 2,
+     "top_docs": [
+      {
+       "key": "OL295822A",
+       "name": "Byung-Chul Han",
+       "work_count": 56,
+       "birth_date": "1959",
+       "alternate_names": [
+        "Byung Chul Han"
+       ]
+      },
+      {
+       "key": "OL15002702A",
+       "name": "Byung-Chul Han",
+       "work_count": 4,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    },
+    {
+     "variant": "Han Byung-Chul",
+     "resolve_author_keys": [
+      "OL295822A",
+      "OL15002702A"
+     ],
+     "num_found": 2,
+     "top_docs": [
+      {
+       "key": "OL295822A",
+       "name": "Byung-Chul Han",
+       "work_count": 56,
+       "birth_date": "1959",
+       "alternate_names": [
+        "Byung Chul Han"
+       ]
+      },
+      {
+       "key": "OL15002702A",
+       "name": "Byung-Chul Han",
+       "work_count": 4,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    },
+    {
+     "variant": "한병철",
+     "resolve_author_keys": [],
+     "num_found": 0,
+     "top_docs": []
+    }
+   ],
+   "same_key_set": false,
+   "shared_keys": []
+  },
+  "P09": {
+   "person": "Gabriel García Márquez",
+   "variants": [
+    {
+     "variant": "Gabriel García Márquez",
+     "resolve_author_keys": [
+      "OL27363A",
+      "OL15290656A",
+      "OL15389184A",
+      "OL15193084A",
+      "OL15313724A"
+     ],
+     "num_found": 11,
+     "top_docs": [
+      {
+       "key": "OL27363A",
+       "name": "Gabriel García Márquez",
+       "work_count": 441,
+       "birth_date": "1927-03-06",
+       "alternate_names": [
+        "Gabriel José de la Concordia García Márquez"
+       ]
+      },
+      {
+       "key": "OL15290656A",
+       "name": "Gabriel Garcia Marquez",
+       "work_count": 11,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15389184A",
+       "name": "Gabriel García Márquez",
+       "work_count": 11,
+       "birth_date": "1927",
+       "alternate_names": []
+      },
+      {
+       "key": "OL15193084A",
+       "name": "Gabriel García Márquez",
+       "work_count": 5,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15313724A",
+       "name": "Gabriel  Garcia Marquez",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL16368096A",
+       "name": "Gabriel García Márquez",
+       "work_count": 1,
+       "birth_date": "1928",
+       "alternate_names": []
+      },
+      {
+       "key": "OL16227325A",
+       "name": "GABRIEL GARCIA MARQUEZ",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15856645A",
+       "name": "Gregory Rabassa Gabriel Garcia Marquez",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL5561312A",
+       "name": "Congreso \"Gabriel García Márquez\" (1992 Zaragoza, Spain)",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15400051A",
+       "name": "Samuel Ruiz, Gabriel Garcia Marquez, Eduardo Galeano, Rigoberta Menchu, Jorge Amado, Frei Betto, Pombo y Urbano",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    },
+    {
+     "variant": "Garcia Marquez",
+     "resolve_author_keys": [
+      "OL27363A",
+      "OL9627217A",
+      "OL12725507A",
+      "OL12725508A",
+      "OL12725509A"
+     ],
+     "num_found": 70,
+     "top_docs": [
+      {
+       "key": "OL27363A",
+       "name": "Gabriel García Márquez",
+       "work_count": 441,
+       "birth_date": "1927-03-06",
+       "alternate_names": [
+        "Gabriel José de la Concordia García Márquez"
+       ]
+      },
+      {
+       "key": "OL9627217A",
+       "name": "García Márquez",
+       "work_count": 5,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12725507A",
+       "name": "GARCIA MARQUEZ,",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12725508A",
+       "name": "GARCIA MARQUEZ,",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL12725509A",
+       "name": "GARCIA MARQUEZ,",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL9947500A",
+       "name": "GARCIA MARQUEZ",
+       "work_count": 1,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15290656A",
+       "name": "Gabriel Garcia Marquez",
+       "work_count": 11,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15389184A",
+       "name": "Gabriel García Márquez",
+       "work_count": 11,
+       "birth_date": "1927",
+       "alternate_names": []
+      },
+      {
+       "key": "OL7914987A",
+       "name": "Fausto Pedro García Márquez",
+       "work_count": 28,
+       "birth_date": null,
+       "alternate_names": []
+      },
+      {
+       "key": "OL15193084A",
+       "name": "Gabriel García Márquez",
+       "work_count": 5,
+       "birth_date": null,
+       "alternate_names": []
+      }
+     ]
+    }
+   ],
+   "same_key_set": false,
+   "shared_keys": [
+    "OL27363A"
+   ]
+  }
+ },
+ "requests": {
+  "openlibrary.org": {
+   "requests": 17,
+   "failed": 0,
+   "total_s": 22.45,
+   "p50_s": 0.571,
+   "max_s": 12.949
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,436 @@
+{
+ "id": "N20",
+ "sbn": [
+  {
+   "W": "metaphors we live by.",
+   "author": "George Lakoff",
+   "total": 12,
+   "lingua_facet": [
+    [
+     "ita",
+     5
+    ],
+    [
+     "eng",
+     2
+    ],
+    [
+     "spa",
+     2
+    ],
+    [
+     "fre",
+     1
+    ],
+    [
+     "ger",
+     1
+    ],
+    [
+     "rus",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 12,
+   "rows": 12,
+   "multilingual_rows": 0,
+   "languages": 6,
+   "bogus_lingua_total": 0,
+   "year_parsed": 12,
+   "year_parse_failures": [],
+   "publisher_present": 12,
+   "language_present": 12,
+   "records_on_no_language_page": [],
+   "requests": 9,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 4.3,
+   "items": [
+    {
+     "bid": "MIL0182712",
+     "title": "Metaphors we live by / George Lakoff and Mark Johnson",
+     "author": "Lakoff, George",
+     "imprint": "Chicago and London : The University of Chicago Press, c1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1980",
+     "publisher": "The University of Chicago Press",
+     "place": "Chicago and London"
+    },
+    {
+     "bid": "UBO2667348",
+     "title": "Metaphors we live by / George Lakoff and Mark Johnson",
+     "author": "Lakoff, George",
+     "imprint": "Chicago ; London : The University of Chicago press, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2003",
+     "publisher": "The University of Chicago press",
+     "place": "Chicago ; London"
+    },
+    {
+     "bid": "MIL0268760",
+     "title": "Les métaphores dans la vie quotidienne / George Lakoff et Mark Johnson ; traduit de l'americain par Michel Defornel avec la collaboration de Jean-Jacques Lecercle",
+     "author": "Lakoff, George",
+     "imprint": "Paris : Les editions de minuit, c1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1985",
+     "publisher": "Les editions de minuit",
+     "place": "Paris"
+    },
+    {
+     "bid": "SBT0026543",
+     "title": "Leben in Metaphern : Konstruktion und Gebrauch von Sprachbildern / George Lakoff, Mark Johnson ; aus dem Amerikanischen übersetzt von Astrid Hildenbrand",
+     "author": "Lakoff, George",
+     "imprint": "Heidelberg : Carl Auer, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2018",
+     "publisher": "Carl Auer",
+     "place": "Heidelberg"
+    },
+    {
+     "bid": "RMS1761010",
+     "title": "Metafora e vita quotidiana / George Lakoff, Mark Johnson; edizione italiana a cura di Patrizia Violi",
+     "author": "Lakoff, George",
+     "imprint": "Milano : Strumenti Bompiani, [2007]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Strumenti Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0073489",
+     "title": "Metafora e vita quotidiana / George Lakoff & Mark Johnson ; edizione italiana a cura di Patrizia Violi",
+     "author": "Lakoff, George",
+     "imprint": "Milano : Strumenti Bompiani, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Strumenti Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO2634384",
+     "title": "Metafora e vita quotidiana / George Lakoff, Mark Johnson ; edizione italiana a cura di Patrizia Violi",
+     "author": "Lakoff, George",
+     "imprint": "[Milano] : Strumenti Bompiani, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Strumenti Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0983665",
+     "title": "Metafora e vita quotidiana / George Lakoff, Mark Johnson ; traduzione e introduzione di Patrizia Violi ; con una presentazione di Paolo Borzacchiello",
+     "author": "Lakoff, George",
+     "imprint": "Macerata : ROI, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "ROI",
+     "place": "Macerata"
+    },
+    {
+     "bid": "SBL0636008",
+     "title": "Metafora e vita quotidiana / George Lakoff & Mark Johnson ; edizione italiana a cura di Patrizia Violi",
+     "author": "Lakoff, George",
+     "imprint": "Roma : L'Espresso, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "L'Espresso",
+     "place": "Roma"
+    },
+    {
+     "bid": "UBO2618489",
+     "title": "Metafory, kotorymi my zivem / Dz. Lakoff, M. Dzonson ; perevod s angliskogo A. N. Baranova i A. V. Morozovoj ; pod redakciej i predisloviem A. N. Baranova",
+     "author": "Lakoff, George",
+     "imprint": "Moskva : URSS, c2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2004",
+     "publisher": "URSS",
+     "place": "Moskva"
+    },
+    {
+     "bid": "USM1833498",
+     "title": "Metáforas de la vida cotidiana / George Lakoff y Mark Johnson ; introducciónde José Antonio Millán y Susana Narotzky",
+     "author": "Lakoff, George",
+     "imprint": "Madrid, Cátedra,2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2009",
+     "publisher": "Madrid, Cátedra",
+     "place": null
+    },
+    {
+     "bid": "UMC0301222",
+     "title": "Metáforas de la vida cotidiana / George Lakoff y Mark Johnson ; introducción de José Antonio Millán y Susana Narotzky",
+     "author": "Lakoff, George",
+     "imprint": "Madrid : Catedra, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1995",
+     "publisher": "Catedra",
+     "place": "Madrid"
+    }
+   ],
+   "entries": [
+    "eng",
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL1952983W",
+  "size": 7,
+  "rows": 7,
+  "languages": 3,
+  "language_codes": [
+   "eng",
+   "fre",
+   "spa"
+  ],
+  "year_parsed": 7,
+  "year_parse_failures": [],
+  "publisher_present": 7,
+  "language_present": 7,
+  "requests": 7,
+  "failed": [],
+  "wall_s": 3.4,
+  "items": [
+   {
+    "key": "/books/OL8913267M",
+    "title": "Les métaphores dans la vie quotidienne",
+    "publish_date": "January 1, 1986",
+    "year": "1986",
+    "publishers": [
+     "Editions de Minuit"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "270731059X"
+    ],
+    "isbn_13": [
+     "9782707310590"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1952983W"
+    ]
+   },
+   {
+    "key": "/books/OL38346469M",
+    "title": "Metaphors We Live By",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "University of Chicago Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780226470993"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1952983W"
+    ]
+   },
+   {
+    "key": "/books/OL19658982M",
+    "title": "Metaphors we live by",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "University of Chicago Press"
+    ],
+    "publish_places": [
+     "Chicago"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0226468011"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1952983W"
+    ]
+   },
+   {
+    "key": "/books/OL20680018M",
+    "title": "Metaphors we live by",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "University of Chicago Press"
+    ],
+    "publish_places": [
+     "Chicago",
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0226468003"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1952983W"
+    ]
+   },
+   {
+    "key": "/books/OL4096576M",
+    "title": "Metaphors We Live By",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "University of Chicago Press"
+    ],
+    "publish_places": [
+     "Chicago"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0226468011"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1952983W"
+    ]
+   },
+   {
+    "key": "/books/OL15956933M",
+    "title": "Metaphors we live by",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "University of Chicago Press"
+    ],
+    "publish_places": [
+     "Chicago",
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0226468372"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1952983W"
+    ]
+   },
+   {
+    "key": "/books/OL13241621M",
+    "title": "Metaforas de la vida cotidiana / Metaphors We Live By (Teorema / Theorem)",
+    "publish_date": "June 30, 2004",
+    "year": "2004",
+    "publishers": [
+     "Ediciones Catedra S.A."
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8437606330"
+    ],
+    "isbn_13": [
+     "9788437606330"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1952983W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 4.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 8,
+   "failed": 0,
+   "total_s": 9.76,
+   "p50_s": 1.228,
+   "max_s": 1.787
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.4,
+   "p50_s": 3.401,
+   "max_s": 3.401
+  }
+ },
+ "failures": []
+}

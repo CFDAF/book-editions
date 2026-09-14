@@ -1,0 +1,5891 @@
+{
+ "id": "N05",
+ "sbn": [
+  {
+   "W": "catcher in the rye",
+   "author": "J. D. Salinger",
+   "total": 92,
+   "lingua_facet": [
+    [
+     "ita",
+     45
+    ],
+    [
+     "eng",
+     27
+    ],
+    [
+     "ger",
+     4
+    ],
+    [
+     "rus",
+     4
+    ],
+    [
+     "chi",
+     3
+    ],
+    [
+     "fre",
+     2
+    ],
+    [
+     "alb",
+     1
+    ],
+    [
+     "ara",
+     1
+    ],
+    [
+     "per",
+     1
+    ],
+    [
+     "pol",
+     1
+    ],
+    [
+     "rum",
+     1
+    ],
+    [
+     "spa",
+     1
+    ],
+    [
+     "srp",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 92,
+   "rows": 92,
+   "multilingual_rows": 0,
+   "languages": 13,
+   "bogus_lingua_total": 0,
+   "year_parsed": 92,
+   "year_parse_failures": [],
+   "publisher_present": 92,
+   "language_present": 92,
+   "records_on_no_language_page": [],
+   "requests": 18,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 5.9,
+   "items": [
+    {
+     "bid": "UBO3884075",
+     "title": "Femije ne humnere / Jerome David Salinger ; perktheu Celo Hoxha",
+     "author": "Salinger, J. D.",
+     "imprint": "Tirane : Ideart, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2004",
+     "publisher": "Ideart",
+     "place": "Tirane"
+    },
+    {
+     "bid": "RMB0698291",
+     "title": "al-Haris fi-haql al-shufan / J.D. Salinjir ; tarjamat Ghalib Halasa",
+     "author": "Salinger, J. D.",
+     "imprint": "Dimashq : Dar al-Madà li-l dirasat wa-al-nashr, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2007",
+     "publisher": "Dar al-Madà li-l dirasat wa-al-nashr",
+     "place": "Dimashq"
+    },
+    {
+     "bid": "LZ10262921",
+     "title": "Maitianli de shouwangzhe / Sailinge zhu ; Shi Xianrong yi",
+     "author": "Salinger, J. D.",
+     "imprint": "Nanjing : Yilin chubanshe, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2009",
+     "publisher": "Yilin chubanshe",
+     "place": "Nanjing"
+    },
+    {
+     "bid": "UBO4277785",
+     "title": "Maitian lide shou wang zhe / J.D.Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Yilin chubanshe : Fenghuang chuban chuanmei jituan, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2007",
+     "publisher": "Fenghuang chuban chuanmei jituan",
+     "place": "Yilin chubanshe"
+    },
+    {
+     "bid": "UBO4556327",
+     "title": "Mai tian shou wang zhe / J D Salinger, Xianrong Shi",
+     "author": "Salinger, J. D.",
+     "imprint": "Nanjing : Yi lin chu ban she, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2010",
+     "publisher": "Yi lin chu ban she",
+     "place": "Nanjing"
+    },
+    {
+     "bid": "TPS0007815",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Harmondsworth [etc.] : Penguin books in association with Hamish Hamilton, 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1970",
+     "publisher": "Penguin books in association with Hamish Hamilton",
+     "place": "Harmondsworth etc."
+    },
+    {
+     "bid": "TO10045159",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London : Penguin books, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2019",
+     "publisher": "Penguin books",
+     "place": "London"
+    },
+    {
+     "bid": "ANA0141648",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Harmondsworth : Penguin books, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1987",
+     "publisher": "Penguin books",
+     "place": "Harmondsworth"
+    },
+    {
+     "bid": "MOD1576737",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London : Penguin Books, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2010",
+     "publisher": "Penguin Books",
+     "place": "London"
+    },
+    {
+     "bid": "MOD1345491",
+     "title": "The catcher in the rye / J.D.Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York : Back Bay Books, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2001",
+     "publisher": "Back Bay Books",
+     "place": "New York"
+    },
+    {
+     "bid": "MOD1692067",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York [etc.] : Little, Brown and company, stampa 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2014",
+     "publisher": "Little, Brown and company",
+     "place": "New York etc."
+    },
+    {
+     "bid": "TO01002628",
+     "title": "The Catcher in the Rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Harmondsworth : Penguin Books, stampa 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1973",
+     "publisher": "Penguin Books",
+     "place": "Harmondsworth"
+    },
+    {
+     "bid": "PAL0228354",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York [etc.] : Little, Brown and company, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2001",
+     "publisher": "Little, Brown and company",
+     "place": "New York etc."
+    },
+    {
+     "bid": "RMS2531496",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London [etc.] : Penguin Books, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2010",
+     "publisher": "Penguin Books",
+     "place": "London etc."
+    },
+    {
+     "bid": "SBL0657883",
+     "title": "The catcher in the rye",
+     "author": "Salinger, J. D.",
+     "imprint": "London : Hamilton, 1962",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1962",
+     "publisher": "Hamilton",
+     "place": "London"
+    },
+    {
+     "bid": "RT10110991",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London : Penguin books, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2018",
+     "publisher": "Penguin books",
+     "place": "London"
+    },
+    {
+     "bid": "NAP0236089",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Boston \\etc.! : Little, Brown and company, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1991",
+     "publisher": "Little, Brown and company",
+     "place": "Boston etc."
+    },
+    {
+     "bid": "UBO0029439",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London : Hamish Hamilton, 1951",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1951",
+     "publisher": "Hamish Hamilton",
+     "place": "London"
+    },
+    {
+     "bid": "CAG1109708",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Harmondsworth : Penguin books in association with Hamilton, 1958",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1958",
+     "publisher": "Penguin books in association with Hamilton",
+     "place": "Harmondsworth"
+    },
+    {
+     "bid": "TO00555458",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London : Penguin books, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1994",
+     "publisher": "Penguin books",
+     "place": "London"
+    },
+    {
+     "bid": "UBO0241287",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London [etc.] : Penguin books, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1994",
+     "publisher": "Penguin books",
+     "place": "London etc."
+    },
+    {
+     "bid": "TO00675562",
+     "title": "The catcher in the rye / by J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York : The New American Library, stampa 1953",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1953",
+     "publisher": "The New American Library",
+     "place": "New York"
+    },
+    {
+     "bid": "RAV0339032",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York [etc.] : Bantam books, 1964",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1964",
+     "publisher": "Bantam books",
+     "place": "New York etc."
+    },
+    {
+     "bid": "TO01764385",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Boston [etc.] : Little, Brown and company, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2001",
+     "publisher": "Little, Brown and company",
+     "place": "Boston etc."
+    },
+    {
+     "bid": "UFI0246382",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Boston : Little, Brown & Co., 1951",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1951",
+     "publisher": "Little, Brown & Co.",
+     "place": "Boston"
+    },
+    {
+     "bid": "UBO3694450",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York : The New American Library, 1960",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1960",
+     "publisher": "The New American Library",
+     "place": "New York"
+    },
+    {
+     "bid": "UM10100519",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York: The Modern Library, c1951",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1951",
+     "publisher": "New York: The Modern Library",
+     "place": null
+    },
+    {
+     "bid": "UBO4962508",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York : Little, Brown and company, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2019",
+     "publisher": "Little, Brown and company",
+     "place": "New York"
+    },
+    {
+     "bid": "UFE0773945",
+     "title": "The Catcher in the Rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Harmondsworth, Penguin Books,stampa 1974",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1974",
+     "publisher": "Harmondsworth, Penguin Books",
+     "place": null
+    },
+    {
+     "bid": "UBO2422740",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "New York : The New American Library, 1953",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1953",
+     "publisher": "The New American Library",
+     "place": "New York"
+    },
+    {
+     "bid": "SIP0241975",
+     "title": "The catcher in the rye / J.D. Salinger ; note di Nigel Tookey",
+     "author": "Salinger, J. D.",
+     "imprint": "Londra : York Press, stampa 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2001",
+     "publisher": "York Press",
+     "place": "Londra"
+    },
+    {
+     "bid": "TO10046259",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": null,
+     "imprint": "New York : Grosset & Dunlap, 1951",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1951",
+     "publisher": "Grosset & Dunlap",
+     "place": "New York"
+    },
+    {
+     "bid": "FER0167608",
+     "title": "L'attrape-coeurs : roman / J. D. Salinger ; traduit de l'american par Annie Saumont",
+     "author": "Salinger, J. D.",
+     "imprint": "Paris : Robert Laffont, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1986",
+     "publisher": "Robert Laffont",
+     "place": "Paris"
+    },
+    {
+     "bid": "URB0909273",
+     "title": "L'attrape-coeurs : roman / J. D. Salinger ; traduit de l'american par Annie Saumont",
+     "author": "Salinger, J. D.",
+     "imprint": "Paris : Robert Laffont, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2008",
+     "publisher": "Robert Laffont",
+     "place": "Paris"
+    },
+    {
+     "bid": "URB0277883",
+     "title": "Der Fanger im Roggen : Roman / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "[Reinbek bei Hamburg] : Rowohlt, stampa 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1988",
+     "publisher": "Rowohlt",
+     "place": "Reinbek bei Hamburg"
+    },
+    {
+     "bid": "IEI0483190",
+     "title": "Der Fänger im Roggen : Roman / Jerome D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Köln ; Berlin : Kiepenheuer & Witsch, 1962",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1962",
+     "publisher": "Kiepenheuer & Witsch",
+     "place": "Köln ; Berlin"
+    },
+    {
+     "bid": "BVE0795027",
+     "title": "Der Fänger im Roggen : Roman / J. D. Salinger ; [Übersetzung (Zürich 1954) neu durchgesehen und bearbeitet von Heinrich Böll]",
+     "author": "Salinger, J. D.",
+     "imprint": "Reinbek bei Hamburg : Rowohlt, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1981",
+     "publisher": "Rowohlt",
+     "place": "Reinbek bei Hamburg"
+    },
+    {
+     "bid": "RAV1983703",
+     "title": "Der Fänger im Roggen : Roman / J. D. Salinger ; [Nach der ersten Übersetzung neu durchgesehen und bearbeitet von Heinrich Böll]",
+     "author": "Salinger, J. D.",
+     "imprint": "Reinbek bei Hamburg : Rowohlt, 1966",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1966",
+     "publisher": "Rowohlt",
+     "place": "Reinbek bei Hamburg"
+    },
+    {
+     "bid": "RMS2475090",
+     "title": "The catcher in the rye / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "London [etc.] : Penguin books, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Penguin books",
+     "place": "London etc."
+    },
+    {
+     "bid": "RLZ0217136",
+     "title": "Il giovane Holden / J.D. Salinger ; Traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "MOD0898349",
+     "title": "Il giovane Holden / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, [2004]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0196757",
+     "title": "Il giovane Holden / J. D. Salinger ; traduz. di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS1264617",
+     "title": "Il giovane Holden / J.D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0178157",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, stampa 1962",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1962",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RLZ0196413",
+     "title": "Il giovane Holden / J.D.Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV0735096",
+     "title": "Il giovane Holden / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, \\2001!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2001",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01635773",
+     "title": "Il giovane Holden / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, stampa 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10310856",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BRI0482096",
+     "title": "El Guardian entre el centeno / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Madrid : Alianza Editorial, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "Alianza Editorial",
+     "place": "Madrid"
+    },
+    {
+     "bid": "MOD0113676",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, c1961, stampa 1973",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CFI0745736",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO10010645",
+     "title": "Il Giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, c1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "SBL0530400",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : G. Einaudi, [1961]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "G. Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LIA0096438",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, c1961, stampa 1964",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO11189651",
+     "title": "Il giovane Holden / Jerome David Salinger ; legge: Eros Zecchini",
+     "author": "Salinger, J. D.",
+     "imprint": "Feltre : Centro Internazionale del Libro parlato, 2008",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Centro Internazionale del Libro parlato",
+     "place": "Feltre"
+    },
+    {
+     "bid": "LIA0063618",
+     "title": "Vita da uomo / Jerome David Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Roma : Casini, 1952",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1952",
+     "publisher": "Casini",
+     "place": "Roma"
+    },
+    {
+     "bid": "TO01123753",
+     "title": "Il giovane Holden / J. D. Salinger ; [traduzione di Adriana Motti]",
+     "author": "Salinger, J. D.",
+     "imprint": "Roma : La Biblioteca di Repubblica, c2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "La Biblioteca di Repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "CFI0286653",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS2529147",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01306697",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, ©1961, stampa 1962",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "NAP0338763",
+     "title": "Il giovane holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, ©1961, stampa 1963",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01883546",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1975",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1975",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "NAP0018295",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Milano : Euroclub, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "BIA0004088",
+     "title": "Il giovane Holden / J.D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, c1961, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO00644984",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS0118424",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, stampa 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UMC1016317",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1979",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1979",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RMS0149872",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV1684542",
+     "title": "Il giovane Holden / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10065433",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, c 1961, stampa 1964",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "CSA0033749",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "\\Torino! : Einaudi, c1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "LO10429406",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10038679",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, c1961, stampa 1962",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10110044",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, c1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UM10077376",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 1961",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO1717288",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "RAV1927658",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, stampa 2010",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BRI0495268",
+     "title": "Il giovane Holden / J.D. Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, stampa 1970",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1970",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BVE0300753",
+     "title": "Il giovane Holden / Jerome David Salinger ; traduzione di Adriana Motti",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, [1961]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1961",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BCT0075911",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Matteo Colombo",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "BCT0051385",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Matteo Colombo",
+     "author": "Salinger, J. D.",
+     "imprint": "Roma : La Biblioteca di Repubblica-L'Espresso, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "La Biblioteca di Repubblica-L'Espresso",
+     "place": "Roma"
+    },
+    {
+     "bid": "UBO4671523",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Matteo Colombo",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 2022",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "UBO4116865",
+     "title": "Il giovane Holden / J. D. Salinger ; traduzione di Matteo Colombo",
+     "author": "Salinger, J. D.",
+     "imprint": "Torino : Einaudi, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Einaudi",
+     "place": "Torino"
+    },
+    {
+     "bid": "TO01804749",
+     "title": "Nātūr dašt / Jī. Dī. Salīnǧir ; tarǧumah-ʻi Ahmad Karīmī",
+     "author": "Salinger, J. D.",
+     "imprint": "Tihran : Quqnus, 1386 [2007!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "per",
+     "langs": [
+      "per"
+     ],
+     "year": "1386",
+     "publisher": "Quqnus",
+     "place": "Tihran"
+    },
+    {
+     "bid": "UBO3984431",
+     "title": "Buszujacy w zbozu / J.D. Salinger ; Z angielskiego przelozyla Magdalena Slysz",
+     "author": "Salinger, J. D.",
+     "imprint": "Warszawa : Wydawnictwo Albatros A. Kurylowicz, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2012",
+     "publisher": "Wydawnictwo Albatros A. Kurylowicz",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "TO01406481",
+     "title": "De veghe în lanul de secară / J. D. Salinger ; traducere ʂi note de Catinca Ralea ʂi Lucian Bratu",
+     "author": "Salinger, J. D.",
+     "imprint": "Iaʂi ; Bucureʂti : Polirom, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2001",
+     "publisher": "Polirom",
+     "place": "Iaʂi ; Bucureʂti"
+    },
+    {
+     "bid": "RAV1901093",
+     "title": "Nad propast'ju vo rzi / Dzerom D. Selindzer",
+     "author": "Salinger, J. D.",
+     "imprint": "Moskva : Eksmo, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2009",
+     "publisher": "Eksmo",
+     "place": "Moskva"
+    },
+    {
+     "bid": "UBO2634919",
+     "title": "Nad propast'ju vo rzi / Dzerom Selindzer",
+     "author": "Salinger, J. D.",
+     "imprint": "Sankt Peterburg : Azbuka-klassika, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2004",
+     "publisher": "Azbuka-klassika",
+     "place": "Sankt Peterburg"
+    },
+    {
+     "bid": "UBO3793655",
+     "title": "Nad propastju vo rzi / Dzerom D. Selindzer [i.e. Jerome D. Salinger]",
+     "author": "Salinger, J. D.",
+     "imprint": "Moskva : Eksmo, 2008. - 636 p. ; 21 cm",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2008",
+     "publisher": "Eksmo",
+     "place": "Moskva"
+    },
+    {
+     "bid": "MIL0371716",
+     "title": "Nad propastju vo rzi ; Povesti ; Devjat rasskazov : perevod s anglijskogo / Dz. D. Selindzer ; sost. i vstupit. statja A. Muljarcika",
+     "author": "Salinger, J. D.",
+     "imprint": "Moskva : Hudozestvennaja literatura, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "1983",
+     "publisher": "Hudozestvennaja literatura",
+     "place": "Moskva"
+    },
+    {
+     "bid": "RMB0690433",
+     "title": "Guardián entre el centeno / J. D. Salinger",
+     "author": "Salinger, J. D.",
+     "imprint": "Madrid : Alianza, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2007",
+     "publisher": "Alianza",
+     "place": "Madrid"
+    },
+    {
+     "bid": "TSA1434168",
+     "title": "Lovac u žitu / Dž.D. Selindžer ; preveo sa engleskog Flavio Rigonat",
+     "author": "Salinger, J. D.",
+     "imprint": "Beograd : Haos ; Damnjanović i sinovi, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "srp",
+     "langs": [
+      "srp"
+     ],
+     "year": "1996",
+     "publisher": "Haos ; Damnjanović i sinovi",
+     "place": "Beograd"
+    }
+   ],
+   "entries": [
+    "eng",
+    "ita",
+    "ita-2"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL3335245W",
+  "size": 204,
+  "rows": 204,
+  "languages": 16,
+  "language_codes": [
+   "chi",
+   "cze",
+   "dut",
+   "eng",
+   "fre",
+   "ger",
+   "heb",
+   "ita",
+   "jpn",
+   "kor",
+   "lit",
+   "pol",
+   "por",
+   "rus",
+   "spa",
+   "tur"
+  ],
+  "year_parsed": 200,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL35663922M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL39209776M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL13363589M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL7355723M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 197,
+  "language_present": 163,
+  "requests": 19,
+  "failed": [],
+  "wall_s": 6.0,
+  "items": [
+   {
+    "key": "/books/OL62298658M",
+    "title": "O Apanhador no Campo de Centeio",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Editora do Autor"
+    ],
+    "publish_places": [],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788587575012"
+    ],
+    "translation_of": "The Catcher in the Rye",
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL49805302M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL50512910M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Harmondsworth, Penguin Books in association with Hamish Hamilton (1958)."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL49236498M",
+    "title": "麦田里的守望者",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "译林出版社"
+    ],
+    "publish_places": [],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7544750264"
+    ],
+    "isbn_13": [
+     "9787544750264"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL6089177M",
+    "title": "The catcher in the rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [
+     "Boston"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL51009230M",
+    "title": "The catcher in the rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0241002516"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61365730M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "LB Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61365729M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61365728M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61365727M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61365725M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61365718M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61363001M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769487"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362979M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362662M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362588M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Hamish Hamilton"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362584M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1966",
+    "year": "1966",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362582M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Taibei Xian Zhonghe Shi"
+    ],
+    "publish_places": [],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9575516966"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362445M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1959",
+    "year": "1959",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362441M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "/1970",
+    "year": "1970",
+    "publishers": [
+     "Hamish Hamilton"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0241900972"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61362358M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1955",
+    "year": "1955",
+    "publishers": [
+     "Hamish Hamilton"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61361973M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1963",
+    "year": "1963",
+    "publishers": [
+     "N.A.L. Signet Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61361969M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "/1970",
+    "year": "1970",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769533"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61361967M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1978",
+    "year": "1978",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "055311722X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61361919M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "014023750X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL26772439M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1968 08",
+    "year": "1968",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61355083M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Back Bay Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769177"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL60415864M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL61355044M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "/1970",
+    "year": "1970",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769533"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL47250420M",
+    "title": "El vigilant en el camp de sègol LECTURA PLUS",
+    "publish_date": "May 24, 2011",
+    "year": "2011",
+    "publishers": [
+     "Edicions 62"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8429768289"
+    ],
+    "isbn_13": [
+     "9788429768282"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9165624M",
+    "title": "Apanhador no Campo de Centeio, O",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Do Autor"
+    ],
+    "publish_places": [],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8587575015"
+    ],
+    "isbn_13": [
+     "9788587575012"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL42855540M",
+    "title": "De vanger in het graan",
+    "publish_date": "Jan 14, 2019",
+    "year": "2019",
+    "publishers": [
+     "Bezige Bij, De"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9403134100"
+    ],
+    "isbn_13": [
+     "9789403134109"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL35663922M",
+    "title": "O Apanhador no Campo de Centeio",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Todavia"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6580309032"
+    ],
+    "isbn_13": [
+     "9786580309030"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL30526865M",
+    "title": "Çavdar Tarlasında Çocuklar",
+    "publish_date": "Dec 01, 2007",
+    "year": "2007",
+    "publishers": [
+     "Yapı Kredi Yayınları"
+    ],
+    "publish_places": [],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "9753636369"
+    ],
+    "isbn_13": [
+     "9789753636360"
+    ],
+    "translation_of": "The catcher in the rye",
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL28329603M",
+    "title": "El vigilant en el camp de sègol",
+    "publish_date": "Jun 01, 2007",
+    "year": "2007",
+    "publishers": [
+     "labutxaca"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8496863212"
+    ],
+    "isbn_13": [
+     "9788496863217"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL32008312M",
+    "title": "El vigilant en el camp de sègol",
+    "publish_date": "Sep 01, 1996",
+    "year": "1996",
+    "publishers": [
+     "Editorial Empúries"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8475962653"
+    ],
+    "isbn_13": [
+     "9788475962658"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL47337715M",
+    "title": "El vigilant en el camp de sègol",
+    "publish_date": "Jan 09, 2019",
+    "year": "2019",
+    "publishers": [
+     "Editorial Empúries"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8417016791"
+    ],
+    "isbn_13": [
+     "9788417016791"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27966924M",
+    "title": "À Espera no Centeio",
+    "publish_date": "Apr 27, 2011",
+    "year": "2011",
+    "publishers": [
+     "Quetzal Editores"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9725649745"
+    ],
+    "isbn_13": [
+     "9789725649749"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL24376869M",
+    "title": "De vanger in het graan",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Muntinga"
+    ],
+    "publish_places": [
+     "Amsterdam, Netherlands"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9041740082"
+    ],
+    "isbn_13": [],
+    "translation_of": "The catcher in the rye",
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL12589715M",
+    "title": "Nad Propastju Vo Rzi",
+    "publish_date": "December 31, 1998",
+    "year": "1998",
+    "publishers": [
+     "Koch, Neff & Oetinger & Co"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5870870046"
+    ],
+    "isbn_13": [
+     "9785870870045"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL59887262M",
+    "title": "El guardián entre el centeno",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Alianza"
+    ],
+    "publish_places": [
+     "Madrid, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420634093"
+    ],
+    "isbn_13": [],
+    "translation_of": "The Catcher in the Rye",
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL58710572M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL57836062M",
+    "title": "ha-Tafsan bi-śedeh ha-shipon",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "ʻAm ʻoved"
+    ],
+    "publish_places": [
+     "Tel Aviv"
+    ],
+    "languages": [
+     "heb"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL56481789M",
+    "title": "Guardián Entre el Centeno",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781517712112"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL54627224M",
+    "title": "Guardian Entre el Centeno",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781511464666"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL56480656M",
+    "title": "Guardian Entre el Centeno",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781517426859"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL52436381M",
+    "title": "Catcher in the rye",
+    "publish_date": "1953",
+    "year": "1953",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [
+     "New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL49347889M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1953-01-01",
+    "year": "1953",
+    "publishers": [
+     "Signet"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL51009002M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1965",
+    "year": "1965",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53229760M",
+    "title": "Catcher in the Rye",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Buccaneer Books, Incorporated"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780899667829"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53233447M",
+    "title": "Catcher in the Rye",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Chivers Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780745118444"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53237517M",
+    "title": "Catcher in the Rye",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Chivers Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780850466195"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53274886M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Folio, Editions"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789660305861"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53278265M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Prestwick House, Incorporated"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781603891646"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53278305M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Marco Book Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781557449863"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53293967M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Marco Book Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780784835111"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53298822M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781530075362"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53300005M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Perfection Learning Corporation"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781613839560"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53301288M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781530074075"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53310452M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781517020132"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL53314307M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781530075164"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL55024558M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781979896955"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL55238475M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "CreateSpace Independent Publishing Platform"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781514355008"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL45845997M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL45348884M",
+    "title": "Nad propast'i͡u vo rzhi",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Molodai͡a gvardii͡a"
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL38570947M",
+    "title": "Homilbat ŭi p'asukkun",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Sodam Ch'ulp'ansa"
+    ],
+    "publish_places": [
+     "Sŏul T'ŭkpyŏlsi"
+    ],
+    "languages": [
+     "kor"
+    ],
+    "isbn_10": [
+     "8973810286"
+    ],
+    "isbn_13": [
+     "9788973810284"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL33423119M",
+    "title": "Il giovane Holden",
+    "publish_date": "Jun 12, 2014",
+    "year": "2014",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8806218182"
+    ],
+    "isbn_13": [
+     "9788806218188"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL32646794M",
+    "title": "GUARDIAN ENTRE EL CENTENO , EL",
+    "publish_date": "Jun 18, 1992",
+    "year": "1992",
+    "publishers": [
+     "EDHASA"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8435008215"
+    ],
+    "isbn_13": [
+     "9788435008211"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL26855712M",
+    "title": "El guardián entre el centeno - 5. edición",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788491049418"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL26461306M",
+    "title": "El guardián entre el centeno",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Edhasa"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788435008952"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL12459570M",
+    "title": "L'attrape-coeurs",
+    "publish_date": "September 12, 1999",
+    "year": "1999",
+    "publishers": [
+     "Robert Laffont"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2221083393"
+    ],
+    "isbn_13": [
+     "9782221083390"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL12927950M",
+    "title": "Der Fänger im Roggen. Erläuterungen.",
+    "publish_date": "December 1, 1999",
+    "year": "1999",
+    "publishers": [
+     "Bange, Hollf."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3804404243"
+    ],
+    "isbn_13": [
+     "9783804404243"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL8889841M",
+    "title": "L'Attrape-Coeurs",
+    "publish_date": "January 1994",
+    "year": "1994",
+    "publishers": [
+     "Pocket (FR)"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2266062336"
+    ],
+    "isbn_13": [
+     "9782266062336"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL19986116M",
+    "title": "L' attrape-coeurs",
+    "publish_date": "1967",
+    "year": "1967",
+    "publishers": [
+     "Laffont"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL8890450M",
+    "title": "L'Attrape-Coeurs",
+    "publish_date": "January 2004",
+    "year": "2004",
+    "publishers": [
+     "Robert Laffont"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2266125354"
+    ],
+    "isbn_13": [
+     "9782266125352"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL39220314M",
+    "title": "L'attrape-coeurs",
+    "publish_date": "Aug 09, 2005",
+    "year": "2005",
+    "publishers": [
+     "Pocket"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2266149865"
+    ],
+    "isbn_13": [
+     "9782266149860"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL43691788M",
+    "title": "L'Attrape-coeurs",
+    "publish_date": "1979-01-01",
+    "year": "1979",
+    "publishers": [
+     "Robert Laffont"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782253009788"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL26585054M",
+    "title": "Buszujący w zbożu",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Wydawnictwo Albatros"
+    ],
+    "publish_places": [
+     "Poland"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788379855025"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9047935M",
+    "title": "Der Fänger im Roggen",
+    "publish_date": "January 1, 1966",
+    "year": "1966",
+    "publishers": [
+     "Rowohlt Tb."
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3499108518"
+    ],
+    "isbn_13": [
+     "9783499108518"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL28143145M",
+    "title": "Der Fänger im Roggen",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Rowohlt Taschenbuch Verlag GmbH"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3499235390"
+    ],
+    "isbn_13": [
+     "9783499235399"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL49668212M",
+    "title": "Der Mann im Roggen",
+    "publish_date": "1954",
+    "year": "1954",
+    "publishers": [
+     "Diana Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL48109818M",
+    "title": "Catcher in the Rye, The (Signet 1001)",
+    "publish_date": "1953-01-01",
+    "year": "1953",
+    "publishers": [
+     "Little Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27871430M",
+    "title": "麦田里的守望者",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Yi lin chu ban she"
+    ],
+    "publish_places": [],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7805676127"
+    ],
+    "isbn_13": [
+     "9787805676128"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27734811M",
+    "title": "Mai tian li de shou wang zhe",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Gui zhou ta xue chu ban she"
+    ],
+    "publish_places": [
+     "Gui yang"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "781126515X"
+    ],
+    "isbn_13": [
+     "9787811265156"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27919114M",
+    "title": "The catcher in the rye",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Everbind"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27148913M",
+    "title": "Nad propastʹ︠i︡u vo rzhi",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5699648143"
+    ],
+    "isbn_13": [
+     "9785699648146"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL39209776M",
+    "title": "The Catcher in the Rye",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Kodansha"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "4061860712"
+    ],
+    "isbn_13": [
+     "9784061860711"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL44789740M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL49218098M",
+    "title": "The catcher in the rye",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Reclam"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783150198100"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL49218049M",
+    "title": "The catcher in the rye",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Reclam"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL47818984M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL46908341M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1962-09-01",
+    "year": "1962",
+    "publishers": [
+     "Signet Books"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL43408133M",
+    "title": "THE CATCHER IN THE RYE (PENGUIN PAPERBACK 1985)",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "PENGUIN PAPERBACKS"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL43086280M",
+    "title": "The Catcher in the Rye (Signet D1667 - 18th printing)",
+    "publish_date": "1961-01-01",
+    "year": "1961",
+    "publishers": [
+     "Signet"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL43067342M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL39973893M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Wiley & Sons, Incorporated, John"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780822070382"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL40289163M",
+    "title": "Catcher in the Rye",
+    "publish_date": "Nov 08, 1991",
+    "year": "1991",
+    "publishers": [
+     "Demco Media"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0606048871"
+    ],
+    "isbn_13": [
+     "9780606048873"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL40542531M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Independently Published"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781977063021"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL40699277M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Independently Published"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781973139720"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL40809677M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Independently Published"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781973404255"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL42996053M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Signet Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL43283863M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL43359010M",
+    "title": "The catcher in the rye",
+    "publish_date": "1951-01-01",
+    "year": "1951",
+    "publishers": [
+     "Modern Library"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL44275199M",
+    "title": "Catcher in the Rye",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Little Brown & Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781536433944"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL44278372M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2019",
+    "year": "2019",
+    "publishers": [
+     "Little Brown & Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780316460002"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL45827514M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1972",
+    "year": "1972",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL47773871M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Grosset & Dunlap"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL47773869M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1969-08",
+    "year": "1969",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "Toronto, etc."
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL47773856M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1964-04",
+    "year": "1964",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL37836659M",
+    "title": "Der Fänger im Roggen",
+    "publish_date": "1975",
+    "year": "1975",
+    "publishers": [
+     "Kiepenheuer & Witsch"
+    ],
+    "publish_places": [
+     "Köln"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL37833590M",
+    "title": "Der Fänger im Roggen",
+    "publish_date": "1974",
+    "year": "1974",
+    "publishers": [
+     "Reclam"
+    ],
+    "publish_places": [
+     "Leipzig"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9042554M",
+    "title": "Der Fänger im Roggen.",
+    "publish_date": "July 1, 2002",
+    "year": "2002",
+    "publishers": [
+     "Kiepenheuer & Witsch"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3462031937"
+    ],
+    "isbn_13": [
+     "9783462031935"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9042563M",
+    "title": "Der Fänger im Roggen.",
+    "publish_date": "February 1, 2003",
+    "year": "2003",
+    "publishers": [
+     "Kiepenheuer & Witsch"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3462032186"
+    ],
+    "isbn_13": [
+     "9783462032185"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL39492809M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1964-04",
+    "year": "1964",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL24655414M",
+    "title": "Rugiuose prie bedugnės",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Aušra"
+    ],
+    "publish_places": [
+     "Kaunas, Lithuania"
+    ],
+    "languages": [
+     "lit"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789986027706"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL21523809M",
+    "title": "The catcher in the rye",
+    "publish_date": "1964",
+    "year": "1964",
+    "publishers": [
+     "Bantham Books",
+     "Bantam"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553250256"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL6249881M",
+    "title": "The catcher in the rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Modern Library"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7569718M",
+    "title": "Catcher in the Rye",
+    "publish_date": "March 1, 1959",
+    "year": "1959",
+    "publishers": [
+     "Signet"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "045101667X"
+    ],
+    "isbn_13": [
+     "9780451016676"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22933103M",
+    "title": "Mai tian bu shou",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Shu hua chu ban shi yeh yu xian gong si"
+    ],
+    "publish_places": [
+     "Taibei Xian Zhonghe Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9575516966"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22945073M",
+    "title": "Nad propastʹi︠u︡ vo rzhi ; Povesti ; Rasskazy",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Izd-vo \"Pravda\""
+    ],
+    "publish_places": [
+     "Moskva"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5253001964"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL23024593M",
+    "title": "Mai tian bu shou",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Yi zhan wen hua",
+     "Zong jing xiao Zhao ri wen hua"
+    ],
+    "publish_places": [
+     "Taibei Shi",
+     "Taibei Xian Zhonghe Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9578325274"
+    ],
+    "isbn_13": [],
+    "translation_of": "The Catcher in the Rye",
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL11346287M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "July 1977",
+    "year": "1977",
+    "publishers": [
+     "Perfection Learning Prebound"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0812415280"
+    ],
+    "isbn_13": [
+     "9780812415285"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL8596078M",
+    "title": "A Catcher in the Rye",
+    "publish_date": "April 1989",
+    "year": "1989",
+    "publishers": [
+     "Cram Cassettes Study Guides"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1556511272"
+    ],
+    "isbn_13": [
+     "9781556511271"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7817294M",
+    "title": "The Catcher In The Rye",
+    "publish_date": "1976",
+    "year": "1976",
+    "publishers": [
+     "Bantam"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553104071"
+    ],
+    "isbn_13": [
+     "9780553104073"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL16265169M",
+    "title": "The catcher in the rye",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Chivers",
+     "Chivers Large print (Chivers, Windsor, Paragon & C"
+    ],
+    "publish_places": [
+     "Bath"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0745118348"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL23081498M",
+    "title": "Buszujący w zbożu",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Wydawnictwo ISKRY"
+    ],
+    "publish_places": [
+     "Warszawa"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [
+     "8320715369"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL23126331M",
+    "title": "Mai tian bu shou",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Mai tian chu ban",
+     "Cheng bang wen hua shi ye gu fen you xian gong si"
+    ],
+    "publish_places": [
+     "Taibei Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9861732098"
+    ],
+    "isbn_13": [
+     "9789861732091"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL23030089M",
+    "title": "Nad propastʹi︠u︡ vo rzhi ; Povesti ; Rasskazy",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "AST",
+     "\"Folio\""
+    ],
+    "publish_places": [
+     "Moskva",
+     "Kharʹkov"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5237020054",
+     "9660304919"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL23009777M",
+    "title": "Kyacchā in za rai =",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Hakusuisha"
+    ],
+    "publish_places": [
+     "Tōkyō"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [
+     "4560047642"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7821619M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "July 1983",
+    "year": "1983",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553239767"
+    ],
+    "isbn_13": [
+     "9780553239768"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL21146809M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1977",
+    "year": "1977",
+    "publishers": [
+     "Penguin",
+     "Penguin Books Ltd.",
+     "Signet - Book-of-the-Month-Club Selection"
+    ],
+    "publish_places": [
+     "Harmondsworth (etc.)"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140470921"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL11760645M",
+    "title": "Catcher in the Rye",
+    "publish_date": "January 2001",
+    "year": "2001",
+    "publishers": [
+     "Tandem Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "141764639X"
+    ],
+    "isbn_13": [
+     "9781417646395"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7818890M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "June 6, 1984",
+    "year": "1984",
+    "publishers": [
+     "Bantam Books (Mm)"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0553149660"
+    ],
+    "isbn_13": [
+     "9780553149661"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9595688M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "June 1973",
+    "year": "1973",
+    "publishers": [
+     "Franklin Watts"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0531001725"
+    ],
+    "isbn_13": [
+     "9780531001721"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL21137549M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "June 6, 1984",
+    "year": "1984",
+    "publishers": [
+     "Bantam Books (Mm)"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0553149661"
+    ],
+    "isbn_13": [
+     "9780553149661"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7569675M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "March 1, 1959",
+    "year": "1959",
+    "publishers": [
+     "Signet"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0451010019"
+    ],
+    "isbn_13": [
+     "9780451010018"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL1740396M",
+    "title": "The catcher in the rye",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Curley Large Print"
+    ],
+    "publish_places": [
+     "Hampton, N.H"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0792715160",
+     "0792715179"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL25883710M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "London, England"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0241950430"
+    ],
+    "isbn_13": [
+     "9780241950432"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9018071M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "January 1, 1994",
+    "year": "1994",
+    "publishers": [
+     "Klett"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3125738067"
+    ],
+    "isbn_13": [
+     "9783125738065"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL26764064M",
+    "title": "Uma agulha no palheiro",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Livros do Brasil"
+    ],
+    "publish_places": [],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789723813210"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9766378M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "2001 01",
+    "year": "2001",
+    "publishers": [
+     "Back Bay Books"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769177"
+    ],
+    "isbn_13": [
+     "9780316769174"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9117528M",
+    "title": "El Guardian Entre El Centeno/ The Catcher in the Rye",
+    "publish_date": "September 30, 2006",
+    "year": "2006",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420666858"
+    ],
+    "isbn_13": [
+     "9788420666853"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9726994M",
+    "title": "El Guardian Entre el Centeno/ The Catcher in the Rye",
+    "publish_date": "June 30, 2006",
+    "year": "2006",
+    "publishers": [
+     "Alianza Editorial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "842066085X"
+    ],
+    "isbn_13": [
+     "9788420660851"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9074771M",
+    "title": "The catcher in the rye",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "YMB Si-sa"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng",
+     "kor"
+    ],
+    "isbn_10": [
+     "8917161464"
+    ],
+    "isbn_13": [
+     "9788917161465"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL10445913M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "April 2002",
+    "year": "2002",
+    "publishers": [
+     "Little Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769312"
+    ],
+    "isbn_13": [
+     "9780316769310"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7822241M",
+    "title": "Catcher in the Rye",
+    "publish_date": "November 1, 1984",
+    "year": "1984",
+    "publishers": [
+     "Bantam"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553250256"
+    ],
+    "isbn_13": [
+     "9780553250251"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL13363589M",
+    "title": "O Vixia No Centeo / The catcher in the rye (Fora De Xogo)",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "und"
+    ],
+    "isbn_10": [
+     "8497824946"
+    ],
+    "isbn_13": [
+     "9788497824941"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL10950737M",
+    "title": "El Guardian Entre El Centeno / The Catcher in the Rye",
+    "publish_date": "October 1999",
+    "year": "1999",
+    "publishers": [
+     "Tandem Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0613097629"
+    ],
+    "isbn_13": [
+     "9780613097628"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL24092356M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769487"
+    ],
+    "isbn_13": [
+     "9780316769488"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7355723M",
+    "title": "Catcher in the Rye",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0140470921"
+    ],
+    "isbn_13": [
+     "9780140470925"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7818229M",
+    "title": "The Catcher In The Rye",
+    "publish_date": "1979",
+    "year": "1979",
+    "publishers": [
+     "Bantam"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553134329"
+    ],
+    "isbn_13": [
+     "9780553134322"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9562683M",
+    "title": "Guardian Entre El Centeno (Catcher in the Rye)",
+    "publish_date": "April 1998",
+    "year": "1998",
+    "publishers": [
+     "Turtleback Books Distributed by Demco Media"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0606295453"
+    ],
+    "isbn_13": [
+     "9780606295451"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9139638M",
+    "title": "El Guardian Entre El Centeno",
+    "publish_date": "January 2001",
+    "year": "2001",
+    "publishers": [
+     "Edhasa"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9509009067"
+    ],
+    "isbn_13": [
+     "9789509009066"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9116899M",
+    "title": "El Guardian Entre El Centeno",
+    "publish_date": "March 1999",
+    "year": "1999",
+    "publishers": [
+     "AIMS International Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420616893"
+    ],
+    "isbn_13": [
+     "9788420616896"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL12986745M",
+    "title": "Guardian Entre El Centeno, El",
+    "publish_date": "August 1998",
+    "year": "1998",
+    "publishers": [
+     "Alianza"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9504000681"
+    ],
+    "isbn_13": [
+     "9789504000686"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL13320579M",
+    "title": "O Vixia No Centeo",
+    "publish_date": "June 30, 2005",
+    "year": "2005",
+    "publishers": [
+     "Grupo Anaya Comercial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8483023652"
+    ],
+    "isbn_13": [
+     "9788483023655"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9568225M",
+    "title": "El Cazador Oculto",
+    "publish_date": "December 1998",
+    "year": "1998",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9500714965"
+    ],
+    "isbn_13": [
+     "9789500714969"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL8361590M",
+    "title": "El cazador oculto (Sudamericana Joven. Novela)",
+    "publish_date": "July 31, 2001",
+    "year": "2001",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "140000053X"
+    ],
+    "isbn_13": [
+     "9781400000531"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9117070M",
+    "title": "El guardián entre el centeno",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Alianza"
+    ],
+    "publish_places": [
+     "Madrid, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8420634093"
+    ],
+    "isbn_13": [
+     "9788420634098"
+    ],
+    "translation_of": "The Catcher in the Rye",
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL13239672M",
+    "title": "Guardian Entre El Centeno, El - Tapa Dura -",
+    "publish_date": "January 1998",
+    "year": "1998",
+    "publishers": [
+     "Edhasa"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8435008576"
+    ],
+    "isbn_13": [
+     "9788435008570"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9589230M",
+    "title": "El Cazador Oculto / the Catcher in the Rye",
+    "publish_date": "April 2001",
+    "year": "2001",
+    "publishers": [
+     "Sudamericana"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9500714566"
+    ],
+    "isbn_13": [
+     "9789500714563"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL31826441M",
+    "title": "Der Fänger im Roggen",
+    "publish_date": "2010-03",
+    "year": "2010",
+    "publishers": [
+     "Rowohlt Taschenbuch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783499235399"
+    ],
+    "translation_of": "The Catcher in the Rye",
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL30423020M",
+    "title": "The catcher in the rye",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Ishi Press International"
+    ],
+    "publish_places": [
+     "Bronx, NY"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "4871876195"
+    ],
+    "isbn_13": [
+     "9784871876193"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL32935403M",
+    "title": "Catcher in the Rye",
+    "publish_date": "Sep 18, 2008",
+    "year": "2008",
+    "publishers": [
+     "Paw Prints 2008-09-18",
+     "Salinger, J. D."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1439550050"
+    ],
+    "isbn_13": [
+     "9781439550052"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27951140M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "Dec 03, 2019",
+    "year": "2019",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "031654003X"
+    ],
+    "isbn_13": [
+     "9780316540032"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL26992953M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "Nov 06, 2018",
+    "year": "2018",
+    "publishers": [
+     "Back Bay Books"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0316450863"
+    ],
+    "isbn_13": [
+     "9780316450867"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL38814186M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2019",
+    "year": "2019",
+    "publishers": [
+     "Penguin Books, Limited"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780241988794"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL28698765M",
+    "title": "Catcher in the Rye",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Penguin Books, Limited",
+     "Bantam Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780241984758"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27305541M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "Mar 04, 2010",
+    "year": "2010",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0241950422"
+    ],
+    "isbn_13": [
+     "9780241950425"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22640541M",
+    "title": "The catcher in the rye",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Hamish Hamilton",
+     "Little, Brown and Company"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0241002516"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL17226245M",
+    "title": "Catcher in the rye",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Penguin"
+    ],
+    "publish_places": [
+     "Harmondsworth"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0140237496"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9300423M",
+    "title": "The Catcher in the Rye (Modern Classics)",
+    "publish_date": "November 1, 1969",
+    "year": "1969",
+    "publishers": [
+     "Penguin Books Ltd"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0140012486"
+    ],
+    "isbn_13": [
+     "9780140012484"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL16677355M",
+    "title": "The catcher in the rye.",
+    "publish_date": "1945",
+    "year": "1945",
+    "publishers": [
+     "Little, Brown and Co."
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL16086728M",
+    "title": "The catcher in the rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [
+     "Boston"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL4184911M",
+    "title": "The catcher in the rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Hamish Hamilton"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL20742519M",
+    "title": "The catcher in the rye / J. D. Salinger",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22929432M",
+    "title": "The catcher in the rye.",
+    "publish_date": "1953",
+    "year": "1953",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [
+     "[New York]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL20767177M",
+    "title": "The catcher in the rye.",
+    "publish_date": "1961",
+    "year": "1961",
+    "publishers": [
+     "Grosset & Dunlap"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL21878898M",
+    "title": "Der Fänger im Roggen",
+    "publish_date": "1963",
+    "year": "1963",
+    "publishers": [
+     "Kiepenheuer & Witsch"
+    ],
+    "publish_places": [
+     "Köln"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL5743017M",
+    "title": "The catcher in the rye",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Progress Publishers"
+    ],
+    "publish_places": [
+     "[Moscow]"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22928159M",
+    "title": "Kdo chytá v z̆itĕ",
+    "publish_date": "1979",
+    "year": "1979",
+    "publishers": [
+     "Práce"
+    ],
+    "publish_places": [
+     "Praha"
+    ],
+    "languages": [
+     "cze"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22943500M",
+    "title": "Mai tian bu shou",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Xiang yi chu ban she"
+    ],
+    "publish_places": [
+     "Tainan Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27009571M",
+    "title": "Mai tian li de shou wang zhe",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7544749398"
+    ],
+    "isbn_13": [
+     "9787544749398"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL24933967M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1981-02",
+    "year": "1981",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "Toronto, Canada"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553239767"
+    ],
+    "isbn_13": [
+     "9780553239768"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27573755M",
+    "title": "麦田里的守望者",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7544703983"
+    ],
+    "isbn_13": [
+     "9787544703987"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL32967108M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Zhe jiang wen yi chu ban she"
+    ],
+    "publish_places": [
+     "Hang zhou"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7533906306"
+    ],
+    "isbn_13": [
+     "9787533906306"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL24934024M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1967-11",
+    "year": "1967",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL9176503M",
+    "title": "Il Giovane Holden",
+    "publish_date": "January 2003",
+    "year": "2003",
+    "publishers": [
+     "Einaudi"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8806163698"
+    ],
+    "isbn_13": [
+     "9788806163693"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL24202888M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1981-02",
+    "year": "1981",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "Toronto, Canada"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0553149660"
+    ],
+    "isbn_13": [
+     "9780553149661"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL16164303M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1991 05",
+    "year": "1991",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [
+     "Boston, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769487"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7973551M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "October 1999",
+    "year": "1999",
+    "publishers": [
+     "Tandem Library",
+     "Turtleback Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0808514032"
+    ],
+    "isbn_13": [
+     "9780808514039"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL24371076M",
+    "title": "Der Fänger im Roggen",
+    "publish_date": "1962",
+    "year": "1962",
+    "publishers": [
+     "k & w"
+    ],
+    "publish_places": [
+     "Köln, Germany"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3462015397"
+    ],
+    "isbn_13": [
+     "9783462015393"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7817654M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1978-01",
+    "year": "1978",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "055311722X"
+    ],
+    "isbn_13": [
+     "9780553117226"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22937844M",
+    "title": "ライ麦畑でつかまえて",
+    "publish_date": "2008-03-20",
+    "year": "2008",
+    "publishers": [
+     "Hakusuisha"
+    ],
+    "publish_places": [
+     "[Tōkyō]"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [
+     "4560070512"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL18290341M",
+    "title": "The catcher in the rye",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Little, Brown",
+     "Back Bay Books",
+     "Little, Brown and Company"
+    ],
+    "publish_places": [
+     "Boston"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0316769177"
+    ],
+    "isbn_13": [
+     "9780316769174"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL39492799M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1962-07",
+    "year": "1962",
+    "publishers": [
+     "New American Library"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL7350918M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "014023750X"
+    ],
+    "isbn_13": [
+     "9780140237504"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL21494815M",
+    "title": "The catcher in the rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Little, Brown and Company"
+    ],
+    "publish_places": [
+     "Boston"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL37042108M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Modern Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22596966M",
+    "title": "The catcher in the rye",
+    "publish_date": "1958",
+    "year": "1958",
+    "publishers": [
+     "Penguin in association with Hamish Hamilton"
+    ],
+    "publish_places": [
+     "Harmondsworth"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL19685929M",
+    "title": "The catcher in the rye",
+    "publish_date": "1964-04",
+    "year": "1964",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "New York, NY"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL37042099M",
+    "title": "The Catcher in the Rye",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Penguin Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng",
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL22200289M",
+    "title": "The catcher in the rye",
+    "publish_date": "1972-04",
+    "year": "1972",
+    "publishers": [
+     "Bantam Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   },
+   {
+    "key": "/books/OL27779722M",
+    "title": "The catcher in the rye",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Yi lin chu ban she"
+    ],
+    "publish_places": [
+     "Nanjing"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7544701751"
+    ],
+    "isbn_13": [
+     "9787544701754"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL3335245W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 6.0,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 18,
+   "failed": 0,
+   "total_s": 17.27,
+   "p50_s": 0.835,
+   "max_s": 2.216
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 6.04,
+   "p50_s": 6.038,
+   "max_s": 6.038
+  }
+ },
+ "failures": []
+}

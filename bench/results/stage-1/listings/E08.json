@@ -1,0 +1,198 @@
+{
+ "id": "E08",
+ "sbn": [
+  {
+   "W": "communication: the social matrix of psychiatry.",
+   "author": "Ruesch",
+   "total": 1,
+   "lingua_facet": [
+    [
+     "ita",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 1,
+   "rows": 1,
+   "multilingual_rows": 0,
+   "languages": 1,
+   "bogus_lingua_total": 0,
+   "year_parsed": 1,
+   "year_parse_failures": [],
+   "publisher_present": 1,
+   "language_present": 1,
+   "records_on_no_language_page": [],
+   "requests": 3,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 0.4,
+   "items": [
+    {
+     "bid": "SBL0053002",
+     "title": "La matrice sociale della psichiatria / Jurgen Ruesch, Gregory Bateson",
+     "author": "Ruesch, Jurgen",
+     "imprint": "Bologna : Il mulino, [1976]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1976",
+     "publisher": "Il mulino",
+     "place": "Bologna"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL12269244W",
+  "size": 5,
+  "rows": 5,
+  "languages": 1,
+  "language_codes": [
+   "eng"
+  ],
+  "year_parsed": 5,
+  "year_parse_failures": [],
+  "publisher_present": 5,
+  "language_present": 4,
+  "requests": 4,
+  "failed": [],
+  "wall_s": 18.4,
+  "items": [
+   {
+    "key": "/books/OL28916330M",
+    "title": "Communication",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Taylor & Francis Group"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781138520813"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL12269244W"
+    ]
+   },
+   {
+    "key": "/books/OL7450534M",
+    "title": "Communication",
+    "publish_date": "January 1980",
+    "year": "1980",
+    "publishers": [
+     "W W Norton & Co Ltd"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0393001148"
+    ],
+    "isbn_13": [
+     "9780393001143"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL12269244W"
+    ]
+   },
+   {
+    "key": "/books/OL17880054M",
+    "title": "Communication",
+    "publish_date": "1951",
+    "year": "1951",
+    "publishers": [
+     "Norton"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL12269244W"
+    ]
+   },
+   {
+    "key": "/books/OL21352507M",
+    "title": "Communication",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Norton"
+    ],
+    "publish_places": [
+     "New York",
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "039302377X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL12269244W"
+    ]
+   },
+   {
+    "key": "/books/OL21350976M",
+    "title": "Communication",
+    "publish_date": "1968",
+    "year": "1968",
+    "publishers": [
+     "Norton"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0393001148"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL12269244W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 18.4,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.35,
+   "p50_s": 0.117,
+   "max_s": 0.133
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 18.44,
+   "p50_s": 18.444,
+   "max_s": 18.444
+  }
+ },
+ "failures": []
+}

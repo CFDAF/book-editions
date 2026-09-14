@@ -1,0 +1,85 @@
+{
+ "F1": {
+  "work_total": 143,
+  "bogus_work_total": 0,
+  "bare_core_total": 21806046
+ },
+ "F4": {
+  "facet_ita_spa_eng": [
+   90,
+   22,
+   12
+  ],
+  "ita_total": 90,
+  "bogus_lingua_total": 0,
+  "ita_alone_total": 11197305,
+  "facet_sum": 143,
+  "facet_items": 18
+ },
+ "F5": {
+  "row_keys": [
+   "href",
+   "id",
+   "index",
+   "infos",
+   "snippet",
+   "title",
+   "type"
+  ],
+  "title_keys": [
+   "info",
+   "text"
+  ],
+  "infos0": "Milano : Feltrinelli, 1973",
+  "id": "ITICCULIA0171888"
+ },
+ "F8": {
+  "tiporec": {
+   "a": 142,
+   "i": 1
+  },
+  "level": {
+   "m": 142,
+   "a": 1
+  },
+  "tiporec_a_total": 142,
+  "bogus_tiporec_total": 0
+ },
+ "F9": {
+  "page1_rows": 20,
+  "rows_param_100_rows": 20,
+  "page_past_end_rows": 0,
+  "page1_page2_overlap": 0
+ },
+ "F11": {
+  "attali_total": 190,
+  "attali_titolo_uniformef_items": 50
+ },
+ "OL_editions": {
+  "limit1000_entries": 208,
+  "size": 208,
+  "links": [
+   "self",
+   "work"
+  ],
+  "limit5_entries": 5,
+  "limit5_has_next": true,
+  "bogus_work": "failed: ://openlibrary.org/works/OL0000000000W/editions.json?limit=5"
+ },
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 12,
+   "failed": 0,
+   "total_s": 26.01,
+   "p50_s": 0.883,
+   "max_s": 9.992
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 1,
+   "total_s": 9.53,
+   "p50_s": 0.948,
+   "max_s": 8.044
+  }
+ }
+}

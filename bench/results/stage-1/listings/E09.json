@@ -1,0 +1,7056 @@
+{
+ "id": "E09",
+ "sbn": [
+  {
+   "W": "nome della rosa",
+   "author": "Eco",
+   "total": 232,
+   "lingua_facet": [
+    [
+     "ita",
+     166
+    ],
+    [
+     "eng",
+     9
+    ],
+    [
+     "fre",
+     6
+    ],
+    [
+     "ger",
+     6
+    ],
+    [
+     "rum",
+     6
+    ],
+    [
+     "spa",
+     6
+    ],
+    [
+     "rus",
+     5
+    ],
+    [
+     "cze",
+     3
+    ],
+    [
+     "jpn",
+     3
+    ],
+    [
+     "pol",
+     3
+    ],
+    [
+     "por",
+     3
+    ],
+    [
+     "alb",
+     2
+    ],
+    [
+     "chi",
+     2
+    ],
+    [
+     "dut",
+     2
+    ],
+    [
+     "hrv",
+     2
+    ],
+    [
+     "hun",
+     2
+    ],
+    [
+     "slv",
+     2
+    ],
+    [
+     "ukr",
+     2
+    ],
+    [
+     "ara",
+     1
+    ],
+    [
+     "lat",
+     1
+    ],
+    [
+     "lit",
+     1
+    ],
+    [
+     "mul",
+     1
+    ],
+    [
+     "nor",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 235,
+   "rows": 232,
+   "multilingual_rows": 3,
+   "languages": 23,
+   "bogus_lingua_total": 0,
+   "year_parsed": 230,
+   "year_parse_failures": [
+    {
+     "bid": "ANA0184685",
+     "imprint": "533 p"
+    },
+    {
+     "bid": "PUV1543472",
+     "imprint": "Lisboa : Difel, [198?]"
+    }
+   ],
+   "publisher_present": 232,
+   "language_present": 232,
+   "records_on_no_language_page": [],
+   "requests": 34,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 6.7,
+   "items": [
+    {
+     "bid": "RMB0522331",
+     "title": "Emri i trandafilit: roman / Umberto Eko ; e përktheu nga origjinali Donika Omari",
+     "author": "Eco, Umberto",
+     "imprint": "Tiranë : Elena Gjika, c1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "1996",
+     "publisher": "Elena Gjika",
+     "place": "Tiranë"
+    },
+    {
+     "bid": "RT10103411",
+     "title": "Emri i trëndafilit / Umberto Eco ; përktheu: Donika Omari",
+     "author": "Eco, Umberto",
+     "imprint": "[Tiranë] : Dituria, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2012",
+     "publisher": "Dituria",
+     "place": "Tiranë"
+    },
+    {
+     "bid": "RAV1801330",
+     "title": "Ism al-wardah / Umbartu Iyku ; tarjamah an al-italiyah Ahmad al-Sam'i",
+     "author": "Eco, Umberto",
+     "imprint": "Tarabulus : Dar Uya, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2003",
+     "publisher": "Dar Uya",
+     "place": "Tarabulus"
+    },
+    {
+     "bid": "UBO4236153",
+     "title": "Meigui de mingzi / Umberto Eco ; Trad. Shen emei, Liu Xirong",
+     "author": "Eco, Umberto",
+     "imprint": "Shanghai : Shanghai yiwen chubanshe, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2014",
+     "publisher": "Shanghai yiwen chubanshe",
+     "place": "Shanghai"
+    },
+    {
+     "bid": "RMS2907098",
+     "title": "Mei gui zhi ming / Umberto Eco ; translated from italian by W. Weaver",
+     "author": "Eco, Umberto",
+     "imprint": "Chongqing : Chongqing chu ban she, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi",
+      "eng"
+     ],
+     "year": "1987",
+     "publisher": "Chongqing chu ban she",
+     "place": "Chongqing"
+    },
+    {
+     "bid": "CFI0129651",
+     "title": "Jméno růže / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Praha : Odeon, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "1988",
+     "publisher": "Odeon",
+     "place": "Praha"
+    },
+    {
+     "bid": "BVE0295601",
+     "title": "Jméno ruže / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Praha : Odeon, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "1985",
+     "publisher": "Odeon",
+     "place": "Praha"
+    },
+    {
+     "bid": "PUV1565963",
+     "title": "Jméno růže / Umberto Eco ; [přeložil Zdeněk Frýbort]",
+     "author": "Eco, Umberto",
+     "imprint": "Praha : Argo, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "2014",
+     "publisher": "Argo",
+     "place": "Praha"
+    },
+    {
+     "bid": "TSA0399096",
+     "title": "De naam van de roos & naschrift / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Amsterdam : Bekker, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "1983",
+     "publisher": "Bekker",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "PAV3216320",
+     "title": "De naam van de roos & naschrift / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Amsterdam : Ooievaar, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "2000",
+     "publisher": "Ooievaar",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "VIA0111564",
+     "title": "The name of the rose / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "San Diego °etc.! : Harcourt Brace, c1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1983",
+     "publisher": "Harcourt Brace",
+     "place": "San Diego °etc."
+    },
+    {
+     "bid": "VIA0043728",
+     "title": "The name of the rose / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "London : Picador in association with Secker & Warburg, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1984",
+     "publisher": "Picador in association with Secker & Warburg",
+     "place": "London"
+    },
+    {
+     "bid": "IEI0779508",
+     "title": "The name of the rose / Umberto Eco ; [translated from the italian by William Weaver]",
+     "author": "Eco, Umberto",
+     "imprint": "London : Book Club Associates, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1984",
+     "publisher": "Book Club Associates",
+     "place": "London"
+    },
+    {
+     "bid": "LO11529166",
+     "title": "The name of the rose / Umberto Eco ; translated from the Italian by William Weaver",
+     "author": "Eco, Umberto",
+     "imprint": "London : Vintage Books, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1998",
+     "publisher": "Vintage Books",
+     "place": "London"
+    },
+    {
+     "bid": "RT10073162",
+     "title": "The name of the rose / Umberto Eco ; translated from the italian by William Weaver ; including the author's postscript",
+     "author": "Eco, Umberto",
+     "imprint": "London : Vintage, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2014",
+     "publisher": "Vintage",
+     "place": "London"
+    },
+    {
+     "bid": "CAG2064553",
+     "title": "The name of the rose / Umberto Eco ; translated from the italian by William Weaver",
+     "author": "Eco, Umberto",
+     "imprint": "London : Vintage, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2004",
+     "publisher": "Vintage",
+     "place": "London"
+    },
+    {
+     "bid": "VIA0328179",
+     "title": "The name of the rose / Umberto Eco ; translated from the Italian by William Weaver ; including the author's postscript",
+     "author": "Eco, Umberto",
+     "imprint": "London : Vintage Books, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2004",
+     "publisher": "Vintage Books",
+     "place": "London"
+    },
+    {
+     "bid": "URB0878799",
+     "title": "The name of the rose / Umberto Eco ; translated from the italian by William Weaver",
+     "author": "Eco, Umberto",
+     "imprint": "London : Secker & Warburg, c1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1983",
+     "publisher": "Secker & Warburg",
+     "place": "London"
+    },
+    {
+     "bid": "TO01361701",
+     "title": "Le nom de la rose : roman / Umberto Eco ; traduit de l'italien par Jean-Noel Schifano",
+     "author": "Eco, Umberto",
+     "imprint": "[S.l.] : Grasset, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1982",
+     "publisher": "Grasset",
+     "place": "S.l."
+    },
+    {
+     "bid": "BVE0295668",
+     "title": "Le nom de la rose : roman / Umberto Eco ; traduit de l'italien par Jean-Noël Schifano",
+     "author": "Eco, Umberto",
+     "imprint": "Paris : B. Grasset, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1983",
+     "publisher": "B. Grasset",
+     "place": "Paris"
+    },
+    {
+     "bid": "UM10143414",
+     "title": "Le nom de la rose : roman / Umberto Eco ; traduit de l'italien par Jean-Noël Schifano",
+     "author": "Eco, Umberto",
+     "imprint": "Paris : France Loisirs, stampa 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1983",
+     "publisher": "France Loisirs",
+     "place": "Paris"
+    },
+    {
+     "bid": "RT10186171",
+     "title": "Le nom de la rose : roman / Umberto Eco ; traduit de l'italien par Jean-Noël Schifano ; édition augmentée d'une apostille traduite de l'italien par Myriem Bouzaher",
+     "author": "Eco, Umberto",
+     "imprint": "Paris : Grasset, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2016",
+     "publisher": "Grasset",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO00920405",
+     "title": "Le nom de la rose : roman / Umberto Eco ; traduit de l'italien par Jean-Noel Schifano ; édition revue et augmentée d'une postille traduite de l'italien par Myriem Bouzaher",
+     "author": "Eco, Umberto",
+     "imprint": "Paris : France Loisirs, [1986!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1986",
+     "publisher": "France Loisirs",
+     "place": "Paris"
+    },
+    {
+     "bid": "BVE0295675",
+     "title": "Le nom de la rose : roman / Umberto Eco ; traduit de l'italien par Jean-Noël Schifano",
+     "author": "Eco, Umberto",
+     "imprint": "Paris : B. Grasset, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1985",
+     "publisher": "B. Grasset",
+     "place": "Paris"
+    },
+    {
+     "bid": "LO10661292",
+     "title": "Der Name der Rose : Roman / Umberto Eco ; aus dem italienischen von Burkhart Kroeber",
+     "author": "Eco, Umberto",
+     "imprint": "Berlin : Volk und welt, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1989",
+     "publisher": "Volk und welt",
+     "place": "Berlin"
+    },
+    {
+     "bid": "TSA0399091",
+     "title": "Der name der rose / Umberto Eco ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Eco, Umberto",
+     "imprint": "München ; Wien : Hanser, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1982",
+     "publisher": "Hanser",
+     "place": "München ; Wien"
+    },
+    {
+     "bid": "TO01701946",
+     "title": "Der Name der Rose : Roman / Umberto Eco ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Eco, Umberto",
+     "imprint": "Müchen : Deutscher Taschenbuch Verlag, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1986",
+     "publisher": "Deutscher Taschenbuch Verlag",
+     "place": "Müchen"
+    },
+    {
+     "bid": "TSA1780079",
+     "title": "Der Name der Rose : Roman / Umberto Eco ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Eco, Umberto",
+     "imprint": "München : Carl Hanser Verlag, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1982",
+     "publisher": "Carl Hanser Verlag",
+     "place": "München"
+    },
+    {
+     "bid": "TSA1768033",
+     "title": "Der Name der Rose : Roman / Umberto Eco ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Eco, Umberto",
+     "imprint": "München : Süddeutsche Zeitung, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2004",
+     "publisher": "Süddeutsche Zeitung",
+     "place": "München"
+    },
+    {
+     "bid": "URB0879402",
+     "title": "Der Name der Rose : Roman / Umberto Eco ; aus dem Italienischen von Burkhart Kroeber",
+     "author": "Eco, Umberto",
+     "imprint": "Müchen : Deutscher Taschenbuch Verlag, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1986",
+     "publisher": "Deutscher Taschenbuch Verlag",
+     "place": "Müchen"
+    },
+    {
+     "bid": "TSA0399089",
+     "title": "Ime ruze / Umberto Eco ; prijevod i pogovor Morana Cale-Knezevic",
+     "author": "Eco, Umberto",
+     "imprint": "Zagreb : Graficki zavod Hrvatske, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hrv",
+     "langs": [
+      "hrv"
+     ],
+     "year": "1989",
+     "publisher": "Graficki zavod Hrvatske",
+     "place": "Zagreb"
+    },
+    {
+     "bid": "USM1795869",
+     "title": "Ime ruze / Umberto Eco ; prijevod i pogovor Morana Cale",
+     "author": "Eco, Umberto",
+     "imprint": "[Zagreb] : Graficki Zavod Hrvatske, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hrv",
+     "langs": [
+      "hrv"
+     ],
+     "year": "1984",
+     "publisher": "Graficki Zavod Hrvatske",
+     "place": "Zagreb"
+    },
+    {
+     "bid": "CFI0125665",
+     "title": "A rózsa neve / Umberto Eco ; fordította és az utószót írta Barna Imre",
+     "author": "Eco, Umberto",
+     "imprint": "Budapest : Árkádia, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hun",
+     "langs": [
+      "hun"
+     ],
+     "year": "1988",
+     "publisher": "Árkádia",
+     "place": "Budapest"
+    },
+    {
+     "bid": "TSA0399098",
+     "title": "A rozsa neve / Umberto Eco ; fordította és az utószót írta Barna Imre",
+     "author": "Eco, Umberto",
+     "imprint": "Budapest : Európa Könyvkiadó, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hun",
+     "langs": [
+      "hun"
+     ],
+     "year": "1988",
+     "publisher": "Európa Könyvkiadó",
+     "place": "Budapest"
+    },
+    {
+     "bid": "FER0099901",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0882758",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BAS0256127",
+     "title": "Il nome della rosa / Umberto Eco ; trascritto in braille a cura della Biblioteca italiana per i ciechi Regina Margherita, Monza",
+     "author": "Eco, Umberto",
+     "imprint": "Monza : Biblioteca italiana per i ciechi, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Biblioteca italiana per i ciechi",
+     "place": "Monza"
+    },
+    {
+     "bid": "BAS0263815",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0281691",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0021141",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0021140",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "PA10039931",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Fabbri, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Fabbri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO10011142",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1728863",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1805748",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1993",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMB0749249",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, [1984]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "PA10008903",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1858237",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Fabbri, ©1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Fabbri",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1862043",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1718896",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1851964",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO10041133",
+     "title": "Il nome della rosa : Nuova edizione con i disegni e gli appunti preparatori dell'autore / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : La nave di Teseo, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "La nave di Teseo",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO10041130",
+     "title": "Il nome della rosa : [romanzo] / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : La nave di Teseo, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "La nave di Teseo",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2442598",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV0177040",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano, Bompiani 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Milano, Bompiani",
+     "place": null
+    },
+    {
+     "bid": "RMB0802915",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani ; Firenze : Giunti Editore, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Bompiani ; Firenze : Giunti Editore",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0041180",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMB0776311",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1665510",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1880808",
+     "title": "Il nome della rosa / Umberto Eco ; in appendice postille a Il nome della rosa",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0220225",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1796623",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0047653",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0184685",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "533 p",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "533 p",
+     "place": null
+    },
+    {
+     "bid": "LO11050486",
+     "title": "Il nome della rosa / Umberto Eco ; in appendice postille a \"Il nome della rosa\"",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0419460",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LEK0007256",
+     "title": "Il nome della rosa / Umberto Eco ; in appendice postille a \"Il nome della rosa\"",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0166461",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0021202",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0075214",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano] : Club degli editori, stampa 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Club degli editori",
+     "place": "Milano"
+    },
+    {
+     "bid": "AGR0001631",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0509199",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BA10035879",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, [2005]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "AQ10063979",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2001",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LI30026624",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano] : Bompiani, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD1707629",
+     "title": "Il nome della rosa : [romanzo] / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : La nave di Teseo, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "La nave di Teseo",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10791401",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10724946",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "MES0023865",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0113439",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Bergamo : Euroclub, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "NAP0941841",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0325108",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1446428",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0005558",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1236508",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0142687",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01054815",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0272363",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0192184",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUG0015925",
+     "title": "Il nome della rosa : Nuova edizione con i disegni e gli appunti preparatori dell'autore / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : La nave di Teseo, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "La nave di Teseo",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0256486",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP1002449",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01032942",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Roma : La biblioteca di Repubblica, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "La biblioteca di Repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "RL10105754",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1065123",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0279991",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano] : Fabbri, c1994, stampa 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Fabbri",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0158283",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0158198",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOL0174081",
+     "title": "Ilnome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0227424",
+     "title": "il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0183768",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2627417",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2581712",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0228947",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Club degli editori, stampa 1995 (Farigliano : Milanostampa)",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Club degli editori",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01409616",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0346750",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0228588",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0261646",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0263402",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TSA1216912",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV1012500",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1991297",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano] : Tascabili Bompiani, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO0127775",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0390171",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01700533",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BIA0010314",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CAG0053661",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1998",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1998",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BIA0000261",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Club degli editori, stampa 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Club degli editori",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0970721",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano] : Bompiani, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0253002",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Club del libro, c1980, stampa 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Club del libro",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0005235",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0265296",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0335023",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL0875346",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01869765",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Mondolibri, stampa 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00557675",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00553333",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Superpocket, ©1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1997",
+     "publisher": "Superpocket",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV1315360",
+     "title": "Il nome della rosa : in appendice postille a \"Il nome della rosa\" / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00369874",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, [1983]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0703806",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0702199",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO0157805",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0137994",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2798381",
+     "title": "Ilnome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0101213",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01749904",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0719004",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano] : Club del libro, stampa 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Club del libro",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV0854551",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TER0037586",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL0972508",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10330273",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CAM0221665",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO2886114",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3020653",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0060674",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10070657",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10094791",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10055788",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3981058",
+     "title": "Il nome della rosa : in appendice postille a \"Il nome della rosa\" / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10076601",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Euroclub, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10052302",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO1277702",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Bergamo : Euroclub, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "URB0970505",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00942133",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano! : Bompiani, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "URB0970125",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1983",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "USM1336524",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1980",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1980",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0858043",
+     "title": "Il nome della rosa : Nuova edizione con i disegni e gli appunti preparatori dell'autore / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : La nave di Teseo, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "La nave di Teseo",
+     "place": "Milano"
+    },
+    {
+     "bid": "URB0872042",
+     "title": "La nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Mondolibri, stampa 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "RCA0815053",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "USM1677114",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Tascabili Bompiani, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Tascabili Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4852764",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00773734",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV1000618",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1993",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0048322",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1994",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1994",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0063123",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0338579",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Euroclub, stampa 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Euroclub",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10487929",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "MO10030046",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0247652",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CSA0112989",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "CSA0067254",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0295680",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Bergamo : Euroclub, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1984",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "MOD0113668",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10503657",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[Bergamo] : Euroclub, 1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Euroclub",
+     "place": "Bergamo"
+    },
+    {
+     "bid": "CFI0025632",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10504183",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0262442",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LUA0507912",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD0393286",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "LUA0245585",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Club del libro, 1982",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1982",
+     "publisher": "Club del libro",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0298633",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "BA10107063",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani : RCS MediaGroup, stampa 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Bompiani : RCS MediaGroup",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO10026839",
+     "title": "Il nome della rosa / Umberto Eco ; letto da Tommaso Ragno ; [regia: Flavia Gentili]",
+     "author": "Eco, Umberto",
+     "imprint": "Roma : Emons Italia, 2019",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "UBO3017953",
+     "title": "Il nome della rosa / Umberto Eco ; legge Annunciata Olivieri",
+     "author": "Eco, Umberto",
+     "imprint": "Feltre : Centro Internazionale del Libro parlato, [dopo il 2005]",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Centro Internazionale del Libro parlato, dopo il",
+     "place": "Feltre"
+    },
+    {
+     "bid": "UBO4830874",
+     "title": "Il nome della rosa / Manara, Eco",
+     "author": "Manara, Milo",
+     "imprint": "Bologna : Oblomov, 2023-",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Oblomov",
+     "place": "Bologna"
+    },
+    {
+     "bid": "REA0010195",
+     "title": "Il nome della rosa / Umberto Eco ; introduzione e note a cura di Costantino Marmo",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani per le scuole superiori, c1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Bompiani per le scuole superiori",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10018612",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "[S.l.] : Club degli editori, c1981",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1981",
+     "publisher": "Club degli editori",
+     "place": "S.l."
+    },
+    {
+     "bid": "BIA0034246",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : CDE, stampa 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "LI30026171",
+     "title": "Il nome della rosa / [Milo] Manara, [Umberto] Eco ; colori Simona Manara",
+     "author": "Manara, Milo",
+     "imprint": "Bologna : Oblomov, 2023-",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Oblomov",
+     "place": "Bologna"
+    },
+    {
+     "bid": "MIL1115184",
+     "title": "Il nome della rosa / Milo Manara ; Umberto Eco ; colori: Simona Manara",
+     "author": "Manara, Milo",
+     "imprint": "Milano : RCS Mediagroup, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "RCS Mediagroup",
+     "place": "Milano"
+    },
+    {
+     "bid": "MOD1664169",
+     "title": "Il nome della rosa / Umberto Eco ; letto da Tommaso Ragno ; [regia: Flavia Gentili]",
+     "author": "Eco, Umberto",
+     "imprint": "Roma : Emons Italia, 2016",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "PAR1307511",
+     "title": "{Il nome della rosa}Volume 2 di 2 / Manara, Eco ; colori Simona Manara",
+     "author": "Manara, Milo",
+     "imprint": "Bologna : Oblomov ; Milano : La nave di Teseo, 2025",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2025",
+     "publisher": "Oblomov ; Milano : La nave di Teseo",
+     "place": "Bologna"
+    },
+    {
+     "bid": "LO12145191",
+     "title": "Il nome della rosa : opera in due atti / Libretto di Francesco Filidei e Stefano Busellato con la collaborazione di Hannah Dübgen e Carlo Pernigotti ; Libero adattamento dall'opera di Umberto Eco Il nome della rosa ; Musica di Francesco Filidei",
+     "author": null,
+     "imprint": "Milano : Edizioni del Teatro alla Scala, 2025",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "mul"
+     ],
+     "year": "2025",
+     "publisher": "Edizioni del Teatro alla Scala",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO12163825",
+     "title": "Il nome della rosa : opera in due atti / Francesco Filidei ; Libero adattamento dall'opera di Umberto Eco Il nome della rosa ; Libretto di Francesco Filidei e Stefano Busellato con la collaborazione di Hannah Dübgen e Carlo Pernigotti (2023-2024)",
+     "author": "Filidei, Francesco",
+     "imprint": "Milano : Ricordi, ©2024",
+     "infos_n": 2,
+     "type": "musicSheet",
+     "lang": "ita",
+     "langs": [
+      "ita",
+      "lat"
+     ],
+     "year": "2024",
+     "publisher": "Ricordi",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0258361",
+     "title": "Il nome della rosa / Umberto Eco ; illustrato da Alberto Breccia",
+     "author": "Eco, Umberto",
+     "imprint": "[Milano] : Club, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "Club",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1980340",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00851756",
+     "title": "Il nome della rosa / di Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Bompiani, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO4830042",
+     "title": "Il nome della rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Corriere della Sera : Bompiani, [2016]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Corriere della Sera : Bompiani",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2477880",
+     "title": "Il nome della rosa / Umberto Eco ; prefazione di Jurij Lotman",
+     "author": "Eco, Umberto",
+     "imprint": "Milano : Il Sole 24 Ore, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Il Sole 24 Ore",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10093474",
+     "title": "Il nome della rosa / Umberto Eco ; prefazione di Jurij Lotman",
+     "author": "Eco, Umberto",
+     "imprint": "Torino : UTET, [2007]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "UTET",
+     "place": "Torino"
+    },
+    {
+     "bid": "RT10100846",
+     "title": "1 / Umberto Eco ; traduzione di Hideaki Kawashima",
+     "author": "Eco, Umberto",
+     "imprint": "Tokyo : Sōgensha, 1990",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "jpn",
+     "langs": [
+      "jpn"
+     ],
+     "year": "1990",
+     "publisher": "Sōgensha",
+     "place": "Tokyo"
+    },
+    {
+     "bid": "RT10100864",
+     "title": "Bara no namae / Umberto Eco ; traduzione di Hideaki Kawashima",
+     "author": "Eco, Umberto",
+     "imprint": "Tokyo : Sōgensha, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "jpn",
+     "langs": [
+      "jpn"
+     ],
+     "year": "1990",
+     "publisher": "Sōgensha",
+     "place": "Tokyo"
+    },
+    {
+     "bid": "RT10100870",
+     "title": "2 / Umberto Eco ; traduzione di Hideaki Kawashima",
+     "author": "Eco, Umberto",
+     "imprint": "Tokyo : Sōgensha, 1990",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "jpn",
+     "langs": [
+      "jpn"
+     ],
+     "year": "1990",
+     "publisher": "Sōgensha",
+     "place": "Tokyo"
+    },
+    {
+     "bid": "CFI0610301",
+     "title": "Rožės vardas : romanas / Umberto Eco ; lš italų kalbos vertė Inga Tuliševskaitė",
+     "author": "Eco, Umberto",
+     "imprint": "Vilnius : Tyto alba, ©2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "lit",
+     "langs": [
+      "lit"
+     ],
+     "year": "2001",
+     "publisher": "Tyto alba",
+     "place": "Vilnius"
+    },
+    {
+     "bid": "BVE0295731",
+     "title": "Rosens navn / Umberto Eco ; oversatt fra italiensk av Carsten Middelthon",
+     "author": "Eco, Umberto",
+     "imprint": "Oslo : Tiden Norsk Forlag, c1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "nor",
+     "langs": [
+      "nor"
+     ],
+     "year": "1984",
+     "publisher": "Tiden Norsk Forlag",
+     "place": "Oslo"
+    },
+    {
+     "bid": "RMB0628959",
+     "title": "Imie rozy / Umberto Eco ; przelozyl Adam Szymanowski, c2007",
+     "author": "Eco, Umberto",
+     "imprint": "Warszawa : Noir sur Blanc, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2007",
+     "publisher": "Noir sur Blanc",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "FOG0517324",
+     "title": "Imie rozy / Umberto Eco ; przelozyl Adam Szymanowski",
+     "author": "Eco, Umberto",
+     "imprint": "Warszawa : Panstwowy Instytut Wydawniczy, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "1987",
+     "publisher": "Panstwowy Instytut Wydawniczy",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "UBO2599057",
+     "title": "Imie rozy / Umberto Eco ; przelozyl Adam Szymanowski",
+     "author": "Eco, Umberto",
+     "imprint": "Warszawa : Noir sur blanc, [2004]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2004",
+     "publisher": "Noir sur blanc",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "PUV1543472",
+     "title": "O nome da rosa / Umberto Eco ; tradução de Maria Celeste Pinto",
+     "author": "Eco, Umberto",
+     "imprint": "Lisboa : Difel, [198?]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": null,
+     "publisher": "Difel, 198?",
+     "place": "Lisboa"
+    },
+    {
+     "bid": "TSA0446021",
+     "title": "O nome da rosa / Umberto Eco ; tradução de Maria Celeste Pinto",
+     "author": "Eco, Umberto",
+     "imprint": "Porto : Público comunicação social, [2002]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "2002",
+     "publisher": "Público comunicação social",
+     "place": "Porto"
+    },
+    {
+     "bid": "PUV1544206",
+     "title": "O nome da rosa / Umberto Eco ; tradução de Aurora Fornoni Bernardini e Homero Freitas de Andrade",
+     "author": "Eco, Umberto",
+     "imprint": "Rio de Janeiro : Nova Fronteira, 1983",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "por",
+     "langs": [
+      "por"
+     ],
+     "year": "1983",
+     "publisher": "Nova Fronteira",
+     "place": "Rio de Janeiro"
+    },
+    {
+     "bid": "CFI0527501",
+     "title": "Numele trandafirului / Umberto Eco ; traducere ʂi postfayă de Florin Chiriyescu",
+     "author": "Eco, Umberto",
+     "imprint": "Chiʂinau : Hyperion, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "1992",
+     "publisher": "Hyperion",
+     "place": "Chiʂinau"
+    },
+    {
+     "bid": "BVE0103011",
+     "title": "Numele trandafirului / Umberto Eco : traducere şi postfatǎ de Florin Chiriyescu",
+     "author": "Eco, Umberto",
+     "imprint": "Cluj-Napoca : Dacia, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "1984",
+     "publisher": "Dacia",
+     "place": "Cluj-Napoca"
+    },
+    {
+     "bid": "TO01406067",
+     "title": "Numele trandafirului / Umberto Eco ; traducere de Florin Chiriƫescu",
+     "author": "Eco, Umberto",
+     "imprint": "Iaʂi ; Bucureʂti : Polirom, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2004",
+     "publisher": "Polirom",
+     "place": "Iaʂi ; Bucureʂti"
+    },
+    {
+     "bid": "RT10104473",
+     "title": "Numele trandafirului / Umberto Eco ; traducere din limba italiană de Florin Chiriṭescuṣ",
+     "author": "Eco, Umberto",
+     "imprint": "Iaṣi : Polirom, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2014",
+     "publisher": "Polirom",
+     "place": "Iaṣi"
+    },
+    {
+     "bid": "RT10051482",
+     "title": "Numele trandafirului : Umberto Eco ; traducere din limba italiană ṣi note de Florin Chiriṭescu",
+     "author": "Eco, Umberto",
+     "imprint": "Iaṣi : Polirom, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2013",
+     "publisher": "Polirom",
+     "place": "Iaṣi"
+    },
+    {
+     "bid": "UBO3863586",
+     "title": "Numele trandafirului / Umberto Eco ; traducere de Florin Chiritescu",
+     "author": "Eco, Umberto",
+     "imprint": "Iasi ; Bucuresti : Polirom, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2010",
+     "publisher": "Polirom",
+     "place": "Iasi ; Bucuresti"
+    },
+    {
+     "bid": "CFI0544415",
+     "title": "Imja rozy : roman / Umberto Eko",
+     "author": "Eco, Umberto",
+     "imprint": "Moskva : Knižnaja palata, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "1989",
+     "publisher": "Knižnaja palata",
+     "place": "Moskva"
+    },
+    {
+     "bid": "CFI0513918",
+     "title": "Imja rozy / Umberto Eko",
+     "author": "Eco, Umberto",
+     "imprint": "Sankt-Peterburg : Simpozium, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2000",
+     "publisher": "Simpozium",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "UBO3073737",
+     "title": "Imja rozy : roman / Umberto Eko ; perevod s italianskogo Eleny Kostjukovic",
+     "author": "Eco, Umberto",
+     "imprint": "Sankt-Peterburg : Symposium, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2006",
+     "publisher": "Symposium",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "UBO3836302",
+     "title": "Imja rozy : roman / Umberto Eko ; perevod s italianskogo Eleny Kostjukovic",
+     "author": "Eco, Umberto",
+     "imprint": "Sankt-Peterburg : Symposium, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2009",
+     "publisher": "Symposium",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "PUV0367467",
+     "title": "Imja rozy / U. Eko ; <perevod s ital'janskogo Eleny Kostjukovic ; posleslovie Jurija Lotmana>",
+     "author": "Eco, Umberto",
+     "imprint": "Sankt-Peterburg : Simpozium, 1997",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "1997",
+     "publisher": "Simpozium",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "FRI0011750",
+     "title": "Ime roze : roman / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Ljubljana : Mladinska knjiga, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "1985",
+     "publisher": "Mladinska knjiga",
+     "place": "Ljubljana"
+    },
+    {
+     "bid": "TSA1786204",
+     "title": "Ime rože / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Ljubljana : Delo, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "2004",
+     "publisher": "Delo",
+     "place": "Ljubljana"
+    },
+    {
+     "bid": "UBO2597962",
+     "title": "El nombre de la rosa / Umberto Eco ; traduccion de Ricardo Pochtar",
+     "author": "Eco, Umberto",
+     "imprint": "[Barcelona] : Debolsillo, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2002",
+     "publisher": "Debolsillo",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "BVE0312749",
+     "title": "El nombre de la rosa / Umberto Eco ; prólogo de Lorenzo Silva",
+     "author": "Eco, Umberto",
+     "imprint": "\\S. l.! : MDS books/MEDIASAT, \\2002! (\\Milano! : Mondadori)",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2002",
+     "publisher": "MDS books/MEDIASAT",
+     "place": "S. l."
+    },
+    {
+     "bid": "BVE0205117",
+     "title": "El nombre de la rosa / Umberto Eco",
+     "author": "Eco, Umberto",
+     "imprint": "Barcelona : RBA, \\1993!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1993",
+     "publisher": "RBA",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "ANA0488561",
+     "title": "El nombre de la rosa / Umberto Eco ; traducción de Ricardo Pochtar",
+     "author": "Eco, Umberto",
+     "imprint": "[Barcellona] : Debolsillo, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2003",
+     "publisher": "Debolsillo",
+     "place": "Barcellona"
+    },
+    {
+     "bid": "RT10116380",
+     "title": "El nombre de la rosa y apostillas / Umberto Eco ; traducción de Ricardo Pochtar",
+     "author": "Eco, Umberto",
+     "imprint": "Barcelona : Penguin Random House, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2018",
+     "publisher": "Penguin Random House",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TSA1382217",
+     "title": "El nombre de la rosa / Umberto Eco ; [traducción de Ricardo Pochtar ; traducción de los textos en latin: Tomás de la Ascension Recio García]",
+     "author": "Eco, Umberto",
+     "imprint": "Barcelona : Lumen, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "1995",
+     "publisher": "Lumen",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "UBO4817134",
+     "title": "Imja rozy : roman : nova avtorska redakcija 2012 roku / Umberto Eko; ill. U. Eko",
+     "author": "Eco, Umberto",
+     "imprint": "Kharkiv : Folio, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ukr",
+     "langs": [
+      "ukr"
+     ],
+     "year": "2024",
+     "publisher": "Folio",
+     "place": "Kharkiv"
+    },
+    {
+     "bid": "UFI0543615",
+     "title": "Imja rozi = il nome della rosa : roman / Umberto Eko ; pereklad z italijskoi Marjani Prokopovic ; peredtova Nikoli Franko Balloni",
+     "author": "Eco, Umberto",
+     "imprint": "Harkiv : Folio, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ukr",
+     "langs": [
+      "ukr"
+     ],
+     "year": "2006",
+     "publisher": "Folio",
+     "place": "Harkiv"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL8996439W",
+  "size": 151,
+  "rows": 151,
+  "languages": 12,
+  "language_codes": [
+   "cat",
+   "cze",
+   "dut",
+   "eng",
+   "fre",
+   "ger",
+   "hun",
+   "ita",
+   "pol",
+   "por",
+   "rus",
+   "spa"
+  ],
+  "year_parsed": 151,
+  "year_parse_failures": [],
+  "publisher_present": 150,
+  "language_present": 125,
+  "requests": 21,
+  "failed": [],
+  "wall_s": 4.2,
+  "items": [
+   {
+    "key": "/books/OL56967691M",
+    "title": "Der Name der Rose",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Volk und Wissen"
+    ],
+    "publish_places": [
+     "Berlin"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3353004807"
+    ],
+    "isbn_13": [
+     "9783353004802"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL52972117M",
+    "title": "The Name of the Rose",
+    "publish_date": "26 Oct 1984",
+    "year": "1984",
+    "publishers": [
+     "Picador"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780330284141"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL51479519M",
+    "title": "Imię róży",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Noir sur Blanc"
+    ],
+    "publish_places": [
+     "Warszawa, Polska"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788373923461"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL49897465M",
+    "title": "Il nome della rosa",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47625862M",
+    "title": "El nombre de la rosa. La novela gráfica",
+    "publish_date": "Sep 19, 2023",
+    "year": "2023",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8426425739"
+    ],
+    "isbn_13": [
+     "9788426425737"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47625861M",
+    "title": "El nombre de la rosa. La novela gráfica",
+    "publish_date": "Sep 19, 2023",
+    "year": "2023",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8426425739"
+    ],
+    "isbn_13": [
+     "9788426425737"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47625860M",
+    "title": "El nombre de la rosa. La novela gráfica",
+    "publish_date": "Sep 19, 2023",
+    "year": "2023",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8426425739"
+    ],
+    "isbn_13": [
+     "9788426425737"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47625863M",
+    "title": "El nombre de la rosa. La novela gráfica",
+    "publish_date": "Sep 19, 2023",
+    "year": "2023",
+    "publishers": [
+     "Lumen",
+     "Penguin Random House Grupo Editorial"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8426425739"
+    ],
+    "isbn_13": [
+     "9788426425737"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47196251M",
+    "title": "EL NOM DE LA ROSA...........TRIDENT",
+    "publish_date": "Oct 01, 2001",
+    "year": "2001",
+    "publishers": [
+     "Destino CAT"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8423322416"
+    ],
+    "isbn_13": [
+     "9788423322411"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47196787M",
+    "title": "EL NOM DE LA ROSA..........L'ANCORA",
+    "publish_date": "May 01, 2005",
+    "year": "2005",
+    "publishers": [
+     "Destino CAT"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "842331622X"
+    ],
+    "isbn_13": [
+     "9788423316229"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47265609M",
+    "title": "EL NOM DE LA ROSA",
+    "publish_date": "Feb 02, 2003",
+    "year": "2003",
+    "publishers": [
+     "Columna"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "846640404X"
+    ],
+    "isbn_13": [
+     "9788466404044"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL43599501M",
+    "title": "Il nome della rosa",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35682254M",
+    "title": "O nome da rosa",
+    "publish_date": "Nov 26, 2018",
+    "year": "2018",
+    "publishers": [
+     "Record"
+    ],
+    "publish_places": [],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8501115827"
+    ],
+    "isbn_13": [
+     "9788501115829"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL13226020M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426414370"
+    ],
+    "isbn_13": [
+     "9788426414373"
+    ],
+    "translation_of": "Il nome della rosa ; Postille a Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL20858106M",
+    "title": "Il nome della rosa",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8845214214"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL773050M",
+    "title": "Il nome della rosa",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8845207056"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL23748482M",
+    "title": "Il nome della rosa",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9119678M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426429807"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9408946M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426426220"
+    ],
+    "isbn_13": [
+     "9788426426222"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL23999409M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "México D.F., México"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9700518159"
+    ],
+    "isbn_13": [
+     "9789700518152"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL23086988M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "México D.F., México"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9700518159"
+    ],
+    "isbn_13": [
+     "9789700518152"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL31859868M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426403565"
+    ],
+    "isbn_13": [
+     "9788426403568"
+    ],
+    "translation_of": "Il nome della rosa ; Postille a Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL31848710M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426418805"
+    ],
+    "isbn_13": [
+     "9788426418807"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL27200418M",
+    "title": "The Name of the Rose (including author's postscript)",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Mariner Books"
+    ],
+    "publish_places": [
+     "Boston",
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0544176561"
+    ],
+    "isbn_13": [
+     "9780544176560"
+    ],
+    "translation_of": "Il nome della rosa / Postille a Il nome della Rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL50968549M",
+    "title": "O nome da rosa",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Nova Fronteira"
+    ],
+    "publish_places": [
+     "Rio de Janeiro, Brazil"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47811089M",
+    "title": "Name of the Rose-Nla (1984 publication)",
+    "publish_date": "1984-01-01",
+    "year": "1984",
+    "publishers": [
+     "Warnr ,1984 publication"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47736652M",
+    "title": "The Name Of The Rose",
+    "publish_date": "1984-01-01",
+    "year": "1984",
+    "publishers": [
+     "Book Club Associates"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL46860061M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2017-01-31",
+    "year": "2017",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "6073149182"
+    ],
+    "isbn_13": [
+     "9786073149181"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL43592567M",
+    "title": "Name of the Rose",
+    "publish_date": "1983-01-01",
+    "year": "1983",
+    "publishers": [
+     "Harcourt Brace Jovanovich"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL43564825M",
+    "title": "The Name of The Rose by Umberto Eco 1983 BCA",
+    "publish_date": "1983-01-01",
+    "year": "1983",
+    "publishers": [
+     "BCA"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL43038491M",
+    "title": "Der Name der Rose",
+    "publish_date": "2009-07-27",
+    "year": "2009",
+    "publishers": [
+     "Der Hörverlag"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL42955998M",
+    "title": "Il Nome Della Rosa [The Name of the Rose] - 1st Edition/1st Printing",
+    "publish_date": "1980-01-01",
+    "year": "1980",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL40433131M",
+    "title": "Name of the Rose (Vintage Past)",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784871369"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL40163593M",
+    "title": "Name of the Rose",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "HarperCollins Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780063279636"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL31981356M",
+    "title": "The Name of the Rose",
+    "publish_date": "Feb 01, 2014",
+    "year": "2014",
+    "publishers": [
+     "Macmillan Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1427243069"
+    ],
+    "isbn_13": [
+     "9781427243065"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL32128161M",
+    "title": "The name of the rose",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Vintage"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0099497034"
+    ],
+    "isbn_13": [
+     "9780099497035"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL10456528M",
+    "title": "Le Nom de la Rose / 13 Audio Cassettes in French",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "French & European Pubns"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0320001520"
+    ],
+    "isbn_13": [
+     "9780320001529"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL47677738M",
+    "title": "Le nom de la rose",
+    "publish_date": "2021",
+    "year": "2021",
+    "publishers": [
+     "Le Livre de Poche"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782253033134"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL8887427M",
+    "title": "Le Nom De La Rose",
+    "publish_date": "May 13, 2002",
+    "year": "2002",
+    "publishers": [
+     "Livre de Poche"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2253033138"
+    ],
+    "isbn_13": [
+     "9782253033134"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL24549280M",
+    "title": "Name Der Rose",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Deutscher Taschenbuch Verlag"
+    ],
+    "publish_places": [
+     "München"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783423210799"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9032296M",
+    "title": "Name Der Rose",
+    "publish_date": "April 15, 1986",
+    "year": "1986",
+    "publishers": [
+     "Distribooks Int'l+inc"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3423105518"
+    ],
+    "isbn_13": [
+     "9783423105514"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL19599981M",
+    "title": "De naam van de roos",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Uitgeverij Bert Bakker"
+    ],
+    "publish_places": [
+     "Amsterdam, Netherlands"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9035104374"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome dell rose",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL28749776M",
+    "title": "Le Nom de la rose",
+    "publish_date": "Jan 25, 2012",
+    "year": "2012",
+    "publishers": [
+     "GRASSET"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2246791634"
+    ],
+    "isbn_13": [
+     "9782246791638"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL34468772M",
+    "title": "Name of the Rose",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781448137749"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL37100307M",
+    "title": "Le nom de la rose",
+    "publish_date": "Nov 07, 1986",
+    "year": "1986",
+    "publishers": [
+     "France Loisirs"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2724230493"
+    ],
+    "isbn_13": [
+     "9782724230499"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL37401458M",
+    "title": "Name of the Rose",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Houghton Mifflin Harcourt Publishing Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780544176577"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL40330427M",
+    "title": "Der Name der Rose",
+    "publish_date": "Jan 01, 1982",
+    "year": "1982",
+    "publishers": [
+     "Hanser, Carl GmbH + Co."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3446253807"
+    ],
+    "isbn_13": [
+     "9783446253803"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL43227447M",
+    "title": "Name of the Rose",
+    "publish_date": "2010-01-01",
+    "year": "2010",
+    "publishers": [
+     "Melia Publishing Services Ltd"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0156035235"
+    ],
+    "isbn_13": [
+     "9780156035231"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL10488625M",
+    "title": "The Name of the Rose",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "PICADOR"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0330284789"
+    ],
+    "isbn_13": [
+     "9780330284783"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL40224636M",
+    "title": "Il Nome Della Rosa",
+    "publish_date": "Oct 30, 2002",
+    "year": "2002",
+    "publishers": [
+     "Bibliotex"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "848130445X"
+    ],
+    "isbn_13": [
+     "9788481304459"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL36777478M",
+    "title": "Il nome della rosa",
+    "publish_date": "Feb 13, 2018",
+    "year": "2018",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8845296830"
+    ],
+    "isbn_13": [
+     "9788845296833",
+     "9788834603284"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL41248029M",
+    "title": "Der Name der Rose",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Deutscher Taschenbuch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3423105518"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL38247273M",
+    "title": "El Nombre de la Rosa",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Alfaguara"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9870404561"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35724554M",
+    "title": "Imię róży",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Noir sur Blanc"
+    ],
+    "publish_places": [
+     "Warszawa"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [
+     "8373921338"
+    ],
+    "isbn_13": [
+     "9788373921337"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35453324M",
+    "title": "The Name of the Rose",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Vintage"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780436204227"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35456440M",
+    "title": "Name of the Rose",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780436140891"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35456934M",
+    "title": "Name of the Rose",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Chivers Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780862201081"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35466748M",
+    "title": "Name of the Rose",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780436203930"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35466753M",
+    "title": "Name of the Rose",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780749394455"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35484122M",
+    "title": "Name of the Rose",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Houghton Mifflin Harcourt Trade & Reference Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781299899445"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35490204M",
+    "title": "Name of the Rose",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Harcourt Trade Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780156003704"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35453318M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "DEBOLSILLO"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8484503534"
+    ],
+    "isbn_13": [
+     "9788484503538"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL27224634M",
+    "title": "Imi︠a︡ rozy",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "517082694X"
+    ],
+    "isbn_13": [
+     "9785170826940"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL27054446M",
+    "title": "Imi͡a rozy",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "\"Simpozium\""
+    ],
+    "publish_places": [
+     "Sankt-Peterburg"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "589091197X"
+    ],
+    "isbn_13": [
+     "9785890911971"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL24717618M",
+    "title": "El Nom De La Rosa",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Edicions 62"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "cat"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL22953625M",
+    "title": "Jméno růže",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Nakladatelství Josefa Šimona"
+    ],
+    "publish_places": [
+     "Praha"
+    ],
+    "languages": [
+     "cze"
+    ],
+    "isbn_10": [
+     "8085637049"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL37737082M",
+    "title": "Der Name der Rose",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "dtv"
+    ],
+    "publish_places": [
+     "München"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3423122587"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL7966224M",
+    "title": "The Name of the Rose",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Mandarin"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "074931477X"
+    ],
+    "isbn_13": [
+     "9780749314774"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9111988M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Bernard H Hamel",
+     "Plaza & Janés"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8401413117"
+    ],
+    "isbn_13": [
+     "9788401413117"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL25416218M",
+    "title": "De naam van de roos",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Bert Bakker"
+    ],
+    "publish_places": [
+     "Amsterdam, Netherlands"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9060199944"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome dell rose",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL18774831M",
+    "title": "O nome da rosa",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Publico"
+    ],
+    "publish_places": [
+     "Porto"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "8481304956"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9119604M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426411487"
+    ],
+    "isbn_13": [
+     "9788426411488"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9154388M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "8497592581"
+    ],
+    "isbn_13": [
+     "9788497592581"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9199745M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [
+     "Buenos Aires, Argentina"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9872060959"
+    ],
+    "isbn_13": [
+     "9789872060954"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9059396M",
+    "title": "Imi︠a︡ rozy",
+    "publish_date": "January 1, 1994",
+    "year": "1994",
+    "publishers": [
+     "Feltrinelli"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5890910388"
+    ],
+    "isbn_13": [
+     "9785890910387"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9188413M",
+    "title": "Il nome della rosa",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Rl Libri"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8845246345"
+    ],
+    "isbn_13": [
+     "9788845246340"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL25554946M",
+    "title": "A rozsa neve",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Arkadia"
+    ],
+    "publish_places": [
+     "Budapest"
+    ],
+    "languages": [
+     "hun"
+    ],
+    "isbn_10": [
+     "9633071097"
+    ],
+    "isbn_13": [
+     "9789633071090"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL20415672M",
+    "title": "Il nome della rosa",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL12642130M",
+    "title": "Le Nom de la rose",
+    "publish_date": "January 1, 2000",
+    "year": "2000",
+    "publishers": [
+     "Livraphone"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2878090985"
+    ],
+    "isbn_13": [
+     "9782878090987"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9581783M",
+    "title": "Le Nom de la rose",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Livraphone"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2878091019"
+    ],
+    "isbn_13": [
+     "9782878091014"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL8937515M",
+    "title": "Der Name der Rose",
+    "publish_date": "November 1, 1998",
+    "year": "1998",
+    "publishers": [
+     "Bange"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3804416276"
+    ],
+    "isbn_13": [
+     "9783804416277"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9036259M",
+    "title": "Der Name der Rose",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Hanser"
+    ],
+    "publish_places": [
+     "München, Deutschland"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3446133631"
+    ],
+    "isbn_13": [
+     "9783446133631"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL8459559M",
+    "title": "Name of the Rose",
+    "publish_date": "September 1994",
+    "year": "1994",
+    "publishers": [
+     "Tandem Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1417706112"
+    ],
+    "isbn_13": [
+     "9781417706112"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9105376M",
+    "title": "Imię róży",
+    "publish_date": "January 1, 1996",
+    "year": "1996",
+    "publishers": [
+     "Koch, Neff & Oetinger & Co"
+    ],
+    "publish_places": [
+     "Warsaw"
+    ],
+    "languages": [],
+    "isbn_10": [
+     "8306024842"
+    ],
+    "isbn_13": [
+     "9788306024845"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL12051760M",
+    "title": "The Name of the Rose",
+    "publish_date": "October 1995",
+    "year": "1995",
+    "publishers": [
+     "Random House Audiobooks"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1860219470"
+    ],
+    "isbn_13": [
+     "9781860219474"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9607976M",
+    "title": "Le Nom de la rose",
+    "publish_date": "January 1, 2000",
+    "year": "2000",
+    "publishers": [
+     "Livraphone"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2878091035"
+    ],
+    "isbn_13": [
+     "9782878091038"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL21828935M",
+    "title": "Der Name der Rose",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Deutscher Taschenbuch Verlag"
+    ],
+    "publish_places": [
+     "München"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3446133631"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL20184850M",
+    "title": "Le nom de la rose",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Grasset"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL24681697M",
+    "title": "Il nome della rosa",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL20570694M",
+    "title": "Il nome della rosa",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8845210669"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9188375M",
+    "title": "Il nome della rosa",
+    "publish_date": "October 1997",
+    "year": "1997",
+    "publishers": [
+     "Distribooks"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8845210669"
+    ],
+    "isbn_13": [
+     "9788845210662"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL16546099M",
+    "title": "Il nome della rosa",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL14630792M",
+    "title": "Il nome della rosa",
+    "publish_date": "1981",
+    "year": "1981",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL3271967M",
+    "title": "Il nome della rosa",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL13867976M",
+    "title": "Il nome della rosa",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL773060M",
+    "title": "Il nome della rosa",
+    "publish_date": "1981",
+    "year": "1981",
+    "publishers": [
+     "Club degli editori"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL24929006M",
+    "title": "Der Name der Rose",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Deutscher Taschenbuch-Verlag",
+     "Distribooks Int'l+inc"
+    ],
+    "publish_places": [
+     "München"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3423105518"
+    ],
+    "isbn_13": [
+     "9783423105514"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL25228761M",
+    "title": "Il nome della rosa",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Fabbri"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL2457087M",
+    "title": "Il nome della rosa",
+    "publish_date": "1980",
+    "year": "1980",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9151038M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Biblioteca El Tiempo"
+    ],
+    "publish_places": [
+     "Bogotá, Colombia"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9587060768"
+    ],
+    "isbn_13": [
+     "9789587060768"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL26230065M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Debolsillo",
+     "Penguin Random House"
+    ],
+    "publish_places": [
+     "Bogotá, Colombia"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9789588773605"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL26199233M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Círculo de lectores"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "8422616467"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL18848542M",
+    "title": "Le nom de la rose",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Grasset"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2246245117"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL22223742M",
+    "title": "Le nom de la rose",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Grasset"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2246245117"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9174946M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "Grijalbo Mondadori"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9685959242"
+    ],
+    "isbn_13": [
+     "9789685959247"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9132265M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "RBA"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8447300005"
+    ],
+    "isbn_13": [
+     "9788447300006"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL8886567M",
+    "title": "Le nom de la rose",
+    "publish_date": "February 7, 1990",
+    "year": "1990",
+    "publishers": [
+     "Grasset"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2246245141"
+    ],
+    "isbn_13": [
+     "9782246245148"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL22903092M",
+    "title": "De naam van de roos",
+    "publish_date": "1986",
+    "year": "1986",
+    "publishers": [
+     "B. Bakker"
+    ],
+    "publish_places": [
+     "Amsterdam"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9035102444"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL22903093M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426411487"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL20361949M",
+    "title": "Le nom de la rose",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Grasset",
+     "Livre de Poche"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2253033138"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL22939977M",
+    "title": "Imi︠a︡ rozy",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "\"Simpozium\""
+    ],
+    "publish_places": [
+     "Sankt-Peterburg"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5890910388",
+     "589091037X"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL15043647M",
+    "title": "The Name of the Rose",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Secker & Warburg"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0436140802"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL22393185M",
+    "title": "The Name of the Rose",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Mandarin"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "074931477X"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL26334075M",
+    "title": "The Name of the Rose",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Warner",
+     "Warner Books"
+    ],
+    "publish_places": [
+     "New York (New York), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0446357200"
+    ],
+    "isbn_13": [
+     "9780446357203"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL26899528M",
+    "title": "Il nome della rosa",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Bompiani"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9273258M",
+    "title": "The Name of the Rose",
+    "publish_date": "February 5, 2004",
+    "year": "2004",
+    "publishers": [
+     "Vintage"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0099466031"
+    ],
+    "isbn_13": [
+     "9780099466031"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL16211578M",
+    "title": "The  name of the rose",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Minerva"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0749397055"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9494387M",
+    "title": "The Name of the Rose",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Books On Tape"
+    ],
+    "publish_places": [
+     "Newport Beach (California), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "073663259X"
+    ],
+    "isbn_13": [
+     "9780736632591"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL17337900M",
+    "title": "The name of the rose",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Secker & Warburg",
+     "Martin Secker & Warburg Ltd"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0436201283"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL16071471M",
+    "title": "The Name of the Rose",
+    "publish_date": "June, 1984",
+    "year": "1984",
+    "publishers": [
+     "Warner"
+    ],
+    "publish_places": [
+     "New York (New York), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0446344109"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL17687273M",
+    "title": "The Name of the Rose",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Harcourt Brace Jovanovich"
+    ],
+    "publish_places": [
+     "San Diego (California), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL17123396M",
+    "title": "The name of the rose",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Minerva"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0749336463"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL25644522M",
+    "title": "Der Name der Rose",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Verlag Volk und Welt"
+    ],
+    "publish_places": [
+     "Berlin, German Democratic Republic"
+    ],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Il Nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9896003M",
+    "title": "The Name of the Rose",
+    "publish_date": "September 26, 2006",
+    "year": "2006",
+    "publishers": [
+     "Everyman's Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0307264890"
+    ],
+    "isbn_13": [
+     "9780307264893"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL21189675M",
+    "title": "The Name of the Rose",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Harcourt Brace Jovanovich",
+     "Harcourt"
+    ],
+    "publish_places": [
+     "New York (New York), USA"
+    ],
+    "languages": [
+     "eng",
+     "ita"
+    ],
+    "isbn_10": [
+     "0151446474"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL9483349M",
+    "title": "The Name of the Rose",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Picador",
+     "Picador in association with Secker & Warburg"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0330284142"
+    ],
+    "isbn_13": [
+     "9780330284141"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL1089713M",
+    "title": "The Name of the Rose",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Harcourt Brace",
+     "Harvest Books"
+    ],
+    "publish_places": [
+     "San Diego"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0156001314"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL2838868M",
+    "title": "The Name of the Rose",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "G.K. Hall"
+    ],
+    "publish_places": [
+     "Boston (Massachusetts), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0816136637",
+     "0816136955"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL19495004M",
+    "title": "The name of the rose",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "The Folio Society"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL3501018M",
+    "title": "The Name of the Rose",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Harcourt Brace Jovanovich"
+    ],
+    "publish_places": [
+     "San Diego (California), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0151446474"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL23831829M",
+    "title": "The Name of the Rose",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Harcourt Brace Jovanovich"
+    ],
+    "publish_places": [
+     "New York (New York), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL16720606M",
+    "title": "The Name of the Rose",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Book Club"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL7318603M",
+    "title": "The Name of the Rose",
+    "publish_date": "February 5, 2004",
+    "year": "2004",
+    "publishers": [
+     "Vintage"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0099466031"
+    ],
+    "isbn_13": [
+     "9780099466031"
+    ],
+    "translation_of": "Il nome della rose",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL17206668M",
+    "title": "The Name of the Rose",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Everyman's Library"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0307264890"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL19495010M",
+    "title": "The name of the rose",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Minerva"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0749385154"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL24594402M",
+    "title": "The Name of the Rose",
+    "publish_date": "June, 1984",
+    "year": "1984",
+    "publishers": [
+     "Warner",
+     "Warner Books"
+    ],
+    "publish_places": [
+     "New York (New York), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0446322180"
+    ],
+    "isbn_13": [
+     "9780446322188"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL24951695M",
+    "title": "The Name of the Rose",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Warner"
+    ],
+    "publish_places": [
+     "New York (New York), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0446322180"
+    ],
+    "isbn_13": [
+     "9780446322188"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL7535500M",
+    "title": "The Name of the Rose",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Warner"
+    ],
+    "publish_places": [
+     "New York (New York), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0446322180"
+    ],
+    "isbn_13": [
+     "9780446322188"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL28982616M",
+    "title": "Name of the Rose",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Everyman"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781857152999"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL27667996M",
+    "title": "The Name of the Rose",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Vintage Classics"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0099541483"
+    ],
+    "isbn_13": [
+     "9780099541486"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL28208650M",
+    "title": "The Name of the Rose",
+    "publish_date": "Oct 15, 1995",
+    "year": "1995",
+    "publishers": [
+     "Brand: Macmillan Audio",
+     "Macmillan Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1559273615"
+    ],
+    "isbn_13": [
+     "9781559273619"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL28163449M",
+    "title": "The Name of the Rose",
+    "publish_date": "Jul 03, 2014",
+    "year": "2014",
+    "publishers": [
+     "Macmillan Audio"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1427259216"
+    ],
+    "isbn_13": [
+     "9781427259219"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL29590519M",
+    "title": "Name of the Rose",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Houghton Mifflin Harcourt Publishing Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780547575148"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709301M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2005",
+    "year": "2005",
+    "publishers": [
+     "El País"
+    ],
+    "publish_places": [
+     "Madrid, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8498152097"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709331M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788497592581"
+    ],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709333M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Plaza & Janés"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8401242134"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709419M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Plaza & Janés"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8401413117"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709421M",
+    "title": "El nombre de la rosa",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8426411487"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709424M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1982",
+    "year": "1982",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709837M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Plaza & Janés"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8401413117"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   },
+   {
+    "key": "/books/OL35709257M",
+    "title": "El nombre de la rosa",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Círculo de Lectores"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8422616467"
+    ],
+    "isbn_13": [],
+    "translation_of": "Il nome della rosa",
+    "works": [
+     "/works/OL8996439W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 6.7,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 33,
+   "failed": 0,
+   "total_s": 21.01,
+   "p50_s": 0.64,
+   "max_s": 1.07
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 4.22,
+   "p50_s": 4.217,
+   "max_s": 4.217
+  }
+ },
+ "failures": []
+}

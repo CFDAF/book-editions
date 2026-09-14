@@ -1,0 +1,57 @@
+{
+ "id": "N23",
+ "sbn": [],
+ "ol": {
+  "key": "/works/OL29477874W",
+  "size": 1,
+  "rows": 1,
+  "languages": 1,
+  "language_codes": [
+   "eng"
+  ],
+  "year_parsed": 1,
+  "year_parse_failures": [],
+  "publisher_present": 1,
+  "language_present": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 3.9,
+  "items": [
+   {
+    "key": "/books/OL40578004M",
+    "title": "Iliad and the Oddysey",
+    "publish_date": "1488",
+    "year": "1488",
+    "publishers": [
+     "Independently Published"
+    ],
+    "publish_places": [
+     "Florence"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781521106570"
+    ],
+    "translation_of": "Ὀδύσσεια",
+    "works": [
+     "/works/OL29477874W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.9,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.87,
+   "p50_s": 3.873,
+   "max_s": 3.873
+  }
+ },
+ "failures": []
+}

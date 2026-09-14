@@ -1,0 +1,2782 @@
+{
+ "books": {
+  "E01": {
+   "entries": {
+    "ita": {
+     "title": "Cent'anni di solitudine",
+     "today": {
+      "qid": "Q178869",
+      "original_title": "Cien años de soledad",
+      "original_language": "spa",
+      "original_year": "1967",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q178869",
+      "matched_form": "Cent'anni di solitudine",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "One Hundred Years of Solitude",
+     "today": {
+      "qid": "Q178869",
+      "original_title": "Cien años de soledad",
+      "original_language": "spa",
+      "original_year": "1967",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q178869",
+      "matched_form": "One Hundred Years of Solitude",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q5878",
+        "not a written work"
+       ],
+       [
+        "Q124175370",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "spa": {
+     "title": "Cien años de soledad",
+     "today": {
+      "qid": "Q178869",
+      "original_title": "Cien años de soledad",
+      "original_language": "spa",
+      "original_year": "1967",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q178869",
+      "matched_form": "Cien años de soledad",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E02": {
+   "entries": {
+    "ita": {
+     "title": "Verso un'ecologia della mente",
+     "today": {
+      "qid": "Q1970551",
+      "original_title": "Steps to an Ecology of Mind",
+      "original_language": "eng",
+      "original_year": "1972",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q1970551",
+      "matched_form": "Verso un'ecologia della Mente",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 7
+    },
+    "eng": {
+     "title": "Steps to an Ecology of Mind",
+     "today": {
+      "qid": "Q1970551",
+      "original_title": "Steps to an Ecology of Mind",
+      "original_language": "eng",
+      "original_year": "1972",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q1970551",
+      "matched_form": "Steps to an Ecology of Mind",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E03": {
+   "entries": {
+    "ita": {
+     "title": "Rumori",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q179448",
+        "not a written work"
+       ],
+       [
+        "Q364315",
+        "not a written work"
+       ],
+       [
+        "Q726239",
+        "not a written work"
+       ],
+       [
+        "Q193563",
+        "not a written work"
+       ],
+       [
+        "Q7047718",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "eng": {
+     "title": "Noise",
+     "today": {
+      "qid": "Q7047658",
+      "original_title": "Bruits: essai sur l'economie politique de la musique",
+      "original_language": "fre",
+      "original_year": "1977",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q7047658",
+      "matched_form": "Noise: The Political Economy of Music",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q726239",
+        "not a written work"
+       ],
+       [
+        "Q179448",
+        "not a written work"
+       ],
+       [
+        "Q364315",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 9
+    },
+    "fre": {
+     "title": "Bruits",
+     "today": {
+      "qid": "Q7047658",
+      "original_title": "Bruits: essai sur l'economie politique de la musique",
+      "original_language": "fre",
+      "original_year": "1977",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q7047658",
+      "matched_form": "Bruits: essai sur l'economie politique de la musique",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q364315",
+        "not a written work"
+       ],
+       [
+        "Q2989676",
+        "not a written work"
+       ],
+       [
+        "Q3491504",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E04": {
+   "entries": {
+    "ita": {
+     "title": "Kafka sulla spiaggia",
+     "today": {
+      "qid": "Q579744",
+      "original_title": "海辺のカフカ",
+      "original_language": "jpn",
+      "original_year": "2002",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q579744",
+      "matched_form": "Kafka sulla spiaggia",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "Kafka on the Shore",
+     "today": {
+      "qid": "Q579744",
+      "original_title": "海辺のカフカ",
+      "original_language": "jpn",
+      "original_year": "2002",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q579744",
+      "matched_form": "Kafka on the Shore",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 6
+    },
+    "jpn": {
+     "title": "Umibe no Kafuka",
+     "today": {
+      "qid": "Q579744",
+      "original_title": "海辺のカフカ",
+      "original_language": "jpn",
+      "original_year": "2002",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q579744",
+        "title 0.00 < 0.6 (closest '해변의 카프카')"
+       ],
+       [
+        "Q134798",
+        "not a written work"
+       ],
+       [
+        "Q594886",
+        "not a written work"
+       ],
+       [
+        "Q140753932",
+        "not a written work"
+       ],
+       [
+        "Q3765252",
+        "not a written work"
+       ],
+       [
+        "Q1411331",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E05": {
+   "entries": {
+    "ita": {
+     "title": "L'invenzione delle notizie",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q38926",
+        "not a written work"
+       ],
+       [
+        "Q11032",
+        "not a written work"
+       ],
+       [
+        "Q426853",
+        "not a written work"
+       ],
+       [
+        "Q970069",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    },
+    "eng": {
+     "title": "The Invention of News",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q4758261",
+        "not a written work"
+       ],
+       [
+        "Q144334",
+        "not a written work"
+       ],
+       [
+        "Q38926",
+        "not a written work"
+       ],
+       [
+        "Q11032",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    }
+   }
+  },
+  "E06": {
+   "entries": {
+    "ita": {
+     "title": "Più brillante del sole",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 0,
+      "rejected_before": []
+     },
+     "requests": 4
+    },
+    "eng": {
+     "title": "More Brilliant Than the Sun",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q113174",
+        "not a written work"
+       ],
+       [
+        "Q170611",
+        "not a written work"
+       ],
+       [
+        "Q7410145",
+        "not a written work"
+       ],
+       [
+        "Q300430",
+        "not a written work"
+       ],
+       [
+        "Q24942459",
+        "not a written work"
+       ],
+       [
+        "Q16001522",
+        "not a written work"
+       ],
+       [
+        "Q507845",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E07": {
+   "entries": {
+    "ita": {
+     "title": "Modernità liquida",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q158092",
+        "not a written work"
+       ],
+       [
+        "Q3963866",
+        "not a written work"
+       ],
+       [
+        "Q3770791",
+        "not a written work"
+       ],
+       [
+        "Q13649246",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    },
+    "eng": {
+     "title": "Liquid Modernity",
+     "today": {
+      "qid": "Q19572648",
+      "original_title": null,
+      "original_language": null,
+      "original_year": "2003",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q158092",
+        "not a written work"
+       ],
+       [
+        "Q2939162",
+        "not a written work"
+       ],
+       [
+        "Q21201",
+        "not a written work"
+       ],
+       [
+        "Q47783",
+        "not a written work"
+       ],
+       [
+        "Q19572648",
+        "title 0.50 < 0.6 (closest 'Liquid Love')"
+       ],
+       [
+        "Q4346302",
+        "not a written work"
+       ],
+       [
+        "Q11084414",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    }
+   }
+  },
+  "E08": {
+   "entries": {
+    "ita": {
+     "title": "La matrice sociale della psichiatria",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 1,
+      "rejected_before": [
+       [
+        "Q314252",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    },
+    "eng": {
+     "title": "Communication: The Social Matrix of Psychiatry",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q2048327",
+        "not a written work"
+       ],
+       [
+        "Q1069371",
+        "not a written work"
+       ],
+       [
+        "Q5956648",
+        "not a written work"
+       ],
+       [
+        "Q314252",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E09": {
+   "entries": {
+    "ita": {
+     "title": "Il nome della rosa",
+     "today": {
+      "qid": "Q172850",
+      "original_title": "Il nome della rosa",
+      "original_language": "ita",
+      "original_year": "1980",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q172850",
+      "matched_form": "Il nome della rosa",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "The Name of the Rose",
+     "today": {
+      "qid": "Q172850",
+      "original_title": "Il nome della rosa",
+      "original_language": "ita",
+      "original_year": "1980",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q172850",
+      "matched_form": "The Name of the Rose",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q471161",
+        "not a written work"
+       ],
+       [
+        "Q48967415",
+        "not a written work"
+       ],
+       [
+        "Q155018",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E10": {
+   "entries": {
+    "ita": {
+     "title": "Opere",
+     "today": {
+      "qid": "Q3204179",
+      "original_title": "L'infinito",
+      "original_language": "ita",
+      "original_year": "1819",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 8,
+      "rejected_before": [
+       [
+        "Q1224928",
+        "not a written work"
+       ],
+       [
+        "Q3884075",
+        "not a written work"
+       ],
+       [
+        "Q3204179",
+        "title 0.00 < 0.6 (closest \"ल'इनफिनितो\")"
+       ],
+       [
+        "Q172599",
+        "not a written work"
+       ],
+       [
+        "Q3655711",
+        "title 0.00 < 0.6 (closest 'كانتي')"
+       ],
+       [
+        "Q3860396",
+        "not a written work"
+       ],
+       [
+        "Q3884099",
+        "title 0.00 < 0.6 (closest 'Мали морални дела')"
+       ],
+       [
+        "Q65131081",
+        "title 0.00 < 0.6 (closest \"Opera:All'Italia\")"
+       ]
+      ]
+     },
+     "requests": 8
+    }
+   }
+  },
+  "E11": {
+   "entries": {
+    "ita": {
+     "title": "Poesie",
+     "today": {
+      "qid": "Q3786039",
+      "original_title": "Ho sceso, dandoti il braccio, almeno un milione di scale",
+      "original_language": "ita",
+      "original_year": "1967",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 9,
+      "rejected_before": [
+       [
+        "Q482",
+        "not a written work"
+       ],
+       [
+        "Q83174",
+        "not a written work"
+       ],
+       [
+        "Q3786039",
+        "title 0.00 < 0.6 (closest 'Ho sceso, dandoti il braccio, almeno un milione di scale')"
+       ],
+       [
+        "Q30891023",
+        "title 0.00 < 0.6 (closest 'Xenia')"
+       ],
+       [
+        "Q3706809",
+        "title 0.17 < 0.6 (closest 'Carnets de poésie 1971 et 1972')"
+       ],
+       [
+        "Q47551",
+        "not a written work"
+       ],
+       [
+        "Q3838922",
+        "not a written work"
+       ],
+       [
+        "Q1090676",
+        "not a written work"
+       ],
+       [
+        "Q689563",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    }
+   }
+  },
+  "E12": {
+   "entries": {
+    "ita": {
+     "title": "Tesi di filosofia della storia",
+     "today": {
+      "qid": "Q1169425",
+      "original_title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+      "original_language": "ger",
+      "original_year": "1936",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q61078",
+        "not a written work"
+       ],
+       [
+        "Q13423736",
+        "not a written work"
+       ],
+       [
+        "Q311687",
+        "not a written work"
+       ],
+       [
+        "Q1169425",
+        "title 0.00 < 0.6 (closest '기술복제시대의 예술작품')"
+       ],
+       [
+        "Q16403168",
+        "not a written work"
+       ],
+       [
+        "Q15848990",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    }
+   }
+  },
+  "E13": {
+   "entries": {
+    "ita": {
+     "title": "Angelus Novus",
+     "today": {
+      "qid": "Q330979",
+      "original_title": "Über den Begriff der Geschichte",
+      "original_language": "ger",
+      "original_year": "1942",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q3617314",
+        "not a written work"
+       ],
+       [
+        "Q537640",
+        "not a written work"
+       ],
+       [
+        "Q61078",
+        "not a written work"
+       ],
+       [
+        "Q3938012",
+        "not a written work"
+       ],
+       [
+        "Q644694",
+        "not a written work"
+       ],
+       [
+        "Q330979",
+        "title 0.00 < 0.6 (closest 'תזות על מושג ההיסטוריה')"
+       ],
+       [
+        "Q6216065",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E14": {
+   "entries": {
+    "ita": {
+     "title": "Per una economia positiva",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q364315",
+        "not a written work"
+       ],
+       [
+        "Q3052772",
+        "not a written work"
+       ],
+       [
+        "Q3615792",
+        "not a written work"
+       ],
+       [
+        "Q9061",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    }
+   }
+  },
+  "E15": {
+   "entries": {
+    "eng": {
+     "title": "The Essential Knuth",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q2468101",
+        "not a written work"
+       ],
+       [
+        "Q3029730",
+        "not a written work"
+       ],
+       [
+        "Q3091042",
+        "not a written work"
+       ],
+       [
+        "Q2393251",
+        "not a written work"
+       ],
+       [
+        "Q6378340",
+        "not a written work"
+       ],
+       [
+        "Q8366",
+        "not a written work"
+       ],
+       [
+        "Q2703890",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "E16": {
+   "entries": {
+    "ita": {
+     "title": "Il dottor Živago",
+     "today": {
+      "qid": "Q206870",
+      "original_title": "Доктор Живаго",
+      "original_language": "rus",
+      "original_year": "1957",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q206870",
+      "matched_form": "Il dottor Živago",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "Doctor Zhivago",
+     "today": {
+      "qid": "Q206870",
+      "original_title": "Доктор Живаго",
+      "original_language": "rus",
+      "original_year": "1957",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q206870",
+      "matched_form": "El doctor Zhivago",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q362368",
+        "not a written work"
+       ],
+       [
+        "Q323827",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "rus": {
+     "title": "Доктор Живаго",
+     "today": {
+      "qid": "Q206870",
+      "original_title": "Доктор Живаго",
+      "original_language": "rus",
+      "original_year": "1957",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q206870",
+        "title 0.00 < 0.6 (closest '의사 지바고')"
+       ],
+       [
+        "Q41223",
+        "not a written work"
+       ],
+       [
+        "Q362368",
+        "not a written work"
+       ],
+       [
+        "Q4181867",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N01": {
+   "entries": {
+    "cze": {
+     "title": "Nesnesitelná lehkost bytí",
+     "today": {
+      "qid": "Q917055",
+      "original_title": "Nesnesitelná lehkost bytí",
+      "original_language": "cze",
+      "original_year": "1984",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q917055",
+      "matched_form": "Nesnesitelná lehkost bytí",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "The Unbearable Lightness of Being",
+     "today": {
+      "qid": "Q917055",
+      "original_title": "Nesnesitelná lehkost bytí",
+      "original_language": "cze",
+      "original_year": "1984",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q917055",
+      "matched_form": "The Unbearable Lightness of Being",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q1122571",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "L'insostenibile leggerezza dell'essere",
+     "today": {
+      "qid": "Q917055",
+      "original_title": "Nesnesitelná lehkost bytí",
+      "original_language": "cze",
+      "original_year": "1984",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q917055",
+      "matched_form": "L'insostenibile leggerezza dell'essere",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q3819381",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    }
+   }
+  },
+  "N02": {
+   "entries": {
+    "fre": {
+     "title": "Le Petit Prince",
+     "today": {
+      "qid": "Q25338",
+      "original_title": "Le Petit Prince",
+      "original_language": "fre",
+      "original_year": "1943",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q25338",
+      "matched_form": "Le Petit Prince",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q16386722",
+        "not a written work"
+       ],
+       [
+        "Q2908",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "The Little Prince",
+     "today": {
+      "qid": "Q25338",
+      "original_title": "Le Petit Prince",
+      "original_language": "fre",
+      "original_year": "1943",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q25338",
+      "matched_form": "The Little Prince",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q1199280",
+        "not a written work"
+       ],
+       [
+        "Q2908",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Il piccolo principe",
+     "today": {
+      "qid": "Q25338",
+      "original_title": "Le Petit Prince",
+      "original_language": "fre",
+      "original_year": "1943",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q25338",
+      "matched_form": "Il piccolo principe",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": []
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N03": {
+   "entries": {
+    "ita": {
+     "title": "Se questo è un uomo",
+     "today": {
+      "qid": "Q836036",
+      "original_title": "Se questo è un uomo",
+      "original_language": "ita",
+      "original_year": "1946",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q836036",
+      "matched_form": "Se questo è un uomo",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "If This Is a Man",
+     "today": {
+      "qid": "Q836036",
+      "original_title": "Se questo è un uomo",
+      "original_language": "ita",
+      "original_year": "1946",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q836036",
+      "matched_form": "If This Is a Man",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": []
+     },
+     "requests": 7
+    },
+    "eng-2": {
+     "title": "Survival in Auschwitz",
+     "today": {
+      "qid": "Q836036",
+      "original_title": "Se questo è un uomo",
+      "original_language": "ita",
+      "original_year": "1946",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 8,
+      "rejected_before": [
+       [
+        "Q96075490",
+        "not a written work"
+       ],
+       [
+        "Q4499393",
+        "not a written work"
+       ],
+       [
+        "Q1031317",
+        "not a written work"
+       ],
+       [
+        "Q48804180",
+        "not a written work"
+       ],
+       [
+        "Q836036",
+        "title 0.00 < 0.6 (closest 'اف دس از اے مین')"
+       ],
+       [
+        "Q153670",
+        "not a written work"
+       ],
+       [
+        "Q3837047",
+        "not a written work"
+       ],
+       [
+        "Q3824693",
+        "title 0.00 < 0.6 (closest 'ההפוגה')"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N04": {
+   "entries": {
+    "rus": {
+     "title": "Преступление и наказание",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q991",
+        "not a written work"
+       ],
+       [
+        "Q165318",
+        "author disagrees"
+       ],
+       [
+        "Q17383991",
+        "not a written work"
+       ],
+       [
+        "Q934089",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "eng": {
+     "title": "Crime and Punishment",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q398430",
+        "not a written work"
+       ],
+       [
+        "Q991",
+        "not a written work"
+       ],
+       [
+        "Q165318",
+        "author disagrees"
+       ],
+       [
+        "Q2657630",
+        "not a written work"
+       ],
+       [
+        "Q8911249",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Delitto e castigo",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q165318",
+        "author disagrees"
+       ],
+       [
+        "Q991",
+        "not a written work"
+       ],
+       [
+        "Q223688",
+        "author disagrees"
+       ],
+       [
+        "Q1192975",
+        "author disagrees"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N05": {
+   "entries": {
+    "eng": {
+     "title": "The Catcher in the Rye",
+     "today": {
+      "qid": "Q183883",
+      "original_title": "The Catcher in the Rye",
+      "original_language": "eng",
+      "original_year": "1951",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q183883",
+      "matched_form": "The Catcher in the Rye",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "ita": {
+     "title": "Il giovane Holden",
+     "today": {
+      "qid": "Q183883",
+      "original_title": "The Catcher in the Rye",
+      "original_language": "eng",
+      "original_year": "1951",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q183883",
+      "matched_form": "Il giovane Holden",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 7
+    },
+    "ita-2": {
+     "title": "Vita da uomo",
+     "today": {
+      "qid": "Q183883",
+      "original_title": "The Catcher in the Rye",
+      "original_language": "eng",
+      "original_year": "1951",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q183883",
+        "title 0.00 < 0.6 (closest '호밀밭의 파수꾼')"
+       ],
+       [
+        "Q79904",
+        "not a written work"
+       ],
+       [
+        "Q4003875",
+        "author disagrees"
+       ],
+       [
+        "Q517958",
+        "not a written work"
+       ],
+       [
+        "Q559529",
+        "not a written work"
+       ],
+       [
+        "Q469154",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    }
+   }
+  },
+  "N06": {
+   "entries": {
+    "eng": {
+     "title": "Nineteen Eighty-Four",
+     "today": {
+      "qid": "Q208460",
+      "original_title": "Nineteen Eighty-Four",
+      "original_language": "eng",
+      "original_year": "1949",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q208460",
+      "matched_form": "Nineteen Eighty-Four",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q208424",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    },
+    "ita": {
+     "title": "1984",
+     "today": {
+      "qid": "Q208460",
+      "original_title": "Nineteen Eighty-Four",
+      "original_language": "eng",
+      "original_year": "1949",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q208460",
+      "matched_form": "Улахан убай 1984",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q2432",
+        "not a written work"
+       ],
+       [
+        "Q208424",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita-2": {
+     "title": "Millenovecentottantaquattro",
+     "today": {
+      "qid": "Q208460",
+      "original_title": "Nineteen Eighty-Four",
+      "original_language": "eng",
+      "original_year": "1949",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 3,
+      "rejected_before": [
+       [
+        "Q208460",
+        "title 0.00 < 0.6 (closest '一九八四')"
+       ],
+       [
+        "Q4387205",
+        "not a written work"
+       ],
+       [
+        "Q3992829",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    }
+   }
+  },
+  "N07": {
+   "entries": {
+    "ita": {
+     "title": "Se una notte d'inverno un viaggiatore",
+     "today": {
+      "qid": "Q1032190",
+      "original_title": "Se una notte d'inverno un viaggiatore",
+      "original_language": "ita",
+      "original_year": "1979",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q1032190",
+      "matched_form": "Se una notte d'inverno un viaggiatore",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "If on a Winter's Night a Traveler",
+     "today": {
+      "qid": "Q1032190",
+      "original_title": "Se una notte d'inverno un viaggiatore",
+      "original_language": "ita",
+      "original_year": "1979",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q1032190",
+      "matched_form": "If on a winter's night a traveler",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q2443662",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N08": {
+   "entries": {
+    "ita": {
+     "title": "L'amica geniale",
+     "today": {
+      "qid": "Q22263533",
+      "original_title": "L'amica geniale",
+      "original_language": "ita",
+      "original_year": "2011",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q22263533",
+      "matched_form": "L'amica geniale",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q58931767",
+        "not a written work"
+       ],
+       [
+        "Q56411652",
+        "not a written work"
+       ],
+       [
+        "Q368127",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "My Brilliant Friend",
+     "today": {
+      "qid": "Q22263533",
+      "original_title": "L'amica geniale",
+      "original_language": "ita",
+      "original_year": "2011",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q22263533",
+      "matched_form": "My Brilliant Friend",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q56411652",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N09": {
+   "entries": {
+    "ita": {
+     "title": "Il formaggio e i vermi",
+     "today": {
+      "qid": "Q1427187",
+      "original_title": "Il formaggio e i vermi",
+      "original_language": "ita",
+      "original_year": "1976",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q1427187",
+      "matched_form": "Il formaggio e i vermi",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "The Cheese and the Worms",
+     "today": {
+      "qid": "Q1427187",
+      "original_title": "Il formaggio e i vermi",
+      "original_language": "ita",
+      "original_year": "1976",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q1427187",
+      "matched_form": "The Cheese and the Worms",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N10": {
+   "entries": {
+    "fre": {
+     "title": "L'Étranger",
+     "today": {
+      "qid": "Q163297",
+      "original_title": "L'Étranger",
+      "original_language": "fre",
+      "original_year": "1942",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q163297",
+      "matched_form": "L'étranger",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q1209607",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "The Stranger",
+     "today": {
+      "qid": "Q163297",
+      "original_title": "L'Étranger",
+      "original_language": "fre",
+      "original_year": "1942",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q163297",
+      "matched_form": "The Stranger",
+      "score": 1.0,
+      "candidates": 8,
+      "rejected_before": [
+       [
+        "Q398312",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "eng-2": {
+     "title": "The Outsider",
+     "today": {
+      "qid": "Q163297",
+      "original_title": "L'Étranger",
+      "original_language": "fre",
+      "original_year": "1942",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 8,
+      "rejected_before": [
+       [
+        "Q359304",
+        "not a written work"
+       ],
+       [
+        "Q62051509",
+        "not a written work"
+       ],
+       [
+        "Q171745",
+        "not a written work"
+       ],
+       [
+        "Q319820",
+        "not a written work"
+       ],
+       [
+        "Q39803",
+        "not a written work"
+       ],
+       [
+        "Q163297",
+        "title 0.00 < 0.6 (closest '이방인')"
+       ],
+       [
+        "Q40734",
+        "not a written work"
+       ],
+       [
+        "Q34670",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Lo straniero",
+     "today": {
+      "qid": "Q163297",
+      "original_title": "L'Étranger",
+      "original_language": "fre",
+      "original_year": "1942",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q163297",
+      "matched_form": "Lo straniero",
+      "score": 1.0,
+      "candidates": 8,
+      "rejected_before": [
+       [
+        "Q16573229",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N11": {
+   "entries": {
+    "fre": {
+     "title": "La Disparition",
+     "today": {
+      "qid": "Q595140",
+      "original_title": "La Disparition",
+      "original_language": "fre",
+      "original_year": "1969",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q595140",
+      "matched_form": "La Disparition",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "A Void",
+     "today": {
+      "qid": "Q595140",
+      "original_title": "La Disparition",
+      "original_language": "fre",
+      "original_year": "1969",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q595140",
+      "matched_form": "A Void",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "La scomparsa",
+     "today": {
+      "qid": "Q595140",
+      "original_title": "La Disparition",
+      "original_language": "fre",
+      "original_year": "1969",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q595140",
+      "matched_form": "La scomparsa",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": []
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N12": {
+   "entries": {
+    "ger": {
+     "title": "Der Process",
+     "today": {
+      "qid": "Q36097",
+      "original_title": "Der Prozeß",
+      "original_language": "ger",
+      "original_year": "1925",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q36097",
+      "matched_form": "Der Process",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q905",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    },
+    "ger-2": {
+     "title": "Der Prozess",
+     "today": {
+      "qid": "Q36097",
+      "original_title": "Der Prozeß",
+      "original_language": "ger",
+      "original_year": "1925",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q36097",
+      "matched_form": "Der Prozess",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": []
+     },
+     "requests": 7
+    },
+    "eng": {
+     "title": "The Trial",
+     "today": {
+      "qid": "Q36097",
+      "original_title": "Der Prozeß",
+      "original_language": "ger",
+      "original_year": "1925",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q36097",
+      "matched_form": "The Trial",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q400803",
+        "not a written work"
+       ],
+       [
+        "Q905",
+        "not a written work"
+       ],
+       [
+        "Q287215",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Il processo",
+     "today": {
+      "qid": "Q36097",
+      "original_title": "Der Prozeß",
+      "original_language": "ger",
+      "original_year": "1925",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q36097",
+      "matched_form": "O Processo",
+      "score": 1.0,
+      "candidates": 9,
+      "rejected_before": []
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N13": {
+   "entries": {
+    "ger": {
+     "title": "Müdigkeitsgesellschaft",
+     "today": {
+      "qid": "Q138528911",
+      "original_title": "La sociedad del cansancio",
+      "original_language": "spa",
+      "original_year": "2024",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 3,
+      "rejected_before": [
+       [
+        "Q495875",
+        "not a written work"
+       ],
+       [
+        "Q138528911",
+        "title 0.00 < 0.6 (closest 'مجتمع الإرهاق')"
+       ],
+       [
+        "Q9690",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "eng": {
+     "title": "The Burnout Society",
+     "today": {
+      "qid": "Q138528911",
+      "original_title": "La sociedad del cansancio",
+      "original_language": "spa",
+      "original_year": "2024",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q138528911",
+      "matched_form": "The Burnout Society",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q878092",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "La società della stanchezza",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 3,
+      "rejected_before": [
+       [
+        "Q495875",
+        "not a written work"
+       ],
+       [
+        "Q878092",
+        "not a written work"
+       ],
+       [
+        "Q9690",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N14": {
+   "entries": {
+    "por": {
+     "title": "Ensaio sobre a cegueira",
+     "today": {
+      "qid": "Q826428",
+      "original_title": "Ensayo sobre a ceguera",
+      "original_language": "por",
+      "original_year": "1995",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q826428",
+      "matched_form": "Ensaio sobre a cegueira",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "Blindness",
+     "today": {
+      "qid": "Q826428",
+      "original_title": "Ensayo sobre a ceguera",
+      "original_language": "por",
+      "original_year": "1995",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q826428",
+      "matched_form": "Blindness",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q838405",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Cecità",
+     "today": {
+      "qid": "Q826428",
+      "original_title": "Ensayo sobre a ceguera",
+      "original_language": "por",
+      "original_year": "1995",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q826428",
+      "matched_form": "Cecità",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q10874",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    }
+   }
+  },
+  "N15": {
+   "entries": {
+    "spa": {
+     "title": "2666",
+     "today": {
+      "qid": "Q219437",
+      "original_title": "2666",
+      "original_language": "spa",
+      "original_year": "2004",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q219437",
+      "matched_form": "2666",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "2666",
+     "today": {
+      "qid": "Q219437",
+      "original_title": "2666",
+      "original_language": "spa",
+      "original_year": "2004",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q219437",
+      "matched_form": "2666",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "ita": {
+     "title": "2666",
+     "today": {
+      "qid": "Q219437",
+      "original_title": "2666",
+      "original_language": "spa",
+      "original_year": "2004",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q219437",
+      "matched_form": "2666",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 9
+    }
+   }
+  },
+  "N16": {
+   "entries": {
+    "chi": {
+     "title": "活着",
+     "today": {
+      "qid": "Q151919",
+      "original_title": "活着",
+      "original_language": "chi",
+      "original_year": "1993",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q379520",
+        "not a written work"
+       ],
+       [
+        "Q151784",
+        "not a written work"
+       ],
+       [
+        "Q151919",
+        "title 0.00 < 0.6 (closest '活着')"
+       ],
+       [
+        "Q451809",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "To Live",
+     "today": {
+      "qid": "Q151919",
+      "original_title": "活着",
+      "original_language": "chi",
+      "original_year": "1993",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q151919",
+      "matched_form": "To Live",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q379520",
+        "not a written work"
+       ],
+       [
+        "Q151784",
+        "not a written work"
+       ],
+       [
+        "Q2357659",
+        "not a written work"
+       ],
+       [
+        "Q537407",
+        "not a written work"
+       ],
+       [
+        "Q26806364",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Vivere!",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 5,
+      "rejected_before": [
+       [
+        "Q4015663",
+        "not a written work"
+       ],
+       [
+        "Q379520",
+        "not a written work"
+       ],
+       [
+        "Q151784",
+        "not a written work"
+       ],
+       [
+        "Q31749",
+        "not a written work"
+       ],
+       [
+        "Q15053899",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N17": {
+   "entries": {
+    "ara": {
+     "title": "بين القصرين",
+     "today": {
+      "qid": "Q3149381",
+      "original_title": "بين القصرين (Bayn al-qasrayn)",
+      "original_language": "ara",
+      "original_year": "1956",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q7176",
+        "not a written work"
+       ],
+       [
+        "Q3149381",
+        "title 0.00 < 0.6 (closest 'بين القصرين (Bayn al-qasrayn)')"
+       ],
+       [
+        "Q5017794",
+        "title 0.00 < 0.6 (closest 'ثلاثية القاهرة')"
+       ],
+       [
+        "Q5501719",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "Palace Walk",
+     "today": {
+      "qid": "Q3149381",
+      "original_title": "بين القصرين (Bayn al-qasrayn)",
+      "original_language": "ara",
+      "original_year": "1956",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q3149381",
+      "matched_form": "Palace Walk",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 6
+    },
+    "ita": {
+     "title": "Tra i due palazzi",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q7176",
+        "not a written work"
+       ],
+       [
+        "Q85",
+        "not a written work"
+       ],
+       [
+        "Q87",
+        "not a written work"
+       ],
+       [
+        "Q1061621",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    }
+   }
+  },
+  "N18": {
+   "entries": {
+    "eng": {
+     "title": "Capitalist Realism",
+     "today": {
+      "qid": "Q25519071",
+      "original_title": "Capitalist Realism",
+      "original_language": "eng",
+      "original_year": "2009",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q25519071",
+      "matched_form": "Capitalist realism",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q20740852",
+        "not a written work"
+       ],
+       [
+        "Q7027450",
+        "not a written work"
+       ],
+       [
+        "Q1376649",
+        "not a written work"
+       ],
+       [
+        "Q260205",
+        "author disagrees"
+       ]
+      ]
+     },
+     "requests": 9
+    },
+    "ita": {
+     "title": "Realismo capitalista",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q20740852",
+        "not a written work"
+       ],
+       [
+        "Q7027450",
+        "not a written work"
+       ],
+       [
+        "Q1376649",
+        "not a written work"
+       ],
+       [
+        "Q260205",
+        "author disagrees"
+       ]
+      ]
+     },
+     "requests": 5
+    }
+   }
+  },
+  "N19": {
+   "entries": {
+    "eng": {
+     "title": "Tomorrow, and Tomorrow, and Tomorrow",
+     "today": {
+      "qid": "Q115818209",
+      "original_title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "original_language": "eng",
+      "original_year": "2022",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q115818209",
+      "matched_form": "Tomorrow, and Tomorrow, and Tomorrow",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "ita": {
+     "title": "Domani, e domani, e domani",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 1,
+      "rejected_before": [
+       [
+        "Q1171956",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 6
+    }
+   }
+  },
+  "N20": {
+   "entries": {
+    "eng": {
+     "title": "Metaphors We Live By",
+     "today": {
+      "qid": "Q31067292",
+      "original_title": "Metaphors We Live By",
+      "original_language": "eng",
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q31067292",
+      "matched_form": "Metaphors We Live By",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": [
+       [
+        "Q313772",
+        "not a written work"
+       ],
+       [
+        "Q2633818",
+        "not a written work"
+       ],
+       [
+        "Q594739",
+        "not a written work"
+       ],
+       [
+        "Q1335050",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    },
+    "ita": {
+     "title": "Metafora e vita quotidiana",
+     "today": {
+      "qid": "Q3700692",
+      "original_title": "Where Mathematics Comes From",
+      "original_language": "eng",
+      "original_year": "2000",
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 4,
+      "rejected_before": [
+       [
+        "Q313772",
+        "not a written work"
+       ],
+       [
+        "Q2633818",
+        "not a written work"
+       ],
+       [
+        "Q3700692",
+        "title 0.00 < 0.6 (closest 'Where Mathematics Comes From')"
+       ],
+       [
+        "Q3897847",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N21": {
+   "entries": {
+    "spa": {
+     "title": "Veinte poemas de amor y una canción desesperada",
+     "today": {
+      "qid": "Q5219975",
+      "original_title": "Veinte poemas de amor y una canción desesperada",
+      "original_language": "spa",
+      "original_year": "1924",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q5219975",
+      "matched_form": "Veinte poemas de amor y una canción desesperada",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "Twenty Love Poems and a Song of Despair",
+     "today": {
+      "qid": "Q5219975",
+      "original_title": "Veinte poemas de amor y una canción desesperada",
+      "original_language": "spa",
+      "original_year": "1924",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q5219975",
+      "matched_form": "Twenty Love Poems and a Song of Despair",
+      "score": 1.0,
+      "candidates": 5,
+      "rejected_before": []
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Venti poesie d'amore e una canzone disperata",
+     "today": {
+      "qid": "Q5219975",
+      "original_title": "Veinte poemas de amor y una canción desesperada",
+      "original_language": "spa",
+      "original_year": "1924",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q5219975",
+      "matched_form": "Venti poesie d'amore e una canzone disperata",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 6
+    }
+   }
+  },
+  "N22": {
+   "entries": {
+    "fre": {
+     "title": "Le Capital au XXIe siècle",
+     "today": {
+      "qid": "Q15991228",
+      "original_title": "Le Capital au XXIe siècle",
+      "original_language": "fre",
+      "original_year": "2013",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q15991228",
+      "matched_form": "Le Capital au XXIe siècle",
+      "score": 1.0,
+      "candidates": 6,
+      "rejected_before": []
+     },
+     "requests": 9
+    },
+    "eng": {
+     "title": "Capital in the Twenty-First Century",
+     "today": {
+      "qid": "Q15991228",
+      "original_title": "Le Capital au XXIe siècle",
+      "original_language": "fre",
+      "original_year": "2013",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q15991228",
+      "matched_form": "Capital in the Twenty-First Century",
+      "score": 1.0,
+      "candidates": 7,
+      "rejected_before": []
+     },
+     "requests": 7
+    },
+    "ita": {
+     "title": "Il capitale nel XXI secolo",
+     "today": {
+      "qid": "Q15991228",
+      "original_title": "Le Capital au XXIe siècle",
+      "original_language": "fre",
+      "original_year": "2013",
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q15991228",
+      "matched_form": "Il capitale nel XXI secolo",
+      "score": 1.0,
+      "candidates": 4,
+      "rejected_before": []
+     },
+     "requests": 6
+    }
+   }
+  },
+  "N23": {
+   "entries": {
+    "grc": {
+     "title": "Ὀδύσσεια",
+     "today": {
+      "qid": "Q35160",
+      "original_title": "Ὀδύσσεια",
+      "original_language": "grc",
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 7,
+      "rejected_before": [
+       [
+        "Q35160",
+        "title 0.00 < 0.6 (closest '오디세이아')"
+       ],
+       [
+        "Q131547207",
+        "not a written work"
+       ],
+       [
+        "Q25394315",
+        "not a written work"
+       ],
+       [
+        "Q567488",
+        "not a written work"
+       ],
+       [
+        "Q165769",
+        "not a written work"
+       ],
+       [
+        "Q47231",
+        "not a written work"
+       ],
+       [
+        "Q2875218",
+        "not a written work"
+       ]
+      ]
+     },
+     "requests": 8
+    },
+    "eng": {
+     "title": "The Odyssey",
+     "today": {
+      "qid": "Q35160",
+      "original_title": "Ὀδύσσεια",
+      "original_language": "grc",
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q35160",
+      "matched_form": "The Odyssey",
+      "score": 1.0,
+      "candidates": 9,
+      "rejected_before": [
+       [
+        "Q10695704",
+        "not a written work"
+       ],
+       [
+        "Q131547207",
+        "not a written work"
+       ],
+       [
+        "Q461483",
+        "not a written work"
+       ],
+       [
+        "Q7810",
+        "not a written work"
+       ],
+       [
+        "Q15102690",
+        "author disagrees"
+       ]
+      ]
+     },
+     "requests": 8
+    },
+    "ita": {
+     "title": "Odissea",
+     "today": {
+      "qid": "Q35160",
+      "original_title": "Ὀδύσσεια",
+      "original_language": "grc",
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": "Q35160",
+      "matched_form": "Odissèa",
+      "score": 1.0,
+      "candidates": 9,
+      "rejected_before": []
+     },
+     "requests": 7
+    }
+   }
+  },
+  "N24": {
+   "entries": {
+    "ita": {
+     "title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+     "today": {
+      "qid": null,
+      "original_title": null,
+      "original_language": null,
+      "original_year": null,
+      "failures": []
+     },
+     "step4": {
+      "qid": null,
+      "candidates": 0,
+      "rejected_before": []
+     },
+     "requests": 4
+    }
+   }
+  }
+ },
+ "wall_s": 183.6,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 276,
+   "failed": 0,
+   "total_s": 96.56,
+   "p50_s": 0.249,
+   "max_s": 17.402
+  },
+  "en.wikipedia.org": {
+   "requests": 264,
+   "failed": 0,
+   "total_s": 90.63,
+   "p50_s": 0.267,
+   "max_s": 17.458
+  },
+  "www.wikidata.org": {
+   "requests": 140,
+   "failed": 0,
+   "total_s": 76.52,
+   "p50_s": 0.542,
+   "max_s": 7.704
+  }
+ },
+ "failures": []
+}

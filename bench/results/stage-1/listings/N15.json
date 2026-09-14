@@ -1,0 +1,1752 @@
+{
+ "id": "N15",
+ "sbn": [
+  {
+   "W": "2666.",
+   "author": "Roberto Bolaño",
+   "total": 11,
+   "lingua_facet": [
+    [
+     "ita",
+     6
+    ],
+    [
+     "eng",
+     2
+    ],
+    [
+     "spa",
+     2
+    ],
+    [
+     "fre",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 11,
+   "rows": 11,
+   "multilingual_rows": 0,
+   "languages": 4,
+   "bogus_lingua_total": 0,
+   "year_parsed": 11,
+   "year_parse_failures": [],
+   "publisher_present": 11,
+   "language_present": 11,
+   "records_on_no_language_page": [],
+   "requests": 6,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 3.5,
+   "items": [
+    {
+     "bid": "RMB0796862",
+     "title": "2666 : a novel / by Roberto Bolaño ; translated from the Spanish by Natasha Wimmer",
+     "author": "Bolaño, Roberto",
+     "imprint": "London : Picador, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2009",
+     "publisher": "Picador",
+     "place": "London"
+    },
+    {
+     "bid": "TO02019657",
+     "title": "2666 / Roberto Bolaño ; translated from the Spanish by Natasha Wimmer",
+     "author": "Bolaño, Roberto",
+     "imprint": "New York : Farrar, Straus and Giroux, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2008",
+     "publisher": "Farrar, Straus and Giroux",
+     "place": "New York"
+    },
+    {
+     "bid": "UBO4447105",
+     "title": "2666 / Roberto Bolano ; traduit de l'espagnol (Chili) par Robert Amutio",
+     "author": "Bolaño, Roberto",
+     "imprint": "Paris : Christian Bourgois Editeur, c2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2008",
+     "publisher": "Christian Bourgois Editeur",
+     "place": "Paris"
+    },
+    {
+     "bid": "CFI0739609",
+     "title": "2666 / Roberto Bolaño ; traduzione di Ilide Carmignani",
+     "author": "Bolaño, Roberto",
+     "imprint": "Milano : Adelphi, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BIA0029155",
+     "title": "2666 / Roberto Bolaño ; traduzione di Ilide Carmignani",
+     "author": "Bolaño, Roberto",
+     "imprint": "Milano : Adelphi, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1600577",
+     "title": "2666 : la parte dei critici, la parte di Amalfitano, la parte di Fate / Roberto Bolaño ; traduzione di Ilide Carmignani",
+     "author": "Bolaño, Roberto",
+     "imprint": "Milano : Adelphi, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "CAM0244569",
+     "title": "2666 / Roberto Bolaño ; traduzione di Ilide Carmignani",
+     "author": "Bolaño, Roberto",
+     "imprint": "Milano : Adelphi, © 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO3507615",
+     "title": "2666 : la parte dei delitti, la parte di Arcimboldi / Roberto Bolaño ; traduzione di Ilide Carmignani",
+     "author": "Bolaño, Roberto",
+     "imprint": "Milano : Adelphi, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10161114",
+     "title": "2666 / Roberto Bolaño ; traduzione di Ilide Carmignani",
+     "author": "Bolaño, Roberto",
+     "imprint": "Milano : Adelphi, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV1468298",
+     "title": "2666 / Roberto Bolaño",
+     "author": "Bolaño, Roberto",
+     "imprint": "Barcelona : Alfaguara, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2016",
+     "publisher": "Alfaguara",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "TO01362318",
+     "title": "2666 / Roberto Bolano",
+     "author": "Bolaño, Roberto",
+     "imprint": "Barcelona : Anagrama, [2004]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2004",
+     "publisher": "Anagrama",
+     "place": "Barcelona"
+    }
+   ],
+   "entries": [
+    "spa",
+    "eng",
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL712025W",
+  "size": 62,
+  "rows": 62,
+  "languages": 33,
+  "language_codes": [
+   "alb",
+   "ara",
+   "bos",
+   "bul",
+   "chi",
+   "cze",
+   "dan",
+   "dut",
+   "eng",
+   "fin",
+   "fre",
+   "ger",
+   "gre",
+   "heb",
+   "hrv",
+   "hun",
+   "ita",
+   "jpn",
+   "lav",
+   "lit",
+   "mac",
+   "nor",
+   "per",
+   "pol",
+   "por",
+   "rum",
+   "rus",
+   "spa",
+   "srp",
+   "swe",
+   "tur",
+   "ukr",
+   "vie"
+  ],
+  "year_parsed": 62,
+  "year_parse_failures": [],
+  "publisher_present": 62,
+  "language_present": 62,
+  "requests": 7,
+  "failed": [],
+  "wall_s": 5.5,
+  "items": [
+   {
+    "key": "/books/OL61537667M",
+    "title": "2666",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Pika pa sipërfaqje"
+    ],
+    "publish_places": [
+     "Tirana, Shqipëria"
+    ],
+    "languages": [
+     "alb"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789928185365"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537612M",
+    "title": "2666",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Nhà xuất bản Hội Nhà Văn"
+    ],
+    "publish_places": [
+     "Hà Nội, Việt Nam"
+    ],
+    "languages": [
+     "vie"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786049778452"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537568M",
+    "title": "2666",
+    "publish_date": "2025",
+    "year": "2025",
+    "publishers": [
+     "BookChef"
+    ],
+    "publish_places": [
+     "Київ, Україна"
+    ],
+    "languages": [
+     "ukr"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786175483756"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537504M",
+    "title": "2666",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Laguna"
+    ],
+    "publish_places": [
+     "Beograd, Serbia"
+    ],
+    "languages": [
+     "srp"
+    ],
+    "isbn_10": [
+     "8652107475",
+     "8652107483"
+    ],
+    "isbn_13": [
+     "9788652107483",
+     "9788652107476"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537481M",
+    "title": "2666",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "Pandora M"
+    ],
+    "publish_places": [
+     "București, România"
+    ],
+    "languages": [
+     "rum"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786069786734"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537473M",
+    "title": "2666",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Companhia das Letras"
+    ],
+    "publish_places": [
+     "São Paulo, Brasil"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788535916485"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537467M",
+    "title": "2666",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "کتابسرای تندیس"
+    ],
+    "publish_places": [
+     "تهران، ایران"
+    ],
+    "languages": [
+     "per"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786001821387"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537451M",
+    "title": "2666",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "ТРИ"
+    ],
+    "publish_places": [
+     "Скопје, Македонија"
+    ],
+    "languages": [
+     "mac"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786082304052"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537437M",
+    "title": "2666",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Kitos knygos"
+    ],
+    "publish_places": [
+     "Kaunas, Lietuva"
+    ],
+    "languages": [
+     "lit"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786094274114"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537363M",
+    "title": "2666",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Zvaigzne ABC"
+    ],
+    "publish_places": [
+     "Rīga, Latvija"
+    ],
+    "languages": [
+     "lav"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789934039829"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61537310M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "白水社"
+    ],
+    "publish_places": [
+     "東京、日本"
+    ],
+    "languages": [
+     "jpn"
+    ],
+    "isbn_10": [
+     "4560092613"
+    ],
+    "isbn_13": [
+     "9784560092613"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536989M",
+    "title": "2666",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Jelenkor"
+    ],
+    "publish_places": [
+     "Budapest, Magyarország"
+    ],
+    "languages": [
+     "hun"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789636766535"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536981M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Hanser"
+    ],
+    "publish_places": [
+     "München, Deutschland"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783446233966"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536971M",
+    "title": "2666",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "Points"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782757894118"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536955M",
+    "title": "2666",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782070437139"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536933M",
+    "title": "2666",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "Sammakko"
+    ],
+    "publish_places": [
+     "Turku, Suomi"
+    ],
+    "languages": [
+     "fin"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789524832755"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536924M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Vuković & Runjić"
+    ],
+    "publish_places": [
+     "Zagreb, Hrvatska"
+    ],
+    "languages": [
+     "hrv"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789532860801"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536911M",
+    "title": "2666",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Рива"
+    ],
+    "publish_places": [
+     "София, България"
+    ],
+    "languages": [
+     "bul"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789543204366"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536899M",
+    "title": "2666",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Buybook"
+    ],
+    "publish_places": [
+     "Sarajevo, Bosna i Hercegovina"
+    ],
+    "languages": [
+     "bos"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789958303791"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536868M",
+    "title": "2666",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Círculo de Lectores"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788467209068"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536867M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "上海人民出版社"
+    ],
+    "publish_places": [
+     "中国上海"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9787208102019"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536864M",
+    "title": "2666",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "منشورات الجمل"
+    ],
+    "publish_places": [
+     "بيروت، لبنان"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536377M",
+    "title": "2666",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Albert Bonniers"
+    ],
+    "publish_places": [
+     "Stockholm, Sverige"
+    ],
+    "languages": [
+     "swe"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789100124274"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536371M",
+    "title": "2666",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "Cappelen Damm"
+    ],
+    "publish_places": [
+     "Oslo, Norge"
+    ],
+    "languages": [
+     "nor"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788202395469"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536370M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Adelphi"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788845924354"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536366M",
+    "title": "2666",
+    "publish_date": "2007-2008",
+    "year": "2007",
+    "publishers": [
+     "Adelphi"
+    ],
+    "publish_places": [
+     "Milano, Italia"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788845922084",
+     "9788845923135"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536303M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Gyldendal"
+    ],
+    "publish_places": [
+     "København, Danmark"
+    ],
+    "languages": [
+     "dan"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788702089578"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61536038M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Argo"
+    ],
+    "publish_places": [
+     "Praha, Česká republika"
+    ],
+    "languages": [
+     "cze"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788025706114"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61535400M",
+    "title": "2666",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Farrar, Straus and Giroux"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0374531552"
+    ],
+    "isbn_13": [
+     "9780374531553"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61227594M",
+    "title": "2666",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "עם עובד"
+    ],
+    "publish_places": [
+     "תל אביב, ישראל"
+    ],
+    "languages": [
+     "heb"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789651324918"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL57727977M",
+    "title": "2666",
+    "publish_date": "Feb 15, 2009",
+    "year": "2009",
+    "publishers": [
+     "Quetzal"
+    ],
+    "publish_places": [
+     "Lisboa, Portugal"
+    ],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [
+     "9725648161"
+    ],
+    "isbn_13": [
+     "9789725648162"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61530240M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788433973184"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL61530130M",
+    "title": "2666",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788433973184"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL60703814M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Meulenhoff"
+    ],
+    "publish_places": [
+     "Amsterdam, Nederland"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789029084482"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL51748795M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Picador"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0330509608"
+    ],
+    "isbn_13": [
+     "9780330509602"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL50638972M",
+    "title": "2666",
+    "publish_date": "2024",
+    "year": "2024",
+    "publishers": [
+     "Vintage Classics"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781784879396"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL47305674M",
+    "title": "2666",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "ACT"
+    ],
+    "publish_places": [
+     "Москва, Россия"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "517116780X"
+    ],
+    "isbn_13": [
+     "9785171167806"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL47141687M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Meulenhoff"
+    ],
+    "publish_places": [
+     "Amsterdam, Nederland"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9029084480"
+    ],
+    "isbn_13": [
+     "9789029084482"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL47141686M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Meulenhoff"
+    ],
+    "publish_places": [
+     "Amsterdam, Nederland"
+    ],
+    "languages": [
+     "dut"
+    ],
+    "isbn_10": [
+     "9029084480"
+    ],
+    "isbn_13": [
+     "9789029084482"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL32223949M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Blackstone Audio"
+    ],
+    "publish_places": [
+     "Ashland (Oregon), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1433290855"
+    ],
+    "isbn_13": [
+     "9781433290855"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL32241830M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Blackstone Audio"
+    ],
+    "publish_places": [
+     "Ashland (Oregon), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1433279517"
+    ],
+    "isbn_13": [
+     "9781433279515"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL35393071M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Pegasus"
+    ],
+    "publish_places": [
+     "İstanbul, Türkiye"
+    ],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "6055360632"
+    ],
+    "isbn_13": [
+     "9786055360634"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL35432156M",
+    "title": "2666",
+    "publish_date": "2021",
+    "year": "2021",
+    "publishers": [
+     "Can Yayınları"
+    ],
+    "publish_places": [
+     "İstanbul, Türkiye"
+    ],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "9750749081"
+    ],
+    "isbn_13": [
+     "9789750749087"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL32005199M",
+    "title": "2666",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788466337120"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL34863684M",
+    "title": "2666",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Farrar, Straus and Giroux"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781466804821"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL35470098M",
+    "title": "2666",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Christian Bourgois"
+    ],
+    "publish_places": [
+     "Paris, France"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782267019667"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL35479849M",
+    "title": "2666",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Picador"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780330479813"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL27465246M",
+    "title": "2666",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Fischer Taschenbuch"
+    ],
+    "publish_places": [
+     "Frankfurt am Main, Deutschland"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596187842"
+    ],
+    "isbn_13": [
+     "9783596187843"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL26915740M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Blackstone Audio"
+    ],
+    "publish_places": [
+     "Ashland (Oregon), USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1433279509"
+    ],
+    "isbn_13": [
+     "9781433279508"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL26319469M",
+    "title": "2666",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Άγρα"
+    ],
+    "publish_places": [
+     "Αθήνα, Ελλάδα"
+    ],
+    "languages": [
+     "gre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789603259923"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL26283117M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Vintage Español"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0307475956"
+    ],
+    "isbn_13": [
+     "9780307475954"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL26207385M",
+    "title": "2666",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Univers"
+    ],
+    "publish_places": [
+     "București, România"
+    ],
+    "languages": [
+     "rum"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786067710021"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL26230837M",
+    "title": "2666",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Alfaguara"
+    ],
+    "publish_places": [
+     "Madrid, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788420423920"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL25938706M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788433973184"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL25558102M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Picador"
+    ],
+    "publish_places": [
+     "London, UK"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0330447432"
+    ],
+    "isbn_13": [
+     "9780330447430"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL24967933M",
+    "title": "2666",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Picador"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0312429215"
+    ],
+    "isbn_13": [
+     "9780312429218"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL23060125M",
+    "title": "2666",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Farrar, Straus and Giroux"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0374100144"
+    ],
+    "isbn_13": [
+     "9780374100148"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL22615799M",
+    "title": "2666",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843396867X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL9129070M",
+    "title": "2666",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843396867X"
+    ],
+    "isbn_13": [
+     "9788433968678"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL35447884M",
+    "title": "2666",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Muza"
+    ],
+    "publish_places": [
+     "Warszawa, Polska"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [
+     "8377582686"
+    ],
+    "isbn_13": [
+     "9788377582688"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL3459082M",
+    "title": "2666",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Anagrama"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "843396867X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL712025W"
+    ]
+   },
+   {
+    "key": "/books/OL16820215M",
+    "title": "2666",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Farrar, Straus and Giroux"
+    ],
+    "publish_places": [
+     "New York, USA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0374100144"
+    ],
+    "isbn_13": [
+     "9780374100148"
+    ],
+    "translation_of": "2666",
+    "works": [
+     "/works/OL712025W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 5.5,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 6,
+   "failed": 0,
+   "total_s": 6.71,
+   "p50_s": 1.261,
+   "max_s": 1.34
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 5.5,
+   "p50_s": 5.5,
+   "max_s": 5.5
+  }
+ },
+ "failures": []
+}

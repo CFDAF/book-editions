@@ -1,0 +1,76 @@
+{
+ "cases": [
+  {
+   "title": "Доктор Живаго",
+   "author": "Pasternak",
+   "any_plus_author": 855,
+   "author_alone": 855,
+   "bogus_any_plus_author": 0,
+   "any_alone": 21806046,
+   "any_ignored": true
+  },
+  {
+   "title": "Ὀδύσσεια",
+   "author": "Homer",
+   "any_plus_author": 8818,
+   "author_alone": 8818,
+   "bogus_any_plus_author": 0,
+   "any_alone": 21806046,
+   "any_ignored": true
+  },
+  {
+   "title": "بين القصرين",
+   "author": "Naguib Mahfouz",
+   "any_plus_author": 524,
+   "author_alone": 524,
+   "bogus_any_plus_author": 0,
+   "any_alone": 21806046,
+   "any_ignored": true
+  },
+  {
+   "title": "活着",
+   "author": "Yu Hua",
+   "any_plus_author": 192,
+   "author_alone": 192,
+   "bogus_any_plus_author": 0,
+   "any_alone": 21806046,
+   "any_ignored": true
+  },
+  {
+   "title": "Преступление и наказание",
+   "author": "Fëdor Dostoevskij",
+   "any_plus_author": 0,
+   "author_alone": 4800,
+   "bogus_any_plus_author": 0,
+   "any_alone": 4,
+   "any_ignored": false
+  },
+  {
+   "title": "海辺のカフカ",
+   "author": "Murakami Haruki",
+   "any_plus_author": 407,
+   "author_alone": 407,
+   "bogus_any_plus_author": 0,
+   "any_alone": 21806046,
+   "any_ignored": true
+  },
+  {
+   "title": "Umibe no Kafuka",
+   "author": "Murakami Haruki",
+   "any_plus_author": 20,
+   "author_alone": 407,
+   "bogus_any_plus_author": 0,
+   "any_alone": 20,
+   "any_ignored": false
+  }
+ ],
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 26,
+   "failed": 0,
+   "total_s": 60.5,
+   "p50_s": 0.583,
+   "max_s": 9.782
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "id": "N13",
+ "sbn": [
+  {
+   "W": "mudigkeitsgesellschaft",
+   "author": "Byung-Chul Han",
+   "total": 4,
+   "lingua_facet": [
+    [
+     "ita",
+     4
+    ]
+   ],
+   "lingua_facet_sum": 4,
+   "rows": 4,
+   "multilingual_rows": 0,
+   "languages": 1,
+   "bogus_lingua_total": 0,
+   "year_parsed": 4,
+   "year_parse_failures": [],
+   "publisher_present": 4,
+   "language_present": 4,
+   "records_on_no_language_page": [],
+   "requests": 3,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 2.4,
+   "items": [
+    {
+     "bid": "RAV1957566",
+     "title": "La società della stanchezza / Byung-Chul Han ; traduzione di Federica Buongiorno",
+     "author": "Han, Byung-Chul",
+     "imprint": "Roma : Nottetempo, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Nottetempo",
+     "place": "Roma"
+    },
+    {
+     "bid": "CAM0234192",
+     "title": "La società della stanchezza / Byung-Chul Han ; traduzione di Federica Buongiorno",
+     "author": "Han, Byung-Chul",
+     "imprint": "Roma : Nottetempo, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Nottetempo",
+     "place": "Roma"
+    },
+    {
+     "bid": "LO11793756",
+     "title": "La società della stanchezza / Byung-Chul Han ; traduzione di Federica Buongiorno ; in appendice due saggi inediti",
+     "author": "Han, Byung-Chul",
+     "imprint": "Roma : Nottetempo, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Nottetempo",
+     "place": "Roma"
+    },
+    {
+     "bid": "TO02161963",
+     "title": "La società della stanchezza / Byung-Chul Han ; traduzione di Federica Buongiorno ; in appendice due saggi inediti",
+     "author": "Han, Byung-Chul",
+     "imprint": "Roma : Nottetempo, 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "Nottetempo",
+     "place": "Roma"
+    }
+   ],
+   "entries": [
+    "ger",
+    "ita"
+   ]
+  }
+ ],
+ "ol": null,
+ "wall_s": 2.4,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.38,
+   "p50_s": 0.758,
+   "max_s": 0.865
+  }
+ },
+ "failures": []
+}

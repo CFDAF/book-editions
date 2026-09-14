@@ -1,0 +1,440 @@
+{
+ "id": "E07",
+ "sbn": [
+  {
+   "W": "liquid modernity.",
+   "author": "Bauman",
+   "total": 15,
+   "lingua_facet": [
+    [
+     "ita",
+     13
+    ],
+    [
+     "eng",
+     2
+    ]
+   ],
+   "lingua_facet_sum": 15,
+   "rows": 15,
+   "multilingual_rows": 0,
+   "languages": 2,
+   "bogus_lingua_total": 0,
+   "year_parsed": 13,
+   "year_parse_failures": [
+    {
+     "bid": "UBO4204084",
+     "imprint": "[Rev. ed.]"
+    },
+    {
+     "bid": "RMS1902948",
+     "imprint": "3. ed"
+    }
+   ],
+   "publisher_present": 15,
+   "language_present": 15,
+   "records_on_no_language_page": [],
+   "requests": 4,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 0.5,
+   "items": [
+    {
+     "bid": "MIL0479747",
+     "title": "Liquid modernity / Zygmunt Bauman",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Cambridge : Polity ; Oxford ; Malden : Blackwell, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2000",
+     "publisher": "Polity ; Oxford ; Malden : Blackwell",
+     "place": "Cambridge"
+    },
+    {
+     "bid": "UBO4204084",
+     "title": "Liquid modernity / Zygmunt Bauman",
+     "author": "Bauman, Zygmunt",
+     "imprint": "[Rev. ed.]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": null,
+     "publisher": "Rev. ed.",
+     "place": null
+    },
+    {
+     "bid": "IEI0277254",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma ; Bari : GLF editori Laterza, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma ; Bari"
+    },
+    {
+     "bid": "RMS2484106",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma ; Bari : GLF editori Laterza, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma ; Bari"
+    },
+    {
+     "bid": "RMS1704398",
+     "title": "Modernita liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma [etc.] : GLF editori Laterza, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma etc."
+    },
+    {
+     "bid": "RMS1639906",
+     "title": "Modernita liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma ; Bari : GLF Editori Laterza, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "GLF Editori Laterza",
+     "place": "Roma ; Bari"
+    },
+    {
+     "bid": "RMS1902948",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "3. ed",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "3. ed",
+     "place": null
+    },
+    {
+     "bid": "TO01339978",
+     "title": "Modernita liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma ; Bari : GLF editori Laterza, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma ; Bari"
+    },
+    {
+     "bid": "PBE0044326",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma [etc.] : GLF editori Laterza, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma etc."
+    },
+    {
+     "bid": "TO01725628",
+     "title": "Modernita liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma ; Bari : Laterza, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Laterza",
+     "place": "Roma ; Bari"
+    },
+    {
+     "bid": "BCT0081770",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Milano : RCS Mediagroup, 2025",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2025",
+     "publisher": "RCS Mediagroup",
+     "place": "Milano"
+    },
+    {
+     "bid": "UTO0983801",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma ; Bari : GLF editori Laterza, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma ; Bari"
+    },
+    {
+     "bid": "UM10123978",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma ; Bari : GLF editori Laterza, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma ; Bari"
+    },
+    {
+     "bid": "UBO1658760",
+     "title": "Modernità liquida / Zygmunt Bauman ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Roma [etc.] : GLF editori Laterza, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "GLF editori Laterza",
+     "place": "Roma etc."
+    },
+    {
+     "bid": "RMB0802600",
+     "title": "Modernità liquida / Zygmunt Bauman ; introduzione di Donatella Di Cesare ; traduzione di Sergio Minucci",
+     "author": "Bauman, Zygmunt",
+     "imprint": "Milano : Corriere della Sera, 2019, stampa 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "Corriere della Sera",
+     "place": "Milano"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL527224W",
+  "size": 6,
+  "rows": 6,
+  "languages": 1,
+  "language_codes": [
+   "eng"
+  ],
+  "year_parsed": 6,
+  "year_parse_failures": [],
+  "publisher_present": 6,
+  "language_present": 4,
+  "requests": 5,
+  "failed": [],
+  "wall_s": 3.6,
+  "items": [
+   {
+    "key": "/books/OL50559844M",
+    "title": "Liquid Modernity",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Polity Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0745624103"
+    ],
+    "isbn_13": [
+     "9780745624099"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL527224W"
+    ]
+   },
+   {
+    "key": "/books/OL33460563M",
+    "title": "Liquid Modernity",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Polity Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780745674414"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL527224W"
+    ]
+   },
+   {
+    "key": "/books/OL33480938M",
+    "title": "Liquid Modernity",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Polity Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780745657028"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL527224W"
+    ]
+   },
+   {
+    "key": "/books/OL29174857M",
+    "title": "Liquid Modernity",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Polity Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780745657011"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL527224W"
+    ]
+   },
+   {
+    "key": "/books/OL32497771M",
+    "title": "Liquid modernity",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "polity"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780745624099"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL527224W"
+    ]
+   },
+   {
+    "key": "/books/OL3354285M",
+    "title": "Liquid modernity",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Polity Press",
+     "Blackwell"
+    ],
+    "publish_places": [
+     "Cambridge, UK",
+     "Malden, MA"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "074562409X",
+     "0745624103"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL527224W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.6,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 0.67,
+   "p50_s": 0.186,
+   "max_s": 0.196
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.64,
+   "p50_s": 3.641,
+   "max_s": 3.641
+  }
+ },
+ "failures": []
+}

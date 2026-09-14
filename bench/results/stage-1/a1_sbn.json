@@ -1,0 +1,3042 @@
+{
+ "books": {
+  "E01": {
+   "entries": {
+    "ita": {
+     "title": "Cent'anni di solitudine",
+     "author_sent": "Garcia Marquez",
+     "total": 138,
+     "facet_top": [
+      [
+       "cien anos de soledad",
+       89
+      ],
+      [
+       "cien anos des soledad. -",
+       2
+      ]
+     ],
+     "W": "cien anos de soledad",
+     "W_count": 89,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.669,
+     "B_counts": [
+      89,
+      133
+     ],
+     "query_rows": 138,
+     "work_rows": 89,
+     "work_total": 89,
+     "truncated": false,
+     "b_requests": 11,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "One Hundred Years of Solitude",
+     "author_sent": "Garcia Marquez",
+     "total": 18,
+     "facet_top": [
+      [
+       "cien anos de soledad",
+       13
+      ]
+     ],
+     "W": "cien anos de soledad",
+     "W_count": 13,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.722,
+     "B_counts": [
+      13,
+      18
+     ],
+     "query_rows": 18,
+     "work_rows": 13,
+     "work_total": 13,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "spa": {
+     "title": "Cien años de soledad",
+     "author_sent": "Garcia Marquez",
+     "total": 198,
+     "facet_top": [
+      [
+       "cien anos de soledad",
+       143
+      ],
+      [
+       "cien anos des soledad. -",
+       2
+      ]
+     ],
+     "W": "cien anos de soledad",
+     "W_count": 143,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 4.8
+  },
+  "E02": {
+   "entries": {
+    "ita": {
+     "title": "Verso un'ecologia della mente",
+     "author_sent": "Bateson",
+     "total": 28,
+     "facet_top": [
+      [
+       "steps to an ecology of mind",
+       22
+      ],
+      [
+       "sacred unity",
+       2
+      ]
+     ],
+     "W": "steps to an ecology of mind",
+     "W_count": 22,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.846,
+     "B_counts": [
+      22,
+      26
+     ],
+     "query_rows": 28,
+     "work_rows": 22,
+     "work_total": 22,
+     "truncated": false,
+     "b_requests": 3,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "Steps to an Ecology of Mind",
+     "author_sent": "Bateson",
+     "total": 31,
+     "facet_top": [
+      [
+       "steps to an ecology of mind",
+       26
+      ]
+     ],
+     "W": "steps to an ecology of mind",
+     "W_count": 26,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 2.5
+  },
+  "E03": {
+   "entries": {
+    "ita": {
+     "title": "Rumori",
+     "author_sent": "Jacques Attali",
+     "total": 1,
+     "facet_top": [
+      [
+       "bruits : essai sur l'economie politique de la musique",
+       1
+      ]
+     ],
+     "W": "bruits : essai sur l'economie politique de la musique",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      1,
+      1
+     ],
+     "query_rows": 1,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "Noise",
+     "author_sent": "Jacques Attali",
+     "total": 1,
+     "facet_top": [
+      [
+       "bruits : essai sur l'economie politique de la musique",
+       1
+      ],
+      [
+       "noise",
+       1
+      ]
+     ],
+     "W": "bruits : essai sur l'economie politique de la musique",
+     "W_count": 1,
+     "W_ties": [
+      "noise"
+     ],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      1,
+      1
+     ],
+     "query_rows": 1,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "fre": {
+     "title": "Bruits",
+     "author_sent": "Jacques Attali",
+     "total": 3,
+     "facet_top": [
+      [
+       "bruits : essai sur l'economie politique de la musique",
+       3
+      ],
+      [
+       "noise",
+       1
+      ]
+     ],
+     "W": "bruits : essai sur l'economie politique de la musique",
+     "W_count": 3,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 1.5
+  },
+  "E04": {
+   "entries": {
+    "ita": {
+     "title": "Kafka sulla spiaggia",
+     "author_sent": "Murakami Haruki",
+     "total": 13,
+     "facet_top": [
+      [
+       "umibe no kafuka",
+       12
+      ]
+     ],
+     "W": "umibe no kafuka",
+     "W_count": 12,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.923,
+     "B_counts": [
+      12,
+      13
+     ],
+     "query_rows": 13,
+     "work_rows": 12,
+     "work_total": 12,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "Kafka on the Shore",
+     "author_sent": "Murakami Haruki",
+     "total": 6,
+     "facet_top": [
+      [
+       "umibe no kafuka",
+       4
+      ]
+     ],
+     "W": "umibe no kafuka",
+     "W_count": 4,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.667,
+     "B_counts": [
+      4,
+      6
+     ],
+     "query_rows": 6,
+     "work_rows": 4,
+     "work_total": 4,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "jpn": {
+     "title": "Umibe no Kafuka",
+     "author_sent": "Murakami Haruki",
+     "total": 20,
+     "facet_top": [
+      [
+       "umibe no kafuka",
+       20
+      ]
+     ],
+     "W": "umibe no kafuka",
+     "W_count": 20,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 1.5
+  },
+  "E05": {
+   "entries": {
+    "ita": {
+     "title": "L'invenzione delle notizie",
+     "author_sent": "Pettegree",
+     "total": 2,
+     "facet_top": [
+      [
+       "invention of news",
+       2
+      ]
+     ],
+     "W": "invention of news",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      2,
+      2
+     ],
+     "query_rows": 2,
+     "work_rows": 2,
+     "work_total": 2,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "The Invention of News",
+     "author_sent": "Pettegree",
+     "total": 3,
+     "facet_top": [
+      [
+       "invention of news",
+       2
+      ]
+     ],
+     "W": "invention of news",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 1.0
+  },
+  "E06": {
+   "entries": {
+    "ita": {
+     "title": "Più brillante del sole",
+     "author_sent": "Eshun",
+     "total": 1,
+     "facet_top": [
+      [
+       "more brilliant than the sun",
+       1
+      ]
+     ],
+     "W": "more brilliant than the sun",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      1,
+      1
+     ],
+     "query_rows": 1,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "More Brilliant Than the Sun",
+     "author_sent": "Eshun",
+     "total": 2,
+     "facet_top": [
+      [
+       "more brilliant than the sun",
+       1
+      ]
+     ],
+     "W": "more brilliant than the sun",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 0.8
+  },
+  "E07": {
+   "entries": {
+    "ita": {
+     "title": "Modernità liquida",
+     "author_sent": "Bauman",
+     "total": 27,
+     "facet_top": [
+      [
+       "liquid modernity.",
+       13
+      ],
+      [
+       "liquid surveillance",
+       3
+      ],
+      [
+       "moral blindness",
+       2
+      ],
+      [
+       "practices of selfhood",
+       1
+      ]
+     ],
+     "W": "liquid modernity.",
+     "W_count": 13,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.812,
+     "B_counts": [
+      13,
+      16
+     ],
+     "query_rows": 27,
+     "work_rows": 13,
+     "work_total": 13,
+     "truncated": false,
+     "b_requests": 2,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "Liquid Modernity",
+     "author_sent": "Bauman",
+     "total": 16,
+     "facet_top": [
+      [
+       "liquid modernity.",
+       15
+      ]
+     ],
+     "W": "liquid modernity.",
+     "W_count": 15,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 2.0
+  },
+  "E08": {
+   "entries": {
+    "ita": {
+     "title": "La matrice sociale della psichiatria",
+     "author_sent": "Ruesch",
+     "total": 1,
+     "facet_top": [
+      [
+       "communication: the social matrix of psychiatry.",
+       1
+      ]
+     ],
+     "W": "communication: the social matrix of psychiatry.",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      1,
+      1
+     ],
+     "query_rows": 1,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "Communication: The Social Matrix of Psychiatry",
+     "author_sent": "Ruesch",
+     "total": 4,
+     "facet_top": [
+      [
+       "communication: the social matrix of psychiatry.",
+       1
+      ]
+     ],
+     "W": "communication: the social matrix of psychiatry.",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 1.7
+  },
+  "E09": {
+   "entries": {
+    "ita": {
+     "title": "Il nome della rosa",
+     "author_sent": "Eco",
+     "total": 297,
+     "facet_top": [
+      [
+       "nome della rosa",
+       232
+      ],
+      [
+       "postille a il nome della rosa",
+       11
+      ],
+      [
+       "rosa dei nomi <documentario ; 1987>",
+       1
+      ],
+      [
+       "sette anni di desiderio",
+       1
+      ]
+     ],
+     "W": "nome della rosa",
+     "W_count": 232,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "The Name of the Rose",
+     "author_sent": "Eco",
+     "total": 41,
+     "facet_top": [
+      [
+       "nome della rosa",
+       15
+      ],
+      [
+       "postille a il nome della rosa",
+       1
+      ],
+      [
+       "rosa dei nomi <documentario ; 1987>",
+       1
+      ]
+     ],
+     "W": "nome della rosa",
+     "W_count": 15,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.538,
+     "B_counts": [
+      14,
+      26
+     ],
+     "query_rows": 41,
+     "work_rows": 15,
+     "work_total": 15,
+     "truncated": false,
+     "b_requests": 3,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 2.4
+  },
+  "E10": {
+   "entries": {
+    "ita": {
+     "title": "Opere",
+     "author_sent": "Leopardi",
+     "total": 392,
+     "facet_top": [
+      [
+       "canti",
+       19
+      ],
+      [
+       "operette morali",
+       13
+      ],
+      [
+       "paralipomeni della batracomiomachia",
+       10
+      ],
+      [
+       "pensieri",
+       10
+      ],
+      [
+       "zibaldone di pensieri",
+       9
+      ]
+     ],
+     "W": "canti",
+     "W_count": 19,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.033,
+     "B_counts": [
+      2,
+      60
+     ],
+     "query_rows": 387,
+     "work_rows": 19,
+     "work_total": 19,
+     "truncated": false,
+     "b_requests": 20,
+     "tier": "rejected"
+    }
+   },
+   "wall_s": 4.3
+  },
+  "E11": {
+   "entries": {
+    "ita": {
+     "title": "Poesie",
+     "author_sent": "Montale",
+     "total": 273,
+     "facet_top": [
+      [
+       "tutte le poesie",
+       26
+      ],
+      [
+       "poesie",
+       12
+      ],
+      [
+       "occasioni",
+       10
+      ],
+      [
+       "ossi di seppia",
+       9
+      ],
+      [
+       "collected poems",
+       7
+      ]
+     ],
+     "W": "tutte le poesie",
+     "W_count": 26,
+     "W_ties": [],
+     "A": 0.5,
+     "guard_requests": 1,
+     "B": 0.0,
+     "B_counts": [
+      0,
+      45
+     ],
+     "query_rows": 232,
+     "work_rows": 26,
+     "work_total": 26,
+     "truncated": false,
+     "b_requests": 15,
+     "tier": "rejected"
+    }
+   },
+   "wall_s": 2.8
+  },
+  "E12": {
+   "entries": {
+    "ita": {
+     "title": "Tesi di filosofia della storia",
+     "author_sent": "Walter Benjamin",
+     "total": 2,
+     "facet_top": [
+      [
+       "uber den begriff der geschichte",
+       1
+      ]
+     ],
+     "W": "uber den begriff der geschichte",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.5,
+     "B_counts": [
+      1,
+      2
+     ],
+     "query_rows": 2,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "weak"
+    }
+   },
+   "wall_s": 0.7
+  },
+  "E13": {
+   "entries": {
+    "ita": {
+     "title": "Angelus Novus",
+     "author_sent": "Walter Benjamin",
+     "total": 21,
+     "facet_top": [
+      [
+       "schriften",
+       9
+      ],
+      [
+       "angelus novus",
+       1
+      ]
+     ],
+     "W": "schriften",
+     "W_count": 9,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.5,
+     "B_counts": [
+      9,
+      18
+     ],
+     "query_rows": 21,
+     "work_rows": 9,
+     "work_total": 9,
+     "truncated": false,
+     "b_requests": 2,
+     "tier": "weak"
+    }
+   },
+   "wall_s": 2.1
+  },
+  "E14": {
+   "entries": {
+    "ita": {
+     "title": "Per una economia positiva",
+     "author_sent": "Jacques Attali",
+     "total": 1,
+     "facet_top": [],
+     "W": null,
+     "tier": "no work",
+     "A": null,
+     "B": null,
+     "guard_requests": 1,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 1.0
+  },
+  "E15": {
+   "entries": {
+    "eng": {
+     "title": "The Essential Knuth",
+     "author_sent": "Knuth",
+     "total": 0,
+     "facet_top": [],
+     "W": null,
+     "tier": "no work",
+     "A": null,
+     "B": null,
+     "guard_requests": 1,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 0.1
+  },
+  "E16": {
+   "entries": {
+    "ita": {
+     "title": "Il dottor Živago",
+     "author_sent": "Pasternak",
+     "total": 159,
+     "facet_top": [
+      [
+       "doktor zivago",
+       94
+      ],
+      [
+       "dottor zivago",
+       2
+      ],
+      [
+       "doctor zivago",
+       1
+      ],
+      [
+       "materialy tvorceskoj istorii romana b. pasternaka doktor zivago",
+       1
+      ]
+     ],
+     "W": "doktor zivago",
+     "W_count": 94,
+     "W_ties": [],
+     "A": 0.5,
+     "guard_requests": 1,
+     "B": 0.618,
+     "B_counts": [
+      94,
+      152
+     ],
+     "query_rows": 159,
+     "work_rows": 94,
+     "work_total": 94,
+     "truncated": false,
+     "b_requests": 12,
+     "tier": "strong"
+    },
+    "eng": {
+     "title": "Doctor Zhivago",
+     "author_sent": "Pasternak",
+     "total": 32,
+     "facet_top": [
+      [
+       "doktor zivago",
+       9
+      ],
+      [
+       "lara : the untold love story that inspired doctor zhivago",
+       1
+      ]
+     ],
+     "W": "doktor zivago",
+     "W_count": 9,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.5,
+     "B_counts": [
+      9,
+      18
+     ],
+     "query_rows": 32,
+     "work_rows": 9,
+     "work_total": 9,
+     "truncated": false,
+     "b_requests": 2,
+     "tier": "weak"
+    },
+    "rus": {
+     "title": "Доктор Живаго",
+     "author_sent": "Pasternak",
+     "total": 855,
+     "facet_top": [
+      [
+       "doktor zivago",
+       126
+      ],
+      [
+       "vstupitel'nyi ocerk k knige izbrannyh stihotvorenij. -",
+       7
+      ],
+      [
+       "boris godunov",
+       6
+      ],
+      [
+       "ochrannaja gramota.",
+       6
+      ],
+      [
+       "othello",
+       5
+      ]
+     ],
+     "W": "doktor zivago",
+     "W_count": 126,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": null,
+     "B_counts": [
+      0,
+      0
+     ],
+     "query_rows": 853,
+     "work_rows": 126,
+     "work_total": 126,
+     "truncated": false,
+     "b_requests": 49,
+     "tier": "rejected"
+    }
+   },
+   "wall_s": 19.6
+  },
+  "N01": {
+   "entries": {
+    "cze": {
+     "title": "Nesnesitelná lehkost bytí",
+     "author_sent": "Milan Kundera",
+     "total": 109,
+     "facet_top": [
+      [
+       "nesnesitelna lehkost byti",
+       109
+      ],
+      [
+       "kniha smichu a zapomneni.",
+       1
+      ],
+      [
+       "smesne lasky",
+       1
+      ],
+      [
+       "valcik na rozloucenou",
+       1
+      ],
+      [
+       "zert",
+       1
+      ]
+     ],
+     "W": "nesnesitelna lehkost byti",
+     "W_count": 109,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "The Unbearable Lightness of Being",
+     "author_sent": "Milan Kundera",
+     "total": 14,
+     "facet_top": [
+      [
+       "nesnesitelna lehkost byti",
+       10
+      ]
+     ],
+     "W": "nesnesitelna lehkost byti",
+     "W_count": 10,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      10,
+      10
+     ],
+     "query_rows": 14,
+     "work_rows": 10,
+     "work_total": 10,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "ita": {
+     "title": "L'insostenibile leggerezza dell'essere",
+     "author_sent": "Milan Kundera",
+     "total": 79,
+     "facet_top": [
+      [
+       "nesnesitelna lehkost byti",
+       72
+      ]
+     ],
+     "W": "nesnesitelna lehkost byti",
+     "W_count": 72,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.911,
+     "B_counts": [
+      72,
+      79
+     ],
+     "query_rows": 79,
+     "work_rows": 72,
+     "work_total": 72,
+     "truncated": false,
+     "b_requests": 7,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 8.0
+  },
+  "N02": {
+   "entries": {
+    "fre": {
+     "title": "Le Petit Prince",
+     "author_sent": "Antoine de Saint-Exupéry",
+     "total": 728,
+     "facet_top": [
+      [
+       "petit prince",
+       613
+      ],
+      [
+       "piccolo principe",
+       3
+      ],
+      [
+       "le petit prince",
+       2
+      ],
+      [
+       "petit prince, l'album du film",
+       2
+      ],
+      [
+       "petit prince. la planete de l'astronome.",
+       2
+      ]
+     ],
+     "W": "petit prince",
+     "W_count": 613,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "The Little Prince",
+     "author_sent": "Antoine de Saint-Exupéry",
+     "total": 50,
+     "facet_top": [
+      [
+       "petit prince",
+       25
+      ],
+      [
+       "little prince",
+       5
+      ],
+      [
+       "little prince : pop up book",
+       1
+      ],
+      [
+       "little prince : wisdom from beyond the stars",
+       1
+      ],
+      [
+       "piccolo principe",
+       1
+      ]
+     ],
+     "W": "petit prince",
+     "W_count": 25,
+     "W_ties": [],
+     "A": 0.5,
+     "guard_requests": 1,
+     "B": 0.526,
+     "B_counts": [
+      20,
+      38
+     ],
+     "query_rows": 50,
+     "work_rows": 25,
+     "work_total": 25,
+     "truncated": false,
+     "b_requests": 4,
+     "tier": "strong"
+    },
+    "ita": {
+     "title": "Il piccolo principe",
+     "author_sent": "Antoine de Saint-Exupéry",
+     "total": 561,
+     "facet_top": [
+      [
+       "petit prince",
+       324
+      ],
+      [
+       "piccolo principe",
+       16
+      ],
+      [
+       "lettres a l'inconnue",
+       3
+      ],
+      [
+       "little prince",
+       2
+      ],
+      [
+       "petit prince, l'album du film",
+       2
+      ]
+     ],
+     "W": "petit prince",
+     "W_count": 324,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.612,
+     "B_counts": [
+      304,
+      497
+     ],
+     "query_rows": 561,
+     "work_rows": 324,
+     "work_total": 324,
+     "truncated": false,
+     "b_requests": 45,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 16.1
+  },
+  "N03": {
+   "entries": {
+    "ita": {
+     "title": "Se questo è un uomo",
+     "author_sent": "Primo Levi",
+     "total": 287,
+     "facet_top": [
+      [
+       "se questo e un uomo",
+       264
+      ],
+      [
+       "tregua",
+       60
+      ],
+      [
+       "sommersi e i salvati",
+       5
+      ],
+      [
+       "sistema periodico",
+       3
+      ],
+      [
+       "storie naturali",
+       2
+      ]
+     ],
+     "W": "se questo e un uomo",
+     "W_count": 264,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "If This Is a Man",
+     "author_sent": "Primo Levi",
+     "total": 11,
+     "facet_top": [
+      [
+       "se questo e un uomo",
+       7
+      ],
+      [
+       "tregua",
+       4
+      ]
+     ],
+     "W": "se questo e un uomo",
+     "W_count": 7,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.875,
+     "B_counts": [
+      7,
+      8
+     ],
+     "query_rows": 11,
+     "work_rows": 7,
+     "work_total": 7,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "eng-2": {
+     "title": "Survival in Auschwitz",
+     "author_sent": "Primo Levi",
+     "total": 4,
+     "facet_top": [
+      [
+       "se questo e un uomo",
+       4
+      ],
+      [
+       "tregua",
+       1
+      ]
+     ],
+     "W": "se questo e un uomo",
+     "W_count": 4,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      4,
+      4
+     ],
+     "query_rows": 4,
+     "work_rows": 4,
+     "work_total": 4,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 2.6
+  },
+  "N04": {
+   "entries": {
+    "rus": {
+     "title": "Преступление и наказание",
+     "author_sent": "Fëdor Dostoevskij",
+     "total": 0,
+     "facet_top": [],
+     "W": null,
+     "tier": "no work",
+     "A": null,
+     "B": null,
+     "guard_requests": 1,
+     "b_requests": 0,
+     "fallback_surname": {
+      "author_sent": "Dostoevskij",
+      "total": 0,
+      "facet_top": [],
+      "W": null,
+      "tier": "no work",
+      "A": null,
+      "B": null,
+      "guard_requests": 1,
+      "b_requests": 0
+     }
+    },
+    "eng": {
+     "title": "Crime and Punishment",
+     "author_sent": "Fëdor Dostoevskij",
+     "total": 36,
+     "facet_top": [
+      [
+       "prestuplenie i nakazanie",
+       10
+      ]
+     ],
+     "W": "prestuplenie i nakazanie",
+     "W_count": 10,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.29,
+     "B_counts": [
+      9,
+      31
+     ],
+     "query_rows": 36,
+     "work_rows": 10,
+     "work_total": 10,
+     "truncated": false,
+     "b_requests": 2,
+     "tier": "rejected"
+    },
+    "ita": {
+     "title": "Delitto e castigo",
+     "author_sent": "Fëdor Dostoevskij",
+     "total": 512,
+     "facet_top": [
+      [
+       "prestuplenie i nakazanie",
+       154
+      ],
+      [
+       "delitto e castigo",
+       3
+      ],
+      [
+       "delitto e castigo <videoregistrazione ; 2007>",
+       1
+      ],
+      [
+       "delitto e castigo. canto di sonia",
+       1
+      ],
+      [
+       "raskolnikoff",
+       1
+      ]
+     ],
+     "W": "prestuplenie i nakazanie",
+     "W_count": 154,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.319,
+     "B_counts": [
+      152,
+      476
+     ],
+     "query_rows": 512,
+     "work_rows": 154,
+     "work_total": 154,
+     "truncated": false,
+     "b_requests": 33,
+     "tier": "rejected"
+    }
+   },
+   "wall_s": 12.6
+  },
+  "N05": {
+   "entries": {
+    "eng": {
+     "title": "The Catcher in the Rye",
+     "author_sent": "J. D. Salinger",
+     "total": 96,
+     "facet_top": [
+      [
+       "catcher in the rye",
+       92
+      ],
+      [
+       "nine stories",
+       1
+      ]
+     ],
+     "W": "catcher in the rye",
+     "W_count": 92,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "ita": {
+     "title": "Il giovane Holden",
+     "author_sent": "J. D. Salinger",
+     "total": 51,
+     "facet_top": [
+      [
+       "catcher in the rye",
+       42
+      ],
+      [
+       "nine stories",
+       2
+      ],
+      [
+       "raise high the roof beam, carpenters",
+       2
+      ],
+      [
+       "seymour: an introduction",
+       2
+      ],
+      [
+       "franny and zooey",
+       1
+      ]
+     ],
+     "W": "catcher in the rye",
+     "W_count": 42,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      42,
+      42
+     ],
+     "query_rows": 51,
+     "work_rows": 42,
+     "work_total": 42,
+     "truncated": false,
+     "b_requests": 5,
+     "tier": "strong"
+    },
+    "ita-2": {
+     "title": "Vita da uomo",
+     "author_sent": "J. D. Salinger",
+     "total": 1,
+     "facet_top": [
+      [
+       "catcher in the rye",
+       1
+      ]
+     ],
+     "W": "catcher in the rye",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      1,
+      1
+     ],
+     "query_rows": 1,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 3.5
+  },
+  "N06": {
+   "entries": {
+    "eng": {
+     "title": "Nineteen Eighty-Four",
+     "author_sent": "George Orwell",
+     "total": 221,
+     "facet_top": [
+      [
+       "nineteen eighty-four",
+       172
+      ],
+      [
+       "animal farm",
+       5
+      ],
+      [
+       "1984",
+       3
+      ],
+      [
+       "coming up for air",
+       2
+      ],
+      [
+       "homage to catalonia",
+       2
+      ]
+     ],
+     "W": "nineteen eighty-four",
+     "W_count": 172,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "ita": {
+     "title": "1984",
+     "author_sent": "George Orwell",
+     "total": 222,
+     "facet_top": [
+      [
+       "nineteen eighty-four",
+       143
+      ],
+      [
+       "1984",
+       11
+      ],
+      [
+       "animal farm",
+       3
+      ],
+      [
+       "nineteen eigthy-four",
+       2
+      ],
+      [
+       "1984 <graphic novel>",
+       1
+      ]
+     ],
+     "W": "nineteen eighty-four",
+     "W_count": 143,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.667,
+     "B_counts": [
+      120,
+      180
+     ],
+     "query_rows": 222,
+     "work_rows": 143,
+     "work_total": 143,
+     "truncated": false,
+     "b_requests": 19,
+     "tier": "strong"
+    },
+    "ita-2": {
+     "title": "Millenovecentottantaquattro",
+     "author_sent": "George Orwell",
+     "total": 57,
+     "facet_top": [
+      [
+       "nineteen eighty-four",
+       49
+      ],
+      [
+       "1984",
+       1
+      ],
+      [
+       "1984 <graphic novel>",
+       1
+      ],
+      [
+       "nineteen eigthy-four",
+       1
+      ]
+     ],
+     "W": "nineteen eighty-four",
+     "W_count": 49,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.667,
+     "B_counts": [
+      2,
+      3
+     ],
+     "query_rows": 57,
+     "work_rows": 49,
+     "work_total": 49,
+     "truncated": false,
+     "b_requests": 5,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 7.9
+  },
+  "N07": {
+   "entries": {
+    "ita": {
+     "title": "Se una notte d'inverno un viaggiatore",
+     "author_sent": "Italo Calvino",
+     "total": 151,
+     "facet_top": [
+      [
+       "se una notte d'inverno un viaggiatore",
+       141
+      ],
+      [
+       "castello dei destini incrociati",
+       1
+      ],
+      [
+       "citta invisibili",
+       1
+      ],
+      [
+       "palomar",
+       1
+      ],
+      [
+       "si par une nuit d'hiver un voyageur.",
+       1
+      ]
+     ],
+     "W": "se una notte d'inverno un viaggiatore",
+     "W_count": 141,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "If on a Winter's Night a Traveler",
+     "author_sent": "Italo Calvino",
+     "total": 10,
+     "facet_top": [
+      [
+       "se una notte d'inverno un viaggiatore",
+       9
+      ]
+     ],
+     "W": "se una notte d'inverno un viaggiatore",
+     "W_count": 9,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.9,
+     "B_counts": [
+      9,
+      10
+     ],
+     "query_rows": 10,
+     "work_rows": 9,
+     "work_total": 9,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 2.3
+  },
+  "N08": {
+   "entries": {
+    "ita": {
+     "title": "L'amica geniale",
+     "author_sent": "Elena Ferrante",
+     "total": 238,
+     "facet_top": [
+      [
+       "amica geniale : infanzia, adolescenza",
+       57
+      ],
+      [
+       "amica geniale. storia del nuovo cognome",
+       32
+      ],
+      [
+       "amica geniale. storia di chi fugge e di chi resta",
+       28
+      ],
+      [
+       "amica geniale. storia della bambina perduta",
+       22
+      ],
+      [
+       "amica geniale",
+       18
+      ]
+     ],
+     "W": "amica geniale : infanzia, adolescenza",
+     "W_count": 57,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "My Brilliant Friend",
+     "author_sent": "Elena Ferrante",
+     "total": 4,
+     "facet_top": [
+      [
+       "amica geniale : infanzia, adolescenza",
+       4
+      ]
+     ],
+     "W": "amica geniale : infanzia, adolescenza",
+     "W_count": 4,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      4,
+      4
+     ],
+     "query_rows": 4,
+     "work_rows": 4,
+     "work_total": 4,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 2.7
+  },
+  "N09": {
+   "entries": {
+    "ita": {
+     "title": "Il formaggio e i vermi",
+     "author_sent": "Carlo Ginzburg",
+     "total": 30,
+     "facet_top": [
+      [
+       "formaggio e i vermi",
+       27
+      ]
+     ],
+     "W": "formaggio e i vermi",
+     "W_count": 27,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "The Cheese and the Worms",
+     "author_sent": "Carlo Ginzburg",
+     "total": 2,
+     "facet_top": [
+      [
+       "formaggio e i vermi",
+       2
+      ]
+     ],
+     "W": "formaggio e i vermi",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      2,
+      2
+     ],
+     "query_rows": 2,
+     "work_rows": 2,
+     "work_total": 2,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 2.6
+  },
+  "N10": {
+   "entries": {
+    "fre": {
+     "title": "L'Étranger",
+     "author_sent": "Albert Camus",
+     "total": 227,
+     "facet_top": [
+      [
+       "etranger.",
+       216
+      ],
+      [
+       "peste",
+       10
+      ],
+      [
+       "chute",
+       8
+      ],
+      [
+       "malentendu",
+       6
+      ],
+      [
+       "etranger <commento>",
+       5
+      ]
+     ],
+     "W": "etranger.",
+     "W_count": 216,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "The Stranger",
+     "author_sent": "Albert Camus",
+     "total": 4,
+     "facet_top": [
+      [
+       "etranger.",
+       4
+      ]
+     ],
+     "W": "etranger.",
+     "W_count": 4,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      4,
+      4
+     ],
+     "query_rows": 4,
+     "work_rows": 4,
+     "work_total": 4,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "eng-2": {
+     "title": "The Outsider",
+     "author_sent": "Albert Camus",
+     "total": 5,
+     "facet_top": [
+      [
+       "etranger.",
+       5
+      ],
+      [
+       "chute",
+       1
+      ],
+      [
+       "exil et le royaume",
+       1
+      ],
+      [
+       "peste",
+       1
+      ]
+     ],
+     "W": "etranger.",
+     "W_count": 5,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      4,
+      4
+     ],
+     "query_rows": 5,
+     "work_rows": 5,
+     "work_total": 5,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    },
+    "ita": {
+     "title": "Lo straniero",
+     "author_sent": "Albert Camus",
+     "total": 102,
+     "facet_top": [
+      [
+       "etranger.",
+       97
+      ],
+      [
+       "peste",
+       5
+      ],
+      [
+       "chute",
+       4
+      ],
+      [
+       "malentendu",
+       3
+      ],
+      [
+       "caligula",
+       2
+      ]
+     ],
+     "W": "etranger.",
+     "W_count": 97,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.978,
+     "B_counts": [
+      90,
+      92
+     ],
+     "query_rows": 102,
+     "work_rows": 97,
+     "work_total": 97,
+     "truncated": false,
+     "b_requests": 10,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 9.8
+  },
+  "N11": {
+   "entries": {
+    "fre": {
+     "title": "La Disparition",
+     "author_sent": "Georges Perec",
+     "total": 11,
+     "facet_top": [
+      [
+       "disparition.",
+       4
+      ]
+     ],
+     "W": "disparition.",
+     "W_count": 4,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "A Void",
+     "author_sent": "Georges Perec",
+     "total": 0,
+     "facet_top": [],
+     "W": null,
+     "tier": "no work",
+     "A": null,
+     "B": null,
+     "guard_requests": 1,
+     "b_requests": 0,
+     "fallback_surname": {
+      "author_sent": "Perec",
+      "total": 0,
+      "facet_top": [],
+      "W": null,
+      "tier": "no work",
+      "A": null,
+      "B": null,
+      "guard_requests": 1,
+      "b_requests": 0
+     }
+    },
+    "ita": {
+     "title": "La scomparsa",
+     "author_sent": "Georges Perec",
+     "total": 3,
+     "facet_top": [
+      [
+       "disparition.",
+       2
+      ]
+     ],
+     "W": "disparition.",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.667,
+     "B_counts": [
+      2,
+      3
+     ],
+     "query_rows": 3,
+     "work_rows": 2,
+     "work_total": 2,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 3.9
+  },
+  "N12": {
+   "entries": {
+    "ger": {
+     "title": "Der Process",
+     "author_sent": "Franz Kafka",
+     "total": 23,
+     "facet_top": [
+      [
+       "prozess",
+       2
+      ]
+     ],
+     "W": "prozess",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.133,
+     "B_counts": [
+      2,
+      15
+     ],
+     "query_rows": 23,
+     "work_rows": 2,
+     "work_total": 2,
+     "truncated": false,
+     "b_requests": 2,
+     "tier": "rejected"
+    },
+    "ger-2": {
+     "title": "Der Prozess",
+     "author_sent": "Franz Kafka",
+     "total": 68,
+     "facet_top": [
+      [
+       "prozess",
+       18
+      ],
+      [
+       "prozess. op.14",
+       3
+      ],
+      [
+       "schloss",
+       3
+      ],
+      [
+       "amerika",
+       2
+      ],
+      [
+       "bau",
+       1
+      ]
+     ],
+     "W": "prozess",
+     "W_count": 18,
+     "W_ties": [],
+     "A": 0.5,
+     "guard_requests": 1,
+     "B": 0.234,
+     "B_counts": [
+      11,
+      47
+     ],
+     "query_rows": 68,
+     "work_rows": 18,
+     "work_total": 18,
+     "truncated": false,
+     "b_requests": 4,
+     "tier": "rejected"
+    },
+    "eng": {
+     "title": "The Trial",
+     "author_sent": "Franz Kafka",
+     "total": 19,
+     "facet_top": [
+      [
+       "prozess",
+       5
+      ],
+      [
+       "metamporphosis",
+       1
+      ],
+      [
+       "trial",
+       1
+      ]
+     ],
+     "W": "prozess",
+     "W_count": 5,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.312,
+     "B_counts": [
+      5,
+      16
+     ],
+     "query_rows": 19,
+     "work_rows": 5,
+     "work_total": 5,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "rejected"
+    },
+    "ita": {
+     "title": "Il processo",
+     "author_sent": "Franz Kafka",
+     "total": 231,
+     "facet_top": [
+      [
+       "prozess",
+       176
+      ],
+      [
+       "schloss",
+       4
+      ],
+      [
+       "amerika",
+       3
+      ],
+      [
+       "processo <sceneggiato televisivo ; 1978>",
+       3
+      ],
+      [
+       "processo",
+       2
+      ]
+     ],
+     "W": "prozess",
+     "W_count": 176,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.851,
+     "B_counts": [
+      172,
+      202
+     ],
+     "query_rows": 231,
+     "work_rows": 176,
+     "work_total": 176,
+     "truncated": false,
+     "b_requests": 20,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 15.4
+  },
+  "N13": {
+   "entries": {
+    "ger": {
+     "title": "Müdigkeitsgesellschaft",
+     "author_sent": "Byung-Chul Han",
+     "total": 4,
+     "facet_top": [
+      [
+       "mudigkeitsgesellschaft",
+       4
+      ],
+      [
+       "societa della stanchezza",
+       1
+      ]
+     ],
+     "W": "mudigkeitsgesellschaft",
+     "W_count": 4,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "The Burnout Society",
+     "author_sent": "Byung-Chul Han",
+     "total": 0,
+     "facet_top": [],
+     "W": null,
+     "tier": "no work",
+     "A": null,
+     "B": null,
+     "guard_requests": 1,
+     "b_requests": 0,
+     "fallback_surname": {
+      "author_sent": "Han",
+      "total": 0,
+      "facet_top": [],
+      "W": null,
+      "tier": "no work",
+      "A": null,
+      "B": null,
+      "guard_requests": 1,
+      "b_requests": 0
+     }
+    },
+    "ita": {
+     "title": "La società della stanchezza",
+     "author_sent": "Byung-Chul Han",
+     "total": 4,
+     "facet_top": [
+      [
+       "mudigkeitsgesellschaft",
+       4
+      ],
+      [
+       "societa della stanchezza",
+       1
+      ]
+     ],
+     "W": "mudigkeitsgesellschaft",
+     "W_count": 4,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 1.0,
+     "B_counts": [
+      4,
+      4
+     ],
+     "query_rows": 4,
+     "work_rows": 4,
+     "work_total": 4,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 3.6
+  },
+  "N14": {
+   "entries": {
+    "por": {
+     "title": "Ensaio sobre a cegueira",
+     "author_sent": "José Saramago",
+     "total": 52,
+     "facet_top": [
+      [
+       "ensaio sobre a cegueira",
+       48
+      ],
+      [
+       "ensaio sobre cegueira.",
+       1
+      ]
+     ],
+     "W": "ensaio sobre a cegueira",
+     "W_count": 48,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "Blindness",
+     "author_sent": "José Saramago",
+     "total": 8,
+     "facet_top": [
+      [
+       "ensaio sobre a cegueira",
+       3
+      ],
+      [
+       "ensaio sobre a cergueira",
+       2
+      ]
+     ],
+     "W": "ensaio sobre a cegueira",
+     "W_count": 3,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.375,
+     "B_counts": [
+      3,
+      8
+     ],
+     "query_rows": 8,
+     "work_rows": 3,
+     "work_total": 3,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "rejected"
+    },
+    "ita": {
+     "title": "Cecità",
+     "author_sent": "José Saramago",
+     "total": 39,
+     "facet_top": [
+      [
+       "ensaio sobre a cegueira",
+       32
+      ]
+     ],
+     "W": "ensaio sobre a cegueira",
+     "W_count": 32,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.889,
+     "B_counts": [
+      32,
+      36
+     ],
+     "query_rows": 39,
+     "work_rows": 32,
+     "work_total": 32,
+     "truncated": false,
+     "b_requests": 3,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 4.8
+  },
+  "N15": {
+   "entries": {
+    "spa": {
+     "title": "2666",
+     "author_sent": "Roberto Bolaño",
+     "total": 17,
+     "facet_top": [
+      [
+       "2666.",
+       11
+      ]
+     ],
+     "W": "2666.",
+     "W_count": 11,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "2666",
+     "author_sent": "Roberto Bolaño",
+     "total": 17,
+     "facet_top": [
+      [
+       "2666.",
+       11
+      ]
+     ],
+     "W": "2666.",
+     "W_count": 11,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "ita": {
+     "title": "2666",
+     "author_sent": "Roberto Bolaño",
+     "total": 17,
+     "facet_top": [
+      [
+       "2666.",
+       11
+      ]
+     ],
+     "W": "2666.",
+     "W_count": 11,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 0.9
+  },
+  "N16": {
+   "entries": {
+    "chi": {
+     "title": "活着",
+     "author_sent": "Yu Hua",
+     "total": 192,
+     "facet_top": [
+      [
+       "huozhe",
+       10
+      ],
+      [
+       "xu san'guan mai xue ji",
+       7
+      ],
+      [
+       "xiongdi",
+       6
+      ],
+      [
+       "shi ge cihui zhong de zhongguo",
+       5
+      ],
+      [
+       "zai xi yu zhong hu han. -",
+       4
+      ]
+     ],
+     "W": "huozhe",
+     "W_count": 10,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": null,
+     "B_counts": [
+      0,
+      0
+     ],
+     "query_rows": 192,
+     "work_rows": 10,
+     "work_total": 10,
+     "truncated": false,
+     "b_requests": 10,
+     "tier": "rejected"
+    },
+    "eng": {
+     "title": "To Live",
+     "author_sent": "Yu Hua",
+     "total": 3,
+     "facet_top": [],
+     "W": null,
+     "tier": "no work",
+     "A": null,
+     "B": null,
+     "guard_requests": 1,
+     "b_requests": 0
+    },
+    "ita": {
+     "title": "Vivere!",
+     "author_sent": "Yu Hua",
+     "total": 10,
+     "facet_top": [
+      [
+       "huozhe",
+       7
+      ]
+     ],
+     "W": "huozhe",
+     "W_count": 7,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.7,
+     "B_counts": [
+      7,
+      10
+     ],
+     "query_rows": 10,
+     "work_rows": 7,
+     "work_total": 7,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 7.0
+  },
+  "N17": {
+   "entries": {
+    "ara": {
+     "title": "بين القصرين",
+     "author_sent": "Naguib Mahfouz",
+     "total": 524,
+     "facet_top": [
+      [
+       "hikayat haratina",
+       15
+      ],
+      [
+       "zuqaq al-midaqq",
+       11
+      ],
+      [
+       "liss wa-l-kilab",
+       10
+      ],
+      [
+       "bain el-qasrain.",
+       8
+      ],
+      [
+       "karnak",
+       8
+      ]
+     ],
+     "W": "hikayat haratina",
+     "W_count": 15,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": null,
+     "B_counts": [
+      0,
+      0
+     ],
+     "query_rows": 524,
+     "work_rows": 15,
+     "work_total": 15,
+     "truncated": false,
+     "b_requests": 27,
+     "tier": "rejected"
+    },
+    "eng": {
+     "title": "Palace Walk",
+     "author_sent": "Naguib Mahfouz",
+     "total": 3,
+     "facet_top": [
+      [
+       "bain el-qasrain.",
+       1
+      ],
+      [
+       "bayn al-qasrayn",
+       1
+      ]
+     ],
+     "W": "bain el-qasrain.",
+     "W_count": 1,
+     "W_ties": [
+      "bayn al-qasrayn"
+     ],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.333,
+     "B_counts": [
+      1,
+      3
+     ],
+     "query_rows": 3,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "rejected"
+    },
+    "ita": {
+     "title": "Tra i due palazzi",
+     "author_sent": "Naguib Mahfouz",
+     "total": 7,
+     "facet_top": [
+      [
+       "bain el-qasrain.",
+       6
+      ]
+     ],
+     "W": "bain el-qasrain.",
+     "W_count": 6,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.857,
+     "B_counts": [
+      6,
+      7
+     ],
+     "query_rows": 7,
+     "work_rows": 6,
+     "work_total": 6,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 10.9
+  },
+  "N18": {
+   "entries": {
+    "eng": {
+     "title": "Capitalist Realism",
+     "author_sent": "Mark Fisher",
+     "total": 4,
+     "facet_top": [
+      [
+       "capitalist realism : is there no alternative?",
+       2
+      ]
+     ],
+     "W": "capitalist realism : is there no alternative?",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "ita": {
+     "title": "Realismo capitalista",
+     "author_sent": "Mark Fisher",
+     "total": 3,
+     "facet_top": [
+      [
+       "capitalist realism : is there no alternative?",
+       2
+      ]
+     ],
+     "W": "capitalist realism : is there no alternative?",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.667,
+     "B_counts": [
+      2,
+      3
+     ],
+     "query_rows": 3,
+     "work_rows": 2,
+     "work_total": 2,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 2.1
+  },
+  "N19": {
+   "entries": {
+    "eng": {
+     "title": "Tomorrow, and Tomorrow, and Tomorrow",
+     "author_sent": "Gabrielle Zevin",
+     "total": 7,
+     "facet_top": [
+      [
+       "tomorrow, and tomorrow, and tomorrow",
+       7
+      ]
+     ],
+     "W": "tomorrow, and tomorrow, and tomorrow",
+     "W_count": 7,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "ita": {
+     "title": "Domani, e domani, e domani",
+     "author_sent": "Gabrielle Zevin",
+     "total": 0,
+     "facet_top": [],
+     "W": null,
+     "tier": "no work",
+     "A": null,
+     "B": null,
+     "guard_requests": 1,
+     "b_requests": 0,
+     "fallback_surname": {
+      "author_sent": "Zevin",
+      "total": 0,
+      "facet_top": [],
+      "W": null,
+      "tier": "no work",
+      "A": null,
+      "B": null,
+      "guard_requests": 1,
+      "b_requests": 0
+     }
+    }
+   },
+   "wall_s": 2.1
+  },
+  "N20": {
+   "entries": {
+    "eng": {
+     "title": "Metaphors We Live By",
+     "author_sent": "George Lakoff",
+     "total": 12,
+     "facet_top": [
+      [
+       "metaphors we live by.",
+       12
+      ]
+     ],
+     "W": "metaphors we live by.",
+     "W_count": 12,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "ita": {
+     "title": "Metafora e vita quotidiana",
+     "author_sent": "George Lakoff",
+     "total": 6,
+     "facet_top": [
+      [
+       "metaphors we live by.",
+       5
+      ]
+     ],
+     "W": "metaphors we live by.",
+     "W_count": 5,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.833,
+     "B_counts": [
+      5,
+      6
+     ],
+     "query_rows": 6,
+     "work_rows": 5,
+     "work_total": 5,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 2.0
+  },
+  "N21": {
+   "entries": {
+    "spa": {
+     "title": "Veinte poemas de amor y una canción desesperada",
+     "author_sent": "Pablo Neruda",
+     "total": 46,
+     "facet_top": [
+      [
+       "veinte poemas de amor y una cancion desesperada.",
+       21
+      ],
+      [
+       "cien sonetos de amor",
+       2
+      ],
+      [
+       "hondero entusiasta.",
+       2
+      ],
+      [
+       "versos del capitan.",
+       2
+      ]
+     ],
+     "W": "veinte poemas de amor y una cancion desesperada.",
+     "W_count": 21,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "Twenty Love Poems and a Song of Despair",
+     "author_sent": "Pablo Neruda",
+     "total": 4,
+     "facet_top": [
+      [
+       "veinte poemas de amor y una cancion desesperada.",
+       1
+      ]
+     ],
+     "W": "veinte poemas de amor y una cancion desesperada.",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.5,
+     "B_counts": [
+      1,
+      2
+     ],
+     "query_rows": 4,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "weak"
+    },
+    "ita": {
+     "title": "Venti poesie d'amore e una canzone disperata",
+     "author_sent": "Pablo Neruda",
+     "total": 27,
+     "facet_top": [
+      [
+       "veinte poemas de amor y una cancion desesperada.",
+       12
+      ],
+      [
+       "crepuscolario .",
+       1
+      ]
+     ],
+     "W": "veinte poemas de amor y una cancion desesperada.",
+     "W_count": 12,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.706,
+     "B_counts": [
+      12,
+      17
+     ],
+     "query_rows": 27,
+     "work_rows": 12,
+     "work_total": 12,
+     "truncated": false,
+     "b_requests": 2,
+     "tier": "strong"
+    }
+   },
+   "wall_s": 4.0
+  },
+  "N22": {
+   "entries": {
+    "fre": {
+     "title": "Le Capital au XXIe siècle",
+     "author_sent": "Thomas Piketty",
+     "total": 2,
+     "facet_top": [
+      [
+       "capital au xxie siecle",
+       2
+      ]
+     ],
+     "W": "capital au xxie siecle",
+     "W_count": 2,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    },
+    "eng": {
+     "title": "Capital in the Twenty-First Century",
+     "author_sent": "Thomas Piketty",
+     "total": 2,
+     "facet_top": [
+      [
+       "capital au 21. siecle",
+       1
+      ],
+      [
+       "capital au xxie siecle",
+       1
+      ]
+     ],
+     "W": "capital au 21. siecle",
+     "W_count": 1,
+     "W_ties": [
+      "capital au xxie siecle"
+     ],
+     "A": 0.25,
+     "guard_requests": 1,
+     "B": 0.5,
+     "B_counts": [
+      1,
+      2
+     ],
+     "query_rows": 2,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "weak"
+    },
+    "ita": {
+     "title": "Il capitale nel XXI secolo",
+     "author_sent": "Thomas Piketty",
+     "total": 2,
+     "facet_top": [
+      [
+       "capital au xxie siecle",
+       1
+      ],
+      [
+       "capitale nel xxi secolo",
+       1
+      ]
+     ],
+     "W": "capital au xxie siecle",
+     "W_count": 1,
+     "W_ties": [
+      "capitale nel xxi secolo"
+     ],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.5,
+     "B_counts": [
+      1,
+      2
+     ],
+     "query_rows": 2,
+     "work_rows": 1,
+     "work_total": 1,
+     "truncated": false,
+     "b_requests": 1,
+     "tier": "weak"
+    }
+   },
+   "wall_s": 4.7
+  },
+  "N23": {
+   "entries": {
+    "grc": {
+     "title": "Ὀδύσσεια",
+     "author_sent": "Homer",
+     "total": 8818,
+     "facet_top": [
+      [
+       "ilias",
+       1022
+      ],
+      [
+       "odyssea",
+       857
+      ],
+      [
+       "batrachomyomachia.",
+       135
+      ],
+      [
+       "hymni homerici",
+       97
+      ],
+      [
+       "odyssea. libro 6",
+       23
+      ]
+     ],
+     "W": "ilias",
+     "W_count": 1022,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": null,
+     "B_counts": [
+      0,
+      0
+     ],
+     "query_rows": 1999,
+     "work_rows": 1022,
+     "work_total": 1022,
+     "truncated": true,
+     "b_requests": 151,
+     "tier": "rejected"
+    },
+    "eng": {
+     "title": "The Odyssey",
+     "author_sent": "Homer",
+     "total": 194,
+     "facet_top": [
+      [
+       "odyssea",
+       49
+      ],
+      [
+       "ilias",
+       7
+      ],
+      [
+       "odyssey.",
+       3
+      ],
+      [
+       "odyssey : rendered into english prose for the use of those who cannot read the original",
+       2
+      ],
+      [
+       "batrachomyomachia.",
+       1
+      ]
+     ],
+     "W": "odyssea",
+     "W_count": 49,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.271,
+     "B_counts": [
+      13,
+      48
+     ],
+     "query_rows": 194,
+     "work_rows": 49,
+     "work_total": 49,
+     "truncated": false,
+     "b_requests": 12,
+     "tier": "rejected"
+    },
+    "ita": {
+     "title": "Odissea",
+     "author_sent": "Homer",
+     "total": 2326,
+     "facet_top": [
+      [
+       "odyssea",
+       548
+      ],
+      [
+       "odyssea. libro 6",
+       22
+      ],
+      [
+       "odysseia. libro 9",
+       21
+      ],
+      [
+       "odissea",
+       17
+      ],
+      [
+       "odyssea. libro 1",
+       16
+      ]
+     ],
+     "W": "odyssea",
+     "W_count": 548,
+     "W_ties": [],
+     "A": 0.0,
+     "guard_requests": 1,
+     "B": 0.296,
+     "B_counts": [
+      319,
+      1076
+     ],
+     "query_rows": 2000,
+     "work_rows": 548,
+     "work_total": 548,
+     "truncated": true,
+     "b_requests": 127,
+     "tier": "rejected"
+    }
+   },
+   "wall_s": 70.2
+  },
+  "N24": {
+   "entries": {
+    "ita": {
+     "title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+     "author_sent": "Orlando Ciprian",
+     "total": 1,
+     "facet_top": [
+      [
+       "tutto per una casa",
+       1
+      ]
+     ],
+     "W": "tutto per una casa",
+     "W_count": 1,
+     "W_ties": [],
+     "A": 1.0,
+     "guard_requests": 1,
+     "tier": "strong",
+     "B": null,
+     "b_requests": 0
+    }
+   },
+   "wall_s": 0.8
+  }
+ },
+ "wall_s": 249.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 735,
+   "failed": 0,
+   "total_s": 593.28,
+   "p50_s": 0.808,
+   "max_s": 2.212
+  }
+ },
+ "failures": []
+}

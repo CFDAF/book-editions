@@ -1,0 +1,947 @@
+{
+ "books": {
+  "E15": {
+   "en:The Essential Knuth": {
+    "missing": true
+   }
+  },
+  "E08": {
+   "en:Communication: The Social Matrix of Psychiatry": {
+    "missing": true
+   }
+  },
+  "E07": {
+   "en:Liquid Modernity": {
+    "missing": true
+   }
+  },
+  "E06": {
+   "en:More Brilliant than the Sun": {
+    "missing": true
+   }
+  },
+  "E05": {
+   "en:The Invention of News": {
+    "missing": true
+   }
+  },
+  "N12": {
+   "en:The Trial": {
+    "url": "https://en.wikipedia.org/wiki/The_Trial",
+    "infobox": [
+     "title_orig = Der Prozess",
+     "language = German",
+     "genre = {{plainlist|",
+     "publisher = [[Verlag Die Schmiede]], Berlin",
+     "release_date = 26 April 1925",
+     "media_type = Print: hardback"
+    ],
+    "lead": "'''''The Trial''''' (){{efn|name=title|Also ,  and . Kafka used the spelling ''Process''; [[Max Brod]] and later publishers changed it. See [http://www.textkritik.de/fka/dokumente/process.htm Faksimile Edition].}} is a German-language novel written by Czech writer [[Franz Kafka]] in 1914 and 1915 and published posthumously on 26 April 1925. One of his best-known works, it tells the story of Josef K., a bank official arrested and prosecuted by an inaccessible authority, with the nature of the crime of which he is accused revealed neither to him nor to the reader. The novel shows K. as he tries to navigate through an absurdly bureaucratic legal system as well as his social alienation as he att",
+    "language_counts": []
+   },
+   "it:Il processo": {
+    "url": "https://it.wikipedia.org/wiki/Il_processo",
+    "infobox": [
+     "annoorig = 1925",
+     "lingua = de"
+    ],
+    "lead": "'''''Il processo''''' (''Der Process'', ''Der Proceß'', ''Der Prozeß'', ''Der Prozess'') è un romanzo incompiuto di [[Franz Kafka]] scritto in [[Lingua tedesca|tedesco]] fra il 1914 e il 1915, pubblicato postumo per la prima volta nel [[1925]]. Ritenuta una delle sue migliori opere, esso racconta la storia di Josef K., un uomo arrestato e perseguito dall'autorità senza che venga mai a sapere la natura del suo crimine. Nell'opera è indagata anche la passiva accettazione, da parte degli altri personaggi, dell’ineluttabilità di una giustizia che funziona come un fenomeno fisico, con sue logiche autoreferenziali e insondabili, contro cui a nulla servono la razionalità e la lucidità di Josef K., ",
+    "language_counts": []
+   },
+   "de:Der Process": {
+    "url": "https://de.wikipedia.org/wiki/Der_Process",
+    "infobox": [],
+    "lead": "<!-- Der Titel des Romans lautet nach der Faksimile-Edition (http://www.textkritik.de/fka/dokumente/process.htm) „Der Process“ und zwar genau so. Teile der handschriftlichen Manuskripte Kafkas sind im Internet einsehbar. (http://www.kafka.org/index.php?manuscripts) Hier ist deutlich zu erkennen, dass Kafka „Process“ schrieb. Bitte den Titel nicht mehr ändern oder den Artikel verschieben, sondern vorher einen Blick auf die Diskussionsseite werfen. -->\n[[Datei:Kafka Der Prozess 1925.jpg|mini|hochkant|Verlagseinband der Erstausgabe 1925]]",
+    "language_counts": []
+   }
+  },
+  "N23": {
+   "en:Odyssey": {
+    "url": "https://en.wikipedia.org/wiki/Odyssey",
+    "infobox": [
+     "translator = See [[Translations of the Odyssey|translations of the ''Odyssey'']] or [[English translations of Homer#Odyssey|English translations]]",
+     "language = [[Homeric Greek]]",
+     "genre = [[Epic (genre)|Epic]]"
+    ],
+    "lead": "The '''''Odyssey''''' (;  ) is one of two major [[Epic poetry|epics]] of [[ancient Greek literature]] attributed to [[Homer]]. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like the ''[[Iliad]]'', the ''Odyssey'' is divided into 24 [[Chapter (books)#Book-like|books]]. It follows the [[Greek hero cult|heroic]] king of [[Homer's Ithaca|Ithaca]], [[Odysseus]], also known by the Latin variant Ulysses, and his homecoming journey after the ten-year-long [[Trojan War]]. His journey from [[Troy]] to Ithaca lasts an additional ten years, during which time he encounters many perils and all of his crewmates are killed. In Odysseus's long absence, he is",
+    "language_counts": []
+   },
+   "it:Odissea": {
+    "url": "https://it.wikipedia.org/wiki/Odissea",
+    "infobox": [
+     "annoorig = [[VIII secolo a.C.]]<br />[[VI secolo a.C.]]<ref>Stesura scritta promossa da Pisistrato</ref>",
+     "lingua = grc"
+    ],
+    "lead": "L''''''Odissea''''' () è uno dei due grandi [[epica|poemi epici]] della letteratura greca antica attribuiti al poeta [[Omero]]. È una delle opere letterarie più antiche sopravvissute e rimane popolare presso il pubblico moderno, costituendo uno dei capolavori del [[Canone occidentale]]. Come l'[[Iliade]], l'Odissea è divisa in 24 libri. Narra le vicende dell'eroico re di Itaca, Odisseo, conosciuto anche con la variante latina ''[[Ulisse]]'', e il suo viaggio di ritorno a casa dopo la fine della [[Guerra di Troia]], durata dieci anni. Altrettanto durano le peripezie che affrontano Odisseo e i suoi compagni di viaggio: avventure e disavventure che vedranno tutti perire, a parte il protagonista",
+    "language_counts": []
+   },
+   "el:Οδύσσεια": {
+    "url": "https://el.wikipedia.org/wiki/Οδύσσεια",
+    "infobox": [],
+    "lead": "Η '''''Οδύσσεια''''' είναι το δεύτερο μεγάλο [[ηρωικό έπος]] της [[αρχαία ελληνική γραμματεία|αρχαίας ελληνικής γραμματείας]] μετά την ''[[Ιλιάδα]]''. Τα δύο έπη αποδίδονται κατά παράδοση στον [[Όμηρος|Όμηρο]].",
+    "language_counts": []
+   }
+  },
+  "N10": {
+   "en:The Stranger (Camus novel)": {
+    "url": "https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)",
+    "infobox": [
+     "title_orig = L'Étranger",
+     "translator = [[Stuart Gilbert]] (1946)<br>[[Matthew Ward (writer)|Matthew Ward]] (1989)",
+     "country = France",
+     "language = French",
+     "genre = [[Philosophical fiction|Philosophical novel]]",
+     "publisher = [[Éditions Gallimard|Gallimard]]",
+     "media_type = Print (paperback)",
+     "pub_date = 19 May 1942"
+    ],
+    "lead": "'''''The Stranger''''' ( , ), also published in English as '''''The Outsider''''', is a 1942 [[novella]] written by French author [[Albert Camus]]. The first of Camus's novels to be published, the story follows Meursault, an indifferent man in [[French Algeria]], who, weeks after his mother's funeral, kills an unnamed Arab man in [[Algiers]]. The story is divided into two parts, presenting Meursault's [[first-person narrative]] before and after the killing.",
+    "language_counts": []
+   },
+   "it:Lo straniero (Camus)": {
+    "url": "https://it.wikipedia.org/wiki/Lo_straniero_(Camus)",
+    "infobox": [
+     "annoorig = 1942",
+     "lingua = fr"
+    ],
+    "lead": "'''''Lo straniero''''' (''L'Étranger'') è un [[romanzo]] dello [[scrittore]] e [[filosofo]] francese [[Albert Camus]], pubblicato nel [[1942]] per [[Gallimard]].  diede immediata notorietà all'autore.\nÈ la storia di Meursault, un piccolo impiegato che vive ad [[Algeri]], e che conduce, come tanti, un'esistenza chiusa in uno squallido conformismo. Un giorno, quasi per caso, uccide un [[arabi|arabo]]. Arrestato, egli non tenta neppure di giustificarsi, di difendersi: viene processato e condannato a morte. L'opera affronta vari interrogativi: chi sia Meursault – estraneo a sé stesso – un volgare assassino, un folle o un ribelle; quale significato abbiano il suo gesto e il suo comportamento. Cam",
+    "language_counts": []
+   },
+   "fr:L'Étranger": {
+    "url": "https://fr.wikipedia.org/wiki/L'Étranger",
+    "infobox": [
+     "genre = [[Roman (littérature)|Roman]]",
+     "éditeur = [[Éditions Gallimard]]"
+    ],
+    "lead": "Le roman a été traduit en soixante-huit [[langue]]s ; c'est le troisième roman francophone le plus lu dans le monde, après ''[[Le Petit Prince]]'' de [[Antoine de Saint-Exupéry|Saint-Exupéry]] et ''[[Vingt Mille Lieues sous les mers]]'' de [[Jules Verne]]. Une [[L'Étranger (film, 1967)|adaptation cinématographique]] en a été réalisée par [[Luchino Visconti]] en [[1967 au cinéma|1967]] et [[L'Étranger (film, 2025)|une autre]] par [[François Ozon]] en [[2025 au cinéma|2025]].",
+    "language_counts": []
+   }
+  },
+  "N07": {
+   "en:If on a winter's night a traveler": {
+    "url": "https://en.wikipedia.org/wiki/If_on_a_winter's_night_a_traveler",
+    "infobox": [
+     "title_orig = Se una notte d'inverno un viaggiatore",
+     "translator = [[William Weaver]]",
+     "country = [[Italy]]",
+     "language = [[Italian language|Italian]]",
+     "genre = [[Postmodern literature|Postmodernist novel]]",
+     "publisher = [[Giulio Einaudi|Einaudi]]",
+     "pub_date = 1979"
+    ],
+    "lead": "}}\n{{Infobox book\n<!-- |italic title = If on a winter's night a traveler -->| name = If on a winter's night a traveler\n| title_orig = Se una notte d'inverno un viaggiatore\n| image = IfOnAWintersNight.jpg\n| caption = First edition (publ. [[Giulio Einaudi|Einaudi]], [[Turin]])\n|translator=[[William Weaver]]\n| author = [[Italo Calvino]]\n| orig_lang_code    =it \n| cover_artist = [[Dominique Appia]]\n| country = [[Italy]]\n| language = [[Italian language|Italian]]\n| series = \n| genre = [[Postmodern literature|Postmodernist novel]]\n| publisher         = [[Giulio Einaudi|Einaudi]]\n| pub_date = 1979\n| english_pub_date = 1981\n| isbn = 9788806491307\n| preceded_by = [[Invisible Cities]]\n| followed_by = [",
+    "language_counts": []
+   },
+   "it:Se una notte d'inverno un viaggiatore": {
+    "url": "https://it.wikipedia.org/wiki/Se_una_notte_d'inverno_un_viaggiatore",
+    "infobox": [
+     "annoorig = 1979",
+     "lingua = it"
+    ],
+    "lead": "'''''Se una notte d'inverno un viaggiatore''''' è un [[romanzo]] di [[Italo Calvino]] pubblicato nel [[1979]]. In esso Calvino narra la storia di un Lettore che, nel tentativo di leggere un romanzo (intitolato appunto ''Se una notte d'inverno un viaggiatore''), è per ragioni sempre differenti costretto a interrompere la lettura del libro che sta leggendo e intraprendere la lettura di un altro. L'opera, narrata per la maggior parte in [[Seconda persona (narrativa)|seconda persona]], diventa quindi una riflessione sulle molteplici possibilità offerte dalla [[letteratura]] e sulla impossibilità di giungere a una conoscenza della [[realtà]].",
+    "language_counts": []
+   }
+  },
+  "N02": {
+   "en:The Little Prince": {
+    "url": "https://en.wikipedia.org/wiki/The_Little_Prince",
+    "infobox": [
+     "language = [[French language|French]]",
+     "country = France",
+     "genre = [[Science fantasy]]",
+     "publisher = [[Reynal & Hitchcock]] (U.S.)<br />[[Éditions Gallimard|Gallimard]] (France)<ref name=\"LePetitPrince.net.b\" />",
+     "title_orig = Le Petit Prince",
+     "translator = (English editions) {{ublist",
+     "release_date = April 1943 (U.S.: English & French)<br />1945 (France: French)<ref name=\"LePetitPrince.net.b\" />{{refn|"
+    ],
+    "lead": "'''''The Little Prince''''' (, ) is a [[novella]] written and illustrated by French writer and aviator [[Antoine de Saint-Exupéry]]. It was first published in English and French in the United States by [[Reynal & Hitchcock]] in April 1943 and was published posthumously in France following [[Liberation of France|liberation]]; Saint-Exupéry's works had been banned by the [[Vichy Regime]]. The story follows a young prince who visits various planets, including Earth, and addresses themes of [[loneliness]], [[friendship]], [[love]], and loss. Despite its style as a children's book, ''The Little Prince'' makes observations about life, adults, and human nature.",
+    "language_counts": [
+     "By November 2024, the book had been translated into 600 different languages and dialects worldwide",
+     "In April 2017, ''The Little Prince'' became the world's most translated non-religious book, with translations into 300 languages",
+     "<ref name=\"World's most translated\">{{cite web|title=300 languages|url=https://www",
+     "As of 2017, it has been translated into more than 300 languages and dialects, including [[Sardinian language|Sardinian]],<ref name=\"elpetitprincep\" /> the [[constructed language]]s of"
+    ]
+   },
+   "it:Il piccolo principe": {
+    "url": "https://it.wikipedia.org/wiki/Il_piccolo_principe",
+    "infobox": [
+     "annoorig = 1943",
+     "lingua = francese"
+    ],
+    "lead": "'''''Il piccolo principe''''' (''Le Petit Prince'') è un racconto di [[Antoine de Saint-Exupéry]], il più conosciuto della sua produzione letteraria, pubblicato il 6 aprile 1943 a [[New York]] da Reynal & Hitchcock nella [[traduzione]] [[lingua inglese|inglese]] (''The Little Prince'', tradotto dal [[lingua francese|francese]] da Katherine Woods) e qualche giorno dopo sempre da Reynal & Hitchcock nell'originale francese. Solo nel [[1945]], dopo la scomparsa dell'autore, fu pubblicato in [[Francia]] a [[Parigi]] da [[Gallimard]]. Il testo e i disegni sono stati realizzati in vari siti di New York, la maggior parte nella residenza ''Bevin House'' di [[Asharoken]], [[Long Island]]. Con oltre 20",
+    "language_counts": [
+     "lier-saint-exuprys-princely-instincts |data=21 marzo 2011 |citazione=The Prince remains a king among books, with more than 200 million copies sold in more than 190 languages, making it one of the bestselling volumes of any kind",
+     "at/|titolo=Il piccolo principe in 453 lingue}}"
+    ]
+   },
+   "fr:Le Petit Prince": {
+    "url": "https://fr.wikipedia.org/wiki/Le_Petit_Prince",
+    "infobox": [
+     "genre = [[Roman (littérature)|Roman]]",
+     "éditeur = [[Reynal & Hitchcock]]"
+    ],
+    "lead": "'''''Le Petit Prince''''' est un [[Roman (littérature)|roman]] [[français]] d'[[Antoine de Saint-Exupéry]]. [[Best-seller|Livre à succès]], il est l'œuvre la plus connue de son auteur. Il est publié en [[anglais]] le  à [[New York]] par l'éditeur [[Reynal & Hitchcock]] (traduction de Katherine Woods), alors que la version originale en français paraît une quinzaine de jours après. C'est une œuvre [[Poésie|poétique]] et [[Philosophie|philosophique]] sous l'apparence d'un [[conte]] illustré disposant de multiples niveaux de lecture.",
+    "language_counts": [
+     "Paru en plus de six cents [[langue]]s et [[dialecte]]s différents<ref>{{Lien web |auteur1=Simon Pierre |titre=Le Petit Prince désormais traduit dans 600 langues |url=https://www",
+     "</ref>, est traduit en 600 langues et dialectes, ce qui en fait l'ouvrage de littérature le plus traduit après la Bible<ref>{{Lien web |auteur1=Pierre Éch"
+    ]
+   }
+  },
+  "N04": {
+   "en:Crime and Punishment": {
+    "url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+    "infobox": [
+     "title_orig = Преступление и наказание",
+     "translator = | image             = Crimeandpunishmentcover.png",
+     "country = [[Russian Empire|Russia]]",
+     "language = [[Russian language|Russian]]",
+     "genre = [[Literary fiction]]",
+     "publisher = ''[[The Russian Messenger]]'' (series)",
+     "release_date = 1866; separate edition 1867"
+    ],
+    "lead": "'''''Crime and Punishment'''''{{efn|[[Reforms of Russian orthography|Pre-reform Russian]]: ; post-reform }} is a [[novel]] by the Russian author [[Fyodor Dostoevsky]]. It was first published in the literary journal ''[[The Russian Messenger]]'' in twelve monthly installments during 1866. It was later published in a single volume. It is the second of Dostoevsky's full-length novels following his return from ten years of [[Fyodor Dostoevsky#Siberian exile (1849–1854)|exile in Siberia]]. ''Crime and Punishment'' is considered the first great novel of his mature period of writing and is often cited as one of the greatest works of [[world literature]].",
+    "language_counts": []
+   }
+  },
+  "N05": {
+   "en:The Catcher in the Rye": {
+    "url": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+    "infobox": [
+     "country = United States",
+     "language = English",
+     "genre = [[Literary realism|Realistic fiction]], [[Coming-of-age story|Coming-of-age fiction]]",
+     "published = July 16, 1951",
+     "publisher = [[Little, Brown and Company]]",
+     "media_type = Print"
+    ],
+    "lead": "'''''The Catcher in the Rye''''' is a 1951 American [[Coming-of-age story|coming-of-age]] [[novel]] by American author [[J. D. Salinger]]. It was partially published in serial form in 1945–1946 before being novelized in 1951.",
+    "language_counts": []
+   },
+   "it:Il giovane Holden": {
+    "url": "https://it.wikipedia.org/wiki/Il_giovane_Holden",
+    "infobox": [
+     "annoorig = 1951",
+     "lingua = en"
+    ],
+    "lead": "== Titolo originale ==\nL'opera viene pubblicata negli [[Stati Uniti d'America|Stati Uniti]] con il titolo di ''The Catcher in the Rye'' e allude a una strofa di una nota canzone in [[lingua scots]] attribuita a [[Robert Burns]], ''Comin' Through the Rye'':",
+    "language_counts": []
+   }
+  },
+  "E09": {
+   "en:The Name of the Rose": {
+    "url": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose",
+    "infobox": [
+     "title_orig = {{lang|it|Il nome della rosa}}<!--sic-->",
+     "translator = [[William Weaver]]",
+     "country = Italy",
+     "language = Italian",
+     "genre = {{flatlist|",
+     "publisher = {{ubl|[[Bompiani]] (Italy)|[[Harcourt (publisher)|Harcourt]] (U.S.)}}",
+     "pub_date = 1980",
+     "media_type = Print (hardcover)"
+    ],
+    "lead": "The novel has sold over 50 million copies worldwide, becoming one of the [[list of best-selling books|best-selling books]] ever published. It has received many international awards and accolades, such as the [[Strega Prize]] in 1981 and  in 1982, and was ranked 14th on [[Le Monde's 100 Books of the Century|'s 100 Books of the Century list]].",
+    "language_counts": []
+   },
+   "it:Il nome della rosa": {
+    "url": "https://it.wikipedia.org/wiki/Il_nome_della_rosa",
+    "infobox": [
+     "annoorig = 1980",
+     "lingua = it"
+    ],
+    "lead": "'''''Il nome della rosa''''' è il romanzo d'esordio di [[Umberto Eco]], pubblicato nel 1980. È un [[giallo storico]] ambientato in un imprecisato monastero benedettino del Nord Italia nel novembre dell'anno 1327, un mistery intellettuale che intreccia semiotica, analisi biblica, studi medievali e teoria letteraria. All’epoca, Umberto Eco era già un accademico affermato e autore prolifico di saggi, quando decise di cimentarsi nella narrativa. Da allora il romanzo è divenuto un classico, un bestseller che ha venduto oltre 50 milioni di copie in tutto il mondo.",
+    "language_counts": [
+     "Il romanzo è stato ininterrottamente ristampato, arrivando a vendere circa 50 milioni di copie in Italia e nel resto del mondo, dove è stato tradotto in oltre 40 lingue<ref name=\"vendite\">{{Cita news|url=https://ricerca"
+    ]
+   }
+  },
+  "E01": {
+   "en:One Hundred Years of Solitude": {
+    "url": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+    "infobox": [
+     "title_orig = Cien años de soledad",
+     "translator = [[Gregory Rabassa]]",
+     "country = Argentina <!--PLEASE do not change this to Colombia. Argentina refers to the initial country of publication, not the author's nationality or the book's setting.",
+     "language = [[Spanish language|Spanish]]",
+     "genre = {{hlist|[[Magic realism]]|{{nowrap|[[family saga]]<ref>{{cite book |last1=Martin |first1=Gerald |title=The Cambridge Introduction to Gabriel García Márquez |dat",
+     "release_date = May 1967",
+     "publisher = Editorial Sudamericana"
+    ],
+    "lead": "'''''One Hundred Years of Solitude''''' (, ) is a 1967 [[novel]] by [[Colombian people|Colombian]] author [[Gabriel García Márquez]] that tells the [[Family saga|multi-generational story]] of the Buendía family, whose patriarch, José Arcadio Buendía, founded the fictitious town of [[Macondo]]. The novel is often cited as one of the supreme achievements in [[world literature]]. It was recognized as one of the most important works of the Spanish language during the 4th [[International Conference of the Spanish Language]] held in [[Cartagena, Colombia|Cartagena de Indias]] in March 2007.",
+    "language_counts": [
+     "Since it was first published in May 1967 in [[Buenos Aires]] by Editorial Sudamericana, the book has been translated into 46 languages and sold more than 50 million copies"
+    ]
+   },
+   "it:Cent'anni di solitudine": {
+    "url": "https://it.wikipedia.org/wiki/Cent'anni_di_solitudine",
+    "infobox": [
+     "lingua = es",
+     "annoorig = 1967"
+    ],
+    "lead": "'''''Cent'anni di solitudine''''' (''Cien años de soledad'') è un [[romanzo]] del [[1967]] del [[Premio Nobel]] colombiano [[Gabriel García Márquez]], considerato tra le opere più significative della [[letteratura]] del [[XX secolo|Novecento]].",
+    "language_counts": [
+     "Fu in seguito tradotto in 37 lingue vendendo più di venti milioni di copie"
+    ]
+   },
+   "es:Cien años de soledad": {
+    "url": "https://es.wikipedia.org/wiki/Cien_años_de_soledad",
+    "infobox": [
+     "editorial = [[Editorial Sudamericana]]"
+    ],
+    "lead": "'''''Cien años de soledad''''' es una [[novela]] del escritor colombiano ganador del [[Premio Nobel de Literatura]] [[Gabriel García Márquez]]. Es opinión general que se trata de una [[Magnum opus|obra maestra]] de la literatura [[Hispanoamérica|hispanoamericana]] y universal, y es una de las obras más traducidas y leídas en [[idioma español|español]]. En marzo de 2007, el [[Congreso Internacional de la Lengua Española|IV Congreso Internacional de la Lengua Española]] celebrado en [[Cartagena de Indias]] la consideró una de las obras más importantes en dicha lengua. Figura en la [[Anexo:Lista El Mundo de las 100 mejores novelas|lista de las 100 mejores novelas en español del ]] del periódico",
+    "language_counts": []
+   }
+  },
+  "N11": {
+   "en:A Void": {
+    "url": "https://en.wikipedia.org/wiki/A_Void",
+    "infobox": [
+     "title_orig = La Disparition",
+     "translator = [[Gilbert Adair]]",
+     "country = France",
+     "language = French",
+     "genre = | publisher     = {{ubl|[[Gallimard]] (original) | [[The Harvill Press]] (English translation)}}",
+     "pub_date = 1969",
+     "media_type = Print ([[hardcover]], [[paperback]])"
+    ],
+    "lead": "'''''A Void''''', translated from the original French '''''' (), is a 300-page French [[lipogram]]matic novel, put out in 1969 by [[Georges Perec]], written wholly without using the letter ''[[e]]'', following [[Oulipo]] constraints.",
+    "language_counts": []
+   },
+   "it:La scomparsa": {
+    "url": "https://it.wikipedia.org/wiki/La_scomparsa",
+    "infobox": [
+     "annoorig = 1969",
+     "lingua = fr"
+    ],
+    "lead": "Il romanzo è un [[lipogramma]], in quanto è stato scritto senza mai utilizzare la lettera \"[[e]]\", seguendo uno dei vincoli della ''\"letteratura potenziale\"'' creata dall'associazione di scrittori e matematici francesi [[OuLiPo]]. La lettera \"[[e]]\", infatti, non appare in alcuna delle 300 pagine che compongono l'edizione in lingua originale.",
+    "language_counts": []
+   },
+   "fr:La Disparition (roman)": {
+    "url": "https://fr.wikipedia.org/wiki/La_Disparition_(roman)",
+    "infobox": [
+     "genre = [[Roman (littérature)|Roman]] en [[lipogramme]]",
+     "éditeur = [[Éditions Denoël]]"
+    ],
+    "lead": "'''''La Disparition''''' est un [[Roman (littérature)|roman]] en [[lipogramme]] de [[Georges Perec]] publié en [[1969 en littérature|1969]], qui sur près de trois cents pages, ne comporte pas une seule fois la [[Lettre (alphabet)|lettre]] ''[[E (lettre)|e]]'', pourtant la plus utilisée dans la langue française.",
+    "language_counts": []
+   }
+  },
+  "N01": {
+   "en:The Unbearable Lightness of Being": {
+    "url": "https://en.wikipedia.org/wiki/The_Unbearable_Lightness_of_Being",
+    "infobox": [
+     "title_orig = Nesnesitelná lehkost bytí",
+     "translator = | image             = File:The Unbearable Lightness of Being.jpg",
+     "country = France",
+     "language = Czech",
+     "genre = [[Philosophical fiction]]",
+     "publisher = [[Éditions Gallimard|Gallimard]] (France)<br>[[68 Publishers]] (Czech language)<br>[[Harper & Row]] (US)<br>[[Faber & Faber]] (UK)",
+     "release_date = 1984 (French translation)<br>1985 (original Czech)",
+     "media_type = Print (hardcover)"
+    ],
+    "lead": "'''''The Unbearable Lightness of Being''''' () is a 1984 novel by [[Milan Kundera]] about two women, two men, a dog, and their lives in the 1968 [[Prague Spring]] period of [[Czechoslovakia|Czechoslovak]] history.",
+    "language_counts": []
+   },
+   "it:L'insostenibile leggerezza dell'essere (romanzo)": {
+    "url": "https://it.wikipedia.org/wiki/L'insostenibile_leggerezza_dell'essere_(romanzo)",
+    "infobox": [
+     "annoorig = 1984",
+     "lingua = cz"
+    ],
+    "lead": "'''''L'insostenibile leggerezza dell'essere'''''  (''Nesnesitelná lehkost bytí'') è un [[romanzo]] di [[Milan Kundera]] scritto nel [[1982]] e pubblicato per la prima volta in [[Francia]] nel [[1984]].",
+    "language_counts": []
+   },
+   "cs:Nesnesitelná lehkost bytí": {
+    "url": "https://cs.wikipedia.org/wiki/Nesnesitelná_lehkost_bytí",
+    "infobox": [],
+    "lead": "Celé Kunderovo [[próza|prozaické]] dílo pozdějšího období je prostoupeno motivem člověka potácejícího se mezi ideologiemi, který se dostává do momentu bezprostředního ohrožení vlastní existence. Před čtenáři se tak otevírá celá šíře světa naplněného sexuálním a uměleckým požitkářstvím, na druhé straně ale zároveň tím, co sám autor nazval „nesnesitelnou lehkostí bytí“.",
+    "language_counts": []
+   }
+  },
+  "N14": {
+   "en:Blindness (novel)": {
+    "url": "https://en.wikipedia.org/wiki/Blindness_(novel)",
+    "infobox": [
+     "title_orig = Ensaio sobre a cegueira",
+     "translator = [[Giovanni Pontiero]]",
+     "country = [[Portugal]]",
+     "language = [[Portuguese language|Portuguese]]",
+     "genre = [[Post-apocalyptic fiction|Post-apocalyptic]]",
+     "publisher = Caminho",
+     "pub_date = 1995",
+     "media_type = Print ([[Hardcover]], [[paperback]])"
+    ],
+    "lead": "'''''Blindness''''' (, ) is a 1995 [[novel]] by [[Portugal|Portuguese]] author [[José Saramago]]. It centers on an unexplained mass epidemic of [[blindness]] afflicting nearly everyone in a nonspecific city, and follows multiple unnamed characters as they navigate the social breakdown that swiftly follows. The novel was translated into English by [[Giovanni Pontiero]] in 1997.",
+    "language_counts": []
+   },
+   "it:Cecità (romanzo)": {
+    "url": "https://it.wikipedia.org/wiki/Cecità_(romanzo)",
+    "infobox": [
+     "annoorig = 1995",
+     "lingua = pt"
+    ],
+    "lead": "'''''Cecità''''' (titolo originale, in [[lingua portoghese|portoghese]]: ''Ensaio sobre a Cegueira'', letteralmente \"Saggio sulla cecità\") è un [[romanzo]] dello scrittore e [[premio Nobel per la letteratura]] [[portogallo|portoghese]] [[José Saramago]], pubblicato nel [[1995]]. In [[Italia]], il titolo è stato tradotto eliminando parte di quello in lingua originale per esigenze editoriali; si è ritenuto infatti che ''Saggio sulla cecità'' avrebbe scoraggiato i lettori.",
+    "language_counts": []
+   },
+   "pt:Ensaio sobre a Cegueira": {
+    "url": "https://pt.wikipedia.org/wiki/Ensaio_sobre_a_Cegueira",
+    "infobox": [
+     "editora = [[Editorial Caminho]]"
+    ],
+    "lead": "== Aos olhos do autor ==\n\"Este é um livro francamente terrível com o qual eu quero que o leitor sofra tanto como eu sofri ao escrevê-lo. Nele se descreve uma longa tortura. É um livro brutal e violento e é simultaneamente uma das experiências mais dolorosas da minha vida. São 300 páginas de constante aflição. Através da escrita, tentei dizer que não somos bons e que é preciso que tenhamos coragem para reconhecer isso.\"",
+    "language_counts": []
+   }
+  },
+  "E04": {
+   "en:Kafka on the Shore": {
+    "url": "https://en.wikipedia.org/wiki/Kafka_on_the_Shore",
+    "infobox": [
+     "title_orig = {{noitalic|{{nihongo2|海辺のカフカ}}}}<br />Umibe no Kafuka",
+     "translator = [[Philip Gabriel]]",
+     "country = [[Japan]]",
+     "language = [[Japanese language|Japanese]]",
+     "genre = [[Magical realism]]",
+     "published = {{plain list|",
+     "media_type = Print ([[Hardcover]])"
+    ],
+    "lead": "is a 2002 novel by Japanese author [[Haruki Murakami]]. Its 2005 English translation was among \"The 10 Best Books of 2005\" selected by ''[[The New York Times]]'' and received the [[World Fantasy Award]] for 2006. The book tells the stories of the young [[Kafka Tamura]], a bookish 15-year-old boy who runs away from his Oedipal curse, and Satoru Nakata, an old, mentally disabled man with the uncanny ability to talk to cats. The book incorporates themes of music as a communicative conduit, metaphysics, dreams, fate, and the subconscious.",
+    "language_counts": []
+   },
+   "it:Kafka sulla spiaggia": {
+    "url": "https://it.wikipedia.org/wiki/Kafka_sulla_spiaggia",
+    "infobox": [
+     "annoorig = 2002",
+     "lingua = jp"
+    ],
+    "lead": "è un [[romanzo]] di [[Haruki Murakami]].\nLa prima edizione originale è stata pubblicata nel [[2002]]. La traduzione italiana, di [[Giorgio Amitrano]], è stata pubblicata da [[Giulio Einaudi Editore|Einaudi]] nel [[2008]]. Lo stile del romanzo è riconducibile al genere del [[realismo magico]].",
+    "language_counts": []
+   },
+   "ja:海辺のカフカ": {
+    "url": "https://ja.wikipedia.org/wiki/海辺のカフカ",
+    "infobox": [
+     "translator = <!-- 訳者 -->",
+     "published = [[2002年]][[9月12日]]",
+     "publisher = [[新潮社]]",
+     "genre = [[小説]]",
+     "country = {{Flag|JPN}}",
+     "language = [[日本語]]"
+    ],
+    "lead": "『'''海辺のカフカ'''』（うみべのカフカ）は、[[村上春樹]]の10作目の[[長編小説]]。\n[[ギリシア悲劇]]と日本の古典文学を下敷きにした長編小説であり、[[フランツ・カフカ]]の思想的影響のもと[[ギリシア悲劇]]の[[エディプス]]王の物語と、『[[源氏物語]]』や『[[雨月物語]]』などの日本の古典小説が物語の各所で用いられている。15歳の少年「僕」が、不思議な世界を自ら行き来しながら、心の成長を遂げていく物語である。また本作は『[[ねじまき鳥クロニクル]]』からの暴力、戦争といったテーマが引き継がれており、生々しい[[残虐]]なシーンも同様に登場する。",
+    "language_counts": []
+   }
+  },
+  "E02": {
+   "en:Steps to an Ecology of Mind": {
+    "url": "https://en.wikipedia.org/wiki/Steps_to_an_Ecology_of_Mind",
+    "infobox": [
+     "country = | subject          = [[Anthropology]], [[Cybernetics]]",
+     "publisher = Chandler Publishing Company",
+     "pub_date = 1972"
+    ],
+    "lead": "'''''Steps to an Ecology of Mind''''' is a collection of [[Gregory Bateson]]'s short works over his long and varied career. Subject matter includes essays on [[anthropology]], [[cybernetics]], [[psychiatry]], and [[epistemology]]. It was originally published by Ballantine Books in 1972 (republished 2000 with foreword by [[Mary Catherine Bateson]]).",
+    "language_counts": []
+   },
+   "it:Verso un'ecologia della Mente": {
+    "url": "https://it.wikipedia.org/wiki/Verso_un'ecologia_della_Mente",
+    "infobox": [
+     "annoorig = 1972",
+     "lingua = en"
+    ],
+    "lead": "'''''Verso un’ecologia della mente''''' è solitamente considerata l'opera principale di [[Gregory Bateson]], scritta parecchio tempo dopo il precedente [[Naven]]. \nIl saggio, \"un non libro per eccellenza\"  raccoglie contributi abbastanza disomogenei di [[psicologia]], [[antropologia]], [[epistemologia]] (nell'accezione anglosassone, da intendere come [[filosofia della conoscenza]]), [[cibernetica]], [[ecologia]], arricchiti da dialoghi e abbondanti citazioni letterarie.",
+    "language_counts": []
+   }
+  },
+  "N03": {
+   "en:If This Is a Man": {
+    "url": "https://en.wikipedia.org/wiki/If_This_Is_a_Man",
+    "infobox": [
+     "translator = Stuart Woolf",
+     "country = [[Italy]]",
+     "language = [[Italian language|Italian]]",
+     "genre = [[Memoir]]",
+     "publisher = De Silva (Italian)<br>[[Giulio Einaudi|Einaudi]] (Italian)<br>The Orion Press (English)",
+     "pub_date = 11 Oct 1947<ref name=thomson>Thomson, 2003, pp. 247, 252</ref>",
+     "media_type = | pages         = 179 pp",
+     "title_orig = Se questo è un uomo"
+    ],
+    "lead": "'''''If This Is a Man''''' ( ; United States title: '''''Survival in Auschwitz''''') is a [[memoir]] by [[History of the Jews in Italy|Jewish-Italian]] writer [[Primo Levi]], first published in 1947. It describes his arrest as a member of the [[Italian resistance movement|Italian anti-fascist resistance]] during the [[World War II|Second World War]], and his incarceration in the [[Auschwitz concentration camp]] ([[Monowitz concentration camp|Monowitz]]) from February 1944 until the camp was liberated on 27 January 1945.",
+    "language_counts": []
+   },
+   "it:Se questo è un uomo": {
+    "url": "https://it.wikipedia.org/wiki/Se_questo_è_un_uomo",
+    "infobox": [
+     "annoorig = 1947",
+     "lingua = it"
+    ],
+    "lead": "'''''Se questo è un uomo''''' è un'opera memorialistica di [[Primo Levi]] scritta tra il dicembre [[1945]] e il gennaio [[1947]]. Rappresenta la coinvolgente, ma meditata, testimonianza di quanto vissuto dall'autore nel [[campo di concentramento]] di [[Campo di concentramento di Auschwitz|Auschwitz]]. Levi sopravvisse infatti alla deportazione nel [[Campo di lavoro di Monowitz|campo di Monowitz]], lager satellite del complesso di Auschwitz e sede dell'impianto ''Buna-Werke'' di proprietà della [[I.G. Farben]].",
+    "language_counts": []
+   }
+  },
+  "E16": {
+   "en:Doctor Zhivago (novel)": {
+    "url": "https://en.wikipedia.org/wiki/Doctor_Zhivago_(novel)",
+    "infobox": [
+     "title_orig = {{lang|ru|Доктор Живаго}}",
+     "translator = | image             = Doktor feltrinelli.jpg",
+     "country = [[Italy]]",
+     "language = [[Russian language|Russian]]",
+     "genre = [[Historical novel|Historical]], [[Romantic novel]]<!-- [[Wikipedia:WikiProject Novels/Novel categorization]] -->",
+     "publisher = [[Giangiacomo Feltrinelli|Feltrinelli]] ([[first edition]]), [[Pantheon Books]]",
+     "media_type = Print ([[Hardcover|Hardback]] & [[Paperback]])",
+     "pub_date = 23 November 1957"
+    ],
+    "lead": "Owing to the author's critical stance on the [[October Revolution]], ''Doctor Zhivago'' was refused publication in the [[USSR]]. At the instigation of [[Giangiacomo Feltrinelli]], the manuscript was smuggled to [[Milan]] and published in 1957. Pasternak was awarded the [[Nobel Prize in Literature]] the [[1958 Nobel Prize in Literature|following year]], an event that embarrassed and enraged the [[Communist Party of the Soviet Union]].",
+    "language_counts": []
+   },
+   "it:Il dottor Živago": {
+    "url": "https://it.wikipedia.org/wiki/Il_dottor_Živago",
+    "infobox": [
+     "lingua = ru",
+     "annoorig = 1957"
+    ],
+    "lead": "Il libro narra la vita avventurosa di un medico e poeta, Jurij Andreevič Živago, sullo sfondo della [[guerra civile russa|guerra civile]] combattuta tra [[Armata Bianca|bianchi]] e [[Armata Rossa|rossi]] a seguito della [[rivoluzione d'ottobre]]. Živago è diviso dall'amore per due donne: è sposato con la cugina Tonia e travolto dalla passione per la crocerossina Lara Antipova. Si susseguono incontri, aspre separazioni e rincongiungimenti fino al tragico finale.",
+    "language_counts": []
+   },
+   "ru:Доктор Живаго": {
+    "url": "https://ru.wikipedia.org/wiki/Доктор_Живаго",
+    "infobox": [],
+    "lead": "'''«До́ктор Жива́го»''' — [[роман]] [[Пастернак, Борис Леонидович|Бориса Пастернака]]. Роман создавался в течение десяти лет, с 1945 по 1955 год, и является вершиной творчества автора как прозаика. Роман сопровождён стихами главного героя — Юрия Андреевича Живаго.",
+    "language_counts": []
+   }
+  },
+  "N17": {
+   "en:Palace Walk": {
+    "url": "https://en.wikipedia.org/wiki/Palace_Walk",
+    "infobox": [
+     "title_orig = بين القصرين",
+     "translator = [[William M. Hutchins]], Olive E. Kenny",
+     "country = [[Egypt]]",
+     "language = [[Modern Standard Arabic]]",
+     "genre = Novel, [[family saga]], [[historical fiction]]",
+     "publisher = Maktabat Misr",
+     "release_date = [[1956 in literature|1956]]",
+     "media_type = Print ([[Hardcover|Hardback]] & [[Paperback]])"
+    ],
+    "lead": "'''Palace Walk''' () is a [[novel]] by Nobel Prize winning [[Egyptians|Egyptian]] [[writer]] [[Naguib Mahfouz]], and the first installment of Mahfouz's ''[[Cairo Trilogy]]''. Originally published in 1956 with the title ''Bayn al-qasrayn'', the book was then translated into English by [[William M. Hutchins]] and Olive Kenny, and then published by [[Doubleday (publisher)]] in 1990. The book's Arabic title translates into 'between two palaces'. The [[Setting (fiction)|setting]] of the novel is [[Cairo]] around the time period of [[World War I]]. It begins in 1917, during World War I, and ends in 1919, the year of the [[Egyptian Revolution of 1919]]. The novel is written in a [[Social realism|so",
+    "language_counts": []
+   },
+   "ar:بين القصرين (رواية)": {
+    "url": "https://ar.wikipedia.org/wiki/بين_القصرين_(رواية)",
+    "infobox": [],
+    "lead": "'''بين القصرين''' هو الجزء الأول من [[الثلاثية (نجيب محفوظ)|ثلاثية نجيب محفوظ]] الشهيرة، والتي تشكل [[القاهرة]] ومنطقة الحسين خصيصا المسرح الأساسي والوحيد لأحداثها. تحكي الرواية قصة أسرة من الطبقة الوسطى، تعيش في حي شعبي من أحياء [[القاهرة]] في فترة ما قبل وأثناء [[ثورة 1919]]. يحكمها أب متزمت ذو شخصية قوية هو السيد أحمد عبد الجواد ([[السيد أحمد عبد الجواد|سي السيد]]). ويعيش في كنف الأب كل من: زوجته أمينة وابنه البكر ياسين وابنه فهمي وكمال إضافة إلى ابنتيه خديجة وعائشة.",
+    "language_counts": []
+   }
+  },
+  "N20": {
+   "en:Metaphors We Live By": {
+    "url": "https://en.wikipedia.org/wiki/Metaphors_We_Live_By",
+    "infobox": [
+     "published = 1980",
+     "publisher = [[University of Chicago Press]]",
+     "publisher = John Benjamins Publishing",
+     "publisher = Cambridge University Press"
+    ],
+    "lead": "'''''Metaphors We Live By''''' is a book by [[George Lakoff]] and [[Mark Johnson (philosopher)|Mark Johnson]] published in 1980. The book suggests metaphor is a tool that enables people to use what they know about their direct physical and social experiences to understand more abstract things like work, time, mental activity and feelings.",
+    "language_counts": []
+   }
+  },
+  "N09": {
+   "en:The Cheese and the Worms": {
+    "url": "https://en.wikipedia.org/wiki/The_Cheese_and_the_Worms",
+    "infobox": [
+     "title_orig = Il formaggio e i vermi",
+     "translator = | illustrator       =",
+     "country = [[Italy]]",
+     "language = | series            =",
+     "genre = [[Microhistory]], ''[[Histoire des mentalités]]'', [[Cultural History]]",
+     "media_type = | pages             = 177",
+     "published = 1976 [[Giulio Einaudi editore|Einaudi]] (Italian)"
+    ],
+    "lead": "'''''The Cheese and the Worms''''' () is a scholarly work by the Italian historian [[Carlo Ginzburg]], published in 1976. The book is a notable example of the [[history of mentalities]], [[microhistory]], and [[cultural history]]. It has been called \"probably the most popular and widely read work of microhistory\".",
+    "language_counts": []
+   },
+   "it:Il formaggio e i vermi": {
+    "url": "https://it.wikipedia.org/wiki/Il_formaggio_e_i_vermi",
+    "infobox": [
+     "annoorig = 1976",
+     "lingua = it"
+    ],
+    "lead": "Il saggio ha per oggetto la vita e, soprattutto, i due processi per [[eresia]] sopportati da [[Menocchio|Domenico Scandella]], contadino e mugnaio di [[Montereale Valcellina]], nato nel [[1532]].\nIl libro si inserisce nel filone di ricerca sulla storia delle classi subalterne; non per niente, l'ampia prefazione si apre con la citazione da [[Bertolt Brecht]] \"Chi costruì Tebe dalle sette porte?\".",
+    "language_counts": []
+   }
+  },
+  "N15": {
+   "en:2666": {
+    "url": "https://en.wikipedia.org/wiki/2666",
+    "infobox": [
+     "title_orig = | translator        = [[Natasha Wimmer]]",
+     "country = Spain",
+     "language = Spanish",
+     "genre = {{flatlist|",
+     "published = {{plainlist|",
+     "media_type = Print ([[hardcover|hardback]] and [[paperback]])"
+    ],
+    "lead": "'''''2666''''' is the final novel by [[Roberto Bolaño]]. It was released posthumously in 2004, a year following his death. It is over 1100 pages long in the original Spanish. It is divided into five parts. An English-language translation by [[Natasha Wimmer]] was published in the United States in 2008 by [[Farrar, Straus and Giroux]] and in the United Kingdom in 2009 by [[Picador (imprint)|Picador]]. It is a [[fragmentary novel]].",
+    "language_counts": []
+   },
+   "it:2666": {
+    "url": "https://it.wikipedia.org/wiki/2666",
+    "infobox": [
+     "lingua = es",
+     "annoorig = 2004",
+     "anno = 2007",
+     "editore = [[Adelphi]]",
+     "anno = 2008",
+     "editore = [[Adelphi]]",
+     "anno = 2008",
+     "editore = [[Adelphi]]"
+    ],
+    "lead": "'''''2666''''' è l'ultimo [[romanzo]] dello scrittore cileno [[Roberto Bolaño]]. Il romanzo è articolato in cinque diverse parti. L'edizione italiana, tradotta da [[Ilide Carmignani]], è stata pubblicata dalla casa editrice [[Adelphi]] in due volumi: il primo contiene le prime tre parti del romanzo, ''La parte dei critici'', ''La parte di Amalfitano'' e ''La parte di Fate''; il secondo contiene le altre due, ''La parte dei delitti'' e ''La parte di Arcimboldi''. Nel 2009 la casa editrice Adelphi ha pubblicato l'opera in un unico volume, nella collana \"Gli Adelphi\" nella medesima traduzione.",
+    "language_counts": []
+   },
+   "es:2666 (novela)": {
+    "url": "https://es.wikipedia.org/wiki/2666_(novela)",
+    "infobox": [
+     "editorial = [[Editorial Anagrama|Anagrama]]<ref name=\"anagrama\"/>"
+    ],
+    "lead": "'''''2666''''' es una [[novela]] póstuma del [[escritor]] [[chile]]no [[Roberto Bolaño]] publicada en el año 2004. Consta de cinco partes que el autor, por razones económicas, planeó publicar como cinco libros independientes para asegurar así, en caso de fallecimiento, el futuro de sus hijos. No obstante, tras su muerte, los herederos ponderaron el valor literario y decidieron editarla como una única novela. La decisión la tomaron junto con su editor, [[Jorge Herralde]], y el crítico literario [[Ignacio Echevarría]], que revisó y preparó para su publicación los manuscritos del autor.",
+    "language_counts": []
+   }
+  },
+  "N16": {
+   "en:To Live (novel)": {
+    "url": "https://en.wikipedia.org/wiki/To_Live_(novel)",
+    "infobox": [
+     "title_orig = 活着/活著 – huózhe",
+     "translator = Michael Berry",
+     "country = China",
+     "language = Chinese",
+     "genre = [[Novel]]",
+     "publisher = Anchor Books & Random House of Canada Limited",
+     "pub_date = 1993",
+     "media_type = Print ([[Hardcover|Hardback]] & [[Paperback]])"
+    ],
+    "lead": "'''''To Live''''' () is a [[novel]] written by [[China|Chinese]] novelist [[Yu Hua]] in 1993. It follows the life of Xu Fugui as he transforms from the selfish idling son of a wealthy landowner to a solitary peasant during the [[Chinese Communist Revolution]].",
+    "language_counts": []
+   },
+   "zh:活着": {
+    "url": "https://zh.wikipedia.org/wiki/活着",
+    "infobox": [
+     "country = {{PRC}}",
+     "language = 汉语",
+     "genre = 小說",
+     "publisher = 长江文艺出版社",
+     "pub_date = 1993年11月",
+     "media_type = | pages        =219"
+    ],
+    "lead": "==主要人物==\n'''徐福贵'''：徐福贵生来是个阔家子弟，花花公子。嗜好赌博和逛妓院。福贵因赌博输光了家产，自己的父亲从粪缸上摔下，活活气死。后来福贵被抓壮丁，母亲也在过度劳累和贫困交加中死去。在经历了[[第二次國共內戰|国共内战]]、[[人民公社]]，[[三反五反运动|三反五反]]，[[大跃进|大躍進]]，[[文化大革命]]和[[改革开放]]后，福贵的家人，一个接一个死亡：媳妇家珍因过度劳累得软骨病去世，儿子有庆由于强制给春生县长的老婆抽血而被医生活活抽死，女儿凤霞因为主治医生被[[批鬥|批斗]]难产而死，女婿二喜被水泥板夹死，孙子苦根吃东西撑死。家中最后只有福贵一个人和一个叫福贵的老黄牛相依为命。余华本人提及，《活着》主人公富贵的原型就是自己的爷爷。",
+    "language_counts": []
+   }
+  },
+  "E03": {
+   "en:Noise: The Political Economy of Music": {
+    "url": "https://en.wikipedia.org/wiki/Noise:_The_Political_Economy_of_Music",
+    "infobox": [
+     "title_orig = | translator     = [[Brian Massumi]]",
+     "country = France",
+     "language = [[English language|French / English]]",
+     "genre = [[Non-fiction]]",
+     "publisher = [[Presses Universitaires de France]]/ [[University of Minnesota Press|University of Minnesota Press (US)]]",
+     "pub_date = 1977",
+     "media_type = Print"
+    ],
+    "lead": "Attali's essential argument in ''Noise: The Political Economy of Music'' (French title: ''Bruits: essai sur l'economie politique de la musique'') is that music, as a cultural form, is intimately tied up in the [[mode of production]] in any given society. Although this idea is familiar in strands of [[Marxism]], the novelty of Attali's work is that it reverses the traditional understandings about how revolutions in the mode of production take place:",
+    "language_counts": []
+   }
+  },
+  "N21": {
+   "en:Twenty Love Poems and a Song of Despair": {
+    "url": "https://en.wikipedia.org/wiki/Twenty_Love_Poems_and_a_Song_of_Despair",
+    "infobox": [
+     "title_orig = Veinte poemas de amor y una canción desesperada",
+     "translator = [[W. S. Merwin]]",
+     "country = Chile",
+     "language = Spanish",
+     "publisher = [[Editorial Nascimento]]",
+     "pub_date = 1924"
+    ],
+    "lead": "'''''Twenty Love Poems and a Song of Despair''''' () is a poetry collection by the Chilean poet [[Pablo Neruda]]. Published in June 1924, the book launched Neruda to fame at the young age of 19 and is one of the most renowned literary works of the 20th century in the Spanish language. The book has been translated into many languages; in English, the translation was made by poet [[W. S. Merwin]] in 1969.",
+    "language_counts": []
+   },
+   "it:Venti poesie d'amore e una canzone disperata": {
+    "url": "https://it.wikipedia.org/wiki/Venti_poesie_d'amore_e_una_canzone_disperata",
+    "infobox": [
+     "annoorig = 1924",
+     "lingua = spagnolo"
+    ],
+    "lead": "== L'opera ==\n=== Titolo ===\nIl titolo dell'opera, conosciuta in tutto il mondo come \"Venti poesie d'amore e una canzone disperata\" ( in lingua originale:''Veinte poemas de amor y una canción desesperada''),  fu rinominata varie volte da Pablo Neruda durante il processo di creazione. Il primo titolo pensato dal poeta fu ''Poesie di una donna e di un uomo'' ,in seguito cambiato in ''Dodici poesie d'amore e una canzone disperata''. Questo testimonia che, nonostante i cambiamenti in corso d'opera, il tema centrale e la forma di scrittura furono, da subito, ben chiari allo scrittore. Tra il secondo titolo e quello definitivo esiste soltanto una differenza quantitativa, infatti il numero di poesi",
+    "language_counts": []
+   },
+   "es:Veinte poemas de amor y una canción desesperada": {
+    "url": "https://es.wikipedia.org/wiki/Veinte_poemas_de_amor_y_una_canción_desesperada",
+    "infobox": [
+     "editorial = Editorial Nascimento"
+    ],
+    "lead": "'''''Veinte poemas de amor y una canción desesperada''''' es una de las célebres obras del poeta chileno [[Pablo Neruda]]. Publicado en junio de 1924, de la mano de la [[Editorial Nascimento|editorial nascimento]], el poemario lanzó a su autor a la fama con apenas 19&nbsp;años de edad, y es una de las obras literarias de mayor renombre del siglo&nbsp;XX en el idioma español.",
+    "language_counts": []
+   }
+  },
+  "E12": {
+   "en:Theses on the Philosophy of History": {
+    "url": "https://en.wikipedia.org/wiki/Theses_on_the_Philosophy_of_History",
+    "infobox": [],
+    "lead": "Composed of twenty numbered paragraphs, the brief essay was written by Benjamin shortly before he attempted to escape from [[Vichy France]], where French collaborationist government officials were handing over Jewish refugees like Benjamin to the Nazi [[Gestapo]]. ''Theses'' is the last major work Benjamin completed before fleeing to Spain, where he died on 26 September 1940.",
+    "language_counts": []
+   },
+   "de:Über den Begriff der Geschichte": {
+    "url": "https://de.wikipedia.org/wiki/Über_den_Begriff_der_Geschichte",
+    "infobox": [],
+    "lead": "'''Über den Begriff der Geschichte''' sind [[Geschichtsphilosophie|geschichtsphilosophische]] Thesen von [[Walter Benjamin]] aus dem Jahr 1940, in welchen er unter dem Eindruck des Aufstiegs des [[Zeit des Nationalsozialismus|Faschismus]] und des [[Hitler-Stalin-Pakt]]es die [[Historizismus|historisierende]] Auffassung insbesondere der [[Sozialdemokratie]] kritisiert und den Möglichkeiten einer Verbindung von [[Historischer Materialismus|historischem Materialismus]] und [[Messianismus]] nachgeht.",
+    "language_counts": []
+   }
+  },
+  "N06": {
+   "en:Nineteen Eighty-Four": {
+    "url": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+    "infobox": [
+     "country = United Kingdom",
+     "genre = {{hlist|[[Dystopian novel|Dystopian]]|[[political fiction]]|[[social science fiction]]|[[speculative fiction]]}}",
+     "publisher = [[Secker & Warburg]]",
+     "pub_date = {{start date|df=y|1949|06|08}}",
+     "media_type = Print (hardback and paperback)",
+     "language = English"
+    ],
+    "lead": "'''''Nineteen Eighty-Four''''' (also published as '''''1984''''') is a [[Dystopian novel|dystopian]] and [[speculative fiction]] novel by the English writer [[George Orwell]]. It was published on 8 June 1949 by [[Harvill Secker#Secker & Warburg|Secker & Warburg]] as Orwell's ninth and final completed book. Thematically, it centres on [[totalitarianism]], [[mass surveillance]] and [[Brainwashing|repressive regimentation]] of people and behaviours. ''Nineteen Eighty-Four'' has often been regarded as a [[Classic book|classic]] and has been acknowledged for its impact on 20th-century literature.",
+    "language_counts": [
+     "By 1989, ''Nineteen Eighty-Four'' had been translated into 65 languages, more than any other novel in English at that time"
+    ]
+   },
+   "it:1984 (romanzo)": {
+    "url": "https://it.wikipedia.org/wiki/1984_(romanzo)",
+    "infobox": [
+     "annoorig = 1949",
+     "lingua = en"
+    ],
+    "lead": "'''''1984''''' (titolo orig. ''Nineteen Eighty-Four'', anche pubblicato come ''1984'') è un [[romanzo]] [[Distopia|distopico]] di [[fantapolitica]], oltreché racconto morale, dello scrittore inglese [[George Orwell]], pubblicato l'8 giugno 1949.",
+    "language_counts": []
+   }
+  },
+  "N22": {
+   "en:Capital in the Twenty-First Century": {
+    "url": "https://en.wikipedia.org/wiki/Capital_in_the_Twenty-First_Century",
+    "infobox": [
+     "title_orig = Le Capital au XXI<sup>e</sup> siècle",
+     "translator = [[Arthur Goldhammer]]",
+     "language = French",
+     "publisher = {{ubl | [[Éditions du Seuil]] | [[Harvard University Press]] }}",
+     "pub_date = August 2013",
+     "media_type = Print ([[hardcover|hardback]])"
+    ],
+    "lead": "The book's central thesis is that when the [[rate of return]] on [[capital (economics)|capital]] (''r'') is greater than the rate of [[economic growth]] (''g'') over the long term, the result is [[wealth concentration|concentration of wealth]], and this unequal distribution of [[wealth]] causes social and economic instability. Piketty proposes a global system of [[progressive tax|progressive]] [[wealth tax]]es to help reduce inequality and avoid the vast majority of wealth coming under the control of a tiny minority.",
+    "language_counts": []
+   },
+   "it:Il capitale nel XXI secolo": {
+    "url": "https://it.wikipedia.org/wiki/Il_capitale_nel_XXI_secolo",
+    "infobox": [
+     "annoorig = 2013",
+     "lingua = fr"
+    ],
+    "lead": "== Contenuti ==\nIl libro mostra come l'evoluzione della [[Disuguaglianza economica|disuguaglianza dei redditi]], della ricchezza, e del rapporto capitale sul reddito, nei [[paesi sviluppati]], segua una curva a forma di U e come i livelli di disuguaglianza raggiunti all'inizio del XXI secolo siano simili a quelli della [[Belle Époque]].",
+    "language_counts": []
+   },
+   "fr:Le Capital au XXIe siècle": {
+    "url": "https://fr.wikipedia.org/wiki/Le_Capital_au_XXIe_siècle",
+    "infobox": [
+     "genre = [[Essai (littérature)|Essai]]",
+     "éditeur = [[Éditions du Seuil]]"
+    ],
+    "lead": "Ce livre étudie la dynamique de la répartition des revenus et patrimoines dans les pays développés depuis le . Pour l'auteur, la répartition des richesses constitue un problème politique fondamental pour la stabilité des sociétés démocratiques modernes et cette question est trop souvent débattue sans chiffres précis. Cette étude s'appuie sur une compilation de différentes données historiques disponibles, par exemple les archives fiscales françaises.",
+    "language_counts": []
+   }
+  },
+  "N18": {
+   "en:Capitalist Realism": {
+    "url": "https://en.wikipedia.org/wiki/Capitalist_Realism",
+    "infobox": [
+     "genre = [[Political philosophy]]",
+     "publisher = [[Zero Books]]",
+     "pub_date = 2009"
+    ],
+    "lead": "'''''Capitalist Realism: Is There No Alternative?''''' is a 2009 book by British philosopher [[Mark Fisher]]. It explores his concept of \"capitalist realism\", defined as \"the widespread sense that not only is [[capitalism]] the only viable political and economic system, but also that it is now impossible even to ''imagine'' a coherent alternative to it.\"",
+    "language_counts": []
+   }
+  },
+  "N19": {
+   "en:Tomorrow, and Tomorrow, and Tomorrow (novel)": {
+    "url": "https://en.wikipedia.org/wiki/Tomorrow,_and_Tomorrow,_and_Tomorrow_(novel)",
+    "infobox": [
+     "media_type = | pages             = 476",
+     "pub_date = | preceded_by       =",
+     "published = July 5, 2022",
+     "publisher = [[Knopf Publishing Group]]",
+     "country = United States",
+     "language = English"
+    ],
+    "lead": "'''''Tomorrow, and Tomorrow, and Tomorrow''''' is a 2022 novel by [[Gabrielle Zevin]]. The novel follows the relationship between two friends who begin a successful [[video game]] company together. It is Zevin's fifth novel for adults and tenth novel overall.",
+    "language_counts": []
+   },
+   "it:Tomorrow, and Tomorrow, and Tomorrow": {
+    "url": "https://it.wikipedia.org/wiki/Tomorrow,_and_Tomorrow,_and_Tomorrow",
+    "infobox": [
+     "annoorig = 2022",
+     "lingua = Inglese"
+    ],
+    "lead": "'''''Tomorrow, and Tomorrow, and Tomorrow''''' è un romanzo del 2022 scritto da [[Gabrielle Zevin]]. Racconta la storia di amicizia e di intensa collaborazione lavorativa dei due sviluppatori di videogiochi Sadie Green e Samson Masur. La  traduzione italiana, che mantiene il titolo originale, è stata pubblicata a marzo del 2023 dalla [[Casa Editrice Nord]] ed è a cura di Elisa Banfi.",
+    "language_counts": []
+   }
+  },
+  "N08": {
+   "en:My Brilliant Friend": {
+    "url": "https://en.wikipedia.org/wiki/My_Brilliant_Friend",
+    "infobox": [
+     "pub_date = 2011",
+     "language = Italian",
+     "title_orig = L'amica geniale",
+     "translator = [[Ann Goldstein (translator)|Ann Goldstein]]",
+     "country = Italy",
+     "genre = {{plainlist|",
+     "publisher = {{plainlist|"
+    ],
+    "lead": "'''''My Brilliant Friend''''' () is a 2011 [[Literary fiction|literary-fiction]] novel by pseudonymous Italian author [[Elena Ferrante]]. It is the first volume of a four-part series known collectively as the [[Neapolitan Novels]]. It was originally published in Italian by [[Edizioni e/o]]; an English translation by [[Ann Goldstein (translator)|Ann Goldstein]] was published by [[Europa Editions]] in 2012.",
+    "language_counts": []
+   },
+   "it:L'amica geniale (romanzo)": {
+    "url": "https://it.wikipedia.org/wiki/L'amica_geniale_(romanzo)",
+    "infobox": [
+     "annoorig = 2011",
+     "lingua = it"
+    ],
+    "lead": "'''''L'amica geniale''''' è un [[romanzo]] [[italia]]no di [[Elena Ferrante]], pubblicato nel [[2011]]. È il primo volume della [[L'amica geniale (serie di romanzi)|serie letteraria omonima]], che proseguirà con altri tre romanzi: ''[[Storia del nuovo cognome]]'' (2012), ''[[Storia di chi fugge e di chi resta]]'' (2013), ''[[Storia della bambina perduta]]'' (2014).",
+    "language_counts": []
+   }
+  },
+  "N13": {
+   "en:The Burnout Society": {
+    "url": "https://en.wikipedia.org/wiki/The_Burnout_Society",
+    "infobox": [
+     "title_orig = Müdigkeitsgesellschaft",
+     "translator = Erik Butler",
+     "language = German",
+     "publisher = Matthes & Seitz Berlin (original)<br />[[Stanford University Press]] (English)",
+     "pub_date = 4 October 2010 (German)<br />August 2015 (English)"
+    ],
+    "lead": "'''''The Burnout Society''''' (original German title: ) is a short philosophical book by the South Korean–German philosopher [[Byung-Chul Han]]. It was first released in [[German language|German]] in 2010. It has since been translated into more than 35 languages, including an English translation by Erik Butler published in 2015 under the [[Stanford Briefs]] imprint.",
+    "language_counts": [
+     "It has since been translated into more than 35 languages, including an English translation by Erik Butler published in 2015 under the [[Stanford Briefs]] imprint"
+    ]
+   },
+   "de:Müdigkeitsgesellschaft": {
+    "missing": true
+   }
+  },
+  "E13": {
+   "it:Angelus Novus (Benjamin)": {
+    "missing": true
+   }
+  },
+  "E14": {
+   "fr:Pour une économie positive": {
+    "missing": true
+   }
+  }
+ },
+ "requests": {
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.739,
+   "max_s": 0.739
+  },
+  "en.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.88,
+   "p50_s": 0.882,
+   "max_s": 0.882
+  },
+  "it.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.825,
+   "max_s": 0.825
+  },
+  "es.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.5,
+   "p50_s": 0.501,
+   "max_s": 0.501
+  },
+  "ja.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.35,
+   "p50_s": 0.347,
+   "max_s": 0.347
+  },
+  "de.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.45,
+   "p50_s": 0.452,
+   "max_s": 0.452
+  },
+  "fr.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.64,
+   "p50_s": 0.641,
+   "max_s": 0.641
+  },
+  "ru.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.44,
+   "p50_s": 0.442,
+   "max_s": 0.442
+  },
+  "cs.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.27,
+   "p50_s": 0.269,
+   "max_s": 0.269
+  },
+  "pt.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.25,
+   "p50_s": 0.252,
+   "max_s": 0.252
+  },
+  "zh.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.24,
+   "p50_s": 0.242,
+   "max_s": 0.242
+  },
+  "ar.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.33,
+   "p50_s": 0.332,
+   "max_s": 0.332
+  },
+  "el.wikipedia.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.43,
+   "p50_s": 0.434,
+   "max_s": 0.434
+  }
+ },
+ "failures": []
+}

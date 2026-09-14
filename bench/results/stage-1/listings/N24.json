@@ -1,0 +1,62 @@
+{
+ "id": "N24",
+ "sbn": [
+  {
+   "W": "tutto per una casa",
+   "author": "Orlando Ciprian",
+   "total": 1,
+   "lingua_facet": [
+    [
+     "ita",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 1,
+   "rows": 1,
+   "multilingual_rows": 0,
+   "languages": 1,
+   "bogus_lingua_total": 0,
+   "year_parsed": 1,
+   "year_parse_failures": [],
+   "publisher_present": 1,
+   "language_present": 1,
+   "records_on_no_language_page": [],
+   "requests": 3,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 4.2,
+   "items": [
+    {
+     "bid": "VIA0219276",
+     "title": "Tutto per una casa : dalla Russia alla Siberia fino in Spagna / Orlando Ciprian",
+     "author": "Ciprian, Orlando",
+     "imprint": "Silea : Piazza, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Piazza",
+     "place": "Silea"
+    }
+   ],
+   "entries": [
+    "ita"
+   ]
+  }
+ ],
+ "ol": null,
+ "wall_s": 4.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 4.21,
+   "p50_s": 1.182,
+   "max_s": 2.142
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,185 @@
+{
+ "user_agents": {
+  "A": "book-editions-lookup/3.0 (personal research tool)",
+  "B": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)"
+ },
+ "cooldown_s": 300,
+ "wall_s": 1731.7,
+ "per_phase_and_ua": {
+  "alternating": {
+   "A": {
+    "requests": 60,
+    "http_429": 27,
+    "non_200": 27,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.152,
+    "p95_s": 0.296,
+    "max_s": 0.341,
+    "status_counts": {
+     "200": 33,
+     "429": 27
+    },
+    "by_host": {
+     "en.wikipedia.org": 7,
+     "it.wikipedia.org": 10,
+     "www.wikidata.org": 10
+    }
+   },
+   "B": {
+    "requests": 60,
+    "http_429": 0,
+    "non_200": 0,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.194,
+    "p95_s": 0.343,
+    "max_s": 0.694,
+    "status_counts": {
+     "200": 60
+    },
+    "by_host": {
+     "en.wikipedia.org": 0,
+     "it.wikipedia.org": 0,
+     "www.wikidata.org": 0
+    }
+   }
+  },
+  "block-AB-A": {
+   "A": {
+    "requests": 60,
+    "http_429": 40,
+    "non_200": 40,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.118,
+    "p95_s": 0.344,
+    "max_s": 0.403,
+    "status_counts": {
+     "200": 20,
+     "429": 40
+    },
+    "by_host": {
+     "en.wikipedia.org": 13,
+     "it.wikipedia.org": 13,
+     "www.wikidata.org": 14
+    }
+   }
+  },
+  "block-AB-B": {
+   "B": {
+    "requests": 60,
+    "http_429": 0,
+    "non_200": 0,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.21,
+    "p95_s": 0.407,
+    "max_s": 0.583,
+    "status_counts": {
+     "200": 60
+    },
+    "by_host": {
+     "en.wikipedia.org": 0,
+     "it.wikipedia.org": 0,
+     "www.wikidata.org": 0
+    }
+   }
+  },
+  "block-BA-B": {
+   "B": {
+    "requests": 60,
+    "http_429": 0,
+    "non_200": 0,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.196,
+    "p95_s": 0.371,
+    "max_s": 0.495,
+    "status_counts": {
+     "200": 60
+    },
+    "by_host": {
+     "en.wikipedia.org": 0,
+     "it.wikipedia.org": 0,
+     "www.wikidata.org": 0
+    }
+   }
+  },
+  "block-BA-A": {
+   "A": {
+    "requests": 60,
+    "http_429": 35,
+    "non_200": 35,
+    "errors": 0,
+    "stalls_over_5s": 0,
+    "p50_s": 0.12,
+    "p95_s": 0.319,
+    "max_s": 0.675,
+    "status_counts": {
+     "200": 25,
+     "429": 35
+    },
+    "by_host": {
+     "en.wikipedia.org": 12,
+     "it.wikipedia.org": 11,
+     "www.wikidata.org": 12
+    }
+   }
+  }
+ },
+ "per_ua_all_phases": {
+  "A": {
+   "requests": 180,
+   "http_429": 102,
+   "non_200": 102,
+   "errors": 0,
+   "stalls_over_5s": 0,
+   "p50_s": 0.12,
+   "p95_s": 0.319,
+   "max_s": 0.675,
+   "status_counts": {
+    "200": 78,
+    "429": 102
+   },
+   "by_host": {
+    "en.wikipedia.org": 32,
+    "it.wikipedia.org": 34,
+    "www.wikidata.org": 36
+   }
+  },
+  "B": {
+   "requests": 180,
+   "http_429": 0,
+   "non_200": 0,
+   "errors": 0,
+   "stalls_over_5s": 0,
+   "p50_s": 0.198,
+   "p95_s": 0.384,
+   "max_s": 0.694,
+   "status_counts": {
+    "200": 180
+   },
+   "by_host": {
+    "en.wikipedia.org": 0,
+    "it.wikipedia.org": 0,
+    "www.wikidata.org": 0
+   }
+  }
+ },
+ "first_non_200": {
+  "A": {
+   "phase": "alternating",
+   "status": 429,
+   "headers": {
+    "x-envoy-ratelimited": "true",
+    "retry-after": "14",
+    "age": "0",
+    "x-cache": "cp6009 miss, cp6009 pass",
+    "x-cache-status": "pass"
+   },
+   "body": "You are making too many requests to the API.\nPlease follow the best practices at <https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits>.\nIf you are unsure how to get the access you need, contact <bot-traffic@wikimedia.org>.\n\nrequest-id: 0dd7b9b6-75ee-458b-bb0d-1ff6fc792810"
+  },
+  "B": null
+ }
+}

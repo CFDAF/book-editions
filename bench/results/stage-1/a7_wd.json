@@ -1,0 +1,1163 @@
+{
+ "persons": {
+  "P01": {
+   "person": "Gregory Bateson",
+   "variants": [
+    {
+     "variant": "Gregory Bateson",
+     "candidates": [
+      {
+       "id": "Q314252",
+       "label": "Gregory Bateson",
+       "description": "English anthropologist, linguist, semiotician and cyberneticist (1904–1980)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q85724626",
+       "label": "Mead & Bateson",
+       "description": "business organisation",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q48687636",
+       "label": "Gregory Bateson on deutero-learning and double bind: a brief conceptual history",
+       "description": "scientific article published in January 2003",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q48611206",
+       "label": "Gregory Bateson (1904-1980): a reappraisal",
+       "description": "scientific article published in November 2005",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q47429162",
+       "label": "Gregory Bateson, Alcoholics Anonymous, and stoicism",
+       "description": "scientific article published in February 1985",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q117316723",
+       "label": "Gregory Bateson Archive",
+       "description": "journal article from 'History of Anthropology Newsletter' published in 1988",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140834614",
+       "label": "Gregory Bateson: The Legacy of a Scientist. David Lipset",
+       "description": "scholarly article published in Isis, vol. 72, no. 3 (1981) (DOI: 10.1086/352838)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q47698955",
+       "label": "Gregory Bateson's lost world: the anthropology of Haddon and Rivers continued and deflected",
+       "description": "scientific article published in January 1999",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q137520430",
+       "label": "GREGORY BATESON 1904‐1980",
+       "description": "scholarly article published in American Anthropologist (1982)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q129582890",
+       "label": "Gregory Bateson’s Aesthetic Circuits of the Mind",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140841998",
+       "label": "Gregory Bateson in contemporary cross‐cultural systemic psychotherapy",
+       "description": "scholarly article published in Kybernetes, vol. 36, no. 7/8 (2007) (DOI: 10.1108/03684920710777423)",
+       "via": "it",
+       "human": false
+      }
+     ],
+     "chosen": "Q314252",
+     "humans": [
+      [
+       "Q314252",
+       "Gregory Bateson",
+       "English anthropologist, linguist, semiotician and cyberneticist (1904–1980)"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  },
+  "P02": {
+   "person": "Haruki Murakami",
+   "variants": [
+    {
+     "variant": "Murakami Haruki",
+     "candidates": [
+      {
+       "id": "Q134798",
+       "label": "Haruki Murakami",
+       "description": "Japanese writer (born 1949)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q112877297",
+       "label": "Murakami Haruki and the search for self-therapy",
+       "description": "2008 doctoral thesis by Jonathan Dil at University of Canterbury",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q11522814",
+       "label": "Haruki Murakami",
+       "description": "scholar of Japanese literature born 1937",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q139895349",
+       "label": "Murakami Haruki's Postmemory of the Asia-Pacific War",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q139909006",
+       "label": "Murakami Haruki and the cultural materialism of multiple personality disorder",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q120407848",
+       "label": "Murakami Haruki’s Paradoxes:The Survival Ways of Virtual times",
+       "description": "scholarly article in Journal of Northeast Normal University (Philosophy and Social Sciences), no. 4, 2010",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q129093690",
+       "label": "Murakami Haruki on a Little Planet",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      }
+     ],
+     "chosen": "Q134798",
+     "humans": [
+      [
+       "Q134798",
+       "Haruki Murakami",
+       "Japanese writer (born 1949)"
+      ],
+      [
+       "Q11522814",
+       "Haruki Murakami",
+       "scholar of Japanese literature born 1937"
+      ]
+     ]
+    },
+    {
+     "variant": "Haruki Murakami",
+     "candidates": [
+      {
+       "id": "Q134798",
+       "label": "Haruki Murakami",
+       "description": "Japanese writer (born 1949)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q11522814",
+       "label": "Haruki Murakami",
+       "description": "scholar of Japanese literature born 1937",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q85880820",
+       "label": "Waseda International House of Literature",
+       "description": "Museum in Waseda University campus",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q130530039",
+       "label": "Haruki Murakami and the Music of Words",
+       "description": "non-fiction book by Jay Rubin",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140753932",
+       "label": "Haruki Murakami bibliography",
+       "description": "Works of the Japanese author",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q125589484",
+       "label": "Haruki Murakami's Storytelling World",
+       "description": "scientific article published in 2005",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q119670482",
+       "label": "Haruki Murakami and Scott Fitzgerald——A Comparison between Norwegian Wood and The Great Gatsby",
+       "description": "scientific article published in 2006",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q123332998",
+       "label": "Haruki Murakami as a cosmopolitan phenomenon: from ‘ordinary’ to ‘celebrity’",
+       "description": "scientific article published in 2018",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q119978876",
+       "label": "Haruki Murakami and Japanese Literature",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q120437029",
+       "label": "Haruki Murakami’s literary Declaration——An explanation of Hear the Wind Sing",
+       "description": "scholarly article in Journal of Henan University (Social Science), no. 4, 2008",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q17217613",
+       "label": "Haruki Murakami'nin Seçtikleri",
+       "description": null,
+       "via": "it",
+       "human": false
+      }
+     ],
+     "chosen": "Q134798",
+     "humans": [
+      [
+       "Q134798",
+       "Haruki Murakami",
+       "Japanese writer (born 1949)"
+      ],
+      [
+       "Q11522814",
+       "Haruki Murakami",
+       "scholar of Japanese literature born 1937"
+      ]
+     ]
+    },
+    {
+     "variant": "村上春樹",
+     "candidates": [
+      {
+       "id": "Q134798",
+       "label": "Haruki Murakami",
+       "description": "Japanese writer (born 1949)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q11522814",
+       "label": "Haruki Murakami",
+       "description": "scholar of Japanese literature born 1937",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q85880820",
+       "label": "Waseda International House of Literature",
+       "description": "Museum in Waseda University campus",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q17217613",
+       "label": "村上春樹 雑文集",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q11513753",
+       "label": "Haruki Children",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q17217617",
+       "label": "村上春樹ハイブ・リット",
+       "description": "edition",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q22127487",
+       "label": "村上春樹にご用心",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q17217607",
+       "label": "村上春樹、河合隼雄に会いにいく",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q113480099",
+       "label": "村上春樹翻訳調査プロジェクト報告書",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140936396",
+       "label": "村上春樹迷宮文庫",
+       "description": null,
+       "via": "en",
+       "human": false
+      }
+     ],
+     "chosen": "Q134798",
+     "humans": [
+      [
+       "Q134798",
+       "Haruki Murakami",
+       "Japanese writer (born 1949)"
+      ],
+      [
+       "Q11522814",
+       "Haruki Murakami",
+       "scholar of Japanese literature born 1937"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  },
+  "P03": {
+   "person": "Fyodor Dostoevsky",
+   "variants": [
+    {
+     "variant": "Fëdor Dostoevskij",
+     "candidates": [
+      {
+       "id": "Q991",
+       "label": "Fyodor Dostoyevsky",
+       "description": "Russian novelist (1821–1881)",
+       "via": "en",
+       "human": true
+      }
+     ],
+     "chosen": "Q991",
+     "humans": [
+      [
+       "Q991",
+       "Fyodor Dostoyevsky",
+       "Russian novelist (1821–1881)"
+      ]
+     ]
+    },
+    {
+     "variant": "Fyodor Dostoevsky",
+     "candidates": [
+      {
+       "id": "Q991",
+       "label": "Fyodor Dostoyevsky",
+       "description": "Russian novelist (1821–1881)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q135028377",
+       "label": "Fyodor Dostoevsky: Handwritings and Notes",
+       "description": "Memory of the World international register inscription, added 2023",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136199557",
+       "label": "Fyodor Dostoevsky–Darkness and Dawn (1848–1849): A Life in Letters, Memoirs, and Criticism",
+       "description": "book 2024",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136154222",
+       "label": "Fyodor Dostoevsky, Walker Percy, and the Age of Suicide",
+       "description": "book 2019",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136197299",
+       "label": "Fyodor Dostoevsky—In the Beginning (1821–1845): A Life in Letters, Memoirs, and Criticism",
+       "description": "book 2016",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136195803",
+       "label": "Fyodor Dostoevsky—The Gathering Storm (1846–1847): A Life in Letters, Memoirs, and Criticism",
+       "description": "book 2020",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q48461703",
+       "label": "Fyodor Dostoevsky and his falling sickness: a critical analysis of seizure semiology.",
+       "description": "scientific article published on 19 June 2010",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q113714190",
+       "label": "Fyodor Dostoevsky: Insight, Faith, and Prophecy",
+       "description": "scientific article published in 1951",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q126288292",
+       "label": "Fyodor Dostoevsky, Walker Percy, and the Age of Suicide, John F.Desmond, The Catholic University of America Press, 2019 (ISBN 978‐0‐8132‐3127‐3), xii + 302 pp., hb $75",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q113706290",
+       "label": "Fyodor Dostoevsky. Insight, Faith, and Prophecy",
+       "description": "scientific article published in 1952",
+       "via": "en",
+       "human": false
+      }
+     ],
+     "chosen": "Q991",
+     "humans": [
+      [
+       "Q991",
+       "Fyodor Dostoyevsky",
+       "Russian novelist (1821–1881)"
+      ]
+     ]
+    },
+    {
+     "variant": "Dostoïevski",
+     "candidates": [
+      {
+       "id": "Q991",
+       "label": "Fyodor Dostoyevsky",
+       "description": "Russian novelist (1821–1881)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q110998282",
+       "label": "Dostoyevsky",
+       "description": "family name",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q21484837",
+       "label": "Dostoevsky",
+       "description": "family name (Достоевский)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q109772473",
+       "label": "Dostoïevski, au-delà de l'ordre et de la mesure",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q132818115",
+       "label": "Dostoievski: Filosofía: novela y experiencia religiosa",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q4167255",
+       "label": "Dostoevsky",
+       "description": "2011 film directed by Vladimir Khotinenko",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q113366938",
+       "label": "Dostoïevski",
+       "description": "railway station in Novokuznetsk, Russia",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q5299346",
+       "label": "Dostoevsky and Parricide",
+       "description": "book by Sigmund Freud",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q68687635",
+       "label": "Dostoievski or the pleasure of suffering",
+       "description": "scientific article published on 01 December 1973",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140806578",
+       "label": "Dostoievski lee a Hegel en Siberia y rompe a llorar",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q24933183",
+       "label": "Dostoïevski dans la culture russe",
+       "description": null,
+       "via": "it",
+       "human": false
+      },
+      {
+       "id": "Q19166286",
+       "label": "Dostoïevski et le parricide",
+       "description": null,
+       "via": "it",
+       "human": false
+      }
+     ],
+     "chosen": "Q991",
+     "humans": [
+      [
+       "Q991",
+       "Fyodor Dostoyevsky",
+       "Russian novelist (1821–1881)"
+      ]
+     ]
+    },
+    {
+     "variant": "Фёдор Достоевский",
+     "candidates": [
+      {
+       "id": "Q991",
+       "label": "Fyodor Dostoyevsky",
+       "description": "Russian novelist (1821–1881)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q135117250",
+       "label": "Fyodor Dostoyevsky",
+       "description": "son of Fyodor Dostoyevsky (1871-1922)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q750119",
+       "label": "Astor",
+       "description": "cruise ship built in 1987",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q56309951",
+       "label": "Фёдор Достоевский һәйкәле (Люблино)",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q30880430",
+       "label": "Фёдор Достоевский и Яков Бутков",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q135028377",
+       "label": "Fyodor Dostoevsky: Handwritings and Notes",
+       "description": "Memory of the World international register inscription, added 2023",
+       "via": "en",
+       "human": false
+      }
+     ],
+     "chosen": "Q991",
+     "humans": [
+      [
+       "Q991",
+       "Fyodor Dostoyevsky",
+       "Russian novelist (1821–1881)"
+      ],
+      [
+       "Q135117250",
+       "Fyodor Dostoyevsky",
+       "son of Fyodor Dostoyevsky (1871-1922)"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  },
+  "P04": {
+   "person": "Elena Ferrante",
+   "variants": [
+    {
+     "variant": "Elena Ferrante",
+     "candidates": [
+      {
+       "id": "Q368127",
+       "label": "Elena Ferrante",
+       "description": "pseudonymous Italian writer",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q135527333",
+       "label": "Elena Ferrante, uma longa experiência de ausência",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q95406450",
+       "label": "Elena Ferrante, uma longa experiência de ausência",
+       "description": "Brazilian book",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q126795808",
+       "label": "Elena Ferrante. Parole Chiave",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q127448945",
+       "label": "Elena Ferrante in The Guardian and Roads and Kingdoms",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140854470",
+       "label": "Elena Ferrante (2020). La vida mentirosa de los adultos",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q97171118",
+       "label": "Elena Ferrante, uma longa experiência de ausência",
+       "description": null,
+       "via": "en",
+       "human": false
+      }
+     ],
+     "chosen": "Q368127",
+     "humans": [
+      [
+       "Q368127",
+       "Elena Ferrante",
+       "pseudonymous Italian writer"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  },
+  "P05": {
+   "person": "Jacques Attali",
+   "variants": [
+    {
+     "variant": "Jacques Attali",
+     "candidates": [
+      {
+       "id": "Q364315",
+       "label": "Jacques Attali",
+       "description": "French economist",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q140866080",
+       "label": "Jacques Attali, Karl Marx ou l’esprit du monde",
+       "description": "scholarly article published in Sociologie du travail, vol. 49, no. 2 (2007) (DOI: 10.4000/SDT.21933)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136308508",
+       "label": "Jacques Attali, très urbain",
+       "description": null,
+       "via": "en",
+       "human": false
+      }
+     ],
+     "chosen": "Q364315",
+     "humans": [
+      [
+       "Q364315",
+       "Jacques Attali",
+       "French economist"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  },
+  "P06": {
+   "person": "Umberto Eco",
+   "variants": [
+    {
+     "variant": "Umberto Eco",
+     "candidates": [
+      {
+       "id": "Q12807",
+       "label": "Umberto Eco",
+       "description": "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q11145670",
+       "label": "Umberto Eco bibliography",
+       "description": "list of works",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q35029860",
+       "label": "Umberto Eco's library",
+       "description": "personal library",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q123589642",
+       "label": "Umberto Eco, 84, Best-Selling Academic Who Navigated Two Worlds, Dies",
+       "description": "The New York Times article (February 20, 2016)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q120972999",
+       "label": "Umberto Eco – A Library of the World",
+       "description": "2022 film directed by Davide Ferrario",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q127875241",
+       "label": "Umberto Ecos labyrinter – samtale med Mario Fusco",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q131555724",
+       "label": "Umberto Eco, Die unendliche Liste",
+       "description": "scientific article published in July 2011",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q127551055",
+       "label": "Umberto Eco's Reflections on Morality in the Context of Cultural Identity",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q129003921",
+       "label": "Umberto Eco’s Theory of Interpretation as Textual Cooperation: Application to Legal Interpretation",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q104802836",
+       "label": "Umberto Eco and Aristotle: a dialogue on the lost treatise: Comedy",
+       "description": "scholarly article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q18744286",
+       "label": "Italian writer Umberto Eco dies, age 84",
+       "description": "Wikinews article",
+       "via": "it",
+       "human": false
+      },
+      {
+       "id": "Q17615167",
+       "label": "Umberto Eco, écrivain, donne son avis sur Wikipédia",
+       "description": "Wikinews article",
+       "via": "it",
+       "human": false
+      }
+     ],
+     "chosen": "Q12807",
+     "humans": [
+      [
+       "Q12807",
+       "Umberto Eco",
+       "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  },
+  "P07": {
+   "person": "Kodwo Eshun",
+   "variants": [
+    {
+     "variant": "Kodwo Eshun",
+     "candidates": [
+      {
+       "id": "Q113174",
+       "label": "Kodwo Eshun",
+       "description": "British writer (born 1967)",
+       "via": "en",
+       "human": true
+      }
+     ],
+     "chosen": "Q113174",
+     "humans": [
+      [
+       "Q113174",
+       "Kodwo Eshun",
+       "British writer (born 1967)"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  },
+  "P08": {
+   "person": "Byung-Chul Han",
+   "variants": [
+    {
+     "variant": "Byung-Chul Han",
+     "candidates": [
+      {
+       "id": "Q495875",
+       "label": "Byung-Chul Han",
+       "description": "German philosopher of South Korean origin",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q136163782",
+       "label": "Byung-Chul Han y lo político",
+       "description": "book 2022",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q139989065",
+       "label": "Byung-Chul Han. La sociedad de la transparencia (Barcelona: Herder, 2014), 95 pp.",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q141369950",
+       "label": "Byung-Chul Han and the anthropology of power: reflexive contributions",
+       "description": "scholarly article published in Anuário Antropológico, vol. v.49 n.2 (2024) (DOI: 10.4000/12E2Y)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q141370239",
+       "label": "Byung-Chul Han e a antropologia do poder: aportes reflexivos",
+       "description": "scholarly article published in Anuário Antropológico, vol. v.49 n.2 (2024) (DOI: 10.4000/127W6)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q129780035",
+       "label": "Byung-Chul Han y el problema de la transparencia",
+       "description": "scholarly article published on 24 May 2018",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140857943",
+       "label": "Byung-Chul Han (2020). Caras de la muerte",
+       "description": null,
+       "via": "en",
+       "human": false
+      }
+     ],
+     "chosen": "Q495875",
+     "humans": [
+      [
+       "Q495875",
+       "Byung-Chul Han",
+       "German philosopher of South Korean origin"
+      ]
+     ]
+    },
+    {
+     "variant": "Han Byung-Chul",
+     "candidates": [],
+     "chosen": null,
+     "humans": []
+    },
+    {
+     "variant": "한병철",
+     "candidates": [
+      {
+       "id": "Q495875",
+       "label": "Byung-Chul Han",
+       "description": "German philosopher of South Korean origin",
+       "via": "en",
+       "human": true
+      }
+     ],
+     "chosen": "Q495875",
+     "humans": [
+      [
+       "Q495875",
+       "Byung-Chul Han",
+       "German philosopher of South Korean origin"
+      ]
+     ]
+    }
+   ],
+   "one_id": false
+  },
+  "P09": {
+   "person": "Gabriel García Márquez",
+   "variants": [
+    {
+     "variant": "Gabriel García Márquez",
+     "candidates": [
+      {
+       "id": "Q5878",
+       "label": "Gabriel García Márquez",
+       "description": "Colombian writer and Nobel laureate (1927–2014)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q22134877",
+       "label": "Gabriel García Márquez Journalism Prize",
+       "description": "award by Fundación Gabriel García Márquez para el Nuevo Periodismo Iberoamericano",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q124046707",
+       "label": "Gabriel García Marquez",
+       "description": "online exhibition from Centro Virtuales Cervantes, Instituto Cervantes de España",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q6344145",
+       "label": "Gabriel García Márquez bibliography",
+       "description": "Wikimedia list article",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q112194663",
+       "label": "Gabriel Garcia Marquez Library",
+       "description": "Public library in Barcelona",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q5761145",
+       "label": "Gabriel García Márquez Cultural Center",
+       "description": "cultural centre in Bogota, Colombia",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q127694594",
+       "label": "Gabriel Garcia Marquez House Museum",
+       "description": "historic house museum from Colombia",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q123599600",
+       "label": "Gabriel García Márquez, Conjurer of Literary Magic, Dies at 87",
+       "description": "The New York Times article (April 17, 2014)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q139999050",
+       "label": "Gabriel Garcia Marquez : Kathayude Noopuradhwanikal",
+       "description": "Malayalam-language study published by Current Books",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136155512",
+       "label": "Gabriel García Márquez y el cine ¿Una buena amistad?",
+       "description": "book 2019",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q54048782",
+       "label": "Gabriel Garcia Marquez",
+       "description": "scholarly article",
+       "via": "it",
+       "human": false
+      },
+      {
+       "id": "Q120495377",
+       "label": "Gabriel García Márquez",
+       "description": "Wikimedia disambiguation page",
+       "via": "it",
+       "human": false
+      }
+     ],
+     "chosen": "Q5878",
+     "humans": [
+      [
+       "Q5878",
+       "Gabriel García Márquez",
+       "Colombian writer and Nobel laureate (1927–2014)"
+      ]
+     ]
+    },
+    {
+     "variant": "Garcia Marquez",
+     "candidates": [
+      {
+       "id": "Q49901238",
+       "label": "Villa de García Márquez",
+       "description": "town in La Barca Municipality, State of Jalisco, Mexico",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q5878",
+       "label": "Gabriel García Márquez",
+       "description": "Colombian writer and Nobel laureate (1927–2014)",
+       "via": "en",
+       "human": true
+      },
+      {
+       "id": "Q5875336",
+       "label": "García Márquez: historia de un deicidio",
+       "description": "in-depth analysis of the work of García Márquez",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q130148873",
+       "label": "García Márquez o el olvidado arte de contar",
+       "description": "written work by Ricardo Gullón",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136103398",
+       "label": "Garcia Marquez: The Man and His Work",
+       "description": "2010",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q136155530",
+       "label": "García Márquez. Pasaje a La Habana",
+       "description": "book 2019",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q118931096",
+       "label": "Garcia Márquez’s Dissemination in the Early New Period in China",
+       "description": "scientific article published in 2007",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q141072678",
+       "label": "Garcia Marquez, Vargas Llosa, and Literary Criticism: Looking Back Prematurely",
+       "description": "scholarly article published in Latin American Research Review, vol. 26, no. 1 (1991) (DOI: 10.1017/S0023879100035020)",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q54170717",
+       "label": "García Márquez: historia de un deicidio by Mario Vargas Llosa",
+       "description": "scientific article published in April 1973",
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q140854903",
+       "label": "García Márquez, Premio Nobel",
+       "description": null,
+       "via": "en",
+       "human": false
+      },
+      {
+       "id": "Q112194663",
+       "label": "Gabriel Garcia Marquez Library",
+       "description": "Public library in Barcelona",
+       "via": "it",
+       "human": false
+      },
+      {
+       "id": "Q130148904",
+       "label": "García Márquez o el olvidado arte de contar",
+       "description": "1973 edition of written work by Ricardo Gullón",
+       "via": "it",
+       "human": false
+      }
+     ],
+     "chosen": "Q5878",
+     "humans": [
+      [
+       "Q5878",
+       "Gabriel García Márquez",
+       "Colombian writer and Nobel laureate (1927–2014)"
+      ]
+     ]
+    }
+   ],
+   "one_id": true
+  }
+ },
+ "requests": {
+  "www.wikidata.org": {
+   "requests": 56,
+   "failed": 0,
+   "total_s": 18.27,
+   "p50_s": 0.24,
+   "max_s": 0.798
+  }
+ },
+ "failures": []
+}

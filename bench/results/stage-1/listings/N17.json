@@ -1,0 +1,1046 @@
+{
+ "id": "N17",
+ "sbn": [
+  {
+   "W": "bain el-qasrain.",
+   "author": "Naguib Mahfouz",
+   "total": 8,
+   "lingua_facet": [
+    [
+     "ita",
+     6
+    ],
+    [
+     "ara",
+     1
+    ],
+    [
+     "eng",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 8,
+   "rows": 8,
+   "multilingual_rows": 0,
+   "languages": 3,
+   "bogus_lingua_total": 0,
+   "year_parsed": 8,
+   "year_parse_failures": [],
+   "publisher_present": 8,
+   "language_present": 8,
+   "records_on_no_language_page": [],
+   "requests": 5,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 3.6,
+   "items": [
+    {
+     "bid": "USM2040668",
+     "title": "Baina 'l-qaṣrain / Naǧīb Maḥfūẓ",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "al-Qāhira : Maktabat Miṣr, [tra il 1956 e il 1999]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "1956",
+     "publisher": "Maktabat Miṣr, tra il",
+     "place": "al-Qāhira"
+    },
+    {
+     "bid": "LO10629331",
+     "title": "Palace walk / Naguib Mahfouz ; translated by William Maynard Hutchins and Olive E. Kenny",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "New York : Anchor Books, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1991",
+     "publisher": "Anchor Books",
+     "place": "New York"
+    },
+    {
+     "bid": "RMS1860362",
+     "title": "tra i due palazzi : la trilogia del Cairo / Naghib Mahfuz ; traduzione di Clelia Sarnelli Cerqua",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "Napoli : Pironti, stampa 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Pironti",
+     "place": "Napoli"
+    },
+    {
+     "bid": "LZ10246665",
+     "title": "Tra i due palazzi : La Trilogia del Cairo / Naghib Mahfuz ; Traduzione di Clelia Sarnelli Cerqua",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "Napoli : Pironti, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Pironti",
+     "place": "Napoli"
+    },
+    {
+     "bid": "CFI0193625",
+     "title": "Tra i due palazzi : la trilogia del Cairo / Naghib Mahfuz ; traduzione di Clelia Sarnelli Cerqua",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "Napoli : T. Pironti, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "T. Pironti",
+     "place": "Napoli"
+    },
+    {
+     "bid": "PCM0046623",
+     "title": "Vol. 1: Tra i due palazzi / Nagib Mahfuz ; traduzione di Clelia Sarnelli Cerqua",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "[Milano] : Crocetti, 2024",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "Crocetti",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10025883",
+     "title": "Tra i due palazzi : la trilogia del Cairo / Naghib Mahfuz ; traduzione di Clelia Sarnelli Cerqua",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "Napoli : Pironti, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Pironti",
+     "place": "Napoli"
+    },
+    {
+     "bid": "VEA0020485",
+     "title": "Tra i due palazzi / traduzione di Clelia Sarnelli Cerqua",
+     "author": "Maḥfūẓ, Naǧīb",
+     "imprint": "Napoli : Pironti, 1989",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Pironti",
+     "place": "Napoli"
+    }
+   ],
+   "entries": [
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL1599742W",
+  "size": 37,
+  "rows": 37,
+  "languages": 6,
+  "language_codes": [
+   "ara",
+   "eng",
+   "fre",
+   "ger",
+   "heb",
+   "spa"
+  ],
+  "year_parsed": 35,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL16410780M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL18649514M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 34,
+  "language_present": 33,
+  "requests": 6,
+  "failed": [],
+  "wall_s": 15.2,
+  "items": [
+   {
+    "key": "/books/OL47385017M",
+    "title": "Entre dos palacios",
+    "publish_date": "Feb 24, 2010",
+    "year": "2010",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8427036221"
+    ],
+    "isbn_13": [
+     "9788427036222"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL47385016M",
+    "title": "Entre dos palacios",
+    "publish_date": "Feb 24, 2010",
+    "year": "2010",
+    "publishers": [
+     "Austral"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8427036221"
+    ],
+    "isbn_13": [
+     "9788427036222"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL16410780M",
+    "title": "Baina Alkasrean",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL18649514M",
+    "title": "Baina alkasrean.",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL9024490M",
+    "title": "Zwischen den Palästen",
+    "publish_date": "1996",
+    "year": "1996",
+    "publishers": [
+     "Unionsverlag"
+    ],
+    "publish_places": [
+     "Zurich"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3293200656"
+    ],
+    "isbn_13": [
+     "9783293200654"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL8913583M",
+    "title": "Impasse des deux palais",
+    "publish_date": "September 1, 1993",
+    "year": "1993",
+    "publishers": [
+     "J.-C. Lattès"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2709612496"
+    ],
+    "isbn_13": [
+     "9782709612494"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL8887624M",
+    "title": "Impasse des deux palais",
+    "publish_date": "2008-04",
+    "year": "2008",
+    "publishers": [
+     "J.-C. Lattès"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2253050911"
+    ],
+    "isbn_13": [
+     "9782253050919"
+    ],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL50442381M",
+    "title": "בית בקהיר",
+    "publish_date": "1981",
+    "year": "1981",
+    "publishers": [
+     "Sifriyat poʻalim",
+     "ha-Moʻatsah ha-tsiburit le-tarbut ule-omanut, ha-Mifʻal le-targum sifre mofet"
+    ],
+    "publish_places": [
+     "Tel-Aviv"
+    ],
+    "languages": [
+     "heb"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL48104305M",
+    "title": "بين القصرين",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [
+     "9770930814"
+    ],
+    "isbn_13": [
+     "9789770930816"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL47780355M",
+    "title": "Palace Walk",
+    "publish_date": "1991-01-01",
+    "year": "1991",
+    "publishers": [
+     "Anchor / Doubleday"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL45027682M",
+    "title": "Bayna al-qaṣrayn",
+    "publish_date": "1983",
+    "year": "1983",
+    "publishers": [
+     "Maktabat Miṣr"
+    ],
+    "publish_places": [
+     "Al-Fajjālah [al-Qāhirah]"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [
+     "9773163814"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL40371942M",
+    "title": "Palace Walk",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781407012742"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL40384488M",
+    "title": "Palace Walk",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Penguin Random House"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781407056838"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL32096881M",
+    "title": "Entre dos palacios",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Ediciones Martínez Roca"
+    ],
+    "publish_places": [
+     "Madrid"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8427032277"
+    ],
+    "isbn_13": [
+     "9788427032279"
+    ],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL37737073M",
+    "title": "Entre dos palacios",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Alcor"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8427024479"
+    ],
+    "isbn_13": [
+     "9788427024472"
+    ],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL25349614M",
+    "title": "Palace walk",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Anchor Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780307947109"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL25349613M",
+    "title": "Palace walk",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Anchor Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780307947109"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL22909789M",
+    "title": "Entre dos palacios",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Ediciones Roca"
+    ],
+    "publish_places": [
+     "México, D.F"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9682107482"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL19439813M",
+    "title": "Bayna al-Qaṣrayn",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Maktabat Miṣr"
+    ],
+    "publish_places": [
+     "al-Fajjālah, [Cairo]"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL19885012M",
+    "title": "Palace walk",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Doubleday"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385269358"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL18319018M",
+    "title": "Palace walk",
+    "publish_date": "1991-01",
+    "year": "1991",
+    "publishers": [
+     "Anchor Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385264666"
+    ],
+    "isbn_13": [],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL22327054M",
+    "title": "Palace walk",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "Doubleday"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385400926"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL16685375M",
+    "title": "Palace walk",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "American University Press"
+    ],
+    "publish_places": [
+     "Cairo"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "977424334X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL22270830M",
+    "title": "Palace walk",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Doubleday"
+    ],
+    "publish_places": [
+     "New York",
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385264658"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL15338037M",
+    "title": "Bayna al-qasrayn",
+    "publish_date": "1960",
+    "year": "1960",
+    "publishers": [
+     "Maktabah Misr"
+    ],
+    "publish_places": [
+     "[Al-Qahira]"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL7439560M",
+    "title": "Palace Walk U. K.",
+    "publish_date": "December 1990",
+    "year": "1990",
+    "publishers": [
+     "Doubleday Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385400926"
+    ],
+    "isbn_13": [
+     "9780385400923"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL7816162M",
+    "title": "Palace Walk",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Black Swan"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0552995800"
+    ],
+    "isbn_13": [
+     "9780552995801"
+    ],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL53842419M",
+    "title": "Palace Walk",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Black Swan"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780552995801"
+    ],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL53842452M",
+    "title": "Palace Walk",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Black Swan"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0552995800"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL9845914M",
+    "title": "Palace Walk (Cairo Trilogy)",
+    "publish_date": "December 1990",
+    "year": "1990",
+    "publishers": [
+     "Tandem Library"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1417710756"
+    ],
+    "isbn_13": [
+     "9781417710751"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL7438439M",
+    "title": "Palace Walk",
+    "publish_date": "1991-01",
+    "year": "1991",
+    "publishers": [
+     "Anchor Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385264666"
+    ],
+    "isbn_13": [
+     "9780385264662"
+    ],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL53837195M",
+    "title": "Palace Walk",
+    "publish_date": "1991-01",
+    "year": "1991",
+    "publishers": [
+     "Anchor Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385264666"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL9444865M",
+    "title": "Palace Walk",
+    "publish_date": "1991-01",
+    "year": "1991",
+    "publishers": [
+     "Anchor Books"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0844672262"
+    ],
+    "isbn_13": [
+     "9780844672267"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL9560302M",
+    "title": "Impasse des deux palais",
+    "publish_date": "1989-01",
+    "year": "1989",
+    "publishers": [
+     "JC Lattès"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2709604205"
+    ],
+    "isbn_13": [
+     "9782709604208"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL2201663M",
+    "title": "Palace walk",
+    "publish_date": "1990",
+    "year": "1990",
+    "publishers": [
+     "Doubleday"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0385264658"
+    ],
+    "isbn_13": [],
+    "translation_of": "بين القصرين",
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL2650601M",
+    "title": "Impasse des deux palais",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "J.C. Lattès"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre",
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   },
+   {
+    "key": "/books/OL2020629M",
+    "title": "Palace walk",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "The American University in Cairo Press"
+    ],
+    "publish_places": [
+     "Cairo, Egypt"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "9774242203"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1599742W"
+    ]
+   }
+  ],
+  "how": "original, keyed author match"
+ },
+ "wall_s": 15.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 5.27,
+   "p50_s": 0.891,
+   "max_s": 1.783
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 15.17,
+   "p50_s": 15.17,
+   "max_s": 15.17
+  }
+ },
+ "failures": []
+}

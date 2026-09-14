@@ -1,0 +1,51 @@
+{
+ "id": "E15",
+ "sbn": [],
+ "ol": {
+  "key": "/works/OL36428365W",
+  "size": 1,
+  "rows": 1,
+  "languages": 0,
+  "language_codes": [],
+  "year_parsed": 1,
+  "year_parse_failures": [],
+  "publisher_present": 1,
+  "language_present": 0,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 2.6,
+  "items": [
+   {
+    "key": "/books/OL49221860M",
+    "title": "The Essential Knuth",
+    "publish_date": "August 1, 2013",
+    "year": "2013",
+    "publishers": [
+     "Lonely Scholar"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789491386039"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL36428365W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 2.6,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 2.59,
+   "p50_s": 2.589,
+   "max_s": 2.589
+  }
+ },
+ "failures": []
+}

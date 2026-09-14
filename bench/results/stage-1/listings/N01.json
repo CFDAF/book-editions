@@ -1,0 +1,3641 @@
+{
+ "id": "N01",
+ "sbn": [
+  {
+   "W": "nesnesitelna lehkost byti",
+   "author": "Milan Kundera",
+   "total": 109,
+   "lingua_facet": [
+    [
+     "ita",
+     73
+    ],
+    [
+     "eng",
+     9
+    ],
+    [
+     "fre",
+     6
+    ],
+    [
+     "ger",
+     5
+    ],
+    [
+     "cze",
+     3
+    ],
+    [
+     "rus",
+     3
+    ],
+    [
+     "rum",
+     2
+    ],
+    [
+     "spa",
+     2
+    ],
+    [
+     "alb",
+     1
+    ],
+    [
+     "ara",
+     1
+    ],
+    [
+     "chi",
+     1
+    ],
+    [
+     "pol",
+     1
+    ],
+    [
+     "slv",
+     1
+    ],
+    [
+     "tur",
+     1
+    ],
+    [
+     "ukr",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 110,
+   "rows": 109,
+   "multilingual_rows": 1,
+   "languages": 15,
+   "bogus_lingua_total": 0,
+   "year_parsed": 108,
+   "year_parse_failures": [
+    {
+     "bid": "LO11265422",
+     "imprint": "Testo - Monografia [IT\\ICCU\\LO1\\1265422]"
+    }
+   ],
+   "publisher_present": 109,
+   "language_present": 109,
+   "records_on_no_language_page": [],
+   "requests": 20,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 4.9,
+   "items": [
+    {
+     "bid": "RMB0806761",
+     "title": "Lehtësia e paduruesheme e qenies / Milan Kundera; përktheu Saverina Pasho",
+     "author": "Kundera, Milan",
+     "imprint": "Tirana : Dituria, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2019",
+     "publisher": "Dituria",
+     "place": "Tirana"
+    },
+    {
+     "bid": "PCM0019324",
+     "title": "Kāʼin lā tuḥtamalu ẖiffatah / Mīlān Kūndīrā",
+     "author": "Kundera, Milan",
+     "imprint": "al-Dār al-Bayḍāʼ ; Bayrūt : al-Markaz al-Ṯaqāfī al-ʻArabiyy, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2012",
+     "publisher": "al-Markaz al-Ṯaqāfī al-ʻArabiyy",
+     "place": "al-Dār al-Bayḍāʼ ; Bayrūt"
+    },
+    {
+     "bid": "UBO4342412",
+     "title": "Buneng chengshou de shengming zhi qing / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Shanghai : Shanghai yi wen chu ban she, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2017",
+     "publisher": "Shanghai yi wen chu ban she",
+     "place": "Shanghai"
+    },
+    {
+     "bid": "PUV1119541",
+     "title": "Nesnesitelná lehkost bytí : roman s doslovem kvetoslava chvatika a poznamkou autora / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Brno : Atlantis, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "2007",
+     "publisher": "Atlantis",
+     "place": "Brno"
+    },
+    {
+     "bid": "PUV0844867",
+     "title": "Nesnesitelna lehkost byti / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Toronto : Sixty-Eight Publ., 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "1985",
+     "publisher": "Sixty-Eight Publ.",
+     "place": "Toronto"
+    },
+    {
+     "bid": "LIA0075524",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze",
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAR0881724",
+     "title": "The unbearable lightness of being / Milan Kundera ; translated from the Czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "London : Faber and Faber, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1999",
+     "publisher": "Faber and Faber",
+     "place": "London"
+    },
+    {
+     "bid": "RMB0692439",
+     "title": "The unbearable lightness of being : a novel / Milan Kundera ; translated from the Czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "[New York] : Olive, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2008",
+     "publisher": "Olive",
+     "place": "New York"
+    },
+    {
+     "bid": "RLZ0100986",
+     "title": "The Unbearable Lightness of Being / Milan Kundera ; translated from the czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "London ; Boston : Faber and Faber, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1984",
+     "publisher": "Faber and Faber",
+     "place": "London ; Boston"
+    },
+    {
+     "bid": "PAL0265090",
+     "title": "The unbearable lightness of being / Milan Kundera ; translated from the czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "New York : Harper Perennial, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1991",
+     "publisher": "Harper Perennial",
+     "place": "New York"
+    },
+    {
+     "bid": "TSA1368312",
+     "title": "The unbearable lightness of being / Milan Kundera ; translated from the Czech by Michael Heim",
+     "author": "Kundera, Milan",
+     "imprint": "New York ; Boston : Faber and Faber, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1988",
+     "publisher": "Faber and Faber",
+     "place": "New York ; Boston"
+    },
+    {
+     "bid": "BIA0027218",
+     "title": "The Unbearable Lightness of Being / Milan Kundera ; translated from the Czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "London : Faber and Faber, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1995",
+     "publisher": "Faber and Faber",
+     "place": "London"
+    },
+    {
+     "bid": "RCA0571913",
+     "title": "The unbearable lightness of being / Milan Kundera ; translated from the Czech by Michael Heim",
+     "author": "Kundera, Milan",
+     "imprint": "New York [etc.] : Harper Colophon Books, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1985",
+     "publisher": "Harper Colophon Books",
+     "place": "New York etc."
+    },
+    {
+     "bid": "UBO3967811",
+     "title": "The Unbearable Lightness of Being / Milan Kundera ; translated from the czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "London ; Boston : Faber and Faber, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1985",
+     "publisher": "Faber and Faber",
+     "place": "London ; Boston"
+    },
+    {
+     "bid": "UBO2232068",
+     "title": "The unbearable lightness of being / Milan Kundera ; translated from the Czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "London ; Boston : Faber and Faber, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1984",
+     "publisher": "Faber and Faber",
+     "place": "London ; Boston"
+    },
+    {
+     "bid": "LO11390654",
+     "title": "L'insoutenable legerete de l'etre : roman / Milan Kundera ; traduit du tcheque par Francois Kerel",
+     "author": "Kundera, Milan",
+     "imprint": "Paris : France Loisirs, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1984",
+     "publisher": "France Loisirs",
+     "place": "Paris"
+    },
+    {
+     "bid": "PAL0228245",
+     "title": "L'insoutenable legerete de l'etre : roman / Milan Kundera : traduit du tcheque par Francois Kerel ; revu par l'auteur",
+     "author": "Kundera, Milan",
+     "imprint": "[Paris] : Gallimard, stampa 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2007",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "TO00682314",
+     "title": "L'insoutenable legerete de l'etre : roman / Milan Kundera : traduit du tcheque par Francois Kerel",
+     "author": "Kundera, Milan",
+     "imprint": "<Paris> : Gallimard, c1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1987",
+     "publisher": "Gallimard",
+     "place": "<Paris>"
+    },
+    {
+     "bid": "URB0467704",
+     "title": "L'insoutenable legerete de l'etre : roman / Milan Kundera ; traduit du tcheque par Francois Kerel",
+     "author": "Kundera, Milan",
+     "imprint": "[Paris] : Gallimard, [1984]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1984",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "TSA0725592",
+     "title": "L'insoutenable légèreté de l'être / Milan Kundera ; traduit du tchèque par François Kérel ; postface de François Ricard",
+     "author": "Kundera, Milan",
+     "imprint": "Paris : Gallimard, c1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1989",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "UFI0567452",
+     "title": "{OEuvre : edition definitive}1 / preface et biographie de l'oeuvre par Francois Ricard",
+     "author": "Kundera, Milan",
+     "imprint": "[Paris] : Gallimard, [2011]",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2011",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "LIG0295096",
+     "title": "Die unerträgliche Leichtigkeit des Seins / Milan Kundera. Aus dem Tschech. von Susanna Roth",
+     "author": "Kundera, Milan",
+     "imprint": "München : Süddt. Zeitung GmbH, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2004",
+     "publisher": "Süddt. Zeitung GmbH",
+     "place": "München"
+    },
+    {
+     "bid": "RCA0661960",
+     "title": "Die unerträgliche Leichtigkeit des Seins : roman / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Munchen ; Wien : Carl Verlages, 1984",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1984",
+     "publisher": "Carl Verlages",
+     "place": "Munchen ; Wien"
+    },
+    {
+     "bid": "UBO2634186",
+     "title": "Die unertragliche Leichtigkeit des Seins : Roman / Milan Kundera ; aus dem Tschechischen von Susanna Roth",
+     "author": "Kundera, Milan",
+     "imprint": "Frankfurt am Main : Fischer Taschenbuch, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1988",
+     "publisher": "Fischer Taschenbuch",
+     "place": "Frankfurt am Main"
+    },
+    {
+     "bid": "UBO2396512",
+     "title": "Die unertragliche Leichtigkeit des Seins : Roman / Milan Kundera ; aus dem Tschechischen von Susanna Roth",
+     "author": "Kundera, Milan",
+     "imprint": "Frankfurt am Main : Fischer Taschenbuch Verlag, 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2003",
+     "publisher": "Fischer Taschenbuch Verlag",
+     "place": "Frankfurt am Main"
+    },
+    {
+     "bid": "UBO4300581",
+     "title": "Die unerträgliche Leichtigkeit des Seins : Roman / Milan Kundera ; aus dem Tschechischen von Susanna Roth",
+     "author": "Kundera, Milan",
+     "imprint": "Frankfurt am Main : Fischer Taschenbuch, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "1987",
+     "publisher": "Fischer Taschenbuch",
+     "place": "Frankfurt am Main"
+    },
+    {
+     "bid": "LIG0030905",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BAS0286665",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BAS0130823",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RLZ0215954",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano ; Adelphi, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Milano ; Adelphi",
+     "place": null
+    },
+    {
+     "bid": "TO10021402",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2384013",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0156916",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "ANA0305147",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "AGR0002380",
+     "title": "L'insostenibile leggerezza dell' essere / MIlan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2011",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0496086",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1993",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1993",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIA0557727",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0828540",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BVE0441916",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0142979",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : CDE, stampa 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0192086",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : CDE, [1989]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0158647",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1559561",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano :Adelphi, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Milano :Adelphi",
+     "place": null
+    },
+    {
+     "bid": "TO01059636",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1028101",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1988",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1988",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0159009",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2001",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2001",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PAL0305571",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2556403",
+     "title": "L' insostenibile leggerezza dell'essere / MIlan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi Edizioni, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Adelphi Edizioni",
+     "place": "Milano"
+    },
+    {
+     "bid": "PBE0088501",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, [1986]",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00342837",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BIA0010366",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2000",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2000",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO11668697",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Mondolibri, 2009",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2009",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00557491",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1996",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UMC0982412",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : CDE, stampa 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0130459",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1989",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1989",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "NAP0717377",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS2777269",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01624066",
+     "title": "L' insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "PUV0730430",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "CAM0219314",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0469295",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UFI0381710",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "USM1974045",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10116079",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10076264",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00942075",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : CDE, stampa 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "IEI0394837",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "CSA0113288",
+     "title": "L' insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "LO10581365",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1986",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1986",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UMC0701808",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2006",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2006",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1992154",
+     "title": "The unbearable lightness of being / Milan Kundera ; translated from the Czech by Michael Henry Heim",
+     "author": "Kundera, Milan",
+     "imprint": "New York : Harper Collins Publishers, 1999",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1999",
+     "publisher": "Harper Collins Publishers",
+     "place": "New York"
+    },
+    {
+     "bid": "UBO3021839",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; legge: Medea Gibelli Broglio",
+     "author": "Kundera, Milan",
+     "imprint": "Feltre : Centro Internazionale del Libro parlato, [dopo il 2005]",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2005",
+     "publisher": "Centro Internazionale del Libro parlato, dopo il",
+     "place": "Feltre"
+    },
+    {
+     "bid": "RMB0798742",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; letto da Fabrizio Bentivoglio ; [regia: Valia Santella]",
+     "author": "Kundera, Milan",
+     "imprint": "[Roma] : GEDI gruppo editoriale, 2017",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "GEDI gruppo editoriale",
+     "place": "Roma"
+    },
+    {
+     "bid": "RAV2034008",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; letto da Fabrizio Bentivoglio ; [regia di Valia Santella]",
+     "author": "Kundera, Milan",
+     "imprint": "Roma : Emons Italia, 2015",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "AQ10128553",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BA10168927",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "CFI0747117",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2010",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2010",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIG0057240",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2008",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV0041093",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS1782531",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RL10063757",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01084222",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; traduzione di Giuseppe Dierna (Antonio Barbato)",
+     "author": "Kundera, Milan",
+     "imprint": "Roma : La biblioteca di Repubblica, c2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "La biblioteca di Repubblica",
+     "place": "Roma"
+    },
+    {
+     "bid": "PUG0017084",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2023",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2023",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMS0160513",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1990",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1990",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UBO0136957",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : CDE, stampa 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV1346082",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; traduzione di Giuseppe Dierna",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Mondolibri, stampa 2003",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2003",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIG0513892",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2026",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2026",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "BRI0009969",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1991",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1991",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01973170",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; [traduzione di Giuseppe Dierna (Antonio Barbato)]",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1985",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO00631633",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; traduzione di Antonio Barbato",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : CDE, stampa 1995",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO01650721",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2002",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "MIL1151723",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Mondolibri, stampa 2024",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2024",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0258550",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2013",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "UFE1083328",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 1987",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1987",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "VIA0398665",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; traduzione di Antonio Barbato",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : CDE, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1992",
+     "publisher": "CDE",
+     "place": "Milano"
+    },
+    {
+     "bid": "UM10084760",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2004",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "URB0954369",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Adelphi, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2022",
+     "publisher": "Adelphi",
+     "place": "Milano"
+    },
+    {
+     "bid": "RAV2004422",
+     "title": "L'insostenibile leggerezza dell'essere / Milan Kundera ; con un'intervista di Paolo Di Stefano a Roberto Calasso",
+     "author": "Kundera, Milan",
+     "imprint": "Milano : Corriere della Sera, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2014",
+     "publisher": "Corriere della Sera",
+     "place": "Milano"
+    },
+    {
+     "bid": "RMB0682241",
+     "title": "Nieznosna lekkosc bytu / Milan Kundera ; przelozyla Agnieszka Holland",
+     "author": "Kundera, Milan",
+     "imprint": "Warszawa : Panstwowy Instytut Wydawniczy, 1996",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "1996",
+     "publisher": "Panstwowy Instytut Wydawniczy",
+     "place": "Warszawa"
+    },
+    {
+     "bid": "RT10035827",
+     "title": "Insuportabila uṣurătate a fiinṭei / Milan Kundera ; traducere din cehă de Jean Grosu",
+     "author": "Kundera, Milan",
+     "imprint": "Bucureṣti : Humanitas, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2013",
+     "publisher": "Humanitas",
+     "place": "Bucureṣti"
+    },
+    {
+     "bid": "UBO3863580",
+     "title": "Insuportabila usuratate a fiintei / Milan Kundera ; traducere din ceha de Jean Grosu",
+     "author": "Kundera, Milan",
+     "imprint": "Bucuresti : Humanitas, 2007",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2007",
+     "publisher": "Humanitas",
+     "place": "Bucuresti"
+    },
+    {
+     "bid": "RAV1292208",
+     "title": "Nevynosimaja legkost' bytija : roman / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Sankt-Peterburg : Azbuka-klassika, 2004",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2004",
+     "publisher": "Azbuka-klassika",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "UBO4001357",
+     "title": "Njevynosimaja ljegkost bytija : roman / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Sankt-Peterburg : Azbuka Klassika, 2005",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2005",
+     "publisher": "Azbuka Klassika",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "UBO2593773",
+     "title": "Nevynosimaja legkost' bytija / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Sankt-Peterburg : Azbuka-klassika, 2002",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2002",
+     "publisher": "Azbuka-klassika",
+     "place": "Sankt-Peterburg"
+    },
+    {
+     "bid": "TSA1603819",
+     "title": "Neznosna lahkost bivanja : roman / Milan Kundera",
+     "author": "Kundera, Milan",
+     "imprint": "Ljubljana : Mladinska knjiga, 1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slv",
+     "langs": [
+      "slv"
+     ],
+     "year": "1985",
+     "publisher": "Mladinska knjiga",
+     "place": "Ljubljana"
+    },
+    {
+     "bid": "LO11265422",
+     "title": "La insoportable levedad del ser / Milano Kundera, - Barcelona : RBA editores, 1992",
+     "author": "Kundera, Milan",
+     "imprint": "Testo - Monografia [IT\\ICCU\\LO1\\1265422]",
+     "infos_n": 1,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": null,
+     "publisher": "Testo - Monografia ITICCULO11265422",
+     "place": null
+    },
+    {
+     "bid": "UBO3911545",
+     "title": "La insoportable levedad del ser / Milan Kundera ; traducción de Fernando Valenzuela",
+     "author": "Kundera, Milan",
+     "imprint": "Barcelona : Tusquets, 2008",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2008",
+     "publisher": "Tusquets",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "RMB0814066",
+     "title": "Varolmanın Dayanılmaz Hafifliği / Milan Kundera ; çeviri : Fatih Özgüven",
+     "author": "Kundera, Milan",
+     "imprint": "Istanbul : Can Sanat Yayinlari, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2015",
+     "publisher": "Can Sanat Yayinlari",
+     "place": "Istanbul"
+    },
+    {
+     "bid": "UBO4678027",
+     "title": "Nesterpna legkist buttja / Milan Kundera ; trad. Leonid Konnonovič",
+     "author": "Kundera, Milan",
+     "imprint": "Lviv : Vydavnyctvo Starogo Leva, 2022",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ukr",
+     "langs": [
+      "ukr"
+     ],
+     "year": "2022",
+     "publisher": "Vydavnyctvo Starogo Leva",
+     "place": "Lviv"
+    }
+   ],
+   "entries": [
+    "cze",
+    "eng",
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL8972751W",
+  "size": 81,
+  "rows": 81,
+  "languages": 14,
+  "language_codes": [
+   "ara",
+   "chi",
+   "cmn",
+   "cze",
+   "eng",
+   "fre",
+   "ger",
+   "ita",
+   "pol",
+   "rum",
+   "rus",
+   "spa",
+   "tur",
+   "vie"
+  ],
+  "year_parsed": 78,
+  "year_parse_failures": [
+   {
+    "key": "/books/OL13627390M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL9149762M",
+    "publish_date": null
+   },
+   {
+    "key": "/books/OL9105377M",
+    "publish_date": null
+   }
+  ],
+  "publisher_present": 78,
+  "language_present": 68,
+  "requests": 21,
+  "failed": [],
+  "wall_s": 12.3,
+  "items": [
+   {
+    "key": "/books/OL39375228M",
+    "title": "Unbearable Lightness of Being",
+    "publish_date": "2023",
+    "year": "2023",
+    "publishers": [
+     "HarperCollins Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780063290648"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL48575919M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "1988",
+    "year": "1988",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8472232255"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL37807726M",
+    "title": "Die Unerträgliche Leichtigkeit des Seins",
+    "publish_date": "July 1987",
+    "year": "1987",
+    "publishers": [
+     "Fischer Taschenbuch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596259924"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL12577910M",
+    "title": "Unbearable Lightness of Being",
+    "publish_date": "1998",
+    "year": "1998",
+    "publishers": [
+     "Books On Tape"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "5553667674"
+    ],
+    "isbn_13": [
+     "9785553667672"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL36784997M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [
+     "Planeta"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789706991935"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL35868042M",
+    "title": "Unbearable Lightness of Being",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Faber & Faber, Limited"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780571367641"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL35888837M",
+    "title": "Unbearable Lightness of Being",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "HarperCollins Publishers"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9780061686696"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL32231364M",
+    "title": "Nieznosna lekkosc bytu",
+    "publish_date": "Apr 23, 2014",
+    "year": "2014",
+    "publishers": [
+     "W.A.B. / GW Foksal"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8377479109"
+    ],
+    "isbn_13": [
+     "9788377479100"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL32199910M",
+    "title": "Varolmanin Dayanilmaz Hafifligi",
+    "publish_date": "Apr 13, 2015",
+    "year": "2015",
+    "publishers": [
+     "Can Yayinlari"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9750726170"
+    ],
+    "isbn_13": [
+     "9789750726170"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL32121072M",
+    "title": "L'insostenibile leggerezza dell'essere",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Gruppo editoriale L'Espresso"
+    ],
+    "publish_places": [
+     "Roma"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8481304999"
+    ],
+    "isbn_13": [
+     "9788481304992"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL32114258M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9584238590"
+    ],
+    "isbn_13": [
+     "9789584238597"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL32108358M",
+    "title": "Insuportabila uşurătate a fiinţei",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Humanitas"
+    ],
+    "publish_places": [
+     "Bucureşti"
+    ],
+    "languages": [
+     "rum"
+    ],
+    "isbn_10": [
+     "9735040808"
+    ],
+    "isbn_13": [
+     "9789735040802"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL30124581M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "Sep 30, 2004",
+    "year": "2004",
+    "publishers": [
+     "Faber & Faber Ltd"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0571224385"
+    ],
+    "isbn_13": [
+     "9780571224388"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL32150408M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Harper & Row"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060912529"
+    ],
+    "isbn_13": [
+     "9780060912529"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL28013913M",
+    "title": "Die unerträgliche Leichtigkeit des Seins",
+    "publish_date": "Aug 01, 2009",
+    "year": "2009",
+    "publishers": [
+     "FISCHER Taschenbuch"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "359651097X"
+    ],
+    "isbn_13": [
+     "9783596510979"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL30542150M",
+    "title": "Die unerträgliche Leichtigkeit des Seins.",
+    "publish_date": "Oct 05, 2004",
+    "year": "2004",
+    "publishers": [
+     "Bange"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3596502128"
+    ],
+    "isbn_13": [
+     "9783596502127"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL27939407M",
+    "title": "生命中不能承受之轻",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "敦煌文艺出版社"
+    ],
+    "publish_places": [
+     "兰州"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7805874697"
+    ],
+    "isbn_13": [
+     "9787805874692"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL27928841M",
+    "title": "不能承受的生命之轻",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "上海译文出版社"
+    ],
+    "publish_places": [
+     "Shanghai"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "7532731073"
+    ],
+    "isbn_13": [
+     "9787532731077"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL27184342M",
+    "title": "Nevynosimai︠a︡ legkostʹ bytii︠a︡",
+    "publish_date": "2014",
+    "year": "2014",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5389083083"
+    ],
+    "isbn_13": [
+     "9785389083080"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL27032004M",
+    "title": "Die unerträgliche Leichtigkeit des Seins",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Niemeyer"
+    ],
+    "publish_places": [
+     "Hameln"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3875858794"
+    ],
+    "isbn_13": [
+     "9783875858792"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26498384M",
+    "title": "Die unerträgliche Leichtigkeit des Seins",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Süddeutsche Zeitung"
+    ],
+    "publish_places": [
+     "München"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3937793003"
+    ],
+    "isbn_13": [
+     "9783937793009"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26333393M",
+    "title": "Sheng ming zhong bu neng cheng shou zhi qing",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Huang guan wen hua chu ban you xian gong si"
+    ],
+    "publish_places": [
+     "Taibei Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9573320673"
+    ],
+    "isbn_13": [
+     "9789573320678"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26271223M",
+    "title": "Nevynosimai Ła legkost £ bytii Ła",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Amfora"
+    ],
+    "publish_places": [
+     "Sankt-Peterburg"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5830100770"
+    ],
+    "isbn_13": [
+     "9785830100779"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26241717M",
+    "title": "L'insostenible leggerezza dell'essere",
+    "publish_date": "1993",
+    "year": "1993",
+    "publishers": [
+     "Adelphi"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8845906868"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26241708M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8483103664"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26241706M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2008",
+    "year": "2008",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788483835128"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26241704M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2010",
+    "year": "2010",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789871210756"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL26231890M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "RBA"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8447300048"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL25573575M",
+    "title": "Varolmanın Dayanılmaz Hafifliği",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "I letis ʹim",
+     "Iletisim Yayincilik",
+     "İletişim"
+    ],
+    "publish_places": [
+     "I stanbul"
+    ],
+    "languages": [
+     "tur"
+    ],
+    "isbn_10": [
+     "9754700125"
+    ],
+    "isbn_13": [
+     "9789754700121"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL25557778M",
+    "title": "L'insostenibile leggerezza dell'essere",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Adelphi"
+    ],
+    "publish_places": [
+     "Milano"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8845906043"
+    ],
+    "isbn_13": [
+     "9788845906046"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL2672080M",
+    "title": "L' insoutenable légèreté de l'être",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2070700720"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL24090760M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "October 27, 2009",
+    "year": "2009",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0061148520"
+    ],
+    "isbn_13": [
+     "9780061148521"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL7985464M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "January 1999",
+    "year": "1999",
+    "publishers": [
+     "ISIS Audio Books",
+     "Isis Audio Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0753104695"
+    ],
+    "isbn_13": [
+     "9780753104699"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL22145099M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Faber and Faber"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0571200834"
+    ],
+    "isbn_13": [
+     "9780571200832"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL3006102M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Faber and Faber"
+    ],
+    "publish_places": [
+     "London",
+     "Boston"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "057113209X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9239791M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "May 1, 1999",
+    "year": "1999",
+    "publishers": [
+     "Harper Perennial Modern Classics"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060932139"
+    ],
+    "isbn_13": [
+     "9780060932138"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL22388780M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1995",
+    "year": "1995",
+    "publishers": [
+     "Faber",
+     "Faber and Faber"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0571176569"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL2086355M",
+    "title": "Nesnesitelná lehkost bytí",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Sixty-Eight Publishers"
+    ],
+    "publish_places": [
+     "Toronto, On., Canada"
+    ],
+    "languages": [
+     "cze"
+    ],
+    "isbn_10": [
+     "0887811469"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL7284291M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "February 1988",
+    "year": "1988",
+    "publishers": [
+     "Harpercollins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060914653"
+    ],
+    "isbn_13": [
+     "9780060914653"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL13627390M",
+    "title": "The unbearable lightness of being.",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL22374408M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060914653"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL16763458M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1991",
+    "year": "1991",
+    "publishers": [
+     "HarperPerennial"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060914653"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL3187189M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Harper & Row"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060152583"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL22500065M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Faber and Faber"
+    ],
+    "publish_places": [
+     "London"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "057113209X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL3382996M",
+    "title": "The unbearable lightness of being",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "HarperCollins"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060597186"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL7985565M",
+    "title": "The Unbearable Lightness Of Being",
+    "publish_date": "October 31, 1999",
+    "year": "1999",
+    "publishers": [
+     "ISIS Audio Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0753107147"
+    ],
+    "isbn_13": [
+     "9780753107140"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL19270161M",
+    "title": "Nesnesitelná lehkost bytí",
+    "publish_date": "2006",
+    "year": "2006",
+    "publishers": [
+     "Atlantis"
+    ],
+    "publish_places": [
+     "Brno"
+    ],
+    "languages": [
+     "cze"
+    ],
+    "isbn_10": [
+     "8071082813"
+    ],
+    "isbn_13": [
+     "9788071082811"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL7285084M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "May 1, 1999",
+    "year": "1999",
+    "publishers": [
+     "Harper Perennial Modern Classics",
+     "HarperPerennial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060932139"
+    ],
+    "isbn_13": [
+     "9780060932138"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL7856078M",
+    "title": "Unbearable Lightness of Being",
+    "publish_date": "July 1996",
+    "year": "1996",
+    "publishers": [
+     "Faber Faber Inc",
+     "Faber and Faber"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "0571135390"
+    ],
+    "isbn_13": [
+     "9780571135394"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9238998M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "February 1988",
+    "year": "1988",
+    "publishers": [
+     "Harpercollins"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0060914653"
+    ],
+    "isbn_13": [
+     "9780060914653"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL7857435M",
+    "title": "THE UNBEARABLE LIGHTNESS OF BEING.",
+    "publish_date": "1999",
+    "year": "1999",
+    "publishers": [
+     "Faber"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0571200834"
+    ],
+    "isbn_13": [
+     "9780571200832"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL32639644M",
+    "title": "Die Unerträgliche Leichtigkeit des Seins",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Süddeutsche Zeitung GmbH"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3937793003"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL35346854M",
+    "title": "Die Unerträgliche Leichtigkeit des Seins",
+    "publish_date": "2001-10",
+    "year": "2001",
+    "publishers": [
+     "Fischer Taschenbuch Verlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596259924"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL22219004M",
+    "title": "L' insoutenable légèreté de l'être",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Gallimard",
+     "GALLIMARD"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "207038165X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL21771978M",
+    "title": "The Unbearable Lightness of Being",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2070709639"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL8840397M",
+    "title": "L'Insoutenable légèreté de l'être",
+    "publish_date": "April 22, 1987",
+    "year": "1987",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2070709639"
+    ],
+    "isbn_13": [
+     "9782070709632"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL23025743M",
+    "title": "Đxoi nhẹ khôn kham",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Văn Học"
+    ],
+    "publish_places": [
+     "[United States]"
+    ],
+    "languages": [
+     "vie"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL22948307M",
+    "title": "Sheng ming zhong bu neng cheng shou zhi qing",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Shi bao wen hua chu ban qi yeh yu xian gong si"
+    ],
+    "publish_places": [
+     "Taibei Shi"
+    ],
+    "languages": [
+     "chi"
+    ],
+    "isbn_10": [
+     "9571301183"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL21585516M",
+    "title": "Nieznośna lekkość bytu",
+    "publish_date": "1984",
+    "year": "1984",
+    "publishers": [
+     "Aneks"
+    ],
+    "publish_places": [
+     "Londyn"
+    ],
+    "languages": [
+     "pol"
+    ],
+    "isbn_10": [
+     "0906601150"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL23033660M",
+    "title": "Nevynosimai︠a︡ legkostʹ bytii︠a︡",
+    "publish_date": "2003",
+    "year": "2003",
+    "publishers": [
+     "\"Azbuka-klassika\""
+    ],
+    "publish_places": [
+     "Sankt-Peterburg"
+    ],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5352005585"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL15574300M",
+    "title": "Nevynosimaia legkost' bytiia.",
+    "publish_date": "2002",
+    "year": "2002",
+    "publishers": [
+     "Azbuka"
+    ],
+    "publish_places": [],
+    "languages": [
+     "rus"
+    ],
+    "isbn_10": [
+     "5352002187"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL20654228M",
+    "title": "L' insostenibile leggerezza dell'essere.",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Adelphi"
+    ],
+    "publish_places": [
+     "Miano"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "8845906868"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL15278743M",
+    "title": "Die unertr\"agliche Leichtigkeit des Seins",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Fischer Taschenbuch",
+     "Fischer"
+    ],
+    "publish_places": [
+     "Frankfurt"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596112087"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9046811M",
+    "title": "Die unertraegliche Leichtigkeit des Seins.",
+    "publish_date": "January 1, 1995",
+    "year": "1995",
+    "publishers": [
+     "Oldenbourg Schulbuchverlag"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3486886746"
+    ],
+    "isbn_13": [
+     "9783486886740"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL23110220M",
+    "title": "Khiftu al-kāʾin allatī lā tuḥtamilu",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Dār al-Ādāb"
+    ],
+    "publish_places": [
+     "Bayrūt"
+    ],
+    "languages": [
+     "ara"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9135509M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8472232255"
+    ],
+    "isbn_13": [
+     "9788472232259"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9135642M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2007",
+    "year": "2007",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "847223682X"
+    ],
+    "isbn_13": [
+     "9788472236820"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9149762M",
+    "title": "The Unbearable Lightness of Being - in Chinese",
+    "publish_date": null,
+    "year": null,
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "cmn"
+    ],
+    "isbn_10": [
+     "9571301183"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9105377M",
+    "title": "Nieznosna Lekkosc Bytu",
+    "publish_date": null,
+    "year": null,
+    "publishers": [
+     "Koch, Neff & Oetinger & Co"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8306025342"
+    ],
+    "isbn_13": [
+     "9788306025347"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9175790M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2000",
+    "year": "2000",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9687723017"
+    ],
+    "isbn_13": [
+     "9789687723013"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9898845M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "2004",
+    "year": "2004",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9509779660"
+    ],
+    "isbn_13": [
+     "9789509779662"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL22996850M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8472232255"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL13003115M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "1992",
+    "year": "1992",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "9509779024"
+    ],
+    "isbn_13": [
+     "9789509779020"
+    ],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL25880214M",
+    "title": "La insoportable levedad del ser",
+    "publish_date": "1997",
+    "year": "1997",
+    "publishers": [
+     "Tusquets"
+    ],
+    "publish_places": [
+     "Barcelona, España"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8472232255"
+    ],
+    "isbn_13": [],
+    "translation_of": "Nesnesitelná lehkost bytí",
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9066723M",
+    "title": "Die unerträgliche Leichtigkeit des Seins. Jubiläums- Edition.",
+    "publish_date": "January 1, 2002",
+    "year": "2002",
+    "publishers": [
+     "Fischer (Tb.), Frankfurt"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596505224"
+    ],
+    "isbn_13": [
+     "9783596505227"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL21845413M",
+    "title": "Die unerträgliche Leichtigkeit des Seins",
+    "publish_date": "1987",
+    "year": "1987",
+    "publishers": [
+     "Fischer Taschenbuch"
+    ],
+    "publish_places": [
+     "Frankfurt"
+    ],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3596259924"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9036269M",
+    "title": "Die unerträgliche Leichtigkeit des Seins.",
+    "publish_date": "January 1, 1984",
+    "year": "1984",
+    "publishers": [
+     "Carl Hanser"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [
+     "3446141057"
+    ],
+    "isbn_13": [
+     "9783446141056"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL9066621M",
+    "title": "Die Unertragliche Leichtigkeit des Seins...The Unbearable Lightness of Being",
+    "publish_date": "October 1997",
+    "year": "1997",
+    "publishers": [
+     "Distribooks Inc"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3596259924"
+    ],
+    "isbn_13": [
+     "9783596259922"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL8838513M",
+    "title": "L'Insoutenable Legerete de l'Etre",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "Gallimard French"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "207038165X"
+    ],
+    "isbn_13": [
+     "9782070381654"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL8171898M",
+    "title": "L'Insoutenable Legerete de l'Etre",
+    "publish_date": "October 1, 1989",
+    "year": "1989",
+    "publishers": [
+     "French & European Pubns"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0828836981"
+    ],
+    "isbn_13": [
+     "9780828836982"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   },
+   {
+    "key": "/books/OL8104074M",
+    "title": "L'\\Insoutenable Legerete De l'Etre",
+    "publish_date": "October 1, 1989",
+    "year": "1989",
+    "publishers": [
+     "French & European Pubns"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0785926577"
+    ],
+    "isbn_13": [
+     "9780785926573"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL8972751W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 12.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 20,
+   "failed": 0,
+   "total_s": 14.22,
+   "p50_s": 0.795,
+   "max_s": 1.754
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 12.29,
+   "p50_s": 12.289,
+   "max_s": 12.289
+  }
+ },
+ "failures": []
+}

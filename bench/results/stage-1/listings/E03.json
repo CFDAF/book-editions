@@ -1,0 +1,287 @@
+{
+ "id": "E03",
+ "sbn": [
+  {
+   "W": "bruits : essai sur l'economie politique de la musique",
+   "author": "Jacques Attali",
+   "total": 3,
+   "lingua_facet": [
+    [
+     "eng",
+     1
+    ],
+    [
+     "fre",
+     1
+    ],
+    [
+     "ita",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 3,
+   "rows": 3,
+   "multilingual_rows": 0,
+   "languages": 3,
+   "bogus_lingua_total": 0,
+   "year_parsed": 3,
+   "year_parse_failures": [],
+   "publisher_present": 3,
+   "language_present": 3,
+   "records_on_no_language_page": [],
+   "requests": 5,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 0.8,
+   "items": [
+    {
+     "bid": "LO10442107",
+     "title": "Noise : The political economy of music / Jacques Attali ; Translated by Brian Massumi ; Foreword by Fredric Jameson ; Afterword by Susan McClary",
+     "author": "Attali, Jacques",
+     "imprint": "\\Manchester! : Manchester University Press, ©1985",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "1985",
+     "publisher": "Manchester University Press",
+     "place": "Manchester"
+    },
+    {
+     "bid": "RAV0708340",
+     "title": "Bruits : essai sur l'économie politique de la musique / Jacques Attali",
+     "author": "Attali, Jacques",
+     "imprint": "Vendôme : Presses universitaires de France, \\1977!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1977",
+     "publisher": "Presses universitaires de France",
+     "place": "Vendôme"
+    },
+    {
+     "bid": "RAV0064979",
+     "title": "Rumori : saggio sull'economia politica della musica / Jacques Attali",
+     "author": "Attali, Jacques",
+     "imprint": "Milano : Mazzotta, c1978,, stampa 1977",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1978",
+     "publisher": "Mazzotta",
+     "place": "Milano"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng",
+    "fre"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL685250W",
+  "size": 7,
+  "rows": 7,
+  "languages": 2,
+  "language_codes": [
+   "eng",
+   "fre"
+  ],
+  "year_parsed": 7,
+  "year_parse_failures": [],
+  "publisher_present": 7,
+  "language_present": 6,
+  "requests": 6,
+  "failed": [],
+  "wall_s": 4.3,
+  "items": [
+   {
+    "key": "/books/OL21166249M",
+    "title": "Noise",
+    "publish_date": "1989",
+    "year": "1989",
+    "publishers": [
+     "University of Minnesota Press"
+    ],
+    "publish_places": [
+     "Minneapolis"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0816612862",
+     "0816612870"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL685250W"
+    ]
+   },
+   {
+    "key": "/books/OL2865056M",
+    "title": "Noise",
+    "publish_date": "1985",
+    "year": "1985",
+    "publishers": [
+     "University of Minnesota Press"
+    ],
+    "publish_places": [
+     "Minneapolis"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0816612862",
+     "0816612870"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL685250W"
+    ]
+   },
+   {
+    "key": "/books/OL4625368M",
+    "title": "Bruits",
+    "publish_date": "1977",
+    "year": "1977",
+    "publishers": [
+     "Presses universitaires de France"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL685250W"
+    ]
+   },
+   {
+    "key": "/books/OL8069893M",
+    "title": "Noise",
+    "publish_date": "June 1985",
+    "year": "1985",
+    "publishers": [
+     "University of Minnesota Press"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "0816612870"
+    ],
+    "isbn_13": [
+     "9780816612871"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL685250W"
+    ]
+   },
+   {
+    "key": "/books/OL8865228M",
+    "title": "Bruits",
+    "publish_date": "May 3, 2001",
+    "year": "2001",
+    "publishers": [
+     "Fayard"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2213609500"
+    ],
+    "isbn_13": [
+     "9782213609508"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL685250W"
+    ]
+   },
+   {
+    "key": "/books/OL22491678M",
+    "title": "Bruits",
+    "publish_date": "2001",
+    "year": "2001",
+    "publishers": [
+     "Fayard/PUF"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2213609500"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL685250W"
+    ]
+   },
+   {
+    "key": "/books/OL7839154M",
+    "title": "Noise",
+    "publish_date": "December 31, 1985",
+    "year": "1985",
+    "publishers": [
+     "Manchester University Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0719014700"
+    ],
+    "isbn_13": [
+     "9780719014703"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL685250W"
+    ]
+   }
+  ],
+  "how": "original_core, strict author match"
+ },
+ "wall_s": 4.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 1.61,
+   "p50_s": 0.369,
+   "max_s": 0.423
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 4.34,
+   "p50_s": 4.343,
+   "max_s": 4.343
+  }
+ },
+ "failures": []
+}

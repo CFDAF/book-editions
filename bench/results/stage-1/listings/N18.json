@@ -1,0 +1,280 @@
+{
+ "id": "N18",
+ "sbn": [
+  {
+   "W": "capitalist realism : is there no alternative?",
+   "author": "Mark Fisher",
+   "total": 2,
+   "lingua_facet": [
+    [
+     "ita",
+     2
+    ]
+   ],
+   "lingua_facet_sum": 2,
+   "rows": 2,
+   "multilingual_rows": 0,
+   "languages": 1,
+   "bogus_lingua_total": 0,
+   "year_parsed": 2,
+   "year_parse_failures": [],
+   "publisher_present": 2,
+   "language_present": 2,
+   "records_on_no_language_page": [],
+   "requests": 4,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 4.2,
+   "items": [
+    {
+     "bid": "TO02095517",
+     "title": "Realismo capitalista / Mark Fisher ; traduzione e prefazione di Valerio Mattioli",
+     "author": "Fisher, Mark <1968-2017>",
+     "imprint": "Roma : Nero, 2021",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2021",
+     "publisher": "Nero",
+     "place": "Roma"
+    },
+    {
+     "bid": "UTO1280621",
+     "title": "Realismo capitalista / Mark Fisher ; traduzione e prefazione di Valerio Mattioli",
+     "author": "Fisher, Mark <1968-2017>",
+     "imprint": "Roma : Nero, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Nero",
+     "place": "Roma"
+    }
+   ],
+   "entries": [
+    "eng",
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL15683250W",
+  "size": 8,
+  "rows": 8,
+  "languages": 4,
+  "language_codes": [
+   "eng",
+   "ita",
+   "por",
+   "rum"
+  ],
+  "year_parsed": 8,
+  "year_parse_failures": [],
+  "publisher_present": 8,
+  "language_present": 7,
+  "requests": 3,
+  "failed": [],
+  "wall_s": 3.5,
+  "items": [
+   {
+    "key": "/books/OL62445406M",
+    "title": "Realism capitalist",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Tact"
+    ],
+    "publish_places": [
+     "Romania"
+    ],
+    "languages": [
+     "rum"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786069039199"
+    ],
+    "translation_of": "Capitalist Realism: Is There No Alternative?",
+    "works": [
+     "/works/OL15683250W"
+    ]
+   },
+   {
+    "key": "/books/OL40325665M",
+    "title": "Realismo capitalista",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Produzioni Nero"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788880560050"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL15683250W"
+    ]
+   },
+   {
+    "key": "/books/OL26855758M",
+    "title": "Realismo capitalista : ¿no hay alternativa? - 1. edición",
+    "publish_date": "2017",
+    "year": "2017",
+    "publishers": [
+     "Caja Negra",
+     "Caja Negra Editora"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9789871622450"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL15683250W"
+    ]
+   },
+   {
+    "key": "/books/OL42732646M",
+    "title": "Capitalist Realism",
+    "publish_date": "2022",
+    "year": "2022",
+    "publishers": [
+     "Hunt Publishing Limited, John",
+     "Zero Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781803414300"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL15683250W"
+    ]
+   },
+   {
+    "key": "/books/OL36800373M",
+    "title": "Capitalist Realism",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Hunt Publishing Limited, John"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781780997346"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL15683250W"
+    ]
+   },
+   {
+    "key": "/books/OL32217094M",
+    "title": "Realismo capitalista",
+    "publish_date": "Jan 24, 2018",
+    "year": "2018",
+    "publishers": [
+     "Produzioni Nero"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8880560050"
+    ],
+    "isbn_13": [
+     "9788880560050"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL15683250W"
+    ]
+   },
+   {
+    "key": "/books/OL30920499M",
+    "title": "Realismo Capitalista",
+    "publish_date": "2009, 2020",
+    "year": "2009",
+    "publishers": [
+     "Autonomia Literária"
+    ],
+    "publish_places": [],
+    "languages": [
+     "por"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9786587233093"
+    ],
+    "translation_of": "Capitalist Realism",
+    "works": [
+     "/works/OL15683250W"
+    ]
+   },
+   {
+    "key": "/books/OL24611852M",
+    "title": "Capitalist Realism",
+    "publish_date": "2009",
+    "year": "2009",
+    "publishers": [
+     "Zero Books"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1846943175"
+    ],
+    "isbn_13": [
+     "9781846943171"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL15683250W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 4.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 4.21,
+   "p50_s": 1.228,
+   "max_s": 2.095
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.5,
+   "p50_s": 3.499,
+   "max_s": 3.499
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,353 @@
+{
+ "id": "N11",
+ "sbn": [
+  {
+   "W": "disparition.",
+   "author": "Georges Perec",
+   "total": 4,
+   "lingua_facet": [
+    [
+     "fre",
+     2
+    ],
+    [
+     "ita",
+     2
+    ]
+   ],
+   "lingua_facet_sum": 4,
+   "rows": 4,
+   "multilingual_rows": 0,
+   "languages": 2,
+   "bogus_lingua_total": 0,
+   "year_parsed": 4,
+   "year_parse_failures": [],
+   "publisher_present": 4,
+   "language_present": 4,
+   "records_on_no_language_page": [],
+   "requests": 4,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 2.4,
+   "items": [
+    {
+     "bid": "BVE0021131",
+     "title": "La disparition / Georges Perec",
+     "author": "Perec, Georges",
+     "imprint": "\\Parigi! : Denoël, stampa 1992",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "1992",
+     "publisher": "Denoël",
+     "place": "Parigi"
+    },
+    {
+     "bid": "TSA1779832",
+     "title": "La disparition : roman / Georges Perec ; préface de Marie Darrieussecq",
+     "author": "Perec, Georges",
+     "imprint": "[Paris] : Denoel, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2019",
+     "publisher": "Denoel",
+     "place": "Paris"
+    },
+    {
+     "bid": "LO11179584",
+     "title": "La scomparsa : romanzo / Georges Perec ; traduzione e postfazione di Piero Falchetta",
+     "author": "Perec, Georges",
+     "imprint": "Napoli : Guida, [2007!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2007",
+     "publisher": "Guida",
+     "place": "Napoli"
+    },
+    {
+     "bid": "RAV0257828",
+     "title": "La scomparsa : romanzo / Georges Perec ; traduzione e postfazione di Piero Falchetta",
+     "author": "Perec, Georges",
+     "imprint": "Napoli : Guida, \\1995!",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "1995",
+     "publisher": "Guida",
+     "place": "Napoli"
+    }
+   ],
+   "entries": [
+    "fre",
+    "ita"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL1715351W",
+  "size": 10,
+  "rows": 10,
+  "languages": 2,
+  "language_codes": [
+   "fre",
+   "ger"
+  ],
+  "year_parsed": 10,
+  "year_parse_failures": [],
+  "publisher_present": 9,
+  "language_present": 9,
+  "requests": 5,
+  "failed": [],
+  "wall_s": 3.3,
+  "items": [
+   {
+    "key": "/books/OL62223660M",
+    "title": "Anton Voyls Fortgang",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Diaphanes"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783037343227"
+    ],
+    "translation_of": "La Disparition",
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL35614867M",
+    "title": "Kaybolus",
+    "publish_date": "Nov 05, 2005",
+    "year": "2005",
+    "publishers": [
+     "Ayrnt Yaynlar",
+     "Ayrinti"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9755394729"
+    ],
+    "isbn_13": [
+     "9789755394725"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL19589815M",
+    "title": "La disparition",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Denoël"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL12452067M",
+    "title": "LA DISPARITION",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Denoel"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2207280470"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL5380622M",
+    "title": "La Disparition",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "les Lettres nouvelles"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL4131557M",
+    "title": "La disparition",
+    "publish_date": "1979",
+    "year": "1979",
+    "publishers": [
+     "Denoël"
+    ],
+    "publish_places": [
+     "Paris"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL21772155M",
+    "title": "La disparition",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Denoël"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "207071523X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL8840456M",
+    "title": "La Disparition",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "207071523X"
+    ],
+    "isbn_13": [
+     "9782070715237"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL18000916M",
+    "title": "La Disparition",
+    "publish_date": "1994",
+    "year": "1994",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [
+     "[Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "207071523X"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   },
+   {
+    "key": "/books/OL19637504M",
+    "title": "La disparition",
+    "publish_date": "1969",
+    "year": "1969",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2207220470"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL1715351W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 3.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 3.19,
+   "p50_s": 0.804,
+   "max_s": 0.853
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 3.34,
+   "p50_s": 3.339,
+   "max_s": 3.339
+  }
+ },
+ "failures": []
+}

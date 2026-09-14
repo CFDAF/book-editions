@@ -1,0 +1,58 @@
+{
+ "id": "E14",
+ "sbn": [],
+ "ol": {
+  "key": "/works/OL23302246W",
+  "size": 1,
+  "rows": 1,
+  "languages": 1,
+  "language_codes": [
+   "fre"
+  ],
+  "year_parsed": 1,
+  "year_parse_failures": [],
+  "publisher_present": 1,
+  "language_present": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 5.5,
+  "items": [
+   {
+    "key": "/books/OL31149107M",
+    "title": "Pour une économie positive",
+    "publish_date": "2013",
+    "year": "2013",
+    "publishers": [
+     "Fayard",
+     "La Documentation française"
+    ],
+    "publish_places": [
+     "Paris]"
+    ],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9782213678207"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL23302246W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 5.5,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 5.45,
+   "p50_s": 5.453,
+   "max_s": 5.453
+  }
+ },
+ "failures": []
+}

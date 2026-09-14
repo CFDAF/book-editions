@@ -1,0 +1,1918 @@
+{
+ "id": "N08",
+ "sbn": [
+  {
+   "W": "amica geniale : infanzia, adolescenza",
+   "author": "Elena Ferrante",
+   "total": 57,
+   "lingua_facet": [
+    [
+     "ita",
+     15
+    ],
+    [
+     "eng",
+     4
+    ],
+    [
+     "fre",
+     3
+    ],
+    [
+     "ara",
+     2
+    ],
+    [
+     "cat",
+     2
+    ],
+    [
+     "chi",
+     2
+    ],
+    [
+     "ger",
+     2
+    ],
+    [
+     "pol",
+     2
+    ],
+    [
+     "rus",
+     2
+    ],
+    [
+     "slo",
+     2
+    ],
+    [
+     "tur",
+     2
+    ],
+    [
+     "alb",
+     1
+    ],
+    [
+     "cze",
+     1
+    ],
+    [
+     "dan",
+     1
+    ],
+    [
+     "dut",
+     1
+    ],
+    [
+     "est",
+     1
+    ],
+    [
+     "fin",
+     1
+    ],
+    [
+     "heb",
+     1
+    ],
+    [
+     "hrv",
+     1
+    ],
+    [
+     "hun",
+     1
+    ],
+    [
+     "ice",
+     1
+    ],
+    [
+     "ind",
+     1
+    ],
+    [
+     "kor",
+     1
+    ],
+    [
+     "lav",
+     1
+    ],
+    [
+     "lit",
+     1
+    ],
+    [
+     "nor",
+     1
+    ],
+    [
+     "rum",
+     1
+    ],
+    [
+     "spa",
+     1
+    ],
+    [
+     "swe",
+     1
+    ],
+    [
+     "ukr",
+     1
+    ]
+   ],
+   "lingua_facet_sum": 57,
+   "rows": 57,
+   "multilingual_rows": 0,
+   "languages": 30,
+   "bogus_lingua_total": 0,
+   "year_parsed": 56,
+   "year_parse_failures": [
+    {
+     "bid": "RL10000219",
+     "imprint": "Testo - Monografia [IT\\ICCU\\RL1\\0000219]"
+    }
+   ],
+   "publisher_present": 57,
+   "language_present": 57,
+   "records_on_no_language_page": [],
+   "requests": 33,
+   "completeness_requests": 0,
+   "failed_pages": [],
+   "wall_s": 13.4,
+   "items": [
+    {
+     "bid": "UBO4282572",
+     "title": "Mikesha gjeniale : fëmijëria, adoleshenca / Elena Ferrante ; përktheu Albana Nexhipi",
+     "author": "Ferrante, Elena",
+     "imprint": "Tirana : Botime Pegi, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "alb",
+     "langs": [
+      "alb"
+     ],
+     "year": "2016",
+     "publisher": "Botime Pegi",
+     "place": "Tirana"
+    },
+    {
+     "bid": "RMB0807370",
+     "title": "Ṣadīqatī al-mudhhilah / Iylīnā Fīrrāntī",
+     "author": "Ferrante, Elena",
+     "imprint": "Bayrūt : Dār al-Ādāb lil-Nashr wa-al-Tawzī, 2020",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2020",
+     "publisher": "Dār al-Ādāb lil-Nashr wa-al-Tawzī",
+     "place": "Bayrūt"
+    },
+    {
+     "bid": "TO10029812",
+     "title": "Sadiqati al-mudhhila : al tufula we al morahka : riwayah / Ilina Firanty ; tarjama ila italia Moawiya Abd El Hamid",
+     "author": "Ferrante, Elena",
+     "imprint": "Bayrout : Daraldab, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ara",
+     "langs": [
+      "ara"
+     ],
+     "year": "2018",
+     "publisher": "Daraldab",
+     "place": "Bayrout"
+    },
+    {
+     "bid": "RMB0799829",
+     "title": "La amiga estupenda / Elena Ferrante ; traduccion de Celia Filipetto",
+     "author": "Ferrante, Elena",
+     "imprint": "Barcelona : Penguin Random House Grupo Editorial, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "2016",
+     "publisher": "Penguin Random House Grupo Editorial",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "RMB0799827",
+     "title": "L' amiga genial : infantesa, adolescencia / Elena Ferrante ; traduccio de Marta Hernandez Pibernat",
+     "author": "Ferrante, Elena",
+     "imprint": "Barcelona : La Campana, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cat",
+     "langs": [
+      "cat"
+     ],
+     "year": "2015",
+     "publisher": "La Campana",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "RMB0800892",
+     "title": "L'*amica geniale : Nabulesi de gushi / Ai lin na Feilan de Elena Ferrante ; wai ijao Li Jingyi",
+     "author": "Ferrante, Elena",
+     "imprint": "New Taipei : Locus publishing company, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2017",
+     "publisher": "Locus publishing company",
+     "place": "New Taipei"
+    },
+    {
+     "bid": "UBO4342031",
+     "title": "Wode tiancai nuyou / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Beijing : Ren min wen xue chu ban she, 2017",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "chi",
+     "langs": [
+      "chi"
+     ],
+     "year": "2017",
+     "publisher": "Ren min wen xue chu ban she",
+     "place": "Beijing"
+    },
+    {
+     "bid": "RMB0797006",
+     "title": "Genialni pritelkyne : detstvi a dospivani / Elena Ferrante ; prelozila Alice Flemrova",
+     "author": "Ferrante, Elena",
+     "imprint": "Praha : Prostor, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "cze",
+     "langs": [
+      "cze"
+     ],
+     "year": "2016",
+     "publisher": "Prostor",
+     "place": "Praha"
+    },
+    {
+     "bid": "RMB0799765",
+     "title": "Min geniale veninde : barndom, tidlig, ungdom / Elena Ferrante ; pa dansk ved Nina Gross",
+     "author": "Ferrante, Elena",
+     "imprint": "Kobenhavn : C&K Forlag, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dan",
+     "langs": [
+      "dan"
+     ],
+     "year": "2014",
+     "publisher": "C&K Forlag",
+     "place": "Kobenhavn"
+    },
+    {
+     "bid": "RMB0800039",
+     "title": "De geniale vriendin : kinderjaren, puberteit / Elena Ferrante ; vertaald uit het italiaans door Marieke van Laake",
+     "author": "Ferrante, Elena",
+     "imprint": "Amsterdam : Wereldbibliotheek, 2013",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "dut",
+     "langs": [
+      "dut"
+     ],
+     "year": "2013",
+     "publisher": "Wereldbibliotheek",
+     "place": "Amsterdam"
+    },
+    {
+     "bid": "TO02006002",
+     "title": "My Brilliant Friend : Book One: Childhood, Adolescence / Elena Ferrante ; translated from the Italian by Ann Goldstein",
+     "author": "Ferrante, Elena",
+     "imprint": "New York : Europa, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2017",
+     "publisher": "Europa",
+     "place": "New York"
+    },
+    {
+     "bid": "UM10178509",
+     "title": "My Brilliant Friend : Book One: Childhood, Adolescence / Elena Ferrante ; translated from the Italian by Ann Goldstein",
+     "author": "Ferrante, Elena",
+     "imprint": "New York : Europa, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2015",
+     "publisher": "Europa",
+     "place": "New York"
+    },
+    {
+     "bid": "RE20001435",
+     "title": "My brilliant friend : book one: childhood, adolescence / Elena Ferrante ; translated from the italian by Ann Goldstein",
+     "author": "Ferrante, Elena",
+     "imprint": "London : Europa Editions, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2020",
+     "publisher": "Europa Editions",
+     "place": "London"
+    },
+    {
+     "bid": "LUA0552009",
+     "title": "My Brilliant Friend : Book One: Childhood, Adolescence / Elena Ferrante ; translated from the Italian by Ann Goldstein",
+     "author": "Ferrante, Elena",
+     "imprint": "London : Europa editions, 2012",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "eng",
+     "langs": [
+      "eng"
+     ],
+     "year": "2012",
+     "publisher": "Europa editions",
+     "place": "London"
+    },
+    {
+     "bid": "RMB0799665",
+     "title": "Minu geniaalne sobranna : lapsepolv, noorus: Napoli-romaanide sarja esimene raamat / Elena Ferrante ; itaalia keelest tolkinud Tiina Randviir",
+     "author": "Ferrante, Elena",
+     "imprint": "Tallinn : Varrak, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "est",
+     "langs": [
+      "est"
+     ],
+     "year": "2016",
+     "publisher": "Varrak",
+     "place": "Tallinn"
+    },
+    {
+     "bid": "RMB0799784",
+     "title": "Loistava ystavani : lapsuus ja nuoruus / Elena Ferrante ; suomentanut Helina Kangas",
+     "author": "Ferrante, Elena",
+     "imprint": "Helsinki : Wsoy, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fin",
+     "langs": [
+      "fin"
+     ],
+     "year": "2016",
+     "publisher": "Wsoy",
+     "place": "Helsinki"
+    },
+    {
+     "bid": "UBO4344496",
+     "title": "L'amie prodigieuse / Elena Ferrante ; traduit de l'italien par Elsa Damien",
+     "author": "Ferrante, Elena",
+     "imprint": "[Paris] : Gallimard, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2017",
+     "publisher": "Gallimard",
+     "place": "Paris"
+    },
+    {
+     "bid": "PAR1243183",
+     "title": "L'amie prodigieuse : enfance, adolescence / Elena Ferrante ; traduit de l'italien par Elsa Damien",
+     "author": "Ferrante, Elena",
+     "imprint": "Paris : Gallimard, dep. leg. 2016",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2016",
+     "publisher": "Gallimard, dep. leg.",
+     "place": "Paris"
+    },
+    {
+     "bid": "VIA0470213",
+     "title": "L'amie prodigieuse : enfance, adolescence / Elena Ferrante ; traduit de l'italien par Elsa Damien",
+     "author": "Ferrante, Elena",
+     "imprint": "Paris : Gallimard, dep. leg. 2016",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "fre",
+     "langs": [
+      "fre"
+     ],
+     "year": "2016",
+     "publisher": "Gallimard, dep. leg.",
+     "place": "Paris"
+    },
+    {
+     "bid": "RMB0799768",
+     "title": "Meine geniale freundin : kindheit, fruhe, jugend : roman / Elena Ferrante ; aus dem italienischen von Karin Krieger",
+     "author": "Ferrante, Elena",
+     "imprint": "Berlin : Suhrkamp, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2016",
+     "publisher": "Suhrkamp",
+     "place": "Berlin"
+    },
+    {
+     "bid": "UBO4344096",
+     "title": "1: Meine geniale Freundin : Kindheit und fruhe Jugend : roman / Elena Ferrante ; aus dem italienischen von Karin Krieger",
+     "author": "Ferrante, Elena",
+     "imprint": "Berlin : Suhrkamp, 2018",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ger",
+     "langs": [
+      "ger"
+     ],
+     "year": "2018",
+     "publisher": "Suhrkamp",
+     "place": "Berlin"
+    },
+    {
+     "bid": "RMB0803025",
+     "title": "ha Ḥaverah ha-geʼonah /Elenah Feranṭhe ; me-Iṭalḳit: Alon Alṭaras",
+     "author": "Ferrante, Elena",
+     "imprint": "Tel Aviv : ha-Ḳibuts ha-meʼuḥad, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "heb",
+     "langs": [
+      "heb"
+     ],
+     "year": "2015",
+     "publisher": "ha-Ḳibuts ha-meʼuḥad",
+     "place": "Tel Aviv"
+    },
+    {
+     "bid": "RMB0799834",
+     "title": "Genijalna prijateljica / Elena Ferrante ; s talijanskog prevela Ana Badurina",
+     "author": "Ferrante, Elena",
+     "imprint": "Zagabria : Profil, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hrv",
+     "langs": [
+      "hrv"
+     ],
+     "year": "2016",
+     "publisher": "Profil",
+     "place": "Zagabria"
+    },
+    {
+     "bid": "RMB0799950",
+     "title": "Brilians baratnom : gyermekkor, kamaszkor / Elena Ferrante ; fordiotta Matolcsi Balazs",
+     "author": "Ferrante, Elena",
+     "imprint": "Budapest : Park Konyvkiado, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "hun",
+     "langs": [
+      "hun"
+     ],
+     "year": "2016",
+     "publisher": "Park Konyvkiado",
+     "place": "Budapest"
+    },
+    {
+     "bid": "RMB0799779",
+     "title": "Framurskarandi vinkona / Elena Ferrante ; Brynja Cortes Andresdottir pyddi ur itolsku",
+     "author": "Ferrante, Elena",
+     "imprint": "Reykjavik : Bjartur, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ice",
+     "langs": [
+      "ice"
+     ],
+     "year": "2015",
+     "publisher": "Bjartur",
+     "place": "Reykjavik"
+    },
+    {
+     "bid": "RMB0799772",
+     "title": "Sahabatku yang brilian : buku satu Masa Kanak-Kanak, Masa Remaja / Elena Ferrante ; [alih bahasa Maria Lubis]",
+     "author": "Ferrante, Elena",
+     "imprint": "Jakarta : Gramedia, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ind",
+     "langs": [
+      "ind"
+     ],
+     "year": "2016",
+     "publisher": "Gramedia",
+     "place": "Jakarta"
+    },
+    {
+     "bid": "IEI0758243",
+     "title": "Vol. 1: Infanzia, adolescenza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : E/O, 2012",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2012",
+     "publisher": "E/O",
+     "place": "Roma"
+    },
+    {
+     "bid": "SBS0000682",
+     "title": "Vol. 1: Infanzia, adolescenza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : E/O, 2011",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2011",
+     "publisher": "E/O",
+     "place": "Roma"
+    },
+    {
+     "bid": "LIG0242757",
+     "title": "[2]: L'amica geniale : storia del nuovo cognome : giovinezza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Milano : Mondolibri, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "LIG0242759",
+     "title": "[4]: L'amica geniale : storia della bambina perduta : maturità - vecchiaia / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Milano : Mondolibri, stampa 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "TO02034564",
+     "title": "L'amica geniale : infanzia, adolescenza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : E/O, 2018",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "E/O",
+     "place": "Roma"
+    },
+    {
+     "bid": "CAG2053724",
+     "title": "[1]: L'amica geniale : infanzia, adolescenza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Milano : Mondolibri, 2015",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Mondolibri",
+     "place": "Milano"
+    },
+    {
+     "bid": "URB0937709",
+     "title": "1: L'amica geniale : infanzia, adolescenza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : E/O, 2019",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2019",
+     "publisher": "E/O",
+     "place": "Roma"
+    },
+    {
+     "bid": "TO01993132",
+     "title": "Mikesha gjeniale : femijeria adoleshenca / Elena Ferrante ; perktheu Albana Nex",
+     "author": "Ferrante, Elena",
+     "imprint": "Tirane : Pegi, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "Pegi",
+     "place": "Tirane"
+    },
+    {
+     "bid": "RL10000219",
+     "title": "1: L' amica geniale: Infanzia, adolescenza / Elena Ferrante - Roma : Ed. e/o 2016. - 327 p. ; 21 cm.",
+     "author": "Ferrante, Elena",
+     "imprint": "Testo - Monografia [IT\\ICCU\\RL1\\0000219]",
+     "infos_n": 1,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": null,
+     "publisher": "Testo - Monografia ITICCURL10000219",
+     "place": null
+    },
+    {
+     "bid": "TO02034163",
+     "title": "Vol. 1: Infanzia, adolescenza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : E/O, stampa 2016",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2016",
+     "publisher": "E/O",
+     "place": "Roma"
+    },
+    {
+     "bid": "USS0021500",
+     "title": "L'amica geniale: infanzia, adolescenza / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma: Edizioni e/o, 2020",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2020",
+     "publisher": "Roma: Edizioni e/o",
+     "place": null
+    },
+    {
+     "bid": "BCT0051746",
+     "title": "L'amica geniale. libro primo / Elena Ferrante ; letto da Anna Bonaiuto ; regia: Flavia Gentili",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : Emons Italia, 2015",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "PCM0008087",
+     "title": "L'amica geniale : libro primo / Elena Ferrante ; letto da Anna Bonaiuto ; [regia Flavia Gentili]",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : Emons Italia, 2018",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2018",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "TO01978798",
+     "title": "L'amica geniale : libro primo / Elena Ferrante ; letto da Anna Bonaiuto",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : Emons Italia, 2015",
+     "infos_n": 2,
+     "type": "audio",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2015",
+     "publisher": "Emons Italia",
+     "place": "Roma"
+    },
+    {
+     "bid": "TSA1508022",
+     "title": "L'amica geniale / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Roma : E/O, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "ita",
+     "langs": [
+      "ita"
+     ],
+     "year": "2017",
+     "publisher": "E/O",
+     "place": "Roma"
+    },
+    {
+     "bid": "RMB0799754",
+     "title": "Naye nunbusin chingu / Elena Ferrante ; [tradotto da] Ji-Woo Kim",
+     "author": "Ferrante, Elena",
+     "imprint": "Paju : Hangilsa, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "kor",
+     "langs": [
+      "kor"
+     ],
+     "year": "2016",
+     "publisher": "Hangilsa",
+     "place": "Paju"
+    },
+    {
+     "bid": "RMB0799680",
+     "title": "Briniskiga draudzene / Elena Ferrante; no italu valodas tulkojusi Dace Meiere",
+     "author": "Ferrante, Elena",
+     "imprint": "Riga : Zvaigzne ABC, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "lav",
+     "langs": [
+      "lav"
+     ],
+     "year": "2016",
+     "publisher": "Zvaigzne ABC",
+     "place": "Riga"
+    },
+    {
+     "bid": "RMB0799824",
+     "title": "Nuostabioji drauge / Elena Ferrante; is italu kalbos verte leva Mazeikaite-Frigerio",
+     "author": "Ferrante, Elena",
+     "imprint": "Vilnius : Alma littera, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "lit",
+     "langs": [
+      "lit"
+     ],
+     "year": "2016",
+     "publisher": "Alma littera",
+     "place": "Vilnius"
+    },
+    {
+     "bid": "RMB0799909",
+     "title": "Mi briljante venninne : barndom, tidleg ungdom, bok 1 : roman / Elena Ferrante ; fra italiensk ved Kristin Sorsdal",
+     "author": "Ferrante, Elena",
+     "imprint": "Oslo : Samlaget, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "nor",
+     "langs": [
+      "nor"
+     ],
+     "year": "2015",
+     "publisher": "Samlaget",
+     "place": "Oslo"
+    },
+    {
+     "bid": "RMB0800033",
+     "title": "Genialna przyjaciolka / Elena Ferrante ; z jezyka wloskiego przelozyla Alina Pawlowska-Zampino",
+     "author": "Ferrante, Elena",
+     "imprint": "Katowice : Wydawnictwo Sonia Draga, 2014",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2014",
+     "publisher": "Wydawnictwo Sonia Draga",
+     "place": "Katowice"
+    },
+    {
+     "bid": "RMB0811497",
+     "title": "Genialna przyjaciolka / Elena Ferrante ; z jezyka wloskiego przelozyla Alina Pawlowska-Zampino",
+     "author": "Ferrante, Elena",
+     "imprint": "Katowice : Wydawnictwo Sonia Draga, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "pol",
+     "langs": [
+      "pol"
+     ],
+     "year": "2018",
+     "publisher": "Wydawnictwo Sonia Draga",
+     "place": "Katowice"
+    },
+    {
+     "bid": "RMB0799763",
+     "title": "Prietena mea geniala : roman / Elena Ferrante ; traducere din italiana Cerasela Barbone",
+     "author": "Ferrante, Elena",
+     "imprint": "Bucarest : Pandora, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rum",
+     "langs": [
+      "rum"
+     ],
+     "year": "2015",
+     "publisher": "Pandora",
+     "place": "Bucarest"
+    },
+    {
+     "bid": "RMB0799904",
+     "title": "Moia genial'naia podruga : detstvo, otrochestvo / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Mosca : Sindbad, 2017",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2017",
+     "publisher": "Sindbad",
+     "place": "Mosca"
+    },
+    {
+     "bid": "UBO4462548",
+     "title": "Moja genial'naja podruga : detstvo, otročestvo / Ėlena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Moskva : Sindbad, 2019",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "rus",
+     "langs": [
+      "rus"
+     ],
+     "year": "2019",
+     "publisher": "Sindbad",
+     "place": "Moskva"
+    },
+    {
+     "bid": "RMB0799671",
+     "title": "Genialna priatel'ka : detstvo a dospievanie / Elena Ferrante ; z talianciny prelozila Ivana Dobrakovova",
+     "author": "Ferrante, Elena",
+     "imprint": "Bratislave : Inaque.sk, 2015",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slo",
+     "langs": [
+      "slo"
+     ],
+     "year": "2015",
+     "publisher": "Inaque.sk",
+     "place": "Bratislave"
+    },
+    {
+     "bid": "RMB0799835",
+     "title": "Genialna prijateljica : otrostvo, adrascanje / Elena Ferrante ; prevedla Anita Jadric",
+     "author": "Ferrante, Elena",
+     "imprint": "Ljubljana : Cankarjeva Zalozba, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "slo",
+     "langs": [
+      "slo"
+     ],
+     "year": "2016",
+     "publisher": "Cankarjeva Zalozba",
+     "place": "Ljubljana"
+    },
+    {
+     "bid": "TO10037905",
+     "title": "La amiga estupenda / Elena Ferrante ; traducción de Celia Filipetto",
+     "author": "Ferrante, Elena",
+     "imprint": "Barcelona : Debolsillo, 2020",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "spa",
+     "langs": [
+      "spa"
+     ],
+     "year": "2020",
+     "publisher": "Debolsillo",
+     "place": "Barcelona"
+    },
+    {
+     "bid": "RMB0799668",
+     "title": "Min fantastiska vaninna : barndom och tonar / Elena Ferrante ; oversattning Johanna Hedenberg",
+     "author": "Ferrante, Elena",
+     "imprint": "Stockholm : Norstedts, 2016",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "swe",
+     "langs": [
+      "swe"
+     ],
+     "year": "2016",
+     "publisher": "Norstedts",
+     "place": "Stockholm"
+    },
+    {
+     "bid": "RMB0799948",
+     "title": "Benim olaganustu akilli arkadasim : birinci kitap: cocukluk, ergenlik / Elena Ferrante ; turkcesi Ereni Yucesan Cendey",
+     "author": "Ferrante, Elena",
+     "imprint": "Istanbul : Everest Yayinlari, 2015",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2015",
+     "publisher": "Everest Yayinlari",
+     "place": "Istanbul"
+    },
+    {
+     "bid": "RMB0812528",
+     "title": "Benim Olağanüstü Akıllı Arkadaşım / Elena Ferrante; Eren Yücesan Cendey",
+     "author": "Ferrante, Elena",
+     "imprint": "Istanbul : Everest Yayınları, 2018",
+     "infos_n": 2,
+     "type": "text",
+     "lang": "tur",
+     "langs": [
+      "tur"
+     ],
+     "year": "2018",
+     "publisher": "Everest Yayınları",
+     "place": "Istanbul"
+    },
+    {
+     "bid": "RMB0811466",
+     "title": "[1]: Moya neymovirna podruha / Elena Ferrante",
+     "author": "Ferrante, Elena",
+     "imprint": "Kharkiv : Klub Semejnogo Dozvillja, 2018",
+     "infos_n": 3,
+     "type": "text",
+     "lang": "ukr",
+     "langs": [
+      "ukr"
+     ],
+     "year": "2018",
+     "publisher": "Klub Semejnogo Dozvillja",
+     "place": "Kharkiv"
+    }
+   ],
+   "entries": [
+    "ita",
+    "eng"
+   ]
+  }
+ ],
+ "ol": {
+  "key": "/works/OL16520879W",
+  "size": 40,
+  "rows": 40,
+  "languages": 5,
+  "language_codes": [
+   "eng",
+   "fre",
+   "ger",
+   "ita",
+   "spa"
+  ],
+  "year_parsed": 40,
+  "year_parse_failures": [],
+  "publisher_present": 39,
+  "language_present": 21,
+  "requests": 6,
+  "failed": [],
+  "wall_s": 5.7,
+  "items": [
+   {
+    "key": "/books/OL62515388M",
+    "title": "L'amica geniale",
+    "publish_date": "October 1, 2011",
+    "year": "2011",
+    "publishers": [
+     "Edizioni e/o",
+     "E/O"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788866320951"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL62204836M",
+    "title": "A amiga genial",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "Biblioteca Azul"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788525060600"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL35367863M",
+    "title": "Benim Olağanüstü Akıllı Arkadaşım",
+    "publish_date": "Jul 24, 2018",
+    "year": "2018",
+    "publishers": [
+     "Everest Yayınları"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6051852867"
+    ],
+    "isbn_13": [
+     "9786051852867"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL47350849M",
+    "title": "Genialna przyjaciĂlĹka w.filmowa - Elena Ferrante [KSIÄĹťKA]",
+    "publish_date": "Apr 13, 2019",
+    "year": "2019",
+    "publishers": [
+     "Sonia Draga"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8381108268"
+    ],
+    "isbn_13": [
+     "9788381108263"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL47350846M",
+    "title": "Genialna przyjaciolka",
+    "publish_date": "Jan 01, 2017",
+    "year": "2017",
+    "publishers": [
+     "Sonia Draga"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8381102251"
+    ],
+    "isbn_13": [
+     "9788381102254"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL47350847M",
+    "title": "Genialna przyjaciolka",
+    "publish_date": "Jan 01, 2018",
+    "year": "2018",
+    "publishers": [
+     "Sonia Draga"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8381107989"
+    ],
+    "isbn_13": [
+     "9788381107983"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL47191445M",
+    "title": "De geniale vriendin",
+    "publish_date": "Aug 20, 2013",
+    "year": "2013",
+    "publishers": [
+     "Wereldbibliotheek"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "902842508X"
+    ],
+    "isbn_13": [
+     "9789028425088"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL47191444M",
+    "title": "De geniale vriendin",
+    "publish_date": "Aug 20, 2013",
+    "year": "2013",
+    "publishers": [
+     "Wereldbibliotheek"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "902842508X"
+    ],
+    "isbn_13": [
+     "9789028425088"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL38223486M",
+    "title": "Meine geniale Freundin",
+    "publish_date": "Sep 05, 2016",
+    "year": "2016",
+    "publishers": [
+     "Suhrkamp Verlag AG",
+     "Suhrkamp Verlag"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "3518425536"
+    ],
+    "isbn_13": [
+     "9783518425534"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL37831144M",
+    "title": "L'amie prodigieuse",
+    "publish_date": "May 24, 2017",
+    "year": "2017",
+    "publishers": [
+     "French and European Publications Inc"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "0320088324"
+    ],
+    "isbn_13": [
+     "9780320088322"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL37475255M",
+    "title": "Amiga Estupenda / My Brilliant Friend",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Penguin Random House Grupo Editorial"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781947783966"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL33791099M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Europa Editions, Incorporated"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781609456405"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL34840735M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Europa Editions, Incorporated"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781609458621"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL33043663M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Europa Editions"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781609450786"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL37797043M",
+    "title": "L'amica geniale",
+    "publish_date": "2019-09-19",
+    "year": "2019",
+    "publishers": [
+     "Edizioni e/o"
+    ],
+    "publish_places": [
+     "Roma"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "2011536402"
+    ],
+    "isbn_13": [
+     "9788866320326"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL35627240M",
+    "title": "La amiga estupenda",
+    "publish_date": "2018-10",
+    "year": "2018",
+    "publishers": [
+     "Debolsillo"
+    ],
+    "publish_places": [
+     "Barcelona"
+    ],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "8466344357"
+    ],
+    "isbn_13": [
+     "9788466344357"
+    ],
+    "translation_of": "L'amica geniale",
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32903537M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Europa Editions"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "160945863X"
+    ],
+    "isbn_13": [
+     "9781609458638"
+    ],
+    "translation_of": "L'amica geniale",
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL31834354M",
+    "title": "L'amiga genial: Infantesa, adolescència",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "La Campana"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788416457185"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL31834357M",
+    "title": "L'amiga genial: Infantesa, adolescència",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "La Campana"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788416457185"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32812985M",
+    "title": "L'amiga genial: Infantesa, adolescència",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "La campana"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [],
+    "isbn_13": [
+     "9788416457182"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL25881762M",
+    "title": "La amiga estupenda",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Lumen",
+     "LUMEN"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "9788426420787"
+    ],
+    "isbn_13": [],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL31892329M",
+    "title": "Genialna przyjaciólka",
+    "publish_date": "Jan 24, 2016",
+    "year": "2016",
+    "publishers": [
+     "Sonia Draga"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "8379990390"
+    ],
+    "isbn_13": [
+     "9788379990399"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32200586M",
+    "title": "Benim Olağanüstü Akıllı Arkadaşım",
+    "publish_date": "Jun 11, 2015",
+    "year": "2015",
+    "publishers": [
+     "Everest Yaynlar",
+     "Everest Yayınları"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "6051418962"
+    ],
+    "isbn_13": [
+     "9786051418964"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL27209732M",
+    "title": "La amiga estupenda",
+    "publish_date": "March 29, 2016",
+    "year": "2016",
+    "publishers": [
+     "Lumen"
+    ],
+    "publish_places": [],
+    "languages": [
+     "spa"
+    ],
+    "isbn_10": [
+     "1941999727"
+    ],
+    "isbn_13": [
+     "9781941999721"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32669643M",
+    "title": "L'amie prodigieuse",
+    "publish_date": "2018-10-08",
+    "year": "2018",
+    "publishers": [
+     "Gallimard"
+    ],
+    "publish_places": [],
+    "languages": [
+     "fre"
+    ],
+    "isbn_10": [
+     "2070466124"
+    ],
+    "isbn_13": [
+     "9782070466122"
+    ],
+    "translation_of": "L'amica geniale",
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32670034M",
+    "title": "L'amie prodigieuse",
+    "publish_date": "Oct 30, 2014",
+    "year": "2014",
+    "publishers": [
+     "GALLIMARD"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "2070138623"
+    ],
+    "isbn_13": [
+     "9782070138623"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32897915M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2015",
+    "year": "2015",
+    "publishers": [
+     "Europa Editions"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1609450787"
+    ],
+    "isbn_13": [
+     "9781609450786"
+    ],
+    "translation_of": "L'amica geniale: Infanzia, adolescenza",
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32038385M",
+    "title": "My Brilliant Friend",
+    "publish_date": "Apr 07, 2015",
+    "year": "2015",
+    "publishers": [
+     "Blackstone Audio, Inc."
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1483080749"
+    ],
+    "isbn_13": [
+     "9781483080741"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL28071226M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2020",
+    "year": "2020",
+    "publishers": [
+     "Taylor & Francis Group"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781787702226"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL28564542M",
+    "title": "My Brilliant Friend",
+    "publish_date": "March 26, 2015",
+    "year": "2015",
+    "publishers": [
+     "Text Publishing Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781925240009"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL28629651M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [
+     "Text Publishing Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781925498073"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL28712161M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Text Publishing Company"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781925773750"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL28899247M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Europa Editions, Incorporated"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781609455064"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL29419408M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Europa Editions, Incorporated"
+    ],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9781787701748"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL27213437M",
+    "title": "My brilliant friend",
+    "publish_date": "2016",
+    "year": "2016",
+    "publishers": [],
+    "publish_places": [],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1410491161"
+    ],
+    "isbn_13": [
+     "9781410491169"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL27426422M",
+    "title": "My Brilliant Friend",
+    "publish_date": "Jul 06, 2016",
+    "year": "2016",
+    "publishers": [
+     "Large Print Press"
+    ],
+    "publish_places": [],
+    "languages": [],
+    "isbn_10": [
+     "1594139938"
+    ],
+    "isbn_13": [
+     "9781594139932"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL25844975M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Europa Editions"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "1609450787"
+    ],
+    "isbn_13": [
+     "9781609450786"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL25214098M",
+    "title": "L'amica geniale",
+    "publish_date": "2011",
+    "year": "2011",
+    "publishers": [
+     "Edizioni e/o",
+     "E/O"
+    ],
+    "publish_places": [
+     "Roma"
+    ],
+    "languages": [
+     "ita"
+    ],
+    "isbn_10": [
+     "8866320323"
+    ],
+    "isbn_13": [
+     "9788866320326"
+    ],
+    "translation_of": null,
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL26583144M",
+    "title": "My Brilliant Friend",
+    "publish_date": "2012",
+    "year": "2012",
+    "publishers": [
+     "Europa Editions"
+    ],
+    "publish_places": [
+     "New York"
+    ],
+    "languages": [
+     "eng"
+    ],
+    "isbn_10": [
+     "160945863X"
+    ],
+    "isbn_13": [
+     "9781609458638"
+    ],
+    "translation_of": "L'amica geniale: Infanzia, adolescenza",
+    "works": [
+     "/works/OL16520879W"
+    ]
+   },
+   {
+    "key": "/books/OL32599393M",
+    "title": "Meine geniale Freundin",
+    "publish_date": "2018",
+    "year": "2018",
+    "publishers": [
+     "Suhrkamp"
+    ],
+    "publish_places": [],
+    "languages": [
+     "ger"
+    ],
+    "isbn_10": [],
+    "isbn_13": [
+     "9783518469309"
+    ],
+    "translation_of": "L'amica geniale",
+    "works": [
+     "/works/OL16520879W"
+    ]
+   }
+  ],
+  "how": "original, strict author match"
+ },
+ "wall_s": 13.4,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 32,
+   "failed": 0,
+   "total_s": 35.58,
+   "p50_s": 0.888,
+   "max_s": 4.374
+  },
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 5.73,
+   "p50_s": 5.73,
+   "max_s": 5.73
+  }
+ },
+ "failures": []
+}
