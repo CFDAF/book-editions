@@ -47,8 +47,8 @@ python book_editions.py --author "Gregory Bateson"
 ```
 
 - **No API keys.** All three sources are keyless.
-- Responses cache to `.cache/` for 24h. A cold lookup takes **30–45s**; a repeat
-  is ~0.03s. Delete `.cache/` to refresh.
+- Responses cache to `.cache/` for 24h. A cold lookup takes **35–50s** on a big
+  work; a repeat is ~0.03s. Delete `.cache/` to refresh.
 - `pkill -f server.py` to stop it. **Not** `pkill -f "python3 server.py"` —
   macOS reports the process as `Python server.py`, so that pattern never
   matches, and a stale instance keeps serving the modules it imported at start
@@ -133,7 +133,7 @@ And **cross-language title similarity is worthless**: `title_similarity('Noise',
 |---|---|---|
 | **SBN's uniform-title authority** | exact — the catalogue's own statement | needs SBN to hold and link the record |
 | **Wikidata via Wikipedia sitelinks/labels** | high | needs a Wikipedia article |
-| **Dewey + full authorship agreement** | good | needs both catalogues to classify it |
+| **Dewey + full authorship agreement** | good, *conditionally* | needs both catalogues to classify it, and the class must not be shared with the author's other works — see the gate below |
 | **Shared ISBN** | exact | modern books only |
 
 Any one suffices. The first was found last and is the strongest: the other three
@@ -182,11 +182,20 @@ Both directions now report eng 2014 + ita 2015 (Einaudi), matched on Dewey
 
 ### The identifying-signal gate
 
-An edition is reported **only if** something ties it to *this* work: a shared
-ISBN, a title match ≥ 0.6 against a known variant, or Dewey agreement.
-Same-author-same-era is not enough — *Quale socialismo, quale Europa* is Attali
-in 1977, same as *Bruits*, and a different book. Without this gate an author
-sweep drags in everything the author ever wrote.
+An edition is reported **only if** something ties it to *this* work. Three
+signals stand on their own — the work authority, a shared ISBN, or a title match
+≥ 0.6 against a known variant. Same-author-same-era is not enough: *Quale
+socialismo, quale Europa* is Attali in 1977, same as *Bruits*, and a different
+book. Without this gate an author sweep drags in everything the author ever
+wrote.
+
+**Dewey agreement is the fourth signal and it does not stand on its own.** It
+has to agree on authorship as well, and it has to be the *only* title resting on
+that class in this candidate set — a class is a subject, and one author's books
+are mostly on one subject (§7). So the verdict cannot be reached per record:
+`_identifies` returns `STRONG` or `BY_DEWEY`, and the `BY_DEWEY` records are
+judged together afterwards by `_dewey_discriminates`. Reading `_identifies`
+alone will mislead you about what `BY_DEWEY` means.
 
 This gate applies to **title** lookups only. An author search has no single work
 to identify, so everything by the author belongs in the answer.
@@ -371,7 +380,7 @@ the discipline the reverse path has to enforce by hand.
 | Decision | Reason |
 |---|---|
 | Python stdlib + `requests`, no framework | Single dependency; SBN forces a backend anyway |
-| Disk cache, 24h TTL | Cold lookup is 30–45s; without it the tool cannot be iterated on |
+| Disk cache, 24h TTL | Cold lookup is 35–50s; without it the tool cannot be iterated on |
 | Dewey as the cross-language bridge | Numeric, so language-neutral — the only signal that survives translation |
 | Identifying-signal gate | Otherwise an author sweep returns the author's whole bibliography |
 | Reject, don't just fail to confirm | Dewey known on both sides and disagreeing is positive evidence of a different work |
@@ -400,7 +409,10 @@ work is applied, so every count equals the list under it and every entry filters
 to something. `report.facets` is still collected (it rides along on responses the
 pipeline already makes) but nothing renders it.
 
-**Latency:** cold is 30–45s, dominated by an intermittent connect stall to one
+**Latency:** cold is 35–50s. SBN enrichment is a small part of it — `full.json`
+is ~124ms and six run at a time, so the 150-record budget costs ~6s at worst and
+lookups under 45 candidates are untouched. The rest is dominated by an
+intermittent connect stall to one
 Wikipedia host in this environment (curl is consistently 0.3s; one Python
 process saw 37s and another 0.28s for the identical request). Parallelising
 around it does not help — it *is* the critical path. Connect and read timeouts
@@ -547,7 +559,7 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
   and **carries no Dewey class at all** (Open Library has `780.904`; SBN has
   nothing). No longer a genuine data limit — SBN holds the link, in the field
   §5 documents.
-- **Cold lookup 30–45s**, environment-dependent (see §6).
+- **Cold lookup 35–50s**, environment-dependent (see §6).
 - **Disambiguation groups on any shared author.** Two editions are the same
   book if one of their authors is the same person, merged transitively. Still
   biased toward over-offering rather than silently merging two books, but it no
@@ -566,6 +578,11 @@ are separate (`TIMEOUT = (4, 15)`) so a stall fails fast and retries.
 - **`langs.py` has no Italian name for every code.** Rarer ones fall through to
   the raw ISO 639-2 code, so *Cent'anni di solitudine* lists `kor` and `guj`
   beside *giapponese* and *turco*. Cosmetic, and a one-line fix per language.
+- **A partial source on a large lookup is normal now.** At 150 enrichments a
+  single upstream hiccup is likelier than it was at 45, and `Kafka sulla
+  spiaggia` has reported `SBN: partial (1 request(s) failed)` across runs — 1 of
+  ~150. That is `net.Tally` working: the answer says it may be short rather than
+  looking complete. Searching again fills it from cache.
 - **Buy links are search URLs**, not live stock or price.
 - Libraccio has **no** buy link: its search is an ASP.NET POST form, so no GET
   deep link exists. Verified-200 stores only: IBS, Amazon.it, Feltrinelli,
@@ -587,12 +604,20 @@ The seam is already marked: `lookup()` is written as numbered steps (1, 2, 4,
 4b, 5 — step 3 was Google Books, §6), and lifting the SBN candidate collection
 and scoring out of it would disturb nothing else.
 
-**Recently closed:** the OPAC API's uniform-title authority is now the fourth
-bridge (§4, §5). It closed the case it was found through — *More Brilliant Than
-the Sun* ↔ *Più brillante del sole*, both directions — and improved several
-others: *Rumori* + Attali now resolves to *Bruits* without needing Wikidata,
-*Cent'anni di solitudine* found 13 more Italian editions, and *La matrice
-sociale della psichiatria* now reports the true first-publication year.
+**Recently closed, in order:**
+
+- The OPAC API's uniform-title authority became the fourth bridge (§4, §5),
+  closing the case it was found through — *More Brilliant Than the Sun* ↔ *Più
+  brillante del sole*, both directions. *Rumori* + Attali now resolves to
+  *Bruits* without needing Wikidata, and *La matrice sociale della psichiatria*
+  reports its true first-publication year.
+- Dewey stopped identifying a work on its own, and `ENRICH_BUDGET` went 45 →
+  150 (§7, §8). Those are one change: the low budget had been hiding the Dewey
+  defect by truncating the bad records away before anyone saw them. Italian
+  editions of *Cent'anni di solitudine* went 31 → 57, with the wrong books gone.
+- Three Kafka fixes (§7): a record catalogued in the language it was translated
+  *from*, translation evidence hiding in the statement of responsibility, and a
+  language span marked ORIGINAL on the language alone.
 
 The byline/origin formatting used to be duplicated between
 `web/app.js` and `book_editions.py`, and was fixed in one while left broken in
