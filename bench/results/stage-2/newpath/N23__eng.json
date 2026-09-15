@@ -1,0 +1,105 @@
+{
+ "run": "N23__eng",
+ "book": "N23",
+ "entry": "eng",
+ "title": "The Odyssey",
+ "author": "Homer",
+ "sbn_identity": {
+  "author_sent": "Homer",
+  "total": 194,
+  "W": "odyssea",
+  "W_count": 49,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.271,
+  "B_counts": [
+   13,
+   48
+  ],
+  "query_rows": 194,
+  "work_rows": 49,
+  "work_total": 49,
+  "truncated": false,
+  "b_requests": 19,
+  "tier": "rejected"
+ },
+ "wikidata_step4": {
+  "qid": "Q35160",
+  "matched_form": "The Odyssey",
+  "score": 1.0,
+  "candidates": 8,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL29477874W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Ὀδύσσεια Homer",
+    "key": "/works/OL29477874W",
+    "keyed": "/works/OL61981W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL29477874W",
+  "size": 1,
+  "rows": 1,
+  "languages": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.8,
+  "keys": [
+   "/books/OL40578004M"
+  ]
+ },
+ "phase_s": {
+  "identity": 2.2,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.6,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 3.24,
+   "p50_s": 0.237,
+   "max_s": 0.419
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.301,
+   "max_s": 0.355
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.25,
+   "max_s": 0.318
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.76,
+   "p50_s": 0.628,
+   "max_s": 0.715
+  },
+  "www.wikidata.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.29,
+   "p50_s": 0.205,
+   "max_s": 0.892
+  }
+ },
+ "retries": {},
+ "failures": []
+}

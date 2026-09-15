@@ -1,0 +1,220 @@
+{
+ "run": "E04__jpn",
+ "book": "E04",
+ "entry": "jpn",
+ "title": "Umibe no Kafuka",
+ "author": "Murakami Haruki",
+ "sbn_identity": {
+  "author_sent": "Murakami Haruki",
+  "total": 20,
+  "W": "umibe no kafuka",
+  "W_count": 20,
+  "W_ties": [],
+  "A": 1.0,
+  "guard_requests": 1,
+  "tier": "strong",
+  "B": null,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 6,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL2625431W",
+  "how": "original, keyed author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "海辺のカフカ Murakami Haruki",
+    "key": null,
+    "keyed": "/works/OL2625431W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "umibe no kafuka",
+  "total": 20,
+  "rows": 20,
+  "languages": 7,
+  "lingua_facet": [
+   [
+    "ita",
+    12
+   ],
+   [
+    "eng",
+    3
+   ],
+   [
+    "ara",
+    1
+   ],
+   [
+    "chi",
+    1
+   ],
+   [
+    "fre",
+    1
+   ],
+   [
+    "jpn",
+    1
+   ],
+   [
+    "rus",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 10,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.7,
+  "bids": [
+   "RMB0792755",
+   "TO01700217",
+   "UBO4353929",
+   "TO01665832",
+   "LO11474597",
+   "LO11485154",
+   "UBO4414630",
+   "MOD1450780",
+   "RL10062224",
+   "RAV1987616",
+   "RT10073737",
+   "BMT0037443",
+   "TO02153226",
+   "TO02145634",
+   "PAV0036096",
+   "CAG2099269",
+   "MO10041098",
+   "VIA0177261",
+   "UBO4636099",
+   "UBO4039376"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL2625431W",
+  "size": 61,
+  "rows": 61,
+  "languages": 15,
+  "requests": 2,
+  "failed": [],
+  "wall_s": 0.8,
+  "keys": [
+   "/books/OL47337676M",
+   "/books/OL47131110M",
+   "/books/OL56917583M",
+   "/books/OL45769935M",
+   "/books/OL42986170M",
+   "/books/OL40336060M",
+   "/books/OL40340904M",
+   "/books/OL39215508M",
+   "/books/OL38228207M",
+   "/books/OL36270783M",
+   "/books/OL37073350M",
+   "/books/OL37806051M",
+   "/books/OL35668036M",
+   "/books/OL35630649M",
+   "/books/OL9045587M",
+   "/books/OL45392766M",
+   "/books/OL37045455M",
+   "/books/OL34464368M",
+   "/books/OL33898345M",
+   "/books/OL32243131M",
+   "/books/OL32243132M",
+   "/books/OL32199828M",
+   "/books/OL31856364M",
+   "/books/OL32209387M",
+   "/books/OL31856357M",
+   "/books/OL27176746M",
+   "/books/OL27120554M",
+   "/books/OL26092125M",
+   "/books/OL30696912M",
+   "/books/OL27939392M",
+   "/books/OL28265871M",
+   "/books/OL27525369M",
+   "/books/OL7318410M",
+   "/books/OL8363016M",
+   "/books/OL9453775M",
+   "/books/OL24277007M",
+   "/books/OL8931327M",
+   "/books/OL8364133M",
+   "/books/OL23086017M",
+   "/books/OL24367154M",
+   "/books/OL8931367M",
+   "/books/OL9161080M",
+   "/books/OL23059586M",
+   "/books/OL19617410M",
+   "/books/OL26420371M",
+   "/books/OL23037922M",
+   "/books/OL23015826M",
+   "/books/OL22613913M",
+   "/books/OL25554921M",
+   "/books/OL26384078M",
+   "/books/OL25155348M",
+   "/books/OL8904254M",
+   "/books/OL24196634M",
+   "/books/OL9504746M",
+   "/books/OL9045571M",
+   "/books/OL9199671M",
+   "/books/OL24196633M",
+   "/books/OL9273065M",
+   "/books/OL26336340M",
+   "/books/OL9149765M",
+   "/books/OL9149766M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.6,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.1,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 2.0,
+   "p50_s": 0.201,
+   "max_s": 0.271
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.285,
+   "max_s": 0.356
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.254,
+   "max_s": 0.394
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.83,
+   "p50_s": 0.673,
+   "max_s": 0.713
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.399,
+   "max_s": 0.6
+  }
+ },
+ "retries": {},
+ "failures": []
+}

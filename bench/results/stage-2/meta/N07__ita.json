@@ -1,0 +1,66 @@
+{
+ "run": "N07__ita",
+ "title": "Se una notte d'inverno un viaggiatore",
+ "author": "Italo Calvino",
+ "argv": [
+  "Se una notte d'inverno un viaggiatore",
+  "--author",
+  "Italo Calvino",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N07__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 44.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.278,
+   "max_s": 0.405
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 29.09,
+   "p50_s": 0.478,
+   "max_s": 28.306
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.92,
+   "p50_s": 0.461,
+   "max_s": 0.727
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.68,
+   "p50_s": 0.85,
+   "max_s": 1.087
+  },
+  "opac.sbn.it/o": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 2.35,
+   "p50_s": 0.257,
+   "max_s": 0.419
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 35.76,
+   "p50_s": 0.14,
+   "max_s": 2.691
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

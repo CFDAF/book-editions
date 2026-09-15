@@ -1,0 +1,125 @@
+{
+ "run": "N18__eng",
+ "book": "N18",
+ "entry": "eng",
+ "title": "Capitalist Realism",
+ "author": "Mark Fisher",
+ "sbn_identity": {
+  "author_sent": "Mark Fisher",
+  "total": 4,
+  "W": "capitalist realism : is there no alternative?",
+  "W_count": 2,
+  "W_ties": [],
+  "A": 1.0,
+  "guard_requests": 3,
+  "tier": "strong",
+  "B": null,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": "Q25519071",
+  "matched_form": "Capitalist realism",
+  "score": 1.0,
+  "candidates": 7,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL15683250W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Capitalist Realism Mark Fisher",
+    "key": "/works/OL15683250W",
+    "keyed": "/works/OL15683250W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "capitalist realism : is there no alternative?",
+  "total": 2,
+  "rows": 2,
+  "languages": 1,
+  "lingua_facet": [
+   [
+    "ita",
+    2
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 3,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.8,
+  "bids": [
+   "TO02095517",
+   "UTO1280621"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL15683250W",
+  "size": 8,
+  "rows": 8,
+  "languages": 4,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.5,
+  "keys": [
+   "/books/OL62445406M",
+   "/books/OL40325665M",
+   "/books/OL26855758M",
+   "/books/OL42732646M",
+   "/books/OL36800373M",
+   "/books/OL32217094M",
+   "/books/OL30920499M",
+   "/books/OL24611852M"
+  ]
+ },
+ "phase_s": {
+  "identity": 2.1,
+  "listing": 1.3,
+  "ol_search_and_listing": 1.3
+ },
+ "wall_s": 3.5,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.72,
+   "p50_s": 0.271,
+   "max_s": 0.274
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.305,
+   "max_s": 0.359
+  },
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 1.08,
+   "p50_s": 0.294,
+   "max_s": 0.351
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.92,
+   "p50_s": 0.792,
+   "max_s": 0.798
+  },
+  "www.wikidata.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.25,
+   "p50_s": 0.193,
+   "max_s": 0.872
+  }
+ },
+ "retries": {},
+ "failures": []
+}

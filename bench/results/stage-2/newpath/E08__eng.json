@@ -1,0 +1,121 @@
+{
+ "run": "E08__eng",
+ "book": "E08",
+ "entry": "eng",
+ "title": "Communication: The Social Matrix of Psychiatry",
+ "author": "Ruesch",
+ "sbn_identity": {
+  "author_sent": "Ruesch",
+  "total": 4,
+  "W": "communication: the social matrix of psychiatry.",
+  "W_count": 1,
+  "W_ties": [],
+  "A": 1.0,
+  "guard_requests": 1,
+  "tier": "strong",
+  "B": null,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 4,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL12269244W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Communication: The Social Matrix of Psychiatry Ruesch",
+    "key": "/works/OL12269244W",
+    "keyed": "/works/OL12269244W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "communication: the social matrix of psychiatry.",
+  "total": 1,
+  "rows": 1,
+  "languages": 1,
+  "lingua_facet": [
+   [
+    "ita",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 3,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.4,
+  "bids": [
+   "SBL0053002"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL12269244W",
+  "size": 5,
+  "rows": 5,
+  "languages": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.8,
+  "keys": [
+   "/books/OL28916330M",
+   "/books/OL7450534M",
+   "/books/OL17880054M",
+   "/books/OL21352507M",
+   "/books/OL21350976M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.6,
+  "listing": 1.6,
+  "ol_search_and_listing": 1.6
+ },
+ "wall_s": 3.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 0.57,
+   "p50_s": 0.148,
+   "max_s": 0.16
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.291,
+   "max_s": 0.388
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.293,
+   "max_s": 0.368
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.05,
+   "p50_s": 0.742,
+   "max_s": 0.742
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.67,
+   "p50_s": 0.674,
+   "max_s": 0.674
+  }
+ },
+ "retries": {},
+ "failures": []
+}

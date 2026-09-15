@@ -1,0 +1,176 @@
+{
+ "run": "N17__ita",
+ "book": "N17",
+ "entry": "ita",
+ "title": "Tra i due palazzi",
+ "author": "Naguib Mahfouz",
+ "sbn_identity": {
+  "author_sent": "Naguib Mahfouz",
+  "total": 7,
+  "W": "bain el-qasrain.",
+  "W_count": 6,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.857,
+  "B_counts": [
+   6,
+   7
+  ],
+  "query_rows": 7,
+  "work_rows": 6,
+  "work_total": 6,
+  "truncated": false,
+  "b_requests": 3,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 4,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL1599742W",
+  "how": "original, keyed author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "بين القصرين Naguib Mahfouz",
+    "key": null,
+    "keyed": "/works/OL1599742W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "bain el-qasrain.",
+  "total": 8,
+  "rows": 8,
+  "languages": 3,
+  "lingua_facet": [
+   [
+    "ita",
+    6
+   ],
+   [
+    "ara",
+    1
+   ],
+   [
+    "eng",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 5,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.6,
+  "bids": [
+   "USM2040668",
+   "LO10629331",
+   "RMS1860362",
+   "LZ10246665",
+   "CFI0193625",
+   "PCM0046623",
+   "UM10025883",
+   "VEA0020485"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL1599742W",
+  "size": 37,
+  "rows": 37,
+  "languages": 6,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.6,
+  "keys": [
+   "/books/OL47385017M",
+   "/books/OL47385016M",
+   "/books/OL16410780M",
+   "/books/OL18649514M",
+   "/books/OL9024490M",
+   "/books/OL8913583M",
+   "/books/OL8887624M",
+   "/books/OL50442381M",
+   "/books/OL48104305M",
+   "/books/OL47780355M",
+   "/books/OL45027682M",
+   "/books/OL40371942M",
+   "/books/OL40384488M",
+   "/books/OL32096881M",
+   "/books/OL37737073M",
+   "/books/OL25349614M",
+   "/books/OL25349613M",
+   "/books/OL22909789M",
+   "/books/OL19439813M",
+   "/books/OL19885012M",
+   "/books/OL18319018M",
+   "/books/OL22327054M",
+   "/books/OL16685375M",
+   "/books/OL22270830M",
+   "/books/OL15338037M",
+   "/books/OL7439560M",
+   "/books/OL7816162M",
+   "/books/OL53842419M",
+   "/books/OL53842452M",
+   "/books/OL9845914M",
+   "/books/OL7438439M",
+   "/books/OL53837195M",
+   "/books/OL9444865M",
+   "/books/OL9560302M",
+   "/books/OL2201663M",
+   "/books/OL2650601M",
+   "/books/OL2020629M"
+  ]
+ },
+ "phase_s": {
+  "identity": 2.0,
+  "listing": 1.3,
+  "ol_search_and_listing": 1.3
+ },
+ "wall_s": 3.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 1.35,
+   "p50_s": 0.196,
+   "max_s": 0.248
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.79,
+   "p50_s": 0.284,
+   "max_s": 0.304
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.6,
+   "p50_s": 0.298,
+   "max_s": 0.332
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.7,
+   "p50_s": 0.633,
+   "max_s": 0.752
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.17,
+   "p50_s": 1.167,
+   "max_s": 1.167
+  }
+ },
+ "retries": {},
+ "failures": []
+}

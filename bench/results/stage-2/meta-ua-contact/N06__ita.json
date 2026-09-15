@@ -1,0 +1,62 @@
+{
+ "run": "N06__ita",
+ "title": "1984",
+ "author": "George Orwell",
+ "argv": [
+  "1984",
+  "--author",
+  "George Orwell",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/N06__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 17.3,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.262,
+   "max_s": 0.297
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.283,
+   "max_s": 0.317
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.08,
+   "p50_s": 0.538,
+   "max_s": 0.843
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 8.96,
+   "p50_s": 0.891,
+   "max_s": 1.292
+  },
+  "opac.sbn.it/o": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 2.2,
+   "p50_s": 0.25,
+   "max_s": 0.351
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 175,
+   "failed": 0,
+   "total_s": 47.09,
+   "p50_s": 0.237,
+   "max_s": 1.554
+  }
+ },
+ "retries": {},
+ "failures": []
+}

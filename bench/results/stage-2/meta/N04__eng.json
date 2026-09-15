@@ -1,0 +1,62 @@
+{
+ "run": "N04__eng",
+ "title": "Crime and Punishment",
+ "author": "Fëdor Dostoevskij",
+ "argv": [
+  "Crime and Punishment",
+  "--author",
+  "Fëdor Dostoevskij",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N04__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 38.9,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.267,
+   "max_s": 0.279
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.305,
+   "max_s": 0.316
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.91,
+   "p50_s": 0.455,
+   "max_s": 0.737
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 14.15,
+   "p50_s": 0.844,
+   "max_s": 1.951
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.96,
+   "p50_s": 0.982,
+   "max_s": 1.143
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 174,
+   "failed": 0,
+   "total_s": 100.56,
+   "p50_s": 0.434,
+   "max_s": 14.29
+  }
+ },
+ "retries": {},
+ "failures": []
+}

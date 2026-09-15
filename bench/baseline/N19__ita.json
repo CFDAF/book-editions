@@ -1,0 +1,42 @@
+{
+ "mode": "work",
+ "query_title": "Tomorrow, and tomorrow, and tomorrow",
+ "query_author": "Gabrielle Zevin",
+ "languages": [
+  "dut",
+  "eng",
+  "fre",
+  "ita",
+  "unknown"
+ ],
+ "original": {
+  "title": "Tomorrow, and Tomorrow, and Tomorrow",
+  "language": "eng",
+  "year": "2022",
+  "qid": "Q115818209",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Tomorrow, and Tomorrow, and Tomorrow",
+  "original_language": "eng",
+  "original_year": 2022,
+  "first_year_seen": 2022,
+  "origin": "first published 2022 in inglese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BCT0074386",
+  "BCT0100997",
+  "MIL1179180",
+  "MOD1754482",
+  "PCM0037140",
+  "PCM0038459",
+  "UBO4696991"
+ ]
+}

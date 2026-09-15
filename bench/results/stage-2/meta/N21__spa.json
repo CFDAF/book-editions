@@ -1,0 +1,66 @@
+{
+ "run": "N21__spa",
+ "title": "Veinte poemas de amor y una canción desesperada",
+ "author": "Pablo Neruda",
+ "argv": [
+  "Veinte poemas de amor y una canción desesperada",
+  "--author",
+  "Pablo Neruda",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N21__spa.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 20.1,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.262,
+   "max_s": 0.396
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.303,
+   "max_s": 0.303
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.05,
+   "p50_s": 0.525,
+   "max_s": 0.856
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 13.27,
+   "p50_s": 0.801,
+   "max_s": 2.343
+  },
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.5,
+   "p50_s": 0.145,
+   "max_s": 0.208
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 58.68,
+   "p50_s": 0.274,
+   "max_s": 3.616
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

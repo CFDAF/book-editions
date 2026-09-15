@@ -1,0 +1,116 @@
+{
+ "run": "E10__ita",
+ "book": "E10",
+ "entry": "ita",
+ "title": "Opere",
+ "author": "Leopardi",
+ "sbn_identity": {
+  "author_sent": "Leopardi",
+  "total": 392,
+  "W": "canti",
+  "W_count": 19,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.033,
+  "B_counts": [
+   2,
+   60
+  ],
+  "query_rows": 387,
+  "work_rows": 19,
+  "work_total": 19,
+  "truncated": false,
+  "b_requests": 29,
+  "tier": "rejected"
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 8,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL15102110W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Opere Leopardi",
+    "key": "/works/OL15102110W",
+    "keyed": "/works/OL15102110W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL15102110W",
+  "size": 12,
+  "rows": 12,
+  "languages": 2,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.7,
+  "keys": [
+   "/books/OL19258661M",
+   "/books/OL22356601M",
+   "/books/OL19258591M",
+   "/books/OL17962319M",
+   "/books/OL4046704M",
+   "/books/OL16041309M",
+   "/books/OL17734115M",
+   "/books/OL13760906M",
+   "/books/OL20647921M",
+   "/books/OL17776252M",
+   "/books/OL19258791M",
+   "/books/OL15514051M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.9,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 21,
+   "failed": 0,
+   "total_s": 5.75,
+   "p50_s": 0.274,
+   "max_s": 0.404
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.256,
+   "max_s": 0.325
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.292,
+   "max_s": 0.344
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.86,
+   "p50_s": 0.665,
+   "max_s": 0.815
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.98,
+   "p50_s": 0.489,
+   "max_s": 0.764
+  }
+ },
+ "retries": {},
+ "failures": []
+}

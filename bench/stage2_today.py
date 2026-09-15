@@ -8,7 +8,7 @@ The process calls `book_editions.main()` with the argv docs/Task.md gives, so
 the report is the CLI's own JSON. `common.setup(gated=False)` only logs: the
 pipeline keeps its own concurrency and User-Agent, and its cache is a fresh
 directory under bench/cache/stage-2/today/. `--ua-contact` is the control that
-swaps in the contact User-Agent (A8), written under runs-ua-contact/.
+swaps in the contact User-Agent (A8), written under raw/stage-2/runs-ua-contact/.
 """
 
 import json
@@ -27,7 +27,9 @@ net = common.setup(f"stage-2/{variant}/{run_id}", fresh=True, log_name=f"{varian
 
 import book_editions  # noqa: E402
 
-out = common.RESULTS / ("runs-ua-contact" if contact else "runs") / f"{run_id}.json"
+# Full reports run to ~0.5 MB each (holdings, buy links): raw evidence, not a
+# committed summary. stage2_analyse.py keeps what it scores.
+out = common.RAW / ("runs-ua-contact" if contact else "runs") / f"{run_id}.json"
 out.parent.mkdir(parents=True, exist_ok=True)
 argv = ["book_editions.py"]
 if title:

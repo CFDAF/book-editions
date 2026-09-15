@@ -1,0 +1,70 @@
+{
+ "mode": "work",
+ "query_title": "Blindness",
+ "query_author": "José Saramago",
+ "languages": [
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "por",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": "Ensayo sobre a ceguera",
+  "language": "por",
+  "year": "1995",
+  "qid": "Q826428",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Ensayo sobre a ceguera",
+  "original_language": "por",
+  "original_year": 1995,
+  "first_year_seen": 1995,
+  "origin": "first published 1995 in portoghese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "ANA0488580",
+  "AQ10093360",
+  "BMT0017063",
+  "BRI0468955",
+  "CFI0328377",
+  "CFI0751050",
+  "IEI0787604",
+  "LO11586329",
+  "LUA0552637",
+  "MIL0288581",
+  "MOD1766373",
+  "MOL0169329",
+  "PAV0131448",
+  "RAV0274843",
+  "RAV2097773",
+  "RAV2153707",
+  "RL10092000",
+  "RML0376674",
+  "RMS1318864",
+  "RMS2575916",
+  "SBT0021606",
+  "TO00605244",
+  "TO01751676",
+  "TO02019416",
+  "TO02109013",
+  "TO10047728",
+  "TPS0012117",
+  "TSA1247357",
+  "UBO2409402",
+  "UBO3425172",
+  "UBO3815860",
+  "UMC0093110",
+  "VIA0171478"
+ ]
+}

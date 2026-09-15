@@ -1,0 +1,39 @@
+{
+ "mode": "work",
+ "query_title": "Capitalist Realism",
+ "query_author": "Mark Fisher",
+ "languages": [
+  "eng",
+  "ita",
+  "por",
+  "rum",
+  "spa"
+ ],
+ "original": {
+  "title": "Capitalist Realism",
+  "language": "eng",
+  "year": "2009",
+  "qid": "Q25519071",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Capitalist Realism",
+  "original_language": "eng",
+  "original_year": 2009,
+  "first_year_seen": 2009,
+  "origin": "first published 2009 in inglese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "PUV1569910",
+  "SBT0067010",
+  "UTO1280621",
+  "VEA1154464"
+ ]
+}

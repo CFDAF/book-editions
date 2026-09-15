@@ -1,0 +1,62 @@
+{
+ "run": "N13__eng",
+ "title": "The Burnout Society",
+ "author": "Byung-Chul Han",
+ "argv": [
+  "The Burnout Society",
+  "--author",
+  "Byung-Chul Han",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N13__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 15.9,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.269,
+   "max_s": 0.395
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.95,
+   "p50_s": 0.333,
+   "max_s": 0.445
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.61,
+   "p50_s": 0.606,
+   "max_s": 0.606
+  },
+  "openlibrary.org": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 5.08,
+   "p50_s": 0.846,
+   "max_s": 1.349
+  },
+  "opac.sbn.it/o": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.2,
+   "p50_s": 0.2,
+   "max_s": 0.2
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 94,
+   "failed": 0,
+   "total_s": 68.89,
+   "p50_s": 0.71,
+   "max_s": 2.027
+  }
+ },
+ "retries": {},
+ "failures": []
+}

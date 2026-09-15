@@ -1,0 +1,44 @@
+{
+ "mode": "work",
+ "query_title": "Liquid Modernity",
+ "query_author": "Bauman",
+ "languages": [
+  "eng",
+  "ita",
+  "por",
+  "spa"
+ ],
+ "original": {
+  "title": null,
+  "language": null,
+  "year": "2003",
+  "qid": "Q19572648",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Liquid modernity",
+  "original_language": null,
+  "original_year": 2003,
+  "first_year_seen": 2000,
+  "origin": "first published 2003",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BCT0081770",
+  "IEI0277254",
+  "MIL0479747",
+  "PBE0067063",
+  "RMB0802600",
+  "RMB0826924",
+  "RMS2484106",
+  "UBO1658760",
+  "UBO2343318",
+  "UBO4204084"
+ ]
+}

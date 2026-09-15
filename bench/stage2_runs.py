@@ -16,6 +16,7 @@ rerun of this script skips what already exited 0.
 """
 
 import json
+import re
 import subprocess
 import sys
 import time
@@ -61,7 +62,9 @@ def done() -> set:
 
 def attempt(kind, rid, args, n):
     script = "stage2_newpath.py" if kind == "newpath" else "stage2_today.py"
-    cmd = [sys.executable, script, *([rid] if script == "stage2_today.py" else []), *args]
+    # /usr/bin/time -l appends the process's peak memory to its log (the first
+    # attempt of this job was killed when the machine ran low on memory).
+    cmd = ["/usr/bin/time", "-l", sys.executable, script, *([rid] if script == "stage2_today.py" else []), *args]
     OUT.mkdir(parents=True, exist_ok=True)
     log = OUT / f"{kind}__{rid}__{n}.log"
     t0 = time.time()
@@ -75,6 +78,8 @@ def attempt(kind, rid, args, n):
              "started": time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime(t0)),
              "wall_s": round(time.time() - t0, 1), "exit": code,
              "tail": log.read_text(encoding="utf-8", errors="replace")[-400:]}
+    rss = re.search(r"(\d+)\s+maximum resident set size", log.read_text(encoding="utf-8", errors="replace"))
+    entry["max_rss_mb"] = round(int(rss.group(1)) / 2**20) if rss else None
     LOG.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")

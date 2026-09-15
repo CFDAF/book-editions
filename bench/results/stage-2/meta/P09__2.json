@@ -1,0 +1,33 @@
+{
+ "run": "P09__2",
+ "title": "",
+ "author": "Garcia Marquez",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P09__2.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P09__2.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 9.6,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.25,
+   "p50_s": 1.254,
+   "max_s": 1.254
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 128,
+   "failed": 0,
+   "total_s": 46.2,
+   "p50_s": 0.352,
+   "max_s": 0.889
+  }
+ },
+ "retries": {},
+ "failures": []
+}

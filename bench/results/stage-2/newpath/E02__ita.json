@@ -1,0 +1,175 @@
+{
+ "run": "E02__ita",
+ "book": "E02",
+ "entry": "ita",
+ "title": "Verso un'ecologia della mente",
+ "author": "Bateson",
+ "sbn_identity": {
+  "author_sent": "Bateson",
+  "total": 28,
+  "W": "steps to an ecology of mind",
+  "W_count": 22,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.846,
+  "B_counts": [
+   22,
+   26
+  ],
+  "query_rows": 28,
+  "work_rows": 22,
+  "work_total": 22,
+  "truncated": false,
+  "b_requests": 5,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": "Q1970551",
+  "matched_form": "Verso un'ecologia della Mente",
+  "score": 1.0,
+  "candidates": 4,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL486424W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Steps to an Ecology of Mind Bateson",
+    "key": "/works/OL486424W",
+    "keyed": "/works/OL486424W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "steps to an ecology of mind",
+  "total": 26,
+  "rows": 26,
+  "languages": 4,
+  "lingua_facet": [
+   [
+    "ita",
+    22
+   ],
+   [
+    "eng",
+    2
+   ],
+   [
+    "fre",
+    1
+   ],
+   [
+    "ger",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 7,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.7,
+  "bids": [
+   "UTO1471790",
+   "UBO2561577",
+   "UBO0976973",
+   "RAV1984943",
+   "CFI0766925",
+   "PAL0171160",
+   "BVE0553614",
+   "PUV1586379",
+   "RAV0017793",
+   "TO01873090",
+   "PUV0976892",
+   "RMS0147630",
+   "RMS2975936",
+   "MIL0923352",
+   "UFI0432788",
+   "USM1564399",
+   "MOD0118431",
+   "MOD0012031",
+   "MOD0112602",
+   "BVE0251945",
+   "BVE0416448",
+   "VEA0083906",
+   "RAV0043511",
+   "CSA0000645",
+   "NAP0991558",
+   "PAR1204038"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL486424W",
+  "size": 14,
+  "rows": 14,
+  "languages": 2,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.3,
+  "keys": [
+   "/books/OL32225548M",
+   "/books/OL26420337M",
+   "/books/OL26420336M",
+   "/books/OL9564533M",
+   "/books/OL2394502M",
+   "/books/OL15062215M",
+   "/books/OL18229195M",
+   "/books/OL46335M",
+   "/books/OL5222804M",
+   "/books/OL7415232M",
+   "/books/OL19826667M",
+   "/books/OL17854018M",
+   "/books/OL10682898M",
+   "/books/OL10683884M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.7,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.0,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 2.24,
+   "p50_s": 0.156,
+   "max_s": 0.314
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.318,
+   "max_s": 0.355
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.72,
+   "p50_s": 0.362,
+   "max_s": 0.369
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.25,
+   "p50_s": 0.89,
+   "max_s": 1.034
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.417,
+   "max_s": 0.669
+  }
+ },
+ "retries": {},
+ "failures": []
+}

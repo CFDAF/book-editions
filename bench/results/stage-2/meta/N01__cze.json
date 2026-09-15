@@ -1,0 +1,66 @@
+{
+ "run": "N01__cze",
+ "title": "Nesnesitelná lehkost bytí",
+ "author": "Milan Kundera",
+ "argv": [
+  "Nesnesitelná lehkost bytí",
+  "--author",
+  "Milan Kundera",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N01__cze.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 112.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.26,
+   "max_s": 0.362
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.269,
+   "max_s": 0.445
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 34.27,
+   "p50_s": 17.133,
+   "max_s": 33.342
+  },
+  "openlibrary.org": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 10.46,
+   "p50_s": 0.946,
+   "max_s": 1.118
+  },
+  "opac.sbn.it/o": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 7.73,
+   "p50_s": 1.032,
+   "max_s": 1.671
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 179,
+   "failed": 0,
+   "total_s": 277.25,
+   "p50_s": 1.032,
+   "max_s": 24.281
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

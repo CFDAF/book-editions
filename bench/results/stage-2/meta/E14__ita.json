@@ -1,0 +1,66 @@
+{
+ "run": "E14__ita",
+ "title": "Per una economia positiva",
+ "author": "Jacques Attali",
+ "argv": [
+  "Per una economia positiva",
+  "--author",
+  "Jacques Attali",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E14__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 26.0,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 16.87,
+   "p50_s": 0.286,
+   "max_s": 16.31
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.57,
+   "p50_s": 0.283,
+   "max_s": 0.289
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.18,
+   "p50_s": 1.178,
+   "max_s": 1.178
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 3.8,
+   "p50_s": 1.21,
+   "max_s": 1.659
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.52,
+   "p50_s": 0.261,
+   "max_s": 0.374
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 156,
+   "failed": 0,
+   "total_s": 26.75,
+   "p50_s": 0.14,
+   "max_s": 0.635
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

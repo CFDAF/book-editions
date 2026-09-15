@@ -1,0 +1,50 @@
+{
+ "mode": "work",
+ "query_title": "The Cheese and the Worms",
+ "query_author": "Carlo Ginzburg",
+ "languages": [
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "por",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": "Il formaggio e i vermi",
+  "language": "ita",
+  "year": "1976",
+  "qid": "Q1427187",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Il formaggio e i vermi",
+  "original_language": "ita",
+  "original_year": 1976,
+  "first_year_seen": 1976,
+  "origin": "first published 1976 in italiano",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "CFI0509687",
+  "MIL0777236",
+  "MOD0243798",
+  "PUV1114045",
+  "RAV0120901",
+  "RAV2179775",
+  "RL10027333",
+  "RMS1231933",
+  "TO00777028",
+  "TO01388679",
+  "TSA0673823",
+  "UBO0115486",
+  "USM2026963"
+ ]
+}

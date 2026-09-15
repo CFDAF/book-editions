@@ -1,0 +1,72 @@
+{
+ "run": "N16__eng",
+ "title": "To Live",
+ "author": "Yu Hua",
+ "argv": [
+  "To Live",
+  "--author",
+  "Yu Hua",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N16__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 30.1,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 16.34,
+   "p50_s": 0.319,
+   "max_s": 15.798
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 16.3,
+   "p50_s": 0.685,
+   "max_s": 15.432
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.13,
+   "p50_s": 0.564,
+   "max_s": 0.864
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.46,
+   "p50_s": 0.742,
+   "max_s": 1.07
+  },
+  "opac.sbn.it/o": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.18,
+   "p50_s": 0.182,
+   "max_s": 0.182
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 163,
+   "failed": 0,
+   "total_s": 51.12,
+   "p50_s": 0.252,
+   "max_s": 1.382
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 2
+  }
+ },
+ "failures": []
+}

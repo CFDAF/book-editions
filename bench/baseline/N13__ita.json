@@ -1,0 +1,38 @@
+{
+ "mode": "work",
+ "query_title": "La società della stanchezza",
+ "query_author": "Byung-Chul Han",
+ "languages": [
+  "eng",
+  "ger",
+  "ita",
+  "kor",
+  "tur",
+  "unknown"
+ ],
+ "original": {
+  "title": "Müdigkeitsgesellschaft",
+  "language": "ger",
+  "year": "2010",
+  "qid": null,
+  "source": "sbn-authority"
+ },
+ "overview": {
+  "title": "Müdigkeitsgesellschaft",
+  "original_language": "ger",
+  "original_year": 2010,
+  "first_year_seen": 2010,
+  "origin": "first published 2010 in tedesco",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "LO11793756",
+  "RAV1957566"
+ ]
+}

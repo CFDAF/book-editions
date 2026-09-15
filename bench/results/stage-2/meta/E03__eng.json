@@ -1,0 +1,72 @@
+{
+ "run": "E03__eng",
+ "title": "Noise",
+ "author": "Jacques Attali",
+ "argv": [
+  "Noise",
+  "--author",
+  "Jacques Attali",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E03__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 22.2,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 6.91,
+   "p50_s": 0.269,
+   "max_s": 6.454
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 6.89,
+   "p50_s": 0.282,
+   "max_s": 6.443
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.381,
+   "max_s": 0.488
+  },
+  "openlibrary.org": {
+   "requests": 16,
+   "failed": 0,
+   "total_s": 10.14,
+   "p50_s": 0.69,
+   "max_s": 1.101
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.32,
+   "p50_s": 0.159,
+   "max_s": 0.162
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 164,
+   "failed": 0,
+   "total_s": 66.36,
+   "p50_s": 0.225,
+   "max_s": 4.218
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "ConnectTimeoutError": 5
+  }
+ },
+ "failures": []
+}

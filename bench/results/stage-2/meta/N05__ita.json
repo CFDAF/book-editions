@@ -1,0 +1,69 @@
+{
+ "run": "N05__ita",
+ "title": "Il giovane Holden",
+ "author": "J. D. Salinger",
+ "argv": [
+  "Il giovane Holden",
+  "--author",
+  "J. D. Salinger",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N05__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 72.2,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 44.88,
+   "p50_s": 0.315,
+   "max_s": 44.293
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 44.98,
+   "p50_s": 0.352,
+   "max_s": 44.293
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.07,
+   "p50_s": 0.534,
+   "max_s": 0.892
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 8.95,
+   "p50_s": 0.921,
+   "max_s": 1.078
+  },
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 1.91,
+   "p50_s": 0.495,
+   "max_s": 0.506
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 169,
+   "failed": 0,
+   "total_s": 114.03,
+   "p50_s": 0.62,
+   "max_s": 2.77
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

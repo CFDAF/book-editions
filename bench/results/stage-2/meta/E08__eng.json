@@ -1,0 +1,62 @@
+{
+ "run": "E08__eng",
+ "title": "Communication: The Social Matrix of Psychiatry",
+ "author": "Ruesch",
+ "argv": [
+  "Communication: The Social Matrix of Psychiatry",
+  "--author",
+  "Ruesch",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E08__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 11.7,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.287,
+   "max_s": 0.299
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.333,
+   "max_s": 0.361
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.66,
+   "p50_s": 0.657,
+   "max_s": 0.657
+  },
+  "openlibrary.org": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 8.28,
+   "p50_s": 0.67,
+   "max_s": 1.081
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.28,
+   "p50_s": 0.141,
+   "max_s": 0.144
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 169,
+   "failed": 0,
+   "total_s": 34.94,
+   "p50_s": 0.189,
+   "max_s": 0.519
+  }
+ },
+ "retries": {},
+ "failures": []
+}

@@ -1,0 +1,37 @@
+{
+ "mode": "work",
+ "query_title": "Vivere!",
+ "query_author": "Yu Hua",
+ "languages": [
+  "ita"
+ ],
+ "original": {
+  "title": null,
+  "language": null,
+  "year": null,
+  "qid": null,
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Vivere|",
+  "original_language": null,
+  "original_year": null,
+  "first_year_seen": 1997,
+  "origin": "earliest edition found 1997",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BVE0173648",
+  "LO10435177",
+  "MIL0834084",
+  "MOD1523037",
+  "PAV3223003",
+  "TSA1889251"
+ ]
+}

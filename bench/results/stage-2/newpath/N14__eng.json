@@ -1,0 +1,144 @@
+{
+ "run": "N14__eng",
+ "book": "N14",
+ "entry": "eng",
+ "title": "Blindness",
+ "author": "José Saramago",
+ "sbn_identity": {
+  "author_sent": "José Saramago",
+  "total": 8,
+  "W": "ensaio sobre a cegueira",
+  "W_count": 3,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.375,
+  "B_counts": [
+   3,
+   8
+  ],
+  "query_rows": 8,
+  "work_rows": 3,
+  "work_total": 3,
+  "truncated": false,
+  "b_requests": 3,
+  "tier": "rejected"
+ },
+ "wikidata_step4": {
+  "qid": "Q826428",
+  "matched_form": "Blindness",
+  "score": 1.0,
+  "candidates": 7,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL27420W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Ensaio sobre a cegueira José Saramago",
+    "key": "/works/OL27420W",
+    "keyed": "/works/OL27420W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL27420W",
+  "size": 40,
+  "rows": 40,
+  "languages": 7,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.5,
+  "keys": [
+   "/books/OL61412784M",
+   "/books/OL8834647M",
+   "/books/OL8835006M",
+   "/books/OL51656284M",
+   "/books/OL26384858M",
+   "/books/OL32063393M",
+   "/books/OL33329037M",
+   "/books/OL33979271M",
+   "/books/OL30983927M",
+   "/books/OL36638514M",
+   "/books/OL31913883M",
+   "/books/OL19483289M",
+   "/books/OL9047860M",
+   "/books/OL9048533M",
+   "/books/OL31979608M",
+   "/books/OL32236992M",
+   "/books/OL31900553M",
+   "/books/OL31146912M",
+   "/books/OL30674740M",
+   "/books/OL27380882M",
+   "/books/OL9116490M",
+   "/books/OL9162940M",
+   "/books/OL9199217M",
+   "/books/OL13118076M",
+   "/books/OL9886860M",
+   "/books/OL24300584M",
+   "/books/OL9153039M",
+   "/books/OL13196051M",
+   "/books/OL26368537M",
+   "/books/OL21503777M",
+   "/books/OL24362268M",
+   "/books/OL9173184M",
+   "/books/OL24300583M",
+   "/books/OL8626239M",
+   "/books/OL7365439M",
+   "/books/OL21630365M",
+   "/books/OL552444M",
+   "/books/OL6854985M",
+   "/books/OL16431240M",
+   "/books/OL352517M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.9,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.4,
+   "p50_s": 0.202,
+   "max_s": 0.238
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.281,
+   "max_s": 0.371
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.286,
+   "max_s": 0.308
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.86,
+   "p50_s": 0.613,
+   "max_s": 0.886
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.05,
+   "p50_s": 0.526,
+   "max_s": 0.84
+  }
+ },
+ "retries": {},
+ "failures": []
+}

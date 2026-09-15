@@ -1,0 +1,37 @@
+{
+ "run": "P08__2",
+ "title": "",
+ "author": "Han Byung-Chul",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P08__2.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P08__2.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 8.5,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.894,
+   "max_s": 0.894
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 64,
+   "failed": 0,
+   "total_s": 41.94,
+   "p50_s": 0.366,
+   "max_s": 5.15
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ConnectTimeoutError": 2
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,62 @@
+{
+ "run": "E06__ita",
+ "title": "Più brillante del sole",
+ "author": "Eshun",
+ "argv": [
+  "Più brillante del sole",
+  "--author",
+  "Eshun",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E06__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 36.8,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 31.64,
+   "p50_s": 15.821,
+   "max_s": 31.432
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 31.73,
+   "p50_s": 15.866,
+   "max_s": 31.477
+  },
+  "openlibrary.org": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 5.39,
+   "p50_s": 0.789,
+   "max_s": 1.137
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.31,
+   "p50_s": 0.153,
+   "max_s": 0.162
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 17,
+   "failed": 0,
+   "total_s": 4.27,
+   "p50_s": 0.185,
+   "max_s": 0.457
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

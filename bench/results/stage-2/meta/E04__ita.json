@@ -1,0 +1,66 @@
+{
+ "run": "E04__ita",
+ "title": "Kafka sulla spiaggia",
+ "author": "Murakami Haruki",
+ "argv": [
+  "Kafka sulla spiaggia",
+  "--author",
+  "Murakami Haruki",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E04__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 43.3,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.298,
+   "max_s": 0.363
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.297,
+   "max_s": 0.331
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 32.85,
+   "p50_s": 16.427,
+   "max_s": 32.639
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 7.13,
+   "p50_s": 0.971,
+   "max_s": 1.056
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.34,
+   "p50_s": 0.168,
+   "max_s": 0.172
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 166,
+   "failed": 0,
+   "total_s": 34.61,
+   "p50_s": 0.143,
+   "max_s": 1.774
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

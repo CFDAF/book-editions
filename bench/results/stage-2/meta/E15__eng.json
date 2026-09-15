@@ -1,0 +1,62 @@
+{
+ "run": "E15__eng",
+ "title": "The Essential Knuth",
+ "author": "Knuth",
+ "argv": [
+  "The Essential Knuth",
+  "--author",
+  "Knuth",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E15__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 10.6,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.21,
+   "p50_s": 0.384,
+   "max_s": 0.538
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.266,
+   "max_s": 0.315
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.64,
+   "p50_s": 0.641,
+   "max_s": 0.641
+  },
+  "openlibrary.org": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 3.73,
+   "p50_s": 0.768,
+   "max_s": 0.826
+  },
+  "opac.sbn.it/o": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.13,
+   "p50_s": 0.132,
+   "max_s": 0.132
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 157,
+   "failed": 0,
+   "total_s": 26.81,
+   "p50_s": 0.138,
+   "max_s": 1.182
+  }
+ },
+ "retries": {},
+ "failures": []
+}

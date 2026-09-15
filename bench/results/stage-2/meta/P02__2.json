@@ -1,0 +1,33 @@
+{
+ "run": "P02__2",
+ "title": "",
+ "author": "Haruki Murakami",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P02__2.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P02__2.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 21.2,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.93,
+   "p50_s": 1.934,
+   "max_s": 1.934
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 151,
+   "failed": 0,
+   "total_s": 72.12,
+   "p50_s": 0.372,
+   "max_s": 8.152
+  }
+ },
+ "retries": {},
+ "failures": []
+}

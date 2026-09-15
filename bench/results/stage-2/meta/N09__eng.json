@@ -1,0 +1,69 @@
+{
+ "run": "N09__eng",
+ "title": "The Cheese and the Worms",
+ "author": "Carlo Ginzburg",
+ "argv": [
+  "The Cheese and the Worms",
+  "--author",
+  "Carlo Ginzburg",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N09__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 54.7,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 41.92,
+   "p50_s": 0.271,
+   "max_s": 41.472
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 41.88,
+   "p50_s": 0.305,
+   "max_s": 41.405
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.88,
+   "p50_s": 0.442,
+   "max_s": 0.656
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 7.75,
+   "p50_s": 0.793,
+   "max_s": 1.049
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.34,
+   "p50_s": 0.168,
+   "max_s": 0.192
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 177,
+   "failed": 0,
+   "total_s": 46.53,
+   "p50_s": 0.211,
+   "max_s": 0.979
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

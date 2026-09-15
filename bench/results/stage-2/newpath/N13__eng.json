@@ -1,0 +1,84 @@
+{
+ "run": "N13__eng",
+ "book": "N13",
+ "entry": "eng",
+ "title": "The Burnout Society",
+ "author": "Byung-Chul Han",
+ "sbn_identity": {
+  "author_sent": "Byung-Chul Han",
+  "total": 0,
+  "W": null,
+  "tier": "no work",
+  "A": null,
+  "B": null,
+  "guard_requests": 5,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": "Q138528911",
+  "matched_form": "The Burnout Society",
+  "score": 1.0,
+  "candidates": 5,
+  "error": null
+ },
+ "ol_main": {
+  "key": null,
+  "how": null,
+  "search": [
+   {
+    "label": "original",
+    "q": "Müdigkeitsgesellschaft Byung-Chul Han",
+    "key": null,
+    "keyed": null,
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": null,
+ "phase_s": {
+  "identity": 1.5,
+  "listing": 0.8,
+  "ol_search_and_listing": 0.8
+ },
+ "wall_s": 2.3,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.7,
+   "p50_s": 0.254,
+   "max_s": 0.269
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.92,
+   "p50_s": 0.296,
+   "max_s": 0.391
+  },
+  "openlibrary.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.38,
+   "p50_s": 0.689,
+   "max_s": 0.759
+  },
+  "opac.sbn.it/o": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.67,
+   "p50_s": 0.667,
+   "max_s": 0.667
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.56,
+   "p50_s": 0.56,
+   "max_s": 0.56
+  }
+ },
+ "retries": {},
+ "failures": []
+}

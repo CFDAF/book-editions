@@ -1,0 +1,47 @@
+{
+ "mode": "work",
+ "query_title": "Angelus Novus",
+ "query_author": "Walter Benjamin",
+ "languages": [
+  "ger",
+  "ita"
+ ],
+ "original": {
+  "title": "Über den Begriff der Geschichte",
+  "language": "ger",
+  "year": "1942",
+  "qid": "Q330979",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Über den Begriff der Geschichte",
+  "original_language": "ger",
+  "original_year": 1942,
+  "first_year_seen": 1962,
+  "origin": "first published 1942 in tedesco",
+  "ambiguous": true
+ },
+ "choices": 2,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BIA0008658",
+  "BRI0003091",
+  "CAG0945416",
+  "LO11526954",
+  "PUG0000403",
+  "RAV0078169",
+  "RAV0138792",
+  "RLZ0200691",
+  "SBL0581772",
+  "SBL0621965",
+  "SBT0038915",
+  "TO01413521",
+  "TO01654733",
+  "UFE0734821",
+  "USM1885046"
+ ]
+}

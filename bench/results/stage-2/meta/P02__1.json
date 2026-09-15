@@ -1,0 +1,33 @@
+{
+ "run": "P02__1",
+ "title": "",
+ "author": "Murakami Haruki",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P02__1.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P02__1.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 30.3,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.14,
+   "p50_s": 1.139,
+   "max_s": 1.139
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 151,
+   "failed": 0,
+   "total_s": 91.63,
+   "p50_s": 0.45,
+   "max_s": 16.338
+  }
+ },
+ "retries": {},
+ "failures": []
+}

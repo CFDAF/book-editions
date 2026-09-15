@@ -1,0 +1,66 @@
+{
+ "run": "N14__por",
+ "title": "Ensaio sobre a cegueira",
+ "author": "José Saramago",
+ "argv": [
+  "Ensaio sobre a cegueira",
+  "--author",
+  "José Saramago",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N14__por.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 59.2,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.257,
+   "max_s": 0.289
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.262,
+   "max_s": 0.37
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 38.08,
+   "p50_s": 19.04,
+   "max_s": 37.906
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.31,
+   "p50_s": 0.833,
+   "max_s": 1.128
+  },
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 1.15,
+   "p50_s": 0.254,
+   "max_s": 0.48
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 179,
+   "failed": 0,
+   "total_s": 79.1,
+   "p50_s": 0.279,
+   "max_s": 2.347
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,66 @@
+{
+ "run": "N14__eng",
+ "title": "Blindness",
+ "author": "José Saramago",
+ "argv": [
+  "Blindness",
+  "--author",
+  "José Saramago",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N14__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 32.5,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.91,
+   "p50_s": 0.291,
+   "max_s": 0.397
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.315,
+   "max_s": 0.361
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.12,
+   "p50_s": 0.56,
+   "max_s": 0.882
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.56,
+   "p50_s": 0.865,
+   "max_s": 1.03
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.68,
+   "p50_s": 0.338,
+   "max_s": 0.536
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 171,
+   "failed": 0,
+   "total_s": 115.87,
+   "p50_s": 0.658,
+   "max_s": 7.7
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

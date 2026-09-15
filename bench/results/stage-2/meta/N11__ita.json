@@ -1,0 +1,66 @@
+{
+ "run": "N11__ita",
+ "title": "La scomparsa",
+ "author": "Georges Perec",
+ "argv": [
+  "La scomparsa",
+  "--author",
+  "Georges Perec",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N11__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 47.7,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.92,
+   "p50_s": 0.347,
+   "max_s": 0.38
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.03,
+   "p50_s": 0.348,
+   "max_s": 0.38
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 37.07,
+   "p50_s": 18.535,
+   "max_s": 36.886
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.41,
+   "p50_s": 0.707,
+   "max_s": 1.369
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.28,
+   "p50_s": 0.141,
+   "max_s": 0.145
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 167,
+   "failed": 0,
+   "total_s": 33.81,
+   "p50_s": 0.175,
+   "max_s": 0.461
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

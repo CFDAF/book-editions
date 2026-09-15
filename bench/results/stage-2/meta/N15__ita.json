@@ -1,0 +1,66 @@
+{
+ "run": "N15__ita",
+ "title": "2666",
+ "author": "Roberto Bolaño",
+ "argv": [
+  "2666",
+  "--author",
+  "Roberto Bolaño",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N15__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 59.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.266,
+   "max_s": 0.268
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.283,
+   "max_s": 0.395
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 46.99,
+   "p50_s": 23.495,
+   "max_s": 46.319
+  },
+  "openlibrary.org": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 4.26,
+   "p50_s": 0.772,
+   "max_s": 1.164
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.46,
+   "p50_s": 0.232,
+   "max_s": 0.284
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 166,
+   "failed": 0,
+   "total_s": 42.36,
+   "p50_s": 0.236,
+   "max_s": 0.603
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

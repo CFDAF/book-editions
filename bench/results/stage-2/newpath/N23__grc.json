@@ -1,0 +1,105 @@
+{
+ "run": "N23__grc",
+ "book": "N23",
+ "entry": "grc",
+ "title": "Odysseia",
+ "author": "Homer",
+ "sbn_identity": {
+  "author_sent": "Homer",
+  "total": 199,
+  "W": "odyssea",
+  "W_count": 43,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 3,
+  "B": 0.222,
+  "B_counts": [
+   2,
+   9
+  ],
+  "query_rows": 199,
+  "work_rows": 43,
+  "work_total": 43,
+  "truncated": false,
+  "b_requests": 17,
+  "tier": "rejected"
+ },
+ "wikidata_step4": {
+  "qid": "Q35160",
+  "matched_form": "Odýsseia",
+  "score": 1.0,
+  "candidates": 8,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL29477874W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Ὀδύσσεια Homer",
+    "key": "/works/OL29477874W",
+    "keyed": "/works/OL61981W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL29477874W",
+  "size": 1,
+  "rows": 1,
+  "languages": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.6,
+  "keys": [
+   "/books/OL40578004M"
+  ]
+ },
+ "phase_s": {
+  "identity": 2.0,
+  "listing": 1.3,
+  "ol_search_and_listing": 1.3
+ },
+ "wall_s": 3.3,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.81,
+   "p50_s": 0.262,
+   "max_s": 0.361
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.266,
+   "max_s": 0.297
+  },
+  "opac.sbn.it/o": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 4.03,
+   "p50_s": 0.359,
+   "max_s": 0.41
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.03,
+   "p50_s": 0.654,
+   "max_s": 1.111
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.16,
+   "p50_s": 0.582,
+   "max_s": 0.995
+  }
+ },
+ "retries": {},
+ "failures": []
+}

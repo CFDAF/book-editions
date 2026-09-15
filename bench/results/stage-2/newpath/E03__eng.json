@@ -1,0 +1,150 @@
+{
+ "run": "E03__eng",
+ "book": "E03",
+ "entry": "eng",
+ "title": "Noise",
+ "author": "Jacques Attali",
+ "sbn_identity": {
+  "author_sent": "Jacques Attali",
+  "total": 1,
+  "W": "bruits : essai sur l'economie politique de la musique",
+  "W_count": 1,
+  "W_ties": [
+   "noise"
+  ],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 1.0,
+  "B_counts": [
+   1,
+   1
+  ],
+  "query_rows": 1,
+  "work_rows": 1,
+  "work_total": 1,
+  "truncated": false,
+  "b_requests": 3,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": "Q7047658",
+  "matched_form": "Noise: The Political Economy of Music",
+  "score": 1.0,
+  "candidates": 5,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL685250W",
+  "how": "original_core, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Bruits : essai sur l'économie politique de la musique Jacques Attali",
+    "key": null,
+    "keyed": null,
+    "error": null
+   },
+   {
+    "label": "original_core",
+    "q": "Bruits Jacques Attali",
+    "key": "/works/OL685250W",
+    "keyed": "/works/OL685250W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "bruits : essai sur l'economie politique de la musique",
+  "total": 3,
+  "rows": 3,
+  "languages": 3,
+  "lingua_facet": [
+   [
+    "eng",
+    1
+   ],
+   [
+    "fre",
+    1
+   ],
+   [
+    "ita",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 5,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.4,
+  "bids": [
+   "LO10442107",
+   "RAV0708340",
+   "RAV0064979"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL685250W",
+  "size": 7,
+  "rows": 7,
+  "languages": 2,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 1.1,
+  "keys": [
+   "/books/OL21166249M",
+   "/books/OL2865056M",
+   "/books/OL4625368M",
+   "/books/OL8069893M",
+   "/books/OL8865228M",
+   "/books/OL22491678M",
+   "/books/OL7839154M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.5,
+  "listing": 2.5,
+  "ol_search_and_listing": 2.5
+ },
+ "wall_s": 4.0,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 1.16,
+   "p50_s": 0.187,
+   "max_s": 0.198
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.251,
+   "max_s": 0.296
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.328,
+   "max_s": 0.333
+  },
+  "openlibrary.org": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 2.48,
+   "p50_s": 0.534,
+   "max_s": 1.007
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.62,
+   "p50_s": 0.309,
+   "max_s": 0.444
+  }
+ },
+ "retries": {},
+ "failures": []
+}

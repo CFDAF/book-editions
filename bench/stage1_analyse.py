@@ -21,84 +21,21 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 from lookup.matching import core_title, normalize, title_similarity  # noqa: E402
 from lookup.sbn import parse_publication  # noqa: E402
+from judgements import (INSIGHTS, NOT_A_WORK, RIGHT_OL, RIGHT_QID, RIGHT_W, SPLIT_OL,  # noqa: E402
+                        known_titles, sim)
 
 R = HERE / "results" / "stage-1"
 corpus = json.loads((HERE / "corpus.json").read_text())
 BOOKS = {b["id"]: b for b in corpus["books"]}
 load = lambda name: json.loads((R / name).read_text())
 
-# --- Hand judgements --------------------------------------------------------
-# Wikidata items whose label/description was read (a1_wd.json, gt_wikipedia.py).
-RIGHT_QID = {
-    "E01": "Q178869", "E02": "Q1970551", "E03": "Q7047658", "E04": "Q579744", "E09": "Q172850",
-    "E12": "Q330979", "E16": "Q206870", "N01": "Q917055", "N02": "Q25338", "N03": "Q836036",
-    "N04": "Q165318", "N05": "Q183883", "N06": "Q208460", "N07": "Q1032190", "N08": "Q22263533",
-    "N09": "Q1427187", "N10": "Q163297", "N11": "Q595140", "N12": "Q36097", "N13": "Q138528911",
-    "N14": "Q826428", "N15": "Q219437", "N16": "Q151919", "N17": "Q3149381", "N18": "Q25519071",
-    "N19": "Q115818209", "N20": "Q31067292", "N21": "Q5219975", "N22": "Q15991228", "N23": "Q35160",
-}
-# SBN uniform titles that denote the book (a1_sbn.json facet values). Sets where
-# SBN splits one work across several uniform titles.
-RIGHT_W = {
-    "E01": {"cien anos de soledad"}, "E02": {"steps to an ecology of mind"},
-    "E03": {"bruits : essai sur l'economie politique de la musique"}, "E04": {"umibe no kafuka"},
-    "E05": {"invention of news"}, "E06": {"more brilliant than the sun"}, "E07": {"liquid modernity."},
-    "E08": {"communication: the social matrix of psychiatry."}, "E09": {"nome della rosa"},
-    "E12": {"uber den begriff der geschichte"}, "E16": {"doktor zivago"},
-    "N01": {"nesnesitelna lehkost byti"}, "N02": {"petit prince"}, "N03": {"se questo e un uomo"},
-    "N04": {"prestuplenie i nakazanie"}, "N05": {"catcher in the rye"}, "N06": {"nineteen eighty-four"},
-    "N07": {"se una notte d'inverno un viaggiatore"}, "N08": {"amica geniale : infanzia, adolescenza"},
-    "N09": {"formaggio e i vermi"}, "N10": {"etranger."}, "N11": {"disparition."}, "N12": {"prozess"},
-    "N13": {"mudigkeitsgesellschaft"}, "N14": {"ensaio sobre a cegueira"}, "N15": {"2666."},
-    "N16": {"huozhe"}, "N17": {"bain el-qasrain.", "bayn al-qasrayn"},
-    "N18": {"capitalist realism : is there no alternative?"}, "N19": {"tomorrow, and tomorrow, and tomorrow"},
-    "N20": {"metaphors we live by."}, "N21": {"veinte poemas de amor y una cancion desesperada."},
-    "N22": {"capital au xxie siecle", "capital au 21. siecle", "capitale nel xxi secolo"},
-    "N23": {"odyssea"}, "N24": {"tutto per una casa"},
-}
-# Open Library main work records (a1_ol.json docs: title, author, edition count).
-RIGHT_OL = {
-    "E01": "/works/OL274505W", "E02": "/works/OL486424W", "E03": "/works/OL685250W",
-    "E04": "/works/OL2625431W", "E05": "/works/OL19983430W", "E06": "/works/OL2693265W",
-    "E07": "/works/OL527224W", "E08": "/works/OL12269244W", "E09": "/works/OL8996439W",
-    "E12": "/works/OL16171243W", "E14": "/works/OL23302246W", "E15": "/works/OL36428365W",
-    "E16": "/works/OL258301W", "N01": "/works/OL8972751W", "N02": "/works/OL10263W",
-    "N03": "/works/OL860066W", "N04": "/works/OL166894W", "N05": "/works/OL3335245W",
-    "N06": "/works/OL1168083W", "N07": "/works/OL15321W", "N08": "/works/OL16520879W",
-    "N09": "/works/OL14872792W", "N10": "/works/OL1230613W", "N11": "/works/OL1715351W",
-    "N12": "/works/OL498463W", "N13": "/works/OL17795654W", "N14": "/works/OL27420W",
-    "N15": "/works/OL712025W", "N17": "/works/OL1599742W", "N18": "/works/OL15683250W",
-    "N19": "/works/OL26004554W", "N20": "/works/OL1952983W", "N21": "/works/OL979517W",
-    "N22": "/works/OL16814568W",
-}
-# Records of the right work that the automatic title check cannot see as such:
-# 'Huo zhe' (romanised, 5 editions) and 'Viver - To Live' (Portuguese, 1 edition), both by 余华.
-SPLIT_OL = {("N16", "eng"), ("N16", "ita")}
-# Not one book (generic titles) or insights only: excluded from pass/fail.
-NOT_A_WORK = {"E10", "E11"}
-INSIGHTS = {"N23"}
 # A5: N02 appeared in English and French in the same month; reported, not scored.
 A5_REPORT_ONLY = {"N02"}
-
-
-def sim(a, b):
-    if not a or not b:
-        return 0.0
-    return max(title_similarity(a, b), title_similarity(core_title(a), core_title(b)))
 
 
 def same_script_title(a, b):
     f = lambda s: unicodedata.normalize("NFKC", re.sub(r"\s*\(.*\)\s*$", "", s or "")).strip().casefold()
     return bool(a and b) and (f(a) == f(b) or sim(f(a), f(b)) >= 0.6)
-
-
-def known_titles(book):
-    gt = book["ground_truth"]
-    forms = [re.sub(r"\s*\(.*\)\s*$", "", gt["original_title"]), book["original_title"]]
-    forms += [book.get("original_title_romanised")] + [e["title"] for e in book["entries"]]
-    if book["id"] == "N12":
-        forms += ["Der Prozess", "Der Proceß", "Der Prozeß"]
-    return [f for f in forms if f]
 
 
 def md_table(header, rows):

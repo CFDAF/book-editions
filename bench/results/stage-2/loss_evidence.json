@@ -1,0 +1,8794 @@
+{
+ "sbn": {
+  "TO01899939": {
+   "found": true,
+   "works": []
+  },
+  "VEA1284105": {
+   "found": true,
+   "works": []
+  },
+  "ANA0121982": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "ANA0140140": {
+   "found": true,
+   "works": []
+  },
+  "ANA0148250": {
+   "found": true,
+   "works": []
+  },
+  "ANA0173541": {
+   "found": true,
+   "works": []
+  },
+  "ANA0301967": {
+   "found": true,
+   "works": []
+  },
+  "ANA0501907": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "AQ10000496": {
+   "found": true,
+   "works": []
+  },
+  "AQ10000593": {
+   "found": true,
+   "works": []
+  },
+  "AQ10036385": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "AQ10067143": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "AQ10077412": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "AQ10101626": {
+   "found": true,
+   "works": []
+  },
+  "ARE0000848": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "ARE0004797": {
+   "found": true,
+   "works": []
+  },
+  "BA10014698": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BA10034153": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "BA10034674": {
+   "found": true,
+   "works": []
+  },
+  "BA10055155": {
+   "found": true,
+   "works": []
+  },
+  "BA10055159": {
+   "found": true,
+   "works": []
+  },
+  "BA10055922": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BA10133971": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BA10148677": {
+   "found": true,
+   "works": [
+    {
+     "id": "BA10148769",
+     "title": "Il piccolo principe (braille)",
+     "label": "| Saint-Exupéry, Simone : de"
+    }
+   ]
+  },
+  "BA10151712": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0662016",
+     "title": "Odissea",
+     "label": "| Scataglini, Carlo"
+    }
+   ]
+  },
+  "BA10167073": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BA10172536": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BA10180431": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BAS0261509": {
+   "found": true,
+   "works": []
+  },
+  "BAS0261650": {
+   "found": true,
+   "works": []
+  },
+  "BAS0272811": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BCT0007793": {
+   "found": true,
+   "works": []
+  },
+  "BCT0021417": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "BCT0029130": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "BCT0051138": {
+   "found": true,
+   "works": []
+  },
+  "BCT0074386": {
+   "found": true,
+   "works": []
+  },
+  "BCT0086329": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BIA0008507": {
+   "found": true,
+   "works": []
+  },
+  "BIA0008658": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "BIA0012813": {
+   "found": true,
+   "works": []
+  },
+  "BIA0017492": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BMT0020050": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "BMT0036089": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BMT0040015": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BRI0003091": {
+   "found": true,
+   "works": []
+  },
+  "BRI0105129": {
+   "found": true,
+   "works": []
+  },
+  "BRI0305759": {
+   "found": true,
+   "works": []
+  },
+  "BRI0350775": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BRI0363900": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BRI0406191": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BRI0478102": {
+   "found": true,
+   "works": []
+  },
+  "BRI0481917": {
+   "found": true,
+   "works": []
+  },
+  "BRI0488272": {
+   "found": true,
+   "works": []
+  },
+  "BRI0488898": {
+   "found": true,
+   "works": []
+  },
+  "BVE0065218": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVE0071217": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BVE0096292": {
+   "found": true,
+   "works": []
+  },
+  "BVE0180275": {
+   "found": true,
+   "works": []
+  },
+  "BVE0215198": {
+   "found": true,
+   "works": []
+  },
+  "BVE0283406": {
+   "found": true,
+   "works": []
+  },
+  "BVE0304763": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BVE0310193": {
+   "found": true,
+   "works": []
+  },
+  "BVE0310208": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "BVE0332462": {
+   "found": true,
+   "works": []
+  },
+  "BVE0342887": {
+   "found": true,
+   "works": []
+  },
+  "BVE0362724": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BVE0379170": {
+   "found": true,
+   "works": []
+  },
+  "BVE0392934": {
+   "found": true,
+   "works": []
+  },
+  "BVE0436965": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BVE0519531": {
+   "found": true,
+   "works": []
+  },
+  "BVE0561089": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVE0561456": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVE0602294": {
+   "found": true,
+   "works": []
+  },
+  "BVE0612668": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "BVE0717294": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "BVE0773702": {
+   "found": true,
+   "works": [
+    {
+     "id": "SBN0079437",
+     "title": "L'amica geniale",
+     "label": "| Ferrante, Elena"
+    }
+   ]
+  },
+  "BVE0837981": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE004338": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE005066": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE005071",
+     "title": "Homeri vita.",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    },
+    {
+     "id": "VEA1266595",
+     "title": "Vita Homeri",
+     "label": null
+    }
+   ]
+  },
+  "BVEE005811": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE005071",
+     "title": "Homeri vita.",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE006089": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE010890": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE016475": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE016478": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE019386": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE005071",
+     "title": "Homeri vita.",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    },
+    {
+     "id": "VEA1266595",
+     "title": "Vita Homeri",
+     "label": null
+    }
+   ]
+  },
+  "BVEE019529": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE005071",
+     "title": "Homeri vita.",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    },
+    {
+     "id": "VEA1266595",
+     "title": "Vita Homeri",
+     "label": null
+    }
+   ]
+  },
+  "BVEE056846": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "BVEE091823": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CAG0036370": {
+   "found": true,
+   "works": []
+  },
+  "CAG0038314": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CAG0052429": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CAG0076644": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CAG0086160": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CAG0088977": {
+   "found": true,
+   "works": []
+  },
+  "CAG0104361": {
+   "found": true,
+   "works": []
+  },
+  "CAG0422101": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CAG0720181": {
+   "found": true,
+   "works": []
+  },
+  "CAG0867648": {
+   "found": true,
+   "works": []
+  },
+  "CAG0945416": {
+   "found": true,
+   "works": []
+  },
+  "CAG0950319": {
+   "found": true,
+   "works": []
+  },
+  "CAG1151118": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CAG1216294": {
+   "found": true,
+   "works": []
+  },
+  "CAG1250642": {
+   "found": true,
+   "works": []
+  },
+  "CAG1388366": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CAG1536520": {
+   "found": true,
+   "works": []
+  },
+  "CAG1632134": {
+   "found": true,
+   "works": []
+  },
+  "CAG1713782": {
+   "found": true,
+   "works": []
+  },
+  "CAG2101847": {
+   "found": true,
+   "works": []
+  },
+  "CAG2120893": {
+   "found": true,
+   "works": []
+  },
+  "CAG2173605": {
+   "found": true,
+   "works": []
+  },
+  "CAM0001402": {
+   "found": true,
+   "works": []
+  },
+  "CAM0025169": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "CAM0196423": {
+   "found": true,
+   "works": []
+  },
+  "CAM0234059": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI0061080": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0072694": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0078585": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "CFI0086899": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0187685": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0230722": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0293961": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI0304500": {
+   "found": true,
+   "works": []
+  },
+  "CFI0309725": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI0314472": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0319230": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CFI0325875": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CFI0337386": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CFI0377549": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0386368": {
+   "found": true,
+   "works": []
+  },
+  "CFI0451208": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0453318": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CFI0455304": {
+   "found": true,
+   "works": []
+  },
+  "CFI0455630": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0487362": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI0502371": {
+   "found": true,
+   "works": []
+  },
+  "CFI0502374": {
+   "found": true,
+   "works": []
+  },
+  "CFI0502380": {
+   "found": true,
+   "works": []
+  },
+  "CFI0502383": {
+   "found": true,
+   "works": []
+  },
+  "CFI0627619": {
+   "found": true,
+   "works": []
+  },
+  "CFI0643677": {
+   "found": true,
+   "works": []
+  },
+  "CFI0649731": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI0658906": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CFI0724421": {
+   "found": true,
+   "works": []
+  },
+  "CFI0747080": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0813747": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0819735": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CFI0893322": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI0904131": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI0957814": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "CFI0975567": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01903788",
+     "title": "Le capital au 21. siècle",
+     "label": "| Piketty, Thomas"
+    }
+   ]
+  },
+  "CFI1156633": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CFI1172094": {
+   "found": true,
+   "works": [
+    {
+     "id": "UBO4829096",
+     "title": "1984",
+     "label": "| Orwell, George"
+    }
+   ]
+  },
+  "CFI1182351": {
+   "found": true,
+   "works": [
+    {
+     "id": "UBO4829096",
+     "title": "1984",
+     "label": "| Orwell, George"
+    }
+   ]
+  },
+  "CFI1183309": {
+   "found": true,
+   "works": [
+    {
+     "id": "UBO4829096",
+     "title": "1984",
+     "label": "| Orwell, George"
+    }
+   ]
+  },
+  "CSA0005831": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "CSA0033522": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CSA0036282": {
+   "found": true,
+   "works": []
+  },
+  "CSA0063373": {
+   "found": true,
+   "works": []
+  },
+  "CUB0247768": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CUB0247828": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "CUB0337668": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0337722": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0337726": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0337753": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0337756": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0337782": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0368168": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CUB0368169": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CUB0368178": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CUB0368195": {
+   "found": true,
+   "works": []
+  },
+  "CUB0409257": {
+   "found": true,
+   "works": []
+  },
+  "CUB0409258": {
+   "found": true,
+   "works": []
+  },
+  "CUB0409262": {
+   "found": true,
+   "works": []
+  },
+  "CUB0409273": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0409309": {
+   "found": true,
+   "works": []
+  },
+  "CUB0409403": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "CUB0693953": {
+   "found": true,
+   "works": []
+  },
+  "CUB0693954": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117182",
+     "title": "Pensieri",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "PUV1153537",
+     "title": "Paralipomeni della Batracomiomachia",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "CUB0711497": {
+   "found": true,
+   "works": []
+  },
+  "DDS1357299": {
+   "found": true,
+   "works": []
+  },
+  "FER0176823": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "FER0180003": {
+   "found": true,
+   "works": []
+  },
+  "FER0180005": {
+   "found": true,
+   "works": []
+  },
+  "FER0186989": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "FOG0544637": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "IEI0031892": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "IEI0103425": {
+   "found": true,
+   "works": []
+  },
+  "IEI0268252": {
+   "found": true,
+   "works": []
+  },
+  "IEI0375268": {
+   "found": true,
+   "works": [
+    {
+     "id": "TSA1311710",
+     "title": "Postille a Il nome della rosa",
+     "label": "| Eco, Umberto"
+    }
+   ]
+  },
+  "IEI0395176": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01903788",
+     "title": "Le capital au 21. siècle",
+     "label": "| Piketty, Thomas"
+    }
+   ]
+  },
+  "IEI0483465": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "IEI0628439": {
+   "found": true,
+   "works": []
+  },
+  "IEI0678531": {
+   "found": true,
+   "works": []
+  },
+  "IEI0678532": {
+   "found": true,
+   "works": []
+  },
+  "IEI0716639": {
+   "found": true,
+   "works": []
+  },
+  "LEK0010861": {
+   "found": true,
+   "works": []
+  },
+  "LEK0012499": {
+   "found": true,
+   "works": []
+  },
+  "LEK0021191": {
+   "found": true,
+   "works": []
+  },
+  "LI30005852": {
+   "found": true,
+   "works": [
+    {
+     "id": "SBN0079437",
+     "title": "L'amica geniale",
+     "label": "| Ferrante, Elena"
+    }
+   ]
+  },
+  "LI30012079": {
+   "found": true,
+   "works": []
+  },
+  "LI30023283": {
+   "found": true,
+   "works": []
+  },
+  "LIA0036850": {
+   "found": true,
+   "works": []
+  },
+  "LIA0085769": {
+   "found": true,
+   "works": []
+  },
+  "LIA0162105": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LIA0166448": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LIA0166984": {
+   "found": true,
+   "works": [
+    {
+     "id": "LIA0166985",
+     "title": "Das Kunstwerk imm Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": null
+    }
+   ]
+  },
+  "LIA0458133": {
+   "found": true,
+   "works": []
+  },
+  "LIA0507006": {
+   "found": true,
+   "works": []
+  },
+  "LIA0561871": {
+   "found": true,
+   "works": []
+  },
+  "LIA0593183": {
+   "found": true,
+   "works": []
+  },
+  "LIA0702904": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LIA0856865": {
+   "found": true,
+   "works": []
+  },
+  "LIA0880202": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LIA0928967": {
+   "found": true,
+   "works": []
+  },
+  "LIA0953217": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LIA0954459": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LIG0030135": {
+   "found": true,
+   "works": []
+  },
+  "LIG0036963": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LIG0036972": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LIG0042415": {
+   "found": true,
+   "works": []
+  },
+  "LIG0066492": {
+   "found": true,
+   "works": []
+  },
+  "LIG0071026": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LIG0132800": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LIG0386694": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LIGE004154": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO10063514": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LO10248076": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO10317883": {
+   "found": true,
+   "works": [
+    {
+     "id": "RMS3062131",
+     "title": "Opere. Giacomo Leopardi",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LO10322503": {
+   "found": true,
+   "works": []
+  },
+  "LO10333407": {
+   "found": true,
+   "works": []
+  },
+  "LO10421573": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LO10467644": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0972770",
+     "title": "Odissea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO10529686": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO10541775": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV2084748",
+     "title": "Odysseia. Libro 24",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO10543350": {
+   "found": true,
+   "works": []
+  },
+  "LO10566861": {
+   "found": true,
+   "works": []
+  },
+  "LO10723098": {
+   "found": true,
+   "works": []
+  },
+  "LO10756448": {
+   "found": true,
+   "works": []
+  },
+  "LO10760309": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LO10760802": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LO10767102": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LO10807791": {
+   "found": true,
+   "works": []
+  },
+  "LO10825945": {
+   "found": true,
+   "works": []
+  },
+  "LO10855374": {
+   "found": true,
+   "works": []
+  },
+  "LO10907660": {
+   "found": true,
+   "works": []
+  },
+  "LO10925144": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LO10925338": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LO11036250": {
+   "found": true,
+   "works": []
+  },
+  "LO11087877": {
+   "found": true,
+   "works": []
+  },
+  "LO11109179": {
+   "found": true,
+   "works": []
+  },
+  "LO11117722": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO11129163": {
+   "found": true,
+   "works": []
+  },
+  "LO11129169": {
+   "found": true,
+   "works": []
+  },
+  "LO11135789": {
+   "found": true,
+   "works": []
+  },
+  "LO11176387": {
+   "found": true,
+   "works": []
+  },
+  "LO11176389": {
+   "found": true,
+   "works": []
+  },
+  "LO11188489": {
+   "found": true,
+   "works": []
+  },
+  "LO11255822": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LO11264831": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LO11279631": {
+   "found": true,
+   "works": []
+  },
+  "LO11307098": {
+   "found": true,
+   "works": []
+  },
+  "LO11307104": {
+   "found": true,
+   "works": []
+  },
+  "LO11315710": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO11337183": {
+   "found": true,
+   "works": []
+  },
+  "LO11338713": {
+   "found": true,
+   "works": []
+  },
+  "LO11361723": {
+   "found": true,
+   "works": []
+  },
+  "LO11378032": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO11384102": {
+   "found": true,
+   "works": []
+  },
+  "LO11398095": {
+   "found": true,
+   "works": []
+  },
+  "LO11398100": {
+   "found": true,
+   "works": []
+  },
+  "LO11398562": {
+   "found": true,
+   "works": []
+  },
+  "LO11416296": {
+   "found": true,
+   "works": []
+  },
+  "LO11417606": {
+   "found": true,
+   "works": []
+  },
+  "LO11458908": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "LO11496050": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0972770",
+     "title": "Odissea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO11526954": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "LO11574516": {
+   "found": true,
+   "works": []
+  },
+  "LO11586329": {
+   "found": true,
+   "works": [
+    {
+     "id": "RML0376678",
+     "title": "Ensaio sobre a Cergueira",
+     "label": null
+    }
+   ]
+  },
+  "LO11593037": {
+   "found": true,
+   "works": [
+    {
+     "id": "UM10175253",
+     "title": "Il piccolo principe",
+     "label": "| Puricelli Guerra, Elisa"
+    }
+   ]
+  },
+  "LO11622109": {
+   "found": true,
+   "works": []
+  },
+  "LO11645931": {
+   "found": true,
+   "works": []
+  },
+  "LO11653987": {
+   "found": true,
+   "works": []
+  },
+  "LO11873244": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO12119609": {
+   "found": true,
+   "works": [
+    {
+     "id": "MIL1139320",
+     "title": "L'odissea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LO1E005443": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LUA0513781": {
+   "found": true,
+   "works": []
+  },
+  "LUA0517404": {
+   "found": true,
+   "works": []
+  },
+  "LUA0580898": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "LUA0584042": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LUA0584077": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "LUA0595916": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "LZ10245248": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MES0035639": {
+   "found": true,
+   "works": []
+  },
+  "MIL0068768": {
+   "found": true,
+   "works": []
+  },
+  "MIL0133105": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MIL0166965": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MIL0313962": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MIL0329089": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MIL0332997": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "MIL0341858": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MIL0355875": {
+   "found": true,
+   "works": []
+  },
+  "MIL0355879": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "MIL0380852": {
+   "found": true,
+   "works": []
+  },
+  "MIL0461662": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "MIL0532579": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MIL0626381": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MIL0719896": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "MIL0833216": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "MIL0871878": {
+   "found": true,
+   "works": []
+  },
+  "MIL0905145": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01903788",
+     "title": "Le capital au 21. siècle",
+     "label": "| Piketty, Thomas"
+    }
+   ]
+  },
+  "MIL0933862": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MIL0961186": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "MIL1090830": {
+   "found": true,
+   "works": [
+    {
+     "id": "MIL1090833",
+     "title": "Tutte le poesie (antologie)",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "MOD0039659": {
+   "found": true,
+   "works": []
+  },
+  "MOD0088938": {
+   "found": true,
+   "works": []
+  },
+  "MOD0108638": {
+   "found": true,
+   "works": []
+  },
+  "MOD0185060": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "MOD0207547": {
+   "found": true,
+   "works": [
+    {
+     "id": "MOD0518365",
+     "title": "Bayan al-Qasrayn",
+     "label": "| Maḥfūẓ, Naǧīb"
+    }
+   ]
+  },
+  "MOD0242892": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD0266880": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD0352224": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD0607036": {
+   "found": true,
+   "works": []
+  },
+  "MOD0611615": {
+   "found": true,
+   "works": []
+  },
+  "MOD0614071": {
+   "found": true,
+   "works": []
+  },
+  "MOD0738637": {
+   "found": true,
+   "works": []
+  },
+  "MOD0839464": {
+   "found": true,
+   "works": []
+  },
+  "MOD0841532": {
+   "found": true,
+   "works": []
+  },
+  "MOD0905171": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "MOD0982341": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD0994444": {
+   "found": true,
+   "works": []
+  },
+  "MOD0999125": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD1342445": {
+   "found": true,
+   "works": []
+  },
+  "MOD1404564": {
+   "found": true,
+   "works": []
+  },
+  "MOD1475341": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "MOD1559214": {
+   "found": true,
+   "works": []
+  },
+  "MOD1559216": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD1601343": {
+   "found": true,
+   "works": [
+    {
+     "id": "VEA1423268",
+     "title": "Über den Begriff der Geschichte",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "MOD1620715": {
+   "found": true,
+   "works": []
+  },
+  "MOD1630537": {
+   "found": true,
+   "works": []
+  },
+  "MOD1632625": {
+   "found": true,
+   "works": []
+  },
+  "MOD1633168": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD1663963": {
+   "found": true,
+   "works": []
+  },
+  "MOD1670100": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOD1685766": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0388313",
+     "title": "Il piccolo Principe",
+     "label": "| Silei, Fabrizio"
+    }
+   ]
+  },
+  "MOD1698002": {
+   "found": true,
+   "works": []
+  },
+  "MOD1719105": {
+   "found": true,
+   "works": []
+  },
+  "MOD1780677": {
+   "found": true,
+   "works": []
+  },
+  "MOD1819072": {
+   "found": true,
+   "works": [
+    {
+     "id": "PAV1010179",
+     "title": "Il piccolo principe",
+     "label": "| Bordiglioni, Stefano"
+    }
+   ]
+  },
+  "MOL0079796": {
+   "found": true,
+   "works": []
+  },
+  "MOL0094006": {
+   "found": true,
+   "works": [
+    {
+     "id": "REA0296552",
+     "title": "Poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "MOL0192541": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "MOL0203965": {
+   "found": true,
+   "works": []
+  },
+  "NAP0079426": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "NAP0083071": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "NAP0193255": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "NAP0210511": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "NAP0506125": {
+   "found": true,
+   "works": []
+  },
+  "NAP0506149": {
+   "found": true,
+   "works": []
+  },
+  "NAP0512354": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "NAP0603013": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "NAP0683624": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "NAP0764732": {
+   "found": true,
+   "works": []
+  },
+  "NAP0784346": {
+   "found": true,
+   "works": []
+  },
+  "NAP0797913": {
+   "found": true,
+   "works": []
+  },
+  "NAP0825011": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "NAP0825329": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "NAP0844178": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PA10029542": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PA10033836": {
+   "found": true,
+   "works": []
+  },
+  "PAL0023615": {
+   "found": true,
+   "works": []
+  },
+  "PAL0093650": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PAL0129066": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PAL0135269": {
+   "found": true,
+   "works": []
+  },
+  "PAL0195042": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "PAL0204306": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "PAL0243356": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PAL0262835": {
+   "found": true,
+   "works": [
+    {
+     "id": "SBL0607751",
+     "title": "Crónica de una muerte anunciada.",
+     "label": "| García Márquez, Gabriel"
+    }
+   ]
+  },
+  "PAL0265326": {
+   "found": true,
+   "works": []
+  },
+  "PAL0268792": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PAL0350807": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117182",
+     "title": "Pensieri",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "PUV0340176",
+     "title": "Discorso di un italiano intorno alla poesia romantica",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "PUV1153537",
+     "title": "Paralipomeni della Batracomiomachia",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "RAV2090980",
+     "title": "Zibaldone di pensieri (antologie)",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "SBN0100008",
+     "title": "Lettera ai Sigg. compilatori della Biblioteca italiana",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "PAL0385598": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PAR0882446": {
+   "found": true,
+   "works": []
+  },
+  "PAR0894695": {
+   "found": true,
+   "works": []
+  },
+  "PAR0901148": {
+   "found": true,
+   "works": []
+  },
+  "PAR0915566": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PAR0930821": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PAR0949369": {
+   "found": true,
+   "works": []
+  },
+  "PAR0956691": {
+   "found": true,
+   "works": []
+  },
+  "PAR1165283": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PAR1207070": {
+   "found": true,
+   "works": []
+  },
+  "PAR1227339": {
+   "found": true,
+   "works": []
+  },
+  "PAR1243186": {
+   "found": true,
+   "works": []
+  },
+  "PARE066068": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE005071",
+     "title": "Homeri vita.",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    },
+    {
+     "id": "VEA1266595",
+     "title": "Vita Homeri",
+     "label": null
+    }
+   ]
+  },
+  "PAV0016382": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PAV0059760": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PAV0073584": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PAV0079437": {
+   "found": true,
+   "works": []
+  },
+  "PAV0111941": {
+   "found": true,
+   "works": []
+  },
+  "PAV0131448": {
+   "found": true,
+   "works": []
+  },
+  "PAV0154908": {
+   "found": true,
+   "works": []
+  },
+  "PAV0158932": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "PAV0195420": {
+   "found": true,
+   "works": [
+    {
+     "id": "PAV1010179",
+     "title": "Il piccolo principe",
+     "label": "| Bordiglioni, Stefano"
+    }
+   ]
+  },
+  "PAV0195856": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PAV0197610": {
+   "found": true,
+   "works": []
+  },
+  "PAV3226418": {
+   "found": true,
+   "works": [
+    {
+     "id": "ANA0499084",
+     "title": "Peut-on sauver l'Europe?",
+     "label": "| Piketty, Thomas"
+    }
+   ]
+  },
+  "PBE0020302": {
+   "found": true,
+   "works": []
+  },
+  "PBE0027969": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PBE0067063": {
+   "found": true,
+   "works": []
+  },
+  "PBE0087182": {
+   "found": true,
+   "works": []
+  },
+  "PBE0094262": {
+   "found": true,
+   "works": []
+  },
+  "PBE0097495": {
+   "found": true,
+   "works": []
+  },
+  "PBE0099733": {
+   "found": true,
+   "works": []
+  },
+  "PBE0152861": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PBE0152862": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PBE0166353": {
+   "found": true,
+   "works": []
+  },
+  "PBE0174220": {
+   "found": true,
+   "works": []
+  },
+  "PBE0210101": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "PCM0012304": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PCM0015573": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PCM0017513": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PCM0029925": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "PCM0043101": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    },
+    {
+     "id": "LO11537613",
+     "title": "Kleine Geschichte der Photographie",
+     "label": "| Benjamin, Walter"
+    },
+    {
+     "id": "LO11537618",
+     "title": "Pariser Brief. 2, Malerei und Photographie",
+     "label": "| Benjamin, Walter"
+    },
+    {
+     "id": "PCM0043102",
+     "title": "Daguerre oder die Panoramen",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "PCM0045966": {
+   "found": true,
+   "works": [
+    {
+     "id": "PCM0045967",
+     "title": "The Odyssey",
+     "label": "| Zamorsky, Tania"
+    }
+   ]
+  },
+  "PCM0052370": {
+   "found": true,
+   "works": [
+    {
+     "id": "PCM0052371",
+     "title": "Le petit prince pour les enfants",
+     "label": null
+    }
+   ]
+  },
+  "PIS0004431": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PIS0036071": {
+   "found": true,
+   "works": []
+  },
+  "PMI0025422": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": ", TITOLO ORIGINALE | Benjamin, Walter"
+    }
+   ]
+  },
+  "PUG0000403": {
+   "found": true,
+   "works": [
+    {
+     "id": "BCT0059902",
+     "title": "Angelus Novus",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "PUG0010181": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUG0040414": {
+   "found": true,
+   "works": [
+    {
+     "id": "PUG0040423",
+     "title": "Il piccolo principe",
+     "label": "| Saint-Exupéry, Antoine : de"
+    }
+   ]
+  },
+  "PUV0185597": {
+   "found": true,
+   "works": []
+  },
+  "PUV0244394": {
+   "found": true,
+   "works": []
+  },
+  "PUV0251346": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PUV0321719": {
+   "found": true,
+   "works": []
+  },
+  "PUV0355841": {
+   "found": true,
+   "works": []
+  },
+  "PUV0420986": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0575299": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0600801": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0614956": {
+   "found": true,
+   "works": []
+  },
+  "PUV0621175": {
+   "found": true,
+   "works": []
+  },
+  "PUV0628548": {
+   "found": true,
+   "works": []
+  },
+  "PUV0632301": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0688555": {
+   "found": true,
+   "works": [
+    {
+     "id": "MIL0714693",
+     "title": "Satura",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "PUV0706935": {
+   "found": true,
+   "works": []
+  },
+  "PUV0776620": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0801350": {
+   "found": true,
+   "works": []
+  },
+  "PUV0807143": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0807210": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0807515": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0807518": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0822503": {
+   "found": true,
+   "works": []
+  },
+  "PUV0881683": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0883622": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV0939637": {
+   "found": true,
+   "works": [
+    {
+     "id": "SBL0607751",
+     "title": "Crónica de una muerte anunciada.",
+     "label": "| García Márquez, Gabriel"
+    }
+   ]
+  },
+  "PUV0950938": {
+   "found": true,
+   "works": []
+  },
+  "PUV0995874": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV1014978": {
+   "found": true,
+   "works": []
+  },
+  "PUV1047641": {
+   "found": true,
+   "works": []
+  },
+  "PUV1067200": {
+   "found": true,
+   "works": []
+  },
+  "PUV1127808": {
+   "found": true,
+   "works": []
+  },
+  "PUV1132161": {
+   "found": true,
+   "works": []
+  },
+  "PUV1155994": {
+   "found": true,
+   "works": []
+  },
+  "PUV1161976": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUV1173264": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "PUV1315133": {
+   "found": true,
+   "works": []
+  },
+  "PUV1436041": {
+   "found": true,
+   "works": []
+  },
+  "PUV1569910": {
+   "found": true,
+   "works": []
+  },
+  "PUV1576508": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "PUVE009949": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV0015909": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "RAV0019427": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RAV0041543": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV0044147": {
+   "found": true,
+   "works": []
+  },
+  "RAV0056016": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0056018",
+     "title": "Collected poems",
+     "label": "| Thomas, Dylan"
+    }
+   ]
+  },
+  "RAV0078169": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "RAV0105397": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV0110374": {
+   "found": true,
+   "works": []
+  },
+  "RAV0124086": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RAV0128117": {
+   "found": true,
+   "works": [
+    {
+     "id": "TSA1311710",
+     "title": "Postille a Il nome della rosa",
+     "label": "| Eco, Umberto"
+    }
+   ]
+  },
+  "RAV0138115": {
+   "found": true,
+   "works": []
+  },
+  "RAV0138792": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "RAV0139615": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV0159806": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "RAV0173049": {
+   "found": true,
+   "works": []
+  },
+  "RAV0174294": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV0175896": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": ", Trad. di Giorgio Kraiski | Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV0202906": {
+   "found": true,
+   "works": []
+  },
+  "RAV0212860": {
+   "found": true,
+   "works": []
+  },
+  "RAV0247622": {
+   "found": true,
+   "works": []
+  },
+  "RAV0258617": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV0259500": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117182",
+     "title": "Pensieri",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "PUV1153537",
+     "title": "Paralipomeni della Batracomiomachia",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "RAV0261672": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV0659956": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV0662897": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "RAV0668269": {
+   "found": true,
+   "works": []
+  },
+  "RAV0713105": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV1017741": {
+   "found": true,
+   "works": []
+  },
+  "RAV1169066": {
+   "found": true,
+   "works": []
+  },
+  "RAV1205548": {
+   "found": true,
+   "works": []
+  },
+  "RAV1267482": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV1314633": {
+   "found": true,
+   "works": []
+  },
+  "RAV1324368": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0655577",
+     "title": "Where mathematics comes from.",
+     "label": "| Lakoff, George"
+    }
+   ]
+  },
+  "RAV1378880": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV1518254": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV1524906": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV1565608": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RAV1662441": {
+   "found": true,
+   "works": []
+  },
+  "RAV1862208": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV1938157": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV1953418": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV1977193": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV1993537": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV1999650": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV2019702": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV2019703",
+     "title": "Così fu Auschwitz",
+     "label": "| Levi, Primo <1919-1987>"
+    }
+   ]
+  },
+  "RAV2021706": {
+   "found": true,
+   "works": []
+  },
+  "RAV2052726": {
+   "found": true,
+   "works": []
+  },
+  "RAV2064968": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV2083054": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV2083055": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV2130898": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RAV2135892": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RAV2223302": {
+   "found": true,
+   "works": []
+  },
+  "RCA0549495": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RCA0583221": {
+   "found": true,
+   "works": []
+  },
+  "RCA0660086": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RCA0670719": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RCA0769424": {
+   "found": true,
+   "works": []
+  },
+  "RCA0791603": {
+   "found": true,
+   "works": []
+  },
+  "RCA0816076": {
+   "found": true,
+   "works": []
+  },
+  "RCA0843494": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RCA0855631": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RCA0872439": {
+   "found": true,
+   "works": []
+  },
+  "RE20018385": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "REA0021500": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "REA0049742": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "RL10005866": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RL10010593": {
+   "found": true,
+   "works": []
+  },
+  "RL10049430": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RL10092000": {
+   "found": true,
+   "works": [
+    {
+     "id": "MOD1715006",
+     "title": "Buonvino e il caso del bambino scomparso",
+     "label": "| Veltroni, Walter"
+    }
+   ]
+  },
+  "RL10101101": {
+   "found": true,
+   "works": [
+    {
+     "id": "PAV1010179",
+     "title": "Il piccolo principe",
+     "label": "| Bordiglioni, Stefano"
+    }
+   ]
+  },
+  "RL10105178": {
+   "found": true,
+   "works": []
+  },
+  "RL10114687": {
+   "found": true,
+   "works": []
+  },
+  "RL10126876": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0397523",
+     "title": "Il piccolo principe",
+     "label": "| Scataglini, Carlo"
+    }
+   ]
+  },
+  "RLZ0014612": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0065836": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0066361": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RLZ0067246": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0068165": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0072788": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0075721": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0077845": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0078979": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0139584": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0162806": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0190587": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": ", Traduzione italiana | Benjamin, Walter"
+    }
+   ]
+  },
+  "RLZ0193682": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0193943": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0197278": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0200691": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0206007": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0220996": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0231765": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0305707": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0306206": {
+   "found": true,
+   "works": [
+    {
+     "id": "REA0296552",
+     "title": "Poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RLZ0306939": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0309527": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0317747": {
+   "found": true,
+   "works": []
+  },
+  "RLZ0324208": {
+   "found": true,
+   "works": [
+    {
+     "id": "REA0296552",
+     "title": "Poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RLZ0324513": {
+   "found": true,
+   "works": []
+  },
+  "RMB0548968": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RMB0600499": {
+   "found": true,
+   "works": []
+  },
+  "RMB0645637": {
+   "found": true,
+   "works": []
+  },
+  "RMB0648345": {
+   "found": true,
+   "works": []
+  },
+  "RMB0664037": {
+   "found": true,
+   "works": []
+  },
+  "RMB0678261": {
+   "found": true,
+   "works": []
+  },
+  "RMB0693133": {
+   "found": true,
+   "works": []
+  },
+  "RMB0775992": {
+   "found": true,
+   "works": []
+  },
+  "RMB0779920": {
+   "found": true,
+   "works": []
+  },
+  "RMB0785228": {
+   "found": true,
+   "works": []
+  },
+  "RMB0788610": {
+   "found": true,
+   "works": [
+    {
+     "id": "RMB0788613",
+     "title": "Bayn al-qasrayn",
+     "label": "| Maḥfūẓ, Naǧīb"
+    }
+   ]
+  },
+  "RMB0802091": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0397523",
+     "title": "Il piccolo principe",
+     "label": "| Scataglini, Carlo"
+    }
+   ]
+  },
+  "RMB0803059": {
+   "found": true,
+   "works": []
+  },
+  "RMB0804145": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RMB0821121": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RMB0823199": {
+   "found": true,
+   "works": [
+    {
+     "id": "RT11022068",
+     "title": "The little prince",
+     "label": "| Saint-Exupéry, Antoine : de"
+    }
+   ]
+  },
+  "RMB0826924": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV1220801",
+     "title": "Liquid love",
+     "label": "| Bauman, Zygmunt"
+    }
+   ]
+  },
+  "RML0064018": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RML0070977": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RML0110735": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "RML0122294": {
+   "found": true,
+   "works": []
+  },
+  "RML0149381": {
+   "found": true,
+   "works": [
+    {
+     "id": "REA0296552",
+     "title": "Poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RML0218006": {
+   "found": true,
+   "works": []
+  },
+  "RML0219486": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RML0347694": {
+   "found": true,
+   "works": []
+  },
+  "RML0367758": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RML0376674": {
+   "found": true,
+   "works": [
+    {
+     "id": "RML0376678",
+     "title": "Ensaio sobre a Cergueira",
+     "label": null
+    }
+   ]
+  },
+  "RML0403266": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RML0449946": {
+   "found": true,
+   "works": []
+  },
+  "RML0520035": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RMLE012783": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMLE067209": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS0069776": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS0069779": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS0126864": {
+   "found": true,
+   "works": [
+    {
+     "id": "MIL0714693",
+     "title": "Satura",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "RMS0133302": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0056018",
+     "title": "Collected poems",
+     "label": "| Thomas, Dylan"
+    }
+   ]
+  },
+  "RMS0142315": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS0149080": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS0185891": {
+   "found": true,
+   "works": []
+  },
+  "RMS0186099": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS1059054": {
+   "found": true,
+   "works": []
+  },
+  "RMS1265761": {
+   "found": true,
+   "works": []
+  },
+  "RMS1401027": {
+   "found": true,
+   "works": []
+  },
+  "RMS1560464": {
+   "found": true,
+   "works": []
+  },
+  "RMS1662683": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RMS1702119": {
+   "found": true,
+   "works": []
+  },
+  "RMS1770193": {
+   "found": true,
+   "works": []
+  },
+  "RMS1866718": {
+   "found": true,
+   "works": []
+  },
+  "RMS2012797": {
+   "found": true,
+   "works": []
+  },
+  "RMS2242621": {
+   "found": true,
+   "works": []
+  },
+  "RMS2300965": {
+   "found": true,
+   "works": []
+  },
+  "RMS2424352": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RMS2456601": {
+   "found": true,
+   "works": []
+  },
+  "RMS2510647": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS2538866": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "RMS2550293": {
+   "found": true,
+   "works": []
+  },
+  "RMS2619218": {
+   "found": true,
+   "works": []
+  },
+  "RMS2629242": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS2632040": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0398598",
+     "title": "Odissea",
+     "label": "| Cinquetti, Nicola"
+    }
+   ]
+  },
+  "RMS2633257": {
+   "found": true,
+   "works": []
+  },
+  "RMS2668498": {
+   "found": true,
+   "works": []
+  },
+  "RMS2781496": {
+   "found": true,
+   "works": []
+  },
+  "RMS2782346": {
+   "found": true,
+   "works": [
+    {
+     "id": "URB0949600",
+     "title": "Odissea",
+     "label": "| Susani, Carola"
+    }
+   ]
+  },
+  "RMS2804510": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RMS2820714": {
+   "found": true,
+   "works": []
+  },
+  "RMS2865163": {
+   "found": true,
+   "works": []
+  },
+  "RMS2914158": {
+   "found": true,
+   "works": []
+  },
+  "RMS2918607": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RMS2947457": {
+   "found": true,
+   "works": []
+  },
+  "RMS3040437": {
+   "found": true,
+   "works": [
+    {
+     "id": "RMS3040439",
+     "title": "L'insoutenable légèreté de l’être",
+     "label": "| Kundera, Milan"
+    }
+   ]
+  },
+  "RMS3062870": {
+   "found": true,
+   "works": []
+  },
+  "RMSE005002": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "RT10011791": {
+   "found": true,
+   "works": []
+  },
+  "RT10051813": {
+   "found": true,
+   "works": []
+  },
+  "RT10055502": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": ", English | Homerus"
+    }
+   ]
+  },
+  "RT10056891": {
+   "found": true,
+   "works": []
+  },
+  "RT10060267": {
+   "found": true,
+   "works": [
+    {
+     "id": "SBL0607751",
+     "title": "Crónica de una muerte anunciada.",
+     "label": "| García Márquez, Gabriel"
+    }
+   ]
+  },
+  "RT10060288": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "RT10120790": {
+   "found": true,
+   "works": []
+  },
+  "RT10140440": {
+   "found": true,
+   "works": []
+  },
+  "RT10148824": {
+   "found": true,
+   "works": [
+    {
+     "id": "RT11014893",
+     "title": "1984",
+     "label": "| Coste, Xavier"
+    }
+   ]
+  },
+  "RT10149305": {
+   "found": true,
+   "works": [
+    {
+     "id": "RT11015048",
+     "title": "Il piccolo principe",
+     "label": "| Ferrero, Ernesto <1938-2023>"
+    }
+   ]
+  },
+  "RT10176575": {
+   "found": true,
+   "works": [
+    {
+     "id": "RT11022068",
+     "title": "The little prince",
+     "label": "| Saint-Exupéry, Antoine : de"
+    }
+   ]
+  },
+  "RT10204232": {
+   "found": true,
+   "works": []
+  },
+  "SBL0081842": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0089238": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0089240": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0112874": {
+   "found": true,
+   "works": []
+  },
+  "SBL0149415": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "SBL0170313": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117182",
+     "title": "Pensieri",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "PUV1153537",
+     "title": "Paralipomeni della Batracomiomachia",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "SBL0171347": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "SBL0253024": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0254724": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0255302": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0260496": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0262147": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0262153": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "SBL0263296": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0357099": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "SBL0360319": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0367205": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0369629": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0379483": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0384586": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0402794": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "SBL0407776": {
+   "found": true,
+   "works": []
+  },
+  "SBL0433054": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0462989": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0485299": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "SBL0486482": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "SBL0486744": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0487905": {
+   "found": true,
+   "works": []
+  },
+  "SBL0491963": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0500839": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0501732": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "SBL0507036": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0507038": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0507039": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0507040": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0518405": {
+   "found": true,
+   "works": [
+    {
+     "id": "RT11007008",
+     "title": "Odýsseia. Libro XI",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0581772": {
+   "found": true,
+   "works": []
+  },
+  "SBL0597684": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "SBL0597731": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "SBL0612048": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "SBL0621965": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "SBL0663270": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBL0676026": {
+   "found": true,
+   "works": []
+  },
+  "SBL0731575": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBS0017956": {
+   "found": true,
+   "works": []
+  },
+  "SBS0019851": {
+   "found": true,
+   "works": [
+    {
+     "id": "PUV1153537",
+     "title": "Paralipomeni della Batracomiomachia",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "SBT0017023": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBT0017338": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "SBT0032560": {
+   "found": true,
+   "works": []
+  },
+  "SBT0038915": {
+   "found": true,
+   "works": []
+  },
+  "SBT0047358": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "SBT0067010": {
+   "found": true,
+   "works": []
+  },
+  "SGE0042698": {
+   "found": true,
+   "works": []
+  },
+  "SIP0411111": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "SIPE017560": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE005071",
+     "title": "Homeri vita.",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TER0038276": {
+   "found": true,
+   "works": []
+  },
+  "TO00066148": {
+   "found": true,
+   "works": []
+  },
+  "TO00098006": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "TO00105558": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO00133413": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "TO00141618": {
+   "found": true,
+   "works": []
+  },
+  "TO00377685": {
+   "found": true,
+   "works": []
+  },
+  "TO00422527": {
+   "found": true,
+   "works": []
+  },
+  "TO00422736": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO00422738": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO00426940": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "TO00557553": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "TO00564070": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO00586301": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO00601516": {
+   "found": true,
+   "works": []
+  },
+  "TO00634092": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "TO00635603": {
+   "found": true,
+   "works": []
+  },
+  "TO00638854": {
+   "found": true,
+   "works": []
+  },
+  "TO00666295": {
+   "found": true,
+   "works": []
+  },
+  "TO00667316": {
+   "found": true,
+   "works": []
+  },
+  "TO00729268": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO00755372": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO00815386": {
+   "found": true,
+   "works": []
+  },
+  "TO00818147": {
+   "found": true,
+   "works": []
+  },
+  "TO00898486": {
+   "found": true,
+   "works": []
+  },
+  "TO00905079": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO00969845": {
+   "found": true,
+   "works": []
+  },
+  "TO01036062": {
+   "found": true,
+   "works": []
+  },
+  "TO01038002": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01079088": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "TO01118831": {
+   "found": true,
+   "works": []
+  },
+  "TO01129994": {
+   "found": true,
+   "works": []
+  },
+  "TO01137071": {
+   "found": true,
+   "works": []
+  },
+  "TO01154107": {
+   "found": true,
+   "works": []
+  },
+  "TO01173023": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01176166": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01287048": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01308591": {
+   "found": true,
+   "works": []
+  },
+  "TO01396646": {
+   "found": true,
+   "works": []
+  },
+  "TO01413521": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "TO01437760": {
+   "found": true,
+   "works": []
+  },
+  "TO01468940": {
+   "found": true,
+   "works": []
+  },
+  "TO01469199": {
+   "found": true,
+   "works": []
+  },
+  "TO01474860": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01474866": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01475766": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01489890": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01522017": {
+   "found": true,
+   "works": []
+  },
+  "TO01529047": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01566990": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01582552": {
+   "found": true,
+   "works": []
+  },
+  "TO01615608": {
+   "found": true,
+   "works": []
+  },
+  "TO01625132": {
+   "found": true,
+   "works": []
+  },
+  "TO01625141": {
+   "found": true,
+   "works": []
+  },
+  "TO01654733": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "TO01662181": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01676040": {
+   "found": true,
+   "works": []
+  },
+  "TO01686898": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01701421": {
+   "found": true,
+   "works": []
+  },
+  "TO01701452": {
+   "found": true,
+   "works": []
+  },
+  "TO01723641": {
+   "found": true,
+   "works": [
+    {
+     "id": "MIL0714693",
+     "title": "Satura",
+     "label": "| Montale, Eugenio"
+    },
+    {
+     "id": "URB0365840",
+     "title": "La bufera e altro",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "TO01726334": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO01743327": {
+   "found": true,
+   "works": []
+  },
+  "TO01751676": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01751677",
+     "title": "Ensaio sobre Cegueira.",
+     "label": null
+    }
+   ]
+  },
+  "TO01753926": {
+   "found": true,
+   "works": []
+  },
+  "TO01774700": {
+   "found": true,
+   "works": []
+  },
+  "TO01775004": {
+   "found": true,
+   "works": []
+  },
+  "TO01790205": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01791440": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01793411": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01797100": {
+   "found": true,
+   "works": []
+  },
+  "TO01804900": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO01819242": {
+   "found": true,
+   "works": []
+  },
+  "TO01830092": {
+   "found": true,
+   "works": []
+  },
+  "TO01830111": {
+   "found": true,
+   "works": []
+  },
+  "TO01850712": {
+   "found": true,
+   "works": []
+  },
+  "TO01882342": {
+   "found": true,
+   "works": []
+  },
+  "TO01887073": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01903788",
+     "title": "Le capital au 21. siècle",
+     "label": "| Piketty, Thomas"
+    }
+   ]
+  },
+  "TO01900158": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01903788",
+     "title": "Le capital au 21. siècle",
+     "label": "| Piketty, Thomas"
+    }
+   ]
+  },
+  "TO01914704": {
+   "found": true,
+   "works": []
+  },
+  "TO01915344": {
+   "found": true,
+   "works": []
+  },
+  "TO01968006": {
+   "found": true,
+   "works": []
+  },
+  "TO02009423": {
+   "found": true,
+   "works": []
+  },
+  "TO02012897": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV2134087",
+     "title": "L'Odissea",
+     "label": "| Vittori, Nadia"
+    }
+   ]
+  },
+  "TO02025418": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "TO02044021": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO02054100": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO02100493": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO02100494",
+     "title": "L'amica geniale : dal romanzo di Elena Ferrante",
+     "label": "| Lagani, Chiara"
+    }
+   ]
+  },
+  "TO02155259": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO02155268",
+     "title": "Odyssey of Homer",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO0E017457": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO0E022299": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO0E025670": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    },
+    {
+     "id": "VEA1266595",
+     "title": "Vita Homeri",
+     "label": null
+    }
+   ]
+  },
+  "TO0E026704": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO0E033694": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE005071",
+     "title": "Homeri vita.",
+     "label": null
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO0E080402": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO0E127684": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TO10006834": {
+   "found": true,
+   "works": []
+  },
+  "TO10014453": {
+   "found": true,
+   "works": []
+  },
+  "TO10019496": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0397523",
+     "title": "Il piccolo principe",
+     "label": "| Scataglini, Carlo"
+    }
+   ]
+  },
+  "TO10022278": {
+   "found": true,
+   "works": [
+    {
+     "id": "LO11194570",
+     "title": "1984",
+     "label": "| Maazel, Lorin"
+    }
+   ]
+  },
+  "TO10023619": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO10025459": {
+   "found": true,
+   "works": [
+    {
+     "id": "ANA0495873",
+     "title": "Belye noči",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    },
+    {
+     "id": "CFI0001503",
+     "title": "Igrok",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    },
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    },
+    {
+     "id": "CFI0061605",
+     "title": "Idiot",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    },
+    {
+     "id": "LO10061866",
+     "title": "Besy",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO10030892": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TO10036647": {
+   "found": true,
+   "works": []
+  },
+  "TSA0000125": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TSA0457099": {
+   "found": true,
+   "works": []
+  },
+  "TSA0470361": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TSA0577142": {
+   "found": true,
+   "works": []
+  },
+  "TSA0653293": {
+   "found": true,
+   "works": []
+  },
+  "TSA0735366": {
+   "found": true,
+   "works": []
+  },
+  "TSA0771127": {
+   "found": true,
+   "works": []
+  },
+  "TSA0791804": {
+   "found": true,
+   "works": []
+  },
+  "TSA0991064": {
+   "found": true,
+   "works": []
+  },
+  "TSA1247357": {
+   "found": true,
+   "works": []
+  },
+  "TSA1351696": {
+   "found": true,
+   "works": []
+  },
+  "TSA1368764": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TSA1442268": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TSA1462496": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TSA1513726": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV2071297",
+     "title": "Odissea",
+     "label": "| Piumini, Roberto"
+    }
+   ]
+  },
+  "TSA1520009": {
+   "found": true,
+   "works": []
+  },
+  "TSA1571247": {
+   "found": true,
+   "works": [
+    {
+     "id": "TSA1311710",
+     "title": "Postille a Il nome della rosa",
+     "label": "| Eco, Umberto"
+    }
+   ]
+  },
+  "TSA1581600": {
+   "found": true,
+   "works": []
+  },
+  "TSA1587295": {
+   "found": true,
+   "works": []
+  },
+  "TSA1620039": {
+   "found": true,
+   "works": []
+  },
+  "TSA1658592": {
+   "found": true,
+   "works": []
+  },
+  "TSA1693453": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TSA1742486": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TSA1743061": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "TSA1789358": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TSA1904414": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "TSA1905003": {
+   "found": true,
+   "works": []
+  },
+  "UAN0180352": {
+   "found": true,
+   "works": []
+  },
+  "UBO0093054": {
+   "found": true,
+   "works": [
+    {
+     "id": "REA0296552",
+     "title": "Poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "UBO0096441": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UBO0140966": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UBO0245055": {
+   "found": true,
+   "works": []
+  },
+  "UBO0289245": {
+   "found": true,
+   "works": []
+  },
+  "UBO0319531": {
+   "found": true,
+   "works": []
+  },
+  "UBO0964919": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UBO0982454": {
+   "found": true,
+   "works": []
+  },
+  "UBO1170157": {
+   "found": true,
+   "works": []
+  },
+  "UBO1204495": {
+   "found": true,
+   "works": []
+  },
+  "UBO1408836": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UBO1465429": {
+   "found": true,
+   "works": []
+  },
+  "UBO1521418": {
+   "found": true,
+   "works": []
+  },
+  "UBO1591277": {
+   "found": true,
+   "works": []
+  },
+  "UBO1593933": {
+   "found": true,
+   "works": []
+  },
+  "UBO1823438": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV2012053",
+     "title": "Canti (antologie)",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "UBO2178919": {
+   "found": true,
+   "works": []
+  },
+  "UBO2224119": {
+   "found": true,
+   "works": []
+  },
+  "UBO2275914": {
+   "found": true,
+   "works": []
+  },
+  "UBO2343318": {
+   "found": true,
+   "works": []
+  },
+  "UBO2402266": {
+   "found": true,
+   "works": []
+  },
+  "UBO2409402": {
+   "found": true,
+   "works": [
+    {
+     "id": "FOG0511387",
+     "title": "Ensaio sobre a lucidez",
+     "label": "| Saramago, José"
+    }
+   ]
+  },
+  "UBO2530950": {
+   "found": true,
+   "works": []
+  },
+  "UBO2558056": {
+   "found": true,
+   "works": []
+  },
+  "UBO2600188": {
+   "found": true,
+   "works": []
+  },
+  "UBO2855416": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UBO2938809": {
+   "found": true,
+   "works": []
+  },
+  "UBO3021754": {
+   "found": true,
+   "works": []
+  },
+  "UBO3114594": {
+   "found": true,
+   "works": []
+  },
+  "UBO3321553": {
+   "found": true,
+   "works": []
+  },
+  "UBO3449380": {
+   "found": true,
+   "works": []
+  },
+  "UBO3492686": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UBO3669013": {
+   "found": true,
+   "works": []
+  },
+  "UBO3682041": {
+   "found": true,
+   "works": []
+  },
+  "UBO3815860": {
+   "found": true,
+   "works": []
+  },
+  "UBO3824371": {
+   "found": true,
+   "works": []
+  },
+  "UBO3838285": {
+   "found": true,
+   "works": []
+  },
+  "UBO3854289": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "UBO3925225": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UBO3925407": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UBO3954870": {
+   "found": true,
+   "works": []
+  },
+  "UBO4027714": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UBO4138075": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01903788",
+     "title": "Le capital au 21. siècle",
+     "label": "| Piketty, Thomas"
+    }
+   ]
+  },
+  "UBO4144083": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UBO4163726": {
+   "found": true,
+   "works": []
+  },
+  "UBO4179345": {
+   "found": true,
+   "works": []
+  },
+  "UBO4288365": {
+   "found": true,
+   "works": []
+  },
+  "UBO4288773": {
+   "found": true,
+   "works": []
+  },
+  "UBO4288781": {
+   "found": true,
+   "works": []
+  },
+  "UBO4358652": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UBO4535616": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0662016",
+     "title": "Odissea",
+     "label": "| Scataglini, Carlo"
+    }
+   ]
+  },
+  "UBO4579122": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UBO4579124": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    },
+    {
+     "id": "UBO4579127",
+     "title": "Nabroski 1864-1867.",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UBO4827852": {
+   "found": true,
+   "works": [
+    {
+     "id": "UBO4829096",
+     "title": "1984",
+     "label": "| Orwell, George"
+    }
+   ]
+  },
+  "UBO4882374": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UBO4912966": {
+   "found": true,
+   "works": [
+    {
+     "id": "UBO4911835",
+     "title": "Odissea",
+     "label": "| Manara, Milo"
+    }
+   ]
+  },
+  "UBO4928885": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UDA0242852": {
+   "found": true,
+   "works": []
+  },
+  "UFE0734821": {
+   "found": true,
+   "works": [
+    {
+     "id": "RAV0018943",
+     "title": "Schriften",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "UFE0965675": {
+   "found": true,
+   "works": []
+  },
+  "UFE0982005": {
+   "found": true,
+   "works": []
+  },
+  "UFE1082940": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UFE1082941": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UFI0051865": {
+   "found": true,
+   "works": []
+  },
+  "UFI0053934": {
+   "found": true,
+   "works": []
+  },
+  "UFI0094217": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UFI0114777": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UFI0196311": {
+   "found": true,
+   "works": []
+  },
+  "UFI0240157": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "UFI0242807": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "UFI0246313": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UFI0258293": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117182",
+     "title": "Pensieri",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "PUV1153537",
+     "title": "Paralipomeni della Batracomiomachia",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "UFI0266143": {
+   "found": true,
+   "works": []
+  },
+  "UFI0323071": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UFI0325798": {
+   "found": true,
+   "works": []
+  },
+  "UFI0331934": {
+   "found": true,
+   "works": []
+  },
+  "UFI0336346": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "UFI0376499": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UFI0377401": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UFI0556368": {
+   "found": true,
+   "works": []
+  },
+  "UFI0599598": {
+   "found": true,
+   "works": []
+  },
+  "UM10026223": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UM10029502": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UM10066849": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UM10079356": {
+   "found": true,
+   "works": []
+  },
+  "UM10079381": {
+   "found": true,
+   "works": []
+  },
+  "UM10084833": {
+   "found": true,
+   "works": []
+  },
+  "UM10103797": {
+   "found": true,
+   "works": []
+  },
+  "UM10123294": {
+   "found": true,
+   "works": []
+  },
+  "UM10134165": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UM10139755": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "UM10152303": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "UM10155331": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UM10172916": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UM10195574": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UM10247672": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UM1E001893": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "CFI0032303",
+     "title": "Ilias",
+     "label": "| Homerus"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UM1E011847": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "CFI0655300",
+     "title": "Quaestiones Homericae",
+     "label": "| Heraclitus : Allegorista"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UMC0068721": {
+   "found": true,
+   "works": []
+  },
+  "UMC0093110": {
+   "found": true,
+   "works": []
+  },
+  "UMC0291045": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UMC0590834": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UMC0786653": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "UMC0951215": {
+   "found": true,
+   "works": []
+  },
+  "UMC0993630": {
+   "found": true,
+   "works": []
+  },
+  "UMC0997434": {
+   "found": true,
+   "works": []
+  },
+  "UMC1005587": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UMC1018372": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "UMC1024134": {
+   "found": true,
+   "works": []
+  },
+  "UMC1026246": {
+   "found": true,
+   "works": [
+    {
+     "id": "NAP0117182",
+     "title": "Pensieri",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "NAP0117295",
+     "title": "Operette morali",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "PUV1153537",
+     "title": "Paralipomeni della Batracomiomachia",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    },
+    {
+     "id": "TO01819611",
+     "title": "Canti",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "UPG0013345": {
+   "found": true,
+   "works": []
+  },
+  "URB0034234": {
+   "found": true,
+   "works": []
+  },
+  "URB0071715": {
+   "found": true,
+   "works": []
+  },
+  "URB0080304": {
+   "found": true,
+   "works": []
+  },
+  "URB0271722": {
+   "found": true,
+   "works": []
+  },
+  "URB0360930": {
+   "found": true,
+   "works": []
+  },
+  "URB0389147": {
+   "found": true,
+   "works": []
+  },
+  "URB0410082": {
+   "found": true,
+   "works": []
+  },
+  "URB0613059": {
+   "found": true,
+   "works": []
+  },
+  "URB0651317": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "URB0944325": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "USM1697592": {
+   "found": true,
+   "works": []
+  },
+  "USM1797332": {
+   "found": true,
+   "works": []
+  },
+  "USM1826319": {
+   "found": true,
+   "works": []
+  },
+  "USM1879580": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "USM1880066": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "USM1885046": {
+   "found": true,
+   "works": []
+  },
+  "USM2008856": {
+   "found": true,
+   "works": []
+  },
+  "USS0022877": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UTO0958782": {
+   "found": true,
+   "works": []
+  },
+  "UTO1083861": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UTO1124026": {
+   "found": true,
+   "works": []
+  },
+  "UTO1124897": {
+   "found": true,
+   "works": []
+  },
+  "UTO1124996": {
+   "found": true,
+   "works": []
+  },
+  "UTO1125002": {
+   "found": true,
+   "works": []
+  },
+  "UTO1174123": {
+   "found": true,
+   "works": []
+  },
+  "UTO1182889": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UTO1243003": {
+   "found": true,
+   "works": []
+  },
+  "UTO1292181": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "UTO1412515": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0031671",
+     "title": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+     "label": "| Benjamin, Walter"
+    }
+   ]
+  },
+  "UTO1461481": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "VEA0134446": {
+   "found": true,
+   "works": []
+  },
+  "VEA1011886": {
+   "found": true,
+   "works": []
+  },
+  "VEA1057204": {
+   "found": true,
+   "works": []
+  },
+  "VEA1102302": {
+   "found": true,
+   "works": []
+  },
+  "VEA1154464": {
+   "found": true,
+   "works": []
+  },
+  "VEA1216347": {
+   "found": true,
+   "works": []
+  },
+  "VEA1304592": {
+   "found": true,
+   "works": []
+  },
+  "VEA1307814": {
+   "found": true,
+   "works": []
+  },
+  "VEAE142443": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVEE004344",
+     "title": "Batrachomyomachia.",
+     "label": "| Homerus"
+    },
+    {
+     "id": "BVEE004348",
+     "title": "Hymni Homerici",
+     "label": "| Homerus"
+    },
+    {
+     "id": "CFI0655300",
+     "title": "Quaestiones Homericae",
+     "label": "| Heraclitus : Allegorista"
+    },
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "VIA0004116": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "VIA0092749": {
+   "found": true,
+   "works": []
+  },
+  "VIA0125062": {
+   "found": true,
+   "works": [
+    {
+     "id": "BVE0612671",
+     "title": "Tutte le poesie",
+     "label": "| Montale, Eugenio"
+    }
+   ]
+  },
+  "VIA0189089": {
+   "found": true,
+   "works": []
+  },
+  "VIA0189096": {
+   "found": true,
+   "works": []
+  },
+  "VIA0189166": {
+   "found": true,
+   "works": []
+  },
+  "VIA0234403": {
+   "found": true,
+   "works": []
+  },
+  "VIA0275852": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0368804",
+     "title": "L'infinito",
+     "label": "| Leopardi, Giacomo <1798-1837>"
+    }
+   ]
+  },
+  "VIA0333348": {
+   "found": true,
+   "works": []
+  },
+  "VIA0434011": {
+   "found": true,
+   "works": [
+    {
+     "id": "VIA0461820",
+     "title": "Il piccolo principe",
+     "label": "| Trevisan, Irena"
+    }
+   ]
+  },
+  "VIA0437636": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "VIA0535003": {
+   "found": true,
+   "works": [
+    {
+     "id": "CFI0061381",
+     "title": "Prestuplénie i nakazànie",
+     "label": "| Dostoevskij, Fëdor Mihajlovič"
+    }
+   ]
+  },
+  "VIA0539196": {
+   "found": true,
+   "works": [
+    {
+     "id": "TO0E003859",
+     "title": "Odyssea",
+     "label": "| Homerus"
+    }
+   ]
+  },
+  "VIA0585658": {
+   "found": true,
+   "works": []
+  },
+  "VIA0648262": {
+   "found": true,
+   "works": []
+  }
+ },
+ "ol": {
+  "/books/OL24675612M": {
+   "works": [
+    "/works/OL15764295W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL29571269M": {
+   "works": [
+    "/works/OL11331978W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL10488285M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL13805091M": {
+   "works": [
+    "/works/OL10580255W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL13944351M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL14875032M": {
+   "works": [
+    "/works/OL1715344W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL15107436M": {
+   "works": [
+    "/works/OL10580255W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL18059912M": {
+   "works": [
+    "/works/OL610101W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL18710391M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL19066859M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL19542562M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL20415867M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL21498630M": {
+   "works": [
+    "/works/OL610101W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL21544641M": {
+   "works": [
+    "/works/OL1590658W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL22644099M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL22736426M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL22924565M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL25075441M": {
+   "works": [
+    "/works/OL16212507W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL25267820M": {
+   "works": [
+    "/works/OL14958698W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL25303009M": {
+   "works": [
+    "/works/OL16621871W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL25431806M": {
+   "works": [
+    "/works/OL16212507W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL26384982M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL26474752M": {
+   "works": [
+    "/works/OL14957957W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL26475267M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL27109436M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL27515880M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL28166720M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL28389438M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL29173102M": {
+   "works": [
+    "/works/OL21510642W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL29314126M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL29667505M": {
+   "works": [
+    "/works/OL21784995W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL29848805M": {
+   "works": [
+    "/works/OL23745689W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL29848969M": {
+   "works": [
+    "/works/OL23745689W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL30787528M": {
+   "works": [
+    "/works/OL23745689W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL32452904M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL33897033M": {
+   "works": [
+    "/works/OL21784995W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL34020285M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL3409192M": {
+   "works": [
+    "/works/OL1715344W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL34497083M": {
+   "works": [
+    "/works/OL25686018W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL35089767M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL35648971M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL38592174M": {
+   "works": [
+    "/works/OL28189242W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL38811133M": {
+   "works": [
+    "/works/OL28165123W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL39229779M": {
+   "works": [
+    "/works/OL28165123W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL39231819M": {
+   "works": [
+    "/works/OL28165123W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL39480166M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL39942511M": {
+   "works": [
+    "/works/OL28345461W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL40355682M": {
+   "works": [
+    "/works/OL29355621W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL40586404M": {
+   "works": [
+    "/works/OL29485158W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL40822490M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL42588963M": {
+   "works": [
+    "/works/OL30827457W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43006991M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43026866M": {
+   "works": [
+    "/works/OL31375574W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43046338M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43060479M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43189607M": {
+   "works": [
+    "/works/OL29355621W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43347068M": {
+   "works": [
+    "/works/OL17979575W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43424616M": {
+   "works": [
+    "/works/OL31375574W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43457491M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43559854M": {
+   "works": [
+    "/works/OL31853879W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43578553M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL43721604M": {
+   "works": [
+    "/works/OL31853879W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL44078989M": {
+   "works": [
+    "/works/OL32327824W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL44224711M": {
+   "works": [
+    "/works/OL31375574W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL44385826M": {
+   "works": [
+    "/works/OL32576632W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL44516927M": {
+   "works": [
+    "/works/OL32576632W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL44781909M": {
+   "works": [
+    "/works/OL32525579W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL44920999M": {
+   "works": [
+    "/works/OL32525579W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL45696545M": {
+   "works": [
+    "/works/OL32525579W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL45815440M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL46098853M": {
+   "works": [
+    "/works/OL32525579W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL46104956M": {
+   "works": [
+    "/works/OL32525579W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL46119874M": {
+   "works": [
+    "/works/OL32525579W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL46515201M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL46579499M": {
+   "works": [
+    "/works/OL34342511W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL46747999M": {
+   "works": [
+    "/works/OL32525579W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL46952448M": {
+   "works": [
+    "/works/OL17979575W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47045010M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47116985M": {
+   "works": [
+    "/works/OL34766796W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47117347M": {
+   "works": [
+    "/works/OL34766796W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47117431M": {
+   "works": [
+    "/works/OL34766796W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47132194M": {
+   "works": [
+    "/works/OL34766796W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47134272M": {
+   "works": [
+    "/works/OL34766796W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47134281M": {
+   "works": [
+    "/works/OL34766796W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47227721M": {
+   "works": [
+    "/works/OL25686018W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47255010M": {
+   "works": [
+    "/works/OL17795654W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47307526M": {
+   "works": [
+    "/works/OL34947113W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL47780818M": {
+   "works": [
+    "/works/OL31357567W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL49377587M": {
+   "works": [
+    "/works/OL36530092W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL49903128M": {
+   "works": [
+    "/works/OL34342511W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL51710050M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL52777385M": {
+   "works": [
+    "/works/OL26661744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL52813582M": {
+   "works": [
+    "/works/OL38745241W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL54731492M": {
+   "works": [
+    "/works/OL40227912W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL54741525M": {
+   "works": [
+    "/works/OL40227912W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL54746711M": {
+   "works": [
+    "/works/OL40227912W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL54753703M": {
+   "works": [
+    "/works/OL40227912W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL54757574M": {
+   "works": [
+    "/works/OL40227912W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL55440169M": {
+   "works": [
+    "/works/OL40486321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL56265969M": {
+   "works": [
+    "/works/OL31375574W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL56678948M": {
+   "works": [
+    "/works/OL40486321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL56780840M": {
+   "works": [
+    "/works/OL41794772W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL57375583M": {
+   "works": [
+    "/works/OL42300107W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL57454663M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL57460206M": {
+   "works": [
+    "/works/OL23745689W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58623476M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58632923M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58633171M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58635939M": {
+   "works": [
+    "/works/OL43043884W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58636915M": {
+   "works": [
+    "/works/OL43043884W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58646760M": {
+   "works": [
+    "/works/OL43052457W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58670808M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58676051M": {
+   "works": [
+    "/works/OL43043884W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58716463M": {
+   "works": [
+    "/works/OL43108828W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58726213M": {
+   "works": [
+    "/works/OL43043884W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58813882M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58813891M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58813899M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58813907M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58813914M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58887284M": {
+   "works": [
+    "/works/OL43237040W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58887593M": {
+   "works": [
+    "/works/OL43237040W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58968232M": {
+   "works": [
+    "/works/OL43237040W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58968233M": {
+   "works": [
+    "/works/OL43237040W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58968244M": {
+   "works": [
+    "/works/OL43237040W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL58968255M": {
+   "works": [
+    "/works/OL43237040W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL59084257M": {
+   "works": [
+    "/works/OL43043884W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL59084260M": {
+   "works": [
+    "/works/OL43043884W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL59084264M": {
+   "works": [
+    "/works/OL43052457W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL59084265M": {
+   "works": [
+    "/works/OL43052457W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL59084267M": {
+   "works": [
+    "/works/OL43043884W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL5939487M": {
+   "works": [
+    "/works/OL610101W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL60421884M": {
+   "works": [
+    "/works/OL38068744W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL6077871M": {
+   "works": [
+    "/works/OL610101W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL60836955M": {
+   "works": [
+    "/works/OL44551164W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL60860290M": {
+   "works": [
+    "/works/OL44563823W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL60890398M": {
+   "works": [
+    "/works/OL44551164W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61391522M": {
+   "works": [
+    "/works/OL44997837W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61417747M": {
+   "works": [
+    "/works/OL43108828W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61430901M": {
+   "works": [
+    "/works/OL36530092W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61468377M": {
+   "works": [
+    "/works/OL45064345W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61490314M": {
+   "works": [
+    "/works/OL44997837W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61515480M": {
+   "works": [
+    "/works/OL44997837W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61574149M": {
+   "works": [
+    "/works/OL44551164W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61584235M": {
+   "works": [
+    "/works/OL44997837W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61814308M": {
+   "works": [
+    "/works/OL45355488W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61965660M": {
+   "works": [
+    "/works/OL44551164W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL61971298M": {
+   "works": [
+    "/works/OL45355488W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL7317793M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL7593603M": {
+   "works": [
+    "/works/OL14957957W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL7593604M": {
+   "works": [
+    "/works/OL14957957W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL8432806M": {
+   "works": [
+    "/works/OL1590658W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL8833997M": {
+   "works": [
+    "/works/OL15331W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL8834545M": {
+   "works": [
+    "/works/OL15331W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL8839092M": {
+   "works": [
+    "/works/OL14958698W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9032293M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9036258M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9050187M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9050364M": {
+   "works": [
+    "/works/OL156203W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL909082M": {
+   "works": [
+    "/works/OL1715344W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9141913M": {
+   "works": [
+    "/works/OL15314W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9176347M": {
+   "works": [
+    "/works/OL15321W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9321195M": {
+   "works": [
+    "/works/OL8036242W"
+   ],
+   "via": "run cache"
+  },
+  "/books/OL9514764M": {
+   "works": [
+    "/works/OL527259W"
+   ],
+   "via": "run cache"
+  }
+ },
+ "ol_work_titles": {
+  "/works/OL11331978W": "Bruits",
+  "/works/OL15764295W": "Rumori",
+  "/works/OL10580255W": "Steps to an ecology of mind",
+  "/works/OL14957957W": "Where Mathematics Comes From",
+  "/works/OL14958698W": "Vingt poèmes d'amour et une chanson désespérée",
+  "/works/OL15314W": "Si Una Noche de Invierno Un Viajero",
+  "/works/OL15321W": "Se una notte d'inverno un viaggiatore",
+  "/works/OL15331W": "Si par une nuit d'hiver un voyageur",
+  "/works/OL156203W": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+  "/works/OL1590658W": "Communication",
+  "/works/OL16212507W": "Blindness",
+  "/works/OL16621871W": "Tra i due palazzi",
+  "/works/OL1715344W": "Disparition",
+  "/works/OL17795654W": "Müdigkeitsgesellschaft",
+  "/works/OL17979575W": "Steps to an ecology of mind",
+  "/works/OL21510642W": "Liquid Love",
+  "/works/OL21784995W": "If on a Winter's Night a Traveler",
+  "/works/OL23745689W": "1984",
+  "/works/OL25686018W": "To Live",
+  "/works/OL26661744W": "Cecità",
+  "/works/OL28165123W": "Crime and Punishment",
+  "/works/OL28189242W": "Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit",
+  "/works/OL28345461W": "Work of Art in the Age of Mechanical Reproduction",
+  "/works/OL29355621W": "One Hundred Years of Solitude",
+  "/works/OL29485158W": "Delitto e Castigo",
+  "/works/OL30827457W": "1984",
+  "/works/OL31357567W": "Doctor Zhivago",
+  "/works/OL31375574W": "Doctor Zhivago",
+  "/works/OL31853879W": "Prestuplenie i nakazanie",
+  "/works/OL32327824W": "Communication",
+  "/works/OL32525579W": "Crime and Punishment",
+  "/works/OL32576632W": "L'infinito",
+  "/works/OL34342511W": "Little Prince",
+  "/works/OL34766796W": "El Principito",
+  "/works/OL34947113W": "My Brilliant Friend",
+  "/works/OL36530092W": "Lo Straniero",
+  "/works/OL38068744W": "Doctor Zhivago",
+  "/works/OL38745241W": "Opere",
+  "/works/OL40227912W": "Crime and Punishment",
+  "/works/OL40486321W": "Odyssey",
+  "/works/OL41794772W": "Prestuplenie I Nakazanie",
+  "/works/OL42300107W": "La disparition",
+  "/works/OL43043884W": "The Trial",
+  "/works/OL43052457W": "the trial",
+  "/works/OL43108828W": "One Hundred Years of Solitude",
+  "/works/OL43237040W": "The Odyssey",
+  "/works/OL44551164W": "Trial",
+  "/works/OL44563823W": "My Brilliant Friend : the Four Volumes",
+  "/works/OL44997837W": "Odyssey",
+  "/works/OL45064345W": "Se questo e un uomo",
+  "/works/OL45355488W": "Prestuplenie i nakazanie",
+  "/works/OL527259W": "Liquid Love",
+  "/works/OL610101W": "Poesie",
+  "/works/OL8036242W": "To Live"
+ },
+ "control_bogus_bid": {
+  "found": false
+ },
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 3.59,
+   "p50_s": 0.621,
+   "max_s": 1.778
+  }
+ },
+ "failures": []
+}

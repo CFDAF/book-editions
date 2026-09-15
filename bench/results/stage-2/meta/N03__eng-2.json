@@ -1,0 +1,62 @@
+{
+ "run": "N03__eng-2",
+ "title": "Survival in Auschwitz",
+ "author": "Primo Levi",
+ "argv": [
+  "Survival in Auschwitz",
+  "--author",
+  "Primo Levi",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N03__eng-2.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 27.0,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.293,
+   "max_s": 0.295
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.319,
+   "max_s": 0.345
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.9,
+   "p50_s": 0.451,
+   "max_s": 0.663
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.78,
+   "p50_s": 0.744,
+   "max_s": 1.185
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.13,
+   "p50_s": 0.566,
+   "max_s": 0.641
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 106.85,
+   "p50_s": 0.545,
+   "max_s": 3.437
+  }
+ },
+ "retries": {},
+ "failures": []
+}

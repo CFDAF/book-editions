@@ -1,0 +1,66 @@
+{
+ "run": "N17__ara",
+ "title": "Bayn al-Qasrayn",
+ "author": "Naguib Mahfouz",
+ "argv": [
+  "Bayn al-Qasrayn",
+  "--author",
+  "Naguib Mahfouz",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N17__ara.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 60.2,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.298,
+   "max_s": 0.303
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.316,
+   "max_s": 0.37
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 47.01,
+   "p50_s": 23.503,
+   "max_s": 46.783
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 7.84,
+   "p50_s": 0.945,
+   "max_s": 1.552
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.38,
+   "p50_s": 0.188,
+   "max_s": 0.22
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 166,
+   "failed": 0,
+   "total_s": 35.54,
+   "p50_s": 0.164,
+   "max_s": 4.296
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

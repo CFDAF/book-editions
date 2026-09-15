@@ -1,0 +1,66 @@
+{
+ "run": "N02__fre",
+ "title": "Le Petit Prince",
+ "author": "Antoine de Saint-Exupéry",
+ "argv": [
+  "Le Petit Prince",
+  "--author",
+  "Antoine de Saint-Exupéry",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N02__fre.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 60.6,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 43.08,
+   "p50_s": 0.473,
+   "max_s": 42.347
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.75,
+   "p50_s": 0.29,
+   "max_s": 0.296
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.21,
+   "p50_s": 0.603,
+   "max_s": 0.986
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 12.4,
+   "p50_s": 0.786,
+   "max_s": 1.477
+  },
+  "opac.sbn.it/o": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 3.51,
+   "p50_s": 0.272,
+   "max_s": 0.4
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 177,
+   "failed": 0,
+   "total_s": 43.86,
+   "p50_s": 0.228,
+   "max_s": 1.52
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

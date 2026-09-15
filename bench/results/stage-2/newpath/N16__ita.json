@@ -1,0 +1,138 @@
+{
+ "run": "N16__ita",
+ "book": "N16",
+ "entry": "ita",
+ "title": "Vivere!",
+ "author": "Yu Hua",
+ "sbn_identity": {
+  "author_sent": "Yu Hua",
+  "total": 10,
+  "W": "huozhe",
+  "W_count": 7,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 2,
+  "B": 0.7,
+  "B_counts": [
+   7,
+   10
+  ],
+  "query_rows": 10,
+  "work_rows": 7,
+  "work_total": 7,
+  "truncated": false,
+  "b_requests": 2,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 5,
+  "error": null
+ },
+ "ol_main": {
+  "key": null,
+  "how": null,
+  "search": [
+   {
+    "label": "original",
+    "q": "活着 Yu Hua",
+    "key": null,
+    "keyed": null,
+    "error": null
+   },
+   {
+    "label": "romanised",
+    "q": "Huozhe Yu Hua",
+    "key": null,
+    "keyed": null,
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "huozhe",
+  "total": 10,
+  "rows": 10,
+  "languages": 3,
+  "lingua_facet": [
+   [
+    "ita",
+    7
+   ],
+   [
+    "chi",
+    2
+   ],
+   [
+    "fre",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 6,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 1.1,
+  "bids": [
+   "LO11503758",
+   "UBO4797688",
+   "TSA1644885",
+   "MOD1523037",
+   "TSA1889251",
+   "MIL0834084",
+   "PAV3223003",
+   "BVE0173648",
+   "UTO1273480",
+   "LO10435177"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": null,
+ "phase_s": {
+  "identity": 1.5,
+  "listing": 1.7,
+  "ol_search_and_listing": 1.7
+ },
+ "wall_s": 3.1,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.7,
+   "p50_s": 0.264,
+   "max_s": 0.265
+  },
+  "opac.sbn.it/o": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 2.19,
+   "p50_s": 0.322,
+   "max_s": 0.4
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.304,
+   "max_s": 0.326
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.93,
+   "p50_s": 0.648,
+   "max_s": 0.659
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.62,
+   "p50_s": 0.617,
+   "max_s": 0.617
+  }
+ },
+ "retries": {},
+ "failures": []
+}

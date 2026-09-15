@@ -1,0 +1,62 @@
+{
+ "run": "E01__eng",
+ "title": "One Hundred Years of Solitude",
+ "author": "Garcia Marquez",
+ "argv": [
+  "One Hundred Years of Solitude",
+  "--author",
+  "Garcia Marquez",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E01__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 13.6,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.3,
+   "max_s": 0.427
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.309,
+   "max_s": 0.316
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.0,
+   "p50_s": 0.5,
+   "max_s": 0.773
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 12.17,
+   "p50_s": 0.937,
+   "max_s": 1.479
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.31,
+   "p50_s": 0.156,
+   "max_s": 0.171
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 36.42,
+   "p50_s": 0.183,
+   "max_s": 1.092
+  }
+ },
+ "retries": {},
+ "failures": []
+}

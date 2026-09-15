@@ -1,0 +1,72 @@
+{
+ "run": "N11__eng",
+ "title": "A Void",
+ "author": "Georges Perec",
+ "argv": [
+  "A Void",
+  "--author",
+  "Georges Perec",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N11__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 51.8,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 41.92,
+   "p50_s": 0.325,
+   "max_s": 41.32
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 41.93,
+   "p50_s": 0.353,
+   "max_s": 41.291
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.02,
+   "p50_s": 0.511,
+   "max_s": 0.796
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.8,
+   "p50_s": 0.799,
+   "max_s": 1.42
+  },
+  "opac.sbn.it/o": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.13,
+   "p50_s": 0.126,
+   "max_s": 0.126
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 167,
+   "failed": 0,
+   "total_s": 29.73,
+   "p50_s": 0.151,
+   "max_s": 0.409
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "NameResolutionError": 1
+  }
+ },
+ "failures": []
+}

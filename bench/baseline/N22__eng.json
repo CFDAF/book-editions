@@ -1,0 +1,45 @@
+{
+ "mode": "work",
+ "query_title": "Capital in the Twenty-First Century",
+ "query_author": "Thomas Piketty",
+ "languages": [
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": "Le Capital au XXIe siècle",
+  "language": "fre",
+  "year": "2013",
+  "qid": "Q15991228",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Le Capital au XXIe siècle",
+  "original_language": "fre",
+  "original_year": 2013,
+  "first_year_seen": 2013,
+  "origin": "first published 2013 in francese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "CFI0975567",
+  "IEI0395176",
+  "MIL0905145",
+  "PAV3226418",
+  "TO01887073",
+  "TO01900158",
+  "TSA1875962",
+  "UBO4138075",
+  "UBO4971378"
+ ]
+}

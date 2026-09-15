@@ -1,0 +1,105 @@
+{
+ "run": "E12__ita",
+ "book": "E12",
+ "entry": "ita",
+ "title": "Tesi di filosofia della storia",
+ "author": "Walter Benjamin",
+ "sbn_identity": {
+  "author_sent": "Walter Benjamin",
+  "total": 2,
+  "W": "uber den begriff der geschichte",
+  "W_count": 1,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.5,
+  "B_counts": [
+   1,
+   2
+  ],
+  "query_rows": 2,
+  "work_rows": 1,
+  "work_total": 1,
+  "truncated": false,
+  "b_requests": 1,
+  "tier": "weak"
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 6,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL16171243W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Über den Begriff der Geschichte Walter Benjamin",
+    "key": "/works/OL16171243W",
+    "keyed": "/works/OL16171243W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL16171243W",
+  "size": 1,
+  "rows": 1,
+  "languages": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.4,
+  "keys": [
+   "/books/OL25049991M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.8,
+  "listing": 1.5,
+  "ol_search_and_listing": 1.5
+ },
+ "wall_s": 3.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.3,
+   "p50_s": 0.148,
+   "max_s": 0.162
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.307,
+   "max_s": 0.377
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.314,
+   "max_s": 0.347
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.06,
+   "p50_s": 0.621,
+   "max_s": 0.997
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.437,
+   "max_s": 0.696
+  }
+ },
+ "retries": {},
+ "failures": []
+}

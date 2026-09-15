@@ -1,0 +1,72 @@
+{
+ "run": "N04__rus",
+ "title": "Prestuplenie i nakazanie",
+ "author": "Fëdor Dostoevskij",
+ "argv": [
+  "Prestuplenie i nakazanie",
+  "--author",
+  "Fëdor Dostoevskij",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N04__rus.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 93.9,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 24.98,
+   "p50_s": 0.273,
+   "max_s": 24.534
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 24.81,
+   "p50_s": 12.403,
+   "max_s": 24.499
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.447,
+   "max_s": 0.702
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 8.87,
+   "p50_s": 0.82,
+   "max_s": 1.28
+  },
+  "opac.sbn.it/o": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 18.13,
+   "p50_s": 1.398,
+   "max_s": 3.416
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 165,
+   "failed": 0,
+   "total_s": 175.73,
+   "p50_s": 0.884,
+   "max_s": 18.359
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "opac.sbn.it/o": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

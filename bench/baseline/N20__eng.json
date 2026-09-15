@@ -1,0 +1,48 @@
+{
+ "mode": "work",
+ "query_title": "Metaphors We Live By",
+ "query_author": "George Lakoff",
+ "languages": [
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "rus",
+  "spa"
+ ],
+ "original": {
+  "title": "Metaphors We Live By",
+  "language": "eng",
+  "year": null,
+  "qid": "Q31067292",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Metaphors We Live By",
+  "original_language": "eng",
+  "original_year": null,
+  "first_year_seen": 1980,
+  "origin": "originally in inglese, earliest edition found 1980",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "LIA0983665",
+  "MIL0182712",
+  "MIL0268760",
+  "RMS1761010",
+  "SBL0636008",
+  "SBT0026543",
+  "UBO2618489",
+  "UBO2634384",
+  "UBO2667348",
+  "UMC0301222",
+  "USM1833498",
+  "VIA0073489"
+ ]
+}

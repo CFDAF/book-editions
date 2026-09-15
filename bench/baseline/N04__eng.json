@@ -1,0 +1,67 @@
+{
+ "mode": "work",
+ "query_title": "Crime and Punishment",
+ "query_author": "Fëdor Dostoevskij",
+ "languages": [
+  "eng",
+  "rus",
+  "unknown"
+ ],
+ "original": {
+  "title": "Prestuplenie I Nakazanie",
+  "language": "rus",
+  "year": null,
+  "qid": null,
+  "source": "sbn-authority"
+ },
+ "overview": {
+  "title": "Prestuplenie I Nakazanie",
+  "original_language": "rus",
+  "original_year": null,
+  "first_year_seen": 1386,
+  "origin": "originally in russo, earliest edition found 1386",
+  "ambiguous": true
+ },
+ "choices": 4,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "AQ10000496",
+  "BA10167073",
+  "BAS0261509",
+  "IEI0268252",
+  "LIG0042415",
+  "LO10543350",
+  "LO10807791",
+  "LO11135789",
+  "LO11176387",
+  "LO11176389",
+  "LO11255822",
+  "LO11279631",
+  "LO11384102",
+  "MIL0068768",
+  "MOD0611615",
+  "PAV0059760",
+  "PCM0015573",
+  "PUV0950938",
+  "RMB0648345",
+  "RMB0779920",
+  "RML0218006",
+  "RMS2456601",
+  "RT10060288",
+  "TO01396646",
+  "TO01790205",
+  "TO01804900",
+  "UBO4928885",
+  "UM10079356",
+  "UMC0786653",
+  "URB0651317",
+  "USM1797332",
+  "USM1826319",
+  "UTO1124026",
+  "VEA1011886"
+ ]
+}

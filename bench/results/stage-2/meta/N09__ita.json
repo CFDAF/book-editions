@@ -1,0 +1,62 @@
+{
+ "run": "N09__ita",
+ "title": "Il formaggio e i vermi",
+ "author": "Carlo Ginzburg",
+ "argv": [
+  "Il formaggio e i vermi",
+  "--author",
+  "Carlo Ginzburg",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N09__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 14.9,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.08,
+   "p50_s": 0.287,
+   "max_s": 1.612
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.08,
+   "p50_s": 0.313,
+   "max_s": 1.584
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.03,
+   "p50_s": 0.513,
+   "max_s": 0.794
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 8.88,
+   "p50_s": 0.864,
+   "max_s": 1.376
+  },
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.47,
+   "p50_s": 0.154,
+   "max_s": 0.183
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 177,
+   "failed": 0,
+   "total_s": 38.7,
+   "p50_s": 0.174,
+   "max_s": 1.793
+  }
+ },
+ "retries": {},
+ "failures": []
+}

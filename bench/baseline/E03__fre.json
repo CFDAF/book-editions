@@ -1,0 +1,37 @@
+{
+ "mode": "work",
+ "query_title": "Bruits",
+ "query_author": "Jacques Attali",
+ "languages": [
+  "eng",
+  "fre",
+  "ita",
+  "unknown"
+ ],
+ "original": {
+  "title": "Bruits: essai sur l'economie politique de la musique",
+  "language": "fre",
+  "year": "1977",
+  "qid": "Q7047658",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Bruits: essai sur l'economie politique de la musique",
+  "original_language": "fre",
+  "original_year": 1977,
+  "first_year_seen": 1977,
+  "origin": "first published 1977 in francese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "LO10442107",
+  "RAV0064979",
+  "RAV0708340"
+ ]
+}

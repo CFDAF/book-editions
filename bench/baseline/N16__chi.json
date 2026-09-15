@@ -1,0 +1,45 @@
+{
+ "mode": "work",
+ "query_title": "Huozhe",
+ "query_author": "Yu Hua",
+ "languages": [
+  "chi",
+  "eng",
+  "fre",
+  "ita",
+  "unknown"
+ ],
+ "original": {
+  "title": "活着",
+  "language": "chi",
+  "year": "1993",
+  "qid": "Q151919",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "活着",
+  "original_language": "chi",
+  "original_year": 1993,
+  "first_year_seen": 1994,
+  "origin": "first published 1993 in cinese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BVE0173648",
+  "LO10435177",
+  "LO11503758",
+  "MIL0834084",
+  "MOD1523037",
+  "PAV3223003",
+  "TO01753926",
+  "TSA1644885",
+  "TSA1889251",
+  "UBO4797688"
+ ]
+}

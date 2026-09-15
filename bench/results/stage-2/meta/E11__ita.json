@@ -1,0 +1,66 @@
+{
+ "run": "E11__ita",
+ "title": "Poesie",
+ "author": "Montale",
+ "argv": [
+  "Poesie",
+  "--author",
+  "Montale",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E11__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 11.8,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.71,
+   "p50_s": 0.262,
+   "max_s": 0.281
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.283,
+   "max_s": 0.293
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.09,
+   "p50_s": 0.547,
+   "max_s": 0.927
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 7.22,
+   "p50_s": 0.758,
+   "max_s": 0.986
+  },
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.41,
+   "p50_s": 0.136,
+   "max_s": 0.145
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 164,
+   "failed": 0,
+   "total_s": 37.78,
+   "p50_s": 0.203,
+   "max_s": 1.268
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

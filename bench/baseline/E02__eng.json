@@ -1,0 +1,61 @@
+{
+ "mode": "work",
+ "query_title": "Steps to an Ecology of Mind",
+ "query_author": "Bateson",
+ "languages": [
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": "Steps to an Ecology of Mind",
+  "language": "eng",
+  "year": "1972",
+  "qid": "Q1970551",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Steps to an Ecology of Mind",
+  "original_language": "eng",
+  "original_year": 1972,
+  "first_year_seen": 1972,
+  "origin": "first published 1972 in inglese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BVE0251945",
+  "CSA0000645",
+  "MIL0923352",
+  "MOD0112602",
+  "MOD0118431",
+  "MOL0079796",
+  "PAL0171160",
+  "PAR1204038",
+  "PUV0801350",
+  "PUV1586379",
+  "RAV0017793",
+  "RAV0043511",
+  "RAV1984943",
+  "RMS0147630",
+  "RMS2619218",
+  "TO00815386",
+  "TO01873090",
+  "UAN0180352",
+  "UBO0976973",
+  "UBO2561577",
+  "UBO4163726",
+  "UFI0556368",
+  "UMC0068721",
+  "UTO1471790",
+  "VEA0083906"
+ ]
+}

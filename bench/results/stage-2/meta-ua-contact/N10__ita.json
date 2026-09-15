@@ -1,0 +1,66 @@
+{
+ "run": "N10__ita",
+ "title": "Lo straniero",
+ "author": "Albert Camus",
+ "argv": [
+  "Lo straniero",
+  "--author",
+  "Albert Camus",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/N10__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 10.8,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.88,
+   "p50_s": 0.301,
+   "max_s": 0.346
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.81,
+   "p50_s": 0.318,
+   "max_s": 0.328
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.21,
+   "p50_s": 0.605,
+   "max_s": 0.953
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 8.38,
+   "p50_s": 0.965,
+   "max_s": 1.216
+  },
+  "opac.sbn.it/o": {
+   "requests": 6,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.141,
+   "max_s": 0.15
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 165,
+   "failed": 0,
+   "total_s": 26.07,
+   "p50_s": 0.129,
+   "max_s": 1.196
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

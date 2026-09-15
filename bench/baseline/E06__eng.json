@@ -1,0 +1,34 @@
+{
+ "mode": "work",
+ "query_title": "More Brilliant Than the Sun",
+ "query_author": "Eshun",
+ "languages": [
+  "eng",
+  "ita"
+ ],
+ "original": {
+  "title": "More brilliant than the sun",
+  "language": "eng",
+  "year": "1998",
+  "qid": null,
+  "source": "sbn-authority"
+ },
+ "overview": {
+  "title": "More brilliant than the sun",
+  "original_language": "eng",
+  "original_year": 1998,
+  "first_year_seen": 1998,
+  "origin": "first published 1998 in inglese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "LZ10006458",
+  "VEA1284105"
+ ]
+}

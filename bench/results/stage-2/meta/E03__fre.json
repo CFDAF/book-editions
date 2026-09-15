@@ -1,0 +1,69 @@
+{
+ "run": "E03__fre",
+ "title": "Bruits",
+ "author": "Jacques Attali",
+ "argv": [
+  "Bruits",
+  "--author",
+  "Jacques Attali",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E03__fre.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 53.5,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 41.82,
+   "p50_s": 0.271,
+   "max_s": 41.287
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 41.94,
+   "p50_s": 0.343,
+   "max_s": 41.329
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.11,
+   "p50_s": 0.553,
+   "max_s": 0.907
+  },
+  "openlibrary.org": {
+   "requests": 16,
+   "failed": 0,
+   "total_s": 11.5,
+   "p50_s": 0.737,
+   "max_s": 1.276
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.31,
+   "p50_s": 0.153,
+   "max_s": 0.158
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 164,
+   "failed": 0,
+   "total_s": 37.77,
+   "p50_s": 0.208,
+   "max_s": 0.586
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

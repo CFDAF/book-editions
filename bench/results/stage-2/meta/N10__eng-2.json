@@ -1,0 +1,66 @@
+{
+ "run": "N10__eng-2",
+ "title": "The Outsider",
+ "author": "Albert Camus",
+ "argv": [
+  "The Outsider",
+  "--author",
+  "Albert Camus",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N10__eng-2.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 11.9,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.79,
+   "p50_s": 0.28,
+   "max_s": 0.343
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.17,
+   "p50_s": 0.3,
+   "max_s": 0.683
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.36,
+   "p50_s": 0.682,
+   "max_s": 1.163
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 8.12,
+   "p50_s": 0.951,
+   "max_s": 1.254
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.54,
+   "p50_s": 0.271,
+   "max_s": 0.299
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 164,
+   "failed": 0,
+   "total_s": 35.45,
+   "p50_s": 0.193,
+   "max_s": 1.166
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

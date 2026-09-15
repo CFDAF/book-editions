@@ -1,0 +1,66 @@
+{
+ "run": "N18__ita",
+ "title": "Realismo capitalista",
+ "author": "Mark Fisher",
+ "argv": [
+  "Realismo capitalista",
+  "--author",
+  "Mark Fisher",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N18__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 11.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.298,
+   "max_s": 0.367
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.66,
+   "p50_s": 0.328,
+   "max_s": 0.38
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.418,
+   "max_s": 0.628
+  },
+  "openlibrary.org": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 6.1,
+   "p50_s": 0.696,
+   "max_s": 0.743
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.46,
+   "p50_s": 0.232,
+   "max_s": 0.329
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 153,
+   "failed": 0,
+   "total_s": 29.19,
+   "p50_s": 0.143,
+   "max_s": 1.385
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "NameResolutionError": 1
+  }
+ },
+ "failures": []
+}

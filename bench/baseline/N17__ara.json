@@ -1,0 +1,40 @@
+{
+ "mode": "work",
+ "query_title": "Bayn al-Qasrayn",
+ "query_author": "Naguib Mahfouz",
+ "languages": [
+  "ara",
+  "eng",
+  "fre",
+  "ita"
+ ],
+ "original": {
+  "title": "بين القصرين (Bayn al-qasrayn)",
+  "language": "ara",
+  "year": "1956",
+  "qid": "Q3149381",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "بين القصرين (Bayn al-qasrayn)",
+  "original_language": "ara",
+  "original_year": 1956,
+  "first_year_seen": 1985,
+  "origin": "first published 1956 in arabo",
+  "ambiguous": true
+ },
+ "choices": 2,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "CAG2101847",
+  "LO10629331",
+  "MOD0207547",
+  "PUV0355841",
+  "RMB0788610",
+  "UFE0965675"
+ ]
+}

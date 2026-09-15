@@ -1,0 +1,66 @@
+{
+ "run": "E08__ita",
+ "title": "La matrice sociale della psichiatria",
+ "author": "Ruesch",
+ "argv": [
+  "La matrice sociale della psichiatria",
+  "--author",
+  "Ruesch",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E08__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 57.0,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.79,
+   "p50_s": 0.305,
+   "max_s": 0.309
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.75,
+   "p50_s": 0.377,
+   "max_s": 0.47
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 44.72,
+   "p50_s": 44.717,
+   "max_s": 44.717
+  },
+  "openlibrary.org": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 7.79,
+   "p50_s": 0.891,
+   "max_s": 1.092
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.38,
+   "p50_s": 0.189,
+   "max_s": 0.241
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 160,
+   "failed": 0,
+   "total_s": 37.34,
+   "p50_s": 0.203,
+   "max_s": 0.803
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

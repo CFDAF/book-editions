@@ -1,0 +1,62 @@
+{
+ "run": "E03__ita",
+ "title": "Rumori",
+ "author": "Jacques Attali",
+ "argv": [
+  "Rumori",
+  "--author",
+  "Jacques Attali",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E03__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 12.7,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.0,
+   "p50_s": 0.31,
+   "max_s": 0.407
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.291,
+   "max_s": 0.314
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.71,
+   "p50_s": 0.715,
+   "max_s": 0.715
+  },
+  "openlibrary.org": {
+   "requests": 12,
+   "failed": 0,
+   "total_s": 7.48,
+   "p50_s": 0.655,
+   "max_s": 0.967
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.29,
+   "p50_s": 0.146,
+   "max_s": 0.159
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 156,
+   "failed": 0,
+   "total_s": 32.0,
+   "p50_s": 0.176,
+   "max_s": 1.055
+  }
+ },
+ "retries": {},
+ "failures": []
+}

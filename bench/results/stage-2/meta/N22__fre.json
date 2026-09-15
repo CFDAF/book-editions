@@ -1,0 +1,66 @@
+{
+ "run": "N22__fre",
+ "title": "Le Capital au XXIe siècle",
+ "author": "Thomas Piketty",
+ "argv": [
+  "Le Capital au XXIe siècle",
+  "--author",
+  "Thomas Piketty",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N22__fre.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 54.8,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.269,
+   "max_s": 0.333
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.271,
+   "max_s": 0.293
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 45.05,
+   "p50_s": 22.527,
+   "max_s": 44.866
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 11.03,
+   "p50_s": 1.188,
+   "max_s": 1.361
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.35,
+   "p50_s": 0.173,
+   "max_s": 0.195
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 109,
+   "failed": 0,
+   "total_s": 24.43,
+   "p50_s": 0.192,
+   "max_s": 0.753
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

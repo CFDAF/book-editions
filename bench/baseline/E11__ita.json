@@ -1,0 +1,64 @@
+{
+ "mode": "work",
+ "query_title": "Poesie",
+ "query_author": "Montale",
+ "languages": [
+  "cze",
+  "heb",
+  "ita",
+  "swe",
+  "unknown"
+ ],
+ "original": {
+  "title": "Ho sceso, dandoti il braccio, almeno un milione di scale",
+  "language": "ita",
+  "year": "1967",
+  "qid": "Q3786039",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Ho sceso, dandoti il braccio, almeno un milione di scale",
+  "original_language": "ita",
+  "original_year": 1967,
+  "first_year_seen": 1938,
+  "origin": "first published 1967 in italiano",
+  "ambiguous": true
+ },
+ "choices": 2,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BVE0283406",
+  "BVE0612668",
+  "CAM0025169",
+  "CFI0078585",
+  "CSA0005831",
+  "LO11458908",
+  "MIL0719896",
+  "MIL0961186",
+  "MIL1090830",
+  "MOL0094006",
+  "PAL0204306",
+  "PUV0688555",
+  "RAV0019427",
+  "RAV0056016",
+  "RAV0124086",
+  "RAV0668269",
+  "RAV1565608",
+  "RLZ0066361",
+  "RLZ0306206",
+  "RLZ0324208",
+  "RML0149381",
+  "RMS0126864",
+  "RMS0133302",
+  "SBL0112874",
+  "SBL0149415",
+  "TO00133413",
+  "TO01723641",
+  "UBO0093054",
+  "VIA0125062"
+ ]
+}

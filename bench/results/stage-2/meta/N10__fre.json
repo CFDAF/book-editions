@@ -1,0 +1,69 @@
+{
+ "run": "N10__fre",
+ "title": "L'Étranger",
+ "author": "Albert Camus",
+ "argv": [
+  "L'Étranger",
+  "--author",
+  "Albert Camus",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N10__fre.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 51.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 32.83,
+   "p50_s": 0.27,
+   "max_s": 32.292
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 33.01,
+   "p50_s": 0.402,
+   "max_s": 32.334
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.23,
+   "p50_s": 0.616,
+   "max_s": 1.045
+  },
+  "openlibrary.org": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 6.01,
+   "p50_s": 0.841,
+   "max_s": 0.912
+  },
+  "opac.sbn.it/o": {
+   "requests": 12,
+   "failed": 0,
+   "total_s": 2.12,
+   "p50_s": 0.169,
+   "max_s": 0.248
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 164,
+   "failed": 0,
+   "total_s": 48.33,
+   "p50_s": 0.257,
+   "max_s": 6.129
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

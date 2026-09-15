@@ -1,0 +1,33 @@
+{
+ "run": "P04__1",
+ "title": "",
+ "author": "Elena Ferrante",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P04__1.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P04__1.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 12.0,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.782,
+   "max_s": 0.782
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 151,
+   "failed": 0,
+   "total_s": 51.98,
+   "p50_s": 0.319,
+   "max_s": 2.795
+  }
+ },
+ "retries": {},
+ "failures": []
+}

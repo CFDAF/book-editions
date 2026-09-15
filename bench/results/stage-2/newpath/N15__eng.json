@@ -1,0 +1,200 @@
+{
+ "run": "N15__eng",
+ "book": "N15",
+ "entry": "eng",
+ "title": "2666",
+ "author": "Roberto Bolaño",
+ "sbn_identity": {
+  "author_sent": "Roberto Bolaño",
+  "total": 17,
+  "W": "2666.",
+  "W_count": 11,
+  "W_ties": [],
+  "A": 1.0,
+  "guard_requests": 3,
+  "tier": "strong",
+  "B": null,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": "Q219437",
+  "matched_form": "2666",
+  "score": 1.0,
+  "candidates": 6,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL712025W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "2666 Roberto Bolaño",
+    "key": "/works/OL712025W",
+    "keyed": "/works/OL712025W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "2666.",
+  "total": 11,
+  "rows": 11,
+  "languages": 4,
+  "lingua_facet": [
+   [
+    "ita",
+    6
+   ],
+   [
+    "eng",
+    2
+   ],
+   [
+    "spa",
+    2
+   ],
+   [
+    "fre",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 8,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 1.8,
+  "bids": [
+   "RMB0796862",
+   "TO02019657",
+   "UBO4447105",
+   "CFI0739609",
+   "BIA0029155",
+   "RAV1600577",
+   "CAM0244569",
+   "UBO3507615",
+   "UM10161114",
+   "PUV1468298",
+   "TO01362318"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL712025W",
+  "size": 62,
+  "rows": 62,
+  "languages": 33,
+  "requests": 5,
+  "failed": [],
+  "wall_s": 0.6,
+  "keys": [
+   "/books/OL61537667M",
+   "/books/OL61537612M",
+   "/books/OL61537568M",
+   "/books/OL61537504M",
+   "/books/OL61537481M",
+   "/books/OL61537473M",
+   "/books/OL61537467M",
+   "/books/OL61537451M",
+   "/books/OL61537437M",
+   "/books/OL61537363M",
+   "/books/OL61537310M",
+   "/books/OL61536989M",
+   "/books/OL61536981M",
+   "/books/OL61536971M",
+   "/books/OL61536955M",
+   "/books/OL61536933M",
+   "/books/OL61536924M",
+   "/books/OL61536911M",
+   "/books/OL61536899M",
+   "/books/OL61536868M",
+   "/books/OL61536867M",
+   "/books/OL61536864M",
+   "/books/OL61536377M",
+   "/books/OL61536371M",
+   "/books/OL61536370M",
+   "/books/OL61536366M",
+   "/books/OL61536303M",
+   "/books/OL61536038M",
+   "/books/OL61535400M",
+   "/books/OL61227594M",
+   "/books/OL57727977M",
+   "/books/OL61530240M",
+   "/books/OL61530130M",
+   "/books/OL60703814M",
+   "/books/OL51748795M",
+   "/books/OL50638972M",
+   "/books/OL47305674M",
+   "/books/OL47141687M",
+   "/books/OL47141686M",
+   "/books/OL32223949M",
+   "/books/OL32241830M",
+   "/books/OL35393071M",
+   "/books/OL35432156M",
+   "/books/OL32005199M",
+   "/books/OL34863684M",
+   "/books/OL35470098M",
+   "/books/OL35479849M",
+   "/books/OL27465246M",
+   "/books/OL26915740M",
+   "/books/OL26319469M",
+   "/books/OL26283117M",
+   "/books/OL26207385M",
+   "/books/OL26230837M",
+   "/books/OL25938706M",
+   "/books/OL25558102M",
+   "/books/OL24967933M",
+   "/books/OL23060125M",
+   "/books/OL22615799M",
+   "/books/OL9129070M",
+   "/books/OL35447884M",
+   "/books/OL3459082M",
+   "/books/OL16820215M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.8,
+  "listing": 1.8,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.5,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.26,
+   "max_s": 0.344
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.303,
+   "max_s": 0.417
+  },
+  "opac.sbn.it/o": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 4.16,
+   "p50_s": 0.628,
+   "max_s": 0.696
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.08,
+   "p50_s": 0.772,
+   "max_s": 0.883
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.423,
+   "max_s": 0.639
+  }
+ },
+ "retries": {},
+ "failures": []
+}

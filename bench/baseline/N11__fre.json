@@ -1,0 +1,46 @@
+{
+ "mode": "work",
+ "query_title": "La Disparition",
+ "query_author": "Georges Perec",
+ "languages": [
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": "La Disparition",
+  "language": "fre",
+  "year": "1969",
+  "qid": "Q595140",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "La Disparition",
+  "original_language": "fre",
+  "original_year": 1969,
+  "first_year_seen": 1969,
+  "origin": "first published 1969 in francese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BVE0021131",
+  "CAG0088977",
+  "LO11179584",
+  "PUV0321719",
+  "RAV0257828",
+  "RT10051813",
+  "TSA1779832",
+  "UBO1170157",
+  "URB0080304",
+  "URB0389147"
+ ]
+}

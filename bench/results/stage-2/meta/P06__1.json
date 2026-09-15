@@ -1,0 +1,38 @@
+{
+ "run": "P06__1",
+ "title": "",
+ "author": "Umberto Eco",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P06__1.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P06__1.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 21.8,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.22,
+   "p50_s": 1.223,
+   "max_s": 1.223
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 151,
+   "failed": 0,
+   "total_s": 97.64,
+   "p50_s": 0.263,
+   "max_s": 7.863
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1,
+   "ConnectTimeoutError": 6
+  }
+ },
+ "failures": []
+}

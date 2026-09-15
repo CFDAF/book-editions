@@ -1,0 +1,69 @@
+{
+ "run": "E07__eng",
+ "title": "Liquid Modernity",
+ "author": "Bauman",
+ "argv": [
+  "Liquid Modernity",
+  "--author",
+  "Bauman",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E07__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 27.3,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 14.86,
+   "p50_s": 0.304,
+   "max_s": 14.316
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 14.91,
+   "p50_s": 0.317,
+   "max_s": 14.42
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.11,
+   "p50_s": 0.554,
+   "max_s": 0.924
+  },
+  "openlibrary.org": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 9.78,
+   "p50_s": 0.772,
+   "max_s": 1.069
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.43,
+   "p50_s": 0.215,
+   "max_s": 0.246
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 172,
+   "failed": 0,
+   "total_s": 42.51,
+   "p50_s": 0.216,
+   "max_s": 1.014
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

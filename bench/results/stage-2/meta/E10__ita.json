@@ -1,0 +1,69 @@
+{
+ "run": "E10__ita",
+ "title": "Opere",
+ "author": "Leopardi",
+ "argv": [
+  "Opere",
+  "--author",
+  "Leopardi",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E10__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 58.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.265,
+   "max_s": 0.291
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.261,
+   "max_s": 0.302
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 44.2,
+   "p50_s": 22.098,
+   "max_s": 44.015
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.34,
+   "p50_s": 0.777,
+   "max_s": 1.078
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.5,
+   "p50_s": 0.25,
+   "max_s": 0.303
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 164,
+   "failed": 0,
+   "total_s": 40.39,
+   "p50_s": 0.194,
+   "max_s": 3.756
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

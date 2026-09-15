@@ -1,0 +1,336 @@
+{
+ "run": "N08__eng",
+ "book": "N08",
+ "entry": "eng",
+ "title": "My Brilliant Friend",
+ "author": "Elena Ferrante",
+ "sbn_identity": {
+  "author_sent": "Elena Ferrante",
+  "total": 4,
+  "W": "amica geniale : infanzia, adolescenza",
+  "W_count": 4,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 1.0,
+  "B_counts": [
+   4,
+   4
+  ],
+  "query_rows": 4,
+  "work_rows": 4,
+  "work_total": 4,
+  "truncated": false,
+  "b_requests": 1,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": "Q22263533",
+  "matched_form": "My Brilliant Friend",
+  "score": 1.0,
+  "candidates": 6,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL16520879W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "L'amica geniale Elena Ferrante",
+    "key": "/works/OL16520879W",
+    "keyed": "/works/OL16520879W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "amica geniale : infanzia, adolescenza",
+  "total": 57,
+  "rows": 57,
+  "languages": 30,
+  "lingua_facet": [
+   [
+    "ita",
+    15
+   ],
+   [
+    "eng",
+    4
+   ],
+   [
+    "fre",
+    3
+   ],
+   [
+    "ara",
+    2
+   ],
+   [
+    "cat",
+    2
+   ],
+   [
+    "chi",
+    2
+   ],
+   [
+    "ger",
+    2
+   ],
+   [
+    "pol",
+    2
+   ],
+   [
+    "rus",
+    2
+   ],
+   [
+    "slo",
+    2
+   ],
+   [
+    "tur",
+    2
+   ],
+   [
+    "alb",
+    1
+   ],
+   [
+    "cze",
+    1
+   ],
+   [
+    "dan",
+    1
+   ],
+   [
+    "dut",
+    1
+   ],
+   [
+    "est",
+    1
+   ],
+   [
+    "fin",
+    1
+   ],
+   [
+    "heb",
+    1
+   ],
+   [
+    "hrv",
+    1
+   ],
+   [
+    "hun",
+    1
+   ],
+   [
+    "ice",
+    1
+   ],
+   [
+    "ind",
+    1
+   ],
+   [
+    "kor",
+    1
+   ],
+   [
+    "lav",
+    1
+   ],
+   [
+    "lit",
+    1
+   ],
+   [
+    "nor",
+    1
+   ],
+   [
+    "rum",
+    1
+   ],
+   [
+    "spa",
+    1
+   ],
+   [
+    "swe",
+    1
+   ],
+   [
+    "ukr",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 34,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 2.8,
+  "bids": [
+   "UBO4282572",
+   "RMB0807370",
+   "TO10029812",
+   "RMB0799829",
+   "RMB0799827",
+   "RMB0800892",
+   "UBO4342031",
+   "RMB0797006",
+   "RMB0799765",
+   "RMB0800039",
+   "TO02006002",
+   "UM10178509",
+   "RE20001435",
+   "LUA0552009",
+   "RMB0799665",
+   "RMB0799784",
+   "UBO4344496",
+   "PAR1243183",
+   "VIA0470213",
+   "RMB0799768",
+   "UBO4344096",
+   "RMB0803025",
+   "RMB0799834",
+   "RMB0799950",
+   "RMB0799779",
+   "RMB0799772",
+   "IEI0758243",
+   "SBS0000682",
+   "LIG0242757",
+   "LIG0242759",
+   "TO02034564",
+   "CAG2053724",
+   "URB0937709",
+   "TO01993132",
+   "RL10000219",
+   "TO02034163",
+   "USS0021500",
+   "BCT0051746",
+   "PCM0008087",
+   "TO01978798",
+   "TSA1508022",
+   "RMB0799754",
+   "RMB0799680",
+   "RMB0799824",
+   "RMB0799909",
+   "RMB0800033",
+   "RMB0811497",
+   "RMB0799763",
+   "RMB0799904",
+   "UBO4462548",
+   "RMB0799671",
+   "RMB0799835",
+   "TO10037905",
+   "RMB0799668",
+   "RMB0799948",
+   "RMB0812528",
+   "RMB0811466"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL16520879W",
+  "size": 40,
+  "rows": 40,
+  "languages": 5,
+  "requests": 9,
+  "failed": [],
+  "wall_s": 0.7,
+  "keys": [
+   "/books/OL62515388M",
+   "/books/OL62204836M",
+   "/books/OL35367863M",
+   "/books/OL47350849M",
+   "/books/OL47350846M",
+   "/books/OL47350847M",
+   "/books/OL47191445M",
+   "/books/OL47191444M",
+   "/books/OL38223486M",
+   "/books/OL37831144M",
+   "/books/OL37475255M",
+   "/books/OL33791099M",
+   "/books/OL34840735M",
+   "/books/OL33043663M",
+   "/books/OL37797043M",
+   "/books/OL35627240M",
+   "/books/OL32903537M",
+   "/books/OL31834354M",
+   "/books/OL31834357M",
+   "/books/OL32812985M",
+   "/books/OL25881762M",
+   "/books/OL31892329M",
+   "/books/OL32200586M",
+   "/books/OL27209732M",
+   "/books/OL32669643M",
+   "/books/OL32670034M",
+   "/books/OL32897915M",
+   "/books/OL32038385M",
+   "/books/OL28071226M",
+   "/books/OL28564542M",
+   "/books/OL28629651M",
+   "/books/OL28712161M",
+   "/books/OL28899247M",
+   "/books/OL29419408M",
+   "/books/OL27213437M",
+   "/books/OL27426422M",
+   "/books/OL25844975M",
+   "/books/OL25214098M",
+   "/books/OL26583144M",
+   "/books/OL32599393M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.8,
+  "listing": 2.8,
+  "ol_search_and_listing": 1.3
+ },
+ "wall_s": 4.5,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 34,
+   "failed": 0,
+   "total_s": 9.79,
+   "p50_s": 0.259,
+   "max_s": 0.508
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.01,
+   "p50_s": 0.307,
+   "max_s": 0.415
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.278,
+   "max_s": 0.339
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.52,
+   "p50_s": 0.62,
+   "max_s": 0.625
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.363,
+   "max_s": 0.559
+  }
+ },
+ "retries": {},
+ "failures": []
+}

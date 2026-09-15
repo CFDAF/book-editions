@@ -1,0 +1,62 @@
+{
+ "run": "N08__ita",
+ "title": "L'amica geniale",
+ "author": "Elena Ferrante",
+ "argv": [
+  "L'amica geniale",
+  "--author",
+  "Elena Ferrante",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N08__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 18.3,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.281,
+   "max_s": 0.317
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.75,
+   "p50_s": 0.282,
+   "max_s": 0.284
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.72,
+   "p50_s": 0.36,
+   "max_s": 0.541
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.67,
+   "p50_s": 0.942,
+   "max_s": 1.332
+  },
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.182,
+   "max_s": 0.216
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 51.78,
+   "p50_s": 0.204,
+   "max_s": 3.44
+  }
+ },
+ "retries": {},
+ "failures": []
+}

@@ -1,0 +1,55 @@
+{
+ "run": "N24__ita",
+ "title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+ "author": "Orlando Ciprian",
+ "argv": [
+  "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+  "--author",
+  "Orlando Ciprian",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N24__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 3.5,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.67,
+   "p50_s": 0.333,
+   "max_s": 0.375
+  },
+  "it.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.58,
+   "p50_s": 0.29,
+   "max_s": 0.333
+  },
+  "openlibrary.org": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 3.28,
+   "p50_s": 0.825,
+   "max_s": 0.869
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.29,
+   "p50_s": 0.145,
+   "max_s": 0.15
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 6,
+   "failed": 0,
+   "total_s": 1.86,
+   "p50_s": 0.303,
+   "max_s": 0.464
+  }
+ },
+ "retries": {},
+ "failures": []
+}

@@ -1,0 +1,69 @@
+{
+ "run": "N21__ita",
+ "title": "Venti poesie d'amore e una canzone disperata",
+ "author": "Pablo Neruda",
+ "argv": [
+  "Venti poesie d'amore e una canzone disperata",
+  "--author",
+  "Pablo Neruda",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N21__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 44.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 32.09,
+   "p50_s": 0.461,
+   "max_s": 31.345
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 31.81,
+   "p50_s": 15.903,
+   "max_s": 31.522
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.99,
+   "p50_s": 0.493,
+   "max_s": 0.791
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.91,
+   "p50_s": 0.856,
+   "max_s": 1.403
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.68,
+   "p50_s": 0.342,
+   "max_s": 0.404
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 38.14,
+   "p50_s": 0.206,
+   "max_s": 0.705
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,66 @@
+{
+ "run": "N03__ita",
+ "title": "Se questo è un uomo",
+ "author": "Primo Levi",
+ "argv": [
+  "Se questo è un uomo",
+  "--author",
+  "Primo Levi",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/N03__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 48.0,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.262,
+   "max_s": 0.302
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.291,
+   "max_s": 0.3
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.422,
+   "max_s": 0.615
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.45,
+   "p50_s": 0.743,
+   "max_s": 1.148
+  },
+  "opac.sbn.it/o": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 11.1,
+   "p50_s": 0.729,
+   "max_s": 1.799
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 168.27,
+   "p50_s": 0.773,
+   "max_s": 5.743
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

@@ -1,0 +1,71 @@
+{
+ "mode": "work",
+ "query_title": "If on a Winter's Night a Traveler",
+ "query_author": "Italo Calvino",
+ "languages": [
+  "chi",
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "per",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": "Se una notte d'inverno un viaggiatore",
+  "language": "ita",
+  "year": "1979",
+  "qid": "Q1032190",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Se una notte d'inverno un viaggiatore",
+  "original_language": "ita",
+  "original_year": 1979,
+  "first_year_seen": 1979,
+  "origin": "first published 1979 in italiano",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BCT0075340",
+  "BIA0008453",
+  "LIA0844308",
+  "LO11348949",
+  "LUA0576589",
+  "MOD1620715",
+  "PCM0003599",
+  "RAV0002500",
+  "RAV1169066",
+  "RLZ0191050",
+  "RMS0149593",
+  "RMS2721978",
+  "RMS2725326",
+  "RMS3032407",
+  "RMS3036491",
+  "RMS3036655",
+  "RMS3037140",
+  "RMS3037720",
+  "RMS3037899",
+  "RMS3038175",
+  "RMS3047467",
+  "RMS3055634",
+  "RMS3055669",
+  "RMS3055744",
+  "RMS3055750",
+  "RMS3055751",
+  "RMS3055763",
+  "RMS3055766",
+  "RMS3055778",
+  "TO00901962",
+  "TO01039149",
+  "TO01701950",
+  "UMC0993630"
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "run": "N14__ita",
+ "book": "N14",
+ "entry": "ita",
+ "title": "Cecità",
+ "author": "José Saramago",
+ "sbn_identity": {
+  "author_sent": "José Saramago",
+  "total": 39,
+  "W": "ensaio sobre a cegueira",
+  "W_count": 32,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.889,
+  "B_counts": [
+   32,
+   36
+  ],
+  "query_rows": 39,
+  "work_rows": 32,
+  "work_total": 32,
+  "truncated": false,
+  "b_requests": 7,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": "Q826428",
+  "matched_form": "Cecità",
+  "score": 1.0,
+  "candidates": 4,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL27420W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Ensaio sobre a cegueira José Saramago",
+    "key": "/works/OL27420W",
+    "keyed": "/works/OL27420W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "ensaio sobre a cegueira",
+  "total": 48,
+  "rows": 48,
+  "languages": 9,
+  "lingua_facet": [
+   [
+    "ita",
+    32
+   ],
+   [
+    "por",
+    5
+   ],
+   [
+    "eng",
+    4
+   ],
+   [
+    "slv",
+    2
+   ],
+   [
+    "chi",
+    1
+   ],
+   [
+    "fre",
+    1
+   ],
+   [
+    "ger",
+    1
+   ],
+   [
+    "pol",
+    1
+   ],
+   [
+    "spa",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 12,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.8,
+  "bids": [
+   "MOD1811132",
+   "LUA0552637",
+   "BMT0017063",
+   "RAV2153707",
+   "RT10052878",
+   "RMS2575916",
+   "RAV2097773",
+   "MOL0169329",
+   "SBS0014661",
+   "CFI0751050",
+   "RMS1318864",
+   "TPS0012117",
+   "TO10047728",
+   "ANA0488580",
+   "AGR0023852",
+   "CFI0328377",
+   "RL10118136",
+   "RL10065334",
+   "RAV0274843",
+   "GMP0030471",
+   "TO00605244",
+   "TO02109013",
+   "TO02080045",
+   "RAV2144044",
+   "PBE0265215",
+   "PBE0265216",
+   "TO02019416",
+   "TSA1781781",
+   "PAV0194745",
+   "UBO3425172",
+   "UM10123272",
+   "URB0973601",
+   "URB0982242",
+   "RCA0846995",
+   "RCA0861924",
+   "UDA0246567",
+   "VIA0171478",
+   "ARE0003294",
+   "MO10029278",
+   "UBO3935606",
+   "MIL0288581",
+   "IEI0787604",
+   "AQ10093360",
+   "MOD1766373",
+   "SBT0021606",
+   "TSA1600414",
+   "TSA1483797",
+   "BRI0468955"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL27420W",
+  "size": 40,
+  "rows": 40,
+  "languages": 7,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.4,
+  "keys": [
+   "/books/OL61412784M",
+   "/books/OL8834647M",
+   "/books/OL8835006M",
+   "/books/OL51656284M",
+   "/books/OL26384858M",
+   "/books/OL32063393M",
+   "/books/OL33329037M",
+   "/books/OL33979271M",
+   "/books/OL30983927M",
+   "/books/OL36638514M",
+   "/books/OL31913883M",
+   "/books/OL19483289M",
+   "/books/OL9047860M",
+   "/books/OL9048533M",
+   "/books/OL31979608M",
+   "/books/OL32236992M",
+   "/books/OL31900553M",
+   "/books/OL31146912M",
+   "/books/OL30674740M",
+   "/books/OL27380882M",
+   "/books/OL9116490M",
+   "/books/OL9162940M",
+   "/books/OL9199217M",
+   "/books/OL13118076M",
+   "/books/OL9886860M",
+   "/books/OL24300584M",
+   "/books/OL9153039M",
+   "/books/OL13196051M",
+   "/books/OL26368537M",
+   "/books/OL21503777M",
+   "/books/OL24362268M",
+   "/books/OL9173184M",
+   "/books/OL24300583M",
+   "/books/OL8626239M",
+   "/books/OL7365439M",
+   "/books/OL21630365M",
+   "/books/OL552444M",
+   "/books/OL6854985M",
+   "/books/OL16431240M",
+   "/books/OL352517M"
+  ]
+ },
+ "phase_s": {
+  "identity": 2.0,
+  "listing": 1.3,
+  "ol_search_and_listing": 1.3
+ },
+ "wall_s": 3.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 16,
+   "failed": 0,
+   "total_s": 2.96,
+   "p50_s": 0.151,
+   "max_s": 0.335
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.28,
+   "max_s": 0.378
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.56,
+   "p50_s": 0.278,
+   "max_s": 0.314
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.52,
+   "p50_s": 0.903,
+   "max_s": 1.346
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.17,
+   "p50_s": 0.586,
+   "max_s": 0.949
+  }
+ },
+ "retries": {},
+ "failures": []
+}

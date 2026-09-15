@@ -1,0 +1,51 @@
+{
+ "mode": "author",
+ "query_title": null,
+ "query_author": "Kodwo Eshun",
+ "languages": [
+  "eng",
+  "ita",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": null,
+  "language": null,
+  "year": null,
+  "qid": null,
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "17 works by Kodwo Eshun",
+  "original_language": null,
+  "original_year": null,
+  "first_year_seen": 1998,
+  "origin": "earliest edition found 1998",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Open Library": "ok",
+  "SBN": "ok",
+  "Wikidata": "skipped (not needed for an author search)"
+ },
+ "works": [
+  "Boogie down Predictions",
+  "Cricket",
+  "Dan Graham",
+  "Dan Graham Rock My Religion",
+  "Desconfiar de las imàgenes",
+  "Heller als die Sonne.",
+  "Longplayer",
+  "More Brilliant than the sun : Adventures in Sonic Fiction",
+  "More brilliant than the sun",
+  "Otolith Group",
+  "Più brillante del sole : [avventure nella fantasonica]",
+  "Post-Punk Then and Now",
+  "Post-punk",
+  "Practising Art Internationally",
+  "Saints",
+  "Sonic Process",
+  "The ghosts of songs"
+ ]
+}

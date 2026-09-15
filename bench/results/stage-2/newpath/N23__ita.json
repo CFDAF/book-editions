@@ -1,0 +1,105 @@
+{
+ "run": "N23__ita",
+ "book": "N23",
+ "entry": "ita",
+ "title": "Odissea",
+ "author": "Homer",
+ "sbn_identity": {
+  "author_sent": "Homer",
+  "total": 2326,
+  "W": "odyssea",
+  "W_count": 548,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.296,
+  "B_counts": [
+   319,
+   1076
+  ],
+  "query_rows": 2000,
+  "work_rows": 548,
+  "work_total": 548,
+  "truncated": true,
+  "b_requests": 136,
+  "tier": "rejected"
+ },
+ "wikidata_step4": {
+  "qid": "Q35160",
+  "matched_form": "Odissèa",
+  "score": 1.0,
+  "candidates": 9,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL29477874W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Ὀδύσσεια Homer",
+    "key": "/works/OL29477874W",
+    "keyed": "/works/OL61981W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL29477874W",
+  "size": 1,
+  "rows": 1,
+  "languages": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.7,
+  "keys": [
+   "/books/OL40578004M"
+  ]
+ },
+ "phase_s": {
+  "identity": 16.6,
+  "listing": 1.5,
+  "ol_search_and_listing": 1.5
+ },
+ "wall_s": 18.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 128,
+   "failed": 0,
+   "total_s": 63.07,
+   "p50_s": 0.347,
+   "max_s": 1.615
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.29,
+   "max_s": 0.3
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.291,
+   "max_s": 0.303
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.0,
+   "p50_s": 0.713,
+   "max_s": 0.797
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.02,
+   "p50_s": 0.508,
+   "max_s": 0.845
+  }
+ },
+ "retries": {},
+ "failures": []
+}

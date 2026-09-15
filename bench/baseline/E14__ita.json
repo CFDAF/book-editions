@@ -1,0 +1,32 @@
+{
+ "mode": "work",
+ "query_title": "Per una economia positiva",
+ "query_author": "Jacques Attali",
+ "languages": [
+  "ita"
+ ],
+ "original": {
+  "title": null,
+  "language": null,
+  "year": null,
+  "qid": null,
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Per una economia positiva",
+  "original_language": null,
+  "original_year": null,
+  "first_year_seen": 2014,
+  "origin": "earliest edition found 2014",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "MIL0871878"
+ ]
+}

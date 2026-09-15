@@ -1,0 +1,370 @@
+{
+ "run": "N07__ita",
+ "book": "N07",
+ "entry": "ita",
+ "title": "Se una notte d'inverno un viaggiatore",
+ "author": "Italo Calvino",
+ "sbn_identity": {
+  "author_sent": "Italo Calvino",
+  "total": 151,
+  "W": "se una notte d'inverno un viaggiatore",
+  "W_count": 141,
+  "W_ties": [],
+  "A": 1.0,
+  "guard_requests": 3,
+  "tier": "strong",
+  "B": null,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": "Q1032190",
+  "matched_form": "Se una notte d'inverno un viaggiatore",
+  "score": 1.0,
+  "candidates": 6,
+  "error": null
+ },
+ "ol_main": {
+  "key": null,
+  "how": null,
+  "search": [
+   {
+    "label": "original",
+    "q": "Se una notte d'inverno un viaggiatore Italo Calvino",
+    "key": null,
+    "keyed": null,
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "se una notte d'inverno un viaggiatore",
+  "total": 141,
+  "rows": 141,
+  "languages": 32,
+  "lingua_facet": [
+   [
+    "ita",
+    46
+   ],
+   [
+    "eng",
+    13
+   ],
+   [
+    "spa",
+    11
+   ],
+   [
+    "tur",
+    9
+   ],
+   [
+    "por",
+    6
+   ],
+   [
+    "fre",
+    5
+   ],
+   [
+    "ger",
+    5
+   ],
+   [
+    "dan",
+    3
+   ],
+   [
+    "dut",
+    3
+   ],
+   [
+    "fin",
+    3
+   ],
+   [
+    "gre",
+    3
+   ],
+   [
+    "hun",
+    3
+   ],
+   [
+    "rus",
+    3
+   ],
+   [
+    "swe",
+    3
+   ],
+   [
+    "chi",
+    2
+   ],
+   [
+    "cze",
+    2
+   ],
+   [
+    "hrv",
+    2
+   ],
+   [
+    "mac",
+    2
+   ],
+   [
+    "nor",
+    2
+   ],
+   [
+    "pol",
+    2
+   ],
+   [
+    "rum",
+    2
+   ],
+   [
+    "alb",
+    1
+   ],
+   [
+    "bul",
+    1
+   ],
+   [
+    "cat",
+    1
+   ],
+   [
+    "est",
+    1
+   ],
+   [
+    "hbs",
+    1
+   ],
+   [
+    "lav",
+    1
+   ],
+   [
+    "lit",
+    1
+   ],
+   [
+    "per",
+    1
+   ],
+   [
+    "slo",
+    1
+   ],
+   [
+    "ukr",
+    1
+   ],
+   [
+    "vie",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 37,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 4.1,
+  "bids": [
+   "RMS3019683",
+   "RMS3035817",
+   "CAG1142188",
+   "RMS2900088",
+   "UBO4236138",
+   "RMS3035255",
+   "RMS3035270",
+   "RMS3023949",
+   "RMS3026273",
+   "RMS3055650",
+   "RMS3033513",
+   "RMS3033570",
+   "RMS3055782",
+   "RMS2721978",
+   "RMS2731531",
+   "RMS2731175",
+   "PAR0880576",
+   "RMS3055655",
+   "RMS3055766",
+   "RMS3055763",
+   "RMS3055778",
+   "RMS3055789",
+   "RMS3055747",
+   "RMS3034585",
+   "TO00901962",
+   "RMS3038175",
+   "RMS3026332",
+   "RMS3026413",
+   "RMS3026378",
+   "RMS3055646",
+   "RMS3030197",
+   "RMS2725326",
+   "RMS3055627",
+   "RMS3055634",
+   "UBO3099473",
+   "RMS3032407",
+   "RMS3055669",
+   "RMS3055744",
+   "TO01701950",
+   "TO01996477",
+   "RMS3032735",
+   "PUV0878350",
+   "RMS3055665",
+   "RMS3036110",
+   "RMS3023837",
+   "RMS3055661",
+   "BVE0104741",
+   "RMS3055758",
+   "RMS3040394",
+   "LIA0844308",
+   "FER0136648",
+   "RAV0002500",
+   "TO10011023",
+   "RMS1653091",
+   "LIA0170775",
+   "ANA0163654",
+   "LIA0577138",
+   "LO10850139",
+   "LUA0576589",
+   "RLZ0191050",
+   "RLZ0168903",
+   "TO01039149",
+   "RMS0155594",
+   "CFI0850471",
+   "BCT0075340",
+   "BIA0008453",
+   "PBE0100781",
+   "RCA0308985",
+   "RCA0574087",
+   "RMS0133831",
+   "RMR0413305",
+   "RCA0661386",
+   "UBO4579730",
+   "RMS0149593",
+   "RMS3099787",
+   "TO01580290",
+   "RCA0753606",
+   "UBO4968558",
+   "UDA0244144",
+   "MOD0610076",
+   "UMC0651238",
+   "LO11188534",
+   "MOD1661708",
+   "TSA1417404",
+   "RMS3100158",
+   "RMS3100162",
+   "UBO4502012",
+   "LO11348949",
+   "IEI0394397",
+   "PCM0003599",
+   "RL10069862",
+   "TO01896654",
+   "RMS2521028",
+   "TO00556010",
+   "BCT0060397",
+   "RMS3047711",
+   "RMS3032750",
+   "RMS3032973",
+   "RMS3032967",
+   "RMS3055657",
+   "CFI0085449",
+   "TO01804217",
+   "RMB0781346",
+   "RMS3033577",
+   "RMS3055770",
+   "RMS3020954",
+   "RMS3020914",
+   "RMS3047672",
+   "RT10134736",
+   "RMS3047535",
+   "CFI0548375",
+   "TO01794806",
+   "MOD1337510",
+   "RMS3035849",
+   "PUV0764534",
+   "RMS3036104",
+   "RMS3037899",
+   "RMS3036491",
+   "RMS3037140",
+   "RMS3036655",
+   "RMS3036657",
+   "RMS3036972",
+   "RMS3037720",
+   "RMS3047467",
+   "RMS3055750",
+   "RMS3055751",
+   "RMS3037413",
+   "RMS3035916",
+   "RMS3035954",
+   "RMS3055773",
+   "VEA1128981",
+   "RMS3038636",
+   "RMS3039126",
+   "RMS3038695",
+   "RMS3038926",
+   "RMS3047351",
+   "RMS3047083",
+   "RMS3053942",
+   "RMS3038928",
+   "RMB0811458",
+   "RMS3040413"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": null,
+ "phase_s": {
+  "identity": 2.0,
+  "listing": 4.1,
+  "ol_search_and_listing": 0.7
+ },
+ "wall_s": 6.1,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.27,
+   "max_s": 0.387
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.306,
+   "max_s": 0.354
+  },
+  "opac.sbn.it/o": {
+   "requests": 37,
+   "failed": 0,
+   "total_s": 13.95,
+   "p50_s": 0.355,
+   "max_s": 0.621
+  },
+  "openlibrary.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.37,
+   "p50_s": 0.686,
+   "max_s": 0.72
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.12,
+   "p50_s": 0.56,
+   "max_s": 0.866
+  }
+ },
+ "retries": {},
+ "failures": []
+}

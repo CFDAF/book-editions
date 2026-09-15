@@ -1,0 +1,36 @@
+{
+ "mode": "work",
+ "query_title": "Rumori",
+ "query_author": "Jacques Attali",
+ "languages": [
+  "eng",
+  "fre",
+  "ita",
+  "unknown"
+ ],
+ "original": {
+  "title": "Bruits",
+  "language": "fre",
+  "year": "1977",
+  "qid": null,
+  "source": "sbn-authority"
+ },
+ "overview": {
+  "title": "Bruits",
+  "original_language": "fre",
+  "original_year": 1977,
+  "first_year_seen": 1977,
+  "origin": "first published 1977 in francese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "RAV0064979",
+  "RAV0708340"
+ ]
+}

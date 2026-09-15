@@ -1,0 +1,69 @@
+{
+ "run": "N12__eng",
+ "title": "The Trial",
+ "author": "Franz Kafka",
+ "argv": [
+  "The Trial",
+  "--author",
+  "Franz Kafka",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N12__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 52.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 39.01,
+   "p50_s": 0.297,
+   "max_s": 38.52
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 38.99,
+   "p50_s": 0.3,
+   "max_s": 38.518
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.95,
+   "p50_s": 0.476,
+   "max_s": 0.743
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 13.06,
+   "p50_s": 0.931,
+   "max_s": 1.454
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.34,
+   "p50_s": 0.171,
+   "max_s": 0.181
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 168,
+   "failed": 0,
+   "total_s": 39.14,
+   "p50_s": 0.245,
+   "max_s": 0.919
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

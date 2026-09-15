@@ -1,0 +1,32 @@
+{
+ "mode": "work",
+ "query_title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+ "query_author": "Orlando Ciprian",
+ "languages": [
+  "ita"
+ ],
+ "original": {
+  "title": null,
+  "language": null,
+  "year": null,
+  "qid": null,
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Tutto per una casa",
+  "original_language": null,
+  "original_year": null,
+  "first_year_seen": 2009,
+  "origin": "earliest edition found 2009",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "VIA0219276"
+ ]
+}

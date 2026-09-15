@@ -1,0 +1,66 @@
+{
+ "run": "N23__eng",
+ "title": "The Odyssey",
+ "author": "Homer",
+ "argv": [
+  "The Odyssey",
+  "--author",
+  "Homer",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N23__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 63.1,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.7,
+   "p50_s": 0.237,
+   "max_s": 0.262
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.264,
+   "max_s": 0.346
+  },
+  "www.wikidata.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 44.36,
+   "p50_s": 0.188,
+   "max_s": 43.997
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.87,
+   "p50_s": 0.871,
+   "max_s": 1.468
+  },
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 1.12,
+   "p50_s": 0.267,
+   "max_s": 0.402
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 170,
+   "failed": 0,
+   "total_s": 43.51,
+   "p50_s": 0.198,
+   "max_s": 6.805
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

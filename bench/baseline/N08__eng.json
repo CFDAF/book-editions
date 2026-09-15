@@ -1,0 +1,60 @@
+{
+ "mode": "work",
+ "query_title": "My Brilliant Friend",
+ "query_author": "Elena Ferrante",
+ "languages": [
+  "cat",
+  "chi",
+  "eng",
+  "fre",
+  "ger",
+  "ita",
+  "spa",
+  "unknown"
+ ],
+ "original": {
+  "title": "L'amica geniale",
+  "language": "ita",
+  "year": "2011",
+  "qid": "Q22263533",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "L'amica geniale",
+  "original_language": "ita",
+  "original_year": 2011,
+  "first_year_seen": 2011,
+  "origin": "first published 2011 in italiano",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "BVE0773702",
+  "LI30005852",
+  "LUA0552009",
+  "PAR1243183",
+  "PAR1243186",
+  "PCM0008087",
+  "RE20001435",
+  "RMB0799768",
+  "RMB0799827",
+  "RMB0799829",
+  "RMB0800039",
+  "RMB0800892",
+  "RMS2820714",
+  "TO01978798",
+  "TO02006002",
+  "TO02034564",
+  "TO02100493",
+  "TO10037905",
+  "TSA1508022",
+  "UBO4344096",
+  "UBO4344496",
+  "VIA0333348"
+ ]
+}

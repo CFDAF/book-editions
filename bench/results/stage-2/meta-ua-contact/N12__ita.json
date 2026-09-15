@@ -1,0 +1,66 @@
+{
+ "run": "N12__ita",
+ "title": "Il processo",
+ "author": "Franz Kafka",
+ "argv": [
+  "Il processo",
+  "--author",
+  "Franz Kafka",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/N12__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 49.5,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.8,
+   "p50_s": 0.264,
+   "max_s": 0.372
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.81,
+   "p50_s": 0.288,
+   "max_s": 0.338
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.17,
+   "p50_s": 0.587,
+   "max_s": 0.941
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.34,
+   "p50_s": 0.797,
+   "max_s": 1.122
+  },
+  "opac.sbn.it/o": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 8.61,
+   "p50_s": 0.905,
+   "max_s": 0.971
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 170,
+   "failed": 0,
+   "total_s": 180.83,
+   "p50_s": 0.883,
+   "max_s": 5.748
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 2
+  }
+ },
+ "failures": []
+}

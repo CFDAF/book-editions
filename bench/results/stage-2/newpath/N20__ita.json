@@ -1,0 +1,162 @@
+{
+ "run": "N20__ita",
+ "book": "N20",
+ "entry": "ita",
+ "title": "Metafora e vita quotidiana",
+ "author": "George Lakoff",
+ "sbn_identity": {
+  "author_sent": "George Lakoff",
+  "total": 6,
+  "W": "metaphors we live by.",
+  "W_count": 5,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.833,
+  "B_counts": [
+   5,
+   6
+  ],
+  "query_rows": 6,
+  "work_rows": 5,
+  "work_total": 5,
+  "truncated": false,
+  "b_requests": 2,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 4,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL1952983W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Metaphors We Live By George Lakoff",
+    "key": "/works/OL1952983W",
+    "keyed": "/works/OL1952983W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "metaphors we live by.",
+  "total": 12,
+  "rows": 12,
+  "languages": 6,
+  "lingua_facet": [
+   [
+    "ita",
+    5
+   ],
+   [
+    "eng",
+    2
+   ],
+   [
+    "spa",
+    2
+   ],
+   [
+    "fre",
+    1
+   ],
+   [
+    "ger",
+    1
+   ],
+   [
+    "rus",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 8,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.7,
+  "bids": [
+   "MIL0182712",
+   "UBO2667348",
+   "MIL0268760",
+   "SBT0026543",
+   "RMS1761010",
+   "VIA0073489",
+   "UBO2634384",
+   "LIA0983665",
+   "SBL0636008",
+   "UBO2618489",
+   "USM1833498",
+   "UMC0301222"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL1952983W",
+  "size": 7,
+  "rows": 7,
+  "languages": 3,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.5,
+  "keys": [
+   "/books/OL8913267M",
+   "/books/OL38346469M",
+   "/books/OL19658982M",
+   "/books/OL20680018M",
+   "/books/OL4096576M",
+   "/books/OL15956933M",
+   "/books/OL13241621M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.6,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.0,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 1.86,
+   "p50_s": 0.171,
+   "max_s": 0.257
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.294,
+   "max_s": 0.303
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.66,
+   "p50_s": 0.329,
+   "max_s": 0.338
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.24,
+   "p50_s": 0.899,
+   "max_s": 0.944
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.81,
+   "p50_s": 0.407,
+   "max_s": 0.639
+  }
+ },
+ "retries": {},
+ "failures": []
+}

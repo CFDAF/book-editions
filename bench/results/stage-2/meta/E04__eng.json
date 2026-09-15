@@ -1,0 +1,62 @@
+{
+ "run": "E04__eng",
+ "title": "Kafka on the Shore",
+ "author": "Murakami Haruki",
+ "argv": [
+  "Kafka on the Shore",
+  "--author",
+  "Murakami Haruki",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E04__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 10.5,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.69,
+   "p50_s": 0.23,
+   "max_s": 0.296
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.321,
+   "max_s": 0.324
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.83,
+   "p50_s": 0.413,
+   "max_s": 0.648
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 7.23,
+   "p50_s": 0.944,
+   "max_s": 1.075
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.3,
+   "p50_s": 0.15,
+   "max_s": 0.152
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 166,
+   "failed": 0,
+   "total_s": 36.37,
+   "p50_s": 0.171,
+   "max_s": 0.804
+  }
+ },
+ "retries": {},
+ "failures": []
+}

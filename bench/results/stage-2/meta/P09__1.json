@@ -1,0 +1,74 @@
+{
+ "run": "P09__1",
+ "title": "",
+ "author": "Gabriel García Márquez",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P09__1.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P09__1.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 27.6,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.46,
+   "p50_s": 1.459,
+   "max_s": 1.459
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 128,
+   "failed": 3,
+   "total_s": 135.46,
+   "p50_s": 0.467,
+   "max_s": 12.632
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ConnectTimeoutError": 15
+  }
+ },
+ "failures": [
+  {
+   "host": "opac.sbn.it/opacmobilegw",
+   "method": "GET",
+   "url": "https://opac.sbn.it/opacmobilegw/full.json",
+   "params": {
+    "bid": "PUV0544891"
+   },
+   "t": 1789454952.822,
+   "elapsed": 12.622,
+   "status": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='opac.sbn.it', port=443): Max retries exceeded with url: /opacmobilegw/full.json?bid=PUV0544891 (Caused by ConnectTimeoutError(<HTTPSConnection(host='opac.sbn.it', port=443) a"
+  },
+  {
+   "host": "opac.sbn.it/opacmobilegw",
+   "method": "GET",
+   "url": "https://opac.sbn.it/opacmobilegw/full.json",
+   "params": {
+    "bid": "RMR0265283"
+   },
+   "t": 1789454952.856,
+   "elapsed": 12.632,
+   "status": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='opac.sbn.it', port=443): Max retries exceeded with url: /opacmobilegw/full.json?bid=RMR0265283 (Caused by ConnectTimeoutError(<HTTPSConnection(host='opac.sbn.it', port=443) a"
+  },
+  {
+   "host": "opac.sbn.it/opacmobilegw",
+   "method": "GET",
+   "url": "https://opac.sbn.it/opacmobilegw/full.json",
+   "params": {
+    "bid": "PUV0885001"
+   },
+   "t": 1789454953.325,
+   "elapsed": 12.628,
+   "status": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='opac.sbn.it', port=443): Max retries exceeded with url: /opacmobilegw/full.json?bid=PUV0885001 (Caused by ConnectTimeoutError(<HTTPSConnection(host='opac.sbn.it', port=443) a"
+  }
+ ]
+}

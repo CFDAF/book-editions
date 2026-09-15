@@ -1,0 +1,62 @@
+{
+ "run": "N14__ita",
+ "title": "Cecità",
+ "author": "José Saramago",
+ "argv": [
+  "Cecità",
+  "--author",
+  "José Saramago",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N14__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 16.2,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.254,
+   "max_s": 0.401
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.66,
+   "p50_s": 0.328,
+   "max_s": 0.389
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.1,
+   "p50_s": 0.548,
+   "max_s": 0.854
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.98,
+   "p50_s": 0.82,
+   "max_s": 0.998
+  },
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.251,
+   "max_s": 0.299
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 171,
+   "failed": 0,
+   "total_s": 46.94,
+   "p50_s": 0.266,
+   "max_s": 2.053
+  }
+ },
+ "retries": {},
+ "failures": []
+}

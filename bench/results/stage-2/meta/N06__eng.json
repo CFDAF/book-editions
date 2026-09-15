@@ -1,0 +1,62 @@
+{
+ "run": "N06__eng",
+ "title": "Nineteen Eighty-Four",
+ "author": "George Orwell",
+ "argv": [
+  "Nineteen Eighty-Four",
+  "--author",
+  "George Orwell",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N06__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 19.4,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.256,
+   "max_s": 0.362
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.81,
+   "p50_s": 0.261,
+   "max_s": 0.358
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.1,
+   "p50_s": 0.549,
+   "max_s": 0.919
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 9.53,
+   "p50_s": 0.768,
+   "max_s": 1.573
+  },
+  "opac.sbn.it/o": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 3.1,
+   "p50_s": 0.278,
+   "max_s": 0.593
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 175,
+   "failed": 0,
+   "total_s": 38.27,
+   "p50_s": 0.151,
+   "max_s": 4.209
+  }
+ },
+ "retries": {},
+ "failures": []
+}

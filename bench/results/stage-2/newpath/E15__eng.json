@@ -1,0 +1,95 @@
+{
+ "run": "E15__eng",
+ "book": "E15",
+ "entry": "eng",
+ "title": "The Essential Knuth",
+ "author": "Knuth",
+ "sbn_identity": {
+  "author_sent": "Knuth",
+  "total": 0,
+  "W": null,
+  "tier": "no work",
+  "A": null,
+  "B": null,
+  "guard_requests": 1,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 7,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL36428365W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "The Essential Knuth Knuth",
+    "key": "/works/OL36428365W",
+    "keyed": "/works/OL36428365W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL36428365W",
+  "size": 1,
+  "rows": 1,
+  "languages": 0,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.9,
+  "keys": [
+   "/books/OL49221860M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.5,
+  "listing": 1.7,
+  "ol_search_and_listing": 1.7
+ },
+ "wall_s": 3.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.18,
+   "p50_s": 0.182,
+   "max_s": 0.182
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.294,
+   "max_s": 0.307
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.286,
+   "max_s": 0.308
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.35,
+   "p50_s": 0.792,
+   "max_s": 0.828
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.6,
+   "p50_s": 0.602,
+   "max_s": 0.602
+  }
+ },
+ "retries": {},
+ "failures": []
+}

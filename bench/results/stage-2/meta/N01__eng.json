@@ -1,0 +1,62 @@
+{
+ "run": "N01__eng",
+ "title": "The Unbearable Lightness of Being",
+ "author": "Milan Kundera",
+ "argv": [
+  "The Unbearable Lightness of Being",
+  "--author",
+  "Milan Kundera",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N01__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 22.0,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.9,
+   "p50_s": 0.283,
+   "max_s": 0.443
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.306,
+   "max_s": 0.421
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.04,
+   "p50_s": 0.52,
+   "max_s": 0.795
+  },
+  "openlibrary.org": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 9.9,
+   "p50_s": 0.884,
+   "max_s": 1.156
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.6,
+   "p50_s": 0.802,
+   "max_s": 0.854
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 71.27,
+   "p50_s": 0.343,
+   "max_s": 3.815
+  }
+ },
+ "retries": {},
+ "failures": []
+}

@@ -1,0 +1,62 @@
+{
+ "run": "N13__ger",
+ "title": "Müdigkeitsgesellschaft",
+ "author": "Byung-Chul Han",
+ "argv": [
+  "Müdigkeitsgesellschaft",
+  "--author",
+  "Byung-Chul Han",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N13__ger.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 25.8,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.299,
+   "max_s": 0.375
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.316,
+   "max_s": 0.346
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.48,
+   "p50_s": 0.481,
+   "max_s": 0.481
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 9.4,
+   "p50_s": 1.093,
+   "max_s": 1.665
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.74,
+   "p50_s": 0.871,
+   "max_s": 0.873
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 104,
+   "failed": 0,
+   "total_s": 107.41,
+   "p50_s": 0.851,
+   "max_s": 3.069
+  }
+ },
+ "retries": {},
+ "failures": []
+}

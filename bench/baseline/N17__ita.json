@@ -1,0 +1,36 @@
+{
+ "mode": "work",
+ "query_title": "Tra i due palazzi",
+ "query_author": "Naguib Mahfouz",
+ "languages": [
+  "ita"
+ ],
+ "original": {
+  "title": null,
+  "language": null,
+  "year": null,
+  "qid": null,
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "Tra i due palazzi",
+  "original_language": null,
+  "original_year": null,
+  "first_year_seen": 1989,
+  "origin": "earliest edition found 1989",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "CFI0193625",
+  "LZ10246665",
+  "PCM0046623",
+  "UM10025883",
+  "VEA0020485"
+ ]
+}

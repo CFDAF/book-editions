@@ -1,0 +1,66 @@
+{
+ "run": "E02__eng",
+ "title": "Steps to an Ecology of Mind",
+ "author": "Bateson",
+ "argv": [
+  "Steps to an Ecology of Mind",
+  "--author",
+  "Bateson",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E02__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 30.2,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.91,
+   "p50_s": 0.298,
+   "max_s": 0.43
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.322,
+   "max_s": 0.323
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 18.06,
+   "p50_s": 9.032,
+   "max_s": 17.344
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.87,
+   "p50_s": 0.851,
+   "max_s": 1.024
+  },
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.46,
+   "p50_s": 0.147,
+   "max_s": 0.175
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 170,
+   "failed": 0,
+   "total_s": 37.5,
+   "p50_s": 0.204,
+   "max_s": 1.052
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

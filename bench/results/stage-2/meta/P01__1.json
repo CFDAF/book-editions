@@ -1,0 +1,33 @@
+{
+ "run": "P01__1",
+ "title": "",
+ "author": "Gregory Bateson",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P01__1.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P01__1.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 8.3,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.4,
+   "p50_s": 1.398,
+   "max_s": 1.398
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 56,
+   "failed": 0,
+   "total_s": 30.71,
+   "p50_s": 0.597,
+   "max_s": 1.71
+  }
+ },
+ "retries": {},
+ "failures": []
+}

@@ -1,0 +1,69 @@
+{
+ "run": "N11__fre",
+ "title": "La Disparition",
+ "author": "Georges Perec",
+ "argv": [
+  "La Disparition",
+  "--author",
+  "Georges Perec",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N11__fre.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 56.7,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 40.87,
+   "p50_s": 0.256,
+   "max_s": 40.448
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 40.92,
+   "p50_s": 0.269,
+   "max_s": 40.436
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.95,
+   "p50_s": 0.473,
+   "max_s": 0.77
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 12.23,
+   "p50_s": 0.874,
+   "max_s": 1.257
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.58,
+   "p50_s": 0.29,
+   "max_s": 0.324
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 167,
+   "failed": 0,
+   "total_s": 54.85,
+   "p50_s": 0.314,
+   "max_s": 1.441
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

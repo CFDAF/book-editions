@@ -1,0 +1,69 @@
+{
+ "run": "E16__eng",
+ "title": "Doctor Zhivago",
+ "author": "Pasternak",
+ "argv": [
+  "Doctor Zhivago",
+  "--author",
+  "Pasternak",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E16__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 32.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 21.82,
+   "p50_s": 0.263,
+   "max_s": 21.338
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 21.96,
+   "p50_s": 0.289,
+   "max_s": 21.471
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.3,
+   "p50_s": 0.649,
+   "max_s": 0.944
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 9.93,
+   "p50_s": 0.789,
+   "max_s": 0.902
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.29,
+   "p50_s": 0.145,
+   "max_s": 0.154
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 172,
+   "failed": 0,
+   "total_s": 31.48,
+   "p50_s": 0.149,
+   "max_s": 0.496
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

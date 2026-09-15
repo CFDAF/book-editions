@@ -1,0 +1,72 @@
+{
+ "run": "N01__ita",
+ "title": "L'insostenibile leggerezza dell'essere",
+ "author": "Milan Kundera",
+ "argv": [
+  "L'insostenibile leggerezza dell'essere",
+  "--author",
+  "Milan Kundera",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N01__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 19.2,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 4.89,
+   "p50_s": 0.27,
+   "max_s": 4.435
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 4.69,
+   "p50_s": 2.347,
+   "max_s": 4.397
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.01,
+   "p50_s": 0.503,
+   "max_s": 0.788
+  },
+  "openlibrary.org": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 9.73,
+   "p50_s": 0.898,
+   "max_s": 1.471
+  },
+  "opac.sbn.it/o": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 1.13,
+   "p50_s": 0.198,
+   "max_s": 0.328
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 43.63,
+   "p50_s": 0.245,
+   "max_s": 1.345
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "NameResolutionError": 1
+  }
+ },
+ "failures": []
+}

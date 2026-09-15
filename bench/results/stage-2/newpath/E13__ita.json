@@ -1,0 +1,106 @@
+{
+ "run": "E13__ita",
+ "book": "E13",
+ "entry": "ita",
+ "title": "Angelus Novus",
+ "author": "Walter Benjamin",
+ "sbn_identity": {
+  "author_sent": "Walter Benjamin",
+  "total": 21,
+  "W": "schriften",
+  "W_count": 9,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 0.5,
+  "B_counts": [
+   9,
+   18
+  ],
+  "query_rows": 21,
+  "work_rows": 9,
+  "work_total": 9,
+  "truncated": false,
+  "b_requests": 4,
+  "tier": "weak"
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 7,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL156188W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Angelus Novus Walter Benjamin",
+    "key": "/works/OL156188W",
+    "keyed": "/works/OL156188W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL156188W",
+  "size": 2,
+  "rows": 2,
+  "languages": 1,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.5,
+  "keys": [
+   "/books/OL16404576M",
+   "/books/OL20304391M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.9,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.2,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.53,
+   "p50_s": 0.141,
+   "max_s": 0.251
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.272,
+   "max_s": 0.329
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.312,
+   "max_s": 0.316
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.98,
+   "p50_s": 0.751,
+   "max_s": 0.863
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.01,
+   "p50_s": 0.507,
+   "max_s": 0.838
+  }
+ },
+ "retries": {},
+ "failures": []
+}

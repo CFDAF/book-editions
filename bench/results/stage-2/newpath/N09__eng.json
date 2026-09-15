@@ -1,0 +1,189 @@
+{
+ "run": "N09__eng",
+ "book": "N09",
+ "entry": "eng",
+ "title": "The Cheese and the Worms",
+ "author": "Carlo Ginzburg",
+ "sbn_identity": {
+  "author_sent": "Carlo Ginzburg",
+  "total": 2,
+  "W": "formaggio e i vermi",
+  "W_count": 2,
+  "W_ties": [],
+  "A": 0.0,
+  "guard_requests": 1,
+  "B": 1.0,
+  "B_counts": [
+   2,
+   2
+  ],
+  "query_rows": 2,
+  "work_rows": 2,
+  "work_total": 2,
+  "truncated": false,
+  "b_requests": 3,
+  "tier": "strong"
+ },
+ "wikidata_step4": {
+  "qid": "Q1427187",
+  "matched_form": "The Cheese and the Worms",
+  "score": 1.0,
+  "candidates": 5,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL14872792W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Il formaggio e i vermi Carlo Ginzburg",
+    "key": "/works/OL14872792W",
+    "keyed": "/works/OL14872792W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "formaggio e i vermi",
+  "total": 27,
+  "rows": 27,
+  "languages": 5,
+  "lingua_facet": [
+   [
+    "ita",
+    22
+   ],
+   [
+    "eng",
+    2
+   ],
+   [
+    "alb",
+    1
+   ],
+   [
+    "rus",
+    1
+   ],
+   [
+    "slv",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 8,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.7,
+  "bids": [
+   "UBO2836184",
+   "TO01388679",
+   "USM2026963",
+   "RAV0120901",
+   "CFI0509687",
+   "ANA0179197",
+   "LO11098907",
+   "NAP0870996",
+   "RLZ0324789",
+   "RL10056816",
+   "RL10027333",
+   "RMS1231933",
+   "TSA0673823",
+   "UBO0115486",
+   "TO01957955",
+   "RMS3058636",
+   "MIL0777236",
+   "PUV1114045",
+   "IEI0193110",
+   "UBO2092681",
+   "UBO2020213",
+   "TO00777028",
+   "VEA1090869",
+   "MOD0243798",
+   "RAV2179775",
+   "CFI0544426",
+   "TSA1692276"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL14872792W",
+  "size": 23,
+  "rows": 23,
+  "languages": 6,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.3,
+  "keys": [
+   "/books/OL58752378M",
+   "/books/OL47485450M",
+   "/books/OL47485451M",
+   "/books/OL47130913M",
+   "/books/OL47130973M",
+   "/books/OL35602642M",
+   "/books/OL35500468M",
+   "/books/OL27195764M",
+   "/books/OL27079089M",
+   "/books/OL21244992M",
+   "/books/OL9402983M",
+   "/books/OL9179183M",
+   "/books/OL19837386M",
+   "/books/OL9140688M",
+   "/books/OL12927073M",
+   "/books/OL4402319M",
+   "/books/OL8133454M",
+   "/books/OL7869984M",
+   "/books/OL4266213M",
+   "/books/OL22361385M",
+   "/books/OL15150598M",
+   "/books/OL18232444M",
+   "/books/OL4316225M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.6,
+  "listing": 1.5,
+  "ol_search_and_listing": 1.5
+ },
+ "wall_s": 3.1,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 10,
+   "failed": 0,
+   "total_s": 1.93,
+   "p50_s": 0.169,
+   "max_s": 0.282
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.302,
+   "max_s": 0.314
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.319,
+   "max_s": 0.344
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.1,
+   "p50_s": 0.628,
+   "max_s": 1.144
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.77,
+   "p50_s": 0.383,
+   "max_s": 0.595
+  }
+ },
+ "retries": {},
+ "failures": []
+}

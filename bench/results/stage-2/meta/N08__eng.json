@@ -1,0 +1,72 @@
+{
+ "run": "N08__eng",
+ "title": "My Brilliant Friend",
+ "author": "Elena Ferrante",
+ "argv": [
+  "My Brilliant Friend",
+  "--author",
+  "Elena Ferrante",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N08__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 39.4,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 14.04,
+   "p50_s": 0.304,
+   "max_s": 13.533
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 13.97,
+   "p50_s": 0.397,
+   "max_s": 13.395
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.75,
+   "p50_s": 0.377,
+   "max_s": 0.58
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.66,
+   "p50_s": 0.843,
+   "max_s": 1.157
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.4,
+   "p50_s": 0.2,
+   "max_s": 0.256
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 177,
+   "failed": 0,
+   "total_s": 102.25,
+   "p50_s": 0.447,
+   "max_s": 5.182
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

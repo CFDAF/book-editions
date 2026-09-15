@@ -1,0 +1,126 @@
+{
+ "run": "N22__eng",
+ "book": "N22",
+ "entry": "eng",
+ "title": "Capital in the Twenty-First Century",
+ "author": "Thomas Piketty",
+ "sbn_identity": {
+  "author_sent": "Thomas Piketty",
+  "total": 2,
+  "W": "capital au 21. siecle",
+  "W_count": 1,
+  "W_ties": [
+   "capital au xxie siecle"
+  ],
+  "A": 0.25,
+  "guard_requests": 1,
+  "B": 0.5,
+  "B_counts": [
+   1,
+   2
+  ],
+  "query_rows": 2,
+  "work_rows": 1,
+  "work_total": 1,
+  "truncated": false,
+  "b_requests": 3,
+  "tier": "weak"
+ },
+ "wikidata_step4": {
+  "qid": "Q15991228",
+  "matched_form": "Capital in the Twenty-First Century",
+  "score": 1.0,
+  "candidates": 7,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL16814568W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Le Capital au XXIe siècle Thomas Piketty",
+    "key": "/works/OL16814568W",
+    "keyed": "/works/OL16814568W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL16814568W",
+  "size": 20,
+  "rows": 20,
+  "languages": 4,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.6,
+  "keys": [
+   "/books/OL62542400M",
+   "/books/OL46525520M",
+   "/books/OL25442759M",
+   "/books/OL25628894M",
+   "/books/OL25649859M",
+   "/books/OL27180385M",
+   "/books/OL31960338M",
+   "/books/OL30691924M",
+   "/books/OL29771918M",
+   "/books/OL29506757M",
+   "/books/OL29349357M",
+   "/books/OL32033782M",
+   "/books/OL32033781M",
+   "/books/OL35629222M",
+   "/books/OL35801187M",
+   "/books/OL38566637M",
+   "/books/OL39223500M",
+   "/books/OL32602533M",
+   "/books/OL25440550M",
+   "/books/OL25619817M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.7,
+  "listing": 1.6,
+  "ol_search_and_listing": 1.6
+ },
+ "wall_s": 3.4,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.37,
+   "p50_s": 0.183,
+   "max_s": 0.203
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.291,
+   "max_s": 0.421
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.88,
+   "p50_s": 0.335,
+   "max_s": 0.364
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.26,
+   "p50_s": 0.632,
+   "max_s": 1.061
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.409,
+   "max_s": 0.65
+  }
+ },
+ "retries": {},
+ "failures": []
+}

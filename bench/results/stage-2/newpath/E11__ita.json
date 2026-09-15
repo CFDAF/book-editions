@@ -1,0 +1,123 @@
+{
+ "run": "E11__ita",
+ "book": "E11",
+ "entry": "ita",
+ "title": "Poesie",
+ "author": "Montale",
+ "sbn_identity": {
+  "author_sent": "Montale",
+  "total": 273,
+  "W": "tutte le poesie",
+  "W_count": 26,
+  "W_ties": [],
+  "A": 0.5,
+  "guard_requests": 2,
+  "B": 0.0,
+  "B_counts": [
+   0,
+   45
+  ],
+  "query_rows": 232,
+  "work_rows": 26,
+  "work_total": 26,
+  "truncated": false,
+  "b_requests": 21,
+  "tier": "rejected"
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 9,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL610110W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "Poesie Montale",
+    "key": "/works/OL610110W",
+    "keyed": "/works/OL610110W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL610110W",
+  "size": 19,
+  "rows": 19,
+  "languages": 2,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.7,
+  "keys": [
+   "/books/OL9171971M",
+   "/books/OL17116265M",
+   "/books/OL22823969M",
+   "/books/OL16534882M",
+   "/books/OL19067077M",
+   "/books/OL13780373M",
+   "/books/OL3316608M",
+   "/books/OL4314608M",
+   "/books/OL13533528M",
+   "/books/OL4816531M",
+   "/books/OL7999690M",
+   "/books/OL17116277M",
+   "/books/OL19205410M",
+   "/books/OL5791453M",
+   "/books/OL15506122M",
+   "/books/OL23334367M",
+   "/books/OL2753110M",
+   "/books/OL5944465M",
+   "/books/OL21443209M"
+  ]
+ },
+ "phase_s": {
+  "identity": 2.1,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.5,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.79,
+   "p50_s": 0.292,
+   "max_s": 0.293
+  },
+  "opac.sbn.it/o": {
+   "requests": 16,
+   "failed": 0,
+   "total_s": 4.62,
+   "p50_s": 0.288,
+   "max_s": 0.451
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.319,
+   "max_s": 0.321
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.69,
+   "p50_s": 0.604,
+   "max_s": 0.717
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.22,
+   "p50_s": 0.608,
+   "max_s": 1.034
+  }
+ },
+ "retries": {},
+ "failures": []
+}

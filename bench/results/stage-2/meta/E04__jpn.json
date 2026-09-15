@@ -1,0 +1,72 @@
+{
+ "run": "E04__jpn",
+ "title": "Umibe no Kafuka",
+ "author": "Murakami Haruki",
+ "argv": [
+  "Umibe no Kafuka",
+  "--author",
+  "Murakami Haruki",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E04__jpn.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 35.1,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 23.83,
+   "p50_s": 0.261,
+   "max_s": 23.394
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 23.92,
+   "p50_s": 0.332,
+   "max_s": 23.427
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.96,
+   "p50_s": 0.481,
+   "max_s": 0.785
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 8.57,
+   "p50_s": 1.021,
+   "max_s": 1.649
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.37,
+   "p50_s": 0.184,
+   "max_s": 0.227
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 166,
+   "failed": 0,
+   "total_s": 41.07,
+   "p50_s": 0.198,
+   "max_s": 1.681
+  }
+ },
+ "retries": {
+  "it.wikipedia.org": {
+   "429": 1
+  },
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "NameResolutionError": 1
+  }
+ },
+ "failures": []
+}

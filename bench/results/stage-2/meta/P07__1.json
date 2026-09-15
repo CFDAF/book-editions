@@ -1,0 +1,33 @@
+{
+ "run": "P07__1",
+ "title": "",
+ "author": "Kodwo Eshun",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P07__1.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P07__1.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 2.3,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.49,
+   "p50_s": 1.487,
+   "max_s": 1.487
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 5,
+   "failed": 0,
+   "total_s": 1.91,
+   "p50_s": 0.355,
+   "max_s": 0.487
+  }
+ },
+ "retries": {},
+ "failures": []
+}

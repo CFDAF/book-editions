@@ -1,0 +1,104 @@
+{
+ "run": "N11__eng",
+ "book": "N11",
+ "entry": "eng",
+ "title": "A Void",
+ "author": "Georges Perec",
+ "sbn_identity": {
+  "author_sent": "Georges Perec",
+  "total": 0,
+  "W": null,
+  "tier": "no work",
+  "A": null,
+  "B": null,
+  "guard_requests": 1,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": "Q595140",
+  "matched_form": "A Void",
+  "score": 1.0,
+  "candidates": 5,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL1715351W",
+  "how": "original, strict author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "La Disparition Georges Perec",
+    "key": "/works/OL1715351W",
+    "keyed": "/works/OL1715351W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": null,
+ "ol_listing": {
+  "key": "/works/OL1715351W",
+  "size": 10,
+  "rows": 10,
+  "languages": 2,
+  "requests": 1,
+  "failed": [],
+  "wall_s": 0.6,
+  "keys": [
+   "/books/OL62223660M",
+   "/books/OL35614867M",
+   "/books/OL19589815M",
+   "/books/OL12452067M",
+   "/books/OL5380622M",
+   "/books/OL4131557M",
+   "/books/OL21772155M",
+   "/books/OL8840456M",
+   "/books/OL18000916M",
+   "/books/OL19637504M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.5,
+  "listing": 1.3,
+  "ol_search_and_listing": 1.3
+ },
+ "wall_s": 2.8,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.15,
+   "p50_s": 0.146,
+   "max_s": 0.146
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.75,
+   "p50_s": 0.288,
+   "max_s": 0.302
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.251,
+   "max_s": 0.302
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.53,
+   "p50_s": 0.614,
+   "max_s": 0.669
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.38,
+   "max_s": 0.552
+  }
+ },
+ "retries": {},
+ "failures": []
+}

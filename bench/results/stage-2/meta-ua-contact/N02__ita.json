@@ -1,0 +1,62 @@
+{
+ "run": "N02__ita",
+ "title": "Il piccolo principe",
+ "author": "Antoine de Saint-Exupéry",
+ "argv": [
+  "Il piccolo principe",
+  "--author",
+  "Antoine de Saint-Exupéry",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/N02__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 15.9,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.275,
+   "max_s": 0.398
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.89,
+   "p50_s": 0.306,
+   "max_s": 0.431
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.22,
+   "p50_s": 0.61,
+   "max_s": 1.018
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 12.95,
+   "p50_s": 0.907,
+   "max_s": 1.678
+  },
+  "opac.sbn.it/o": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 2.23,
+   "p50_s": 0.151,
+   "max_s": 0.307
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 36.45,
+   "p50_s": 0.169,
+   "max_s": 0.589
+  }
+ },
+ "retries": {},
+ "failures": []
+}

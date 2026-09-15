@@ -1,0 +1,35 @@
+{
+ "mode": "work",
+ "query_title": "The Invention of News",
+ "query_author": "Pettegree",
+ "languages": [
+  "eng",
+  "ita"
+ ],
+ "original": {
+  "title": "The invention of news",
+  "language": "eng",
+  "year": "2014",
+  "qid": null,
+  "source": "sbn-authority"
+ },
+ "overview": {
+  "title": "The invention of news",
+  "original_language": "eng",
+  "original_year": 2014,
+  "first_year_seen": 2014,
+  "origin": "first published 2014 in inglese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "RMS2685379",
+  "TO01899939",
+  "UTO1620070"
+ ]
+}

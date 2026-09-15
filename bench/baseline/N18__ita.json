@@ -1,0 +1,38 @@
+{
+ "mode": "work",
+ "query_title": "Realismo capitalista",
+ "query_author": "Mark Fisher",
+ "languages": [
+  "eng",
+  "ita",
+  "rum",
+  "spa"
+ ],
+ "original": {
+  "title": "Capitalist Realism",
+  "language": "por",
+  "year": "2009",
+  "qid": null,
+  "source": "sbn-authority"
+ },
+ "overview": {
+  "title": "Capitalist Realism",
+  "original_language": "por",
+  "original_year": 2009,
+  "first_year_seen": 2009,
+  "origin": "first published 2009 in portoghese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": [
+  "PUV1569910",
+  "SBT0067010",
+  "UTO1280621",
+  "VEA1154464"
+ ]
+}

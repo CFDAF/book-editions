@@ -1,0 +1,33 @@
+{
+ "run": "P05__1",
+ "title": "",
+ "author": "Jacques Attali",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P05__1.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P05__1.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 8.5,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.99,
+   "p50_s": 0.986,
+   "max_s": 0.986
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 148,
+   "failed": 0,
+   "total_s": 36.63,
+   "p50_s": 0.24,
+   "max_s": 1.384
+  }
+ },
+ "retries": {},
+ "failures": []
+}

@@ -1,0 +1,62 @@
+{
+ "run": "E01__ita",
+ "title": "Cent'anni di solitudine",
+ "author": "Garcia Marquez",
+ "argv": [
+  "Cent'anni di solitudine",
+  "--author",
+  "Garcia Marquez",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/E01__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 15.0,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.259,
+   "max_s": 0.419
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.302,
+   "max_s": 0.325
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.06,
+   "p50_s": 0.528,
+   "max_s": 0.823
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 13.21,
+   "p50_s": 0.897,
+   "max_s": 1.716
+  },
+  "opac.sbn.it/o": {
+   "requests": 6,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.139,
+   "max_s": 0.167
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 178,
+   "failed": 0,
+   "total_s": 38.34,
+   "p50_s": 0.171,
+   "max_s": 1.515
+  }
+ },
+ "retries": {},
+ "failures": []
+}

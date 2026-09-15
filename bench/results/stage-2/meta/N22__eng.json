@@ -1,0 +1,66 @@
+{
+ "run": "N22__eng",
+ "title": "Capital in the Twenty-First Century",
+ "author": "Thomas Piketty",
+ "argv": [
+  "Capital in the Twenty-First Century",
+  "--author",
+  "Thomas Piketty",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N22__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 9.3,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.79,
+   "p50_s": 0.261,
+   "max_s": 0.339
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.281,
+   "max_s": 0.363
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.82,
+   "p50_s": 0.412,
+   "max_s": 0.563
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 8.39,
+   "p50_s": 0.857,
+   "max_s": 1.053
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.29,
+   "p50_s": 0.143,
+   "max_s": 0.144
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 109,
+   "failed": 0,
+   "total_s": 22.98,
+   "p50_s": 0.195,
+   "max_s": 0.606
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "NameResolutionError": 1
+  }
+ },
+ "failures": []
+}

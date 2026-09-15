@@ -1,0 +1,62 @@
+{
+ "run": "E02__ita",
+ "title": "Verso un'ecologia della mente",
+ "author": "Bateson",
+ "argv": [
+  "Verso un'ecologia della mente",
+  "--author",
+  "Bateson",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/E02__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 11.5,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.56,
+   "p50_s": 0.281,
+   "max_s": 0.297
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.321,
+   "max_s": 0.337
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.79,
+   "p50_s": 0.393,
+   "max_s": 0.569
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.92,
+   "p50_s": 0.851,
+   "max_s": 1.189
+  },
+  "opac.sbn.it/o": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.45,
+   "p50_s": 0.139,
+   "max_s": 0.171
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 170,
+   "failed": 0,
+   "total_s": 31.91,
+   "p50_s": 0.163,
+   "max_s": 0.443
+  }
+ },
+ "retries": {},
+ "failures": []
+}

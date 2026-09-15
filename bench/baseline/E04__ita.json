@@ -1,0 +1,46 @@
+{
+ "mode": "work",
+ "query_title": "Kafka sulla spiaggia",
+ "query_author": "Murakami Haruki",
+ "languages": [
+  "eng",
+  "fre",
+  "ita"
+ ],
+ "original": {
+  "title": "海辺のカフカ",
+  "language": "jpn",
+  "year": "2002",
+  "qid": "Q579744",
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "海辺のカフカ",
+  "original_language": "jpn",
+  "original_year": 2002,
+  "first_year_seen": 2005,
+  "origin": "first published 2002 in giapponese",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "partial (1 request(s) failed)"
+ },
+ "bids": [
+  "BMT0037443",
+  "BRI0488272",
+  "CAG2099269",
+  "LO11474597",
+  "LO11485154",
+  "MOD1450780",
+  "RAV1987616",
+  "RT10073737",
+  "TO01665832",
+  "TO02145634",
+  "TO02153226",
+  "UBO4414630",
+  "VIA0177261"
+ ]
+}

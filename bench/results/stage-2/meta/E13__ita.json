@@ -1,0 +1,69 @@
+{
+ "run": "E13__ita",
+ "title": "Angelus Novus",
+ "author": "Walter Benjamin",
+ "argv": [
+  "Angelus Novus",
+  "--author",
+  "Walter Benjamin",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E13__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 54.2,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 31.02,
+   "p50_s": 0.271,
+   "max_s": 30.522
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 30.93,
+   "p50_s": 0.273,
+   "max_s": 30.472
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.19,
+   "p50_s": 0.593,
+   "max_s": 0.962
+  },
+  "openlibrary.org": {
+   "requests": 11,
+   "failed": 0,
+   "total_s": 8.3,
+   "p50_s": 0.909,
+   "max_s": 1.166
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.94,
+   "p50_s": 0.468,
+   "max_s": 0.518
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 166,
+   "failed": 0,
+   "total_s": 88.93,
+   "p50_s": 0.523,
+   "max_s": 3.85
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

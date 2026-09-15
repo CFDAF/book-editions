@@ -1,0 +1,62 @@
+{
+ "run": "E09__ita",
+ "title": "Il nome della rosa",
+ "author": "Eco",
+ "argv": [
+  "Il nome della rosa",
+  "--author",
+  "Eco",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/E09__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 18.7,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.91,
+   "p50_s": 0.282,
+   "max_s": 0.42
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.91,
+   "p50_s": 0.347,
+   "max_s": 0.374
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.16,
+   "p50_s": 0.581,
+   "max_s": 0.93
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.55,
+   "p50_s": 0.92,
+   "max_s": 1.225
+  },
+  "opac.sbn.it/o": {
+   "requests": 13,
+   "failed": 0,
+   "total_s": 2.66,
+   "p50_s": 0.205,
+   "max_s": 0.304
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 176,
+   "failed": 0,
+   "total_s": 44.5,
+   "p50_s": 0.185,
+   "max_s": 3.295
+  }
+ },
+ "retries": {},
+ "failures": []
+}

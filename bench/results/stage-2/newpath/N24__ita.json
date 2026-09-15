@@ -1,0 +1,106 @@
+{
+ "run": "N24__ita",
+ "book": "N24",
+ "entry": "ita",
+ "title": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna",
+ "author": "Orlando Ciprian",
+ "sbn_identity": {
+  "author_sent": "Orlando Ciprian",
+  "total": 1,
+  "W": "tutto per una casa",
+  "W_count": 1,
+  "W_ties": [],
+  "A": 1.0,
+  "guard_requests": 1,
+  "tier": "strong",
+  "B": null,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": null,
+  "matched_form": null,
+  "score": null,
+  "candidates": 0,
+  "error": null
+ },
+ "ol_main": {
+  "key": null,
+  "how": null,
+  "search": [
+   {
+    "label": "original",
+    "q": "Tutto per una casa: dalla Russia alla Siberia fino in Spagna Orlando Ciprian",
+    "key": null,
+    "keyed": null,
+    "error": null
+   },
+   {
+    "label": "original_core",
+    "q": "Tutto per una casa Orlando Ciprian",
+    "key": null,
+    "keyed": null,
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "tutto per una casa",
+  "total": 1,
+  "rows": 1,
+  "languages": 1,
+  "lingua_facet": [
+   [
+    "ita",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 3,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.4,
+  "bids": [
+   "VIA0219276"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": null,
+ "phase_s": {
+  "identity": 0.9,
+  "listing": 1.6,
+  "ol_search_and_listing": 1.6
+ },
+ "wall_s": 2.5,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 0.6,
+   "p50_s": 0.14,
+   "max_s": 0.196
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.71,
+   "p50_s": 0.356,
+   "max_s": 0.42
+  },
+  "it.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.6,
+   "p50_s": 0.302,
+   "max_s": 0.333
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 2.32,
+   "p50_s": 0.863,
+   "max_s": 1.113
+  }
+ },
+ "retries": {},
+ "failures": []
+}

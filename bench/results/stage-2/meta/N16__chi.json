@@ -1,0 +1,66 @@
+{
+ "run": "N16__chi",
+ "title": "Huozhe",
+ "author": "Yu Hua",
+ "argv": [
+  "Huozhe",
+  "--author",
+  "Yu Hua",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N16__chi.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 18.3,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.266,
+   "max_s": 0.278
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.7,
+   "p50_s": 0.248,
+   "max_s": 0.281
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.12,
+   "p50_s": 0.562,
+   "max_s": 0.909
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 11.63,
+   "p50_s": 0.943,
+   "max_s": 1.265
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.98,
+   "p50_s": 0.488,
+   "max_s": 0.563
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 163,
+   "failed": 0,
+   "total_s": 62.47,
+   "p50_s": 0.363,
+   "max_s": 1.798
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

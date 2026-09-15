@@ -1,0 +1,30 @@
+{
+ "mode": "work",
+ "query_title": "The Essential Knuth",
+ "query_author": "Knuth",
+ "languages": [
+  "unknown"
+ ],
+ "original": {
+  "title": null,
+  "language": null,
+  "year": null,
+  "qid": null,
+  "source": "wikidata"
+ },
+ "overview": {
+  "title": "The Essential Knuth",
+  "original_language": null,
+  "original_year": null,
+  "first_year_seen": 2013,
+  "origin": "earliest edition found 2013",
+  "ambiguous": false
+ },
+ "choices": 0,
+ "sources": {
+  "Wikidata": "ok",
+  "Open Library": "ok",
+  "SBN": "ok"
+ },
+ "bids": []
+}

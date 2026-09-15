@@ -1,0 +1,70 @@
+{
+ "run": "N10__eng",
+ "title": "The Stranger",
+ "author": "Albert Camus",
+ "argv": [
+  "The Stranger",
+  "--author",
+  "Albert Camus",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N10__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 49.4,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.78,
+   "p50_s": 0.281,
+   "max_s": 0.287
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.282,
+   "max_s": 0.377
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 39.03,
+   "p50_s": 19.515,
+   "max_s": 38.821
+  },
+  "openlibrary.org": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 7.09,
+   "p50_s": 1.024,
+   "max_s": 1.178
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.31,
+   "p50_s": 0.155,
+   "max_s": 0.18
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 164,
+   "failed": 0,
+   "total_s": 34.39,
+   "p50_s": 0.179,
+   "max_s": 1.639
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "NameResolutionError": 1,
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

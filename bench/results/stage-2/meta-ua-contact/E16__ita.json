@@ -1,0 +1,62 @@
+{
+ "run": "E16__ita",
+ "title": "Il dottor Živago",
+ "author": "Pasternak",
+ "argv": [
+  "Il dottor Živago",
+  "--author",
+  "Pasternak",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs-ua-contact/E16__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)",
+ "wall_s": 11.7,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.7,
+   "p50_s": 0.244,
+   "max_s": 0.263
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.272,
+   "max_s": 0.313
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.381,
+   "max_s": 0.582
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 10.37,
+   "p50_s": 0.743,
+   "max_s": 1.052
+  },
+  "opac.sbn.it/o": {
+   "requests": 6,
+   "failed": 0,
+   "total_s": 0.87,
+   "p50_s": 0.144,
+   "max_s": 0.151
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 172,
+   "failed": 0,
+   "total_s": 33.96,
+   "p50_s": 0.173,
+   "max_s": 0.458
+  }
+ },
+ "retries": {},
+ "failures": []
+}

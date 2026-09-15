@@ -1,0 +1,66 @@
+{
+ "run": "N20__ita",
+ "title": "Metafora e vita quotidiana",
+ "author": "George Lakoff",
+ "argv": [
+  "Metafora e vita quotidiana",
+  "--author",
+  "George Lakoff",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N20__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 58.2,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.263,
+   "max_s": 0.291
+  },
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.58,
+   "p50_s": 0.291,
+   "max_s": 0.302
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 49.95,
+   "p50_s": 24.973,
+   "max_s": 49.349
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 7.71,
+   "p50_s": 0.931,
+   "max_s": 1.141
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.425,
+   "max_s": 0.488
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 69,
+   "failed": 0,
+   "total_s": 20.57,
+   "p50_s": 0.284,
+   "max_s": 0.736
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

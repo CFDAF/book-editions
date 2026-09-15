@@ -1,0 +1,62 @@
+{
+ "run": "E07__ita",
+ "title": "Modernità liquida",
+ "author": "Bauman",
+ "argv": [
+  "Modernità liquida",
+  "--author",
+  "Bauman",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E07__ita.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 14.9,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.55,
+   "p50_s": 0.273,
+   "max_s": 0.277
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.76,
+   "p50_s": 0.275,
+   "max_s": 0.305
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.75,
+   "p50_s": 0.748,
+   "max_s": 0.748
+  },
+  "openlibrary.org": {
+   "requests": 9,
+   "failed": 0,
+   "total_s": 5.8,
+   "p50_s": 0.716,
+   "max_s": 0.988
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.55,
+   "p50_s": 0.275,
+   "max_s": 0.278
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 163,
+   "failed": 0,
+   "total_s": 37.54,
+   "p50_s": 0.205,
+   "max_s": 2.506
+  }
+ },
+ "retries": {},
+ "failures": []
+}

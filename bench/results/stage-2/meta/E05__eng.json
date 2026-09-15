@@ -1,0 +1,62 @@
+{
+ "run": "E05__eng",
+ "title": "The Invention of News",
+ "author": "Pettegree",
+ "argv": [
+  "The Invention of News",
+  "--author",
+  "Pettegree",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E05__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 7.2,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.86,
+   "p50_s": 0.299,
+   "max_s": 0.36
+  },
+  "it.wikipedia.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.62,
+   "p50_s": 0.309,
+   "max_s": 0.32
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 0.63,
+   "p50_s": 0.632,
+   "max_s": 0.632
+  },
+  "openlibrary.org": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 4.17,
+   "p50_s": 0.636,
+   "max_s": 0.774
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.27,
+   "p50_s": 0.136,
+   "max_s": 0.141
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 59,
+   "failed": 0,
+   "total_s": 13.84,
+   "p50_s": 0.207,
+   "max_s": 0.479
+  }
+ },
+ "retries": {},
+ "failures": []
+}

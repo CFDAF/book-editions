@@ -1,0 +1,33 @@
+{
+ "run": "P03__2",
+ "title": "",
+ "author": "Fyodor Dostoevsky",
+ "argv": [
+  "--file",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/raw/stage-2/files/P03__2.txt",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/P03__2.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 19.8,
+ "requests": {
+  "openlibrary.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 1.21,
+   "p50_s": 1.208,
+   "max_s": 1.208
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 151,
+   "failed": 0,
+   "total_s": 48.05,
+   "p50_s": 0.208,
+   "max_s": 12.298
+  }
+ },
+ "retries": {},
+ "failures": []
+}

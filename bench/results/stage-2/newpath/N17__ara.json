@@ -1,0 +1,153 @@
+{
+ "run": "N17__ara",
+ "book": "N17",
+ "entry": "ara",
+ "title": "Bayn al-Qasrayn",
+ "author": "Naguib Mahfouz",
+ "sbn_identity": {
+  "author_sent": "Naguib Mahfouz",
+  "total": 1,
+  "W": "bayn al-qasrayn",
+  "W_count": 1,
+  "W_ties": [],
+  "A": 1.0,
+  "guard_requests": 1,
+  "tier": "strong",
+  "B": null,
+  "b_requests": 0
+ },
+ "wikidata_step4": {
+  "qid": "Q3149381",
+  "matched_form": "بين القصرين (Bayn al-qasrayn)",
+  "score": 1.0,
+  "candidates": 6,
+  "error": null
+ },
+ "ol_main": {
+  "key": "/works/OL1599742W",
+  "how": "original, keyed author match",
+  "search": [
+   {
+    "label": "original",
+    "q": "بين القصرين Naguib Mahfouz",
+    "key": null,
+    "keyed": "/works/OL1599742W",
+    "error": null
+   }
+  ]
+ },
+ "sbn_listing": {
+  "W": "bayn al-qasrayn",
+  "total": 1,
+  "rows": 1,
+  "languages": 1,
+  "lingua_facet": [
+   [
+    "eng",
+    1
+   ]
+  ],
+  "bogus_lingua_total": 0,
+  "requests": 4,
+  "completeness_requests": 0,
+  "failed_pages": [],
+  "wall_s": 0.8,
+  "bids": [
+   "RMB0788610"
+  ],
+  "records_on_no_language_page": []
+ },
+ "ol_listing": {
+  "key": "/works/OL1599742W",
+  "size": 37,
+  "rows": 37,
+  "languages": 6,
+  "requests": 2,
+  "failed": [],
+  "wall_s": 0.7,
+  "keys": [
+   "/books/OL47385017M",
+   "/books/OL47385016M",
+   "/books/OL16410780M",
+   "/books/OL18649514M",
+   "/books/OL9024490M",
+   "/books/OL8913583M",
+   "/books/OL8887624M",
+   "/books/OL50442381M",
+   "/books/OL48104305M",
+   "/books/OL47780355M",
+   "/books/OL45027682M",
+   "/books/OL40371942M",
+   "/books/OL40384488M",
+   "/books/OL32096881M",
+   "/books/OL37737073M",
+   "/books/OL25349614M",
+   "/books/OL25349613M",
+   "/books/OL22909789M",
+   "/books/OL19439813M",
+   "/books/OL19885012M",
+   "/books/OL18319018M",
+   "/books/OL22327054M",
+   "/books/OL16685375M",
+   "/books/OL22270830M",
+   "/books/OL15338037M",
+   "/books/OL7439560M",
+   "/books/OL7816162M",
+   "/books/OL53842419M",
+   "/books/OL53842452M",
+   "/books/OL9845914M",
+   "/books/OL7438439M",
+   "/books/OL53837195M",
+   "/books/OL9444865M",
+   "/books/OL9560302M",
+   "/books/OL2201663M",
+   "/books/OL2650601M",
+   "/books/OL2020629M"
+  ]
+ },
+ "phase_s": {
+  "identity": 1.8,
+  "listing": 1.4,
+  "ol_search_and_listing": 1.4
+ },
+ "wall_s": 3.3,
+ "requests": {
+  "opac.sbn.it/o": {
+   "requests": 4,
+   "failed": 0,
+   "total_s": 0.98,
+   "p50_s": 0.263,
+   "max_s": 0.284
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.93,
+   "p50_s": 0.276,
+   "max_s": 0.452
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.74,
+   "p50_s": 0.286,
+   "max_s": 0.296
+  },
+  "openlibrary.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 1.8,
+   "p50_s": 0.629,
+   "max_s": 0.748
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.85,
+   "p50_s": 0.426,
+   "max_s": 0.69
+  }
+ },
+ "retries": {},
+ "failures": []
+}

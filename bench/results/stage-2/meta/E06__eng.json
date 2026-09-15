@@ -1,0 +1,66 @@
+{
+ "run": "E06__eng",
+ "title": "More Brilliant Than the Sun",
+ "author": "Eshun",
+ "argv": [
+  "More Brilliant Than the Sun",
+  "--author",
+  "Eshun",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/E06__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 48.0,
+ "requests": {
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.84,
+   "p50_s": 0.287,
+   "max_s": 0.357
+  },
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 0.73,
+   "p50_s": 0.268,
+   "max_s": 0.288
+  },
+  "www.wikidata.org": {
+   "requests": 1,
+   "failed": 0,
+   "total_s": 41.89,
+   "p50_s": 41.893,
+   "max_s": 41.893
+  },
+  "openlibrary.org": {
+   "requests": 7,
+   "failed": 0,
+   "total_s": 5.12,
+   "p50_s": 0.791,
+   "max_s": 0.874
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.43,
+   "p50_s": 0.216,
+   "max_s": 0.227
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 20,
+   "failed": 0,
+   "total_s": 6.26,
+   "p50_s": 0.338,
+   "max_s": 0.483
+  }
+ },
+ "retries": {
+  "www.wikidata.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}

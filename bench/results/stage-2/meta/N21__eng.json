@@ -1,0 +1,69 @@
+{
+ "run": "N21__eng",
+ "title": "Twenty Love Poems and a Song of Despair",
+ "author": "Pablo Neruda",
+ "argv": [
+  "Twenty Love Poems and a Song of Despair",
+  "--author",
+  "Pablo Neruda",
+  "--format",
+  "json",
+  "-o",
+  "/Users/carlofavero/Desktop/DEV/book_requests/bench/results/stage-2/runs/N21__eng.json"
+ ],
+ "user_agent": "book-editions-lookup/3.0 (personal research tool)",
+ "wall_s": 31.9,
+ "requests": {
+  "it.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 17.97,
+   "p50_s": 0.304,
+   "max_s": 17.468
+  },
+  "en.wikipedia.org": {
+   "requests": 3,
+   "failed": 0,
+   "total_s": 18.13,
+   "p50_s": 0.531,
+   "max_s": 17.417
+  },
+  "www.wikidata.org": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 1.05,
+   "p50_s": 0.526,
+   "max_s": 0.822
+  },
+  "openlibrary.org": {
+   "requests": 15,
+   "failed": 0,
+   "total_s": 13.17,
+   "p50_s": 1.027,
+   "max_s": 1.455
+  },
+  "opac.sbn.it/o": {
+   "requests": 2,
+   "failed": 0,
+   "total_s": 0.34,
+   "p50_s": 0.168,
+   "max_s": 0.169
+  },
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 177,
+   "failed": 0,
+   "total_s": 43.55,
+   "p50_s": 0.211,
+   "max_s": 0.553
+  }
+ },
+ "retries": {
+  "en.wikipedia.org": {
+   "429": 1
+  },
+  "it.wikipedia.org": {
+   "429": 1
+  }
+ },
+ "failures": []
+}
