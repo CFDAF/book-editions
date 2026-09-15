@@ -17,9 +17,12 @@ from concurrent.futures import ThreadPoolExecutor
 
 import common
 
-PART = sys.argv[1]
-net = common.setup(f"stage-1/a1-{PART}", log_name=f"a1_{PART}",
-                   user_agent=common.UA_CONTACT if PART == "wd" else None)
+if __name__ == "__main__":
+    PART = sys.argv[1]
+    net = common.setup(f"stage-1/a1-{PART}", log_name=f"a1_{PART}",
+                       user_agent=common.UA_CONTACT if PART == "wd" else None)
+else:  # imported by a later stage, which has already called common.setup
+    from lookup import net
 from lookup import opac, openlibrary, wikidata  # noqa: E402
 from lookup.matching import author_matches, core_title, sbn_title_of, strip_disambiguator, surname, title_similarity  # noqa: E402
 from lookup.sbn import clean_text  # noqa: E402

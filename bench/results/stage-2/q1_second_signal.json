@@ -1,0 +1,216 @@
+{
+ "refused": [
+  {
+   "book": "E12",
+   "entry": "ita",
+   "W": "uber den begriff der geschichte",
+   "tier": "weak",
+   "qid": null
+  },
+  {
+   "book": "E13",
+   "entry": "ita",
+   "W": "schriften",
+   "tier": "weak",
+   "qid": null
+  },
+  {
+   "book": "E16",
+   "entry": "eng",
+   "W": "doktor zivago",
+   "tier": "weak",
+   "qid": "Q206870",
+   "score": 1.0,
+   "closest": "Doktor Živago"
+  },
+  {
+   "book": "E16",
+   "entry": "rus",
+   "W": "doktor zivago",
+   "tier": "rejected",
+   "qid": null
+  },
+  {
+   "book": "N04",
+   "entry": "eng",
+   "W": "prestuplenie i nakazanie",
+   "tier": "rejected",
+   "qid": null
+  },
+  {
+   "book": "N04",
+   "entry": "ita",
+   "W": "prestuplenie i nakazanie",
+   "tier": "rejected",
+   "qid": null
+  },
+  {
+   "book": "N12",
+   "entry": "ger",
+   "W": "prozess",
+   "tier": "rejected",
+   "qid": "Q36097",
+   "score": 0.5,
+   "closest": "Der Prozess"
+  },
+  {
+   "book": "N12",
+   "entry": "ger-2",
+   "W": "prozess",
+   "tier": "rejected",
+   "qid": "Q36097",
+   "score": 0.5,
+   "closest": "Der Prozess"
+  },
+  {
+   "book": "N12",
+   "entry": "eng",
+   "W": "prozess",
+   "tier": "rejected",
+   "qid": "Q36097",
+   "score": 0.5,
+   "closest": "Der Prozess"
+  },
+  {
+   "book": "N14",
+   "entry": "eng",
+   "W": "ensaio sobre a cegueira",
+   "tier": "rejected",
+   "qid": "Q826428",
+   "score": 1.0,
+   "closest": "Ensaio sobre a cegueira"
+  },
+  {
+   "book": "N16",
+   "entry": "chi",
+   "W": "huozhe",
+   "tier": "rejected",
+   "qid": null
+  },
+  {
+   "book": "N17",
+   "entry": "ara",
+   "W": "hikayat haratina",
+   "tier": "rejected",
+   "qid": null
+  },
+  {
+   "book": "N17",
+   "entry": "eng",
+   "W": "bain el-qasrain.",
+   "tier": "rejected",
+   "qid": "Q3149381",
+   "score": 0.0,
+   "closest": "بين القصرين (Bayn al-qasrayn)"
+  },
+  {
+   "book": "N21",
+   "entry": "eng",
+   "W": "veinte poemas de amor y una cancion desesperada.",
+   "tier": "weak",
+   "qid": "Q5219975",
+   "score": 1.0,
+   "closest": "Veinte poemas de amor y una canción desesperada"
+  },
+  {
+   "book": "N22",
+   "entry": "eng",
+   "W": "capital au 21. siecle",
+   "tier": "weak",
+   "qid": "Q15991228",
+   "score": 0.75,
+   "closest": "Le Capital au XXIe siècle"
+  },
+  {
+   "book": "N22",
+   "entry": "ita",
+   "W": "capital au xxie siecle",
+   "tier": "weak",
+   "qid": "Q15991228",
+   "score": 1.0,
+   "closest": "Le Capital au XXIe siècle"
+  },
+  {
+   "book": "N23",
+   "entry": "grc",
+   "W": "ilias",
+   "tier": "rejected",
+   "qid": null
+  },
+  {
+   "book": "N23",
+   "entry": "eng",
+   "W": "odyssea",
+   "tier": "rejected",
+   "qid": "Q35160",
+   "score": 1.0,
+   "closest": "Odyssea"
+  },
+  {
+   "book": "N23",
+   "entry": "ita",
+   "W": "odyssea",
+   "tier": "rejected",
+   "qid": "Q35160",
+   "score": 1.0,
+   "closest": "Odyssea"
+  }
+ ],
+ "refused_with_item": 11,
+ "refused_rescued": [
+  "E16 eng",
+  "N14 eng",
+  "N21 eng",
+  "N22 eng",
+  "N22 ita",
+  "N23 eng",
+  "N23 ita"
+ ],
+ "positive_control": {
+  "pairs": 47,
+  "agree": 44,
+  "disagree": [
+   {
+    "book": "E04",
+    "entry": "ita",
+    "W": "umibe no kafuka",
+    "tier": "strong",
+    "qid": "Q579744",
+    "score": 0.0,
+    "closest": "해변의 카프카"
+   },
+   {
+    "book": "E04",
+    "entry": "eng",
+    "W": "umibe no kafuka",
+    "tier": "strong",
+    "qid": "Q579744",
+    "score": 0.0,
+    "closest": "해변의 카프카"
+   },
+   {
+    "book": "N12",
+    "entry": "ita",
+    "W": "prozess",
+    "tier": "strong",
+    "qid": "Q36097",
+    "score": 0.5,
+    "closest": "Der Prozess"
+   }
+  ]
+ },
+ "negative_control": {
+  "pairs": 2024,
+  "false_agreements": []
+ },
+ "requests": {
+  "www.wikidata.org": {
+   "requests": 26,
+   "failed": 0,
+   "total_s": 7.88,
+   "p50_s": 0.293,
+   "max_s": 0.559
+  }
+ },
+ "failures": []
+}

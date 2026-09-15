@@ -10,6 +10,7 @@ Open Library at most 1 request per second.
 `lookup` code is not modified; only the session it asks for is wrapped.
 """
 
+import contextlib
 import json
 import os
 import statistics
@@ -25,6 +26,10 @@ RESULTS = BENCH / "results" / "stage-1"
 RAW = BENCH / "raw" / "stage-1"
 
 LOG: list = []
+# Retries urllib3 makes inside one logged request. A 429 carrying Retry-After
+# is slept and retried inside the adapter, so the session sees one slow
+# request; this list is the only place the 429 itself shows.
+RETRIES: list = []
 _log_lock = threading.Lock()
 _raw_log = None
 
@@ -86,12 +91,15 @@ UA_CONTACT = "book-editions-lookup/3.0 (https://github.com/CFDAF/book-editions)"
 
 
 def setup(cache_name: str, fresh: bool = False, log_name: str | None = None,
-          user_agent: str | None = None):
+          user_agent: str | None = None, gated: bool = True):
     """Point the lookup cache at bench/cache/<cache_name> and instrument it.
 
     `user_agent` replaces net.USER_AGENT for this process only. The Wikimedia
     parts pass UA_CONTACT: A8 measured today's agent being throttled after 10
     requests a minute, which would turn identity results into 429 failures.
+
+    `gated=False` logs without the politeness gates, so a run of today's
+    pipeline keeps its own concurrency and its cold latency is its own.
     """
     global _raw_log
     cache = BENCH / "cache" / cache_name
@@ -119,7 +127,7 @@ def setup(cache_name: str, fresh: bool = False, log_name: str | None = None,
                 entry["params"] = {k: str(v)[:120] for k, v in dict(kwargs["params"]).items()}
             if kwargs.get("data"):
                 entry["data"] = {k: str(v)[:120] for k, v in dict(kwargs["data"]).items()}
-            with gate(key):
+            with gate(key) if gated else contextlib.nullcontext():
                 t0 = time.time()
                 entry["t"] = round(t0, 3)
                 try:
@@ -136,14 +144,29 @@ def setup(cache_name: str, fresh: bool = False, log_name: str | None = None,
             record(entry)
             return r
 
+    from urllib3.util import Retry
+
+    class LoggedRetry(Retry):
+        def increment(self, method=None, url=None, response=None, error=None,
+                      _pool=None, _stacktrace=None):
+            entry = {"retry": True, "t": round(time.time(), 3),
+                     "host": host_key(f"https://{_pool.host}{url or ''}") if _pool is not None else None,
+                     "status": getattr(response, "status", None),
+                     "retry_after": response.headers.get("Retry-After") if response is not None else None,
+                     "error": type(error).__name__ if error else None}
+            with _log_lock:
+                RETRIES.append(entry)
+                if _raw_log is not None:
+                    _raw_log.write(json.dumps(entry) + "\n")
+            return super().increment(method, url, response, error, _pool, _stacktrace)
+
     def session():
         s = getattr(net._local, "session", None)
         if s is None or not isinstance(s, LoggedSession):
             s = LoggedSession()
             s.headers["User-Agent"] = net.USER_AGENT
             from requests.adapters import HTTPAdapter
-            from urllib3.util import Retry
-            retries = Retry(total=2, backoff_factor=0.3, connect=2,
+            retries = LoggedRetry(total=2, backoff_factor=0.3, connect=2,
                             status_forcelist=[429, 500, 502, 503, 504],
                             allowed_methods={"GET", "POST"})
             adapter = HTTPAdapter(max_retries=retries, pool_maxsize=8)
@@ -154,8 +177,9 @@ def setup(cache_name: str, fresh: bool = False, log_name: str | None = None,
 
     net.session = session
     if log_name:
-        RAW.mkdir(parents=True, exist_ok=True)
-        _raw_log = open(RAW / f"{log_name}.requests.jsonl", "a", encoding="utf-8")
+        path = RAW / f"{log_name}.requests.jsonl"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        _raw_log = open(path, "a", encoding="utf-8")
     return net
 
 
@@ -214,6 +238,17 @@ def summarise(start: int = 0, end: int | None = None) -> dict:
         h["total_s"] = round(sum(el), 2)
         h["p50_s"] = round(statistics.median(el), 3) if el else None
         h["max_s"] = round(el[-1], 3) if el else None
+    return out
+
+
+def retries() -> dict:
+    """Retries per host and cause (HTTP status or exception name)."""
+    out = {}
+    with _log_lock:
+        for e in RETRIES:
+            cause = str(e["status"] or e["error"])
+            out.setdefault(e["host"], {}).setdefault(cause, 0)
+            out[e["host"]][cause] += 1
     return out
 
 

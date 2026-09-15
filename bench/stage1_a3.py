@@ -26,7 +26,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 import common
 
-net = common.setup("stage-1/a3", fresh="--warm" not in sys.argv, log_name="a3")
+if __name__ == "__main__":
+    net = common.setup("stage-1/a3", fresh="--warm" not in sys.argv, log_name="a3")
+else:  # imported by a later stage, which has already called common.setup
+    from lookup import net
 from lookup import opac  # noqa: E402
 from lookup.sbn import clean_text, parse_publication  # noqa: E402
 
