@@ -1,0 +1,1439 @@
+{
+ "rule": "    python q4_earliest_found.py",
+ "counts": {
+  "right": 22,
+  "later": 4,
+  "right year, not its language": 2,
+  "right, tie": 9
+ },
+ "books": {
+  "E01": {
+   "wikidata": "Q178869",
+   "original_year_used": 1967,
+   "ground_truth": {
+    "year": [
+     1967
+    ],
+    "language": [
+     "spa"
+    ]
+   },
+   "earliest_found": 1967,
+   "languages_at_earliest": [
+    "spa"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "BVE0917706",
+     "Buenos Aires : Editorial sudamericana, 1967"
+    ],
+    [
+     "OL",
+     "/books/OL48124364M",
+     "['Penguin'] 1967"
+    ],
+    [
+     "OL",
+     "/books/OL22797610M",
+     "['Editorial Sud-americana'] 1967"
+    ],
+    [
+     "OL",
+     "/books/OL20196162M",
+     "['Editorial Sudamericana'] 1967"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E02": {
+   "wikidata": "Q1970551",
+   "original_year_used": 1972,
+   "ground_truth": {
+    "year": [
+     1972
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 1972,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "UTO1471790",
+     "San Francisco [etc.] : Chandler, c1972"
+    ],
+    [
+     "OL",
+     "/books/OL18229195M",
+     "['Ballantine Books'] 1972"
+    ],
+    [
+     "OL",
+     "/books/OL5222804M",
+     "['Chandler Pub. Co.'] 1972"
+    ],
+    [
+     "OL",
+     "/books/OL19826667M",
+     "['Paladin'] 1972"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E03": {
+   "wikidata": "Q7047658",
+   "original_year_used": 1977,
+   "ground_truth": {
+    "year": [
+     1977
+    ],
+    "language": [
+     "fre"
+    ]
+   },
+   "earliest_found": 1977,
+   "languages_at_earliest": [
+    "fre"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "RAV0708340",
+     "Vendôme : Presses universitaires de France, \\1977!"
+    ],
+    [
+     "OL",
+     "/books/OL4625368M",
+     "['Presses universitaires de France'] 1977"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E04": {
+   "wikidata": "Q579744",
+   "original_year_used": 2002,
+   "ground_truth": {
+    "year": [
+     2002
+    ],
+    "language": [
+     "jpn"
+    ]
+   },
+   "earliest_found": 2002,
+   "languages_at_earliest": [
+    "jpn"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL23086017M",
+     "['Shinchōsha'] 2002"
+    ],
+    [
+     "OL",
+     "/books/OL19617410M",
+     "['Shinchōsha'] 2002"
+    ]
+   ],
+   "dropped_before_original_year": [
+    [
+     2001,
+     "OL",
+     "/books/OL8904254M",
+     "['Audiofy/Naxos'] 2001"
+    ]
+   ],
+   "dropped_count": 1,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E05": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     2014
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 2014,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL29232448M",
+     "['Yale University Press'] 2014"
+    ],
+    [
+     "OL",
+     "/books/OL29225404M",
+     "['Yale University Press'] 2014"
+    ],
+    [
+     "OL",
+     "/books/OL27163563M",
+     "['Yale University Press'] 2014"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E06": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     1998
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 1998,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL450084M",
+     "['Quartet Books'] 1998"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E07": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     2000
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 2000,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "MIL0479747",
+     "Cambridge : Polity ; Oxford ; Malden : Blackwell, 2000"
+    ],
+    [
+     "OL",
+     "/books/OL50559844M",
+     "['Polity Press'] 2000"
+    ],
+    [
+     "OL",
+     "/books/OL3354285M",
+     "['Polity Press'] 2000"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E08": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     1951
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 1951,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL17880054M",
+     "['Norton'] 1951"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E09": {
+   "wikidata": "Q172850",
+   "original_year_used": 1980,
+   "ground_truth": {
+    "year": [
+     1980
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 1980,
+   "languages_at_earliest": [
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "PAL0220225",
+     "Milano : CDE, 1980"
+    ],
+    [
+     "SBN",
+     "RAV0047653",
+     "Milano : Bompiani, 1980"
+    ],
+    [
+     "SBN",
+     "LI30026624",
+     "[Milano] : Bompiani, 1980"
+    ],
+    [
+     "SBN",
+     "BRI0253002",
+     "Milano : Club del libro, c1980, stampa 1982"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E12": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     1942
+    ],
+    "language": [
+     "ger"
+    ]
+   },
+   "earliest_found": 2010,
+   "languages_at_earliest": [
+    "ger"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL25049991M",
+     "['Suhrkamp'] 2010"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "later",
+   "insights_only": false
+  },
+  "E13": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     1962
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 1966,
+   "languages_at_earliest": [
+    "ger"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL16404576M",
+     "['Suhrkamp'] 1966"
+    ],
+    [
+     "OL",
+     "/books/OL20304391M",
+     "['Suhrkamp'] 1966"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "later",
+   "insights_only": false
+  },
+  "E14": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     2013
+    ],
+    "language": [
+     "fre"
+    ]
+   },
+   "earliest_found": 2013,
+   "languages_at_earliest": [
+    "fre"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL31149107M",
+     "['Fayard'] 2013"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "E15": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     2013
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 2013,
+   "languages_at_earliest": [],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL49221860M",
+     "['Lonely Scholar'] August 1, 2013"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right year, not its language",
+   "insights_only": false
+  },
+  "E16": {
+   "wikidata": "Q206870",
+   "original_year_used": 1957,
+   "ground_truth": {
+    "year": [
+     1957
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 1957,
+   "languages_at_earliest": [
+    "eng",
+    "ita",
+    "rus",
+    "spa"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "RAV0064624",
+     "Milano : Feltrinelli, 1957"
+    ],
+    [
+     "SBN",
+     "UM10038453",
+     "Milano : Feltrinelli, 1957"
+    ],
+    [
+     "SBN",
+     "CUB0429849",
+     "Milano : G. G. Feltrinelli, 1957 (Varese, Tip. La Tipografica Varese)"
+    ],
+    [
+     "SBN",
+     "RML0084655",
+     "Milano : Feltrinelli, 1957"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N01": {
+   "wikidata": "Q917055",
+   "original_year_used": 1984,
+   "ground_truth": {
+    "year": [
+     1984
+    ],
+    "language": [
+     "fre"
+    ]
+   },
+   "earliest_found": 1984,
+   "languages_at_earliest": [
+    "eng",
+    "fre",
+    "ger",
+    "pol"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "RLZ0100986",
+     "London ; Boston : Faber and Faber, 1984"
+    ],
+    [
+     "SBN",
+     "UBO2232068",
+     "London ; Boston : Faber and Faber, 1984"
+    ],
+    [
+     "SBN",
+     "LO11390654",
+     "Paris : France Loisirs, 1984"
+    ],
+    [
+     "SBN",
+     "URB0467704",
+     "[Paris] : Gallimard, [1984]"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N02": {
+   "wikidata": "Q25338",
+   "original_year_used": 1943,
+   "ground_truth": {
+    "year": [
+     1943
+    ],
+    "language": [
+     "eng",
+     "fre"
+    ]
+   },
+   "earliest_found": 1943,
+   "languages_at_earliest": [
+    "eng",
+    "fre",
+    "spa"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "PUV1602239",
+     "New York : Harcourt Brace & World, 1943"
+    ],
+    [
+     "SBN",
+     "PUV1602240",
+     "New York : Harcourt, Brace & World, 1943"
+    ],
+    [
+     "OL",
+     "/books/OL55950993M",
+     "['CreateSpace Independent Publishing Platform'] 1943"
+    ],
+    [
+     "OL",
+     "/books/OL60669851M",
+     "['Reynal & Hitchcock'] 1943"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N03": {
+   "wikidata": "Q836036",
+   "original_year_used": 1946,
+   "ground_truth": {
+    "year": [
+     1947
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 1947,
+   "languages_at_earliest": [
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "LO10092623",
+     "Torino : F. De Silva, [1947]"
+    ],
+    [
+     "OL",
+     "/books/OL52756471M",
+     "['F. de Silva'] 1947"
+    ],
+    [
+     "OL",
+     "/books/OL57424584M",
+     "['F. de Silva'] 1947"
+    ]
+   ],
+   "dropped_before_original_year": [
+    [
+     1912,
+     "SBN",
+     "IEI0481234",
+     "Amsterdam : Meulenhoff, 1912"
+    ]
+   ],
+   "dropped_count": 1,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N04": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     1866,
+     1867
+    ],
+    "language": [
+     "rus"
+    ]
+   },
+   "earliest_found": 1866,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL56178734M",
+     "['CreateSpace Independent Publishing Platform'] 1866"
+    ],
+    [
+     "OL",
+     "/books/OL56260359M",
+     "['CreateSpace Independent Publishing Platform'] 1866"
+    ],
+    [
+     "OL",
+     "/books/OL37786008M",
+     "['Sahara Publisher Books'] Jan 01, 1866"
+    ],
+    [
+     "OL",
+     "/books/OL56644387M",
+     "['CreateSpace Independent Publishing Platform'] 1866"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right year, not its language",
+   "insights_only": false
+  },
+  "N05": {
+   "wikidata": "Q183883",
+   "original_year_used": 1951,
+   "ground_truth": {
+    "year": [
+     1951
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 1951,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "UBO0029439",
+     "London : Hamish Hamilton, 1951"
+    ],
+    [
+     "SBN",
+     "UFI0246382",
+     "Boston : Little, Brown & Co., 1951"
+    ],
+    [
+     "SBN",
+     "UM10100519",
+     "New York: The Modern Library, c1951"
+    ],
+    [
+     "SBN",
+     "TO10046259",
+     "New York : Grosset & Dunlap, 1951"
+    ]
+   ],
+   "dropped_before_original_year": [
+    [
+     1945,
+     "OL",
+     "/books/OL16677355M",
+     "['Little, Brown and Co.'] 1945"
+    ]
+   ],
+   "dropped_count": 1,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N06": {
+   "wikidata": "Q208460",
+   "original_year_used": 1949,
+   "ground_truth": {
+    "year": [
+     1949
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 1949,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "GRO0000910",
+     "London : Penguin Books, 1949"
+    ],
+    [
+     "OL",
+     "/books/OL60620826M",
+     "['Books & Coffee'] 1949"
+    ],
+    [
+     "OL",
+     "/books/OL37851194M",
+     "['e-book'] 1949"
+    ],
+    [
+     "OL",
+     "/books/OL37824533M",
+     "['Harcourt, Brace and Company'] 1949"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N07": {
+   "wikidata": "Q1032190",
+   "original_year_used": 1979,
+   "ground_truth": {
+    "year": [
+     1979
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 1979,
+   "languages_at_earliest": [
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "FER0136648",
+     "Torino : Einaudi, c1979"
+    ],
+    [
+     "SBN",
+     "RAV0002500",
+     "Torino : Einaudi, [1979]"
+    ],
+    [
+     "SBN",
+     "LIA0170775",
+     "Torino : Einaudi, 1979"
+    ],
+    [
+     "SBN",
+     "CFI0850471",
+     "Torino : Einaudi, ©1979"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N08": {
+   "wikidata": "Q22263533",
+   "original_year_used": 2011,
+   "ground_truth": {
+    "year": [
+     2011
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 2011,
+   "languages_at_earliest": [
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "SBS0000682",
+     "Roma : E/O, 2011"
+    ],
+    [
+     "OL",
+     "/books/OL62515388M",
+     "['Edizioni e/o'] October 1, 2011"
+    ],
+    [
+     "OL",
+     "/books/OL25214098M",
+     "['Edizioni e/o'] 2011"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N09": {
+   "wikidata": "Q1427187",
+   "original_year_used": 1976,
+   "ground_truth": {
+    "year": [
+     1976
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 1976,
+   "languages_at_earliest": [
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "RAV0120901",
+     "Torino : Einaudi, [1976]"
+    ],
+    [
+     "SBN",
+     "ANA0179197",
+     "Torino : Einaudi, c1976"
+    ],
+    [
+     "SBN",
+     "RL10056816",
+     "Torino : Einaudi, c1976"
+    ],
+    [
+     "SBN",
+     "RMS3058636",
+     "Torino : Einaudi, 1976"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N10": {
+   "wikidata": "Q163297",
+   "original_year_used": 1942,
+   "ground_truth": {
+    "year": [
+     1942
+    ],
+    "language": [
+     "fre"
+    ]
+   },
+   "earliest_found": 1942,
+   "languages_at_earliest": [
+    "eng",
+    "fre",
+    "pol",
+    "rus"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "RMS1931647",
+     "Paris : Gallimard, 1942, stampa 1993"
+    ],
+    [
+     "SBN",
+     "LO10779691",
+     "[Paris! : Gallimard, c1942"
+    ],
+    [
+     "SBN",
+     "BVE0519228",
+     "Paris : Gallimard, 1942, stampa 1944"
+    ],
+    [
+     "SBN",
+     "LUA0587845",
+     "[Parigi] : Gallimard, ©1942"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N11": {
+   "wikidata": "Q595140",
+   "original_year_used": 1969,
+   "ground_truth": {
+    "year": [
+     1969
+    ],
+    "language": [
+     "fre"
+    ]
+   },
+   "earliest_found": 1969,
+   "languages_at_earliest": [
+    "fre"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL19589815M",
+     "['Denoël'] 1969"
+    ],
+    [
+     "OL",
+     "/books/OL12452067M",
+     "['Denoel'] 1969"
+    ],
+    [
+     "OL",
+     "/books/OL5380622M",
+     "['les Lettres nouvelles'] 1969"
+    ],
+    [
+     "OL",
+     "/books/OL21772155M",
+     "['Denoël'] 1969"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N12": {
+   "wikidata": "Q36097",
+   "original_year_used": 1925,
+   "ground_truth": {
+    "year": [
+     1925
+    ],
+    "language": [
+     "ger"
+    ]
+   },
+   "earliest_found": 1925,
+   "languages_at_earliest": [
+    "eng",
+    "ger"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL51079113M",
+     "['CreateSpace Independent Publishing Platform'] 1925"
+    ],
+    [
+     "OL",
+     "/books/OL6763709M",
+     "['Die Schmiede'] 1925"
+    ],
+    [
+     "OL",
+     "/books/OL24989001M",
+     "['Verlag Die Schmiede'] 1925"
+    ],
+    [
+     "OL",
+     "/books/OL15353590M",
+     "['Schiede'] 1925"
+    ]
+   ],
+   "dropped_before_original_year": [
+    [
+     1825,
+     "OL",
+     "/books/OL51067170M",
+     "['CreateSpace Independent Publishing Platform'] 18"
+    ],
+    [
+     1924,
+     "OL",
+     "/books/OL50422673M",
+     "['[s.n.]'] 1924"
+    ]
+   ],
+   "dropped_count": 2,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N13": {
+   "wikidata": "Q138528911",
+   "original_year_used": 2024,
+   "ground_truth": {
+    "year": [
+     2010
+    ],
+    "language": [
+     "ger"
+    ]
+   },
+   "earliest_found": 2024,
+   "languages_at_earliest": [
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "TO02161963",
+     "Roma : Nottetempo, 2024"
+    ]
+   ],
+   "dropped_before_original_year": [
+    [
+     2012,
+     "SBN",
+     "RAV1957566",
+     "Roma : Nottetempo, 2012"
+    ],
+    [
+     2016,
+     "SBN",
+     "CAM0234192",
+     "Roma : Nottetempo, 2016"
+    ],
+    [
+     2020,
+     "SBN",
+     "LO11793756",
+     "Roma : Nottetempo, 2020"
+    ]
+   ],
+   "dropped_count": 3,
+   "outcome": "later",
+   "insights_only": false
+  },
+  "N14": {
+   "wikidata": "Q826428",
+   "original_year_used": 1995,
+   "ground_truth": {
+    "year": [
+     1995
+    ],
+    "language": [
+     "por"
+    ]
+   },
+   "earliest_found": 1995,
+   "languages_at_earliest": [
+    "ger",
+    "por"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "RAV2097773",
+     "München : Random House, 1995"
+    ],
+    [
+     "SBN",
+     "MIL0288581",
+     "Lisboa : Caminho, 1995"
+    ],
+    [
+     "SBN",
+     "IEI0787604",
+     "São Paulo : Companhia das Letras, 1995"
+    ],
+    [
+     "OL",
+     "/books/OL9162940M",
+     "['Companhia das Letras'] 1995"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N15": {
+   "wikidata": "Q219437",
+   "original_year_used": 2004,
+   "ground_truth": {
+    "year": [
+     2004
+    ],
+    "language": [
+     "spa"
+    ]
+   },
+   "earliest_found": 2004,
+   "languages_at_earliest": [
+    "spa"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "TO01362318",
+     "Barcelona : Anagrama, [2004]"
+    ],
+    [
+     "OL",
+     "/books/OL61536868M",
+     "['Círculo de Lectores'] 2004"
+    ],
+    [
+     "OL",
+     "/books/OL22615799M",
+     "['Anagrama'] 2004"
+    ],
+    [
+     "OL",
+     "/books/OL3459082M",
+     "['Anagrama'] 2004"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N16": {
+   "wikidata": "Q151919",
+   "original_year_used": 1993,
+   "ground_truth": {
+    "year": [
+     1993
+    ],
+    "language": [
+     "chi"
+    ]
+   },
+   "earliest_found": 1994,
+   "languages_at_earliest": [
+    "fre"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "TSA1644885",
+     "[Paris : Caractères, 1994]"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "later",
+   "insights_only": false
+  },
+  "N17": {
+   "wikidata": "Q3149381",
+   "original_year_used": 1956,
+   "ground_truth": {
+    "year": [
+     1956
+    ],
+    "language": [
+     "ara"
+    ]
+   },
+   "earliest_found": 1956,
+   "languages_at_earliest": [
+    "ara"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "USM2040668",
+     "al-Qāhira : Maktabat Miṣr, [tra il 1956 e il 1999]"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N18": {
+   "wikidata": "Q25519071",
+   "original_year_used": 2009,
+   "ground_truth": {
+    "year": [
+     2009
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 2009,
+   "languages_at_earliest": [
+    "eng",
+    "por"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL36800373M",
+     "['Hunt Publishing Limited, John'] 2009"
+    ],
+    [
+     "OL",
+     "/books/OL30920499M",
+     "['Autonomia Literária'] 2009, 2020"
+    ],
+    [
+     "OL",
+     "/books/OL24611852M",
+     "['Zero Books'] 2009"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N19": {
+   "wikidata": "Q115818209",
+   "original_year_used": 2022,
+   "ground_truth": {
+    "year": [
+     2022
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 2022,
+   "languages_at_earliest": [
+    "eng",
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "PCM0037140",
+     "Dublin : Vintage, 2022"
+    ],
+    [
+     "SBN",
+     "MOD1754482",
+     "London : Chatto & Windus, 2022"
+    ],
+    [
+     "OL",
+     "/books/OL53616477M",
+     "['Random House'] 2022"
+    ],
+    [
+     "OL",
+     "/books/OL47709411M",
+     "['Knopf'] 5 July 2022"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N20": {
+   "wikidata": "Q31067292",
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     1980
+    ],
+    "language": [
+     "eng"
+    ]
+   },
+   "earliest_found": 1980,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "MIL0182712",
+     "Chicago and London : The University of Chicago Press, c1980"
+    ],
+    [
+     "OL",
+     "/books/OL20680018M",
+     "['University of Chicago Press'] 1980"
+    ],
+    [
+     "OL",
+     "/books/OL4096576M",
+     "['University of Chicago Press'] 1980"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N21": {
+   "wikidata": "Q5219975",
+   "original_year_used": 1924,
+   "ground_truth": {
+    "year": [
+     1924
+    ],
+    "language": [
+     "spa"
+    ]
+   },
+   "earliest_found": 1924,
+   "languages_at_earliest": [
+    "spa"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL6735230M",
+     "['Chile, Nascimento'] 1924"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  },
+  "N22": {
+   "wikidata": "Q15991228",
+   "original_year_used": 2013,
+   "ground_truth": {
+    "year": [
+     2013
+    ],
+    "language": [
+     "fre"
+    ]
+   },
+   "earliest_found": 2013,
+   "languages_at_earliest": [
+    "eng",
+    "fre"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL27180385M",
+     "['Éditions du Seuil'] 2013"
+    ],
+    [
+     "OL",
+     "/books/OL25619817M",
+     "['Éditions du Seuil, Harvard University Press'] 2013"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right, tie",
+   "insights_only": false
+  },
+  "N23": {
+   "wikidata": "Q35160",
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [],
+    "language": [
+     "grc"
+    ]
+   },
+   "earliest_found": 1488,
+   "languages_at_earliest": [
+    "eng"
+   ],
+   "rows_at_earliest": [
+    [
+     "OL",
+     "/books/OL40578004M",
+     "['Independently Published'] 1488"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "no ground-truth year",
+   "insights_only": true
+  },
+  "N24": {
+   "wikidata": null,
+   "original_year_used": null,
+   "ground_truth": {
+    "year": [
+     2009
+    ],
+    "language": [
+     "ita"
+    ]
+   },
+   "earliest_found": 2009,
+   "languages_at_earliest": [
+    "ita"
+   ],
+   "rows_at_earliest": [
+    [
+     "SBN",
+     "VIA0219276",
+     "Silea : Piazza, 2009"
+    ]
+   ],
+   "dropped_before_original_year": [],
+   "dropped_count": 0,
+   "outcome": "right",
+   "insights_only": false
+  }
+ }
+}
