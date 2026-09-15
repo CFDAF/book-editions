@@ -1,0 +1,360 @@
+{
+ "pooled": {
+  "sbn_rows": 778,
+  "rows_with_isbn": 483,
+  "rows_without_isbn": 295,
+  "edition_rows_by_isbn": 297,
+  "editions_with_several_printings": 42,
+  "records_in_those": 228,
+  "listing_rule_tp": 1088,
+  "listing_rule_fp": 1472,
+  "listing_rule_fn": 93
+ },
+ "listing_rule_precision": 0.425,
+ "listing_rule_recall": 0.921,
+ "per_book": {
+  "N19": {
+   "sbn_rows": 7,
+   "rows_with_isbn": 7,
+   "rows_without_isbn": 0,
+   "edition_rows_by_isbn": 6,
+   "editions_with_several_printings": 1,
+   "records_in_those": 2,
+   "largest": 2,
+   "listing_rule_pairs_different_year": {
+    "tp": 1,
+    "fp": 2,
+    "fn": 0
+   }
+  },
+  "E02": {
+   "sbn_rows": 26,
+   "rows_with_isbn": 16,
+   "rows_without_isbn": 10,
+   "edition_rows_by_isbn": 5,
+   "editions_with_several_printings": 2,
+   "records_in_those": 13,
+   "largest": 10,
+   "listing_rule_pairs_different_year": {
+    "tp": 48,
+    "fp": 30,
+    "fn": 0
+   }
+  },
+  "N14": {
+   "sbn_rows": 48,
+   "rows_with_isbn": 45,
+   "rows_without_isbn": 3,
+   "edition_rows_by_isbn": 26,
+   "editions_with_several_printings": 4,
+   "records_in_those": 23,
+   "largest": 17,
+   "listing_rule_pairs_different_year": {
+    "tp": 117,
+    "fp": 120,
+    "fn": 0
+   }
+  },
+  "N08": {
+   "sbn_rows": 57,
+   "rows_with_isbn": 50,
+   "rows_without_isbn": 7,
+   "edition_rows_by_isbn": 41,
+   "editions_with_several_printings": 5,
+   "records_in_those": 14,
+   "largest": 6,
+   "listing_rule_pairs_different_year": {
+    "tp": 7,
+    "fp": 8,
+    "fn": 11
+   }
+  },
+  "N01": {
+   "sbn_rows": 109,
+   "rows_with_isbn": 72,
+   "rows_without_isbn": 37,
+   "edition_rows_by_isbn": 30,
+   "editions_with_several_printings": 5,
+   "records_in_those": 47,
+   "largest": 31,
+   "listing_rule_pairs_different_year": {
+    "tp": 483,
+    "fp": 191,
+    "fn": 1
+   }
+  },
+  "E01": {
+   "sbn_rows": 143,
+   "rows_with_isbn": 84,
+   "rows_without_isbn": 59,
+   "edition_rows_by_isbn": 50,
+   "editions_with_several_printings": 9,
+   "records_in_those": 43,
+   "largest": 12,
+   "listing_rule_pairs_different_year": {
+    "tp": 118,
+    "fp": 491,
+    "fn": 14
+   }
+  },
+  "N06": {
+   "sbn_rows": 172,
+   "rows_with_isbn": 128,
+   "rows_without_isbn": 44,
+   "edition_rows_by_isbn": 107,
+   "editions_with_several_printings": 9,
+   "records_in_those": 30,
+   "largest": 10,
+   "listing_rule_pairs_different_year": {
+    "tp": 42,
+    "fp": 303,
+    "fn": 13
+   }
+  },
+  "N10": {
+   "sbn_rows": 216,
+   "rows_with_isbn": 81,
+   "rows_without_isbn": 135,
+   "edition_rows_by_isbn": 32,
+   "editions_with_several_printings": 7,
+   "records_in_those": 56,
+   "largest": 23,
+   "listing_rule_pairs_different_year": {
+    "tp": 272,
+    "fp": 327,
+    "fn": 54
+   }
+  }
+ },
+ "false_positive_examples": [
+  {
+   "book": "N19",
+   "a": [
+    "PCM0037140",
+    "2022",
+    "Dublin : Vintage, 2022",
+    [
+     "9781529115543"
+    ]
+   ],
+   "b": [
+    "PCM0038459",
+    "2023",
+    "New York : Vintage Books, 2023",
+    [
+     "9780593686652"
+    ]
+   ]
+  },
+  {
+   "book": "N19",
+   "a": [
+    "BCT0100997",
+    "2024",
+    "Milano : TEA, 2024",
+    [
+     "9788850268900"
+    ]
+   ],
+   "b": [
+    "MIL1179180",
+    "2026",
+    "Milano : TEA, 2026",
+    [
+     "9788850276066"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "CFI0766925",
+    "2008",
+    "Milano : Adelphi, 2008",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "RMS0147630",
+    "1992",
+    "Milano : Adelphi, 1992",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "CFI0766925",
+    "2008",
+    "Milano : Adelphi, 2008",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "MOD0012031",
+    "1990",
+    "Milano : Adelphi, 1990",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "CFI0766925",
+    "2008",
+    "Milano : Adelphi, 2008",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "RAV0043511",
+    "1976",
+    "Milano : Adelphi, \\1976!",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "PAL0171160",
+    "2000",
+    "Milano : Adelphi, 2000",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "RMS0147630",
+    "1992",
+    "Milano : Adelphi, 1992",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "PAL0171160",
+    "2000",
+    "Milano : Adelphi, 2000",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "MOD0012031",
+    "1990",
+    "Milano : Adelphi, 1990",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "PAL0171160",
+    "2000",
+    "Milano : Adelphi, 2000",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "RAV0043511",
+    "1976",
+    "Milano : Adelphi, \\1976!",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "BVE0553614",
+    "2011",
+    "Milano : Adelphi, 2011",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "RMS0147630",
+    "1992",
+    "Milano : Adelphi, 1992",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "BVE0553614",
+    "2011",
+    "Milano : Adelphi, 2011",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "MOD0012031",
+    "1990",
+    "Milano : Adelphi, 1990",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "BVE0553614",
+    "2011",
+    "Milano : Adelphi, 2011",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "RAV0043511",
+    "1976",
+    "Milano : Adelphi, \\1976!",
+    [
+     "9788845903281"
+    ]
+   ]
+  },
+  {
+   "book": "E02",
+   "a": [
+    "TO01873090",
+    "2013",
+    "Milano : Adelphi, 2013",
+    [
+     "9788845915352"
+    ]
+   ],
+   "b": [
+    "RMS0147630",
+    "1992",
+    "Milano : Adelphi, 1992",
+    [
+     "9788845903281"
+    ]
+   ]
+  }
+ ],
+ "listing_rule": "different years; shared language code; one publisher key contained in the other; equal normalised catalogued title (before ' / ')"
+}
