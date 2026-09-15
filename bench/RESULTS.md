@@ -9,7 +9,7 @@ Evidence tags: **V** verified with a control · **M** measured · **D** document
 |---|---|---|---|
 | 1 — ground truth, A1, A3, A5, A6, A7, A8 | done | 2026-09-14 | `defe095` (branch `bench/stage-1`) |
 | 2 — A2, today's pipeline against listing by identity | done | 2026-09-15 | `7742793` (branch `bench/stage-2`) |
-| 3 — A4, merging duplicates by collision | done | 2026-09-15 | pending (branch `bench/stage-3`) |
+| 3 — A4, merging duplicates by collision | done | 2026-09-15 | `2cc9bde` (branch `bench/stage-3`) |
 
 ---
 
