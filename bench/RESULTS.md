@@ -8,7 +8,7 @@ Evidence tags: **V** verified with a control · **M** measured · **D** document
 | Stage | State | Date | Commit |
 |---|---|---|---|
 | 1 — ground truth, A1, A3, A5, A6, A7, A8 | done | 2026-09-14 | `defe095` (branch `bench/stage-1`) |
-| 2 — A2, today's pipeline against listing by identity | running | 2026-09-15 | branch `bench/stage-2` |
+| 2 — A2, today's pipeline against listing by identity | done | 2026-09-15 | branch `bench/stage-2` |
 | 3 — A4, merging duplicates by collision | todo | | |
 
 ---
@@ -423,3 +423,252 @@ Totals over every Stage 1 script, re-runs included (cached requests are not coun
 | block-AB-B | B | 60 | 0 | 0 | 0.21 | 0.407 |
 | block-BA-B | B | 60 | 0 | 0 | 0.196 | 0.371 |
 | block-BA-A | A | 60 | 35 | 0 | 0.12 | 0.319 |
+
+---
+
+## Stage 2
+
+### Verdict
+
+| # | Assumption | Metric (96 entry runs; 91 scored, E10/E11 generic titles and N23 insights excluded) | Fail criterion | Result | Evidence |
+|---|---|---|---|---|---|
+| A2 | Listing by identity loses nothing today's tool finds | Distinct records today's run shows outside the book's Stage 1 listing: SBN **not linked to W 334** (301 no uniform title, 33 another uniform title) · Open Library **separate work record 98** · **wrong-work leak in today's tool 44** (SBN 27, OL 17) · other 10 (9 volumes with other works, 1 excerpt) · **unexplained 0**. Books with no Stage 1 listing: SBN 243 (199 same work, 42 leaks, 2 other), OL 29 (same work). Cold wall per entry: today median **34.5 s** (p90 58.4, max 112.4), identity **3.5 s** (p90 5.7, max 28.5); identity slower in **2 of 96** (N02 ita 28.5 vs 15.8 s, N06 ita 17.6 vs 16.5 s). Requests per entry, median: 192 vs 19 | an unexplained loss, or listing by identity slower cold than today | **FAIL**, read per entry: 2 slower entries. No unexplained loss | M; record classes V (OPAC record detail, control: bogus BID → `data: null`) + 161 hand judgements (`judgements.STAGE2`) |
+
+### What each result means
+
+**Losses: listing by identity does drop records today's tool shows.**
+- **334 SBN records of the same book are not linked to W**, against 2,575 listed SBN rows for the same books. Largest: E16 56, N12 55, E01 47, N06 42, N02 39, N21 30.
+  - Today's routes that found them (a record may carry several): Wikidata title 207, author sweep 119, translation evidence 83, ISBN 25. Leaving aside 'same Open Library work' and 'translation evidence', one route alone found 276: Wikidata title 167, author sweep 99, ISBN 10.
+  - Languages: ita 86, eng 77, spa 60, ger 38, fre 35, rus 23.
+  - The 33 under another uniform title are split authorities: N08 `L'amica geniale` vs W `amica geniale : infanzia, adolescenza`; N17 a third transliteration, `Bayan al-Qasrayn`; N01 a Chinese translation under the French `L'insoutenable légèreté de l’être`; N14 `Ensaio sobre Cegueira.`.
+- **98 Open Library editions sit in duplicate work records** with the same title: E16 3 works / 24 editions, N04 7 / 21, N12 3 / 14, N02 2 / 8.
+- **44 records are wrong-work leaks in today's tool**, and the listing correctly lacks them:
+  - 21 through the wrong Wikidata item today's resolver picks (E07 *Liquid Love*, E12 *Das Kunstwerk…*, N20 *Where Mathematics Comes From*);
+  - 4 through Open Library sibling + Dewey (E01 *Crónica de una muerte anunciada*, N03 *Così fu Auschwitz*);
+  - 1 through an ISBN match (N14: Veltroni's *Buonvino e il caso del bambino scomparso*);
+  - 18 neighbouring books, adaptations and studies with similar titles: E09 *Postille a Il nome della rosa*, N14 *Ensaio sobre a lucidez*, N08 volume 2 and two graphic-novel adaptations, N12 the Gide–Barrault play and Pinter's screenplay, N02 two retellings, N05 a critical commentary, E16 a film booklet, E02 *A Sacred Unity*, N22 *Peut-on sauver l'Europe?*.
+- Evidence: OPAC record detail for 1,005 BIDs (1,011 requests, 4 connect timeouts retried); the works of all 164 lost Open Library editions came from the runs' own cached `editions.json`, work titles from 54 requests. Same-work judgement is title similarity ≥ 0.6 to the book's known titles or uniform titles, overridden by hand; the linked-to-W test is full-title similarity ≥ 0.9 between the record's uniform title and W.
+- Reverse direction, not an A2 metric: listing records a run lacks sum to SBN 5,087 and OL 11,985 over the 91 scored runs. The OL figure is an upper bound: today merges an Open Library edition into an SBN record by ISBN and keeps only the SBN link.
+
+**Books with no Stage 1 listing (answer 7).** Today's fallback routes carry them, with leaks: E12 SBN 39 (36 *Das Kunstwerk* leaks through Wikidata, 3 same work); E13 SBN 15 (12 same, 3 leaks); E14 SBN 1 same; N04 SBN 188 (183 same work, 2 volumes with other works, 3 leaks); N07 OL 17, N13 OL 9, N16 OL 3, all same work.
+
+**Latency.**
+- The two slower entries: N02 ita spent 19.3 s on identity, where the guard's B paged 497 records (54 requests) and the OPAC needed 7 connect-timeout retries; N06 ita waited 14.9 s on one Open Library `editions.json` (537 editions). Neither is the SBN listing.
+- Today's runs that met no Wikimedia 429 (33): today median 15.8 s (p90 27.0), identity 3.7 s (p90 8.3) on the same entries.
+- The comparison leans against identity on politeness (gated: OPAC 4 at a time, Open Library 1 request a second; today ungated) and toward it on the User-Agent (contact form; today's own).
+
+**User-Agent control (A8 inside the pipeline, 16 entries).**
+- Today's agent met 1–2 Wikimedia 429s in 9 of 16 runs; the contact agent none. Medians: 41.1 s → 11.5 s on those 9, 15.9 s → 15.0 s on the other 7.
+- Over all 110 today runs: 101 Wikimedia retries on 429 (it 41, en 42, wikidata 18); Wikimedia took 3,054 s of 8,802 s request time (35%). Contact-agent runs: 40 s of 1,056 s (3.8%). The Stage 1 inference that "Wikipedia stalls" are `Retry-After` sleeps is now **M**.
+- Records do not depend on it: overlap 1.0 in 13 of 15 pairs (E01 ita 0.959, N08 eng 0.872; N13 eng empty both times).
+
+**Convergence** (assessment §2's metric; lowest Jaccard over a book's entry pairs, 32 books with ≥ 2 entries).
+- Today: median lowest overlap 0.658 on all records (30 books, N15 and N19 left out), 0.634 on SBN records; 0.0 for N04 SBN, N13 and N17, N02 SBN 0.024, N12 SBN 0.132. E01 reproduces §2: 0.662 / 0.375 (§2: 0.668 / 0.380).
+- Identity: 1.0 in 22 of 32 books. Below 1 exactly where one entry's guard is not strong: E16 0.583, N14 0.455, N11 0.714, N12 0.786, N17 0.804, N04 0.856, N21 0.865, N22 0.909, N13 0.0, N16 0.0.
+- Noise floor: identical titles run cold (N15 × 3, N19 eng/ita) give 1.0 on both paths, so today's differences between entry titles are not run-to-run noise.
+
+**Romanised entries (answer 2)**, identity path, against the script titles of Stage 1:
+
+| entry | SBN Stage 1 (script) | SBN Stage 2 (romanised) | Wikidata Step 4 | today records |
+|---|---|---|---|---|
+| E16 rus *Doktor Zhivago* | `doktor zivago` rejected | `doktor zivago` rejected (A 0.5, B 0.4) | Q206870 | 126 |
+| N04 rus *Prestuplenie i nakazanie* | no work | **`prestuplenie i nakazanie` strong** (A 1.0) | none | 133 |
+| N16 chi *Huozhe* | `huozhe` rejected | **`huozhe` strong** (A 1.0) | none | 13 |
+| N17 ara *Bayn al-Qasrayn* | `hikayat haratina` rejected (wrong) | **`bayn al-qasrayn` strong** (A 1.0) | Q3149381 | 6 |
+| N23 grc *Odysseia* | `ilias` rejected (wrong) | `odyssea` rejected (A 0.0, B 0.222) | Q35160 | 42 |
+
+The romanisation decides: SBN writes `zivago` (ISO 9) and `odyssea` (Latin); the corpus's `Zhivago` and `Odysseia` miss them.
+
+**Author-only runs (14 Latin variants).** Variants of one person give the same rows: Murakami 1.0, Dostoevskij / Dostoevsky 1.0 (0.872 against Dostoïevski), Han 1.0, García Márquez 0.98. 17 (Eshun) to 307 (Eco) rows, 2.3–30.3 s, 6–152 requests; `SBN partial (3 request(s) failed)` once (P09 1). Rows are titles, not works (assessment §2); not scored.
+
+**Source states.** No request failed at the HTTP level in either path after urllib3's retries (today: mobile gateway ConnectTimeout 5, NameResolution 6, Protocol 13; identity: OPAC ConnectTimeout 7). The pipeline's own `Tally` still reported `SBN partial (1 request(s) failed)` in 10 runs, every entry of E04, N03 and N12: one failure per book that is not a failed HTTP request, likely an error payload (STRATEGY Step 3) **I**.
+
+### Contradicting the assessment or STRATEGY.md
+
+1. **Assessment §7, steps 4 and 6**: listing by identity plus a fallback "only when no strong identity exists" loses 334 same-work SBN records and 98 Open Library editions that today's tool shows for books *with* a strong identity. STRATEGY's Settled row ("SBN links are partial", one book) holds corpus-wide. **M/V**
+2. **STRATEGY "Measured pipeline behaviour"** (SBN 75.5% of request time, Wikipedia 4.1%, Wikidata 0.2%; cold 45–111 s): SBN 55%, Wikimedia 35%, Open Library 10%; cold median 34.5 s, max 112.4 s, 7 of 96 entry runs over 60 s. With the contact User-Agent, Wikimedia is 3.8%. The Wikimedia share is throttling, not the network layer. **M**
+3. **HANDOFF §2 / CLAUDE.md rule 10** ("cold 35–50 s"): median 34.5 s, p90 58.4 s, max 112.4 s over 96 entries. **M**
+4. **Assessment §4** ("17 s instead of 52 s" for *Cent'anni*): identity plus listing 3.5–4.1 s; today 13.6–39.1 s. **M**
+
+### Choices made where the spec was silent
+
+- **Runs.** `stage2_today.py` runs one process per entry, calling `book_editions.main()` with docs/Task.md's argv. Its session logs without the politeness gates and keeps today's User-Agent, so the pipeline's latency is its own. Each run starts with a fresh cache.
+- **Listing by identity was re-measured per entry** (`stage2_newpath.py`): the SBN guard, Wikidata Step 4 (contact agent, answer 6), Open Library author keys and original-title search, then the SBN listing of a strong W and the Open Library editions. It runs gated, with the bogus-language control. The original title comes from the corpus. The two paths ran back to back, their order alternating. Losses are still judged against the Stage 1 listings, as specified.
+- **User-Agent control**: 16 entries fixed before the runs, one per book, mixed sizes, in rotating order.
+- **Full reports** (57 MB + 10 MB) live in `bench/raw/stage-2/runs*`, gitignored. Committed: `meta*/`, `newpath/`, `losses.json`, `loss_evidence.json`, `summary.json`, `tables.md`, and `bench/baseline/` (structural fields; STRATEGY Step 1 names `tests/baseline/`).
+- **Hand judgements**: 161, in `bench/judgements.py`, which now also holds Stage 1's. E10, E11 and N23 are left partly unjudged and unscored.
+- **Author-only runs**: the 14 Latin-script variants; no loss classification, since no per-author listing exists.
+- **Interruption**: the first orchestrator was killed by the machine's memory pressure after 178 of 222 runs (later runs peaked at ≤ 73 MB). The interrupted run (N18 ita, today) was redone about 45 minutes after its pair.
+
+### Open questions for the user
+
+1. **A2 latency verdict.** Identity was slower in 2 of 96 entries (causes above) and 8.8× faster at the median. Read the criterion per entry (FAIL) or overall (PASS)?
+2. **Records SBN has not linked to W.** 334 same-work records would drop out of the planned listing. Add a recovery route beside it, today's Wikidata-title and sweep candidates admitted only by title ≥ 0.6 against the work's titles (STRATEGY Step 9's shape), or accept the loss? The Wikidata-title route is also the largest source of leaks (21 of 44), so it would need Step 4's rule.
+3. **Open Library duplicate works.** 98 editions sit in 2–7 duplicate work records per classic. List every work whose title and author match (one more `editions.json` per duplicate), or the main work only?
+4. **Romanisation.** `Doktor Zhivago` and `Odysseia` miss SBN's `zivago` and `odyssea`. Fold transliteration variants when matching (zh/ž/z, -eia/-ea), or accept a miss when the typed form differs from the catalogue's?
+
+---
+
+## Stage 2 tables
+
+### Losses by class
+
+Records are counted once per run; distinct counts each (book, source, id) once. Books marked * (E10, E11 generic titles; N23 insights) are excluded.
+
+| source · class | records | distinct |
+|---|---|---|
+| OL · no OL listing | 51 | 29 |
+| OL · other | 2 | 1 |
+| OL · separate OL work record | 246 | 98 |
+| OL · wrong-work leak | 18 | 17 |
+| SBN · no SBN listing | 333 | 243 |
+| SBN · not linked to W | 689 | 334 |
+| SBN · other | 22 | 9 |
+| SBN · wrong-work leak | 43 | 27 |
+
+### Per book
+
+Entry values are in corpus order. Listing = Stage 1 listing size (— = none). Losses are distinct records. Overlap = lowest Jaccard over entry pairs. Requests = today·identity.
+
+| book | entries | today records | listing records today lacks (SBN·OL) | SBN listing | OL listing | losses (distinct) | overlap today all | overlap today SBN | overlap identity | today s | identity s | requests | source states |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| E01 | 3 | 241 / 241 / 243 | 81·52 / 96·66 / 69·56 | 143 | 208 | OL separate OL work record 4; SBN not linked to W 47; SBN wrong-work leak 3 | 0.662 | 0.375 | 1.0 | 17.3 / 13.6 / 39.1 | 4.1 / 3.7 / 3.5 | 207·48 / 203·38 / 210·37 | ok |
+| E02 | 2 | 36 / 37 | 10·6 / 9·6 | 26 | 14 | OL separate OL work record 4; SBN not linked to W 7; SBN wrong-work leak 1 | 0.973 | 0.96 | 1.0 | 57.5 / 30.2 | 3.0 / 3.1 | 195·21 / 196·19 | ok |
+| E03 | 3 | 10 / 10 / 10 | 1·1 / 0·1 / 0·1 | 3 | 7 | OL separate OL work record 2 | 0.818 | 0.667 | 1.0 | 12.7 / 22.2 / 53.5 | 3.8 / 4.0 / 4.2 | 177·18 / 190·19 / 190·18 | ok |
+| E04 | 3 | 13 / 13 / 16 | 8·61 / 8·61 / 5·61 | 20 | 61 | SBN not linked to W 1 | 0.812 | 0.812 | 1.0 | 43.3 / 10.5 / 35.1 | 4.5 / 4.1 / 3.1 | 185·22 / 185·22 / 185·21 | SBN partial (1 request(s) failed) |
+| E05 | 2 | 4 / 4 | 0·2 / 0·2 | 2 | 3 | SBN not linked to W 1 | 1.0 | 1.0 | 1.0 | 53.7 / 7.2 | 2.7 / 3.0 | 71·14 / 74·13 | ok |
+| E06 | 2 | 4 / 4 | 0·1 / 0·1 | 1 | 3 | SBN not linked to W 1 | 1.0 | 1.0 | 1.0 | 36.8 / 48.0 | 2.7 / 2.9 | 30·12 / 36·14 | ok |
+| E07 | 2 | 8 / 13 | 8·5 / 8·5 | 15 | 6 | OL wrong-work leak 2; SBN wrong-work leak 3 | 0.615 | 0.7 | 1.0 | 14.9 / 27.3 | 2.9 / 3.2 | 180·16 / 195·16 | ok |
+| E08 | 2 | 11 / 12 | 0·0 / 0·0 | 1 | 5 | OL separate OL work record 3; SBN not linked to W 3 | 0.917 | 1.0 | 1.0 | 57.0 / 11.7 | 2.7 / 3.2 | 178·14 / 191·14 | ok |
+| E09 | 2 | 169 / 174 | 180·34 / 174·46 | 232 | 151 | SBN not linked to W 6; SBN wrong-work leak 5 | 0.581 | 0.21 | 1.0 | 41.1 / 19.2 | 4.5 / 4.1 | 212·45 / 200·48 | ok |
+| E10 * | 1 | 83 | —·4 | — | 12 | OL separate OL work record 1; OL wrong-work leak 2; SBN no SBN listing 72 | — | — | — | 58.4 | 3.3 | 189·32 | ok |
+| E11 * | 1 | 33 | —·19 | — | 19 | OL separate OL work record 4; SBN no SBN listing 29 | — | — | — | 11.8 | 3.5 | 186·27 | ok |
+| E12 | 1 | 50 | —·1 | — | 1 | OL wrong-work leak 11; SBN no SBN listing 39 | — | — | — | 34.5 | 3.2 | 203·13 | ok |
+| E13 | 1 | 15 | —·2 | — | 2 | SBN no SBN listing 15 | — | — | — | 54.2 | 3.2 | 187·14 | ok |
+| E14 | 1 | 1 | —·1 | — | 1 | SBN no SBN listing 1 | — | — | — | 26.0 | 3.4 | 167·10 | ok |
+| E15 | 1 | 1 | —·0 | — | 1 | 0 | — | — | — | 10.6 | 3.2 | 170·11 | ok |
+| E16 | 3 | 103 / 126 / 126 | 72·176 / 81·176 / 81·176 | 126 | 176 | OL separate OL work record 24; SBN not linked to W 56; SBN other 2; SBN wrong-work leak 1 | 0.547 | 0.46 | 0.583 | 41.8 / 32.4 / 58.8 | 3.8 / 3.5 / 3.4 | 201·39 / 197·14 / 198·13 | ok |
+| N01 | 3 | 107 / 92 / 98 | 54·30 / 73·29 / 66·28 | 109 | 81 | SBN not linked to W 4 | 0.739 | 0.59 | 1.0 | 112.4 / 22.0 / 19.2 | 3.5 / 3.4 / 3.7 | 207·32 / 201·33 / 203·38 | ok |
+| N02 | 3 | 472 / 484 / 457 | 504·334 / 526·341 / 528·325 | 613 | 689 | OL separate OL work record 8; SBN not linked to W 39; SBN wrong-work leak 2 | 0.622 | 0.024 | 1.0 | 60.6 / 37.6 / 15.8 | 6.1 / 5.5 / 28.5 | 213·86 / 200·90 / 213·131 | ok |
+| N03 | 3 | 176 / 159 / 163 | 170·30 / 182·39 / 178·40 | 264 | 112 | OL separate OL work record 1; SBN not linked to W 1; SBN other 2; SBN wrong-work leak 1 | 0.654 | 0.517 | 1.0 | 41.3 / 29.8 / 27.0 | 14.5 / 8.9 / 8.3 | 214·59 / 203·60 / 203·60 | SBN partial (1 request(s) failed) |
+| N04 | 3 | 133 / 52 / 120 | —·1179 / —·1179 / —·1179 | — | 1179 | OL separate OL work record 21; SBN no SBN listing 188 | 0.018 | 0.0 | 0.856 | 93.9 / 38.9 / 16.3 | 11.8 / 7.9 / 5.2 | 194·35 / 199·15 / 196·45 | ok |
+| N05 | 3 | 208 / 195 / 196 | 30·59 / 46·56 / 45·56 | 92 | 204 | SBN wrong-work leak 1 | 0.91 | 0.746 | 1.0 | 24.6 / 72.2 / 27.7 | 4.2 / 5.7 / 4.8 | 194·30 / 192·35 / 190·32 | ok |
+| N06 | 3 | 465 / 473 / 460 | 50·202 / 65·194 / 89·207 | 172 | 537 | OL separate OL work record 5; SBN not linked to W 42 | 0.781 | 0.445 | 1.0 | 19.4 / 16.5 / 34.4 | 3.9 / 17.6 / 3.6 | 204·35 / 203·54 / 199·39 | ok |
+| N07 | 2 | 107 / 49 | 50·— / 111·— | 141 | — | OL no OL listing 17; SBN not linked to W 3 | 0.405 | 0.351 | 1.0 | 44.4 / 54.2 | 6.1 / 4.4 | 210·47 / 201·48 | ok |
+| N08 | 2 | 73 / 44 | 9·23 / 41·20 | 57 | 40 | OL other 1; OL wrong-work leak 1; SBN not linked to W 4; SBN wrong-work leak 2 | 0.519 | 0.382 | 1.0 | 18.3 / 39.4 | 4.0 / 4.5 | 205·44 / 202·45 | ok |
+| N09 | 2 | 35 / 31 | 10·5 / 14·5 | 27 | 23 | 0 | 0.886 | 0.765 | 1.0 | 14.9 / 54.7 | 3.2 / 3.1 | 199·20 / 198·21 | ok |
+| N10 | 4 | 94 / 41 / 46 / 93 | 122·468 / 175·468 / 170·468 / 125·468 | 216 | 468 | OL separate OL work record 2 | 0.324 | 0.33 | 1.0 | 51.4 / 49.4 / 11.9 / 13.2 | 4.2 / 4.0 / 4.1 / 4.4 | 191·33 / 181·34 / 183·34 / 190·43 | ok |
+| N11 | 3 | 20 / 20 / 20 | 0·4 / 0·4 / 0·4 | 4 | 10 | OL separate OL work record 4; SBN not linked to W 6 | 1.0 | 1.0 | 0.714 | 56.7 / 51.8 / 47.7 | 3.0 / 2.8 / 3.6 | 192·16 / 191·12 / 192·17 | ok |
+| N12 | 4 | 96 / 121 / 96 / 120 | 174·783 / 161·783 / 174·783 / 107·783 | 213 | 783 | OL separate OL work record 14; SBN not linked to W 55; SBN other 1; SBN wrong-work leak 2 | 0.181 | 0.132 | 0.786 | 15.6 / 35.0 / 52.4 / 70.5 | 4.4 / 4.8 / 4.1 / 4.8 | 193·14 / 195·16 / 193·13 / 202·52 | SBN partial (1 request(s) failed) |
+| N13 | 3 | 10 / 0 / 11 | 2·— / 4·— / 2·— | 4 | — | OL no OL listing 9; SBN not linked to W 1 | 0.0 | 0.0 | 0.0 | 25.8 / 15.9 / 23.5 | 3.5 / 2.3 / 3.0 | 122·13 / 107·10 / 111·14 | ok |
+| N14 | 3 | 70 / 35 / 37 | 17·11 / 24·40 / 22·40 | 48 | 40 | OL separate OL work record 3; SBN not linked to W 6; SBN wrong-work leak 3 | 0.458 | 0.8 | 0.455 | 59.2 / 32.5 / 16.2 | 3.1 / 3.3 / 3.3 | 206·24 / 196·13 / 196·26 | ok |
+| N15 | 3 | 54 / 54 / 54 | 4·20 / 4·20 / 4·20 | 11 | 62 | SBN not linked to W 5 | 1.0 | 1.0 | 1.0 | 57.4 / 31.2 / 59.4 | 4.3 / 3.5 / 3.3 | 181·18 / 181·18 / 181·18 | ok |
+| N16 | 3 | 13 / 12 / 6 | 1·— / 2·— / 4·— | 10 | — | OL no OL listing 3; SBN not linked to W 1 | 0.462 | 0.6 | 0.0 | 18.3 / 30.1 / 42.6 | 3.2 / 3.3 / 3.1 | 188·17 / 187·12 / 168·17 | ok |
+| N17 | 3 | 6 / 6 / 6 | 7·37 / 7·37 / 3·37 | 8 | 37 | OL separate OL work record 1; SBN not linked to W 5 | 0.0 | 0.0 | 0.804 | 60.2 / 12.3 / 34.2 | 3.3 / 3.7 / 3.3 | 185·15 / 184·12 / 178·16 | ok |
+| N18 | 2 | 7 / 6 | 1·5 / 1·6 | 2 | 8 | SBN not linked to W 3 | 0.857 | 1.0 | 1.0 | 49.6 / 11.4 | 3.5 / 3.0 | 184·16 / 172·15 | ok |
+| N19 | 2 | 19 / 19 | 1·5 / 1·5 | 7 | 17 | SBN not linked to W 1 | 1.0 | 1.0 | 1.0 | 7.3 / 54.0 | 3.9 / 3.0 | 76·16 / 76·16 | ok |
+| N20 | 2 | 14 / 12 | 0·5 / 5·7 | 12 | 7 | OL wrong-work leak 3; SBN wrong-work leak 2 | 0.368 | 0.5 | 1.0 | 46.2 / 58.2 | 3.1 / 3.0 | 86·20 / 87·20 | ok |
+| N21 | 3 | 151 / 149 / 149 | 9·32 / 11·32 / 11·32 | 21 | 135 | OL separate OL work record 2; SBN not linked to W 30; SBN other 4 | 0.987 | 0.957 | 0.865 | 20.1 / 31.9 / 44.4 | 3.7 / 3.7 / 3.6 | 204·18 / 202·13 / 202·19 | ok |
+| N22 | 3 | 23 / 23 / 23 | 0·6 / 0·6 / 0·6 | 2 | 20 | SBN not linked to W 6; SBN wrong-work leak 1 | 1.0 | 1.0 | 0.909 | 54.8 / 9.3 / 35.4 | 3.1 / 3.4 / 3.2 | 130·16 / 130·13 / 129·12 | ok |
+| N23 * | 3 | 42 / 145 / 153 | —·1 / —·1 / —·1 | — | 1 | OL separate OL work record 12; SBN no SBN listing 292 | 0.0 | 0.0 | 1.0 | 51.5 / 63.1 / 25.8 | 3.3 / 3.6 / 18.2 | 184·24 / 198·25 / 205·139 | ok |
+| N24 | 1 | 1 | 0·— | 1 | — | 0 | — | — | — | 3.5 | 2.5 | 16·11 | ok |
+
+### Cold latency
+
+| path | n | median s | p90 s | max s | total s |
+|---|---|---|---|---|---|
+| today's pipeline | 96 | 34.5 | 58.4 | 112.4 | 3456.8 |
+| listing by identity | 96 | 3.5 | 5.7 | 28.5 | 437.4 |
+| today's pipeline, runs with no Wikimedia 429 | 33 | 15.8 | 27.0 | 41.3 | 570.6 |
+| listing by identity, same entries | 33 | 3.7 | 8.3 | 28.5 | 181.2 |
+
+Identity slower than today in 2 entries ([('N02__ita', 15.8, 28.5), ('N06__ita', 16.5, 17.6)]); median ratio today / identity 8.8.
+
+### User-Agent control (today's pipeline, same entry)
+
+| run | today s | contact UA s | identity s | Wikimedia 429 today | Wikimedia 429 contact UA | overlap all | overlap SBN |
+|---|---|---|---|---|---|---|---|
+| E01__ita | 17.3 | 15.0 | 4.1 | 0 | 0 | 0.959 | 0.94 |
+| E02__ita | 57.5 | 11.5 | 3.0 | 1 | 0 | 1.0 | 1.0 |
+| E03__eng | 22.2 | 11.5 | 4.0 | 2 | 0 | 1.0 | 1.0 |
+| E06__eng | 48.0 | 7.6 | 2.9 | 1 | 0 | 1.0 | 1.0 |
+| E09__ita | 41.1 | 18.7 | 4.5 | 2 | 0 | 1.0 | 1.0 |
+| E14__ita | 26.0 | 9.6 | 3.4 | 1 | 0 | 1.0 | 1.0 |
+| E16__ita | 41.8 | 11.7 | 3.8 | 2 | 0 | 1.0 | 1.0 |
+| N02__ita | 15.8 | 15.9 | 28.5 | 0 | 0 | 1.0 | 1.0 |
+| N03__ita | 41.3 | 48.0 | 14.5 | 0 | 0 | 1.0 | 1.0 |
+| N06__ita | 16.5 | 17.3 | 17.6 | 0 | 0 | 1.0 | 1.0 |
+| N08__eng | 39.4 | 19.6 | 4.5 | 2 | 0 | 0.872 | 0.84 |
+| N10__ita | 13.2 | 10.8 | 4.4 | 2 | 0 | 1.0 | 1.0 |
+| N12__ita | 70.5 | 49.5 | 4.8 | 2 | 0 | 1.0 | 1.0 |
+| N13__eng | 15.9 | 14.0 | 2.3 | 0 | 0 | — | — |
+| N18__ita | 11.4 | 11.6 | 3.0 | 0 | 0 | 1.0 | 1.0 |
+| N24__ita | 3.5 | 4.9 | 2.5 | 0 | 0 | 1.0 | 1.0 |
+
+### Author-only runs
+
+| run | variant | rows | wall s | requests | sources |
+|---|---|---|---|---|---|
+| P01__1 | Gregory Bateson | 84 | 8.3 | 57 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P02__1 | Murakami Haruki | 230 | 30.3 | 152 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P02__2 | Haruki Murakami | 230 | 21.2 | 152 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P03__1 | Fëdor Dostoevskij | 247 | 28.6 | 152 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P03__2 | Fyodor Dostoevsky | 247 | 19.8 | 152 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P03__3 | Dostoïevski | 249 | 13.2 | 152 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P04__1 | Elena Ferrante | 174 | 12.0 | 152 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P05__1 | Jacques Attali | 268 | 8.5 | 149 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P06__1 | Umberto Eco | 307 | 21.8 | 152 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P07__1 | Kodwo Eshun | 17 | 2.3 | 6 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P08__1 | Byung-Chul Han | 103 | 6.4 | 65 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P08__2 | Han Byung-Chul | 103 | 8.5 | 65 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+| P09__1 | Gabriel García Márquez | 249 | 27.6 | 129 | Open Library ok; SBN partial (3 request(s) failed); Wikidata skipped (not needed for an author search) |
+| P09__2 | Garcia Marquez | 252 | 9.6 | 129 | Open Library ok; SBN ok; Wikidata skipped (not needed for an author search) |
+
+Overlap of work-row titles between variants of one person: P02__1~P02__2 1.0; P03__1~P03__2 1.0; P03__1~P03__3 0.872; P03__2~P03__3 0.872; P08__1~P08__2 1.0; P09__1~P09__2 0.98
+
+### Requests per host — today's pipeline
+
+Retries are urllib3's, inside one logged request.
+
+| host | requests | failed | total s | retries |
+|---|---|---|---|---|
+| opac.sbn.it/opacmobilegw | 14774 | 0 | 4748.3 | ConnectTimeoutError×5, NameResolutionError×6, ProtocolError×13 |
+| openlibrary.org | 1132 | 0 | 882.9 | 0 |
+| opac.sbn.it/o | 349 | 0 | 116.5 | ProtocolError×1 |
+| it.wikipedia.org | 284 | 0 | 1150.9 | 429×41 |
+| en.wikipedia.org | 271 | 0 | 1173.1 | 429×42 |
+| www.wikidata.org | 176 | 0 | 730.1 | 429×18 |
+
+### Requests per host — today's pipeline, contact UA
+
+Retries are urllib3's, inside one logged request.
+
+| host | requests | failed | total s | retries |
+|---|---|---|---|---|
+| opac.sbn.it/opacmobilegw | 2332 | 0 | 838.1 | ProtocolError×4 |
+| openlibrary.org | 186 | 0 | 144.5 | 0 |
+| opac.sbn.it/o | 92 | 0 | 33.3 | 0 |
+| it.wikipedia.org | 47 | 0 | 12.7 | 0 |
+| en.wikipedia.org | 44 | 0 | 12.8 | 0 |
+| www.wikidata.org | 27 | 0 | 14.5 | 0 |
+
+### Requests per host — listing by identity
+
+Retries are urllib3's, inside one logged request.
+
+| host | requests | failed | total s | retries |
+|---|---|---|---|---|
+| opac.sbn.it/o | 1695 | 0 | 598.5 | ConnectTimeoutError×7, ProtocolError×1 |
+| openlibrary.org | 289 | 0 | 226.6 | 0 |
+| it.wikipedia.org | 284 | 0 | 75.3 | 0 |
+| en.wikipedia.org | 271 | 0 | 78.3 | 0 |
+| www.wikidata.org | 177 | 0 | 90.5 | 0 |
+
+### Requests per host — author-only runs
+
+Retries are urllib3's, inside one logged request.
+
+| host | requests | failed | total s | retries |
+|---|---|---|---|---|
+| opac.sbn.it/opacmobilegw | 1650 | 3 | 836.3 | ConnectTimeoutError×23, ProtocolError×2 |
+| openlibrary.org | 14 | 0 | 18.1 | 0 |
