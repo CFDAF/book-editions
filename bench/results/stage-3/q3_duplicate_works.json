@@ -1,0 +1,3387 @@
+{
+ "summary": {
+  "duplicates": 45,
+  "books": 21,
+  "by_title_outcomes": {
+   "the main work": 29,
+   "the duplicate": 3,
+   "other work": 10,
+   "another duplicate": 2,
+   "none": 1
+  },
+  "by_key_returned_all_stage2_editions": 45,
+  "by_key_errors": 0,
+  "found_by_original_title": 10,
+  "found_by_any_query": 39,
+  "other_author_docs_passing_title_test_by_original_title": 42,
+  "control_bogus_work_key": {
+   "error": "https://openlibrary.org/works/OL0000000W/editions.json: 404 Client Error: Not Found for url: https://openlibrary.org/works/OL0000000W/editions.json?limit=1000"
+  },
+  "control_bogus_query": {
+   "num_found": 0,
+   "docs": 0,
+   "error": null
+  },
+  "wall_s": 177.2,
+  "requests": {
+   "openlibrary.org": {
+    "requests": 145,
+    "failed": 1,
+    "total_s": 122.54,
+    "p50_s": 0.531,
+    "max_s": 7.112
+   }
+  },
+  "retries": {},
+  "failures": [
+   {
+    "host": "openlibrary.org",
+    "method": "GET",
+    "url": "https://openlibrary.org/works/OL0000000W/editions.json",
+    "params": {
+     "limit": "1000"
+    },
+    "t": 1789468863.683,
+    "elapsed": 0.585,
+    "status": 404,
+    "bytes": 22,
+    "error": "HTTP 404"
+   }
+  ]
+ },
+ "books": {
+  "E01": {
+   "author": "Garcia Marquez",
+   "main_work": "/works/OL274505W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL29355621W": {
+     "title": "One Hundred Years of Solitude",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "One Hundred Years of Solitude Garcia Marquez",
+      "strict": "/works/OL274505W",
+      "keyed": "/works/OL274505W",
+      "picked": "/works/OL274505W",
+      "picked_title": "Cien años de soledad",
+      "picked_editions": 208,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL43108828W": {
+     "title": "One Hundred Years of Solitude",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "One Hundred Years of Solitude Garcia Marquez",
+      "strict": "/works/OL274505W",
+      "keyed": "/works/OL274505W",
+      "picked": "/works/OL274505W",
+      "picked_title": "Cien años de soledad",
+      "picked_editions": 208,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Cien años de soledad Garcia Marquez",
+     "num_found": 101,
+     "docs": 100,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL43144891W",
+       "Cien Años De Soledad",
+       1
+      ],
+      [
+       "/works/OL28027117W",
+       "Cien Años de Soledad",
+       1
+      ],
+      [
+       "/works/OL43951156W",
+       "Cien anõs de soledad",
+       1
+      ],
+      [
+       "/works/OL40693424W",
+       "Cien años de Soledad",
+       1
+      ],
+      [
+       "/works/OL43080931W",
+       "Cien Anos de Soledad",
+       1
+      ],
+      [
+       "/works/OL45023211W",
+       "CIEN ANOS DE SOLEDAD ",
+       1
+      ],
+      [
+       "/works/OL28811888W",
+       "Cien Años de Soledad y un Homenaje",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Cent'anni di solitudine Garcia Marquez",
+     "num_found": 3,
+     "docs": 3,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "One Hundred Years of Solitude Garcia Marquez",
+     "num_found": 63,
+     "docs": 63,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL29355621W",
+      "/works/OL43108828W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL29355621W",
+      "/works/OL43108828W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL29355621W",
+      "/works/OL43108828W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL39215842W",
+       "One Hundred Years of Solitude [tie-In Edition]",
+       2
+      ],
+      [
+       "/works/OL44194167W",
+       "One Hundred Years of Solitude",
+       1
+      ],
+      [
+       "/works/OL44165226W",
+       "One Hundred Years of Solitude",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 2
+  },
+  "E02": {
+   "author": "Bateson",
+   "main_work": "/works/OL486424W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL10580255W": {
+     "title": "Steps to an ecology of mind",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Steps to an ecology of mind Bateson",
+      "strict": "/works/OL486424W",
+      "keyed": "/works/OL486424W",
+      "picked": "/works/OL486424W",
+      "picked_title": "Steps to an ecology of mind",
+      "picked_editions": 14,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL17979575W": {
+     "title": "Steps to an ecology of mind",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Steps to an ecology of mind Bateson",
+      "strict": "/works/OL486424W",
+      "keyed": "/works/OL486424W",
+      "picked": "/works/OL486424W",
+      "picked_title": "Steps to an ecology of mind",
+      "picked_editions": 14,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Steps to an Ecology of Mind Bateson",
+     "num_found": 13,
+     "docs": 13,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL10580255W",
+      "/works/OL17979575W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL10580255W",
+      "/works/OL17979575W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL10580255W",
+      "/works/OL17979575W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL486413W",
+       "Steps to an Ecology of the Mind",
+       1
+      ],
+      [
+       "/works/OL13420554W",
+       "Steps to an ecology of mind",
+       2
+      ],
+      [
+       "/works/OL37802062W",
+       "Steps to an Ecology of Mind",
+       2
+      ],
+      [
+       "/works/OL17855325W",
+       "Steps to an ecology of mind",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Verso un'ecologia della mente Bateson",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 2,
+   "duplicates_found_by_any_query": 2
+  },
+  "E03": {
+   "author": "Jacques Attali",
+   "main_work": "/works/OL685250W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL11331978W": {
+     "title": "Bruits",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Bruits Jacques Attali",
+      "strict": "/works/OL685250W",
+      "keyed": "/works/OL685250W",
+      "picked": "/works/OL685250W",
+      "picked_title": "Bruits",
+      "picked_editions": 7,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    },
+    "/works/OL15764295W": {
+     "title": "Rumori",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Rumori Jacques Attali",
+      "strict": "/works/OL15764295W",
+      "keyed": "/works/OL15764295W",
+      "picked": "/works/OL15764295W",
+      "picked_title": "Rumori",
+      "picked_editions": 1,
+      "outcome": "the duplicate",
+      "error": null
+     },
+     "by_key": {
+      "size": 1,
+      "entries": 1,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Bruits : essai sur l'économie politique de la musique Jacques Attali",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry ita",
+     "q": "Rumori Jacques Attali",
+     "num_found": 1,
+     "docs": 1,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [
+      "/works/OL15764295W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL15764295W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL15764295W"
+     ],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "Noise Jacques Attali",
+     "num_found": 2,
+     "docs": 2,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL19402867W",
+       "Noise: Political Economy of Music (Theory & History of Literature)",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry fre",
+     "q": "Bruits Jacques Attali",
+     "num_found": 4,
+     "docs": 4,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL11331978W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL11331978W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL11331978W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL23775717W",
+       "Bruits",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 2
+  },
+  "E08": {
+   "author": "Ruesch",
+   "main_work": "/works/OL12269244W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL1590658W": {
+     "title": "Communication",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Communication Ruesch",
+      "strict": "/works/OL12269244W",
+      "keyed": "/works/OL12269244W",
+      "picked": "/works/OL12269244W",
+      "picked_title": "Communication",
+      "picked_editions": 5,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 4,
+      "entries": 4,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL32327824W": {
+     "title": "Communication",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Communication Ruesch",
+      "strict": "/works/OL12269244W",
+      "keyed": "/works/OL12269244W",
+      "picked": "/works/OL12269244W",
+      "picked_title": "Communication",
+      "picked_editions": 5,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 4,
+      "entries": 4,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Communication: The Social Matrix of Psychiatry Ruesch",
+     "num_found": 11,
+     "docs": 11,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL1590658W",
+      "/works/OL32327824W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL1590658W",
+      "/works/OL32327824W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL1590658W",
+      "/works/OL32327824W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL16051319W",
+       "Communication",
+       1
+      ],
+      [
+       "/works/OL1590654W",
+       "Communication, the social matrix of psychiatry",
+       2
+      ],
+      [
+       "/works/OL34675799W",
+       "Communication, the social matrix of psychiatry",
+       2
+      ],
+      [
+       "/works/OL34626471W",
+       "Communication, the social matrix of psychiatry",
+       1
+      ],
+      [
+       "/works/OL43153132W",
+       "Communication the Social Matrix of Psychiatry",
+       1
+      ],
+      [
+       "/works/OL43153135W",
+       "Communication ; The Social Matrix of Psychiatry",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "La matrice sociale della psichiatria Ruesch",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 2,
+   "duplicates_found_by_any_query": 2
+  },
+  "E10": {
+   "author": "Leopardi",
+   "main_work": "/works/OL15102110W",
+   "duplicates": 1,
+   "per_duplicate": {
+    "/works/OL38745241W": {
+     "title": "Opere",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Opere Leopardi",
+      "strict": "/works/OL15102110W",
+      "keyed": "/works/OL15102110W",
+      "picked": "/works/OL15102110W",
+      "picked_title": "Opere",
+      "picked_editions": 12,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Opere Leopardi",
+     "num_found": 87,
+     "docs": 87,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL38745241W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL38745241W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL38745241W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL38649194W",
+       "Opere",
+       2
+      ],
+      [
+       "/works/OL44427246W",
+       "Opere",
+       2
+      ],
+      [
+       "/works/OL13117766W",
+       "Opere",
+       1
+      ],
+      [
+       "/works/OL13000526W",
+       "Opere",
+       1
+      ],
+      [
+       "/works/OL15471328W",
+       "Opere",
+       1
+      ],
+      [
+       "/works/OL15469378W",
+       "Opere",
+       1
+      ],
+      [
+       "/works/OL15470815W",
+       "Opere",
+       1
+      ],
+      [
+       "/works/OL42220323W",
+       "Opere",
+       1
+      ],
+      [
+       "/works/OL43275226W",
+       "Opere: canti, operette morali, pensieri, [etc.]",
+       1
+      ],
+      [
+       "/works/OL165909W",
+       "Opere",
+       0
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 1,
+   "duplicates_found_by_any_query": 1
+  },
+  "E11": {
+   "author": "Montale",
+   "main_work": "/works/OL610110W",
+   "duplicates": 1,
+   "per_duplicate": {
+    "/works/OL610101W": {
+     "title": "Poesie",
+     "stage2_editions": 4,
+     "by_title": {
+      "q": "Poesie Montale",
+      "strict": "/works/OL610110W",
+      "keyed": "/works/OL610110W",
+      "picked": "/works/OL610110W",
+      "picked_title": "Poems",
+      "picked_editions": 19,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 5,
+      "entries": 5,
+      "stage2_editions": 4,
+      "stage2_editions_returned": 4
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Poesie Montale",
+     "num_found": 54,
+     "docs": 54,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL610101W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL610101W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL610101W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL38866443W",
+       "Poesie",
+       1
+      ],
+      [
+       "/works/OL44234808W",
+       "Poesie",
+       1
+      ],
+      [
+       "/works/OL31377189W",
+       "POESIE I",
+       1
+      ],
+      [
+       "/works/OL19161215W",
+       "Poesie",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 1,
+   "duplicates_found_by_any_query": 1
+  },
+  "E16": {
+   "author": "Pasternak",
+   "main_work": "/works/OL258301W",
+   "duplicates": 3,
+   "per_duplicate": {
+    "/works/OL31357567W": {
+     "title": "Doctor Zhivago",
+     "stage2_editions": 9,
+     "by_title": {
+      "q": "Doctor Zhivago Pasternak",
+      "strict": "/works/OL258301W",
+      "keyed": "/works/OL258301W",
+      "picked": "/works/OL258301W",
+      "picked_title": "Доктор Живаго",
+      "picked_editions": 176,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 13,
+      "entries": 13,
+      "stage2_editions": 9,
+      "stage2_editions_returned": 9
+     }
+    },
+    "/works/OL31375574W": {
+     "title": "Doctor Zhivago",
+     "stage2_editions": 4,
+     "by_title": {
+      "q": "Doctor Zhivago Pasternak",
+      "strict": "/works/OL258301W",
+      "keyed": "/works/OL258301W",
+      "picked": "/works/OL258301W",
+      "picked_title": "Доктор Живаго",
+      "picked_editions": 176,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 6,
+      "entries": 6,
+      "stage2_editions": 4,
+      "stage2_editions_returned": 4
+     }
+    },
+    "/works/OL38068744W": {
+     "title": "Doctor Zhivago",
+     "stage2_editions": 11,
+     "by_title": {
+      "q": "Doctor Zhivago Pasternak",
+      "strict": "/works/OL258301W",
+      "keyed": "/works/OL258301W",
+      "picked": "/works/OL258301W",
+      "picked_title": "Доктор Живаго",
+      "picked_editions": 176,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 11,
+      "entries": 11,
+      "stage2_editions": 11,
+      "stage2_editions_returned": 11
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Доктор Живаго Pasternak",
+     "num_found": 3,
+     "docs": 3,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL32722588W",
+       "Doctor Zhivago Доктор Живаго Doktor Zhivago",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "romanised",
+     "q": "Doktor Zhivago Pasternak",
+     "num_found": 67,
+     "docs": 67,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL28955995W",
+       "El Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL10441256W",
+       "The poems of Doctor Zhivago",
+       3
+      ],
+      [
+       "/works/OL31353573W",
+       "Doctor Zhivago / Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL28473460W",
+       "Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL31431616W",
+       "Doktor Zhivago",
+       2
+      ],
+      [
+       "/works/OL42514752W",
+       "Doctor Zhivago",
+       2
+      ],
+      [
+       "/works/OL40339043W",
+       "Doktor Zhivago",
+       2
+      ],
+      [
+       "/works/OL45247257W",
+       "Doktor Zhivago",
+       2
+      ],
+      [
+       "/works/OL37275388W",
+       "Doḳṭor Zhivago",
+       1
+      ],
+      [
+       "/works/OL34635976W",
+       "Doktor Zhivago.",
+       1
+      ],
+      [
+       "/works/OL44787204W",
+       "Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL32722588W",
+       "Doctor Zhivago Доктор Живаго Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL34567852W",
+       "Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL39575506W",
+       "Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL43693695W",
+       "Il dottor Živago",
+       2
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Il dottor Živago Pasternak",
+     "num_found": 6,
+     "docs": 6,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL43693695W",
+       "Il dottor Živago",
+       2
+      ],
+      [
+       "/works/OL43229931W",
+       "il dottor zivago",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "Doctor Zhivago Pasternak",
+     "num_found": 74,
+     "docs": 74,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL31357567W",
+      "/works/OL31375574W",
+      "/works/OL38068744W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL31357567W",
+      "/works/OL31375574W",
+      "/works/OL38068744W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL31357567W",
+      "/works/OL31375574W",
+      "/works/OL38068744W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL19375594W",
+       "Doctor Zhivago [adaptation]",
+       2
+      ],
+      [
+       "/works/OL10441256W",
+       "The poems of Doctor Zhivago",
+       3
+      ],
+      [
+       "/works/OL28955995W",
+       "El Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL43030860W",
+       "doctor zhivago",
+       2
+      ],
+      [
+       "/works/OL31702700W",
+       "The Poems Of Doctor Zhivago",
+       5
+      ],
+      [
+       "/works/OL31353573W",
+       "Doctor Zhivago / Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL32935596W",
+       "Doctor Zhivago",
+       2
+      ],
+      [
+       "/works/OL42514752W",
+       "Doctor Zhivago",
+       2
+      ],
+      [
+       "/works/OL35412354W",
+       "Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL29319451W",
+       "Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL37804848W",
+       "Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL44787204W",
+       "Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL32722588W",
+       "Doctor Zhivago Доктор Живаго Doktor Zhivago",
+       1
+      ],
+      [
+       "/works/OL38403315W",
+       "Doctor Zhivago PANTHEON",
+       1
+      ],
+      [
+       "/works/OL31294132W",
+       "Doctor Zhivago. a Novel",
+       1
+      ],
+      [
+       "/works/OL43184207W",
+       "Doctor Zhivago Volume I",
+       1
+      ],
+      [
+       "/works/OL34689341W",
+       "The Poems of Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL43307281W",
+       "the poems of doctor zhivago",
+       1
+      ],
+      [
+       "/works/OL43307282W",
+       "The Poems of Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL34791474W",
+       "El doctor Zhivago- 2020",
+       1
+      ],
+      [
+       "/works/OL34607338W",
+       "Doctor Zhivago",
+       1
+      ],
+      [
+       "/works/OL37786420W",
+       "Doctor Zhivago",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 3
+  },
+  "N02": {
+   "author": "Antoine de Saint-Exupéry",
+   "main_work": "/works/OL10263W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL34342511W": {
+     "title": "Little Prince",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Little Prince Antoine de Saint-Exupéry",
+      "strict": "/works/OL10263W",
+      "keyed": "/works/OL10263W",
+      "picked": "/works/OL10263W",
+      "picked_title": "Le petit prince",
+      "picked_editions": 689,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 4,
+      "entries": 4,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL34766796W": {
+     "title": "El Principito",
+     "stage2_editions": 6,
+     "by_title": {
+      "q": "El Principito Antoine de Saint-Exupéry",
+      "strict": "/works/OL10263W",
+      "keyed": "/works/OL10263W",
+      "picked": "/works/OL10263W",
+      "picked_title": "Le petit prince",
+      "picked_editions": 689,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 6,
+      "entries": 6,
+      "stage2_editions": 6,
+      "stage2_editions_returned": 6
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Le Petit Prince Antoine de Saint-Exupéry",
+     "num_found": 22,
+     "docs": 22,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL31497788W",
+       "Le Petit Prince",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "The Little Prince Antoine de Saint-Exupéry",
+     "num_found": 16,
+     "docs": 16,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL34342511W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL34342511W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL34342511W"
+     ],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry ita",
+     "q": "Il piccolo principe Antoine de Saint-Exupéry",
+     "num_found": 3,
+     "docs": 3,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 1
+  },
+  "N03": {
+   "author": "Primo Levi",
+   "main_work": "/works/OL860066W",
+   "duplicates": 1,
+   "per_duplicate": {
+    "/works/OL45064345W": {
+     "title": "Se questo e un uomo",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Se questo e un uomo Primo Levi",
+      "strict": "/works/OL860066W",
+      "keyed": "/works/OL860066W",
+      "picked": "/works/OL860066W",
+      "picked_title": "Se questo è un uomo",
+      "picked_editions": 112,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 1,
+      "entries": 1,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Se questo è un uomo Primo Levi",
+     "num_found": 16,
+     "docs": 16,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL45064345W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL45064345W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL45064345W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL860032W",
+       "Works (La tregua / Se questo è un uomo)",
+       19
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "If This Is a Man Primo Levi",
+     "num_found": 11,
+     "docs": 11,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL860032W",
+       "Works (La tregua / Se questo è un uomo)",
+       19
+      ],
+      [
+       "/works/OL45315882W",
+       "If this is a man",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry eng-2",
+     "q": "Survival in Auschwitz Primo Levi",
+     "num_found": 13,
+     "docs": 13,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL860032W",
+       "Works (La tregua / Se questo è un uomo)",
+       19
+      ],
+      [
+       "/works/OL37482894W",
+       "Survival In Auschwitz",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 1,
+   "duplicates_found_by_any_query": 1
+  },
+  "N04": {
+   "author": "Fëdor Dostoevskij",
+   "main_work": "/works/OL166894W",
+   "duplicates": 7,
+   "per_duplicate": {
+    "/works/OL28165123W": {
+     "title": "Crime and Punishment",
+     "stage2_editions": 3,
+     "by_title": {
+      "q": "Crime and Punishment Fëdor Dostoevskij",
+      "strict": null,
+      "keyed": "/works/OL166894W",
+      "picked": "/works/OL166894W",
+      "picked_title": "Преступление и наказание",
+      "picked_editions": 1179,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 8,
+      "entries": 8,
+      "stage2_editions": 3,
+      "stage2_editions_returned": 3
+     }
+    },
+    "/works/OL29485158W": {
+     "title": "Delitto e Castigo",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Delitto e Castigo Fëdor Dostoevskij",
+      "strict": null,
+      "keyed": "/works/OL166894W",
+      "picked": "/works/OL166894W",
+      "picked_title": "Преступление и наказание",
+      "picked_editions": 1179,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 1,
+      "entries": 1,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    },
+    "/works/OL31853879W": {
+     "title": "Prestuplenie i nakazanie",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Prestuplenie i nakazanie Fëdor Dostoevskij",
+      "strict": null,
+      "keyed": "/works/OL166894W",
+      "picked": "/works/OL166894W",
+      "picked_title": "Преступление и наказание",
+      "picked_editions": 1179,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL32525579W": {
+     "title": "Crime and Punishment",
+     "stage2_editions": 7,
+     "by_title": {
+      "q": "Crime and Punishment Fëdor Dostoevskij",
+      "strict": null,
+      "keyed": "/works/OL166894W",
+      "picked": "/works/OL166894W",
+      "picked_title": "Преступление и наказание",
+      "picked_editions": 1179,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 18,
+      "entries": 18,
+      "stage2_editions": 7,
+      "stage2_editions_returned": 7
+     }
+    },
+    "/works/OL40227912W": {
+     "title": "Crime and Punishment",
+     "stage2_editions": 5,
+     "by_title": {
+      "q": "Crime and Punishment Fëdor Dostoevskij",
+      "strict": null,
+      "keyed": "/works/OL166894W",
+      "picked": "/works/OL166894W",
+      "picked_title": "Преступление и наказание",
+      "picked_editions": 1179,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 5,
+      "entries": 5,
+      "stage2_editions": 5,
+      "stage2_editions_returned": 5
+     }
+    },
+    "/works/OL41794772W": {
+     "title": "Prestuplenie I Nakazanie",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Prestuplenie I Nakazanie Fëdor Dostoevskij",
+      "strict": null,
+      "keyed": "/works/OL166894W",
+      "picked": "/works/OL166894W",
+      "picked_title": "Преступление и наказание",
+      "picked_editions": 1179,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    },
+    "/works/OL45355488W": {
+     "title": "Prestuplenie i nakazanie",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Prestuplenie i nakazanie Fëdor Dostoevskij",
+      "strict": null,
+      "keyed": "/works/OL166894W",
+      "picked": "/works/OL166894W",
+      "picked_title": "Преступление и наказание",
+      "picked_editions": 1179,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Преступление и наказание Fëdor Dostoevskij",
+     "num_found": 6,
+     "docs": 6,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL27019438W",
+       "Prestuplenie i nakazanie - Преступление и наказание",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "romanised",
+     "q": "Prestuplenie i nakazanie Fëdor Dostoevskij",
+     "num_found": 67,
+     "docs": 67,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL31853879W",
+      "/works/OL41794772W",
+      "/works/OL45355488W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL31853879W",
+      "/works/OL41794772W",
+      "/works/OL45355488W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL31853879W",
+      "/works/OL41794772W",
+      "/works/OL45355488W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL28598039W",
+       "Prestuplenie i nakazanie",
+       2
+      ],
+      [
+       "/works/OL28473469W",
+       "Prestuplenie I Nakazanie",
+       1
+      ],
+      [
+       "/works/OL27019438W",
+       "Prestuplenie i nakazanie - Преступление и наказание",
+       1
+      ],
+      [
+       "/works/OL43976942W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL43732155W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL27027225W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL34948275W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL40943206W",
+       "Prestuplenie I Nakazanie",
+       1
+      ],
+      [
+       "/works/OL41469033W",
+       "Prestuplenie I Nakazanie",
+       1
+      ],
+      [
+       "/works/OL33423487W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL38578109W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL31824319W",
+       "Prestuplenīe i nakazanīe",
+       1
+      ],
+      [
+       "/works/OL43393853W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL44766238W",
+       "Prestuplenie i nakazanie",
+       1
+      ],
+      [
+       "/works/OL44630947W",
+       "Crime and punishment",
+       3
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "Crime and Punishment Fëdor Dostoevskij",
+     "num_found": 80,
+     "docs": 80,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL28165123W",
+      "/works/OL32525579W",
+      "/works/OL40227912W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL28165123W",
+      "/works/OL32525579W",
+      "/works/OL40227912W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL28165123W",
+      "/works/OL32525579W",
+      "/works/OL40227912W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL21062236W",
+       "Crime and Punishment",
+       2
+      ],
+      [
+       "/works/OL35730244W",
+       "Crime and Punishment",
+       4
+      ],
+      [
+       "/works/OL35681437W",
+       "CRIME AND PUNISHMENT",
+       1
+      ],
+      [
+       "/works/OL11465733W",
+       "The notebooks for 'Crime and punishment'",
+       4
+      ],
+      [
+       "/works/OL21152144W",
+       "Crime and Punishment : (OWC Hardback)",
+       1
+      ],
+      [
+       "/works/OL21144567W",
+       "Notebooks for Crime and Punishment",
+       3
+      ],
+      [
+       "/works/OL24408766W",
+       "Crime and Punishment",
+       3
+      ],
+      [
+       "/works/OL166871W",
+       "Crime and Punishment",
+       2
+      ],
+      [
+       "/works/OL36435681W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL15157646W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL43163438W",
+       "crime and punishment",
+       1
+      ],
+      [
+       "/works/OL43163451W",
+       "Crime and punishment ",
+       1
+      ],
+      [
+       "/works/OL44630947W",
+       "Crime and punishment",
+       3
+      ],
+      [
+       "/works/OL37473905W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL29700101W",
+       "Crime and Punishment",
+       2
+      ],
+      [
+       "/works/OL20819881W",
+       "Crime and Punishment",
+       2
+      ],
+      [
+       "/works/OL40232862W",
+       "Crime and Punishment : Crime and Punishment IV - VI",
+       1
+      ],
+      [
+       "/works/OL25424299W",
+       "CRIME and PUNISHMENT",
+       1
+      ],
+      [
+       "/works/OL26725052W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL42454690W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL43047587W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL43163437W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL43163444W",
+       "Crime and Punishment ",
+       1
+      ],
+      [
+       "/works/OL43163446W",
+       "crime and punishment",
+       1
+      ],
+      [
+       "/works/OL43163447W",
+       "Crime and punishment",
+       1
+      ],
+      [
+       "/works/OL42457543W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL44127611W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL29742052W",
+       "Crime and Punishment (Illustrated)",
+       1
+      ],
+      [
+       "/works/OL29433120W",
+       "Crime and Punishment (illustrated)",
+       1
+      ],
+      [
+       "/works/OL38230377W",
+       "Crime and Punishment Companion",
+       1
+      ],
+      [
+       "/works/OL43163459W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL43163458W",
+       "Crime and Punishment",
+       1
+      ],
+      [
+       "/works/OL40323034W",
+       "Crime and Punishment : (Russian Edition)",
+       1
+      ],
+      [
+       "/works/OL41517075W",
+       "Crime and Punishment Volume 1",
+       1
+      ],
+      [
+       "/works/OL41037157W",
+       "Crime and Punishment Volume 1",
+       1
+      ],
+      [
+       "/works/OL40993497W",
+       "Crime and Punishment Volume 2",
+       1
+      ],
+      [
+       "/works/OL41618777W",
+       "Crime and Punishment : (Russian Edition)",
+       1
+      ],
+      [
+       "/works/OL41390192W",
+       "Crime and Punishment : (Russian Edition)",
+       1
+      ],
+      [
+       "/works/OL41103733W",
+       "Crime and Punishment Volume 2",
+       1
+      ],
+      [
+       "/works/OL33743539W",
+       "The notebooks for Crime and punishment",
+       1
+      ],
+      [
+       "/works/OL31664395W",
+       "The notebooks for Crime and punishment",
+       1
+      ],
+      [
+       "/works/OL43594488W",
+       "Crime and Punishment (Annotated",
+       1
+      ],
+      [
+       "/works/OL40951513W",
+       "Crime and Punishment Companion : (with Book and Study Guide)",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Delitto e castigo Fëdor Dostoevskij",
+     "num_found": 9,
+     "docs": 9,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL29485158W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL29485158W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL29485158W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL24232265W",
+       "Delitto e castigo",
+       1
+      ],
+      [
+       "/works/OL28185167W",
+       "Delitto e castigo",
+       1
+      ],
+      [
+       "/works/OL44016732W",
+       "Delitto e castigo",
+       1
+      ],
+      [
+       "/works/OL28995740W",
+       "Delitto e Castigo",
+       1
+      ],
+      [
+       "/works/OL29525567W",
+       "Delitto e Castigo REMAKE",
+       1
+      ],
+      [
+       "/works/OL44922196W",
+       "Delitto e castigo",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 7
+  },
+  "N06": {
+   "author": "George Orwell",
+   "main_work": "/works/OL1168083W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL23745689W": {
+     "title": "1984",
+     "stage2_editions": 4,
+     "by_title": {
+      "q": "1984 George Orwell",
+      "strict": "/works/OL1168007W",
+      "keyed": "/works/OL1168007W",
+      "picked": "/works/OL1168007W",
+      "picked_title": "Animal Farm",
+      "picked_editions": 653,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 7,
+      "entries": 7,
+      "stage2_editions": 4,
+      "stage2_editions_returned": 4
+     }
+    },
+    "/works/OL30827457W": {
+     "title": "1984",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "1984 George Orwell",
+      "strict": "/works/OL1168007W",
+      "keyed": "/works/OL1168007W",
+      "picked": "/works/OL1168007W",
+      "picked_title": "Animal Farm",
+      "picked_editions": 653,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 8,
+      "entries": 8,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Nineteen Eighty-Four George Orwell",
+     "num_found": 104,
+     "docs": 100,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL1167981W",
+       "Animal Farm / Nineteen Eighty-Four",
+       37
+      ],
+      [
+       "/works/OL1168095W",
+       "Orwell's Nineteen Eighty-Four",
+       2
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "1984 George Orwell",
+     "num_found": 329,
+     "docs": 100,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL23745689W",
+      "/works/OL30827457W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL23745689W",
+      "/works/OL30827457W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL23745689W",
+      "/works/OL30827457W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL1167981W",
+       "Animal Farm / Nineteen Eighty-Four",
+       37
+      ],
+      [
+       "/works/OL28627804W",
+       "1984",
+       5
+      ],
+      [
+       "/works/OL1168095W",
+       "Orwell's Nineteen Eighty-Four",
+       2
+      ],
+      [
+       "/works/OL28769158W",
+       "1984",
+       3
+      ],
+      [
+       "/works/OL43426523W",
+       "1984",
+       1
+      ],
+      [
+       "/works/OL24143668W",
+       "1984",
+       3
+      ],
+      [
+       "/works/OL31018330W",
+       "1984",
+       1
+      ],
+      [
+       "/works/OL28129113W",
+       "1984",
+       2
+      ],
+      [
+       "/works/OL35080816W",
+       "1984",
+       5
+      ]
+     ]
+    },
+    {
+     "label": "entry ita-2",
+     "q": "Millenovecentottantaquattro George Orwell",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 2
+  },
+  "N07": {
+   "author": "Italo Calvino",
+   "main_work": null,
+   "duplicates": 4,
+   "per_duplicate": {
+    "/works/OL15314W": {
+     "title": "Si Una Noche de Invierno Un Viajero",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Si Una Noche de Invierno Un Viajero Italo Calvino",
+      "strict": "/works/OL15321W",
+      "keyed": "/works/OL15321W",
+      "picked": "/works/OL15321W",
+      "picked_title": "Se una notte d'inverno un viaggiatore",
+      "picked_editions": 31,
+      "outcome": "another duplicate",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    },
+    "/works/OL15321W": {
+     "title": "Se una notte d'inverno un viaggiatore",
+     "stage2_editions": 12,
+     "by_title": {
+      "q": "Se una notte d'inverno un viaggiatore Italo Calvino",
+      "strict": null,
+      "keyed": null,
+      "picked": null,
+      "picked_title": null,
+      "picked_editions": null,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 31,
+      "entries": 31,
+      "stage2_editions": 12,
+      "stage2_editions_returned": 12
+     }
+    },
+    "/works/OL15331W": {
+     "title": "Si par une nuit d'hiver un voyageur",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Si par une nuit d'hiver un voyageur Italo Calvino",
+      "strict": null,
+      "keyed": null,
+      "picked": null,
+      "picked_title": null,
+      "picked_editions": null,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 4,
+      "entries": 4,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL21784995W": {
+     "title": "If on a Winter's Night a Traveler",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "If on a Winter's Night a Traveler Italo Calvino",
+      "strict": "/works/OL15321W",
+      "keyed": "/works/OL15321W",
+      "picked": "/works/OL15321W",
+      "picked_title": "Se una notte d'inverno un viaggiatore",
+      "picked_editions": 31,
+      "outcome": "another duplicate",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Se una notte d'inverno un viaggiatore Italo Calvino",
+     "num_found": 5,
+     "docs": 5,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "If on a Winter's Night a Traveler Italo Calvino",
+     "num_found": 10,
+     "docs": 10,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [
+      "/works/OL15321W",
+      "/works/OL21784995W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL15321W",
+      "/works/OL21784995W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL15321W",
+      "/works/OL21784995W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL15166444W",
+       "If on a Winter's Night a Traveler",
+       1
+      ],
+      [
+       "/works/OL28592458W",
+       "If on a Winter's Night a Traveller",
+       1
+      ],
+      [
+       "/works/OL27360336W",
+       "If on a Winter's Night a Traveler",
+       1
+      ],
+      [
+       "/works/OL25127535W",
+       "If on a Winter's Night a Traveller",
+       1
+      ],
+      [
+       "/works/OL34026241W",
+       "If on a Winter's Night a Traveller",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 2
+  },
+  "N10": {
+   "author": "Albert Camus",
+   "main_work": "/works/OL1230613W",
+   "duplicates": 1,
+   "per_duplicate": {
+    "/works/OL36530092W": {
+     "title": "Lo Straniero",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Lo Straniero Albert Camus",
+      "strict": "/works/OL1230613W",
+      "keyed": "/works/OL1230613W",
+      "picked": "/works/OL1230613W",
+      "picked_title": "L’étranger",
+      "picked_editions": 468,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "L'Étranger Albert Camus",
+     "num_found": 74,
+     "docs": 74,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "The Stranger Albert Camus",
+     "num_found": 61,
+     "docs": 61,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng-2",
+     "q": "The Outsider Albert Camus",
+     "num_found": 17,
+     "docs": 17,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry ita",
+     "q": "Lo straniero Albert Camus",
+     "num_found": 4,
+     "docs": 4,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL36530092W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL36530092W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL36530092W"
+     ],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 1
+  },
+  "N11": {
+   "author": "Georges Perec",
+   "main_work": "/works/OL1715351W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL1715344W": {
+     "title": "Disparition",
+     "stage2_editions": 3,
+     "by_title": {
+      "q": "Disparition Georges Perec",
+      "strict": "/works/OL1715351W",
+      "keyed": "/works/OL1715351W",
+      "picked": "/works/OL1715351W",
+      "picked_title": "La Disparition",
+      "picked_editions": 10,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 4,
+      "entries": 4,
+      "stage2_editions": 3,
+      "stage2_editions_returned": 3
+     }
+    },
+    "/works/OL42300107W": {
+     "title": "La disparition",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "La disparition Georges Perec",
+      "strict": "/works/OL1715351W",
+      "keyed": "/works/OL1715351W",
+      "picked": "/works/OL1715351W",
+      "picked_title": "La Disparition",
+      "picked_editions": 10,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 1,
+      "entries": 1,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "La Disparition Georges Perec",
+     "num_found": 10,
+     "docs": 10,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL42300107W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL42300107W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL42300107W"
+     ],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "A Void Georges Perec",
+     "num_found": 1,
+     "docs": 1,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [
+      "/works/OL1715344W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL1715344W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL1715344W"
+     ],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry ita",
+     "q": "La scomparsa Georges Perec",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 1,
+   "duplicates_found_by_any_query": 2
+  },
+  "N12": {
+   "author": "Franz Kafka",
+   "main_work": "/works/OL498463W",
+   "duplicates": 3,
+   "per_duplicate": {
+    "/works/OL43043884W": {
+     "title": "The Trial",
+     "stage2_editions": 7,
+     "by_title": {
+      "q": "The Trial Franz Kafka",
+      "strict": "/works/OL498556W",
+      "keyed": "/works/OL498556W",
+      "picked": "/works/OL498556W",
+      "picked_title": "Metamorphosis",
+      "picked_editions": 955,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 7,
+      "entries": 7,
+      "stage2_editions": 7,
+      "stage2_editions_returned": 7
+     }
+    },
+    "/works/OL43052457W": {
+     "title": "the trial",
+     "stage2_editions": 3,
+     "by_title": {
+      "q": "the trial Franz Kafka",
+      "strict": "/works/OL498556W",
+      "keyed": "/works/OL498556W",
+      "picked": "/works/OL498556W",
+      "picked_title": "Metamorphosis",
+      "picked_editions": 955,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 3,
+      "stage2_editions_returned": 3
+     }
+    },
+    "/works/OL44551164W": {
+     "title": "Trial",
+     "stage2_editions": 4,
+     "by_title": {
+      "q": "Trial Franz Kafka",
+      "strict": "/works/OL498556W",
+      "keyed": "/works/OL498556W",
+      "picked": "/works/OL498556W",
+      "picked_title": "Metamorphosis",
+      "picked_editions": 955,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 4,
+      "entries": 4,
+      "stage2_editions": 4,
+      "stage2_editions_returned": 4
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Der Process Franz Kafka",
+     "num_found": 48,
+     "docs": 48,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL20231814W",
+       "Der Process",
+       2
+      ],
+      [
+       "/works/OL37509903W",
+       "Der Proceß",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ger-2",
+     "q": "Der Prozess Franz Kafka",
+     "num_found": 122,
+     "docs": 100,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL33094027W",
+       "Der Prozess",
+       1
+      ],
+      [
+       "/works/OL44239374W",
+       "Der Prozess",
+       2
+      ],
+      [
+       "/works/OL42602621W",
+       "Der Prozess",
+       2
+      ],
+      [
+       "/works/OL33063186W",
+       "Der Prozeß",
+       1
+      ],
+      [
+       "/works/OL44909240W",
+       "Der Prozess",
+       1
+      ],
+      [
+       "/works/OL45559836W",
+       "Der Prozess",
+       1
+      ],
+      [
+       "/works/OL28772889W",
+       "Der Prozeß",
+       1
+      ],
+      [
+       "/works/OL34560791W",
+       "Der Prozess",
+       1
+      ],
+      [
+       "/works/OL34606265W",
+       "Der Prozess",
+       1
+      ],
+      [
+       "/works/OL34768460W",
+       "Der Prozess.",
+       1
+      ],
+      [
+       "/works/OL42513690W",
+       "Der Prozeß",
+       1
+      ],
+      [
+       "/works/OL33703005W",
+       "Der Prozess.  Roman",
+       1
+      ],
+      [
+       "/works/OL34642487W",
+       "Der Prozess (Roman)",
+       1
+      ],
+      [
+       "/works/OL43174769W",
+       "Der Prozess Roman",
+       1
+      ],
+      [
+       "/works/OL45452636W",
+       "Der Prozess",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "The Trial Franz Kafka",
+     "num_found": 95,
+     "docs": 95,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL43043884W",
+      "/works/OL43052457W",
+      "/works/OL44551164W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL43043884W",
+      "/works/OL43052457W",
+      "/works/OL44551164W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL43043884W",
+      "/works/OL43052457W",
+      "/works/OL44551164W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL41619190W",
+       "Trial : ",
+       2
+      ],
+      [
+       "/works/OL6233414W",
+       "The Trial",
+       2
+      ],
+      [
+       "/works/OL43038945W",
+       "The Trial",
+       1
+      ],
+      [
+       "/works/OL45689496W",
+       "The trial",
+       1
+      ],
+      [
+       "/works/OL31652772W",
+       "The trial",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Il processo Franz Kafka",
+     "num_found": 11,
+     "docs": 11,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL44016779W",
+       "Il processo",
+       1
+      ],
+      [
+       "/works/OL45139150W",
+       "Il processo",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 3
+  },
+  "N13": {
+   "author": "Byung-Chul Han",
+   "main_work": null,
+   "duplicates": 1,
+   "per_duplicate": {
+    "/works/OL17795654W": {
+     "title": "Müdigkeitsgesellschaft",
+     "stage2_editions": 9,
+     "by_title": {
+      "q": "Müdigkeitsgesellschaft Byung-Chul Han",
+      "strict": null,
+      "keyed": null,
+      "picked": null,
+      "picked_title": null,
+      "picked_editions": null,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 10,
+      "entries": 10,
+      "stage2_editions": 9,
+      "stage2_editions_returned": 9
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Müdigkeitsgesellschaft Byung-Chul Han",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "The Burnout Society Byung-Chul Han",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry ita",
+     "q": "La società della stanchezza Byung-Chul Han",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 0
+  },
+  "N14": {
+   "author": "José Saramago",
+   "main_work": "/works/OL27420W",
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL16212507W": {
+     "title": "Blindness",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Blindness José Saramago",
+      "strict": "/works/OL27420W",
+      "keyed": "/works/OL27420W",
+      "picked": "/works/OL27420W",
+      "picked_title": "Ensaio Sobre a Cegueira",
+      "picked_editions": 40,
+      "outcome": "the main work",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL26661744W": {
+     "title": "Cecità",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Cecità José Saramago",
+      "strict": "/works/OL26661744W",
+      "keyed": "/works/OL26661744W",
+      "picked": "/works/OL26661744W",
+      "picked_title": "Cecità",
+      "picked_editions": 2,
+      "outcome": "the duplicate",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Ensaio sobre a cegueira José Saramago",
+     "num_found": 15,
+     "docs": 15,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL16212507W",
+      "/works/OL26661744W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL16212507W",
+      "/works/OL26661744W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL16212507W",
+      "/works/OL26661744W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL17795530W",
+       "Ensaio sobre a cegueira",
+       0
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "Blindness José Saramago",
+     "num_found": 19,
+     "docs": 19,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [
+      "/works/OL16212507W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL16212507W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL16212507W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL25681676W",
+       "Blindness",
+       1
+      ],
+      [
+       "/works/OL27360642W",
+       "Blindness",
+       1
+      ],
+      [
+       "/works/OL33699894W",
+       "Blindness",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Cecità José Saramago",
+     "num_found": 2,
+     "docs": 2,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [
+      "/works/OL26661744W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL26661744W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL26661744W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL19833586W",
+       "Cecita",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 2,
+   "duplicates_found_by_any_query": 2
+  },
+  "N16": {
+   "author": "Yu Hua",
+   "main_work": null,
+   "duplicates": 2,
+   "per_duplicate": {
+    "/works/OL25686018W": {
+     "title": "To Live",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "To Live Yu Hua",
+      "strict": null,
+      "keyed": "/works/OL3240289W",
+      "picked": "/works/OL3240289W",
+      "picked_title": "Huo zhe",
+      "picked_editions": 5,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 3,
+      "entries": 3,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL8036242W": {
+     "title": "To Live",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "To Live Yu Hua",
+      "strict": null,
+      "keyed": "/works/OL3240289W",
+      "picked": "/works/OL3240289W",
+      "picked_title": "Huo zhe",
+      "picked_editions": 5,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "活着 Yu Hua",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "romanised",
+     "q": "Huozhe Yu Hua",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "To Live Yu Hua",
+     "num_found": 52,
+     "docs": 52,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [
+      "/works/OL25686018W",
+      "/works/OL8036242W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL25686018W",
+      "/works/OL8036242W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL25686018W",
+      "/works/OL8036242W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL15861449W",
+       "To live",
+       1
+      ],
+      [
+       "/works/OL9689746M",
+       "To Live",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Vivere! Yu Hua",
+     "num_found": 1,
+     "docs": 1,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 2
+  },
+  "N17": {
+   "author": "Naguib Mahfouz",
+   "main_work": "/works/OL1599742W",
+   "duplicates": 1,
+   "per_duplicate": {
+    "/works/OL16621871W": {
+     "title": "Tra i due palazzi",
+     "stage2_editions": 1,
+     "by_title": {
+      "q": "Tra i due palazzi Naguib Mahfouz",
+      "strict": null,
+      "keyed": "/works/OL16621871W",
+      "picked": "/works/OL16621871W",
+      "picked_title": "Tra i due palazzi",
+      "picked_editions": 1,
+      "outcome": "the duplicate",
+      "error": null
+     },
+     "by_key": {
+      "size": 1,
+      "entries": 1,
+      "stage2_editions": 1,
+      "stage2_editions_returned": 1
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "بين القصرين Naguib Mahfouz",
+     "num_found": 2,
+     "docs": 2,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "romanised",
+     "q": "Bayn al-Qasrayn Naguib Mahfouz",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry eng",
+     "q": "Palace Walk Naguib Mahfouz",
+     "num_found": 5,
+     "docs": 5,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "entry ita",
+     "q": "Tra i due palazzi Naguib Mahfouz",
+     "num_found": 1,
+     "docs": 1,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [
+      "/works/OL16621871W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL16621871W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL16621871W"
+     ],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 1
+  },
+  "N21": {
+   "author": "Pablo Neruda",
+   "main_work": "/works/OL979517W",
+   "duplicates": 1,
+   "per_duplicate": {
+    "/works/OL14958698W": {
+     "title": "Vingt poèmes d'amour et une chanson désespérée",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Vingt poèmes d'amour et une chanson désespérée Pablo Neruda",
+      "strict": null,
+      "keyed": null,
+      "picked": null,
+      "picked_title": null,
+      "picked_editions": null,
+      "outcome": "none",
+      "error": null
+     },
+     "by_key": {
+      "size": 2,
+      "entries": 2,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Veinte poemas de amor y una canción desesperada Pablo Neruda",
+     "num_found": 12,
+     "docs": 12,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL979577W",
+       "Cien Sonetos de Amor - Veinte Poemas de Amor",
+       8
+      ],
+      [
+       "/works/OL979787W",
+       "Veinte poemas de amor y una cancion desesperada  Los versos del capitan",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "Twenty Love Poems and a Song of Despair Pablo Neruda",
+     "num_found": 6,
+     "docs": 6,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL30526511W",
+       "Twenty Love Poems and a Song of Despair",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Venti poesie d'amore e una canzone disperata Pablo Neruda",
+     "num_found": 0,
+     "docs": 0,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 0
+  },
+  "N23": {
+   "author": "Homer",
+   "main_work": "/works/OL29477874W",
+   "duplicates": 3,
+   "per_duplicate": {
+    "/works/OL40486321W": {
+     "title": "Odyssey",
+     "stage2_editions": 2,
+     "by_title": {
+      "q": "Odyssey Homer",
+      "strict": "/works/OL12818091W",
+      "keyed": "/works/OL61981W",
+      "picked": "/works/OL12818091W",
+      "picked_title": "Homer",
+      "picked_editions": 29,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 10,
+      "entries": 10,
+      "stage2_editions": 2,
+      "stage2_editions_returned": 2
+     }
+    },
+    "/works/OL43237040W": {
+     "title": "The Odyssey",
+     "stage2_editions": 6,
+     "by_title": {
+      "q": "The Odyssey Homer",
+      "strict": "/works/OL12818091W",
+      "keyed": "/works/OL61981W",
+      "picked": "/works/OL12818091W",
+      "picked_title": "Homer",
+      "picked_editions": 29,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 6,
+      "entries": 6,
+      "stage2_editions": 6,
+      "stage2_editions_returned": 6
+     }
+    },
+    "/works/OL44997837W": {
+     "title": "Odyssey",
+     "stage2_editions": 4,
+     "by_title": {
+      "q": "Odyssey Homer",
+      "strict": "/works/OL12818091W",
+      "keyed": "/works/OL61981W",
+      "picked": "/works/OL12818091W",
+      "picked_title": "Homer",
+      "picked_editions": 29,
+      "outcome": "other work",
+      "error": null
+     },
+     "by_key": {
+      "size": 4,
+      "entries": 4,
+      "stage2_editions": 4,
+      "stage2_editions_returned": 4
+     }
+    }
+   },
+   "queries": [
+    {
+     "label": "original",
+     "q": "Ὀδύσσεια Homer",
+     "num_found": 6,
+     "docs": 6,
+     "error": null,
+     "main_in_author_docs": true,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": []
+    },
+    {
+     "label": "romanised",
+     "q": "Odysseia Homer",
+     "num_found": 131,
+     "docs": 100,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL44697574W",
+       "Odysseia",
+       2
+      ],
+      [
+       "/works/OL24330923W",
+       "Odysseia",
+       8
+      ],
+      [
+       "/works/OL32194928W",
+       "Odysseia",
+       1
+      ],
+      [
+       "/works/OL34532794W",
+       "Odysseia",
+       4
+      ],
+      [
+       "/works/OL45739214W",
+       "Odysseia",
+       1
+      ],
+      [
+       "/works/OL38510645W",
+       "Odysseia",
+       4
+      ],
+      [
+       "/works/OL42737215W",
+       "Odysseia",
+       1
+      ],
+      [
+       "/works/OL44825376W",
+       "Odysseia",
+       1
+      ],
+      [
+       "/works/OL16110026W",
+       "Odysseia",
+       1
+      ],
+      [
+       "/works/OL23424882W",
+       "Odysseia",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry eng",
+     "q": "The Odyssey Homer",
+     "num_found": 1174,
+     "docs": 100,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [
+      "/works/OL43237040W",
+      "/works/OL44997837W"
+     ],
+     "duplicates_in_any_doc": [
+      "/works/OL43237040W",
+      "/works/OL44997837W"
+     ],
+     "duplicates_passing_title_test": [
+      "/works/OL43237040W",
+      "/works/OL44997837W"
+     ],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL26446888W",
+       "The Odyssey",
+       118
+      ],
+      [
+       "/works/OL26784440W",
+       "Odyssey",
+       240
+      ],
+      [
+       "/works/OL17812254W",
+       "The Odyssey",
+       20
+      ],
+      [
+       "/works/OL29364585W",
+       "Odyssey",
+       22
+      ],
+      [
+       "/works/OL27292337W",
+       "The Odyssey",
+       11
+      ],
+      [
+       "/works/OL31412424W",
+       "The Odyssey",
+       7
+      ],
+      [
+       "/works/OL33663792W",
+       "The Odyssey",
+       3
+      ],
+      [
+       "/works/OL40076194W",
+       "Odyssey",
+       6
+      ],
+      [
+       "/works/OL44738413W",
+       "The Odyssey",
+       3
+      ],
+      [
+       "/works/OL32939015W",
+       "The Odyssey.",
+       1
+      ]
+     ]
+    },
+    {
+     "label": "entry ita",
+     "q": "Odissea Homer",
+     "num_found": 127,
+     "docs": 100,
+     "error": null,
+     "main_in_author_docs": false,
+     "duplicates_in_author_docs": [],
+     "duplicates_in_any_doc": [],
+     "duplicates_passing_title_test": [],
+     "other_author_docs_passing_title_test": [
+      [
+       "/works/OL26995759W",
+       "Odissea",
+       11
+      ],
+      [
+       "/works/OL45967711W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL18021904W",
+       "Odissea",
+       2
+      ],
+      [
+       "/works/OL45949140W",
+       "L'Odissea",
+       1
+      ],
+      [
+       "/works/OL43647803W",
+       "L'Odissea",
+       1
+      ],
+      [
+       "/works/OL43482467W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL22291917W",
+       "L'Odissea",
+       3
+      ],
+      [
+       "/works/OL31648264W",
+       "Odissea",
+       2
+      ],
+      [
+       "/works/OL25424757W",
+       "Odissea",
+       3
+      ],
+      [
+       "/works/OL34807427W",
+       "L'Odissea",
+       2
+      ],
+      [
+       "/works/OL30811293W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL34957281W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL38945161W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL40776507W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL42606982W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL23457793W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL16110010W",
+       "L'odissea",
+       1
+      ],
+      [
+       "/works/OL42690268W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL20808052W",
+       "L'Odissea",
+       1
+      ],
+      [
+       "/works/OL37237013W",
+       "L'Odissea",
+       1
+      ],
+      [
+       "/works/OL16110021W",
+       "Odissea",
+       1
+      ],
+      [
+       "/works/OL38771999W",
+       "L'Odissea .",
+       1
+      ],
+      [
+       "/works/OL19692703W",
+       "L'Odissea ...",
+       1
+      ]
+     ]
+    }
+   ],
+   "duplicates_found_by_original_title": 0,
+   "duplicates_found_by_any_query": 2
+  }
+ }
+}
