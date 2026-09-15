@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "created": "2026-09-14",
  "about": "Benchmark corpus for docs/assessment-2026-09-14.md §9. Entry titles: existing books from STRATEGY.md 'Convergence sets' and 'Single cases' (Živago from docs/Task.md); N1-N24 from §9, with the original title as the UC3 entry. query_author is the author string sent with every entry title: the form the regression tables use for existing books, the §9 form for new ones. ground_truth is filled in step 1 of Stage 1. Ground truth: facts from Wikipedia article text, national-library records (SBN, LoC, BnF, DNB) or the publisher; never from Wikidata. Raw evidence: results/stage-1/gt_catalogues.json, gt_wikipedia.json.",
  "books": [
@@ -744,7 +744,8 @@
     {
      "key": "rus",
      "lang": "rus",
-     "title": "Доктор Живаго"
+     "title": "Doktor Zhivago",
+     "script_title": "Доктор Живаго"
     }
    ],
    "origin": "assessment §2 / docs/Task.md",
@@ -1008,7 +1009,8 @@
     {
      "key": "rus",
      "lang": "rus",
-     "title": "Преступление и наказание"
+     "title": "Prestuplenie i nakazanie",
+     "script_title": "Преступление и наказание"
     },
     {
      "key": "eng",
@@ -1721,7 +1723,8 @@
     {
      "key": "chi",
      "lang": "chi",
-     "title": "活着"
+     "title": "Huozhe",
+     "script_title": "活着"
     },
     {
      "key": "eng",
@@ -1781,7 +1784,8 @@
     {
      "key": "ara",
      "lang": "ara",
-     "title": "بين القصرين"
+     "title": "Bayn al-Qasrayn",
+     "script_title": "بين القصرين"
     },
     {
      "key": "eng",
@@ -1894,7 +1898,8 @@
     {
      "key": "ita",
      "lang": "ita",
-     "title": "Domani, e domani, e domani"
+     "title": "Tomorrow, and tomorrow, and tomorrow",
+     "stage1_title": "Domani, e domani, e domani"
     }
    ],
    "origin": "§9 N19",
@@ -1918,8 +1923,9 @@
       "evidence": "original title"
      },
      "ita": {
-      "published": false,
-      "evidence": "it.wikipedia 'Tomorrow, and Tomorrow, and Tomorrow': the Italian translation keeps the original title, Nord, March 2023; SBN UBO4696991: Tomorrow, and tomorrow, and tomorrow : romanzo, [Milano] : Nord, 2023; OPAC: 0 records for 'Domani, e domani, e domani' + Zevin"
+      "published": true,
+      "evidence": "SBN UBO4696991: Tomorrow, and tomorrow, and tomorrow : romanzo, [Milano] : Nord, 2023; it.wikipedia 'Tomorrow, and Tomorrow, and Tomorrow': the Italian translation keeps the original title (Stage 1 entry 'Domani, e domani, e domani' had 0 OPAC records)",
+      "stage1_published": false
      }
     },
     "first_edition_differs": false,
@@ -2107,7 +2113,8 @@
     {
      "key": "grc",
      "lang": "grc",
-     "title": "Ὀδύσσεια"
+     "title": "Odysseia",
+     "script_title": "Ὀδύσσεια"
     },
     {
      "key": "eng",
@@ -2209,7 +2216,9 @@
    "person": "Haruki Murakami",
    "variants": [
     "Murakami Haruki",
-    "Haruki Murakami",
+    "Haruki Murakami"
+   ],
+   "script_variants": [
     "村上春樹"
    ]
   },
@@ -2219,7 +2228,9 @@
    "variants": [
     "Fëdor Dostoevskij",
     "Fyodor Dostoevsky",
-    "Dostoïevski",
+    "Dostoïevski"
+   ],
+   "script_variants": [
     "Фёдор Достоевский"
    ]
   },
@@ -2256,7 +2267,9 @@
    "person": "Byung-Chul Han",
    "variants": [
     "Byung-Chul Han",
-    "Han Byung-Chul",
+    "Han Byung-Chul"
+   ],
+   "script_variants": [
     "한병철"
    ]
   },
@@ -2268,5 +2281,9 @@
     "Garcia Marquez"
    ]
   }
+ ],
+ "decisions": [
+  "2026-09-15, user answer 2 (bench/RESULTS.md): Latin script only. Non-Latin entry titles are replaced by original_title_romanised; the script form is kept as script_title. Non-Latin author variants are dropped (script_variants).",
+  "2026-09-15, user answer 5: N19's Italian entry is the published Italian title; the Stage 1 title is kept as stage1_title."
  ]
 }

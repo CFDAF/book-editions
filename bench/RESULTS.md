@@ -8,7 +8,7 @@ Evidence tags: **V** verified with a control · **M** measured · **D** document
 | Stage | State | Date | Commit |
 |---|---|---|---|
 | 1 — ground truth, A1, A3, A5, A6, A7, A8 | done | 2026-09-14 | `defe095` (branch `bench/stage-1`) |
-| 2 — A2, today's pipeline against listing by identity | todo | | |
+| 2 — A2, today's pipeline against listing by identity | running | 2026-09-15 | branch `bench/stage-2` |
 | 3 — A4, merging duplicates by collision | todo | | |
 
 ---
@@ -148,6 +148,18 @@ Totals over every Stage 1 script, re-runs included (cached requests are not coun
 5. **N19.** Keep *Domani, e domani, e domani* as a negative entry in Stage 2, or replace it with the published Italian title?
 6. **User-Agent.** A8 supports switching `net.USER_AGENT` to the contact form. That is a code change for a later step; confirm it goes into the plan.
 7. **Stage 2 baselines.** 4 books (N07, N13, N16, N24) have no Open Library listing and 8 (E10, E11, E12, E13, E14, E15, N04, N23) have no SBN listing. Stage 2 will classify their losses against empty listings; is that the intended reading?
+
+### Answers (user, 2026-09-15)
+
+| # | Answer | Effect |
+|---|---|---|
+| 1 | Open: the user asked for the issue and options explained | none on Stage 2, which compares against the Stage 1 listings as they are |
+| 2 | **Latin script only; non-Latin titles and names are normalised to Latin** | `corpus.json` v2: the five non-Latin entry titles become the corpus romanisation (`Doktor Zhivago`, `Prestuplenie i nakazanie`, `Huozhe`, `Bayn al-Qasrayn`, `Odysseia`), the script form kept as `script_title`; author variants 村上春樹, Фёдор Достоевский, 한병철 dropped (their Latin forms are already variants). Reading, to confirm: names and titles that sources file in non-Latin script (Open Library 村上春樹, نجيب محفوظ; Wikidata P1476) are romanised before matching |
+| 3 | Open: the user asked what "coverage census" means | none on Stage 2 |
+| 4 | Open: to be discussed | none on Stage 2 |
+| 5 | **Use the real title** | N19 `ita` entry becomes *Tomorrow, and tomorrow, and tomorrow* (Nord, 2023), the old title kept as `stage1_title`. It differs from the `eng` entry only in case, so the pair doubles as a cold-vs-cold noise floor, as N15's three *2666* entries do |
+| 6 | **Yes**: switching `net.USER_AGENT` to the contact form goes into the plan | `lookup/net.py` stays unchanged during the benchmark; Stage 2 runs today's User-Agent |
+| 7 | **Keep them as "difficult" control items** | Stage 2 runs them. Records found for a book with no Stage 1 listing in that source are reported apart from losses, each judged same work or not |
 
 ---
 
