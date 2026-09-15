@@ -9,7 +9,7 @@ Evidence tags: **V** verified with a control · **M** measured · **D** document
 |---|---|---|---|
 | 1 — ground truth, A1, A3, A5, A6, A7, A8 | done | 2026-09-14 | `defe095` (branch `bench/stage-1`) |
 | 2 — A2, today's pipeline against listing by identity | done | 2026-09-15 | `7742793` (branch `bench/stage-2`) |
-| 3 — A4, merging duplicates by collision | todo | | |
+| 3 — A4, merging duplicates by collision | done | 2026-09-15 | pending (branch `bench/stage-3`) |
 
 ---
 
@@ -683,3 +683,201 @@ Retries are urllib3's, inside one logged request.
 |---|---|---|---|---|
 | opac.sbn.it/opacmobilegw | 1650 | 3 | 836.3 | ConnectTimeoutError×23, ProtocolError×2 |
 | openlibrary.org | 14 | 0 | 18.1 | 0 |
+
+---
+
+## Stage 3
+
+### Verdict
+
+| # | Assumption | Metric (8 books; 778 SBN rows, 1,405 Open Library editions, pairs within a book) | Fail criterion | Result | Evidence |
+|---|---|---|---|---|---|
+| A4 | Cross-source duplicates can be found by a (language, year, normalised publisher) collision, fetching details only for colliding rows | **Precision 82 / 125 = 0.656** over collisions where both sides have an ISBN. Per book: N06 17/38 **0.447** · N08 5/10 0.5 · E01 20/29 0.69 · N01 15/20 0.75 · N14 6/7 0.857 · N10 17/19 0.895 · E02 2/2 1.0 · N19 0/0. Exact-publisher rule 0.664; Open Library no-language-matches rule 0.636. Recall 82 / 499 = 0.164 (same-year truth pairs 82 / 130 = 0.631; 166 / 499 once the colliding rows' ISBNs are compared with every edition). Unverifiable collisions 288 (SBN lacks ISBN 25, Open Library lacks 45, both 218). SBN–SBN collisions 387. **Detail fetches 146 of 778 (saving 81.2%)**, 105 if only rows colliding with an ISBN-bearing edition | precision < 95%, or no fetch saving | **FAIL** (precision; the fetch saving holds) | M; fetch control V (bogus BID → body with no `codiceIdentificativo`; 778 of 778 records name the BID asked for) |
+
+### What each result means
+
+**Precision: one publisher issues several ISBNs in one year.**
+- All 43 false positives pair records with the same language, year and publisher but different ISBNs. Examples:
+  - one publisher's edition for another country. ISBN registration groups ([ranges](https://www.isbn-international.org/range_file_generation)) **D**: Alfaguara 978-84 (Spain) against 978-968 (Mexico), N14; Tusquets 978-84 against 978-958 (Colombia), N01; Debolsillo 978-84 against 978-987 (Argentina), E01 × 2;
+  - other bindings and lines from one publisher: N06 Faber 2021 `9780571355884` / `…891`; Oscar Mondadori `9788804507451` against Mondadori `9788804627821` (2013) and `9788804604143` (2010); Penguin, Longman, Vintage, Harper Perennial, Harcourt Brace, New American Library.
+- 5 of the 43 involve a record that is not a plain edition (`judgements.STAGE3`): a York Notes study guide (`VIA0214939`, 2 pairs), a Penguin Readers retelling (`TO10037839`), the Meridiani *Romanzi e saggi* (`TO02081267`), all three linked to W in SBN, and an Open Library 1970 Harper & Row record carrying ISBN `0241972353`, outside Harper & Row's 0-06 range. Without those 5, precision is 82 / 120 = 0.683.
+- The publisher rule does not move the verdict: the strictest rule (equal keys) gives 0.664, the loosest (containment) 0.656. The false positives share a real publisher.
+- Per Open Library edition: 31 editions collide only with SBN records of another ISBN.
+- **I**: nothing in a listing row separates two ISBNs of one publisher and year. Page count, series and binding are in SBN's full record only (`descrizioneFisica`, `collezione`), which is the fetch the workaround exists to avoid.
+
+**Recall: an ISBN joins printings of many years.**
+- SBN catalogues printings as separate records under one ISBN: Adelphi's *L'insostenibile* `9788845906862` sits on 31 records dated 1985–2026, Gallimard Folio's *L'Étranger* `9782070360024` on 23. 361 of the 499 ISBN-sharing pairs differ in year; 275 come from ISBN clusters of 10 or more pairs. A rule that requires the same year cannot find them, by construction.
+- Same-year truth pairs: 82 of 130 found. The 48 misses:
+  - language, 29 pairs: 26 where the Open Library edition has no language, and 3 catalogue mislabels (below);
+  - publisher, 26 pairs (7 miss on both), of which 5 are gaps in this normalisation: `HarperPerennial` / `Harper Perennial`, `Süddt. Zeitung` × 2, `Oscar Mondadori` / `Arnoldo Mondadori Editore`, `Everest Yayinlari` / `Everest Yayınları` (dotless ı; that edition also has no language). The other 21 name another company: imprint against group (`Chatto & Windus` / `Penguin Random House`, `Pan` / `Picador`, `Alfaguara` / `Santillana USA`, `William Collins` / `HarperCollins`), series (`Penguin English Library` / `Penguin Classic`), distributor (`Knopf` / `Everyman's Library`).
+- Per Open Library edition: 201 have a true SBN duplicate and 78 collide with one. The other 123 would stay as a second row.
+- Letting an Open Library edition with no language match any language lifts same-year recall to 103 / 130 (0.792), at precision 0.636.
+
+**Unverifiable and SBN–SBN.**
+- 218 of the 288 unverifiable collisions lack an ISBN on both sides. 210 of them are N10: Gallimard's pre-ISBN printings, which both catalogues hold.
+- SBN–SBN collisions: 387 pairs (N10 198, N01 73, E01 58, N06 43). 37 of them also share an ISBN: two SBN records with the same language, year, publisher and ISBN. Whether that is two printings in one year or one printing catalogued twice is not established (**I**).
+
+**Fetches.** The workaround fetches the 146 SBN rows that collide with any Open Library edition (105 if the edition must carry an ISBN), against 778. Once fetched, a row's ISBNs can be compared with every edition, not only the colliding ones: that reaches 166 of the 499 true pairs (0.333). The other 333 sit on the 632 rows never fetched.
+
+**Facts re-checked on the way.**
+- F7 holds on 778 records **M**: the listing language equals the full record's `linguaPubblicazione` for 740 of 740 mapped records. `lookup.langs` maps no code for 38 records under 21 labels (`ALBANESE` 7, `RUMENO, MOLDAVO` 5, `TURCO MODERNO (DAL 1928)` 4, `UCRAINO` 4, bilingual `ITALIANO - INGLESE`, `FRANCESE - ITALIANO` …); STRATEGY Step 6 names only `ALBANESE`.
+- F12 holds **M**: 59 of E01's 143 SBN records have no ISBN (41%; F12 43%). Over the 8 books: 295 of 778 (38%). Open Library: 252 of 1,405 editions (18%).
+- F13's control holds **V**: a bogus BID returns a skeleton (`numeri`, `note`, `nomi` empty, no `codiceIdentificativo`), never an error.
+
+### Uncertain ground truth
+
+| What | Why |
+|---|---|
+| An ISBN names an edition, not a printing | 361 of 499 truth pairs differ in year (SBN reprint records). Pair counts weigh a book by its reprint count: N10's one Folio ISBN is 115 of its 170 pairs |
+| 20 truth pairs rest only on an ISBN SBN annotates | `stampa 1990` ×5, `(pbk.)` ×3, `stampa 1985`, `Rist. 2007`, `Rist. 1978` ×2 each, `ediz. 13, 2020`, `Paperback ed.`, `recuperato da catalogo editor.`, `Rist. 2009`, `Rist. 1973`, `rist.` ×1. `(errato)` and `ERR` values exist in the records, but no truth pair rests only on them. 0 pairs rest on a bad check digit (SBN 2 values, Open Library 7) |
+| Language labels | 43 truth pairs disagree on language through catalogue errors: Open Library `OL20654228M` (Adelphi, Italian) filed `fre`, 31 pairs; `OL7856078M` (Faber, English) filed `spa`, 4; `OL364041M` filed `spa`, 1; SBN `UM10065448` (Gallimard, French, 5 pairs) and `RAV1992154` (HarperCollins, English, 2) are `ITALIANO` in the full record too |
+| Duplicates outside the listings | Not widened, as instructed. Stage 2 found, for these 8 books, 111 same-work SBN records not linked to W (E01 47, N06 42, E02 7, N14 6, N01 4, N08 4, N19 1) and 18 Open Library editions in duplicate work records. A duplicate with one side among them is in neither truth nor collisions, so recall and the fetch count describe the listings only. A recovery route (Stage 2 answer 2) would add rows that need the same check |
+
+### Contradicting the assessment or STRATEGY.md
+
+1. **Assessment §5 decision 3 and §7 step 5** ("cross-source duplicates are merged by the ISBN-collision workaround only if §9 (A4) supports it"): A4 does not support it. Precision 0.656 pooled, below 0.95 in 6 of the 7 books with a collision, under every publisher rule tried. **M**
+2. **Assessment §5.3's catch** ("one printing held by both SBN and Open Library cannot be merged by ISBN without details") assumes an ISBN identifies a printing. In SBN it spans printings of many years (31 records for one Adelphi ISBN). Merging by ISBN would fold printings of different years into one row, which the year filter and newest-first order then see as one. **M**
+3. **Task.md, "SBN–SBN collisions (distinct records by definition)"**: 37 of 387 also share an ISBN. They are distinct records, not necessarily distinct editions. **M**
+4. **STRATEGY Step 6** ("add `ALBANESE` and any other missing names"): the missing names are at least 21 on these 8 books, including bilingual labels that name two languages. **M**
+5. **Listing by identity lists non-editions linked to W**: a study guide, a graded-reader retelling and a collected-works volume (found only through false positives, so not a census). STRATEGY Step 6 lets `tiporec[]` and `level[]` filter media, not these. **M**
+
+### Choices made where the spec was silent
+
+- **Books**, fixed in `stage3_runs.py` before any record was fetched: mixed size, original language and era, both listings present. N06 (172 SBN rows / 537 Open Library editions, eng 1949), N10 (216 / 468, fre 1942), E01 (143 / 208, spa 1967), N01 (109 / 81, cze 1984), N08 (57 / 40, ita 2011), N14 (48 / 40, por 1995), E02 (26 / 14, eng 1972), N19 (7 / 17, eng 2022).
+- **Fetches**: one process per book through `stage3_runs.py` (resumable, run log in `results/stage-3/runlog.jsonl`, peak ≤ 57 MB), fresh cache, mobile gateway gated to one request at a time. A record counts only if its `codiceIdentificativo` names the BID asked for. No Open Library request: `isbn_10` / `isbn_13` are in the Stage 1 listings.
+- **ISBNs**: every `[ISBN]` value in `numeri`, hyphens and spaces removed, ISBN-10 converted to 13. Values with a bad check digit or a cataloguer's note are kept and counted.
+- **Truth and metrics are pairwise**, as specified, and pooled over pairs. Because one ISBN on many records multiplies pairs, same-year recall and a per-edition count are reported beside them.
+- **Collision components**:
+  - language: a shared listing code (SBN language page; Open Library `languages`), with `und`, `zxx` and `mis` counted as missing; a multilingual SBN row matches on any of its languages;
+  - year: SBN `parse_publication`, Open Library's first four-digit year, equal;
+  - publisher, as below.
+- **Publisher normalisation** (`stage3_analyse.py`; the key is a set of words):
+  1. Split the statement into names. SBN: on `;`, keeping the first piece as a publisher (a ` : ` inside it separates a co-publisher) and, in later pieces, only what follows ` : `. Open Library: each `publishers` value on `;` and ` : `. Both on `in association with`.
+  2. Drop a part set off by `,` or `:` when it equals one of the 229 places these records name (SBN imprint place, Open Library `publish_places`). *Cambridge University Press* keeps *Cambridge*.
+  3. Unicode NFKD, accents dropped, casefold; `&` → `and`; `E/O` → `eo`.
+  4. Remove one-letter words (initials: `A. Mondadori`, `A.A. Knopf`, `s.p.a.`), digit-only words, `dep leg stampa impr`, and company-form words: Italian `editore editori editrice edizioni edizione ed edit casa editoriale gruppo spa srl sas`; English `press publishing publishers publisher publications publication pubns pub publ books book inc incorporated ltd limited co company corp corporation group llc plc`; French, Spanish and Portuguese `editions edition editeur editeurs sarl editorial ediciones editora editores grupo lda ltda`; German `verlag gmbh kg ag`; `and et und the`.
+  5. **SBN's split values**: the primary rule matches when one key's words are all in the other's (`mondadori` ~ `oscar mondadori` ~ `mondadori de agostini`; `a. mondadori` → `mondadori`). `arnoldo mondadori` and `oscar mondadori` do not match. The *exact publisher* variant keeps split values apart.
+- **Fetch count**: SBN rows in at least one SBN–Open Library collision. SBN–SBN collisions need no fetch.
+- **Committed**: `results/stage-3/` summary, tables, run log, per-book fetch metadata, per-record ISBNs (`records.json`) and pairs (`pairs.json`: fields for the primary rule, IDs for the rest). Full records and full pair lists are in `raw/stage-3/`, gitignored.
+
+### Open questions for the user
+
+1. **Cross-source duplicates, now that A4 fails.** Which should the plan take?
+   - (a) no merge: both rows are shown, each labelled with its source;
+   - (b) merge on a shared ISBN, which needs every SBN full record (778 fetches here, the cost decision 3 set out to avoid);
+   - (c) merge when a row is expanded, since its details are fetched then anyway;
+   - (d) use a collision only as a "possibly the same edition" hint. At precision 0.656 a third of those hints would be wrong.
+
+   All four are **untested** as lookups.
+2. **Printings under one ISBN.** SBN holds up to 31 records of one ISBN, one per printing year. Is each printing a row (newest first by printing year), or one edition row with its printing years?
+3. **Stage 2 question 3 is still open** (list every Open Library work whose title and author match, or the main work only). Its cons were given on 2026-09-15 and no answer is recorded. Stage 3 adds one fact: those 98 editions would enter the same duplicate problem as the listed ones.
+
+---
+
+## Stage 3 tables
+
+### Rules, pooled over the eight books
+
+| rule | collisions (both ISBN) | TP | FP | precision | truth pairs | recall | recall, same-year truth | truth pairs reached once colliding rows are fetched | OL editions with a true SBN duplicate · merged with one · only wrong | unverifiable (SBN lacks · OL lacks · both) | fetches needed (OL has ISBN) / all | saving |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| primary | 125 | 82 | 43 | 0.656 | 499 | 0.164 | 82/130 = 0.631 | 166/499 | 201 · 78 · 31 | 25 · 45 · 218 | 146 (105) / 778 | 0.812 |
+| exact publisher | 110 | 73 | 37 | 0.664 | 499 | 0.146 | 73/130 = 0.562 | 155/499 | 201 · 70 · 27 | 19 · 44 · 206 | 129 (90) / 778 | 0.834 |
+| OL language missing matches | 162 | 103 | 59 | 0.636 | 499 | 0.206 | 103/130 = 0.792 | 201/499 | 201 · 97 · 41 | 28 · 55 · 250 | 174 (131) / 778 | 0.776 |
+
+
+### Per book, primary rule
+
+| book | SBN rows · with ISBN | OL editions · with ISBN · with language | truth pairs (same year) | distinct shared ISBNs | collisions (both ISBN) | TP | FP | precision | recall | unverifiable | fetches needed / all | SBN–SBN collisions (sharing an ISBN) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| N19 | 7 · 7 | 17 · 17 · 13 | 4 (3) | 3 | 0 | 0 | 0 | — | 0.0 | 0 | 0 / 7 | 1 (0) |
+| E02 | 26 · 16 | 14 · 12 · 12 | 2 (2) | 1 | 2 | 2 | 0 | 1.0 | 1.0 | 0 | 1 / 26 | 0 (0) |
+| N14 | 48 · 45 | 40 · 40 · 34 | 12 (8) | 9 | 7 | 6 | 1 | 0.857 | 0.5 | 0 | 6 / 48 | 11 (7) |
+| N08 | 57 · 50 | 40 · 40 · 21 | 32 (11) | 14 | 10 | 5 | 5 | 0.5 | 0.156 | 0 | 6 / 57 | 3 (1) |
+| N01 | 109 · 72 | 81 · 78 · 68 | 113 (26) | 22 | 20 | 15 | 5 | 0.75 | 0.133 | 0 | 14 / 109 | 73 (7) |
+| E01 | 143 · 84 | 208 · 169 · 162 | 93 (28) | 27 | 29 | 20 | 9 | 0.69 | 0.215 | 8 | 26 / 143 | 58 (6) |
+| N06 | 172 · 128 | 537 · 465 · 374 | 73 (30) | 38 | 38 | 17 | 21 | 0.447 | 0.233 | 13 | 34 / 172 | 43 (6) |
+| N10 | 216 · 81 | 468 · 332 · 413 | 170 (22) | 20 | 19 | 17 | 2 | 0.895 | 0.1 | 267 | 59 / 216 | 198 (10) |
+
+
+### False positives involving a record that is not a plain edition (judgements.STAGE3)
+
+| record | false-positive pairs |
+|---|---|
+| E01 /books/OL45606013M: edition record with a foreign ISBN | 1 |
+| N06 VIA0214939: not the book | 2 |
+| N06 TO10037839: not the book | 1 |
+| N06 TO02081267: volume with other works | 1 |
+
+
+### Why true duplicates do not collide (primary rule, pairs)
+
+| components that differ | pairs |
+|---|---|
+| year differs | 224 |
+| language missing + year differs | 48 |
+| language differs + year differs | 39 |
+| language missing + year differs + publisher differs | 25 |
+| year differs + publisher differs | 23 |
+| language missing | 21 |
+| publisher differs | 19 |
+| year missing + publisher differs | 6 |
+| language missing + publisher differs | 5 |
+| language differs + publisher differs | 2 |
+| language differs | 1 |
+| language differs + year differs + publisher differs | 1 |
+| year missing | 1 |
+| year differs + publisher missing | 1 |
+| year missing + publisher missing | 1 |
+
+
+### Shape of the ISBN truth
+
+| book | OL editions joined to several SBN records | SBN records joined to several OL editions | language differs | year differs | largest ISBN cluster (SBN × OL = pairs) | resting only on an annotated SBN ISBN |
+|---|---|---|---|---|---|---|
+| N19 | 1 | 1 | 0 | 1 | 9781529115543: 2 × 1 = 2 | 0 |
+| E02 | 0 | 1 | 0 | 0 | 9780810204478: 1 × 2 = 2 | 0 |
+| N14 | 1 | 1 | 0 | 4 | 9780156007757: 1 × 3 = 3 | (pbk.) 3 |
+| N08 | 6 | 9 | 0 | 21 | 9788866320326: 6 × 2 = 12 | ediz. 13, 2020 1 |
+| N01 | 10 | 42 | 37 | 87 | 9788845906862: 31 × 2 = 62 | Paperback ed. 1; Rist. 2009 1; recuperato da catalogo editor. 1 |
+| E01 | 11 | 23 | 1 | 63 | 9788437604947: 5 × 4 = 20 | 0 |
+| N06 | 8 | 12 | 0 | 43 | 9788804507451: 10 × 1 = 10 | rist. 1 |
+| N10 | 10 | 32 | 5 | 142 | 9782070360024: 23 × 5 = 115 | stampa 1985 2; Rist. 1973 1; stampa 1990 5; Rist. 2007 2; Rist. 1978 2 |
+
+
+### Full-record fetches (mobile gateway, one at a time, cold)
+
+| book | rows | fetched | first-pass problems | wall s | requests | failed | retries (urllib3) | bogus BID control |
+|---|---|---|---|---|---|---|---|---|
+| N19 | 7 | 7 | 0 | 1.5 | 8 | 0 | 0 | mismatch: asked ZZQ9999999, got None |
+| E02 | 26 | 26 | 0 | 7.2 | 27 | 0 | 0 | mismatch: asked ZZQ9999999, got None |
+| N14 | 48 | 48 | 0 | 20.5 | 49 | 0 | 0 | mismatch: asked ZZQ9999999, got None |
+| N08 | 57 | 57 | 0 | 11.7 | 58 | 0 | 0 | mismatch: asked ZZQ9999999, got None |
+| N01 | 109 | 109 | 0 | 25.3 | 110 | 0 | 0 | mismatch: asked ZZQ9999999, got None |
+| E01 | 143 | 143 | 0 | 42.4 | 144 | 0 | 0 | mismatch: asked ZZQ9999999, got None |
+| N06 | 172 | 172 | 0 | 43.0 | 173 | 0 | 0 | mismatch: asked ZZQ9999999, got None |
+| N10 | 216 | 216 | 0 | 102.3 | 217 | 0 | ProtocolError×1 | mismatch: asked ZZQ9999999, got None |
+
+
+### Requests per host
+
+| host | requests | failed | total s | median of per-book p50 s | max s | retries |
+|---|---|---|---|---|---|---|
+| opac.sbn.it/opacmobilegw | 786 | 0 | 251.69 | 0.221 | 2.198 | ProtocolError×1 |
+
+
+### Same-work records outside the listings (Stage 2, found by today's routes)
+
+| book · class | distinct records |
+|---|---|
+| E01 · not linked to W | 47 |
+| E01 · separate OL work record | 4 |
+| E02 · not linked to W | 7 |
+| E02 · separate OL work record | 4 |
+| N01 · not linked to W | 4 |
+| N06 · not linked to W | 42 |
+| N06 · separate OL work record | 5 |
+| N08 · not linked to W | 4 |
+| N10 · separate OL work record | 2 |
+| N14 · not linked to W | 6 |
+| N14 · separate OL work record | 3 |
+| N19 · not linked to W | 1 |
