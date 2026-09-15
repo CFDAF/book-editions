@@ -1,0 +1,10675 @@
+{
+ "N19": {
+  "PCM0037140": {
+   "fetched": true,
+   "isbns": [
+    "9781529115543"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PCM0038459": {
+   "fetched": true,
+   "isbns": [
+    "9780593686652"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "MOD1754482": {
+   "fetched": true,
+   "isbns": [
+    "9781784744649",
+    "9781784744656"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PAR1301585": {
+   "fetched": true,
+   "isbns": [
+    "9781529115543"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BCT0100997": {
+   "fetched": true,
+   "isbns": [
+    "9788850268900"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL1179180": {
+   "fetched": true,
+   "isbns": [
+    "9788850276066"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO4696991": {
+   "fetched": true,
+   "isbns": [
+    "9788842934332"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  }
+ },
+ "E02": {
+  "UTO1471790": {
+   "fetched": true,
+   "isbns": [
+    "9780810204478"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO2561577": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO0976973": {
+   "fetched": true,
+   "isbns": [
+    "9782020056458"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RAV1984943": {
+   "fetched": true,
+   "isbns": [
+    "9783518576281"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "CFI0766925": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAL0171160": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0553614": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PUV1586379": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0017793": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01873090": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PUV0976892": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS0147630": {
+   "fetched": true,
+   "isbns": [
+    "9788845903281"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2975936": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0923352": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UFI0432788": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "USM1564399": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0118431": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0012031": {
+   "fetched": true,
+   "isbns": [
+    "9788845903281"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0112602": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0251945": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0416448": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VEA0083906": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0043511": {
+   "fetched": true,
+   "isbns": [
+    "9788845903281"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9788845903281": "nella 14. ed. (ma rist.) 1997"
+   },
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CSA0000645": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "NAP0991558": {
+   "fetched": true,
+   "isbns": [
+    "9788845915352"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAR1204038": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  }
+ },
+ "N14": {
+  "MOD1811132": {
+   "fetched": true,
+   "isbns": [
+    "9787555913689"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "LUA0552637": {
+   "fetched": true,
+   "isbns": [
+    "9780151002511",
+    "9780156007757"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9780156007757": "(pbk.)"
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BMT0017063": {
+   "fetched": true,
+   "isbns": [
+    "9781860466854"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RAV2153707": {
+   "fetched": true,
+   "isbns": [
+    "9780099573586"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RT10052878": {
+   "fetched": true,
+   "isbns": [
+    "9780156032735"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RMS2575916": {
+   "fetched": true,
+   "isbns": [
+    "9782020403436"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RAV2097773": {
+   "fetched": true,
+   "isbns": [
+    "9783442745296"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "MOL0169329": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SBS0014661": {
+   "fetched": true,
+   "isbns": [
+    "9788806148669"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0751050": {
+   "fetched": true,
+   "isbns": [
+    "9788807721823",
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9788807881572": "Ristampa 2021"
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS1318864": {
+   "fetched": true,
+   "isbns": [
+    "9788806172992"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TPS0012117": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO10047728": {
+   "fetched": true,
+   "isbns": [
+    "9788807950766"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "ANA0488580": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "AGR0023852": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0328377": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10118136": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10065334": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0274843": {
+   "fetched": true,
+   "isbns": [
+    "9788806141615"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "GMP0030471": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00605244": {
+   "fetched": true,
+   "isbns": [
+    "9788806148669"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02109013": {
+   "fetched": true,
+   "isbns": [
+    "9788807897108"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02080045": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV2144044": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PBE0265215": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PBE0265216": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02019416": {
+   "fetched": true,
+   "isbns": [
+    "9788807421426"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TSA1781781": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAV0194745": {
+   "fetched": true,
+   "isbns": [
+    "9788807890680"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO3425172": {
+   "fetched": true,
+   "isbns": [
+    "9788806193683"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10123272": {
+   "fetched": true,
+   "isbns": [
+    "9788807721823"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "URB0973601": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "URB0982242": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RCA0846995": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RCA0861924": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UDA0246567": {
+   "fetched": true,
+   "isbns": [
+    "9788807881572"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0171478": {
+   "fetched": true,
+   "isbns": [
+    "9788806172992"
+   ],
+   "invalid": [
+    "8806172992"
+   ],
+   "annotated": {
+    "9788806172992": "Err."
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "ARE0003294": {
+   "fetched": true,
+   "isbns": [
+    "9788869864971"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MO10029278": {
+   "fetched": true,
+   "isbns": [
+    "9788807735158"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO3935606": {
+   "fetched": true,
+   "isbns": [
+    "9788375102482"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "POLACCO",
+   "listing_langs": [
+    "pol"
+   ]
+  },
+  "MIL0288581": {
+   "fetched": true,
+   "isbns": [
+    "9789722110211"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "PORTOGHESE",
+   "listing_langs": [
+    "por"
+   ]
+  },
+  "IEI0787604": {
+   "fetched": true,
+   "isbns": [
+    "9788571644953"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "PORTOGHESE",
+   "listing_langs": [
+    "por"
+   ]
+  },
+  "AQ10093360": {
+   "fetched": true,
+   "isbns": [
+    "9789722110211"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "PORTOGHESE",
+   "listing_langs": [
+    "por"
+   ]
+  },
+  "MOD1766373": {
+   "fetched": true,
+   "isbns": [
+    "9789720046833"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "PORTOGHESE",
+   "listing_langs": [
+    "por"
+   ]
+  },
+  "SBT0021606": {
+   "fetched": true,
+   "isbns": [
+    "9789896604011"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "PORTOGHESE",
+   "listing_langs": [
+    "por"
+   ]
+  },
+  "TSA1600414": {
+   "fetched": true,
+   "isbns": [
+    "9789616332330"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SLOVENO",
+   "listing_langs": [
+    "slv"
+   ]
+  },
+  "TSA1483797": {
+   "fetched": true,
+   "isbns": [
+    "9789612311070"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SLOVENO",
+   "listing_langs": [
+    "slv"
+   ]
+  },
+  "BRI0468955": {
+   "fetched": true,
+   "isbns": [
+    "9788420428659"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  }
+ },
+ "N08": {
+  "UBO4282572": {
+   "fetched": true,
+   "isbns": [
+    "9789928228307"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ALBANESE",
+   "listing_langs": [
+    "alb"
+   ]
+  },
+  "RMB0807370": {
+   "fetched": true,
+   "isbns": [
+    "9789953895321"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ARABO",
+   "listing_langs": [
+    "ara"
+   ]
+  },
+  "TO10029812": {
+   "fetched": true,
+   "isbns": [
+    "9789953895321"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ARABO",
+   "listing_langs": [
+    "ara"
+   ]
+  },
+  "RMB0799829": {
+   "fetched": true,
+   "isbns": [
+    "9788426420787"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CATALANO",
+   "listing_langs": [
+    "cat"
+   ]
+  },
+  "RMB0799827": {
+   "fetched": true,
+   "isbns": [
+    "9788416457182"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CATALANO",
+   "listing_langs": [
+    "cat"
+   ]
+  },
+  "RMB0800892": {
+   "fetched": true,
+   "isbns": [
+    "9789862137611"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "UBO4342031": {
+   "fetched": true,
+   "isbns": [
+    "9787020120130"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "RMB0797006": {
+   "fetched": true,
+   "isbns": [
+    "9788072603404"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CECO",
+   "listing_langs": [
+    "cze"
+   ]
+  },
+  "RMB0799765": {
+   "fetched": true,
+   "isbns": [
+    "9788793368361"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "DANESE",
+   "listing_langs": [
+    "dan"
+   ]
+  },
+  "RMB0800039": {
+   "fetched": true,
+   "isbns": [
+    "9789028425088"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "OLANDESE, FIAMMINGO",
+   "listing_langs": [
+    "dut"
+   ]
+  },
+  "TO02006002": {
+   "fetched": true,
+   "isbns": [
+    "9788866329299"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UM10178509": {
+   "fetched": true,
+   "isbns": [
+    "9781609450786"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RE20001435": {
+   "fetched": true,
+   "isbns": [
+    "9781787702226"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LUA0552009": {
+   "fetched": true,
+   "isbns": [
+    "9781609450786"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RMB0799665": {
+   "fetched": true,
+   "isbns": [
+    "9789985339008"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ESTONE",
+   "listing_langs": [
+    "est"
+   ]
+  },
+  "RMB0799784": {
+   "fetched": true,
+   "isbns": [
+    "9789510414699",
+    "9789510427385"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "FINLANDESE",
+   "listing_langs": [
+    "fin"
+   ]
+  },
+  "UBO4344496": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PAR1243183": {
+   "fetched": true,
+   "isbns": [
+    "9782070138623"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "VIA0470213": {
+   "fetched": true,
+   "isbns": [
+    "9782070466122"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RMB0799768": {
+   "fetched": true,
+   "isbns": [
+    "9783518425534"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "UBO4344096": {
+   "fetched": true,
+   "isbns": [
+    "9783518469309"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "RMB0803025": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "EBRAICO",
+   "listing_langs": [
+    "heb"
+   ]
+  },
+  "RMB0799834": {
+   "fetched": true,
+   "isbns": [
+    "9789533135328"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CROATO",
+   "listing_langs": [
+    "hrv"
+   ]
+  },
+  "RMB0799950": {
+   "fetched": true,
+   "isbns": [
+    "9789633552780"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "UNGHERESE",
+   "listing_langs": [
+    "hun"
+   ]
+  },
+  "RMB0799779": {
+   "fetched": true,
+   "isbns": [
+    "9789935454683"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ISLANDESE",
+   "listing_langs": [
+    "ice"
+   ]
+  },
+  "RMB0799772": {
+   "fetched": true,
+   "isbns": [
+    "9786020335599"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INDONESIANO",
+   "listing_langs": [
+    "ind"
+   ]
+  },
+  "IEI0758243": {
+   "fetched": true,
+   "isbns": [
+    "9788866320326"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SBS0000682": {
+   "fetched": true,
+   "isbns": [
+    "9788866320326"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIG0242757": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIG0242759": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02034564": {
+   "fetched": true,
+   "isbns": [
+    "9788866320326"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAG2053724": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "URB0937709": {
+   "fetched": true,
+   "isbns": [
+    "9788866320326"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01993132": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10000219": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02034163": {
+   "fetched": true,
+   "isbns": [
+    "9788866320326"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "USS0021500": {
+   "fetched": true,
+   "isbns": [
+    "9788866320326"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BCT0051746": {
+   "fetched": true,
+   "isbns": [
+    "9788898425679"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PCM0008087": {
+   "fetched": true,
+   "isbns": [
+    "9788869863301"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01978798": {
+   "fetched": true,
+   "isbns": [
+    "9788898425679"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TSA1508022": {
+   "fetched": true,
+   "isbns": [
+    "9788866328902"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0799754": {
+   "fetched": true,
+   "isbns": [
+    "9788935669738"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "COREANO",
+   "listing_langs": [
+    "kor"
+   ]
+  },
+  "RMB0799680": {
+   "fetched": true,
+   "isbns": [
+    "9789934062551"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "LETTONE",
+   "listing_langs": [
+    "lav"
+   ]
+  },
+  "RMB0799824": {
+   "fetched": true,
+   "isbns": [
+    "9786090126141"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "LITUANO",
+   "listing_langs": [
+    "lit"
+   ]
+  },
+  "RMB0799909": {
+   "fetched": true,
+   "isbns": [
+    "9788252185904"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "NORVEGESE",
+   "listing_langs": [
+    "nor"
+   ]
+  },
+  "RMB0800033": {
+   "fetched": true,
+   "isbns": [
+    "9788379990399"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "POLACCO",
+   "listing_langs": [
+    "pol"
+   ]
+  },
+  "RMB0811497": {
+   "fetched": true,
+   "isbns": [
+    "9788381102254"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "POLACCO",
+   "listing_langs": [
+    "pol"
+   ]
+  },
+  "RMB0799763": {
+   "fetched": true,
+   "isbns": [
+    "9789731989709"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUMENO, MOLDAVO",
+   "listing_langs": [
+    "rum"
+   ]
+  },
+  "RMB0799904": {
+   "fetched": true,
+   "isbns": [
+    "9785906837363"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "UBO4462548": {
+   "fetched": true,
+   "isbns": [
+    "9785001311300"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "RMB0799671": {
+   "fetched": true,
+   "isbns": [
+    "9788089737154"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SLOVACCO",
+   "listing_langs": [
+    "slo"
+   ]
+  },
+  "RMB0799835": {
+   "fetched": true,
+   "isbns": [
+    "9789612821388"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SLOVACCO",
+   "listing_langs": [
+    "slo"
+   ]
+  },
+  "TO10037905": {
+   "fetched": true,
+   "isbns": [
+    "9788466344357"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "RMB0799668": {
+   "fetched": true,
+   "isbns": [
+    "9789113061719"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SVEDESE",
+   "listing_langs": [
+    "swe"
+   ]
+  },
+  "RMB0799948": {
+   "fetched": true,
+   "isbns": [
+    "9786051418964"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9786051418964": "ediz. 13, 2020"
+   },
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TURCO MODERNO (DAL 1928)",
+   "listing_langs": [
+    "tur"
+   ]
+  },
+  "RMB0812528": {
+   "fetched": true,
+   "isbns": [
+    "9786051418964"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TURCO MODERNO (DAL 1928)",
+   "listing_langs": [
+    "tur"
+   ]
+  },
+  "RMB0811466": {
+   "fetched": true,
+   "isbns": [
+    "9786171254169"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "UCRAINO",
+   "listing_langs": [
+    "ukr"
+   ]
+  }
+ },
+ "N01": {
+  "RMB0806761": {
+   "fetched": true,
+   "isbns": [
+    "9789928292117"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ALBANESE",
+   "listing_langs": [
+    "alb"
+   ]
+  },
+  "PCM0019324": {
+   "fetched": true,
+   "isbns": [
+    "9789953682716"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ARABO",
+   "listing_langs": [
+    "ara"
+   ]
+  },
+  "UBO4342412": {
+   "fetched": true,
+   "isbns": [
+    "9787532773718"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "PUV1119541": {
+   "fetched": true,
+   "isbns": [
+    "9788071082811"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CECO",
+   "listing_langs": [
+    "cze"
+   ]
+  },
+  "PUV0844867": {
+   "fetched": true,
+   "isbns": [
+    "9780887811463"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CECO",
+   "listing_langs": [
+    "cze"
+   ]
+  },
+  "LIA0075524": {
+   "fetched": true,
+   "isbns": [
+    "9788845906046"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CECO - ITALIANO",
+   "listing_langs": [
+    "cze",
+    "ita"
+   ]
+  },
+  "PAR0881724": {
+   "fetched": true,
+   "isbns": [
+    "9780571200832"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RMB0692439": {
+   "fetched": true,
+   "isbns": [
+    "9780061686696"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RLZ0100986": {
+   "fetched": true,
+   "isbns": [
+    "9780571135394"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PAL0265090": {
+   "fetched": true,
+   "isbns": [
+    "9780060914653"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TSA1368312": {
+   "fetched": true,
+   "isbns": [
+    "9780571132096",
+    "9780571135394"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9780571135394": "Paperback ed."
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BIA0027218": {
+   "fetched": true,
+   "isbns": [
+    "9780571135394"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RCA0571913": {
+   "fetched": true,
+   "isbns": [
+    "9780060152581"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO3967811": {
+   "fetched": true,
+   "isbns": [
+    "9780571135394"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO2232068": {
+   "fetched": true,
+   "isbns": [
+    "9780571132096"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LO11390654": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PAL0228245": {
+   "fetched": true,
+   "isbns": [
+    "9782070784370"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO00682314": {
+   "fetched": true,
+   "isbns": [
+    "9782070709632"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "URB0467704": {
+   "fetched": true,
+   "isbns": [
+    "9782070700721"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TSA0725592": {
+   "fetched": true,
+   "isbns": [
+    "9782070381654"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UFI0567452": {
+   "fetched": true,
+   "isbns": [
+    "9782070119356"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LIG0295096": {
+   "fetched": true,
+   "isbns": [
+    "9783937793009"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "RCA0661960": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "UBO2634186": {
+   "fetched": true,
+   "isbns": [
+    "9783596259922"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "UBO2396512": {
+   "fetched": true,
+   "isbns": [
+    "9783596259922"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "UBO4300581": {
+   "fetched": true,
+   "isbns": [
+    "9783596259922"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "LIG0030905": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BAS0286665": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BAS0130823": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RLZ0215954": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO10021402": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2384013": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0156916": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "ANA0305147": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "AGR0002380": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0496086": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0557727": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "NAP0828540": {
+   "fetched": true,
+   "isbns": [
+    "9788845906046"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0441916": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0142979": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0192086": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS0158647": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS1559561": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01059636": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS1028101": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS0159009": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAL0305571": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2556403": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PBE0088501": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00342837": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BIA0010366": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO11668697": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00557491": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UMC0982412": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS0130459": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "NAP0717377": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2777269": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01624066": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PUV0730430": {
+   "fetched": true,
+   "isbns": [
+    "9788845906046"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAM0219314": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BRI0469295": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UFI0381710": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "USM1974045": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10116079": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10076264": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00942075": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "IEI0394837": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CSA0113288": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10581365": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UMC0701808": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV1992154": {
+   "fetched": true,
+   "isbns": [
+    "9780060932138",
+    "9780061148521"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9780061148521": "Rist. 2009"
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO3021839": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "071",
+    "071"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0798742": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV2034008": {
+   "fetched": true,
+   "isbns": [
+    "9788869860348"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "AQ10128553": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BA10168927": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0747117": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIG0057240": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0041093": {
+   "fetched": true,
+   "isbns": [
+    "9788845906046"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9788845906046": "recuperato da catalogo editor."
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS1782531": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10063757": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01084222": {
+   "fetched": true,
+   "isbns": [
+    "9788481304992"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PUG0017084": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS0160513": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO0136957": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV1346082": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIG0513892": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BRI0009969": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01973170": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00631633": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01650721": {
+   "fetched": true,
+   "isbns": [
+    "9788845906046"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL1151723": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0258550": {
+   "fetched": true,
+   "isbns": [
+    "9788845906046"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UFE1083328": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0398665": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10084760": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "URB0954369": {
+   "fetched": true,
+   "isbns": [
+    "9788845906862"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV2004422": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0682241": {
+   "fetched": true,
+   "isbns": [
+    "9788306030884"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "POLACCO",
+   "listing_langs": [
+    "pol"
+   ]
+  },
+  "RT10035827": {
+   "fetched": true,
+   "isbns": [
+    "9789735040802"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUMENO, MOLDAVO",
+   "listing_langs": [
+    "rum"
+   ]
+  },
+  "UBO3863580": {
+   "fetched": true,
+   "isbns": [
+    "9789735018016"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUMENO, MOLDAVO",
+   "listing_langs": [
+    "rum"
+   ]
+  },
+  "RAV1292208": {
+   "fetched": true,
+   "isbns": [
+    "9785352005613"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "UBO4001357": {
+   "fetched": true,
+   "isbns": [
+    "9785352005613"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "UBO2593773": {
+   "fetched": true,
+   "isbns": [
+    "9785352002186"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "TSA1603819": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SLOVENO",
+   "listing_langs": [
+    "slv"
+   ]
+  },
+  "LO11265422": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO3911545": {
+   "fetched": true,
+   "isbns": [
+    "9788483835128"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "RMB0814066": {
+   "fetched": true,
+   "isbns": [
+    "9789750726170"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TURCO MODERNO (DAL 1928)",
+   "listing_langs": [
+    "tur"
+   ]
+  },
+  "UBO4678027": {
+   "fetched": true,
+   "isbns": [
+    "9786176797012"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "UCRAINO",
+   "listing_langs": [
+    "ukr"
+   ]
+  }
+ },
+ "E01": {
+  "FOG0469564": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ALBANESE",
+   "listing_langs": [
+    "alb"
+   ]
+  },
+  "UBO3991759": {
+   "fetched": true,
+   "isbns": [
+    "9782843058271"
+   ],
+   "invalid": [
+    "284305827X"
+   ],
+   "annotated": {
+    "9782843058271": "ERR"
+   },
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ARABO",
+   "listing_langs": [
+    "ara"
+   ]
+  },
+  "UBO3685988": {
+   "fetched": true,
+   "isbns": [
+    "9789953367019"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ARABO",
+   "listing_langs": [
+    "ara"
+   ]
+  },
+  "UBO4342410": {
+   "fetched": true,
+   "isbns": [
+    "9787544291170"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "RAV0216473": {
+   "fetched": true,
+   "isbns": [
+    "9780330255592"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PAR0878540": {
+   "fetched": true,
+   "isbns": [
+    "9780141184999"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LO11346350": {
+   "fetched": true,
+   "isbns": [
+    "9780060740450"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PCM0044477": {
+   "fetched": true,
+   "isbns": [
+    "9780241968581",
+    "9780241971826"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TSA0864967": {
+   "fetched": true,
+   "isbns": [
+    "9780380015030"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RT10055305": {
+   "fetched": true,
+   "isbns": [
+    "9780140157512"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RT10095924": {
+   "fetched": true,
+   "isbns": [
+    "9780061120091"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BMT0042189": {
+   "fetched": true,
+   "isbns": [
+    "9780140278767"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "CAG2117339": {
+   "fetched": true,
+   "isbns": [
+    "9780060750763"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "VEA1015994": {
+   "fetched": true,
+   "isbns": [
+    "9780060114183"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO2593788": {
+   "fetched": true,
+   "isbns": [
+    "9780330255592"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "IEI0742644": {
+   "fetched": true,
+   "isbns": [
+    "9780679444657"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TO01939683": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ESPERANTO",
+   "listing_langs": [
+    "epo"
+   ]
+  },
+  "CAG2114357": {
+   "fetched": true,
+   "isbns": [
+    "9782020238113"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "CAG2178443": {
+   "fetched": true,
+   "isbns": [
+    "9783423102490"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "UBO4106778": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "UFE0957255": {
+   "fetched": true,
+   "isbns": [
+    "9783462032000"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "AQ10067111": {
+   "fetched": true,
+   "isbns": [
+    "9789602360095"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "GRECO MODERNO (DAL 1453)",
+   "listing_langs": [
+    "gre"
+   ]
+  },
+  "LIA0171888": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SBL0469215": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAL0138644": {
+   "fetched": true,
+   "isbns": [
+    "9788804420187"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0397120": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "IEI0622076": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10349098": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "NAP0942302": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOL0004396": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01001988": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0279030": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "NAP0345602": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01920388": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAG0074270": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00380550": {
+   "fetched": true,
+   "isbns": [
+    "9788804221579"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UMC0987900": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SBL0108566": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00372405": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00566882": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RML0471708": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV1150115": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01758938": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL1100838": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00749031": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10079296": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0155190": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0012001": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CSA0100946": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0127049": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0324218": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10551210": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10543983": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0223752": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0386576": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10258594": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10142815": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAG0046270": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0963851": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0472973": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0969595": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO10020144": {
+   "fetched": true,
+   "isbns": [
+    "9788804675983"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2478496": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0805191": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PA10031730": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0623829": {
+   "fetched": true,
+   "isbns": [
+    "9788804573494"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS1996841": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LEK0024548": {
+   "fetched": true,
+   "isbns": [
+    "9788804725930"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "ABR0020447": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0484144": {
+   "fetched": true,
+   "isbns": [
+    "9788804483366"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO11110460": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10869753": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0439155": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0439245": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0427245": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0113582": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0141199": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0116278": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "NAP0941315": {
+   "fetched": true,
+   "isbns": [
+    "9788804483366"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10015287": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10026378": {
+   "fetched": true,
+   "isbns": [
+    "9788804675983"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10052982": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10113378": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAL0227798": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SBL0607749": {
+   "fetched": true,
+   "isbns": [
+    "9788804221579"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9788804221579": "ricavato dalla 13. ed., 1994"
+   },
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2750006": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2789876": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01914911": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01946992": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TER0011241": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TER0011263": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BCT0041473": {
+   "fetched": true,
+   "isbns": [
+    "9788804668220"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAG0093908": {
+   "fetched": true,
+   "isbns": [
+    "9788481304466"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO11525971": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BRI0021448": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0861209": {
+   "fetched": true,
+   "isbns": [
+    "9788804644699"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02033108": {
+   "fetched": true,
+   "isbns": [
+    "9788804314639"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO0263187": {
+   "fetched": true,
+   "isbns": [
+    "9788804221579"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00368212": {
+   "fetched": true,
+   "isbns": [
+    "9788804413936"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAV0185566": {
+   "fetched": true,
+   "isbns": [
+    "9788804734949"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0078012": {
+   "fetched": true,
+   "isbns": [
+    "9788804404071"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0150440": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UFI0307321": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO2693981": {
+   "fetched": true,
+   "isbns": [
+    "9788807830099"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00808427": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO1441556": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0115611": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0088420": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO4471941": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "071"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0037056": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0017417": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10092147": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01804756": {
+   "fetched": true,
+   "isbns": [
+    "9789647196222"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "PERSIANO MODERNO",
+   "listing_langs": [
+    "per"
+   ]
+  },
+  "RMS2336745": {
+   "fetched": true,
+   "isbns": [
+    "9788374953979"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "POLACCO",
+   "listing_langs": [
+    "pol"
+   ]
+  },
+  "LI20005180": {
+   "fetched": true,
+   "isbns": [
+    "9788501078896"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "PORTOGHESE",
+   "listing_langs": [
+    "por"
+   ]
+  },
+  "UBO3863449": {
+   "fetched": true,
+   "isbns": [
+    "9786068255347"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUMENO, MOLDAVO",
+   "listing_langs": [
+    "rum"
+   ]
+  },
+  "RAV1157458": {
+   "fetched": true,
+   "isbns": [
+    "9785040079964"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "UBO3427173": {
+   "fetched": true,
+   "isbns": [
+    "9785911810030"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "TSA1535765": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SLOVENO",
+   "listing_langs": [
+    "slv"
+   ]
+  },
+  "RMB0829921": {
+   "fetched": true,
+   "isbns": [
+    "9789585863743"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "TO10008528": {
+   "fetched": true,
+   "isbns": [
+    "9788497592208"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "TO01228867": {
+   "fetched": true,
+   "isbns": [
+    "9788497592208"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "PAL0067726": {
+   "fetched": true,
+   "isbns": [
+    "9788423921003"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "BVE0917706": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "RT10223240": {
+   "fetched": true,
+   "isbns": [
+    "9786287638716"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "CAG0071090": {
+   "fetched": true,
+   "isbns": [
+    "9788401242267"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "LO11507779": {
+   "fetched": true,
+   "isbns": [
+    "9789584537515"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "TO02097537": {
+   "fetched": true,
+   "isbns": [
+    "9789681315740"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "RMS3100353": {
+   "fetched": true,
+   "isbns": [
+    "9788439703877"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "LO11684290": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "VIA0269311": {
+   "fetched": true,
+   "isbns": [
+    "9788497592208"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "VIA0067470": {
+   "fetched": true,
+   "isbns": [
+    "9788401242267"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO3162817": {
+   "fetched": true,
+   "isbns": [
+    "9788497592208"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO3271711": {
+   "fetched": true,
+   "isbns": [
+    "9788420471839"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "TO00869070": {
+   "fetched": true,
+   "isbns": [
+    "9788401244223"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO3843768": {
+   "fetched": true,
+   "isbns": [
+    "9788497592208"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "TSA0011107": {
+   "fetched": true,
+   "isbns": [
+    "9788437604947"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "TSA1342384": {
+   "fetched": true,
+   "isbns": [
+    "9788437604947"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO2887564": {
+   "fetched": true,
+   "isbns": [
+    "9788437604947"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO4699667": {
+   "fetched": true,
+   "isbns": [
+    "9788437604947"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO4270690": {
+   "fetched": true,
+   "isbns": [
+    "9788437604947"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "TSA1534031": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SERBO",
+   "listing_langs": [
+    "srp"
+   ]
+  },
+  "RMB0814067": {
+   "fetched": true,
+   "isbns": [
+    "9789750719363"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TURCO MODERNO (DAL 1928)",
+   "listing_langs": [
+    "tur"
+   ]
+  }
+ },
+ "N06": {
+  "GMP0022589": {
+   "fetched": true,
+   "isbns": [
+    "9789992794883"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ALBANESE",
+   "listing_langs": [
+    "alb"
+   ]
+  },
+  "LIG0379123": {
+   "fetched": true,
+   "isbns": [
+    "9789928310316"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ALBANESE",
+   "listing_langs": [
+    "alb"
+   ]
+  },
+  "UBO3685822": {
+   "fetched": true,
+   "isbns": [
+    "9789953681443"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ARABO",
+   "listing_langs": [
+    "ara"
+   ]
+  },
+  "UBO4342056": {
+   "fetched": true,
+   "isbns": [
+    "9787567504424"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "RMS2918419": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "TO10029922": {
+   "fetched": true,
+   "isbns": [
+    "9781432839680"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RMB0810956": {
+   "fetched": true,
+   "isbns": [
+    "9780571355884"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "AQ10032873": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "MOD1691668": {
+   "fetched": true,
+   "isbns": [
+    "9788193545836",
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "MOD1467231": {
+   "fetched": true,
+   "isbns": [
+    "9780140009729"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "MOD1716784": {
+   "fetched": true,
+   "isbns": [
+    "9780241341650"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PUV1569110": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PUV1548375": {
+   "fetched": true,
+   "isbns": [
+    "9780008516086"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PUV0416990": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PAL0386539": {
+   "fetched": true,
+   "isbns": [
+    "9791281111837"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RT10218100": {
+   "fetched": true,
+   "isbns": [
+    "9783730614389"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BMT0034048": {
+   "fetched": true,
+   "isbns": [
+    "9780140278774"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "GRO0000910": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO4523554": {
+   "fetched": true,
+   "isbns": [
+    "9788804738114"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO0259006": {
+   "fetched": true,
+   "isbns": [
+    "9780140126716",
+    "9780140278774"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9780140278774": "rist."
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RAV0647045": {
+   "fetched": true,
+   "isbns": [
+    "9780140278774"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PAV0154769": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "CAG1990700": {
+   "fetched": true,
+   "isbns": [
+    "9780141393049"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LO11799201": {
+   "fetched": true,
+   "isbns": [
+    "9788188575466"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BRI0492135": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO3526538": {
+   "fetched": true,
+   "isbns": [
+    "9780141036144"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "VIA0194485": {
+   "fetched": true,
+   "isbns": [
+    "9780140009729"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "VIA0214939": {
+   "fetched": true,
+   "isbns": [
+    "9780582782402"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO3410391": {
+   "fetched": true,
+   "isbns": [
+    "9780140009729"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "VIA0546386": {
+   "fetched": true,
+   "isbns": [
+    "9781784876555"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO4877007": {
+   "fetched": true,
+   "isbns": [
+    "9788818039955"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO4955425": {
+   "fetched": true,
+   "isbns": [
+    "9791223232767"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO4906111": {
+   "fetched": true,
+   "isbns": [
+    "9781529962253"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO1516195": {
+   "fetched": true,
+   "isbns": [
+    "9780141182476"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO4849119": {
+   "fetched": true,
+   "isbns": [
+    "9781840228823"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "MOD0186908": {
+   "fetched": true,
+   "isbns": [
+    "9780140009729"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LO10598938": {
+   "fetched": true,
+   "isbns": [
+    "9780141182476"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BCT0086006": {
+   "fetched": true,
+   "isbns": [
+    "9780571394388"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BVE0982313": {
+   "fetched": true,
+   "isbns": [
+    "9788853022790"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LO10919307": {
+   "fetched": true,
+   "isbns": [
+    "9780141187358"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TO01689635": {
+   "fetched": true,
+   "isbns": [
+    "9780582331655"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UMC1018657": {
+   "fetched": true,
+   "isbns": [
+    "9788899279974"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TSA1810375": {
+   "fetched": true,
+   "isbns": [
+    "9788899279974"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LO11792728": {
+   "fetched": true,
+   "isbns": [
+    "9788844121006"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9788844121006": "(errato)"
+   },
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "CAG2176003": {
+   "fetched": true,
+   "isbns": [
+    "9781529032666"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "USM2029844": {
+   "fetched": true,
+   "isbns": [
+    "9780198829195"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TO10037839": {
+   "fetched": true,
+   "isbns": [
+    "9780241430972"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TO10031529": {
+   "fetched": true,
+   "isbns": [
+    "9788811811732"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO - INGLESE",
+   "listing_langs": [
+    "eng",
+    "ita"
+   ]
+  },
+  "BMT0019464": {
+   "fetched": true,
+   "isbns": [
+    "9780436410550"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO3686346": {
+   "fetched": true,
+   "isbns": [
+    "9780141187761"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "IEI0628753": {
+   "fetched": true,
+   "isbns": [
+    "9780452262935"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RAV1953457": {
+   "fetched": true,
+   "isbns": [
+    "9780451524935"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "NAP0196885": {
+   "fetched": true,
+   "isbns": [
+    "9780679417392",
+    "9781857151343"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RT10127244": {
+   "fetched": true,
+   "isbns": [
+    "9780452284234"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO2005654": {
+   "fetched": true,
+   "isbns": [
+    "9780451519849"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "UBO4577953": {
+   "fetched": true,
+   "isbns": [
+    "9781471331435"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TO10048326": {
+   "fetched": true,
+   "isbns": [
+    "9780241416419"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BCT0066817": {
+   "fetched": true,
+   "isbns": [
+    "9788853021373"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LO11634513": {
+   "fetched": true,
+   "isbns": [
+    "9780706405675"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "FOG0490370": {
+   "fetched": true,
+   "isbns": [
+    "9782070368228"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "BIA0013110": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO4106512": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "BVE0982473": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "LIG0068680": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0984649": {
+   "fetched": true,
+   "isbns": [
+    "9791259914958"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0856404": {
+   "fetched": true,
+   "isbns": [
+    "9788832130294"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0881637": {
+   "fetched": true,
+   "isbns": [
+    "9788863865462"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0621317": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10374955": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL1128702": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PCM0003154": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PCM0053500": {
+   "fetched": true,
+   "isbns": [
+    "9788883379079"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAL0390118": {
+   "fetched": true,
+   "isbns": [
+    "9791281111363"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAR1304249": {
+   "fetched": true,
+   "isbns": [
+    "9788807899614"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI1152733": {
+   "fetched": true,
+   "isbns": [
+    "9791280035158"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAM0025085": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10076604": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO4461787": {
+   "fetched": true,
+   "isbns": [
+    "9788865969038"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0653197": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0803390": {
+   "fetched": true,
+   "isbns": [
+    "9788804668237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01142496": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0823285": {
+   "fetched": true,
+   "isbns": [
+    "9788858048337"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0809813": {
+   "fetched": true,
+   "isbns": [
+    "9788830104877"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2504712": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2525298": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0880142": {
+   "fetched": true,
+   "isbns": [
+    "9788809906624"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0879367": {
+   "fetched": true,
+   "isbns": [
+    "9788817154468"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0864696": {
+   "fetched": true,
+   "isbns": [
+    "9788822749772"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1579898": {
+   "fetched": true,
+   "isbns": [
+    "9788804604143"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "NAP0838622": {
+   "fetched": true,
+   "isbns": [
+    "9788804668237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LZ10216279": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1733811": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1659333": {
+   "fetched": true,
+   "isbns": [
+    "9788804668237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1823779": {
+   "fetched": true,
+   "isbns": [
+    "9788830154667"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1781348": {
+   "fetched": true,
+   "isbns": [
+    "9788807903816"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PCM0013453": {
+   "fetched": true,
+   "isbns": [
+    "9788804719137"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2708444": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01879273": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0774976": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO11485016": {
+   "fetched": true,
+   "isbns": [
+    "9788804627821"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO11512867": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0862773": {
+   "fetched": true,
+   "isbns": [
+    "9788804643180"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "GMP0031207": {
+   "fetched": true,
+   "isbns": [
+    "9788804796657"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02094902": {
+   "fetched": true,
+   "isbns": [
+    "9788804725930"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02125457": {
+   "fetched": true,
+   "isbns": [
+    "9788893227025"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAR1290333": {
+   "fetched": true,
+   "isbns": [
+    "9788809950627"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO11810880": {
+   "fetched": true,
+   "isbns": [
+    "9788830104877"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO11808882": {
+   "fetched": true,
+   "isbns": [
+    "9788807903816"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10069130": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0931270": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL1179977": {
+   "fetched": true,
+   "isbns": [
+    "9791280823410"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0255524": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "071"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAT0037787": {
+   "fetched": true,
+   "isbns": [
+    "9788804507451"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO4478561": {
+   "fetched": true,
+   "isbns": [
+    "9788804730378"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0869175": {
+   "fetched": true,
+   "isbns": [
+    "9788817154857"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10058532": {
+   "fetched": true,
+   "isbns": [
+    "9788806248185"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TSA1908464": {
+   "fetched": true,
+   "isbns": [
+    "9788832069570"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI1161123": {
+   "fetched": true,
+   "isbns": [
+    "9791280639028"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI1167630": {
+   "fetched": true,
+   "isbns": [
+    "9788844072650"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0605337": {
+   "fetched": true,
+   "isbns": [
+    "9788868677893"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO10036494": {
+   "fetched": true,
+   "isbns": [
+    "9788834741221"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAL0265802": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV2121935": {
+   "fetched": true,
+   "isbns": [
+    "9788832962680"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0816266": {
+   "fetched": true,
+   "isbns": [
+    "9788854982246"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0067957": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMB0808153": {
+   "fetched": true,
+   "isbns": [
+    "9788818035445"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0871737": {
+   "fetched": true,
+   "isbns": [
+    "9788809908635"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0019164": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0206554": {
+   "fetched": true,
+   "isbns": [
+    "9788804325734",
+    "9788804487685"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0103575": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10059299": {
+   "fetched": true,
+   "isbns": [
+    "9788838941498"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RML0120159": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TSA1752515": {
+   "fetched": true,
+   "isbns": [
+    "9788863114348"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI1133547": {
+   "fetched": true,
+   "isbns": [
+    "9788833201054"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10411146": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "CUBI",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO4877263": {
+   "fetched": true,
+   "isbns": [
+    "9788818039221"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "AQ10122377": {
+   "fetched": true,
+   "isbns": [
+    "9788804108191"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "ANA0159012": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0005817": {
+   "fetched": true,
+   "isbns": [
+    "9788804108191"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOL0004862": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOL0004266": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS1138995": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RLZ0061893": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0016102": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO10035393": {
+   "fetched": true,
+   "isbns": [
+    "9788858038741"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0462567": {
+   "fetched": true,
+   "isbns": [
+    "9788824710336"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1658069": {
+   "fetched": true,
+   "isbns": [
+    "9788804663072"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10815977": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00568890": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0077118": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL1169428": {
+   "fetched": true,
+   "isbns": [
+    "9788817191456"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00832597": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0173444": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BCT0060657": {
+   "fetched": true,
+   "isbns": [
+    "9788811816843"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO02081267": {
+   "fetched": true,
+   "isbns": [
+    "9788804474173"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2408321": {
+   "fetched": true,
+   "isbns": [
+    "9788374953986"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "POLACCO",
+   "listing_langs": [
+    "pol"
+   ]
+  },
+  "UBO3935625": {
+   "fetched": true,
+   "isbns": [
+    "9788374953443"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "POLACCO",
+   "listing_langs": [
+    "pol"
+   ]
+  },
+  "TO01407646": {
+   "fetched": true,
+   "isbns": [
+    "9789736810756"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUMENO, MOLDAVO",
+   "listing_langs": [
+    "rum"
+   ]
+  },
+  "PAR1243819": {
+   "fetched": true,
+   "isbns": [
+    "9785170801152"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "UBO2593828": {
+   "fetched": true,
+   "isbns": [
+    "9785170167272"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "SBT0068027": {
+   "fetched": true,
+   "isbns": [
+    "9785170596652"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "TSA1547420": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SLOVENO",
+   "listing_langs": [
+    "slv"
+   ]
+  },
+  "TSA1543590": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SLOVENO",
+   "listing_langs": [
+    "slv"
+   ]
+  },
+  "LO11083471": {
+   "fetched": true,
+   "isbns": [
+    "9788423335039"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "UBO2393866": {
+   "fetched": true,
+   "isbns": [
+    "9788423334704"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "LO11487306": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "RMS2702797": {
+   "fetched": true,
+   "isbns": [
+    "9788423337323"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "PUV0517038": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "BVE0901537": {
+   "fetched": true,
+   "isbns": [
+    "9791280117090"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SARDO",
+   "listing_langs": [
+    "srd"
+   ]
+  },
+  "TSA1533622": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SERBO",
+   "listing_langs": [
+    "srp"
+   ]
+  },
+  "URB0974342": {
+   "fetched": true,
+   "isbns": [
+    "9786177585564"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "UCRAINO",
+   "listing_langs": [
+    "ukr"
+   ]
+  },
+  "RAV2164261": {
+   "fetched": true,
+   "isbns": [
+    "9786175480083"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "UCRAINO",
+   "listing_langs": [
+    "ukr"
+   ]
+  }
+ },
+ "N10": {
+  "FOG0470343": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ALBANESE",
+   "listing_langs": [
+    "alb"
+   ]
+  },
+  "RMB0525582": {
+   "fetched": true,
+   "isbns": [
+    "9789994360369"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ALBANESE",
+   "listing_langs": [
+    "alb"
+   ]
+  },
+  "GMP0026757": {
+   "fetched": true,
+   "isbns": [
+    "9787559427434"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "PCM0045455": {
+   "fetched": true,
+   "isbns": [
+    "9787521717709"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "CINESE",
+   "listing_langs": [
+    "chi"
+   ]
+  },
+  "LO10783489": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PAR0894066": {
+   "fetched": true,
+   "isbns": [
+    "9780141182506"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PAR1187776": {
+   "fetched": true,
+   "isbns": [
+    "9780679720201"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RAV2162959": {
+   "fetched": true,
+   "isbns": [
+    "9780140061581",
+    "9780140274172"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9780140061581": "stampa 1985"
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "PUG0010105": {
+   "fetched": true,
+   "isbns": [
+    "9780141198064"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "TO00983216": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "VIA0274055": {
+   "fetched": true,
+   "isbns": [
+    "9780679420262"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "BVE0257415": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "RAV1363627": {
+   "fetched": true,
+   "isbns": [
+    "9780140015188"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9780140015188": "Rist. 1973"
+   },
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "INGLESE",
+   "listing_langs": [
+    "eng"
+   ]
+  },
+  "LIA0593110": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LIG0014567": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LIA0982266": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO10035972": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RMS1931647": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO01264201": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LIA0170792": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LO11172167": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LO11180556": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "AQ10034256": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "AQ10029243": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "ANA0142567": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "AQ10086248": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LIA0038009": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOD1587762": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LO10779691": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOD0770683": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "BVE0519228": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LUA0587845": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PUV1450989": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOL0213410": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PUV1443500": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PAL0270248": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TSA0908720": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "071"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RAV0223946": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PAL0344918": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "SBL0668064": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9782070360024": "stampa 1990"
+   },
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO01427034": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "SBL0638314": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RAV0318733": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TSA1381131": {
+   "fetched": true,
+   "isbns": [
+    "9782070501670"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PUV0548256": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RMR0018593": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO01832621": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RMR0276987": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PBE0008262": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO01776844": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "NAP0378091": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO0123904": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RT10216752": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RMR0367773": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "NAP0011281": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RAV1418379": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "CFI0926706": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "FOG0525270": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LO11510019": {
+   "fetched": true,
+   "isbns": [
+    "9782070212002"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MIL0773262": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "CAG1427128": {
+   "fetched": true,
+   "isbns": [
+    "9782091886084"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO01966119": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "SBL0124796": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PUV1310665": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO01992243": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO00581346": {
+   "fetched": true,
+   "isbns": [
+    "9782070393718"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UPG0027110": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO01370314": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PUV0840245": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RAV1090159": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TSA1757042": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LO11762437": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "CAG1890542": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LO11424479": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "VIA0137378": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UTO1188947": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UFI0278741": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "VEA1216818": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO1698444": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RCA0807952": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "USM1722173": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "BVE0353091": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "BVE0232949": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOD0111227": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOD0056242": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "BVE0302319": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOD0314151": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE - FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOD0613152": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO4153080": {
+   "fetched": true,
+   "isbns": [
+    "9782040076115"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO4433599": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "LIA0023500": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE - ITALIANO",
+   "listing_langs": [
+    "fre",
+    "ita"
+   ]
+  },
+  "TO01429875": {
+   "fetched": true,
+   "isbns": [
+    "9788842663782"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO02137489": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "TO00493708": {
+   "fetched": true,
+   "isbns": [
+    "9782040160104"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "SBL0200826": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO2033167": {
+   "fetched": true,
+   "isbns": [
+    "9782040160104"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "MOD0613151": {
+   "fetched": true,
+   "isbns": [
+    "9782040120924"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO4155905": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "CAG2073983": {
+   "fetched": true,
+   "isbns": [
+    "9782091886084"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "UBO2820558": {
+   "fetched": true,
+   "isbns": [
+    "9782070306022"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9782070306022": "Rist. 2007"
+   },
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "URB0370136": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RT10073290": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "071"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "PAV0130483": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "071"
+   ],
+   "full_lang": "FRANCESE",
+   "listing_langs": [
+    "fre"
+   ]
+  },
+  "RAV1985623": {
+   "fetched": true,
+   "isbns": [
+    "9783499104329"
+   ],
+   "invalid": [],
+   "annotated": {
+    "9783499104329": "Rist. 1978"
+   },
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "LO11604939": {
+   "fetched": true,
+   "isbns": [
+    "9783499221897"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "URB0277861": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "TEDESCO",
+   "listing_langs": [
+    "ger"
+   ]
+  },
+  "TSA1755226": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SERBO-CROATO",
+   "listing_langs": [
+    "hbs"
+   ]
+  },
+  "RMS2181860": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0047808": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PA10000443": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO01304882": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "ANA0183774": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0405912": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "ANA0071702": {
+   "fetched": true,
+   "isbns": [
+    "9788845238857"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10864544": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0205045": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RLZ0322833": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RLZ0191068": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PUG0006026": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10017489": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0020390": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2565012": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TSA0498691": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0188124": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0229190": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO0091900": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV1419214": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TER0009761": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "FER0123519": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0673259": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAG0040484": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00652930": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RCA0022316": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00583616": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00701716": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SGE0043243": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10055343": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10058942": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0073462": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10415100": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0076076": {
+   "fetched": true,
+   "isbns": [
+    "9788845238857"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10032151": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10065448": {
+   "fetched": true,
+   "isbns": [
+    "9782070360024"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00776901": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UM10104075": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO1515618": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RCA0861972": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO1796784": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00329682": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0029976": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0049077": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0352094": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0257559": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CSA0065691": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0221427": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0363754": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0555011": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2227596": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0271414": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LIA0052193": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CUB0150985": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "CUBI",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CUB0150983": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "CUBI",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0123042": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RLZ0083857": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS0168185": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CFI0286951": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0172707": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SBL0598821": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "PAL0230096": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMR0018514": {
+   "fetched": true,
+   "isbns": [
+    "9788845238857"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV1319915": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BIA0025954": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00639170": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00370184": {
+   "fetched": true,
+   "isbns": [
+    "9788845203237"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00392050": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV1629307": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RAV0666007": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10058519": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "VIA0098964": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO3864775": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "071"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00832164": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0090041": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD0109234": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0257552": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LO10548269": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAG1346390": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "BVE0257561": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1744431": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS1437271": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2655464": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS2655684": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0851133": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UFE0838863": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LUA0172524": {
+   "fetched": true,
+   "isbns": [
+    "9788845247460"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00579965": {
+   "fetched": true,
+   "isbns": [
+    "9788839529763"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RMS0079787": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "REA0011332": {
+   "fetched": true,
+   "isbns": [
+    "9788802021430"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00704274": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "SBL0417870": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RLZ0197473": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "LEK0020622": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "TO00771300": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10021016": {
+   "fetched": true,
+   "isbns": [
+    "9788830101142"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MOD1812613": {
+   "fetched": true,
+   "isbns": [
+    "9788845277634"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RL10071671": {
+   "fetched": true,
+   "isbns": [
+    "9788845277634"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "RT10066978": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MIL0879278": {
+   "fetched": true,
+   "isbns": [
+    "9788845277634"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN",
+    "BNI"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "URB0932935": {
+   "fetched": true,
+   "isbns": [
+    "9788845277634"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "MO10039139": {
+   "fetched": true,
+   "isbns": [
+    "9788845277634"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "CAG0094026": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "ITALIANO",
+   "listing_langs": [
+    "ita"
+   ]
+  },
+  "UBO3928440": {
+   "fetched": true,
+   "isbns": [
+    "9785170059799"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "BVE0341628": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "UBO4281230": {
+   "fetched": true,
+   "isbns": [
+    "9785170833818"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "RUSSO",
+   "listing_langs": [
+    "rus"
+   ]
+  },
+  "TSA1543385": {
+   "fetched": true,
+   "isbns": [],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [],
+   "full_lang": "SLOVENO",
+   "listing_langs": [
+    "slv"
+   ]
+  },
+  "CAG1845041": {
+   "fetched": true,
+   "isbns": [
+    "9788420636948"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  },
+  "CFI0544332": {
+   "fetched": true,
+   "isbns": [
+    "9788408463849"
+   ],
+   "invalid": [],
+   "annotated": {},
+   "numeri_labels": [
+    "ISBN"
+   ],
+   "full_lang": "SPAGNOLO",
+   "listing_langs": [
+    "spa"
+   ]
+  }
+ }
+}

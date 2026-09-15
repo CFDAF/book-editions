@@ -1,0 +1,41 @@
+{
+ "id": "E01",
+ "rows": 143,
+ "fetched": 143,
+ "not_fetched": [],
+ "problems": {},
+ "first_pass_problems": 0,
+ "control": {
+  "bid": "ZZQ9999999",
+  "problem": "mismatch: asked ZZQ9999999, got None",
+  "body": {
+   "numeri": [],
+   "note": [],
+   "nomi": [],
+   "luogoNormalizzato": [],
+   "localizzazioni": [],
+   "citazioni": [
+    {
+     "standard": "mla",
+     "valore": ","
+    },
+    {
+     "standard": "apa",
+     "valore": "."
+    }
+   ]
+  }
+ },
+ "wall_s": 42.4,
+ "requests": {
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 144,
+   "failed": 0,
+   "total_s": 41.96,
+   "p50_s": 0.243,
+   "max_s": 1.121
+  }
+ },
+ "retries": {},
+ "failures": []
+}

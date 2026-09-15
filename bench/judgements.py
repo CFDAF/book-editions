@@ -203,3 +203,18 @@ STAGE2 = {
     # N22 Le Capital au XXIe siècle
     ("N22", "PAV3226418"): ("wrong-work leak", "La crisis del capital en el siglo 21 (uniform title Peut-on sauver l'Europe?)"),
 }
+
+# --- Stage 3 --------------------------------------------------------
+# Records inside a Stage 1 listing that take part in a false-positive collision
+# and are not a plain edition of the book, judged from the SBN full record
+# (titolo, descrizioneFisica, collezione, note) or the Open Library edition
+# (results/stage-3/pairs.json). Every other false positive is a different ISBN
+# under the same publisher, year and language, and needs no judgement.
+STAGE3 = {
+    ("N06", "VIA0214939"): ("not the book", "York Notes study guide: 'notes by Robert Welch', 72 p."),
+    ("N06", "TO10037839"): ("not the book", "Penguin Readers Level 7 retelling by Fiona Mackenzie, 126 p."),
+    ("N06", "TO02081267"): ("volume with other works", "I Meridiani 'Romanzi e saggi': five works incl. 1984, 1723 p."),
+    ("E01", "/books/OL45606013M"): ("edition record with a foreign ISBN",
+                                    "Harper & Row 1970, but ISBN 0241972353 is outside Harper & Row's 0-06 range "
+                                    "(SBN VEA1015994, the same 1970 edition, has 0060114183)"),
+}

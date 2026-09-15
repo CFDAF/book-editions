@@ -1,0 +1,45 @@
+{
+ "id": "N10",
+ "rows": 216,
+ "fetched": 216,
+ "not_fetched": [],
+ "problems": {},
+ "first_pass_problems": 0,
+ "control": {
+  "bid": "ZZQ9999999",
+  "problem": "mismatch: asked ZZQ9999999, got None",
+  "body": {
+   "numeri": [],
+   "note": [],
+   "nomi": [],
+   "luogoNormalizzato": [],
+   "localizzazioni": [],
+   "citazioni": [
+    {
+     "standard": "mla",
+     "valore": ","
+    },
+    {
+     "standard": "apa",
+     "valore": "."
+    }
+   ]
+  }
+ },
+ "wall_s": 102.3,
+ "requests": {
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 217,
+   "failed": 0,
+   "total_s": 101.66,
+   "p50_s": 0.353,
+   "max_s": 2.198
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw": {
+   "ProtocolError": 1
+  }
+ },
+ "failures": []
+}

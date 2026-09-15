@@ -1,0 +1,41 @@
+{
+ "id": "N14",
+ "rows": 48,
+ "fetched": 48,
+ "not_fetched": [],
+ "problems": {},
+ "first_pass_problems": 0,
+ "control": {
+  "bid": "ZZQ9999999",
+  "problem": "mismatch: asked ZZQ9999999, got None",
+  "body": {
+   "numeri": [],
+   "note": [],
+   "nomi": [],
+   "luogoNormalizzato": [],
+   "localizzazioni": [],
+   "citazioni": [
+    {
+     "standard": "mla",
+     "valore": ","
+    },
+    {
+     "standard": "apa",
+     "valore": "."
+    }
+   ]
+  }
+ },
+ "wall_s": 20.5,
+ "requests": {
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 49,
+   "failed": 0,
+   "total_s": 20.37,
+   "p50_s": 0.304,
+   "max_s": 1.986
+  }
+ },
+ "retries": {},
+ "failures": []
+}

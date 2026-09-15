@@ -1,0 +1,1597 @@
+{
+ "books": [
+  "N19",
+  "E02",
+  "N14",
+  "N08",
+  "N01",
+  "E01",
+  "N06",
+  "N10"
+ ],
+ "verdict": {
+  "precision": 0.656,
+  "fetch_saving": 0.812,
+  "fails_precision": true,
+  "fails_saving": false,
+  "result": "FAIL"
+ },
+ "pooled": {
+  "primary": {
+   "what": "language shared, year equal, one publisher key contained in the other",
+   "tp": 82,
+   "fp": 43,
+   "fn": 417,
+   "precision": 0.656,
+   "recall": 0.164,
+   "truth_pairs_same_year": 130,
+   "tp_same_year": 82,
+   "truth_pairs_reached_by_fetched_rows": 166,
+   "ol_editions_with_true_duplicate": 201,
+   "ol_editions_merged_with_a_true_duplicate": 78,
+   "ol_editions_colliding_only_with_wrong_sbn": 31,
+   "recall_same_year": 0.631,
+   "unverifiable": {
+    "Open Library lacks": 45,
+    "both lack": 218,
+    "SBN lacks": 25
+   },
+   "unverifiable_total": 288,
+   "fetches_needed": 146,
+   "fetches_needed_ol_has_isbn": 105,
+   "fetches_all": 778,
+   "fetch_saving": 0.812,
+   "miss_causes": {
+    "year differs": 224,
+    "language missing + year differs": 48,
+    "language differs + year differs": 39,
+    "language missing + year differs + publisher differs": 25,
+    "year differs + publisher differs": 23,
+    "language missing": 21,
+    "publisher differs": 19,
+    "year missing + publisher differs": 6,
+    "language missing + publisher differs": 5,
+    "language differs + publisher differs": 2,
+    "language differs": 1,
+    "language differs + year differs + publisher differs": 1,
+    "year missing": 1,
+    "year differs + publisher missing": 1,
+    "year missing + publisher missing": 1
+   },
+   "per_book_precision": {
+    "N19": null,
+    "E02": 1.0,
+    "N14": 0.857,
+    "N08": 0.5,
+    "N01": 0.75,
+    "E01": 0.69,
+    "N06": 0.447,
+    "N10": 0.895
+   },
+   "fp_with_a_judged_record": {
+    "E01 /books/OL45606013M: edition record with a foreign ISBN": 1,
+    "N06 VIA0214939: not the book": 2,
+    "N06 TO10037839: not the book": 1,
+    "N06 TO02081267: volume with other works": 1
+   }
+  },
+  "exact publisher": {
+   "what": "as primary, but publisher keys must be equal (SBN's split values stay apart)",
+   "tp": 73,
+   "fp": 37,
+   "fn": 426,
+   "precision": 0.664,
+   "recall": 0.146,
+   "truth_pairs_same_year": 130,
+   "tp_same_year": 73,
+   "truth_pairs_reached_by_fetched_rows": 155,
+   "ol_editions_with_true_duplicate": 201,
+   "ol_editions_merged_with_a_true_duplicate": 70,
+   "ol_editions_colliding_only_with_wrong_sbn": 27,
+   "recall_same_year": 0.562,
+   "unverifiable": {
+    "Open Library lacks": 44,
+    "both lack": 206,
+    "SBN lacks": 19
+   },
+   "unverifiable_total": 269,
+   "fetches_needed": 129,
+   "fetches_needed_ol_has_isbn": 90,
+   "fetches_all": 778,
+   "fetch_saving": 0.834,
+   "miss_causes": {
+    "year differs": 202,
+    "year differs + publisher differs": 45,
+    "language missing + year differs": 44,
+    "language differs + year differs": 38,
+    "language missing + year differs + publisher differs": 29,
+    "publisher differs": 28,
+    "language missing": 18,
+    "language missing + publisher differs": 8,
+    "year missing + publisher differs": 6,
+    "language differs + year differs + publisher differs": 2,
+    "language differs + publisher differs": 2,
+    "language differs": 1,
+    "year missing": 1,
+    "year differs + publisher missing": 1,
+    "year missing + publisher missing": 1
+   },
+   "per_book_precision": {
+    "N19": null,
+    "E02": 1.0,
+    "N14": 0.833,
+    "N08": 0.5,
+    "N01": 0.722,
+    "E01": 0.68,
+    "N06": 0.484,
+    "N10": 0.889
+   }
+  },
+  "OL language missing matches": {
+   "what": "as primary, but an Open Library edition with no language matches any",
+   "tp": 103,
+   "fp": 59,
+   "fn": 396,
+   "precision": 0.636,
+   "recall": 0.206,
+   "truth_pairs_same_year": 130,
+   "tp_same_year": 103,
+   "truth_pairs_reached_by_fetched_rows": 201,
+   "ol_editions_with_true_duplicate": 201,
+   "ol_editions_merged_with_a_true_duplicate": 97,
+   "ol_editions_colliding_only_with_wrong_sbn": 41,
+   "recall_same_year": 0.792,
+   "unverifiable": {
+    "Open Library lacks": 55,
+    "both lack": 250,
+    "SBN lacks": 28
+   },
+   "unverifiable_total": 333,
+   "fetches_needed": 174,
+   "fetches_needed_ol_has_isbn": 131,
+   "fetches_all": 778,
+   "fetch_saving": 0.776,
+   "miss_causes": {
+    "year differs": 224,
+    "language missing + year differs": 48,
+    "language differs + year differs": 39,
+    "language missing + year differs + publisher differs": 25,
+    "year differs + publisher differs": 23,
+    "publisher differs": 19,
+    "year missing + publisher differs": 6,
+    "language missing + publisher differs": 5,
+    "language differs + publisher differs": 2,
+    "language differs": 1,
+    "language differs + year differs + publisher differs": 1,
+    "year missing": 1,
+    "year differs + publisher missing": 1,
+    "year missing + publisher missing": 1
+   },
+   "per_book_precision": {
+    "N19": null,
+    "E02": 1.0,
+    "N14": 0.875,
+    "N08": 0.562,
+    "N01": 0.783,
+    "E01": 0.595,
+    "N06": 0.453,
+    "N10": 0.913
+   }
+  }
+ },
+ "per_book": {
+  "N19": {
+   "sbn_rows": 7,
+   "sbn_fetched": 7,
+   "sbn_with_isbn": 7,
+   "sbn_invalid_isbn_values": 0,
+   "sbn_with_year": 7,
+   "sbn_with_publisher_key": 7,
+   "ol_editions": 17,
+   "ol_with_isbn": 17,
+   "ol_invalid_isbn_values": 0,
+   "ol_with_language": 13,
+   "ol_with_year": 17,
+   "ol_with_publisher_key": 17,
+   "truth": {
+    "ol_editions_with_several_sbn": 1,
+    "sbn_records_with_several_ol": 1,
+    "language_differs": 0,
+    "year_differs": 1,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {}
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 119,
+     "truth_pairs": 4,
+     "collisions_verifiable": 0,
+     "tp": 0,
+     "fp": 0,
+     "fn": 4,
+     "precision": null,
+     "recall": 0.0,
+     "truth_pairs_same_year": 3,
+     "tp_same_year": 0,
+     "ol_editions_with_true_duplicate": 3,
+     "ol_editions_merged_with_a_true_duplicate": 0,
+     "ol_editions_colliding_only_with_wrong_sbn": 0,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 0,
+     "fetches_needed_ol_has_isbn": 0,
+     "fetches_all": 7,
+     "truth_pairs_reached_by_fetched_rows": 0,
+     "miss_causes": {
+      "year differs + publisher differs": 1,
+      "publisher differs": 3
+     }
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 119,
+     "truth_pairs": 4,
+     "collisions_verifiable": 0,
+     "tp": 0,
+     "fp": 0,
+     "fn": 4,
+     "precision": null,
+     "recall": 0.0,
+     "truth_pairs_same_year": 3,
+     "tp_same_year": 0,
+     "ol_editions_with_true_duplicate": 3,
+     "ol_editions_merged_with_a_true_duplicate": 0,
+     "ol_editions_colliding_only_with_wrong_sbn": 0,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 0,
+     "fetches_needed_ol_has_isbn": 0,
+     "fetches_all": 7,
+     "truth_pairs_reached_by_fetched_rows": 0,
+     "miss_causes": {
+      "year differs + publisher differs": 1,
+      "publisher differs": 3
+     }
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 119,
+     "truth_pairs": 4,
+     "collisions_verifiable": 0,
+     "tp": 0,
+     "fp": 0,
+     "fn": 4,
+     "precision": null,
+     "recall": 0.0,
+     "truth_pairs_same_year": 3,
+     "tp_same_year": 0,
+     "ol_editions_with_true_duplicate": 3,
+     "ol_editions_merged_with_a_true_duplicate": 0,
+     "ol_editions_colliding_only_with_wrong_sbn": 0,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 0,
+     "fetches_needed_ol_has_isbn": 0,
+     "fetches_all": 7,
+     "truth_pairs_reached_by_fetched_rows": 0,
+     "miss_causes": {
+      "year differs + publisher differs": 1,
+      "publisher differs": 3
+     }
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 1,
+    "sharing_an_isbn": 0
+   },
+   "fetch": {
+    "rows": 7,
+    "fetched": 7,
+    "first_pass_problems": 0,
+    "wall_s": 1.5,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 8,
+      "failed": 0,
+      "total_s": 1.45,
+      "p50_s": 0.162,
+      "max_s": 0.381
+     }
+    },
+    "retries": {},
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 3,
+   "largest_isbn_cluster": "9781529115543: 2 × 1 = 2"
+  },
+  "E02": {
+   "sbn_rows": 26,
+   "sbn_fetched": 26,
+   "sbn_with_isbn": 16,
+   "sbn_invalid_isbn_values": 0,
+   "sbn_with_year": 25,
+   "sbn_with_publisher_key": 26,
+   "ol_editions": 14,
+   "ol_with_isbn": 12,
+   "ol_invalid_isbn_values": 1,
+   "ol_with_language": 12,
+   "ol_with_year": 14,
+   "ol_with_publisher_key": 14,
+   "truth": {
+    "ol_editions_with_several_sbn": 0,
+    "sbn_records_with_several_ol": 1,
+    "language_differs": 0,
+    "year_differs": 0,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {}
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 192,
+     "truth_pairs": 2,
+     "collisions_verifiable": 2,
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "truth_pairs_same_year": 2,
+     "tp_same_year": 2,
+     "ol_editions_with_true_duplicate": 2,
+     "ol_editions_merged_with_a_true_duplicate": 2,
+     "ol_editions_colliding_only_with_wrong_sbn": 0,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 1,
+     "fetches_needed_ol_has_isbn": 1,
+     "fetches_all": 26,
+     "truth_pairs_reached_by_fetched_rows": 2,
+     "miss_causes": {}
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 192,
+     "truth_pairs": 2,
+     "collisions_verifiable": 2,
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "truth_pairs_same_year": 2,
+     "tp_same_year": 2,
+     "ol_editions_with_true_duplicate": 2,
+     "ol_editions_merged_with_a_true_duplicate": 2,
+     "ol_editions_colliding_only_with_wrong_sbn": 0,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 1,
+     "fetches_needed_ol_has_isbn": 1,
+     "fetches_all": 26,
+     "truth_pairs_reached_by_fetched_rows": 2,
+     "miss_causes": {}
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 192,
+     "truth_pairs": 2,
+     "collisions_verifiable": 2,
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "truth_pairs_same_year": 2,
+     "tp_same_year": 2,
+     "ol_editions_with_true_duplicate": 2,
+     "ol_editions_merged_with_a_true_duplicate": 2,
+     "ol_editions_colliding_only_with_wrong_sbn": 0,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 1,
+     "fetches_needed_ol_has_isbn": 1,
+     "fetches_all": 26,
+     "truth_pairs_reached_by_fetched_rows": 2,
+     "miss_causes": {}
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 0,
+    "sharing_an_isbn": 0
+   },
+   "fetch": {
+    "rows": 26,
+    "fetched": 26,
+    "first_pass_problems": 0,
+    "wall_s": 7.2,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 27,
+      "failed": 0,
+      "total_s": 7.13,
+      "p50_s": 0.226,
+      "max_s": 0.751
+     }
+    },
+    "retries": {},
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 1,
+   "largest_isbn_cluster": "9780810204478: 1 × 2 = 2"
+  },
+  "N14": {
+   "sbn_rows": 48,
+   "sbn_fetched": 48,
+   "sbn_with_isbn": 45,
+   "sbn_invalid_isbn_values": 1,
+   "sbn_with_year": 48,
+   "sbn_with_publisher_key": 48,
+   "ol_editions": 40,
+   "ol_with_isbn": 40,
+   "ol_invalid_isbn_values": 2,
+   "ol_with_language": 34,
+   "ol_with_year": 40,
+   "ol_with_publisher_key": 40,
+   "truth": {
+    "ol_editions_with_several_sbn": 1,
+    "sbn_records_with_several_ol": 1,
+    "language_differs": 0,
+    "year_differs": 4,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {
+     "(pbk.)": 3
+    }
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 1800,
+     "truth_pairs": 12,
+     "collisions_verifiable": 7,
+     "tp": 6,
+     "fp": 1,
+     "fn": 6,
+     "precision": 0.857,
+     "recall": 0.5,
+     "truth_pairs_same_year": 8,
+     "tp_same_year": 6,
+     "ol_editions_with_true_duplicate": 11,
+     "ol_editions_merged_with_a_true_duplicate": 6,
+     "ol_editions_colliding_only_with_wrong_sbn": 1,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 6,
+     "fetches_needed_ol_has_isbn": 6,
+     "fetches_all": 48,
+     "truth_pairs_reached_by_fetched_rows": 9,
+     "miss_causes": {
+      "publisher differs": 1,
+      "year differs + publisher differs": 1,
+      "year differs": 3,
+      "language missing": 1
+     }
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 1800,
+     "truth_pairs": 12,
+     "collisions_verifiable": 6,
+     "tp": 5,
+     "fp": 1,
+     "fn": 7,
+     "precision": 0.833,
+     "recall": 0.417,
+     "truth_pairs_same_year": 8,
+     "tp_same_year": 5,
+     "ol_editions_with_true_duplicate": 11,
+     "ol_editions_merged_with_a_true_duplicate": 5,
+     "ol_editions_colliding_only_with_wrong_sbn": 1,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 5,
+     "fetches_needed_ol_has_isbn": 5,
+     "fetches_all": 48,
+     "truth_pairs_reached_by_fetched_rows": 8,
+     "miss_causes": {
+      "publisher differs": 2,
+      "year differs + publisher differs": 3,
+      "year differs": 1,
+      "language missing + publisher differs": 1
+     }
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 1800,
+     "truth_pairs": 12,
+     "collisions_verifiable": 8,
+     "tp": 7,
+     "fp": 1,
+     "fn": 5,
+     "precision": 0.875,
+     "recall": 0.583,
+     "truth_pairs_same_year": 8,
+     "tp_same_year": 7,
+     "ol_editions_with_true_duplicate": 11,
+     "ol_editions_merged_with_a_true_duplicate": 7,
+     "ol_editions_colliding_only_with_wrong_sbn": 1,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 7,
+     "fetches_needed_ol_has_isbn": 7,
+     "fetches_all": 48,
+     "truth_pairs_reached_by_fetched_rows": 10,
+     "miss_causes": {
+      "publisher differs": 1,
+      "year differs + publisher differs": 1,
+      "year differs": 3
+     }
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 11,
+    "sharing_an_isbn": 7
+   },
+   "fetch": {
+    "rows": 48,
+    "fetched": 48,
+    "first_pass_problems": 0,
+    "wall_s": 20.5,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 49,
+      "failed": 0,
+      "total_s": 20.37,
+      "p50_s": 0.304,
+      "max_s": 1.986
+     }
+    },
+    "retries": {},
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 9,
+   "largest_isbn_cluster": "9780156007757: 1 × 3 = 3"
+  },
+  "N08": {
+   "sbn_rows": 57,
+   "sbn_fetched": 57,
+   "sbn_with_isbn": 50,
+   "sbn_invalid_isbn_values": 0,
+   "sbn_with_year": 56,
+   "sbn_with_publisher_key": 57,
+   "ol_editions": 40,
+   "ol_with_isbn": 40,
+   "ol_invalid_isbn_values": 3,
+   "ol_with_language": 21,
+   "ol_with_year": 40,
+   "ol_with_publisher_key": 39,
+   "truth": {
+    "ol_editions_with_several_sbn": 6,
+    "sbn_records_with_several_ol": 9,
+    "language_differs": 0,
+    "year_differs": 21,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {
+     "ediz. 13, 2020": 1
+    }
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 2000,
+     "truth_pairs": 32,
+     "collisions_verifiable": 10,
+     "tp": 5,
+     "fp": 5,
+     "fn": 27,
+     "precision": 0.5,
+     "recall": 0.156,
+     "truth_pairs_same_year": 11,
+     "tp_same_year": 5,
+     "ol_editions_with_true_duplicate": 18,
+     "ol_editions_merged_with_a_true_duplicate": 5,
+     "ol_editions_colliding_only_with_wrong_sbn": 5,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 6,
+     "fetches_needed_ol_has_isbn": 6,
+     "fetches_all": 57,
+     "truth_pairs_reached_by_fetched_rows": 12,
+     "miss_causes": {
+      "language missing + year differs + publisher differs": 1,
+      "language missing + year differs": 6,
+      "language missing": 4,
+      "year differs": 14,
+      "publisher differs": 1,
+      "language missing + publisher differs": 1
+     }
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 2000,
+     "truth_pairs": 32,
+     "collisions_verifiable": 10,
+     "tp": 5,
+     "fp": 5,
+     "fn": 27,
+     "precision": 0.5,
+     "recall": 0.156,
+     "truth_pairs_same_year": 11,
+     "tp_same_year": 5,
+     "ol_editions_with_true_duplicate": 18,
+     "ol_editions_merged_with_a_true_duplicate": 5,
+     "ol_editions_colliding_only_with_wrong_sbn": 5,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 6,
+     "fetches_needed_ol_has_isbn": 6,
+     "fetches_all": 57,
+     "truth_pairs_reached_by_fetched_rows": 12,
+     "miss_causes": {
+      "language missing + year differs + publisher differs": 3,
+      "language missing + year differs": 4,
+      "language missing": 4,
+      "year differs": 14,
+      "publisher differs": 1,
+      "language missing + publisher differs": 1
+     }
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 2000,
+     "truth_pairs": 32,
+     "collisions_verifiable": 16,
+     "tp": 9,
+     "fp": 7,
+     "fn": 23,
+     "precision": 0.562,
+     "recall": 0.281,
+     "truth_pairs_same_year": 11,
+     "tp_same_year": 9,
+     "ol_editions_with_true_duplicate": 18,
+     "ol_editions_merged_with_a_true_duplicate": 9,
+     "ol_editions_colliding_only_with_wrong_sbn": 7,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 10,
+     "fetches_needed_ol_has_isbn": 10,
+     "fetches_all": 57,
+     "truth_pairs_reached_by_fetched_rows": 17,
+     "miss_causes": {
+      "language missing + year differs + publisher differs": 1,
+      "language missing + year differs": 6,
+      "year differs": 14,
+      "publisher differs": 1,
+      "language missing + publisher differs": 1
+     }
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 3,
+    "sharing_an_isbn": 1
+   },
+   "fetch": {
+    "rows": 57,
+    "fetched": 57,
+    "first_pass_problems": 0,
+    "wall_s": 11.7,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 58,
+      "failed": 0,
+      "total_s": 11.57,
+      "p50_s": 0.147,
+      "max_s": 1.151
+     }
+    },
+    "retries": {},
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 14,
+   "largest_isbn_cluster": "9788866320326: 6 × 2 = 12"
+  },
+  "N01": {
+   "sbn_rows": 109,
+   "sbn_fetched": 109,
+   "sbn_with_isbn": 72,
+   "sbn_invalid_isbn_values": 0,
+   "sbn_with_year": 108,
+   "sbn_with_publisher_key": 108,
+   "ol_editions": 81,
+   "ol_with_isbn": 78,
+   "ol_invalid_isbn_values": 0,
+   "ol_with_language": 68,
+   "ol_with_year": 78,
+   "ol_with_publisher_key": 78,
+   "truth": {
+    "ol_editions_with_several_sbn": 10,
+    "sbn_records_with_several_ol": 42,
+    "language_differs": 37,
+    "year_differs": 87,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {
+     "Paperback ed.": 1,
+     "Rist. 2009": 1,
+     "recuperato da catalogo editor.": 1
+    }
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 5616,
+     "truth_pairs": 113,
+     "collisions_verifiable": 20,
+     "tp": 15,
+     "fp": 5,
+     "fn": 98,
+     "precision": 0.75,
+     "recall": 0.133,
+     "truth_pairs_same_year": 26,
+     "tp_same_year": 15,
+     "ol_editions_with_true_duplicate": 35,
+     "ol_editions_merged_with_a_true_duplicate": 15,
+     "ol_editions_colliding_only_with_wrong_sbn": 2,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 14,
+     "fetches_needed_ol_has_isbn": 14,
+     "fetches_all": 109,
+     "truth_pairs_reached_by_fetched_rows": 22,
+     "miss_causes": {
+      "year differs": 15,
+      "language missing": 3,
+      "publisher differs": 5,
+      "language differs + year differs": 34,
+      "year differs + publisher differs": 4,
+      "language missing + year differs + publisher differs": 4,
+      "language missing + year differs": 30,
+      "language differs + publisher differs": 2,
+      "language differs": 1
+     }
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 5616,
+     "truth_pairs": 113,
+     "collisions_verifiable": 18,
+     "tp": 13,
+     "fp": 5,
+     "fn": 100,
+     "precision": 0.722,
+     "recall": 0.115,
+     "truth_pairs_same_year": 26,
+     "tp_same_year": 13,
+     "ol_editions_with_true_duplicate": 35,
+     "ol_editions_merged_with_a_true_duplicate": 13,
+     "ol_editions_colliding_only_with_wrong_sbn": 2,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 13,
+     "fetches_needed_ol_has_isbn": 13,
+     "fetches_all": 109,
+     "truth_pairs_reached_by_fetched_rows": 21,
+     "miss_causes": {
+      "year differs": 15,
+      "language missing": 2,
+      "publisher differs": 7,
+      "language differs + year differs": 33,
+      "year differs + publisher differs": 4,
+      "language missing + year differs + publisher differs": 5,
+      "language missing + year differs": 29,
+      "language differs + year differs + publisher differs": 1,
+      "language differs + publisher differs": 2,
+      "language differs": 1,
+      "language missing + publisher differs": 1
+     }
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 5616,
+     "truth_pairs": 113,
+     "collisions_verifiable": 23,
+     "tp": 18,
+     "fp": 5,
+     "fn": 95,
+     "precision": 0.783,
+     "recall": 0.159,
+     "truth_pairs_same_year": 26,
+     "tp_same_year": 18,
+     "ol_editions_with_true_duplicate": 35,
+     "ol_editions_merged_with_a_true_duplicate": 18,
+     "ol_editions_colliding_only_with_wrong_sbn": 2,
+     "unverifiable": {},
+     "unverifiable_total": 0,
+     "fetches_needed": 16,
+     "fetches_needed_ol_has_isbn": 16,
+     "fetches_all": 109,
+     "truth_pairs_reached_by_fetched_rows": 25,
+     "miss_causes": {
+      "year differs": 15,
+      "publisher differs": 5,
+      "language differs + year differs": 34,
+      "year differs + publisher differs": 4,
+      "language missing + year differs + publisher differs": 4,
+      "language missing + year differs": 30,
+      "language differs + publisher differs": 2,
+      "language differs": 1
+     }
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 73,
+    "sharing_an_isbn": 7
+   },
+   "fetch": {
+    "rows": 109,
+    "fetched": 109,
+    "first_pass_problems": 0,
+    "wall_s": 25.3,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 110,
+      "failed": 0,
+      "total_s": 25.03,
+      "p50_s": 0.196,
+      "max_s": 0.821
+     }
+    },
+    "retries": {},
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 22,
+   "largest_isbn_cluster": "9788845906862: 31 × 2 = 62"
+  },
+  "E01": {
+   "sbn_rows": 143,
+   "sbn_fetched": 143,
+   "sbn_with_isbn": 84,
+   "sbn_invalid_isbn_values": 1,
+   "sbn_with_year": 141,
+   "sbn_with_publisher_key": 143,
+   "ol_editions": 208,
+   "ol_with_isbn": 169,
+   "ol_invalid_isbn_values": 1,
+   "ol_with_language": 162,
+   "ol_with_year": 204,
+   "ol_with_publisher_key": 201,
+   "truth": {
+    "ol_editions_with_several_sbn": 11,
+    "sbn_records_with_several_ol": 23,
+    "language_differs": 1,
+    "year_differs": 63,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {}
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 14196,
+     "truth_pairs": 93,
+     "collisions_verifiable": 29,
+     "tp": 20,
+     "fp": 9,
+     "fn": 73,
+     "precision": 0.69,
+     "recall": 0.215,
+     "truth_pairs_same_year": 28,
+     "tp_same_year": 20,
+     "ol_editions_with_true_duplicate": 46,
+     "ol_editions_merged_with_a_true_duplicate": 18,
+     "ol_editions_colliding_only_with_wrong_sbn": 9,
+     "unverifiable": {
+      "Open Library lacks": 2,
+      "both lack": 2,
+      "SBN lacks": 4
+     },
+     "unverifiable_total": 8,
+     "fetches_needed": 26,
+     "fetches_needed_ol_has_isbn": 23,
+     "fetches_all": 143,
+     "truth_pairs_reached_by_fetched_rows": 37,
+     "miss_causes": {
+      "year differs": 43,
+      "language differs + year differs + publisher differs": 1,
+      "year differs + publisher differs": 9,
+      "language missing + year differs + publisher differs": 6,
+      "language missing": 2,
+      "publisher differs": 5,
+      "year missing": 1,
+      "year missing + publisher differs": 1,
+      "language missing + year differs": 3,
+      "language missing + publisher differs": 1,
+      "year differs + publisher missing": 1
+     }
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 14196,
+     "truth_pairs": 93,
+     "collisions_verifiable": 25,
+     "tp": 17,
+     "fp": 8,
+     "fn": 76,
+     "precision": 0.68,
+     "recall": 0.183,
+     "truth_pairs_same_year": 28,
+     "tp_same_year": 17,
+     "ol_editions_with_true_duplicate": 46,
+     "ol_editions_merged_with_a_true_duplicate": 16,
+     "ol_editions_colliding_only_with_wrong_sbn": 8,
+     "unverifiable": {
+      "Open Library lacks": 2,
+      "both lack": 2,
+      "SBN lacks": 2
+     },
+     "unverifiable_total": 6,
+     "fetches_needed": 20,
+     "fetches_needed_ol_has_isbn": 17,
+     "fetches_all": 143,
+     "truth_pairs_reached_by_fetched_rows": 32,
+     "miss_causes": {
+      "year differs": 33,
+      "language differs + year differs + publisher differs": 1,
+      "year differs + publisher differs": 19,
+      "language missing + year differs + publisher differs": 7,
+      "language missing": 1,
+      "publisher differs": 8,
+      "year missing": 1,
+      "year missing + publisher differs": 1,
+      "language missing + year differs": 2,
+      "language missing + publisher differs": 2,
+      "year differs + publisher missing": 1
+     }
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 14196,
+     "truth_pairs": 93,
+     "collisions_verifiable": 37,
+     "tp": 22,
+     "fp": 15,
+     "fn": 71,
+     "precision": 0.595,
+     "recall": 0.237,
+     "truth_pairs_same_year": 28,
+     "tp_same_year": 22,
+     "ol_editions_with_true_duplicate": 46,
+     "ol_editions_merged_with_a_true_duplicate": 20,
+     "ol_editions_colliding_only_with_wrong_sbn": 12,
+     "unverifiable": {
+      "Open Library lacks": 3,
+      "both lack": 2,
+      "SBN lacks": 5
+     },
+     "unverifiable_total": 10,
+     "fetches_needed": 30,
+     "fetches_needed_ol_has_isbn": 27,
+     "fetches_all": 143,
+     "truth_pairs_reached_by_fetched_rows": 39,
+     "miss_causes": {
+      "year differs": 43,
+      "language differs + year differs + publisher differs": 1,
+      "year differs + publisher differs": 9,
+      "language missing + year differs + publisher differs": 6,
+      "publisher differs": 5,
+      "year missing": 1,
+      "year missing + publisher differs": 1,
+      "language missing + year differs": 3,
+      "language missing + publisher differs": 1,
+      "year differs + publisher missing": 1
+     }
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 58,
+    "sharing_an_isbn": 6
+   },
+   "fetch": {
+    "rows": 143,
+    "fetched": 143,
+    "first_pass_problems": 0,
+    "wall_s": 42.4,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 144,
+      "failed": 0,
+      "total_s": 41.96,
+      "p50_s": 0.243,
+      "max_s": 1.121
+     }
+    },
+    "retries": {},
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 27,
+   "largest_isbn_cluster": "9788437604947: 5 × 4 = 20"
+  },
+  "N06": {
+   "sbn_rows": 172,
+   "sbn_fetched": 172,
+   "sbn_with_isbn": 128,
+   "sbn_invalid_isbn_values": 0,
+   "sbn_with_year": 169,
+   "sbn_with_publisher_key": 172,
+   "ol_editions": 537,
+   "ol_with_isbn": 465,
+   "ol_invalid_isbn_values": 0,
+   "ol_with_language": 374,
+   "ol_with_year": 525,
+   "ol_with_publisher_key": 527,
+   "truth": {
+    "ol_editions_with_several_sbn": 8,
+    "sbn_records_with_several_ol": 12,
+    "language_differs": 0,
+    "year_differs": 43,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {
+     "rist.": 1
+    }
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 59520,
+     "truth_pairs": 73,
+     "collisions_verifiable": 38,
+     "tp": 17,
+     "fp": 21,
+     "fn": 56,
+     "precision": 0.447,
+     "recall": 0.233,
+     "truth_pairs_same_year": 30,
+     "tp_same_year": 17,
+     "ol_editions_with_true_duplicate": 51,
+     "ol_editions_merged_with_a_true_duplicate": 17,
+     "ol_editions_colliding_only_with_wrong_sbn": 12,
+     "unverifiable": {
+      "both lack": 6,
+      "SBN lacks": 2,
+      "Open Library lacks": 5
+     },
+     "unverifiable_total": 13,
+     "fetches_needed": 34,
+     "fetches_needed_ol_has_isbn": 27,
+     "fetches_all": 172,
+     "truth_pairs_reached_by_fetched_rows": 31,
+     "miss_causes": {
+      "language missing": 7,
+      "language missing + year differs + publisher differs": 11,
+      "year differs": 20,
+      "language missing + publisher differs": 3,
+      "publisher differs": 3,
+      "language missing + year differs": 6,
+      "year differs + publisher differs": 6
+     }
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 59520,
+     "truth_pairs": 73,
+     "collisions_verifiable": 31,
+     "tp": 15,
+     "fp": 16,
+     "fn": 58,
+     "precision": 0.484,
+     "recall": 0.205,
+     "truth_pairs_same_year": 30,
+     "tp_same_year": 15,
+     "ol_editions_with_true_duplicate": 51,
+     "ol_editions_merged_with_a_true_duplicate": 15,
+     "ol_editions_colliding_only_with_wrong_sbn": 9,
+     "unverifiable": {
+      "both lack": 6,
+      "SBN lacks": 2,
+      "Open Library lacks": 5
+     },
+     "unverifiable_total": 13,
+     "fetches_needed": 28,
+     "fetches_needed_ol_has_isbn": 21,
+     "fetches_all": 172,
+     "truth_pairs_reached_by_fetched_rows": 27,
+     "miss_causes": {
+      "language missing": 7,
+      "language missing + year differs + publisher differs": 11,
+      "year differs": 17,
+      "language missing + publisher differs": 3,
+      "publisher differs": 5,
+      "language missing + year differs": 6,
+      "year differs + publisher differs": 9
+     }
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 59520,
+     "truth_pairs": 73,
+     "collisions_verifiable": 53,
+     "tp": 24,
+     "fp": 29,
+     "fn": 49,
+     "precision": 0.453,
+     "recall": 0.329,
+     "truth_pairs_same_year": 30,
+     "tp_same_year": 24,
+     "ol_editions_with_true_duplicate": 51,
+     "ol_editions_merged_with_a_true_duplicate": 23,
+     "ol_editions_colliding_only_with_wrong_sbn": 17,
+     "unverifiable": {
+      "both lack": 7,
+      "SBN lacks": 2,
+      "Open Library lacks": 5
+     },
+     "unverifiable_total": 14,
+     "fetches_needed": 45,
+     "fetches_needed_ol_has_isbn": 37,
+     "fetches_all": 172,
+     "truth_pairs_reached_by_fetched_rows": 43,
+     "miss_causes": {
+      "language missing + year differs + publisher differs": 11,
+      "year differs": 20,
+      "language missing + publisher differs": 3,
+      "publisher differs": 3,
+      "language missing + year differs": 6,
+      "year differs + publisher differs": 6
+     }
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 43,
+    "sharing_an_isbn": 6
+   },
+   "fetch": {
+    "rows": 172,
+    "fetched": 172,
+    "first_pass_problems": 0,
+    "wall_s": 43.0,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 173,
+      "failed": 0,
+      "total_s": 42.52,
+      "p50_s": 0.216,
+      "max_s": 0.797
+     }
+    },
+    "retries": {},
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 38,
+   "largest_isbn_cluster": "9788804507451: 10 × 1 = 10"
+  },
+  "N10": {
+   "sbn_rows": 216,
+   "sbn_fetched": 216,
+   "sbn_with_isbn": 81,
+   "sbn_invalid_isbn_values": 0,
+   "sbn_with_year": 213,
+   "sbn_with_publisher_key": 214,
+   "ol_editions": 468,
+   "ol_with_isbn": 332,
+   "ol_invalid_isbn_values": 0,
+   "ol_with_language": 413,
+   "ol_with_year": 464,
+   "ol_with_publisher_key": 457,
+   "truth": {
+    "ol_editions_with_several_sbn": 10,
+    "sbn_records_with_several_ol": 32,
+    "language_differs": 5,
+    "year_differs": 142,
+    "on_invalid_isbn": 0,
+    "on_annotated_sbn_isbn_only": {
+     "stampa 1985": 2,
+     "Rist. 1973": 1,
+     "stampa 1990": 5,
+     "Rist. 2007": 2,
+     "Rist. 1978": 2
+    }
+   },
+   "rules": {
+    "primary": {
+     "rule": "primary",
+     "verifiable_pairs": 26892,
+     "truth_pairs": 170,
+     "collisions_verifiable": 19,
+     "tp": 17,
+     "fp": 2,
+     "fn": 153,
+     "precision": 0.895,
+     "recall": 0.1,
+     "truth_pairs_same_year": 22,
+     "tp_same_year": 17,
+     "ol_editions_with_true_duplicate": 35,
+     "ol_editions_merged_with_a_true_duplicate": 15,
+     "ol_editions_colliding_only_with_wrong_sbn": 2,
+     "unverifiable": {
+      "SBN lacks": 19,
+      "Open Library lacks": 38,
+      "both lack": 210
+     },
+     "unverifiable_total": 267,
+     "fetches_needed": 59,
+     "fetches_needed_ol_has_isbn": 28,
+     "fetches_all": 216,
+     "truth_pairs_reached_by_fetched_rows": 53,
+     "miss_causes": {
+      "language missing": 4,
+      "language missing + year differs": 3,
+      "year differs": 129,
+      "publisher differs": 1,
+      "year missing + publisher differs": 5,
+      "language missing + year differs + publisher differs": 3,
+      "year differs + publisher differs": 2,
+      "language differs + year differs": 5,
+      "year missing + publisher missing": 1
+     }
+    },
+    "exact publisher": {
+     "rule": "exact publisher",
+     "verifiable_pairs": 26892,
+     "truth_pairs": 170,
+     "collisions_verifiable": 18,
+     "tp": 16,
+     "fp": 2,
+     "fn": 154,
+     "precision": 0.889,
+     "recall": 0.094,
+     "truth_pairs_same_year": 22,
+     "tp_same_year": 16,
+     "ol_editions_with_true_duplicate": 35,
+     "ol_editions_merged_with_a_true_duplicate": 14,
+     "ol_editions_colliding_only_with_wrong_sbn": 2,
+     "unverifiable": {
+      "SBN lacks": 15,
+      "Open Library lacks": 37,
+      "both lack": 198
+     },
+     "unverifiable_total": 250,
+     "fetches_needed": 56,
+     "fetches_needed_ol_has_isbn": 27,
+     "fetches_all": 216,
+     "truth_pairs_reached_by_fetched_rows": 53,
+     "miss_causes": {
+      "language missing": 4,
+      "publisher differs": 2,
+      "language missing + year differs": 3,
+      "year differs": 122,
+      "year missing + publisher differs": 5,
+      "language missing + year differs + publisher differs": 3,
+      "year differs + publisher differs": 9,
+      "language differs + year differs": 5,
+      "year missing + publisher missing": 1
+     }
+    },
+    "OL language missing matches": {
+     "rule": "OL language missing matches",
+     "verifiable_pairs": 26892,
+     "truth_pairs": 170,
+     "collisions_verifiable": 23,
+     "tp": 21,
+     "fp": 2,
+     "fn": 149,
+     "precision": 0.913,
+     "recall": 0.124,
+     "truth_pairs_same_year": 22,
+     "tp_same_year": 21,
+     "ol_editions_with_true_duplicate": 35,
+     "ol_editions_merged_with_a_true_duplicate": 18,
+     "ol_editions_colliding_only_with_wrong_sbn": 2,
+     "unverifiable": {
+      "SBN lacks": 21,
+      "Open Library lacks": 47,
+      "both lack": 241
+     },
+     "unverifiable_total": 309,
+     "fetches_needed": 65,
+     "fetches_needed_ol_has_isbn": 33,
+     "fetches_all": 216,
+     "truth_pairs_reached_by_fetched_rows": 65,
+     "miss_causes": {
+      "language missing + year differs": 3,
+      "year differs": 129,
+      "publisher differs": 1,
+      "year missing + publisher differs": 5,
+      "language missing + year differs + publisher differs": 3,
+      "year differs + publisher differs": 2,
+      "language differs + year differs": 5,
+      "year missing + publisher missing": 1
+     }
+    }
+   },
+   "sbn_sbn": {
+    "pairs": 198,
+    "sharing_an_isbn": 10
+   },
+   "fetch": {
+    "rows": 216,
+    "fetched": 216,
+    "first_pass_problems": 0,
+    "wall_s": 102.3,
+    "requests": {
+     "opac.sbn.it/opacmobilegw": {
+      "requests": 217,
+      "failed": 0,
+      "total_s": 101.66,
+      "p50_s": 0.353,
+      "max_s": 2.198
+     }
+    },
+    "retries": {
+     "opac.sbn.it/opacmobilegw": {
+      "ProtocolError": 1
+     }
+    },
+    "failures": [],
+    "control": {
+     "bid": "ZZQ9999999",
+     "problem": "mismatch: asked ZZQ9999999, got None",
+     "body": {
+      "numeri": [],
+      "note": [],
+      "nomi": [],
+      "luogoNormalizzato": [],
+      "localizzazioni": [],
+      "citazioni": [
+       {
+        "standard": "mla",
+        "valore": ","
+       },
+       {
+        "standard": "apa",
+        "valore": "."
+       }
+      ]
+     }
+    }
+   },
+   "distinct_shared_isbns": 20,
+   "largest_isbn_cluster": "9782070360024: 23 × 5 = 115"
+  }
+ },
+ "hosts": {
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 786,
+   "failed": 0,
+   "total_s": 251.69,
+   "max_s": 2.198,
+   "median_of_book_p50_s": 0.221
+  }
+ },
+ "retries": {
+  "opac.sbn.it/opacmobilegw ProtocolError": 1
+ },
+ "normalisation": {
+  "folding": "Unicode NFKD, combining marks dropped, casefold; '&' -> 'and'; 'x/y' of single letters joined",
+  "tokens_removed": [
+   "ag",
+   "and",
+   "book",
+   "books",
+   "casa",
+   "co",
+   "company",
+   "corp",
+   "corporation",
+   "ed",
+   "ediciones",
+   "edit",
+   "editeur",
+   "editeurs",
+   "edition",
+   "editions",
+   "editora",
+   "editore",
+   "editores",
+   "editori",
+   "editorial",
+   "editoriale",
+   "editrice",
+   "edizione",
+   "edizioni",
+   "et",
+   "gmbh",
+   "group",
+   "grupo",
+   "gruppo",
+   "inc",
+   "incorporated",
+   "kg",
+   "lda",
+   "limited",
+   "llc",
+   "ltd",
+   "ltda",
+   "plc",
+   "press",
+   "pub",
+   "publ",
+   "publication",
+   "publications",
+   "publisher",
+   "publishers",
+   "publishing",
+   "pubns",
+   "sarl",
+   "sas",
+   "spa",
+   "srl",
+   "the",
+   "und",
+   "verlag"
+  ],
+  "noise_removed": [
+   "dep",
+   "impr",
+   "leg",
+   "stampa"
+  ],
+  "one_letter_tokens": "removed (initials: 'A. Mondadori' -> mondadori, 'V. Bompiani e C.' -> bompiani)",
+  "digit_only_tokens": "removed",
+  "sbn_statement": "split on ';'; first piece is a publisher (a ' : ' in it separates a co-publisher); later pieces keep only what follows ' : '; 'in association with' splits",
+  "ol_statement": "each publishers[] value split on ';', ' : ' and 'in association with'",
+  "places": "a part set off by ',' or ':' is dropped when it equals one of 229 places the eight books' records name (SBN imprint place, Open Library publish_places)",
+  "split_values": "primary: a key contained in the other matches ('mondadori' ~ 'oscar mondadori'); 'exact publisher' rule keeps them apart",
+  "language": "shared listing code (SBN language page, Open Library languages); und/zxx/mis count as missing",
+  "year": "SBN parse_publication year; Open Library first 4-digit year in publish_date; equal"
+ },
+ "stage2_same_work_outside_listing": {
+  "E01 · not linked to W": 47,
+  "E01 · separate OL work record": 4,
+  "E02 · not linked to W": 7,
+  "E02 · separate OL work record": 4,
+  "N01 · not linked to W": 4,
+  "N06 · not linked to W": 42,
+  "N06 · separate OL work record": 5,
+  "N08 · not linked to W": 4,
+  "N10 · separate OL work record": 2,
+  "N14 · not linked to W": 6,
+  "N14 · separate OL work record": 3,
+  "N19 · not linked to W": 1
+ }
+}

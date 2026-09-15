@@ -1,0 +1,41 @@
+{
+ "id": "N08",
+ "rows": 57,
+ "fetched": 57,
+ "not_fetched": [],
+ "problems": {},
+ "first_pass_problems": 0,
+ "control": {
+  "bid": "ZZQ9999999",
+  "problem": "mismatch: asked ZZQ9999999, got None",
+  "body": {
+   "numeri": [],
+   "note": [],
+   "nomi": [],
+   "luogoNormalizzato": [],
+   "localizzazioni": [],
+   "citazioni": [
+    {
+     "standard": "mla",
+     "valore": ","
+    },
+    {
+     "standard": "apa",
+     "valore": "."
+    }
+   ]
+  }
+ },
+ "wall_s": 11.7,
+ "requests": {
+  "opac.sbn.it/opacmobilegw": {
+   "requests": 58,
+   "failed": 0,
+   "total_s": 11.57,
+   "p50_s": 0.147,
+   "max_s": 1.151
+  }
+ },
+ "retries": {},
+ "failures": []
+}
