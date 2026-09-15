@@ -408,7 +408,8 @@ unexplained = [l for l in scored if l["class"] == "unexplained"]
 verdict = {
     "unexplained_losses": len(unexplained),
     "identity_slower_entries": len(latency["identity_slower"]),
-    "A2": "FAIL" if unexplained or latency["identity_slower"] else "PASS",
+    # Answer 1 (user, 2026-09-15): latency is judged overall, not per entry; the slower entries stay listed.
+    "A2": "FAIL" if unexplained or latency["identity"]["median"] >= latency["today"]["median"] else "PASS",
 }
 
 romanised = {}

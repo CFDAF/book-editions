@@ -432,7 +432,7 @@ Totals over every Stage 1 script, re-runs included (cached requests are not coun
 
 | # | Assumption | Metric (96 entry runs; 91 scored, E10/E11 generic titles and N23 insights excluded) | Fail criterion | Result | Evidence |
 |---|---|---|---|---|---|
-| A2 | Listing by identity loses nothing today's tool finds | Distinct records today's run shows outside the book's Stage 1 listing: SBN **not linked to W 334** (301 no uniform title, 33 another uniform title) · Open Library **separate work record 98** · **wrong-work leak in today's tool 44** (SBN 27, OL 17) · other 10 (9 volumes with other works, 1 excerpt) · **unexplained 0**. Books with no Stage 1 listing: SBN 243 (199 same work, 42 leaks, 2 other), OL 29 (same work). Cold wall per entry: today median **34.5 s** (p90 58.4, max 112.4), identity **3.5 s** (p90 5.7, max 28.5); identity slower in **2 of 96** (N02 ita 28.5 vs 15.8 s, N06 ita 17.6 vs 16.5 s). Requests per entry, median: 192 vs 19 | an unexplained loss, or listing by identity slower cold than today | **FAIL**, read per entry: 2 slower entries. No unexplained loss | M; record classes V (OPAC record detail, control: bogus BID → `data: null`) + 161 hand judgements (`judgements.STAGE2`) |
+| A2 | Listing by identity loses nothing today's tool finds | Distinct records today's run shows outside the book's Stage 1 listing: SBN **not linked to W 334** (301 no uniform title, 33 another uniform title) · Open Library **separate work record 98** · **wrong-work leak in today's tool 44** (SBN 27, OL 17) · other 10 (9 volumes with other works, 1 excerpt) · **unexplained 0**. Books with no Stage 1 listing: SBN 243 (199 same work, 42 leaks, 2 other), OL 29 (same work). Cold wall per entry: today median **34.5 s** (p90 58.4, max 112.4), identity **3.5 s** (p90 5.7, max 28.5); identity slower in **2 of 96** (N02 ita 28.5 vs 15.8 s, N06 ita 17.6 vs 16.5 s). Requests per entry, median: 192 vs 19 | an unexplained loss, or listing by identity slower cold than today | **PASS**, latency read overall (answer 1). Per entry it would fail: 2 slower entries. No unexplained loss | M; record classes V (OPAC record detail, control: bogus BID → `data: null`) + 161 hand judgements (`judgements.STAGE2`) |
 
 ### What each result means
 
@@ -506,6 +506,17 @@ The romanisation decides: SBN writes `zivago` (ISO 9) and `odyssea` (Latin); the
 2. **Records SBN has not linked to W.** 334 same-work records would drop out of the planned listing. Add a recovery route beside it, today's Wikidata-title and sweep candidates admitted only by title ≥ 0.6 against the work's titles (STRATEGY Step 9's shape), or accept the loss? The Wikidata-title route is also the largest source of leaks (21 of 44), so it would need Step 4's rule.
 3. **Open Library duplicate works.** 98 editions sit in 2–7 duplicate work records per classic. List every work whose title and author match (one more `editions.json` per duplicate), or the main work only?
 4. **Romanisation.** `Doktor Zhivago` and `Odysseia` miss SBN's `zivago` and `odyssea`. Fold transliteration variants when matching (zh/ž/z, -eia/-ea), or accept a miss when the typed form differs from the catalogue's?
+
+---
+
+### Answers (user, 2026-09-15)
+
+| # | Answer | Effect |
+|---|---|---|
+| 1 | **Latency is judged overall: A2 passes.** A lookup that is slow for a known reason must say so | Proposal for the plan, **untested**: the network layer records, per lookup, what made it slow (urllib3 retries and their cause, `Retry-After` sleeps, requests over 10 s, pages fetched); when a cold lookup exceeds about 10 s (identity p90 5.7 s), `report.notes` names only causes measured in that lookup, e.g. "Slow: SBN needed 7 connection retries" or "Slow: Open Library took 14.9 s to answer one request". A live status line in the web UI would need the server to stream progress |
+| 2 | **Add a recovery route.** The project's first need is to reach every edition of a book, or as close as possible | The plan keeps today's candidate routes beside the listing for books with a strong work, admitting a record only by title against the work's titles (STRATEGY Step 9's shape). The Wikidata-title route needs Step 4's rule: it brought 21 of the 44 leaks. **Untested**: how many of the 334 + 98 same-work records and of the 44 leaks a title gate admits can be measured offline on `results/stage-2/losses.json` |
+| 3 | Open: the user asked for the cons of listing every Open Library work whose title and author match | none yet |
+| 4 | **Fold spelling variants** (zh/ž/z, -eia/-ea and the like) to reach more editions | Plan item, **untested**: matching folds transliteration variants, so *Doktor Zhivago* can meet `doktor zivago` and *Odysseia* `odyssea`. It also raises match scores between different titles, so the gate counterexamples (*L'ordine delle notizie*, *Quale socialismo, quale Europa*) are re-checked |
 
 ---
 

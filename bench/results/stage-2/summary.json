@@ -2,7 +2,7 @@
  "verdict": {
   "unexplained_losses": 0,
   "identity_slower_entries": 2,
-  "A2": "FAIL"
+  "A2": "PASS"
  },
  "romanised_entries": {
   "E16__rus": {
