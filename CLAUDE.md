@@ -116,6 +116,24 @@ catalogue's own convention it lives with that catalogue's parser rather than in
     `docs/BACKLOG.md`. Add a **rule** here only when a future change could get
     it wrong without one (decision X).
 
+## Releasing
+
+Work lands on `dev`. `origin` is the private repo (`dev`, `stage`); `public`
+holds `main` only, and `main` is prod.
+
+1. **Commit** on `dev`: `git add -p && git commit`.
+2. **Push**: `git push origin dev`.
+3. **Promote**: `tools/release.sh stage` — pushes `dev`, fast-forwards `stage`
+   to it, pushes `stage`, then runs pytest and core coverage in a fresh clone
+   (`--lookup` adds one live lookup).
+4. **Release**: `tools/release.sh public` — builds **one** commit on top of
+   public `main` carrying `stage`'s tree (`git commit-tree`), shows it,
+   dry-runs it against the `pre-push` hook and asks before pushing.
+
+**Never push `dev`, `stage` or a tag to `public`, and never `--no-verify`**:
+`dev`'s history is private, and a release is that one commit, nothing else.
+The user runs step 4 — it is outward-facing and not undoable.
+
 ## Tests
 
 **`python3 -m pytest`** — the offline suite, all passing, **no xfail**, in about
