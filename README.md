@@ -109,8 +109,8 @@ mostly on one subject — García Márquez is `863.44`, and so is every novel he
 wrote.
 
 The precision claims above are measurements on the books they were tuned on,
-except the held-out check (`docs/DECISIONS.md` §2), which is the one figure
-measured on books nothing was tuned against.
+except the held-out check, which is the one figure measured on books nothing
+was tuned against.
 
 ## Sources
 
@@ -145,10 +145,9 @@ static page.
 - A record whose language no source recorded is a language filter of its own
   (*unknown*), hidden and counted like any other.
 - Buy links are deterministic search URLs, not live stock or prices. No scraping.
-- Known limits are in `docs/limits.md` — among them, an edition dated only in
-  another calendar (Solar Hijri 1386 ≈ 2007) whose year SBN's index does not
-  confirm is shown with no year, so it cannot be the *earliest edition found*
-  even when it is.
+- Among the known limits: an edition dated only in another calendar (Solar
+  Hijri 1386 ≈ 2007) whose year SBN's index does not confirm is shown with no
+  year, so it cannot be the *earliest edition found* even when it is.
 
 ## Tests
 
@@ -164,11 +163,5 @@ real port and a cold lookup.
 
 ## Why it is shaped this way
 
-- [`docs/DECISIONS.md`](docs/DECISIONS.md) — the aim, every decision with the
-  number that decided it, the verified facts, the traps, what was discarded.
-- [`docs/sbn-api.md`](docs/sbn-api.md) — SBN's two undocumented APIs and the
-  traps in their data.
-- [`docs/limits.md`](docs/limits.md) — known limits and the regression cases.
-- [`docs/project.html`](docs/project.html) — the project on one page: the
-  sources, one lookup walked through, the decisions and the traps.
-- [`docs/BACKLOG.md`](docs/BACKLOG.md) — what is still open.
+[`docs/project.html`](docs/project.html) is the project on one page: the
+sources, one lookup walked through, the decisions and the traps.
