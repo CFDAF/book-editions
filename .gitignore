@@ -8,6 +8,5 @@ out.json
 ui-*.png
 .playwright-mcp/
 
-# Benchmark raw evidence and cold caches (bench/results holds the committed summaries)
-bench/raw/
-bench/cache/
+# macOS
+.DS_Store

@@ -1,0 +1,1102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Editions: the project</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+/* ---------------------------------------------------------------
+   Palette borrowed from the project's own system: the red-and-blue
+   bicolour pencil. Blue is the catalogue — what a source states, and
+   what you can follow. Red is a mark in the margin — what the tool
+   itself asserts, and what will bite you. Nothing else gets a hue.
+   ---------------------------------------------------------------- */
+:root{
+  --paper:#faf9f7;
+  --paper-2:#f2f0eb;
+  --ink:#1b1c1e;
+  --faint:#6b6d74;
+  --blue:#2a5c9a;
+  --red:#a5382a;
+  --rule:#dedad3;
+  --rule-soft:#eae7e1;
+  --code:#f0ede6;
+
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --measure:68ch;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#17181a;
+    --paper-2:#1e2023;
+    --ink:#e5e2dc;
+    --faint:#94969c;
+    --blue:#7ea7d8;
+    --red:#d98274;
+    --rule:#31343a;
+    --rule-soft:#24262a;
+    --code:#202226;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#17181a;
+  --paper-2:#1e2023;
+  --ink:#e5e2dc;
+  --faint:#94969c;
+  --blue:#7ea7d8;
+  --red:#d98274;
+  --rule:#31343a;
+  --rule-soft:#24262a;
+  --code:#202226;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif);
+  font-size:17px;
+  line-height:1.68;
+  font-variant-numeric:tabular-nums;
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--blue);color:var(--paper)}
+
+.wrap{max-width:84rem;margin:0 auto;padding:0 clamp(1.15rem,4vw,3.5rem)}
+
+/* --- masthead ------------------------------------------------- */
+.masthead{padding:clamp(3rem,9vw,6.5rem) 0 clamp(2rem,5vw,3.5rem);border-bottom:1px solid var(--rule)}
+.kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin:0 0 1.4rem}
+h1{
+  font-family:var(--serif);
+  font-size:clamp(2.5rem,7vw,4.25rem);
+  line-height:1.02;
+  letter-spacing:-.02em;
+  font-weight:400;
+  margin:0 0 1.1rem;
+  text-wrap:balance;
+  max-width:16ch;
+}
+.standfirst{font-size:clamp(1.1rem,2.2vw,1.3rem);line-height:1.55;color:var(--faint);max-width:52ch;margin:0 0 2.2rem}
+.standfirst em{color:var(--ink);font-style:italic}
+.vitals{display:flex;flex-wrap:wrap;gap:.4rem 2.2rem;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin:0;padding:0;list-style:none}
+.vitals b{color:var(--ink);font-weight:500}
+
+/* --- contents ------------------------------------------------- */
+.contents{padding:2.4rem 0 0;border-bottom:1px solid var(--rule);margin-bottom:clamp(2.5rem,6vw,4.5rem)}
+.contents h2{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:500;margin:0 0 1.1rem}
+.contents ol{list-style:none;margin:0 0 2.2rem;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.35rem 2.5rem;counter-reset:toc}
+.contents li{counter-increment:toc;display:flex;gap:.85rem;align-items:baseline;border-bottom:1px solid var(--rule-soft);padding:.4rem 0;margin:0}
+.contents li::before{content:counter(toc,decimal-leading-zero);font-family:var(--mono);font-size:.7rem;color:var(--faint);flex:none}
+.contents a{color:var(--ink);text-decoration:none;font-size:.98rem}
+.contents a:hover{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+
+/* --- section grid --------------------------------------------- */
+section.sec{
+  display:grid;
+  grid-template-columns:4.5rem minmax(0,var(--measure)) minmax(0,20rem);
+  column-gap:2.5rem;
+  padding-bottom:clamp(3rem,7vw,5.5rem);
+}
+section.sec > *{grid-column:2}
+section.sec > .rail{grid-column:1;grid-row:span 40;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:var(--faint);position:sticky;top:1.5rem;align-self:start;text-align:right;line-height:1.5}
+.rail b{display:block;color:var(--blue);font-weight:500;font-size:1.05rem;letter-spacing:0;margin-bottom:.3rem}
+
+h2.head{
+  font-size:clamp(1.55rem,3.4vw,2.15rem);
+  line-height:1.15;
+  font-weight:400;
+  letter-spacing:-.012em;
+  margin:0 0 1.3rem;
+  padding-top:.15rem;
+  text-wrap:balance;
+}
+h3{font-size:1.13rem;font-weight:600;margin:2.6rem 0 .7rem;letter-spacing:-.005em;text-wrap:balance}
+h3 .n{font-family:var(--mono);font-size:.78rem;font-weight:500;color:var(--blue);margin-right:.6rem;letter-spacing:.04em}
+p{margin:0 0 1.15rem}
+p.lede{font-size:1.15rem;line-height:1.6;color:var(--faint)}
+p.lede strong{color:var(--ink);font-weight:400}
+a{color:var(--blue);text-underline-offset:2px}
+strong{font-weight:600}
+em{font-style:italic}
+ul{margin:0 0 1.3rem;padding-left:1.15rem}
+li{margin-bottom:.5rem}
+
+code{font-family:var(--mono);font-size:.845em;background:var(--code);padding:.1em .38em;border-radius:2px;word-break:break-word}
+a code{background:none;padding:0;color:inherit}
+pre{font-family:var(--mono);font-size:.8rem;line-height:1.6;background:var(--code);border-left:2px solid var(--rule);padding:1rem 1.15rem;overflow-x:auto;margin:0 0 1.4rem;border-radius:0 2px 2px 0}
+pre code{background:none;padding:0;font-size:1em}
+.c-b{color:var(--blue)}
+.c-r{color:var(--red)}
+.c-f{color:var(--faint)}
+
+/* --- callouts -------------------------------------------------- */
+.trap,.fact{margin:0 0 1.5rem;padding:.15rem 0 .15rem 1.3rem;border-left:2px solid var(--red)}
+.fact{border-left-color:var(--blue)}
+.trap > .tag,.fact > .tag{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--red);margin-bottom:.45rem}
+.fact > .tag{color:var(--blue)}
+.trap p:last-child,.fact p:last-child{margin-bottom:0}
+
+/* --- figures & diagrams ---------------------------------------- */
+section.sec > figure{grid-column:2 / -1;margin:1.8rem 0 2.2rem;max-width:100%;overflow-x:auto}
+figcaption{font-size:.93rem;color:var(--faint);line-height:1.55;margin-top:.95rem;max-width:62ch}
+figcaption b{color:var(--ink);font-weight:600}
+svg.dg{display:block;max-width:100%;height:auto;color:var(--ink);min-width:32rem}
+svg.dg rect.box{fill:none;stroke:currentColor;stroke-width:1.1;stroke-opacity:.45}
+svg.dg rect.fill{fill:var(--paper-2);stroke:currentColor;stroke-width:1.1;stroke-opacity:.45}
+svg.dg line,svg.dg polyline{stroke:currentColor;fill:none;stroke-width:1.1}
+svg.dg .dash{stroke-dasharray:4 4;opacity:.45}
+svg.dg .soft{opacity:.35}
+svg.dg text{font-family:var(--mono);font-size:11.5px;fill:currentColor;stroke:none}
+svg.dg text.ttl{font-family:var(--serif);font-size:14.5px}
+svg.dg text.sm{font-size:10px;opacity:.62;letter-spacing:.03em}
+svg.dg .b{fill:var(--blue)}
+svg.dg .r{fill:var(--red)}
+svg.dg text.sm.r{opacity:1}
+svg.dg rect.rb{stroke:var(--blue);stroke-opacity:1}
+svg.dg rect.rr{stroke:var(--red);stroke-opacity:1}
+
+/* --- tables ---------------------------------------------------- */
+section.sec > .tablewrap{grid-column:2 / -1;overflow-x:auto;margin:0 0 1.8rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:30rem}
+th{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:500;text-align:left;padding:0 1.4rem .55rem 0;border-bottom:1px solid var(--rule);vertical-align:bottom}
+td{padding:.65rem 1.4rem .65rem 0;border-bottom:1px solid var(--rule-soft);vertical-align:top;line-height:1.5}
+td.m,th.m{font-family:var(--mono);font-size:.78rem;white-space:nowrap}
+td.num,th.num{text-align:right;font-family:var(--mono);font-size:.8rem}
+th.num{font-size:.68rem}
+tr:last-child td{border-bottom:0}
+
+/* --- spec list -------------------------------------------------- */
+.spec{margin:0 0 1.6rem;border-top:1px solid var(--rule)}
+.spec > div{display:grid;grid-template-columns:8.5rem minmax(0,1fr);gap:0 1.5rem;padding:.6rem 0;border-bottom:1px solid var(--rule-soft)}
+.spec dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);padding-top:.2rem}
+.spec dd{margin:0;font-size:.94rem;line-height:1.5;min-width:0;overflow-wrap:anywhere}
+.spec dd code{font-size:.8rem}
+
+/* --- record comparison ----------------------------------------- */
+section.sec > .records{grid-column:2 / -1;display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1.5rem;margin:1.6rem 0 2rem;max-width:52rem}
+.rec{border-top:2px solid var(--rule);padding-top:.85rem}
+.rec.on{border-top-color:var(--blue)}
+.rec h4{font-family:var(--mono);font-size:.7rem;letter-spacing:.11em;text-transform:uppercase;margin:0 0 .2rem;font-weight:500}
+.rec .sub{font-size:.84rem;color:var(--faint);margin:0 0 .85rem;font-style:italic}
+.rec ul{list-style:none;margin:0;padding:0;font-family:var(--mono);font-size:.76rem;line-height:1.85}
+.rec li{margin:0;color:var(--faint)}
+.rec li.has{color:var(--ink)}
+.rec li.key{color:var(--red)}
+.rec li::before{content:"·  ";opacity:.4}
+
+/* --- trace (timeline, decisions) -------------------------------- */
+section.sec > .trace{grid-column:2 / -1;margin:1.6rem 0 2rem;border-top:1px solid var(--rule)}
+.trace > div{display:grid;grid-template-columns:2.6rem minmax(0,1fr);gap:0 1.2rem;padding:.8rem 0;border-bottom:1px solid var(--rule-soft);align-items:baseline}
+.trace.dated > div{grid-template-columns:7.2rem minmax(0,1fr)}
+.trace .t{font-family:var(--mono);font-size:.7rem;color:var(--blue);letter-spacing:.04em}
+.trace .d{min-width:0;max-width:78ch}
+.trace .d b{font-weight:600}
+.trace .d code{font-size:.78rem}
+.trace .d p{margin:.3rem 0 0;font-size:.9rem;color:var(--faint);line-height:1.5}
+
+/* --- colophon --------------------------------------------------- */
+.colophon{border-top:1px solid var(--rule);padding:2.5rem 0 4.5rem;font-size:.9rem;color:var(--faint);max-width:var(--measure)}
+.colophon h2{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:500;margin:0 0 1rem;color:var(--faint)}
+.colophon p{margin-bottom:.85rem}
+
+a:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+
+@media (max-width:64rem){
+  section.sec{grid-template-columns:3.4rem minmax(0,1fr);column-gap:1.5rem}
+  section.sec > *,section.sec > figure,section.sec > .tablewrap,section.sec > .trace,section.sec > .records{grid-column:2}
+  section.sec > .rail{grid-column:1;grid-row:span 40;font-size:.68rem}
+}
+@media (max-width:38rem){
+  body{font-size:16px;line-height:1.62}
+  section.sec{grid-template-columns:minmax(0,1fr)}
+  section.sec > *,section.sec > figure,section.sec > .tablewrap,section.sec > .trace,section.sec > .records{grid-column:1}
+  section.sec > .rail{grid-column:1;grid-row:auto;position:static;text-align:left;margin-bottom:1rem;display:flex;gap:.7rem;align-items:baseline}
+  .rail b{margin-bottom:0}
+  .rail br{display:none}
+  .trace > div,.trace.dated > div{grid-template-columns:minmax(0,1fr);gap:.25rem}
+  .spec > div{grid-template-columns:minmax(0,1fr);gap:.2rem}
+  svg.dg{min-width:26rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header class="masthead">
+  <p class="kicker">book_editions · the project and how it was decided</p>
+  <h1>Every Edition of One Book</h1>
+  <p class="standfirst">Type a title in any language; get when the work first appeared and every edition since, grouped by language. No catalogue hands that over. This is what the project is, the route one lookup takes through it, and the measurements that decided each part — including the one <em>verified fact</em> that was wrong.</p>
+  <ul class="vitals">
+    <li><b>3</b> sources</li>
+    <li><b>4</b> endpoints</li>
+    <li><b>5</b> use cases</li>
+    <li><b>56</b> decisions</li>
+    <li><b>20</b> verified facts</li>
+    <li><b>1,170</b> offline tests</li>
+    <li><b>0</b> API keys</li>
+  </ul>
+</header>
+
+<nav class="contents" aria-label="Contents">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#s1">The question it answers</a></li>
+    <li><a href="#s2">The sources: three, four endpoints</a></li>
+    <li><a href="#s3">The shape</a></li>
+    <li><a href="#s4">A lookup, stage by stage</a></li>
+    <li><a href="#s5">The identity problem</a></li>
+    <li><a href="#s6">What comes back</a></li>
+    <li><a href="#s7">How it was decided</a></li>
+    <li><a href="#s8">The decisions that mattered</a></li>
+    <li><a href="#s9">Discarded routes</a></li>
+    <li><a href="#s10">The traps</a></li>
+    <li><a href="#s11">Failure honesty: the ledger</a></li>
+    <li><a href="#s12">Budgets, cache and time</a></li>
+    <li><a href="#s13">How it is verified</a></li>
+    <li><a href="#s14">Limits and open items</a></li>
+    <li><a href="#s15">Colophon</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================ 1 -->
+<section class="sec" id="s1">
+  <div class="rail"><b>01</b>The <br>aim</div>
+  <h2 class="head">The question it answers</h2>
+
+  <p class="lede"><strong>Search a book and get every edition of that book that exists.</strong> That is the user's own specification, and the rest of the project is what it takes to say it honestly.</p>
+
+  <p>It grew out of a narrower need: you come across a book and want to know whether an Italian translation exists, from whom and when, before deciding which one to buy. Italy has a good national catalogue, SBN, so that is where most of the engineering went. Italian is shown as one language among the rest all the same, and the lookup works from either end.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th class="m">Use case</th><th>You type</th><th>You get</th></tr></thead>
+      <tbody>
+        <tr><td class="m">UC1</td><td>English title + author</td><td>The original first edition's title in its original language, then every later edition in every language, newest first, undated last</td></tr>
+        <tr><td class="m">UC2</td><td>Italian title + author</td><td>The same result as UC1</td></tr>
+        <tr><td class="m">UC3</td><td>Original title + author, in Latin script</td><td>The same result as UC1</td></tr>
+        <tr><td class="m">UC4</td><td>Author only</td><td>Every book by the author, as works titled in their original language. Picking one reruns as UC3</td></tr>
+        <tr><td class="m">UC5</td><td>Title only</td><td>The one author the sources agree on is adopted and named; if they name several people, a chooser of books and no list</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>UC1 to UC3 define <strong>convergence</strong>: the three entry titles of one book must reach the same work, the same original and the same set of editions. No source provides that, so it is a target, and it is measured. Filters for year span, language and publisher apply to the list already in hand and send no request.</p>
+
+  <div class="fact">
+    <span class="tag">Design rule</span>
+    <p>The header is a <strong>publication history, not a verdict</strong>. The first version led with <em>“Translated into Italian.”</em> and the user rejected it outright: it answers one narrow question and buries what the editions say.</p>
+  </div>
+
+  <p>Completeness has no denominator, because no source can say how many editions exist. So it was made operational, in three parts: <strong>reach</strong> every record the endpoints hold for the work; <strong>precision</strong>, meaning no wrong-work record in the default view; and <strong>disclosure</strong>, saying what is missing and what was refused. Latency comes last and is met by staging: the list first, the expensive work behind it.</p>
+</section>
+
+<!-- ============================================================ 2 -->
+<section class="sec" id="s2">
+  <div class="rail"><b>02</b>The <br>sources</div>
+  <h2 class="head">The sources: three, four endpoints</h2>
+
+  <p>Three keyless sources: Wikidata, Open Library and SBN, Italy's national union catalogue. SBN is reached through <strong>two unrelated APIs on one host</strong>, and they do not return the same fields. Knowing only the first is how the project's founding premise came to be recorded as verified and be wrong (<a href="#s10">§10</a>).</p>
+
+  <figure>
+    <svg class="dg" viewBox="0 0 880 350" role="img" aria-label="Three sources and four endpoints. Wikidata states the original language and year. Open Library holds editions by work key. SBN is reached twice: the mobile gateway returns full records with ISBNs and holdings, and the OPAC API carries the uniform-title authority that links a translation to its original.">
+      <!-- sources -->
+      <rect class="fill" x="40" y="20" width="190" height="60" rx="2"/>
+      <text x="56" y="46" class="ttl">Wikidata</text>
+      <text x="56" y="64" class="sm">and Wikipedia sitelinks</text>
+
+      <rect class="fill" x="40" y="104" width="190" height="60" rx="2"/>
+      <text x="56" y="130" class="ttl">Open Library</text>
+      <text x="56" y="148" class="sm">search, works, editions</text>
+
+      <rect class="fill" x="40" y="188" width="190" height="144" rx="2"/>
+      <text x="56" y="214" class="ttl">SBN</text>
+      <text x="56" y="232" class="sm">one catalogue, one host,</text>
+      <text x="56" y="246" class="sm">two applications</text>
+
+      <!-- endpoints -->
+      <line x1="230" y1="50" x2="288" y2="50" class="soft"/>
+      <rect class="box" x="290" y="20" width="270" height="60" rx="2"/>
+      <text x="306" y="44">www.wikidata.org/w/api.php</text>
+      <text x="306" y="62" class="sm">{lang}.wikipedia.org/w/api.php</text>
+
+      <line x1="230" y1="134" x2="288" y2="134" class="soft"/>
+      <rect class="box" x="290" y="104" width="270" height="60" rx="2"/>
+      <text x="306" y="128">openlibrary.org</text>
+      <text x="306" y="146" class="sm">/works/{key}/editions.json</text>
+
+      <line x1="230" y1="218" x2="288" y2="218" class="soft"/>
+      <rect class="box" x="290" y="188" width="270" height="60" rx="2"/>
+      <text x="306" y="212">opac.sbn.it/opacmobilegw</text>
+      <text x="306" y="230" class="sm">the mobile gateway · search, full.json</text>
+
+      <line x1="230" y1="302" x2="288" y2="302" class="soft"/>
+      <rect class="box rb" x="290" y="272" width="270" height="60" rx="2"/>
+      <text x="306" y="296" class="b">opac.sbn.it/o/opac-api</text>
+      <text x="306" y="314" class="sm">the OPAC · titles-search-full-post</text>
+
+      <!-- what only it has -->
+      <text x="584" y="44">original language and year</text>
+      <text x="584" y="62" class="sm">the only free source that states them</text>
+
+      <text x="584" y="128">editions in many languages</text>
+      <text x="584" y="146" class="sm">reached by work key, duplicates listed</text>
+
+      <text x="584" y="212">the full record</text>
+      <text x="584" y="230" class="sm">ISBN, language, translator, holdings</text>
+
+      <text x="584" y="296" class="b">which work a record is</text>
+      <text x="584" y="314" class="sm">the uniform title: translation → original</text>
+    </svg>
+    <figcaption><b>Four endpoints, each with something the others lack.</b> The OPAC is outlined because it is the only one that <em>states</em> the link between a translation and its original. The mobile gateway's JSON omits it.</figcaption>
+  </figure>
+
+  <p>Each is necessary and none is sufficient. Wikidata's stated original was wrong in 3 of 26 accepted items. Open Library splits translations into separate work records inconsistently, and its first-publish year was wrong on 17 of 60 entries. SBN's work links are partial: over 40 books, 334 same-work records were not linked to their work. The benchmark asked each source whether every entry title of a book reaches the right identity, and every one failed (<a href="#s5">§05</a>).</p>
+
+  <p>Google Books was a fourth source and was removed deliberately: its keyless quota is permanently exhausted and it contributed nothing. The API detail, with every trap in SBN's data, is in <a href="sbn-api.md"><code>docs/sbn-api.md</code></a>.</p>
+</section>
+
+<!-- ============================================================ 3 -->
+<section class="sec" id="s3">
+  <div class="rail"><b>03</b>The <br>shape</div>
+  <h2 class="head">The shape</h2>
+
+  <p>About 10,500 lines of Python: the standard library plus <code>requests</code>. One tree, four packages, and one rule about which of them is allowed to have an opinion.</p>
+
+  <figure>
+    <svg class="dg" viewBox="0 0 880 320" role="img" aria-label="The four packages. The app package runs the stages in lookup/stages.py. The stages ask catalog to fetch and parse, and ask core to judge and to store. Core derives a snapshot that goes back to app. Catalog may not import core.">
+      <defs>
+        <marker id="p1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+        </marker>
+      </defs>
+
+      <rect class="fill" x="40" y="24" width="230" height="136" rx="2"/>
+      <text x="56" y="48" class="ttl">catalog/</text>
+      <text x="56" y="70" class="sm">http · fixtures · langs</text>
+      <text x="56" y="86" class="sm">sbn_opac · sbn_mobile</text>
+      <text x="56" y="102" class="sm">wikidata · openlibrary</text>
+      <text x="56" y="126">fetches, parses,</text>
+      <text x="56" y="142">never decides</text>
+
+      <rect class="fill" x="325" y="24" width="230" height="136" rx="2"/>
+      <text x="341" y="48" class="ttl">lookup/stages.py</text>
+      <text x="341" y="70" class="sm">S0  romanise the question</text>
+      <text x="341" y="86" class="sm">S1  identify the work, once</text>
+      <text x="341" y="102" class="sm">S2  list its editions</text>
+      <text x="341" y="118" class="sm">S3  recover the unlinked</text>
+      <text x="341" y="134" class="sm">S4  read SBN rows in full</text>
+
+      <rect class="fill rb" x="610" y="24" width="230" height="136" rx="2"/>
+      <text x="626" y="48" class="ttl b">core/</text>
+      <text x="626" y="70" class="sm">identity · text · authors</text>
+      <text x="626" y="86" class="sm">model · store · fold · dates</text>
+      <text x="626" y="102" class="sm">view · notes · buylinks</text>
+      <text x="626" y="126">pure, no network,</text>
+      <text x="626" y="142">holds every gate</text>
+
+      <line x1="325" y1="92" x2="273" y2="92" marker-end="url(#p1)"/>
+      <text x="298" y="82" text-anchor="middle" class="sm">fetch</text>
+      <line x1="555" y1="92" x2="607" y2="92" marker-end="url(#p1)"/>
+      <text x="582" y="82" text-anchor="middle" class="sm">judge</text>
+
+      <text x="155" y="184" text-anchor="middle" class="sm r">may not import core/</text>
+
+      <rect class="fill" x="40" y="236" width="800" height="60" rx="2"/>
+      <text x="56" y="262" class="ttl">app/</text>
+      <text x="56" y="280" class="sm">jobs · server · web — a job id, versioned snapshots, the page. Decides nothing.</text>
+
+      <line x1="440" y1="236" x2="440" y2="163" marker-end="url(#p1)"/>
+      <text x="452" y="204" class="sm">runs each stage in a job</text>
+      <line x1="725" y1="160" x2="725" y2="233" marker-end="url(#p1)"/>
+      <text x="737" y="204" class="sm">snapshot vN</text>
+    </svg>
+    <figcaption><b>Who may decide.</b> <code>catalog/</code> returns plain dicts and holds no gate; a test fails if it ever imports <code>core/</code>. Every judgement about whether two things are the same work is a pure function in <code>core/</code>, which is why it can be tested completely with no network.</figcaption>
+  </figure>
+
+  <h3><span class="n">S0–S4</span>The stages</h3>
+
+  <p>The work is identified <strong>once</strong>, in S1, and nothing after it may go back to what the user typed. S2 lists the editions of that identity, and that list is the first thing on the page. S3 and S4 improve it behind the reader. Each stage is walked through in <a href="#s4">§04</a>.</p>
+
+  <p>The old path searched by the typed title, which is why three entry titles of one book gave three different lists and a cold lookup took about a minute. Listing by identity moved the cold median from 34.5 s and 192 requests to 3.5 s and 19.</p>
+
+  <h3><span class="n">STORE</span>Producers, one store, a derived view</h3>
+
+  <p>Each stage writes <strong>records with provenance</strong> into one store: the source, the route that found the record, and the evidence that admitted it. A record's identity is <code>(source, id)</code>, so a row found by two routes is one record with two routes on it. The view is recomputed from the store from scratch after every batch; nothing mutates a display list. Records fold into editions on a shared ISBN and on nothing else, and editions group by language.</p>
+
+  <h3><span class="n">APP</span>A job id, then versions</h3>
+
+  <p><code>POST /lookup</code> returns a job id at once. The page polls <code>GET /lookup/&lt;id&gt;?v=N</code> and receives either a complete new snapshot or <code>{unchanged: true}</code>. There is no delta and no stream. Each snapshot replaces the last. The command line runs the same job to its end.</p>
+
+  <pre><code>python3 server.py                          <span class="c-f"># the page, on localhost:8000</span>
+python3 book_editions.py "Il nome della rosa"
+python3 book_editions.py --author "Gregory Bateson"</code></pre>
+</section>
+
+<!-- ============================================================ 4 -->
+<section class="sec" id="s4">
+  <div class="rail"><b>04</b>The <br>route</div>
+  <h2 class="head">A lookup, stage by stage</h2>
+
+  <p>There are two front doors and they meet at once. The command line calls <code>app.jobs.run_to_end</code> directly. The browser cannot reach a catalogue itself: SBN sends <strong>no <code>Access-Control-Allow-Origin</code> header of any kind</strong>, so a static page could never call it. The Python server is forced, not chosen. It puts the page and the data on one origin.</p>
+
+  <figure>
+    <svg class="dg" viewBox="0 0 880 524" role="img" aria-label="Flow diagram. The command line and the page both start one job with one ledger. An author with no title goes to the author job. Otherwise four stages run in order: S1 identifies the work and publishes nothing; S2 lists the editions and publishes snapshot version 1; S3 recovers title-gated records and publishes version 2; S4 reads full records and publishes version 3. Each snapshot is derived whole from the store.">
+      <defs>
+        <marker id="r1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+        </marker>
+      </defs>
+
+      <rect class="fill" x="40" y="24" width="230" height="44" rx="2"/>
+      <text x="155" y="44" text-anchor="middle">book_editions.py</text>
+      <text x="155" y="59" text-anchor="middle" class="sm">run to its end · text, json, csv</text>
+
+      <rect class="fill" x="610" y="24" width="230" height="44" rx="2"/>
+      <text x="725" y="44" text-anchor="middle">the page</text>
+      <text x="725" y="59" text-anchor="middle" class="sm">POST /lookup, then polls</text>
+
+      <polyline points="155,68 155,92 380,92 380,112" marker-end="url(#r1)"/>
+      <polyline points="725,68 725,92 500,92 500,112" marker-end="url(#r1)"/>
+
+      <rect class="fill rb" x="300" y="114" width="280" height="46" rx="2"/>
+      <text x="440" y="134" text-anchor="middle" class="b">one job</text>
+      <text x="440" y="150" text-anchor="middle" class="sm">one ledger · one store · one pool</text>
+
+      <line x1="440" y1="160" x2="440" y2="194" marker-end="url(#r1)"/>
+      <polyline points="440,176 155,176 155,194" marker-end="url(#r1)"/>
+      <text x="298" y="170" text-anchor="middle" class="sm">author, no title</text>
+
+      <rect class="fill" x="40" y="196" width="230" height="78" rx="2"/>
+      <text x="56" y="218">the author job</text>
+      <text x="56" y="236" class="sm">the person first: a chooser</text>
+      <text x="56" y="250" class="sm">unless one person answers.</text>
+      <text x="56" y="264" class="sm">Then their works</text>
+
+      <rect class="fill" x="300" y="196" width="280" height="46" rx="2"/>
+      <text x="316" y="216" class="b">S0 · S1</text>
+      <text x="376" y="216">identify the work</text>
+      <text x="316" y="232" class="sm">Wikidata · SBN work guard · Open Library</text>
+      <text x="606" y="216" class="sm">nothing published yet:</text>
+      <text x="606" y="230" class="sm">the page shows the stage's label</text>
+
+      <line x1="440" y1="242" x2="440" y2="262" marker-end="url(#r1)"/>
+
+      <rect class="fill rb" x="300" y="264" width="280" height="46" rx="2"/>
+      <text x="316" y="284" class="b">S2</text>
+      <text x="376" y="284">list the editions</text>
+      <text x="316" y="300" class="sm">SBN work listing · editions by work key</text>
+      <text x="606" y="284" class="b">snapshot v1</text>
+      <text x="606" y="298" class="sm">the complete list, a few seconds in</text>
+
+      <line x1="440" y1="310" x2="440" y2="330" marker-end="url(#r1)"/>
+
+      <rect class="fill" x="300" y="332" width="280" height="46" rx="2"/>
+      <text x="316" y="352" class="b">S3</text>
+      <text x="376" y="352">recover, title-gated</text>
+      <text x="316" y="368" class="sm">title probe · author sweep · ISBN probe</text>
+      <text x="606" y="352" class="b">snapshot v2</text>
+      <text x="606" y="366" class="sm">admitted rows join, refused go to the band</text>
+
+      <line x1="440" y1="378" x2="440" y2="398" marker-end="url(#r1)"/>
+
+      <rect class="fill" x="300" y="400" width="280" height="46" rx="2"/>
+      <text x="316" y="420" class="b">S4</text>
+      <text x="376" y="420">read full records</text>
+      <text x="316" y="436" class="sm">fold by ISBN · date check</text>
+      <text x="606" y="420" class="b">snapshot v3</text>
+      <text x="606" y="434" class="sm">counts stop being provisional</text>
+
+      <line x1="440" y1="446" x2="440" y2="466" class="soft"/>
+
+      <rect class="box" x="300" y="468" width="280" height="40" rx="2"/>
+      <text x="440" y="486" text-anchor="middle">core.view.snapshot</text>
+      <text x="440" y="500" text-anchor="middle" class="sm">derived whole from the store</text>
+    </svg>
+    <figcaption><b>One request, end to end.</b> A stage that changes the store is followed by a complete new view, and the client replaces what it holds. S1 publishes nothing because a header reading <em>0 editions</em> that then changes is churn. S4 publishes once, when it ends, so the list does not move under the reader while printings fold.</figcaption>
+  </figure>
+
+  <h3><span class="n">FORK</span>Three questions</h3>
+
+  <p><strong>A title and an author</strong> runs the four stages below. <strong>An author with no title</strong> is a different question, every book they wrote and not every edition of one, and runs as its own job (see <em>Author mode</em>, further down). <strong>A title with no author</strong> first asks whose book it is. Wikidata's items, Open Library's work records and up to 100 brief records from SBN's mobile gateway are each tested against the typed title at 0.6 and grouped by person. One person means the lookup runs with that author and the byline says none was typed. Several mean a chooser of books and no list. The OPAC is never asked at this point, because without an author it answers with a different book.</p>
+
+  <h3><span class="n">S0</span>Prepare the question</h3>
+
+  <p>Under a millisecond. The title is validated and, if it is in another script, romanised: the OPAC drops non-Latin free text silently, so nothing non-Latin is ever sent or matched.</p>
+
+  <h3><span class="n">S1</span>Identify the work, once · about 2 s</h3>
+
+  <p>Four answers, and none of them is believed on its own.</p>
+
+  <dl class="spec">
+    <div><dt>Wikidata</dt><dd>The MediaWiki Action API only: the title as a Wikipedia page, whose <code>wikibase_item</code> property gives the item, with a search as the fallback, then one batched <code>wbgetentities</code> call. An item is accepted only when the typed title matches one of the item's <em>own</em> names at 0.6: its labels, its sitelink titles with the disambiguator stripped (<code>1984 (romanzo)</code> → <code>1984</code>), and its <code>P1476</code>. The rule accepted no wrong item in 91 entries. An item that is itself an edition is not the work.</dd></div>
+    <div><dt>What it states</dt><dd><code>P407</code> and <code>P577</code>, the original language and date. No other free source states them, which is what makes an Italian-first lookup answerable at all. It is also the only step that hands back an author for nothing.</dd></div>
+    <div><dt>SBN's work</dt><dd>A POST to the OPAC with the title <em>and</em> the author. The answer carries a facet, <code>titolo_uniformef[]</code>, listing the uniform titles in the result set. It is read through the A/B guard of <a href="#s5">§05</a>, never by top count.</dd></div>
+    <div><dt>Second signal</dt><dd>A work the guard refused or found weak is accepted only if the Wikidata item already accepted names the same work.</dd></div>
+    <div><dt>Open Library</dt><dd>Searched with the <em>original</em> title, never the typed one. A title test decides which work it is; the edition count only breaks ties, because the count alone picks <em>Animal Farm</em> for <em>1984</em>.</dd></div>
+  </dl>
+
+  <p>What the uniform-title facet looks like, asked with a title and an author:</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Query</th><th>Top facet value</th><th class="num">Share</th></tr></thead>
+      <tbody>
+        <tr><td class="m">Più brillante del sole + Eshun</td><td class="m">more brilliant than the sun</td><td class="num">1/1</td></tr>
+        <tr><td class="m">Verso un'ecologia della mente + Bateson</td><td class="m">steps to an ecology of mind</td><td class="num">22/28</td></tr>
+        <tr><td class="m">Cent'anni di solitudine + Garcia Marquez</td><td class="m">cien anos de soledad</td><td class="num">89/138</td></tr>
+        <tr><td class="m">Rumori + Attali</td><td class="m">bruits : essai sur l'economie…</td><td class="num">1/1</td></tr>
+        <tr><td class="m">Il nome della rosa + Eco</td><td class="m">nome della rosa</td><td class="num">232/297</td></tr>
+        <tr><td class="m">The Essential Knuth + Knuth</td><td class="m c-f">no records, no facet</td><td class="num c-f">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The value is a search key, lowercased and stripped of accents, and it is never shown to the reader. An Italian uniform title for an Italian book is a correct answer meaning <em>not a translation</em>. And a book with no identity is normal: S1 then returns a work that says it found nothing, and the lookup carries on.</p>
+
+  <h3><span class="n">S2</span>List the editions of that identity · about 1.5 s</h3>
+
+  <p>From the identity alone. SBN's records for the work are read a language page at a time, 20 rows to a page, four pages at once; Open Library's editions come by work key. Both run together, on different hosts. <strong>No title gate is called here</strong>: a record is in the list because a catalogue filed it under this work, which is a statement and not an inference. This is the first snapshot.</p>
+
+  <h3><span class="n">S3</span>Recover what the listing cannot reach · about 1.5 s, behind the page</h3>
+
+  <p>The listing is incomplete by construction, since SBN links only some of a work's records to it. Three routes run beside it: the work's titles as free text, a sweep of the author's name authority, and probes for up to 12 of the ISBNs already in hand. The sweep returns everything the author published, so every row is gated on the <strong>work's</strong> titles at 0.6, never on what the reader typed. A refused record is kept, with its score, and shown in the loose-match band.</p>
+
+  <p>A book with no identity at all gets a different branch: the typed title's route, which served 2 of 96 corpus entries. It is the one place the typed title reaches a gate, and the evidence says so.</p>
+
+  <h3><span class="n">S4</span>Read every admitted SBN row in full · behind the page</h3>
+
+  <p>A listing row is thin, and the fields that tell two printings apart are on the full record only. Each costs one more request.</p>
+
+  <div class="records">
+    <div class="rec">
+      <h4>An OPAC listing row</h4>
+      <p class="sub">what S2 and S3 hold</p>
+      <ul>
+        <li class="has">the record id</li>
+        <li class="has">title</li>
+        <li class="has">imprint: place, publisher, year</li>
+        <li class="has">language</li>
+        <li class="key">no ISBN</li>
+        <li>no translators</li>
+        <li>no holdings</li>
+      </ul>
+    </div>
+    <div class="rec on">
+      <h4>full.json?bid=…</h4>
+      <p class="sub">the mobile gateway's full record, one at a time</p>
+      <ul>
+        <li class="has">everything on the left, plus…</li>
+        <li class="key">numeri — the ISBN</li>
+        <li class="has">linguaPubblicazione</li>
+        <li class="has">nomi — translators</li>
+        <li class="has">note — translation evidence</li>
+        <li class="has">descrizioneFisica</li>
+        <li class="has">localizzazioni — holdings</li>
+      </ul>
+    </div>
+  </div>
+
+  <p>Up to 1,500 admitted rows are read, four at a time; refused rows are not. Then records fold into editions on a shared ISBN, so one row lists its printing years. A record whose language contradicts itself is disbelieved. Years that are not one plain Gregorian year are checked against SBN's own index. Beside all this, on another host, Open Library is searched for the work's <em>other</em> records, which the reader can add one at a time or all at once. The stage publishes once, at its end. Until then the page says the counts are provisional.</p>
+
+  <h3><span class="n">AUTHOR</span>Author mode</h3>
+
+  <p>The person is resolved first. SBN's name authority gives one id per person for every Latin form, but a name can answer with several people, and one person can sit under several ids. So the candidates are shown, and the chooser is skipped only when one person answers every form asked, Wikidata's other spellings included. Then the works are listed, one row per work, titled in its original language. SBN caps every facet at 50 items, so the work list is split by language and then by exact year, and what no split covers is a stated count. What the person only edited, prefaced or is the subject of goes in a separate group, closed by default. Clicking a work reruns it as a title lookup under every spelling of its title.</p>
+
+  <h3><span class="n">TRACE</span>One run: <em>Noise</em> + Jacques Attali</h3>
+
+  <p>The canonical case. The English, French and Italian titles share no word. This is the shipped path on 2026-10-08: 50 requests, none failed.</p>
+
+  <div class="trace">
+    <div><span class="t">in</span><div class="d"><b>Noise</b> <span class="c-f">+</span> <b>Jacques Attali</b><p>The page posts it and gets a job id back at once.</p></div></div>
+    <div><span class="t">S1</span><div class="d">Wikidata item <code>Q7047658</code> accepted<p>One of its own names, <em>Noise: The Political Economy of Music</em>, matches the typed title at 1.0. It states the original: French, 1977. SBN's work authority and Open Library's work are found beside it.</p></div></div>
+    <div><span class="t">S2</span><div class="d">The list: 3 records linked to this work in SBN, 7 in Open Library's record for it<p>Among SBN's three is <em>Rumori</em>, Mazzotta, Milano, 1978, record <code>RAV0064979</code>. Its title scores 0.0 against <em>Noise</em>. It is here because the catalogue files it under <em>Bruits</em>.</p></div></div>
+    <div><span class="t">S3</span><div class="d">185 SBN records reached by the author sweep; <span class="c-r">182 refused</span><p>The sweep returns what SBN holds under Attali's name. Whatever is not titled like this work is refused and goes to the band, not the list.</p></div></div>
+    <div><span class="t">S4</span><div class="d">3 full records read; 10 admitted records fold into 6 editions<p>French 1977–2001, Italian 1978, English 1985–1989, and one Open Library row with no language recorded, which is a group like any other.</p></div></div>
+    <div><span class="t">out</span><div class="d"><b>Bruits: essai sur l'economie politique de la musique</b><p><em>Jacques Attali · first published 1977 in francese · 6 editions in 4 languages</em>. Every source reads <code>ok</code>.</p></div></div>
+  </div>
+</section>
+
+<!-- ============================================================ 5 -->
+<section class="sec" id="s5">
+  <div class="rail"><b>05</b>Identity</div>
+  <h2 class="head">The identity problem</h2>
+
+  <p class="lede"><strong><em>Noise</em>, <em>Rumori</em> and <em>Bruits</em> are one book. Their titles share no word.</strong> Everything hard in this project is some form of that sentence.</p>
+
+  <p>Title similarity across languages is exactly 0.0. Of 608 same-work rows measured, 580 score exactly 0.0 or 1.0 against the work's titles. A title test therefore cannot tell whether a record is the right book in general. It can only tell whether the work has a title in the record's language. So a threshold is not the lever, and something has to <em>state</em> that two records are one work.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Source</th><th class="num">Books where every entry reaches the right identity</th><th>Of 91 entries</th></tr></thead>
+      <tbody>
+        <tr><td>SBN's uniform title</td><td class="num c-b">22 / 37</td><td>right on 68, <strong>wrong on 0</strong>, none on 23</td></tr>
+        <tr><td>Wikidata</td><td class="num">14 / 37</td><td class="c-f">labels and sitelinks of the work item</td></tr>
+        <tr><td>Open Library</td><td class="num">13 / 37</td><td class="c-f">one work key, when translations are not split</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>That is the benchmark's first assumption, and it failed in every source. The failure is a constraint, and the design follows from it: a book with no identity is normal, and the page has to say so.</p>
+
+  <h3><span class="n">GUARD</span>Which SBN work, and may it be believed</h3>
+
+  <p>SBN files editions against a uniform-title authority. Asked with a title <em>and</em> an author, the OPAC returns the uniform titles in the result set. The work guard scores two things. <strong>A</strong> is the typed title against the uniform title. <strong>B</strong> is, of the query's records really carrying that title, the share SBN files under the work.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Verdict</th><th class="m">Rule</th><th>What sits there</th></tr></thead>
+      <tbody>
+        <tr><td>Strong</td><td class="m">A ≥ 0.6, or B &gt; 0.5</td><td>Accepted</td></tr>
+        <tr><td>Weak</td><td class="m">B = 0.5</td><td class="c-r">The known wrong works: <em>Tesi di filosofia della storia</em>, <em>Angelus Novus</em></td></tr>
+        <tr><td>Refused</td><td class="m">otherwise</td><td>Classics SBN links thinly: <em>Crime and Punishment</em> 9/31, <em>Der Process</em> 2/15, <em>Blindness</em> 3/8, all at B ≤ 0.375</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The wrong works sit <em>above</em> every refused classic, so loosening B to rescue the classics admits the wrong works first. Over 91 entries the guard accepted no wrong work. The way in is a second, independent signal: a refused or weak work is accepted when the Wikidata item accepted for the same entry has a label, sitelink or title matching it at 0.6 or more. That rescued 7 of 19 refused-or-weak entries, with 0 agreements in 2,024 cross-book pairs.</p>
+
+  <h3><span class="n">GATE</span>Does this record belong to the work</h3>
+
+  <p>A record is reported only if something ties it to the work: the work authority, a shared ISBN, or a title match at <code>IDENTIFYING_TITLE_MATCH = 0.6</code> against one of the <strong>work's</strong> titles. It was once 0.45, where one shared word passed. Two cases pin it.</p>
+
+  <div class="trap">
+    <span class="tag">The two that must stay out</span>
+    <p><em>L'ordine delle notizie</em> scores 0.5 against the titles of <em>The Invention of News</em>. <em>Quale socialismo, quale Europa</em> is by Attali, from 1977, like <em>Bruits</em>, and scores 0.0: same author and same era is not enough. A number is also not the only way to move this gate. The romanisation, the transliteration fold and the stopword list change what scores 0.6 without touching it, so they carry the same re-check.</p>
+  </div>
+
+  <p>The score is not an edit distance. Each title becomes a <em>set</em> of tokens, with accents stripped, stopwords dropped and transliteration variants folded, and the score is the overlap over the longer title: <code>len(A &amp; B) / max(len(A), len(B))</code>.</p>
+
+  <p>What the gate refuses is not thrown away. It is shown in a collapsed loose-match band, each row labelled with how it was reached, because the gate is most likely wrong exactly where the score is 0.0.</p>
+</section>
+
+<!-- ============================================================ 6 -->
+<section class="sec" id="s6">
+  <div class="rail"><b>06</b>The <br>answer</div>
+  <h2 class="head">What comes back</h2>
+
+  <p>A <strong>snapshot</strong>: everything the page shows and nothing it does not. It holds the header, the editions by language, the language order, the publisher facets, the choices when several books share a title, the coverage ledger, the duplicate hints, the loose matches and Open Library's other records. Around it the job reports its status, its stage, each source's state, the requests made and failed, and whether grouping is still running. The command line formats the same snapshot as text, JSON or CSV.</p>
+
+  <p>Filters never touch any of it. The header, the spans and the counts are computed over the whole store, so changing a filter re-filters the rows in the browser, sends no request and moves no number in the header.</p>
+
+  <h3><span class="n">PAGE</span>The page, top to bottom</h3>
+
+  <ul>
+    <li><strong>The search.</strong> A title, an author, and two switches that are off by default: other spellings of the title, other spellings of the author.</li>
+    <li><strong>The publication history.</strong> The work's title; the original, where a source states one, with who stated it; the earliest edition found, always; then one row per language with its year span and edition count.</li>
+    <li><strong>The coverage ledger.</strong> One line, <em>192 records found for this work</em>, that opens into how they were reached: <em>3 linked to this work in SBN</em>, <em>7 in Open Library's record for this work</em>. Under it, in red, any source that came back short and any list that was read only in part.</li>
+    <li><strong>Filters, as chips.</strong> Language, publisher and a year span, multi-select. A row with no language is a chip like any other.</li>
+    <li><strong>The editions</strong>, grouped by language, newest first. Each row leads with <strong>year and publisher</strong>, the two fields that tell editions of one book apart, and carries what the catalogue says about it: its medium, <em>credited to X</em>, a label on a year that had to be settled.</li>
+    <li><strong>A bracket</strong> between two rows from different sources that may be the same edition. It is a hint and never a merge.</li>
+    <li><strong>A row, opened</strong>: the translator, the physical description, the libraries holding a copy, and where to buy one.</li>
+    <li><strong>A note under the list</strong> that SBN links study guides, graded readers, omnibus volumes and adaptations to a work, and that they are labelled only where the catalogue's own fields say so.</li>
+    <li><strong>Open Library's other records</strong> for the work, to add one at a time or all at once. They stay out of the header.</li>
+    <li><strong>The loose-match band</strong>, collapsed: every record the title gate refused, labelled with how it was reached.</li>
+  </ul>
+
+  <h3><span class="n">PHRASING</span>Sentences the header refuses to write</h3>
+
+  <p>The origin line is composed once, in <code>core/view.py</code>, so the page and the command line cannot word one claim two ways.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>A source states</th><th>The header says</th></tr></thead>
+      <tbody>
+        <tr><td>year and language</td><td class="m">first published 1972 in inglese</td></tr>
+        <tr><td>year only</td><td class="m">first published 1972</td></tr>
+        <tr><td>language only</td><td class="m">originally in inglese, earliest edition found 1976</td></tr>
+        <tr><td>neither</td><td class="m">No source states when this work first appeared.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>A known original language is never paired with a fallback year: <em>first published 1976 in inglese</em> would take the year from an Italian edition and the language from the English original, and be false. The original and the earliest edition found are stated side by side and <strong>never compared</strong>. Editions dated before a stated original are left out of the earliest line. And a language's row is marked as the original only when the row can support it: the stated original year has to fall within the years that row spans.</p>
+
+  <h3><span class="n">COPIES</span>Where to get one</h3>
+
+  <p>Buy links are search URLs built from the row's ISBN, with no network, no price and no stock: IBS, Amazon.it, Feltrinelli and Mondadori new; AbeBooks and Maremagnum used. A row with no ISBN gets no links, because a title search lands on whichever edition the shop sells now and not the one the reader opened. For those, and for anything out of print, the answer is SBN's holdings list, or the Internet Archive where Open Library records a scan. Libraccio has no link at all: its search is a POST form.</p>
+</section>
+
+<!-- ============================================================ 7 -->
+<section class="sec" id="s7">
+  <div class="rail"><b>07</b>The <br>timeline</div>
+  <h2 class="head">How it was decided</h2>
+
+  <p>Seventeen days from a script to a finished build, then a week and a half of measured follow-ups. Nearly every change after the first two days was preceded by a measurement on a fixed corpus.</p>
+
+  <div class="trace dated">
+    <div><span class="t">2026-09-12</span><div class="d"><b>First version.</b> A command-line script, then a server and a page.<p>Open Library, Wikidata, Google Books and SBN's mobile gateway, with a Dewey class as the cross-language bridge. The same day, SBN's second API was found to carry the work link the project had recorded as absent.</p></div></div>
+    <div><span class="t">09-14</span><div class="d"><b>Assessment against the aim.</b> Keep the sources, rebuild the lookup's core.<p>Searching by the typed title is why three entry titles gave different lists and a cold lookup took about a minute.</p></div></div>
+    <div><span class="t">09-14 / 15</span><div class="d"><b>Benchmark.</b> Three stages, 40 books, 91 scored entry runs, eight assumptions.<p>Four pass and four fail. The failures became constraints: a book with no identity is normal, only an ISBN merges, the header states and never infers, there is no census.</p></div></div>
+    <div><span class="t">09-16</span><div class="d"><b>Strategy revision and rebuild proposal.</b> Decisions A to K.<p>One store, several producers, versioned snapshots; the tree in §03.</p></div></div>
+    <div><span class="t">09-17 / 18</span><div class="d"><b>Foundations.</b> Fixture replay and the offline suite; six books held out of tuning.<p>The title gate measured; error payloads no longer cached; the contact User-Agent and the request ledger.</p></div></div>
+    <div><span class="t">09-21 / 24</span><div class="d"><b>The stages.</b> The model and store, S1, S2, the job-id transport, S3, local filters, the header and its disclosures, S4.</div></div>
+    <div><span class="t">09-25 / 26</span><div class="d"><b>The rest of the aim.</b> Open Library's duplicate records, author mode, and the held-out check.</div></div>
+    <div><span class="t">09-27 / 28</span><div class="d"><b>One tree.</b> The switch-over failed its gate: the old path was 24 red, the new one 85.<p>The gap was closed before anything was deleted. Then the old path went, and the record was corrected. <strong>Build finished 2026-09-28.</strong></p></div></div>
+    <div><span class="t">09-29 → 10-06</span><div class="d"><b>After the build.</b> Decisions AV to BD: other spellings, calendars, author mode's joins.</div></div>
+    <div><span class="t">10-07</span><div class="d"><b>Release.</b> The development evidence kept privately; the decisions log written in its place.</div></div>
+  </div>
+
+  <h3><span class="n">A1–A8</span>What the benchmark established</h3>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th class="m">#</th><th>Assumption</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td class="m">A1</td><td>Every entry title + author reaches one identity</td><td><strong class="c-r">Fail</strong> in every source (§05)</td></tr>
+        <tr><td class="m">A2</td><td>Listing by identity loses nothing</td><td><strong class="c-b">Pass</strong>, no unexplained loss. Cold median 34.5 s → 3.5 s</td></tr>
+        <tr><td class="m">A3</td><td>Listing rows are enough to filter</td><td><strong class="c-b">Pass</strong>: 2,561 of 2,603 SBN rows carry a parsable year</td></tr>
+        <tr><td class="m">A4</td><td>Duplicates show as a (language, year, publisher) collision</td><td><strong class="c-r">Fail</strong>: precision 82/125 = 0.656</td></tr>
+        <tr><td class="m">A5</td><td>Original vs first edition is detectable from listings</td><td><strong class="c-r">Fail</strong>: 8 false flags and 1 miss over 36 books</td></tr>
+        <tr><td class="m">A6</td><td>VIAF can state coverage</td><td><strong class="c-r">Fail</strong> for 20 of 37 books</td></tr>
+        <tr><td class="m">A7</td><td>Authorities group author variants</td><td><strong class="c-b">Pass</strong>: one SBN id per person for every Latin form</td></tr>
+        <tr><td class="m">A8</td><td>A contact User-Agent removes Wikimedia throttling</td><td><strong class="c-b">Pass</strong>: 102 of 180 requests refused → 0 of 180</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The shipped path, cold, over 128 cases with 0 failed requests: to the end of S4 a median of <strong>4.8 s</strong>, p90 19.1 s, max 95.3 s (the <em>Odyssey</em>, 1,255 requests). The list is on the page after S2.</p>
+</section>
+
+<!-- ============================================================ 8 -->
+<section class="sec" id="s8">
+  <div class="rail"><b>08</b>The <br>decisions</div>
+  <h2 class="head">The decisions that mattered</h2>
+
+  <p>The log holds 56 lettered decisions, A to BD, each with the number that decided it and what was discarded. The code cites them by letter. These twelve shaped the product; the letters are the log's own.</p>
+
+  <div class="trace">
+    <div><span class="t">A</span><div class="d"><b>A second acceptance signal for a refused SBN work</b>, instead of a looser guard.<p>Rescues 7 of 19 refused-or-weak entries; 0 agreements in 2,024 cross-book pairs. Re-measured after the fold: 11 of 11.</p></div></div>
+    <div><span class="t">B</span><div class="d"><b>Latin script only; other scripts are romanised</b> before matching or sending.<p>The OPAC silently drops non-Latin free text and answers with the unfiltered set.</p></div></div>
+    <div><span class="t">D</span><div class="d"><b>No “first edition differs” inference.</b> The header shows the stated original and, always, the earliest edition found.<p>The inference raised 8 false flags and 1 miss over 36 books. The rule that replaced it was older than the true first edition 0 times in 37.</p></div></div>
+    <div><span class="t">F</span><div class="d"><b>A recovery route beside the listing, title-gated.</b><p>The listing alone drops 334 SBN records and 98 Open Library editions. The routes that find them leaked 44 wrong-work records when ungated.</p></div></div>
+    <div><span class="t">H</span><div class="d"><b>A cross-source duplicate is a hint, never a merge.</b> A bracket joins the two rows; only a shared ISBN folds them.<p>Hint precision 0.766 on 100 hand-judged pairs, 0.866 after page counts were allowed to withhold one (AX).</p></div></div>
+    <div><span class="t">I</span><div class="d"><b>One edition row per ISBN, listing its printing years</b>, grouped in the background.<p>483 records with an ISBN become 297 rows. Grouping from listing fields instead had a precision of 0.425.</p></div></div>
+    <div><span class="t">M</span><div class="d"><b>A job id and polling</b>, with the first snapshot being S2's complete list (AA).<p>Discarded: streaming, one blocking response, and a header-only first version that read <em>0 editions</em> for a second and a half.</p></div></div>
+    <div><span class="t">N</span><div class="d"><b>Two disclosures: the coverage ledger and the loose-match band.</b><p>Measured per-lookup numbers on one line, and everything the title gate refused, collapsed. They replaced a fixed note that said the same thing on every lookup.</p></div></div>
+    <div><span class="t">Z</span><div class="d"><b>A non-edition is labelled, never filtered.</b><p>SBN links study guides, retellings, omnibus volumes and films to a work. A row says what the catalogue says: its medium, and <em>credited to X</em> where the heading is another person.</p></div></div>
+    <div><span class="t">AH</span><div class="d"><b>The Dewey routes are deleted.</b><p>On full records the branch fires on 323 refused records and would admit 1, an omnibus. With SBN's own Dewey, 3 of the 4 it admits are other books.</p></div></div>
+    <div><span class="t">AN</span><div class="d"><b>Title only: adopt the one author the sources agree on, and say so.</b><p>If Wikidata, Open Library and SBN's catalogued titles name several people, a chooser of books and no list. This restored the use case dropped on day three.</p></div></div>
+    <div><span class="t">AY</span><div class="d"><b>A year in another calendar is settled by two readings or not at all, and the row says which.</b><p>65 of 156 Persian records showed their Iranian year. The bracketed year and SBN's own index were each wrong once, so neither is trusted alone.</p></div></div>
+  </div>
+
+  <p>One decision is about deleting code rather than writing it, and it is the reason the release is one tree: <strong>no path is deleted while it reaches a correct edition or original the other does not</strong> (AM). The full list is in <a href="DECISIONS.md"><code>docs/DECISIONS.md</code></a> §3.</p>
+</section>
+
+<!-- ============================================================ 9 -->
+<section class="sec" id="s9">
+  <div class="rail"><b>09</b>Discarded</div>
+  <h2 class="head">Discarded routes</h2>
+
+  <p>Each of these looked reasonable and was measured. Re-proposing one needs new evidence first.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Idea</th><th>Evidence against</th></tr></thead>
+      <tbody>
+        <tr><td>A yes/no “translated into Italian” hero</td><td>The user's rejection (§01)</td></tr>
+        <tr><td>Google Books as a source</td><td>Keyless quota permanently exhausted; it contributed nothing</td></tr>
+        <tr><td>A Dewey class identifying a work</td><td>A class is a subject, and one author's books are mostly one subject: García Márquez's novels are all <code>863.44</code>. 3 of 4 admissions were other books, 0 of 3 saves</td></tr>
+        <tr><td>VIAF as a coverage census</td><td>Unusable for 20 of 37 books; 13 split across clusters</td></tr>
+        <tr><td>Inferring “the first edition differs”</td><td>8 false flags and 1 miss over 36 books: a Dutch translation dated 1912, reprints dated 1866</td></tr>
+        <tr><td>The old pipeline</td><td>Median 34.5 s and 192 requests against 3.5 s and 19; 7 wrong originals against 0</td></tr>
+        <tr><td>Fetching details upfront</td><td>It <em>was</em> the 34.5 s</td></tr>
+        <tr><td>Loosening the work guard to accept the classics</td><td>The known wrong works sit at B = 0.5, above every refused classic (§05)</td></tr>
+        <tr><td>Merging on a (language, year, publisher) collision</td><td>Precision 0.656. All 43 false positives share a real publisher: another country's edition, another binding</td></tr>
+        <tr><td>Dropping the author from the work query</td><td>It returns 84 records by other poets</td></tr>
+        <tr><td>Open Library's first-publish year or language as the original</td><td>Wrong on 17 and 40 of 60</td></tr>
+        <tr><td>A title gate at 0.7</td><td>Every record it moves scores exactly 0.667, two of three tokens: an artefact, and all 7 are 3 books</td></tr>
+        <tr><td>Re-asking the guard with a record's own title</td><td>1 right record gained, 26 wrong admitted</td></tr>
+        <tr><td>Filtering non-editions and films out</td><td>Label, never filter (Z)</td></tr>
+        <tr><td>Converting calendars by rule</td><td>One Persian book is dated in the lunar calendar (AY)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The whole table, 25 rows, is §6 of the log.</p>
+</section>
+
+<!-- ============================================================ 10 -->
+<section class="sec" id="s10">
+  <div class="rail"><b>10</b>The <br>traps</div>
+  <h2 class="head">The traps</h2>
+
+  <p class="lede">One shape repeats in nearly all of them: <strong>the catalogue answers confidently and wrongly instead of failing.</strong> Nothing returns an error. You get a plausible list that is not what you asked for.</p>
+
+  <h3><span class="n">09-12</span>How a verified fact turned out to be wrong</h3>
+
+  <p>For its first day the project stood on one sentence, recorded as checked: <em>no free catalogue records the link between a translation and its original</em>. Two of the findings behind it failed <strong>the same way</strong>.</p>
+
+  <p>The first: <em>Open Library has no <code>translation_of</code> field</em>. It does. The record that was checked, <code>/works/OL15764295W.json</code> for <em>Rumori</em>, is a <strong>work</strong> record, and <code>translation_of</code> and <code>translated_from</code> live on <strong>editions</strong>. <em>Kafka a la platja</em> carries <code>translation_of: 海辺のカフカ</code>.</p>
+
+  <p>The second, and the one that mattered: <em>SBN records carry no uniform or original title</em>. True of the mobile gateway, false of SBN. The catalogue records the link as a UNIMARC uniform-title authority, shown in its OPAC as <em>Titolo di opera</em>. That field is simply absent from the mobile gateway's JSON, so six full records showed no trace of it, and the conclusion was drawn from a hole in one API.</p>
+
+  <p>It was found by chasing one book that nothing could reach. A lookup for <em>More Brilliant Than the Sun</em> found three English editions and stopped, while SBN was holding the Italian translation, <em>Più brillante del sole</em>, and its own statement that the two are one work. The Italian record shares no ISBN with the English editions, scores 0.0 on title similarity and carries no Dewey class. The author sweep was already finding it and then discarding it for lack of any signal. Pursuing that one failure, on the evening of 2026-09-12, surfaced the OPAC's own JSON API and its <code>titolo_uniformef[]</code> facet, which names the work a title belongs to; filtering the same search by that value returns every record linked to it. Two requests of about 0.3 s each.</p>
+
+  <p>The premise had not been idle. The Dewey class as a bridge, the scoring around it and the author sweep with its gate all existed to work around a gap that was only ever a gap in one JSON view. The other bridges <em>infer</em> that two records describe one work; this one reads SBN saying so. It went in as a fourth bridge that same day (commit <code>e871e724</code>), and the rebuild later made it the spine of the lookup.</p>
+
+  <div class="trap">
+    <span class="tag">The standing rule</span>
+    <p><strong>Check the record type before concluding a field is absent.</strong> In both cases a field was declared missing after looking at the wrong <em>kind</em> of object: a work record instead of an edition record, one API instead of the catalogue. Six negatives read as proof.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">Unknown parameter, unfiltered answer</span>
+    <p>Both SBN APIs ignore a parameter they do not know and return the <em>unfiltered</em> set. There is one whitelist per API, and the OPAC's refuses a key outside it instead of filtering.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">Non-Latin text, dropped</span>
+    <p>The OPAC silently drops non-Latin free text. Alone, it returns all 21,806,046 records; with an author, <em>Доктор Живаго</em> returns the author's whole catalogue, 855 = 855. Latin script is sent, and each new key or value class ships with a bogus-value control that must return 0.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">A work without an author</span>
+    <p>The OPAC answers, and the answer is a different book. Bare <em>Rumori</em> returns Russolo's <code>arte dei rumori</code>; bare <em>The Essential Knuth</em> returns <code>essential mathematics for economic analysis</code>. The functions raise instead of querying.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">The language field lies</span>
+    <p><code>linguaPubblicazione</code> is the only language signal, and it sometimes names the language translated <em>from</em>. <code>UBO4636099</code>, Vintage's English <em>Kafka on the Shore</em>, is filed GIAPPONESE. A record naming a translator while claiming the original language is disbelieved, not corrected. <code>paesePubblicazione</code> is a country and says nothing about language.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">A 200 that is not an answer</span>
+    <p>A single <code>/</code> in an SBN free-text value returns HTTP 200 and a Solr error object. Being valid JSON, it was cached and replayed for 24 hours, so every repeat read <em>SBN partial</em>. The cache now refuses what its caller rejects.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">Throttled without a contact</span>
+    <p>Wikimedia rate-limits by User-Agent: 102 of 180 requests refused without a contact URL, 0 of 180 with one. It had been recorded as a connect stall to one Wikipedia host. It was 35% of request time.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">Facets that count the wrong thing</span>
+    <p>The mobile gateway returns facet counts and accepts none of them back as filters: <code>lingua=ita</code>, <code>fq=</code>, <code>facet=</code>, every form is ignored. The OPAC's facets do filter. And SBN's <code>lingua</code> facet counts the author's catalogue, not the work: <code>francese 124</code> beside one Italian edition. Language chips are counted from the rows on the page.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">The data is dirty in specific ways</span>
+    <p>Non-sorting articles arrive wrapped in the control characters <code>\x88…\x89</code>. Several Dewey codes run together with no separator. In holdings, the library name is in <code>shelfmark</code> and the city in <code>invNum</code>. The first line of a listing row is not the imprint on 26 of 2,603 rows.</p>
+  </div>
+
+  <div class="trap">
+    <span class="tag">The stale server</span>
+    <p>Stop the server with <code>pkill -f server.py</code>. macOS reports the process as <code>Python server.py</code>, so <code>pkill -f "python3 server.py"</code> matches nothing and a stale instance keeps serving the code it started with. Started as <code>python3 -m app.server</code>, it needs <code>pkill -f 'app.server'</code>. Same shape again: the wrong command reports success.</p>
+  </div>
+
+  <p>Smaller ones, each paid for once: a uniform-title label is a lowercased, accent-stripped search key and is never displayed. A language code is read off SBN's facet and never guessed from the Italian name: <code>SLOVACCO</code> is <code>slo</code>. And a record count is never asserted, because <em>Nineteen Eighty-Four</em> returned 733 records and then 899 on the same 35 requests hours later.</p>
+</section>
+
+<!-- ============================================================ 11 -->
+<section class="sec" id="s11">
+  <div class="rail"><b>11</b>The <br>ledger</div>
+  <h2 class="head">Failure honesty: the ledger</h2>
+
+  <p class="lede"><strong>A failed request must never be indistinguishable from an empty result.</strong> That it once was is the worst bug the project had.</p>
+
+  <p>Every helper used to return “no results” when a request failed. Editions went silently missing while each source read <code>ok</code>. For a tool whose answer is sometimes <em>there is no Italian edition</em>, that is the one failure that cannot be tolerated: absence and breakage have to look different.</p>
+
+  <p>So every call goes on a <strong>ledger</strong>, one per lookup, opened by the job in its own thread. It counts a failure whether or not the source that swallowed it says so. What the reader sees are readings of it:</p>
+
+  <ul>
+    <li><code>partial (N failed)</code> beside a source, counting every failed request;</li>
+    <li>an <em>Incomplete</em> note saying editions may be missing;</li>
+    <li>a slow-lookup note above about 10 seconds, naming only causes measured in that lookup;</li>
+    <li>a line for every cap that bound, because <strong>every truncation is on the page</strong>.</li>
+  </ul>
+
+  <p>All of them are worded in one module, <code>core/notes.py</code>, so the page, the command line and a test cannot say different things about the same lookup.</p>
+
+  <div class="trap">
+    <span class="tag">The pool that drops it</span>
+    <p>A plain thread pool does not carry the ledger into its workers, so their failures would reach no reading at all. Every pool in the project is the project's own <code>Pool</code>, and a test scans the four packages for the other kind by text.</p>
+  </div>
+
+  <h3><span class="n">BELOW</span>What the network layer guarantees</h3>
+
+  <dl class="spec">
+    <div><dt>Timeouts</dt><dd><code>(4, 15)</code> seconds, connect and read apart, so a stalled connection fails fast</dd></div>
+    <div><dt>Retries</dt><dd>2, backoff 0.3, on 429, 500, 502, 503 and 504, for GET and POST alike: a search has no side effect. A 404 is not retried</dd></div>
+    <div><dt>Sessions</dt><dd>one <code>requests.Session</code> per thread</dd></div>
+    <div><dt>User-Agent</dt><dd>names the client and carries a contact URL, in the form Wikimedia's policy asks for</dd></div>
+    <div><dt>Per call</dt><dd>the ledger records the source and host; whether the network, the cache or the test fixtures answered; how long it took; its error; and each retry with its cause and any <code>Retry-After</code> wait</dd></div>
+    <div><dt>Validation</dt><dd>a caller passes the check only it can make, so a 200 carrying an error object is a failure and is never cached</dd></div>
+  </dl>
+
+  <p>The same principle runs through the rest. A <code>Retry-After</code> over 60 seconds is a failure, not a wait. An offline run that cannot answer a request stops loudly; it never degrades to “no results”. And where a source states no original, the header shows none: uncertainty shows less.</p>
+</section>
+
+<!-- ============================================================ 12 -->
+<section class="sec" id="s12">
+  <div class="rail"><b>12</b>Budgets <br>&amp; time</div>
+  <h2 class="head">Budgets, cache and time</h2>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Constant</th><th class="num">Value</th><th>What it bounds, and what pins it</th></tr></thead>
+      <tbody>
+        <tr><td class="m">IDENTIFYING_TITLE_MATCH</td><td class="num">0.6</td><td>The bar a record's title must clear against the work's titles. Chosen over 0.7; pinned by the two cases in §05</td></tr>
+        <tr><td class="m">WORK_TITLE_MATCH</td><td class="num">0.6</td><td>The same number for a title against a work: the guard's A, the second signal, author mode's joins</td></tr>
+        <tr><td class="m">ENRICH_CAP</td><td class="num">1,500</td><td>Full records S4 reads. The largest corpus entry needs 1,078</td></tr>
+        <tr><td class="m">OPAC page / facet</td><td class="num">20 / 50</td><td>SBN's own, and no parameter moves either</td></tr>
+        <tr><td class="m">LISTING_MAX_PAGES</td><td class="num">100</td><td>2,000 records in one language</td></tr>
+        <tr><td class="m">UNLINKED_MAX_PAGES</td><td class="num">25</td><td>500 records under a name in author mode; the reader can read the rest</td></tr>
+        <tr><td class="m">MAX_VARIANTS</td><td class="num">6</td><td>Other spellings asked per switch</td></tr>
+        <tr><td class="m">RECONCILE_CAP</td><td class="num">60</td><td>Year values reconciled per lookup</td></tr>
+        <tr><td class="m">PAGES_APART</td><td class="num">10%</td><td>Page counts further apart than this, and at least 10 pages, withhold a duplicate hint</td></tr>
+        <tr><td class="m">RETRY_AFTER_CAP_S</td><td class="num">60 s</td><td>A longer wait is a failure. The longest any host asked for and honoured is 36 s</td></tr>
+        <tr><td class="m">SLOW_LOOKUP_S</td><td class="num">10 s</td><td>Above this, a cold lookup says what made it slow</td></tr>
+        <tr><td class="m">TIMEOUT</td><td class="num">4 / 15 s</td><td>Connect and read</td></tr>
+        <tr><td class="m">CACHE_TTL</td><td class="num">24 h</td><td>How long a cached response stays fresh</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="trap">
+    <span class="tag">Why lowering a cap hides records</span>
+    <p>Every cap is reported on the page when it binds. Lowering one to go faster does not fix anything; it removes records and then has to say so. The speed came from staging, not from budgets: the list first, the full records behind it.</p>
+  </div>
+
+  <h3><span class="n">CACHE</span>Why it is load-bearing</h3>
+
+  <p>A cold lookup is dozens to hundreds of requests. Each response is written to <code>.cache/</code> as JSON under a hash of its URL and parameters and kept for 24 hours, so a repeat is instant. Without it the tool is unusable to iterate on and impolite to public catalogues. Delete <code>.cache/</code> to force fresh data.</p>
+
+  <p>The cache refuses what its caller rejects. Both SBN APIs answer a request they dislike with HTTP 200 and a valid JSON body saying so, which is exactly what a cache stores. Such a body is never written, and one already on disk is dropped on sight.</p>
+
+  <h3><span class="n">TIME</span>Where the seconds go</h3>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Measured</th><th class="num">Value</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>First version on the page</td><td class="num">3.6 s</td><td>median, cold, on the six held-out books; 3.8 s on the rest</td></tr>
+        <tr><td>To the end of S4, median</td><td class="num">4.8 s</td><td>cold, 128 cases, 0 failed requests</td></tr>
+        <tr><td>To the end of S4, p90</td><td class="num">19.1 s</td><td></td></tr>
+        <tr><td>To the end of S4, max</td><td class="num">95.3 s</td><td>the <em>Odyssey</em>: 1,255 requests</td></tr>
+        <tr><td>The old path, median</td><td class="num c-f">34.5 s</td><td class="c-f">192 requests, and nothing on the page until the end</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Wikimedia's share of request time fell from 35% to 3.8% once the User-Agent carried a contact URL. What had been recorded as a connect stall was throttling.</p>
+</section>
+
+<!-- ============================================================ 13 -->
+<section class="sec" id="s13">
+  <div class="rail"><b>13</b>Proof</div>
+  <h2 class="head">How it is verified</h2>
+
+  <p>Four different things, and none of them substitutes for another.</p>
+
+  <h3><span class="n">1</span>An offline suite</h3>
+
+  <p><code>python3 -m pytest</code> runs 1,170 tests in about two seconds. It is offline by construction: the test session blocks <code>socket.connect</code>, and recorded catalogue bodies are replayed under the HTTP layer, where every source has to pass. <code>core/</code>, where every gate lives, is held at <strong>100% of executable lines</strong> by a standard-library tracer. The stages are tested with the catalogues stubbed and the server over a fake connection, never a port.</p>
+
+  <p>Every literal in the parser tests came from a real recorded body, because the traps are counter-intuitive and an invented example tests the wrong thing.</p>
+
+  <h3><span class="n">2</span>A control for every fact</h3>
+
+  <p>Since both SBN APIs answer nonsense with the unfiltered set, a filter that <em>seems</em> to work proves nothing. Each of the 20 verified facts was checked with a control: a bogus value that must return 0. A fact resting on one facet value has a shelf life. One of them was re-measured when SBN re-filed its example.</p>
+
+  <h3><span class="n">3</span>A corpus, and six books kept out of it</h3>
+
+  <p>40 books with up to three entry titles each (original, English, Italian), 16 hand-written regression cases, and 9 people for author mode. Six books were held out of tuning and checked only at gates. On them, cold, over 96 entries: a strong SBN work on 0.765 against 0.811 on the fitting set, and <strong>an original stated and wrong 0 times on both</strong>.</p>
+
+  <div class="fact">
+    <span class="tag">What that check cannot say</span>
+    <p>The build does not do worse on books it was not tuned on. No more than that: the corpus is literary, canonical and heavily Italian-published, the six were chosen after the first decisions, and refusal behaviour was never held out.</p>
+  </div>
+
+  <h3><span class="n">4</span>A real port</h3>
+
+  <div class="trap">
+    <span class="tag">627 green tests and a dead sweep</span>
+    <p>Because <code>catalog/</code> may not import <code>core/</code>, its parsers hand back plain dicts. A record whose holdings were still dicts raised only where the view read one, which no tested row did. Green is not “the pipeline runs”. That takes a real server and a cold lookup, and one property of the page (a filter change issues no request) can only be checked in a browser.</p>
+  </div>
+
+  <h3><span class="n">CASES</span>The sixteen regression cases</h3>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th class="num">#</th><th>Case</th><th>What it proves</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td class="m">Noise + Jacques Attali</td><td>exactly 1 Italian edition: <em>Rumori</em>, Mazzotta 1978, tr. Sergio Mancini, record <code>RAV0064979</code></td></tr>
+        <tr><td class="num">2</td><td class="m">Verso un'ecologia della mente</td><td>an Italian-first lookup resolves to <em>Steps to an Ecology of Mind</em>, original eng 1972, both languages present</td></tr>
+        <tr><td class="num">3</td><td class="m">Cent'anni di solitudine</td><td>original <strong>spa</strong> 1967: it is not English-centric. No chooser, and the author named once, accented</td></tr>
+        <tr><td class="num">4</td><td class="m">The Invention of News ⇄ L'invenzione delle notizie</td><td>both languages, both ways</td></tr>
+        <tr><td class="num">5</td><td class="m">La matrice sociale della psichiatria</td><td>2 choices (Ruesch/Bateson, Shepherd 1990); original <em>Communication</em> 1951 from the authority; no <em>Therapeutic communication</em></td></tr>
+        <tr><td class="num">6</td><td class="m">Per una economia positiva + author</td><td>exactly 1 Italian, no sibling leakage</td></tr>
+        <tr><td class="num">7</td><td class="m">The Essential Knuth</td><td>a true negative: no Italian edition, and all sources <code>ok</code></td></tr>
+        <tr><td class="num">8</td><td class="m">Noise (no author)</td><td>at least 3 choices: ambiguity shown, not resolved arbitrarily</td></tr>
+        <tr><td class="num">9</td><td class="m">--author "Gregory Bateson"</td><td>author mode: about 75 works, about 20 with an Italian edition</td></tr>
+        <tr><td class="num">10</td><td class="m">CLI: "Noise"</td><td>the byline names <strong>no</strong> author: four books share the title</td></tr>
+        <tr><td class="num">11</td><td class="m">More Brilliant Than the Sun ⇄ Più brillante del sole</td><td>nothing but the uniform-title authority can join these two: no shared ISBN, 0.0 title similarity</td></tr>
+        <tr><td class="num">12</td><td class="m">Rumori + Jacques Attali</td><td>resolves to <em>Bruits</em>, fre 1977, with Italian and English present</td></tr>
+        <tr><td class="num">13</td><td class="m">Kafka sulla spiaggia + Murakami Haruki</td><td>original jpn 2002 in the byline and <strong>no</strong> row marked original. <code>UBO4636099</code> appears under <em>inglese</em></td></tr>
+        <tr><td class="num">14</td><td class="m">Cent'anni di solitudine</td><td>none of the author's other <code>863.44</code> novels in the Italian list</td></tr>
+        <tr><td class="num">15</td><td class="m">SBN CFI1172094</td><td>classified English despite <code>paesePubblicazione: ITALIA</code></td></tr>
+        <tr><td class="num">16</td><td class="m">SBN CFI1183309</td><td>a translation detected from a free-text note alone</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Counts drift as the catalogues are updated, so the cases assert on structure: both languages present, exactly one Italian edition, N choices, the right language. <strong>Not every case passes on the shipped path, by decision.</strong> Case 5 wants two choices and an original where a bare title with two authors now shows a chooser and no list; case 9 asks for at least 10 works with an Italian edition and finds 6 over work rows; case 11 wants an original language only Open Library states; case 13 is red, as it was on the old path. Those are the accepted set, and a new red outside it is a regression. The gate's two counterexamples from §05 are automated in <code>tests/test_gate.py</code>.</p>
+</section>
+
+<!-- ============================================================ 14 -->
+<section class="sec" id="s14">
+  <div class="rail"><b>14</b>Limits</div>
+  <h2 class="head">Limits and open items</h2>
+
+  <p>What the shipped lookup still cannot do. The page says most of these itself when they apply.</p>
+
+  <ul>
+    <li><strong>No stated original, no original.</strong> The header states one only where Wikidata or SBN's work authority does. The earliest edition found is always shown, and it is a statement about the catalogues, not about history.</li>
+    <li><strong>Retranslations filed under a separate work are not joined.</strong> <em>Sul concetto di storia</em> is its own uniform title, and nothing ties it to <em>Tesi di filosofia della storia</em>.</li>
+    <li><strong>A same-work record in a language the work has no title in is refused</strong>, and lands in the loose-match band. Adaptations sharing the work's title are admitted, labelled.</li>
+    <li><strong>The duplicate hint is a mark, never a merge.</strong> It was right on 0.866 of the hand-judged pairs.</li>
+    <li><strong>Open Library's main work is sometimes the wrong record</strong>: 8 entries in the corpus, where the right one is not on the duplicate list either.</li>
+    <li><strong>Author mode reads 500 records under a name</strong> for the group filed under no work, says so when it stops, and lets the reader read the rest.</li>
+    <li><strong>Cold latency has a long tail</strong>: p90 19.1 s and a 95.3 s maximum to the end of S4, though the list is on the page long before.</li>
+    <li><strong>Buy links are search URLs</strong>, not live stock or price.</li>
+  </ul>
+
+  <h3><span class="n">OPEN</span>What is still open</h3>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Kind</th><th class="num">Open</th><th>For example</th></tr></thead>
+      <tbody>
+        <tr><td>Deferred work</td><td class="num">2</td><td>The fold does not join <code>dostoevskij</code> and <code>dostoevsky</code>; reordering it would be a different fold from the one measured</td></tr>
+        <tr><td>The user's call</td><td class="num">3</td><td>A bare title's chooser splits one person SBN spells two ways (<em>Shepherd</em>, <em>Sheperd</em>); one anthology files seven other authors' works under Dostoevskij</td></tr>
+        <tr><td>Operational</td><td class="num">7</td><td>Two cold lookups once took over 800 s for twelve requests that all succeeded. Observed, not diagnosed</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The limits and the sixteen regression cases are in <a href="limits.md"><code>docs/limits.md</code></a>; every open item, and whose call it is, in <a href="BACKLOG.md"><code>docs/BACKLOG.md</code></a>.</p>
+</section>
+
+<div class="colophon" id="s15">
+  <h2>Colophon</h2>
+  <p>Drawn from <a href="DECISIONS.md"><code>docs/DECISIONS.md</code></a>, the one record of how the project was decided, and from the source: <code>catalog/</code>, <code>core/</code>, <code>lookup/stages.py</code>, <code>app/</code> and <code>tests/</code>. Every number here is what was measured on its date. Catalogues drift, so none is a promise.</p>
+  <p>Two things come from elsewhere. The run traced in §04 is a live lookup of 2026-10-08. The account in §10 of how the second SBN API was found is from the message of the commit that added it, <code>e871e724</code>, and from the development notes of the time, which are not part of the release.</p>
+  <p>Set in Palatino and IBM Plex Mono. Two inks only, after the project's own system: blue for what the catalogue says, red for what the tool asserts or wants noticed.</p>
+</div>
+
+</div>
+</body>
+</html>

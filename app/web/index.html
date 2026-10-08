@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book editions</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23faf9f7'/%3E%3Cpath d='M3 2h4v12H3zM9 2h4v12H9z' fill='%234a6353'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#results">Skip to results</a>
+
+<header class="masthead">
+  <h1>Book editions</h1>
+  <p class="standfirst">When a book first appeared, and every edition since — in any language.</p>
+</header>
+
+<form id="search" class="search" autocomplete="off">
+  <div class="fields">
+    <label class="field field--title">
+      <span>Title</span>
+      <input type="text" id="title" name="title" placeholder="in any language — or leave empty for all their works" autofocus>
+    </label>
+    <label class="field">
+      <span>Author</span>
+      <input type="text" id="author" name="author" placeholder="if you know it">
+    </label>
+    <button type="submit" id="submit">Look up</button>
+  </div>
+  <div class="switches">
+    <span class="switches-lead">Also search under</span>
+    <label><input type="checkbox" id="title-spellings"> other spellings of the title</label>
+    <label><input type="checkbox" id="author-spellings"> other spellings of the author</label>
+    <span class="switches-hint">slower — for a book filed under a name you did not type</span>
+  </div>
+</form>
+
+<main id="results" aria-live="polite"></main>
+
+<footer class="colophon">
+  <p class="credits">Wikidata &middot; Open Library &middot; SBN&thinsp;/&thinsp;ICCU</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

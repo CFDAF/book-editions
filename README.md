@@ -1,7 +1,8 @@
 # Book editions
 
 See when a book first appeared and every edition since, in any language. Search
-by title in any of those languages, or by author alone.
+by title in any of those languages, with or without the author, or by author
+alone.
 
 Mainly for one thing: you have come across a book, and you want to know whether
 an Italian translation exists — and if so, from whom and when — before deciding
@@ -11,167 +12,163 @@ one, and tells you where to get a copy of whichever you pick.
 ```bash
 pip install requests
 
-python server.py                                    # web UI at localhost:8000
-python book_editions.py "Noise" --author "Jacques Attali"
-python book_editions.py "Verso un'ecologia della mente"
-python book_editions.py --author "Gregory Bateson"   # every book by one author
-python book_editions.py "Cent'anni di solitudine" --format json -o out.json
+python3 server.py                                    # web page at localhost:8000
+python3 book_editions.py "Noise" --author "Jacques Attali"
+python3 book_editions.py "Verso un'ecologia della mente" --author "Gregory Bateson"
+python3 book_editions.py "Verso un'ecologia della mente"   # no author: see below
+python3 book_editions.py --author "Gregory Bateson"   # every book by one author
+python3 book_editions.py "Cent'anni di solitudine" --format json -o out.json
 ```
 
-An author with no title is a different question — every book they wrote rather
-than every edition of one book — so it lists one row per work, with the edition
-count, the languages it exists in, and how many have an Italian edition in SBN.
+`PORT=8001 python3 server.py` picks another port. No API keys: every source is
+keyless.
+
+**A title with no author** takes the author the sources agree on, and says in
+the byline that none was typed. When they name several people — four books are
+called *Noise* — it shows a chooser of books and no list, and picking one runs
+the lookup again as title + author.
+
+**An author with no title** is a different question — every book they wrote
+rather than every edition of one book. The person is resolved first (a chooser
+appears only when the name answers to more than one), then it lists one row per
+work, titled in its original language, with its editions' count and languages.
+What the person only edited, prefaced or is the subject of is a separate group,
+closed by default. Clicking a work runs a title lookup for it.
 
 ## What it answers
 
 The header is a publication history: the original title, the author, when and in
-what language it first appeared, and one row per language with its year span and
-edition count.
+what language it first appeared — **where a source states it** — and one row per
+language with its year span and edition count.
 
 ```
 Steps to an Ecology of Mind
-Gregory Bateson · first published 1972 in inglese · 36 editions in 6 languages
+Gregory Bateson · first published 1972 in inglese · 32 edition(s) in 4 language(s)
 
-  inglese  ORIGINAL   ━━━━━━━━━━━━━━──────────────   1972–2000   15
-  italiano            ────━━━━━━━━━━━━━━━━━━━━━━━   1976–2016   16
-  spagnolo            ────────────━───────────────        1993    1
+  inglese                  1972–2000   12 edition(s)
+  italiano                 1976–2024   15 edition(s)
+  francese                 1977–1980    3 edition(s)
+  tedesco                  1983–1996    2 edition(s)
 ```
 
-Each language is a bar on one shared time axis, so the gap between an original
-and its translations is something you see rather than work out.
+It also states the **earliest edition found** — a statement about the
+catalogues, not about history — and never infers from the two whether "the
+first edition differs": that inference was measured and was wrong 9 times in 36.
+Where no source states an original, none is shown rather than a guess.
 
 Below that, every edition grouped by language, newest first, each led by its
-year and publisher — the two fields that tell editions of one book apart — and
-expandable for the translator, the physical description, which libraries hold a
+year and publisher — the two fields that tell editions of one book apart. A
+row opens for the translator, the physical description, which libraries hold a
 copy, and where to buy one.
 
-Two filters sit between the header and the list, and work the same way as each
-other: pick one or more **languages**, and — when several different books share
-the title you searched — pick **which book** you meant. Whatever is on is blue,
-with a line underneath saying in words what is showing and what that hides.
+Filters sit between the header and the list: **language**, **publisher** and a
+**year span**. They re-filter the list already in hand and send no request, and
+they never move the header — the original, the earliest edition and the counts
+are always computed over everything found.
 
-The page uses two inks and only two, borrowed from the red-and-blue bicolour
-pencil. Blue is the catalogue: links, and whatever you have selected. Red is a
-mark in the margin: which language is the original, which editions are first
-printings, a claim resting on inference rather than on a catalogue record, a
-source that came back incomplete. If something is red, it is being pointed at.
+The list arrives in a few seconds and keeps improving behind you: records the
+catalogue did not link are recovered and title-checked, then every SBN record is
+read in full so that printings of one ISBN fold into one row. Until that ends the
+page says the counts are provisional.
 
 ## How the matching works
 
-No free catalogue records a link between a translation and its original. Open
-Library has no `translation_of` field, and SBN records carry no uniform title.
-Four mechanisms fill the gap, and any one of them suffices:
+**SBN records the link between a translation and its original.** It files
+editions against a uniform-title authority — *Titolo di opera* in its catalogue
+— so it already knows that *Più brillante del sole* and *More Brilliant Than the
+Sun* are one work. That link is absent from SBN's mobile gateway, which is why
+this project once concluded that no free catalogue records it; the OPAC's own
+API carries it. It is the strongest bridge there is and the only one that
+reaches a book with no Wikipedia article and no shared ISBN.
 
-| Mechanism | Precision | Recall |
-|---|---|---|
-| **SBN's uniform-title authority** | exact — the catalogue's own statement | needs SBN to hold and link the record |
-| **Wikidata** via Wikipedia sitelinks and labels | high | needs a Wikipedia article |
-| **Dewey agreement** between Open Library and SBN | good | needs both sides classified |
-| **Shared ISBN** | exact | modern books only |
+A lookup runs in stages:
 
-The first is the strongest and the least obvious. SBN files editions against a
-work record — *Titolo di opera* in its catalogue — so it already knows that
-*Più brillante del sole* and *More Brilliant Than the Sun* are one book. The
-other three have to work that out; this one just asks. It is also the only one
-that reaches a book with no Wikipedia article, no shared ISBN and no Dewey
-class, which is exactly that book.
+1. **Identify the work once.** Wikidata (accepted only when the title matches
+   one of the item's own names), SBN's uniform-title authority (read through a
+   guard, and **always with an author** — bare *Rumori* returns Russolo's *L'arte
+   dei rumori*), and Open Library's work, searched with the *original* title.
+2. **List its editions by that identity**: SBN's records filed under the work,
+   and Open Library's editions of the work. Nothing after step 1 uses the title
+   you typed.
+3. **Recover what the listing misses**: SBN holds many same-work records it
+   never linked. Three routes find candidates, and each one is admitted **only**
+   if its title matches one of the *work's* titles. The refused ones are not
+   dropped: they sit in a collapsed band, each labelled with how it was reached
+   and the score it was refused at.
+4. **Read every SBN record in full**, behind the page, for holdings,
+   translators and printings.
 
-Dewey is the interesting one. It is numeric, therefore language-neutral. Attali's
-*Bruits/Noise* is classified `306.484` / `780.07` in Open Library and SBN's
-*Rumori* is `780.07` — an exact match, while their titles share not one word.
-The same test correctly declines to match *Quale socialismo, quale Europa*
-(Dewey `335`), which is the same author in the same year.
+Two rows merge only when they share an ISBN. Two rows that merely agree on
+language, year and publisher are marked as *possibly the same edition* and left
+apart: that rule is right only about two times in three. Open Library's other
+work records for the same book are listed, closed, and each can be added to the
+list; they never change the header.
 
-An edition is only reported if something actually identifies it: the work
-authority, a shared ISBN, or a title match against a known variant.
-Same-author-same-era is not enough, so an author sweep does not drag in
-everything they ever wrote.
+A Dewey class is not used anywhere: it is a subject, and one author's books are
+mostly on one subject — García Márquez is `863.44`, and so is every novel he
+wrote.
 
-Dewey agreement *corroborates* but no longer identifies on its own, because a
-Dewey class is a subject and an author who writes one kind of book has every
-title in it. García Márquez is `863.44`, and so are *L'autunno del patriarca*
-and *L'amore ai tempi del colera* — each an exact match with *Cent'anni di
-solitudine*. A Dewey-only match now has to agree on authorship too, and has to
-be the only title resting on that class; otherwise the class is describing a
-shelf rather than a book.
-(That gate applies to title lookups. An author search has no single work to
-identify, so everything by the author belongs in the answer and it does not.)
-
-Going the other way — from a book you have just discovered to whether it is
-worth buying in Italian — takes one more step, because SBN files a translation
-under its *Italian* title and searching SBN for the original title cannot find
-it. What crosses that gap is a sweep of every record SBN holds by the author,
-sifted by the same Dewey test. That needs an author, and Wikidata is the only
-source that hands one back for free, so a book with no Wikipedia article used to
-have none and the sweep never ran. Open Library has normally matched the work by
-that point and named its author, so that is where the author now comes from —
-but only when the matched works agree on one, since a title as ambiguous as
-*Noise* resolves to four unrelated works. *The Invention of News* finds the 2015
-Einaudi translation this way, on Dewey `070.9` against `070.09`.
-
-Titles are not unique, so editions are grouped into works by shared authorship:
-two editions are the same book if any one of their authors is the same person,
-merged onwards from there. Catalogues disagree about diacritics, about where a
-compound surname ends and about author order, and SBN sometimes files a
-translator in the author field — so the comparison is on surname tokens with
-known translators removed first. When more than one book is left, the page says
-so and offers the choice rather than blending them into one answer.
-
-The Wikidata-and-Dewey pair also runs in reverse, when Wikidata has never heard
-of an Italian title and the original would otherwise be undiscoverable. SBN
-records no original title — only a note naming the translator — but it does
-record the authors and a Dewey class, and that is enough: *La matrice sociale
-della psichiatria* gives Ruesch and Bateson at `616.89`, which finds their
-*Communication* in Open Library at ddc `616.89`. Dewey at that granularity is
-coarse (`616.89` is all of psychiatry) so every credited author must match too,
-which is what keeps Ruesch's unrelated *Therapeutic communication* out. These
-matches are reported as medium confidence, being weaker than a confirmed title.
-
-What that path finds is also used to name the work: the original's title,
-language and — where the arithmetic allows — its year are taken from the matched
-Open Library record, and the header says the original was identified by
-inference rather than from a catalogue record. An original cannot postdate its
-own translation, so a first-publication year later than the earliest translation
-is dropped rather than asserted: Open Library reports 1987 for Ruesch and
-Bateson's *Communication*, which is a reprint, while the Italian translation is
-1976.
+The precision claims above are measurements on the books they were tuned on,
+except the held-out check (`docs/DECISIONS.md` §2), which is the one figure
+measured on books nothing was tuned against.
 
 ## Sources
 
 | Source | Role | Key |
 |---|---|---|
-| Wikidata / Wikipedia | title crosswalk, original language and year | none |
-| Open Library | editions, Dewey classes | none |
-| SBN / ICCU | Italian editions, translator evidence, library holdings | none |
+| Wikidata / Wikipedia | title crosswalk, the only stated original language and year | none |
+| Open Library | editions, ISBNs, duplicate work records | none |
+| SBN / ICCU — OPAC API | the uniform-title authority, work listings by language, name authorities | none |
+| SBN / ICCU — mobile gateway | full records: language, translator, physical description, holdings | none |
 
-SBN is reached through the undocumented ICCU mobile gateway (`search.json`, and
-`full.json?bid=`, which is the only place a record's language, Dewey, translator
-and holdings appear). It sends no CORS headers, which is why this ships with a
-small server instead of being a static page.
+SBN is reached through two undocumented, unrelated APIs on one host. It sends no
+CORS headers, which is why this ships with a small server instead of being a
+static page.
 
 ## Notes
 
-- A first lookup queries three catalogues live and can take up to a minute; the
-  Wikipedia/Wikidata leg dominates. Results are cached in `.cache/` for 24h, so
-  repeats and filter changes return in milliseconds. Delete `.cache/` to refresh.
-- Year and publisher filters are applied locally for SBN, which accepts neither
-  as a query parameter.
+- A cold lookup shows its list in a few seconds; the background reading of full
+  records can take a minute or more on a large work (the 128-case sweep of
+  2026-09-28: median 4.8 s, p90 19.1 s, max 95 s to the end of everything).
+  Responses are cached in `.cache/` for 24 h, so a repeat is fast. Delete
+  `.cache/` to refresh.
+- Every cap is on the page when it binds, and a failed request is never shown as
+  an empty result: a source that lost requests is reported as `partial (N
+  failed)` and the page says editions may be missing. A lookup slower than 10 s
+  says what made it slow.
+- **Nothing is excluded for what it is.** SBN links study guides, graded
+  readers, omnibus volumes, operas, films and graphic novels to a work. They stay
+  in the list and the counts, labelled with the catalogue's own medium, and with
+  *credited to X* where SBN heads the record under somebody else. A film the
+  title check admits (*The Unbearable Lightness of Being*) is labelled the same
+  way.
+- A record whose language no source recorded is a language filter of its own
+  (*unknown*), hidden and counted like any other.
 - Buy links are deterministic search URLs, not live stock or prices. No scraping.
-- Records SBN types as film, music, maps or graphics are excluded and counted in
-  a note: a documentary *about* an author shares enough of a title to pass a
-  title match, so it has to be rejected on what it is rather than what it is
-  called. Sound recordings are kept — an audiobook is an edition of the text.
-- A lookup fans out over dozens of requests, and a failed one is treated as "no
-  results" so that one bad request cannot sink the whole answer. When that
-  happens the affected source is reported as `partial (N request(s) failed)` and
-  the page says editions are probably missing — a dropped request can remove an
-  entire language, which would otherwise be indistinguishable from that language
-  genuinely having none. Searching again fills the gaps from cache.
-- The language counts beside the filters count the editions listed below them
-  and nothing else, and follow the chosen book. SBN returns counts of its own,
-  but they come from the sweep of the *author's* whole catalogue, so they answer
-  a question nobody asked — 124 French records by Attali above a result of one
-  Italian edition — and are not shown.
-- Two codes sit beside each edition, both explained on hover: the Dewey class it
-  is shelved under, and its SBN record number, the permanent id for that record
-  in the Italian national union catalogue.
+- Known limits are in `docs/limits.md` — among them, an edition dated only in
+  another calendar (Solar Hijri 1386 ≈ 2007) whose year SBN's index does not
+  confirm is shown with no year, so it cannot be the *earliest edition found*
+  even when it is.
+
+## Tests
+
+```bash
+python3 -m pytest                # the offline suite: about two seconds
+python3 tools/core_coverage.py   # core/ at 100% of executable lines, stdlib only
+```
+
+The suite never reaches a catalogue: `tests/conftest.py` blocks sockets, the
+stages are tested with the catalogues stubbed, and the recorded catalogue bodies
+it reads are in `tests/data/`. Green is not "the server runs" — that takes a
+real port and a cold lookup.
+
+## Why it is shaped this way
+
+- [`docs/DECISIONS.md`](docs/DECISIONS.md) — the aim, every decision with the
+  number that decided it, the verified facts, the traps, what was discarded.
+- [`docs/sbn-api.md`](docs/sbn-api.md) — SBN's two undocumented APIs and the
+  traps in their data.
+- [`docs/limits.md`](docs/limits.md) — known limits and the regression cases.
+- [`docs/project.html`](docs/project.html) — the project on one page: the
+  sources, one lookup walked through, the decisions and the traps.
+- [`docs/BACKLOG.md`](docs/BACKLOG.md) — what is still open.
